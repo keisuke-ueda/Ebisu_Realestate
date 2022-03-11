@@ -1,0 +1,190 @@
+canvas {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+#canvas1 {
+  background-color: black;
+}
+
+#canvas2 {
+  background-color: white;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #323232;
+  overflow: hidden;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+div {
+  width: 100%;
+  height: 100%;
+}
+
+#display-1  {
+  background-color: black;
+}
+
+/* .picture1, .picture2 {
+    width: 100%;
+} */
+
+#canvas4 {
+}
+
+.fade1{
+  opacity: 0;
+  animation-name: fadein-bottom;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay:0s;
+  z-index: 20;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 400px;
+}
+
+.fade2{
+  opacity: 0;
+  animation-name: fadein-bottom;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay:1s;
+  width: 100%;
+  height: auto;
+}
+
+.fade3{
+  opacity: 0;
+  animation-name: fadein-bottom;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay:2s;
+  z-index: 20;
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+.fade4 {
+  opacity: 0;
+  animation-name: fadein-bottom;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay:0s;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fade5 {
+  opacity: 0;
+  animation-name: fadedown;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay:2s;
+  z-index: 20;
+  width: 500px;
+  height: auto;
+  display: block;
+}
+
+.fade6 {
+  opacity: 0;
+  animation-name: fadeleft;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay:2s;
+  z-index: 20;
+  width: 500px;
+  height: auto;
+  display: block;
+}
+
+.fade7 {
+  opacity: 0;
+  animation-name: fadeup;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay:2s;
+  z-index: 20;
+  width: 500px;
+  height: auto;
+  display: block;
+}
+
+.fade8 {
+  opacity: 0;
+  animation-name: fadein-bottom;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay:3s;
+  width: 300px;
+  height: auto;
+  display: block;
+}
+
+
+
+
+
+
+#display-5{
+  position: relative;
+}
+
+#display-5l1{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#display-5l2{
+  position: absolute;
+  top: 400px;
+  left: 1400px;
+}
+
+#display-5l3{
+  position: absolute;
+  top: 550px;
+  left: 1400px;
+}
+
+#display-5l4{
+  position: absolute;
+  top: 660px;
+  left: 1400px;
+}
+
+#display-5f{
+  position: absolute;
+  top: 500px;
+  left: 600px;
+}
