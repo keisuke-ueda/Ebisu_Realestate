@@ -1,0 +1,106 @@
+/* canvas {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+} */
+
+/* #canvas1 {
+  background-color: black;
+} */
+
+/* #canvas2 {
+  background-color: white;
+} */
+
+body {
+  width: 100%;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #323232;
+  overflow: hidden;
+  position:absolute;
+  top:0;
+  left:0;
+} */
+
+.first_view {
+  width: 100%;
+}
+
+.movie {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.after_movie {
+  opacity: 0;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  background-image: url("../images/picture3.png");
+  background-repeat:  no-repeat;  
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 800px;
+
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 15s;
+}
+
+@keyframes fade-in {
+  from {
+  opacity:0;
+  }
+      to {
+  opacity:1;
+  }
+}
+
+.display-5l1{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 200px;
+}
+
+.display-5l2{
+  position: absolute;
+  top: 450px;
+  left: 1000px;
+  width: 300px;
+}
+
+.display-5l3{
+  position: absolute;
+  top: 550px;
+  left: 1000px;
+  width: 300px;
+}
+
+.display-5l4{
+  position: absolute;
+  top: 660px;
+  left: 1000px;
+  width: 300px;
+}
+
+.display-5f{
+  position: absolute;
+  top: 500px;
+  left: 600px;
+  width: 300px;
+}
