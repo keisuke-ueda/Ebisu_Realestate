@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,11 +19,10 @@
 
 <body>
     <!-- ヘッダー -->
-    @yield('header')
+    @include('header')
     <!-- 各ページの内容 -->
     @yield('content')
-
     <!-- フッター -->
-    @yield('footer')
+    @include('footer')
 </body>
 </html>
