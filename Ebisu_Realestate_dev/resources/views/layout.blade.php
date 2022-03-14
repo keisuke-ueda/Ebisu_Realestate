@@ -19,10 +19,11 @@
 
 <body>
     <!-- ヘッダー -->
-
+    @yield('header')
     <!-- 各ページの内容 -->
     @yield('content')
 
-    <!-- フッダー -->
+    <!-- フッター -->
+    @yield('footer')
 </body>
 </html>

@@ -13,7 +13,7 @@
             <img src="{{ asset('/images/light.png') }}" class="display-5f">
         </div>
     </div>
-    <div class="second_view">
+    <div class="second_view container">
         <p>JR線「恵比寿」駅へ徒歩11分 / 東京メトロ日比谷線「恵比寿」駅へ徒歩13分 / JR線「目黒」駅へ徒歩13分</p>
         <div>
 
@@ -22,7 +22,7 @@
         <p>ダミーコピーオリジナル動画などで物件を詳しくご紹介します。<br>郵便を待たずに、限定アプリでいち早く物件情報をご覧になれます。</p>
         <p>INFORMATION</p>
     </div>
-    <div class="third_view">
+    <div class="third_view container">
     
     </div>
 @endsection
