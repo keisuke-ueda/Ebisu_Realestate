@@ -31,6 +31,127 @@ body {
   left:0;
 } */
 
+
+/* 共通レイアウト */
+.page_layout {
+  min-height: 100vh; /* ←コンテンツの高さの最小値＝ブラウザの高さに指定 */
+  position: relative;
+  padding: 60px 0 230px;
+  box-sizing: border-box;
+}
+
+/* ヘッダー */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: black;
+  color: white;
+  font-family: serif;
+  /* opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 15s; */
+  z-index: 100;
+}
+
+.header_content .header_title, .header_content .header_links {
+  padding: 0 20px;
+}
+
+.header_title div {
+  display: table;
+}
+
+.header_title img {
+  width: 80px;
+  margin-right: 5px;
+}
+
+.header_title p {
+  font-size: 12px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header_links {
+  
+}
+
+.header_link {
+  padding-left: 12px;
+}
+
+.header_link a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+
+/* フッター */
+.footer {
+  background-color: black;
+  color: white;
+  font-family: serif;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer_links {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer_link a {
+  color: white;
+  text-decoration: none;
+}
+
+.phone_destination {
+  font-size: 20px;
+}
+
+.phone_num {
+  font-size: 60px;
+  margin-right: 20px;
+}
+
+.business_time {
+  display: table; 
+  margin-left: 10px;
+}
+
+.business_time p {
+  display: table-cell;      
+  vertical-align: middle;  
+}
+
+
+.seller span{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.group_description {
+  font-size: 10px;
+  color: gray;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+
+/* トップページ */
+
 .first_view {
   width: 100%;
 }
@@ -104,4 +225,6 @@ body {
   left: 600px;
   width: 300px;
 }
+
+
 

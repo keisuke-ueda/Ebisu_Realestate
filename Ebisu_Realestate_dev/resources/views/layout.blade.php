@@ -18,11 +18,13 @@
 </head>
 
 <body>
+    <div class="page_layout">
     <!-- ヘッダー -->
     @include('header')
     <!-- 各ページの内容 -->
     @yield('content')
     <!-- フッター -->
     @include('footer')
+    </div>
 </body>
 </html>
