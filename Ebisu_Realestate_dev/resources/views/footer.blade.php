@@ -1,40 +1,40 @@
-<footer class="footer container">
-  <div class="footer_links row justify-content-sm-center">
+<footer class="footer container-fluid">
+  <div class="footer_links row justify-content-center">
     <div class="footer_link col-md-auto">
-      <a href="#">TOP</a>
+      <a href="/">TOP</a>
     </div>
     <div class="footer_link col-md-auto">
-      <a href="#">CONCEPT</a>
+      <a href="/concept">CONCEPT</a>
     </div>
     <div class="footer_link col-md-auto">
-      <a href="#">LOCATION</a>
+      <a href="/location">LOCATION</a>
     </div>
     <div class="footer_link col-md-auto">
-      <a href="#">ACCESS</a>
+      <a href="/access">ACCESS</a>
     </div>
     <div class="footer_link col-md-auto">
-      <a href="#">DESIGN</a>
+      <a href="/design">DESIGN</a>
     </div>
     <div class="footer_link col-md-auto">
-      <a href="#">MODEL ROOM</a>
+      <a href="/model_room">MODEL ROOM</a>
     </div>
     <div class="footer_link col-md-auto">
-      <a href="#">PLAN</a>
+      <a href="/plan">PLAN</a>
     </div>
     <div class="footer_link col-md-auto">
-      <a href="#">BLANDING</a>
+      <a href="/blanding">BLANDING</a>
     </div>
     <div class="footer_link col-md-auto">
-      <a href="#">>物件概要</a>
+      <a href="/overview">>物件概要</a>
     </div>
     <div class="footer_link col-md-auto">
-      <a href="#">>物件エントリー</a>
+      <a href="/entry">>物件エントリー</a>
     </div>
     <div class="footer_link col-md-auto">
-      <a href="#">>来場予約</a>
+      <a href="/reserve">>来場予約</a>
     </div>
     <div class="footer_link col-md-auto">
-      <a href="#">>アンケート</a>
+      <a href="/questionnaire">>アンケート</a>
     </div>
   </div>
 

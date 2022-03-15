@@ -5,7 +5,7 @@
 <meta name="format-detection" content="telephone=no">
 <title>新たな価値を創造したプレミアムリノベーションマンション｜株式会社ラ・アトレ</title>
 
-
+@section('content')
 <div class="container">
     <body>
         <div class="contents">
@@ -195,3 +195,4 @@
         </div>
     </body>
 </div>
+@endsection
