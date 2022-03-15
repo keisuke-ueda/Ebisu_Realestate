@@ -105,36 +105,3 @@ body {
   width: 300px;
 }
 
-
-
-/* アンケートページ */
-.req_head{
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-  display: table;
-  padding: 20px 0;
-}
-.req_head li{
-  padding:0 10px ;
-}
-.req_head_01{
-  display: table-cell;
-        float: left;
-}
-
-.req_head_02{
-  display: table-cell;
-}
-.req_head_02 img{
-}
-.req_head_03{
-  display: table-cell;
-  float: right;
-}
-
-
-
-
-
-
