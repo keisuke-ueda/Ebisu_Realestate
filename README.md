@@ -1,6 +1,11 @@
 # Ebisu_Realestate
 恵比寿不動産のサイト開発 Laravel
 
+#### 連絡事項
+2022/3/16 物件概要ページ、アンケートページベース完成(上田)
+2022/3/16 テストサーバー環境整備完了(上田)
+
+
 
 ## Class管理表
 
@@ -27,7 +32,6 @@ group_description : ラ・アトレはLAホールディングスのグループ�
 copy_right : 著作権ラベル(pタグ)  
 sans-serif : このクラスが付与されたタグは書体をsans-serifにする。  
 
-
 ### Top : トップページ
 first_view : 動画およびマップを背景とする箇所をまとめたdivタグ  
 movie : 動画を格納するvideoタグ  
@@ -42,13 +46,26 @@ second_view : アクセス情報やエントリー情報など黒い背景の箇
 
 third_view : 「Read More」のボタンが複数ある白背景の箇所をまとめたdivタグ  
 
-### Overview : 物件概要ページ
-
-
+### Overview : 物件概要ページ(一旦完成 2022/3/16)
+p-title:ページタイトル
+main-content:メインコンテンツ
+PropertyTable:物件概要テーブル
+comment:コメント
 
 ### Guidance_Page : 現地案内ページ
 ### DocumentRequest_Page : 資料請求ページ
-### Questionnaire_Page : アンケートページ
+
+
+### Questionnaire_Page : アンケートページ(一旦完成 2022/3/16)
+p-title:ページタイトル
+main-content:メインコンテンツ
+mailformpro:メールフォーム(情報名)
+mfp_phase:メールフォームフェーズ
+mailfield:メールフィールド
+mailform:メールフォーム(本体)
+
+
+
 
 
 
