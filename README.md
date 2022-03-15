@@ -19,9 +19,15 @@ second_view : アクセス情報やエントリー情報など黒い背景の箇
 third_view : 「Read More」のボタンが複数ある白背景の箇所をまとめたdivタグ  
 
 ### Overview_Page : 概要物件ページ
+
+
+
 ### Guidance_Page : 現地案内ページ
 ### DocumentRequest_Page : 資料請求ページ
 ### Questionnaire_Page : アンケートページ
+
+
+
 ### :追加ページ1
 ### :追加ページ2
 ### :追加ページ3
