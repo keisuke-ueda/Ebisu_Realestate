@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- 物件概要ページ -->
-<div class="container">
+<div class="container text-white">
     <h1 class="p-title row">物件概要</h1>
     <div class="main-content row">
         <table class="PropertyTable mt-5 mb-5">
