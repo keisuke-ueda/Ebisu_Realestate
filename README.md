@@ -8,7 +8,6 @@
 
 
 ## Class管理表
-
 ### Layout : 共通レイアウト(テンプレート)
 page_layout : ページを囲む最大のdivタグ。この中にヘッダー、フッター、各ページの内容を格納する。  
 
@@ -53,6 +52,9 @@ PropertyTable:物件概要テーブル
 comment:コメント
 
 ### Guidance_Page : 現地案内ページ
+p-title:ページタイトル
+main-content:メインコンテンツ
+
 ### DocumentRequest_Page : 資料請求ページ
 
 
@@ -65,16 +67,4 @@ mailfield:メールフィールド
 mailform:メールフォーム(本体)
 
 
-
 ### :CONCEPT
-
-
-
-
-
-### :Access
-p-title:ページタイトル
-main-content:メインコンテンツ
-
-
-
