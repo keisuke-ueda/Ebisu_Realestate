@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="page_layout">
+    <div class="page_layout bg-dark">
     <!-- ヘッダー -->
     @include('header')
     <!-- 各ページの内容 -->
