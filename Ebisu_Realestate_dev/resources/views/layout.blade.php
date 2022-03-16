@@ -11,14 +11,16 @@
     <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
     <!-- ParticleJSのライブラリー読み込み -->
     <script src="https://cdn.rawgit.com/ics-creative/ParticleJS/release/1.0.0/libs/particlejs.min.js"></script>
-
+    <!-- jQueryのライブラリー読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
 <!-- JS -->
 <script type="text/javascript" src="{{ asset('/js/test.js') }}"></script>
 
 </head>
 
 <body>
-    <div class="page_layout bg-dark">
+    <div class="bg-dark min-vh-100 position-relative" style="padding: 60px 0 230px;">
     <!-- ヘッダー -->
     @include('header')
     <!-- 各ページの内容 -->
