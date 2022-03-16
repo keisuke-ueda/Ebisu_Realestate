@@ -34,6 +34,7 @@
         <p>「池袋」駅へ………………………………………………12分（11分）<br>ＪＲ湘南新宿ライン利用</p>
     </div>
 </div>
+
 <div class="row pt-2 pb-2">
     <p class="h3">■タクシー利用料金</p>
     <div class="col-3 border">
