@@ -13,6 +13,9 @@
             <img src="{{ asset('/images/logo-3.png') }}" class="display-5l4">    
             <img src="{{ asset('/images/light.png') }}" class="display-5f">
         </div>
+        <div class="movie_skip position-absolute bottom-0 end-0 mb-5 me-5">
+            <button type="button" class="movie_skip_btn">SKIP</button>
+        </div>
     </div>
 
     <div class="second_view container-fluid text-white p-4">
@@ -49,7 +52,7 @@
             </div>
         </div>
         <div class="row justify-content-center mb-4 animation">
-            <button class="col-md-auto">物件エントリーはこちら</button>
+            <button type="button" class="col-md-auto">物件エントリーはこちら</button>
         </div>
         <div class="row justify-content-center mb-4 animation">
             <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="w-50">
