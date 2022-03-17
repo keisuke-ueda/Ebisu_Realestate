@@ -1,84 +1,12 @@
-/* canvas {
-  position:fixed;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-} */
-
-/* #canvas1 {
-  background-color: black;
-} */
-
-/* #canvas2 {
-  background-color: white;
-} */
-
 body {
   width: 100%;
 }
 
-/* body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #323232;
-  overflow: hidden;
-  position:absolute;
-  top:0;
-  left:0;
-} */
-
-
-/* 共通レイアウト */
-.page_layout {
-  min-height: 100vh; /* ←コンテンツの高さの最小値＝ブラウザの高さに指定 */
-  position: relative;
-  padding: 60px 0 230px;
-  box-sizing: border-box;
-}
-
 /* ヘッダー */
 .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-
   background-color: black;
-  color: white;
   font-family: serif;
-  /* opacity: 0;
-  animation-name: fade-in;
-  animation-duration: 2s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-  animation-delay: 15s; */
   z-index: 100;
-}
-
-.header_content .header_title, .header_content .header_links {
-  padding: 0 20px;
-}
-
-.header_title div {
-  display: table;
-}
-
-.header_title img {
-  width: 80px;
-  margin-right: 5px;
-}
-
-.header_title p {
-  font-size: 12px;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.header_links {
-  
 }
 
 .header_link {
@@ -95,54 +23,16 @@ body {
 /* フッター */
 .footer {
   background-color: black;
-  color: white;
   font-family: serif;
-  position: absolute;
-  bottom: 0;
 }
 
 .footer p {
   margin: 0;
 }
 
-.footer_links {
-  margin: 0 auto;
-  padding: 20px;
-}
-
 .footer_link a {
   color: white;
   text-decoration: none;
-}
-
-.phone_destination {
-  font-size: 20px;
-}
-
-.phone_num {
-  font-size: 60px;
-  margin-right: 20px;
-}
-
-.business_time {
-  display: table; 
-  margin-left: 10px;
-}
-
-.business_time p {
-  display: table-cell;      
-  vertical-align: middle;  
-}
-
-
-.seller span{
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.group_description {
-  font-size: 10px;
-  color: gray;
 }
 
 .sans-serif {
@@ -151,29 +41,12 @@ body {
 
 
 /* トップページ */
-
-.first_view {
-  width: 100%;
-}
-
-.movie {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
 .after_movie {
   opacity: 0;
-  /* position: absolute;
-  top: 0;
-  left: 0; */
   background-image: url("../images/picture3.png");
   background-repeat:  no-repeat;  
   background-size: cover;
   background-position: center center;
-  width: 100%;
-  height: 800px;
 
   animation-name: fade-in;
   animation-duration: 2s;
@@ -226,5 +99,37 @@ body {
   width: 300px;
 }
 
+
+.second_view p, .second_view span {
+  margin: 0;
+}
+
+.entry_img img {
+  width: 200px;
+}
+
+.entry_img p {
+  font-size: 14px;
+}
+
+/*アニメーション要素のスタイル*/
+.animation{
+  opacity : 0;
+  visibility: hidden;
+  transition: 5s;
+  transform: translateY(30px);
+}
+/*アニメーション要素までスクロールした時のスタイル*/
+.active{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.gold {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(45deg, #B67B03 0%, #DAAF08 45%, #FEE9A0 70%, #DAAF08 85%, #B67B03 90% 100%);;
+}
 
 
