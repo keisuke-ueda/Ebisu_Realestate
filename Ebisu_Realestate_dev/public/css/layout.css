@@ -9,13 +9,8 @@ body {
   z-index: 100;
 }
 
-.header_link {
-  padding-left: 12px;
-}
-
 .header_link a {
   color: white;
-  font-size: 14px;
   text-decoration: none;
 }
 

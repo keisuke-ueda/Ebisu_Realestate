@@ -60,9 +60,14 @@
         <p class="row justify-content-center animation">INFORMATION</p>
     </div>
 
-    <div class="third_view container-fluid">
+    <div class="third_view container-fluid bg-light px-0 py-5">
         <div class="row">
-
+            <div class="col-7">
+                <img src="{{ asset('/images/picture1.png') }}" alt="" class="w-100">
+            </div>
+            <div class="col-5" >
+                <p>心地よく修練された、知の結晶。</p>
+            </div>
         </div>
     </div>
 
