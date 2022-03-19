@@ -4,7 +4,7 @@
 
     <div class="first_view container-fluid position-relative">
         <video autoplay muted class="movie w-100 position-absolute top-0 start-0">
-            <source src="{{ asset('/images/video.mp4') }}" type="video/mp4">
+            <source src="{{ asset('/images/ebisu_mae_0320.mp4') }}" type="video/mp4">
         </video>
         <div class="after_movie w-100 h-100 position-absolute top-0 start-0">
             <img src="{{ asset('/images/logo-white.png') }}" class="display-5l1">
