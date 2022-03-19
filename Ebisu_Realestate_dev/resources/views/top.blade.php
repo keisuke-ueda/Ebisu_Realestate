@@ -6,6 +6,8 @@
         <video autoplay muted class="movie w-100 position-absolute top-0 start-0">
             <source src="{{ asset('/images/ebisu_mae_0320.mp4') }}" type="video/mp4">
         </video>
+
+        <!-- このロゴのコードはいらなくなります。永谷さんに動画で表現してもらうように依頼しました -->
         <div class="after_movie w-100 h-100 position-absolute top-0 start-0">
             <img src="{{ asset('/images/logo-white.png') }}" class="display-5l1">
             <img src="{{ asset('/images/logo-1.png') }}" class="display-5l2">
@@ -19,6 +21,12 @@
             <button type="button" class="movie_skip_btn">SKIP</button>
         </div>
     </div>
+
+    <!-- 上の動画が消えた後に下の動画が同じ画角上で流れる用にする -->
+    <video autoplay muted class="movie w-100 position-absolute top-0 start-0">
+        <source src="{{ asset('/images/test1.mp4') }}" type="video/mp4">
+    </video>
+
 
     <div class="second_view">
         <div class="black_wall text-white py-5">
