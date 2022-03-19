@@ -16,18 +16,17 @@
             <img src="{{ asset('/images/light.png') }}" class="display-5f">
         </div>
 
-        <!-- 上の動画が消えた後に下の動画が同じ画角上で流れる用にする -->
-        <video autoplay muted class="movie w-100 position-absolute top-0 start-0">
-            <source src="{{ asset('/images/test1.mp4') }}" type="video/mp4">
-        </video>
-
-        
-
         <!-- スキップボタン -->
         <div class="movie_skip position-absolute bottom-0 end-0 mb-5 me-5">
             <button type="button" class="movie_skip_btn">SKIP</button>
         </div>
     </div>
+
+    <!-- 上の動画が消えた後に下の動画が同じ画角上で流れる用にする -->
+    <video autoplay muted class="movie w-100 position-absolute top-0 start-0">
+        <source src="{{ asset('/images/test1.mp4') }}" type="video/mp4">
+    </video>
+
 
     <div class="second_view">
         <div class="black_wall text-white py-5">
