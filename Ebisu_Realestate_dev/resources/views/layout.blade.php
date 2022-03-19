@@ -20,11 +20,16 @@
 </head>
 
 <body>
-    <div class="bg-dark min-vh-100 position-relative" style="padding: 60px 0 230px;">
+    <div class="bg-dark min-vh-100 position-relative" style="padding: 0 0 223px;">
     <!-- ヘッダー -->
     @include('header')
+
+    <!-- ハンバーガーメニュー -->
+    @include('menu')
+
     <!-- 各ページの内容 -->
     @yield('content')
+
     <!-- フッター -->
     @include('footer')
     </div>
