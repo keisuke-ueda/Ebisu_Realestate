@@ -6,7 +6,7 @@
 </button>
 
 <!-- メニュー -->
-<div class="overlay">
+<div class="overlay d-none">
   <div class="menu_content d-flex flex-column justify-content-center align-items-center">
     <div class="menu_links">
       <div class="menu_link h4 mb-3">
