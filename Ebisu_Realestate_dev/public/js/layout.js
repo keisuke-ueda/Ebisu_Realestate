@@ -33,28 +33,42 @@ $(function(){
   });
 
   $(window).on('load', function() {
-    var movie_height = $('.movie').height();
+    var movie_height = $('.movie-1').height();
     $('.first_view').css('height', movie_height);
   });
 
+  // 動画の連続再生
+  $('.movie-1').on("ended", function() {
+    $(this).hide();
+    $('.movie-2').removeClass('d-none')
+    $('.movie-2').css('opacity', 1);
+    $('.movie-2').get(0).play();
+    $('.movie_skip').addClass('d-none')
+  });
+
+  // スキップボタンクリック
   $('.movie_skip_btn').on('click', function() {
-    $('.after_movie').css('animation-delay', '0s')
-    $('.movie_skip').css('display', 'none')
+    $('.movie-2').removeClass('d-none')
+    $('.movie-2').get(0).play();
+    $('.movie_skip').addClass('d-none')
   })
 
+  // ハンバーガーボタンをクリック
   $('.menu-trigger').on('click', function() {
-    if ($('.overlay').css('opacity') == 0 && $('.overlay').css('z-index') == 0) {
-      // 閉じていたら開く
-      $('.overlay').css({'opacity':'1','z-index':'999'});
-      // $('.menu_content').fadeIn();
+    // if ($('.overlay').css('opacity') == 0 && $('.overlay').css('z-index') == 0) {
+    if ($('.overlay').hasClass('d-none')) {
+      // メニューが閉じていたら開く
+      // $('.overlay').css({'opacity':'1','z-index':'999'});
+      $('.overlay').removeClass('d-none')
       $('.menu_content').removeClass('slide_out');
       $('.menu_content').addClass('slide_in');
     } else {
-      // 開いていたら閉じる
+      // メニューが開いていたら閉じる
       $('.menu_content').removeClass('slide_in');
       $('.menu_content').addClass('slide_out');
       $('.overlay').delay(500).queue(function(){
-        $(this).css({'opacity':'0','z-index':'0'});
+        // $(this).css({'opacity':'0','z-index':'0'});
+        $(this).addClass('d-none')
         $(this).dequeue();
       });
     };
@@ -62,17 +76,17 @@ $(function(){
     $('.menu-trigger').toggleClass('open');
   })
 
-  // ハンバーガーメニュー開閉
+  // メニューエリア外をクリックでハンバーガーメニューを閉じる
   $(document).on('click', function(e) {
     console.log('click!!!')
     if(!$(e.target).closest('.menu_content').length && !$(e.target).closest('.menu-trigger').length){
       if ($('.menu-trigger').hasClass('open')) {
-        // メニューエリア外をクリックしたら閉じる
         $('.menu_content').removeClass('slide_in');
         $('.menu_content').addClass('slide_out');
         $('.menu-trigger').removeClass('open')
         $('.overlay').delay(500).queue(function(){
-          $(this).css({'opacity':'0','z-index':'0'});
+          // $(this).css({'opacity':'0','z-index':'0'});
+          $(this).addClass('d-none')
           $(this).dequeue();
         });
       }
