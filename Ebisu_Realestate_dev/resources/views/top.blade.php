@@ -10,7 +10,7 @@
 
         <!-- 上の動画が消えた後に下の動画が同じ画角上で流れる用にする -->
         <video autoplay muted class="movie-2 w-100 position-absolute top-0 start-0 d-none">
-            <source src="{{ asset('/images/test1.mp4') }}" type="video/mp4">
+            <source src="{{ asset('/images/ebisu_ato_0321.mp4') }}" type="video/mp4">
         </video>
 
         <!-- スキップボタン -->
