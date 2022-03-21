@@ -6,7 +6,7 @@
 <div class="container text-white">
     <h1 class="p-title row">物件概要</h1>
     <div class="main-content row">
-        <table class="table table-dark table-striped mt-5 mb-3 text-white">
+        <table class="table table-dark table-striped mt-5 mb-3 text-white animation">
             <tbody>
                 <tr>
                     <th>名称</th>
