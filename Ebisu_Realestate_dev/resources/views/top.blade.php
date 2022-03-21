@@ -72,7 +72,78 @@
 
 
         <div class="white_wall py-5">
-            <div class="row animation mb-3">
+            <div class="row animation mt-5 mb-5">
+                <div class="col-8">
+                    <img src="{{ asset('/images/12.JPG') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
+                </div>
+                <div class="col-4">
+                    <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
+                    <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
+                    <button class="mx-auto d-block" type="button">Read More</button>
+                </div>
+            </div>
+
+            <div class="animation mt-5 mb-5">
+                <div class="row">
+                    <p class="col-1"></p>
+                    <div class="col-4">
+                        <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
+                    </div>
+                    <div class="col-4">
+                        <img src="{{ asset('/images/アメリカ橋公園_3.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
+                        <p class="small">アメリカ橋公園(徒歩 分/約 m)</p>
+                    </div>
+                </div>
+                <div class="row mt-5 mb-5">
+                    <div class="col-7 text-center">
+                        <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
+                        <button class="mx-auto d-block" type="button">Read More</button>
+                    </div>
+                    <div class="col-4">
+                        <img src="{{ asset('/images/自然教育園_3.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
+                        <p class="small">自然教育公園(徒歩 分/約 m)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="animation mt-5 mb-5">
+                <div class="row">
+                    <div class="col-8">
+                        <img src="{{ asset('/images/路線図.jpg') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
+                    </div>
+                    <div class="col-4">
+                        <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-8">
+                        <p></p>
+
+
+                        路線情報
+
+                    </div>
+                    <div class="col-4">
+                        <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
+                        <button class="mx-auto d-block" type="button">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row animation mt-5 mb-5">
+                <div class="col-4">
+                    <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
+                    <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
+                    <button class="mx-auto d-block" type="button">Read More</button>
+                </div>
+                <div class="col-8">
+                    <img src="{{ asset('/images/picture1.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
+                </div>
+            </div>
+
+
+            <div class="row animation mt-5 mb-5">
                 <div class="col-8">
                     <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
@@ -83,55 +154,17 @@
                 </div>
             </div>
 
-            <div class="row animation mt-3 mb-3">
-                <div class="col-4">
-                    <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
-                    <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                    <button class="mx-auto d-block" type="button">Read More</button>
-                </div>
-                <div class="col-8">
-                    <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
-                </div>
+            <div class="row mt-5 mb-5">
+                <p class="col-2"></p>
+                <p class="col-8 text-center">ボタン画像</p>
+                <p class="col-4"></p>
             </div>
 
-            <div class="row animation mt-3 mb-3">
-                <div class="col-8">
-                    <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
-                </div>
-                <div class="col-4">
-                    <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
-                    <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                    <button class="mx-auto d-block" type="button">Read More</button>
-                </div>
-            </div>
-
-            <div class="row animation mt-3 mb-3">
-                <div class="col-4">
-                    <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
-                    <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                    <button class="mx-auto d-block" type="button">Read More</button>
-                </div>
-                <div class="col-8">
-                    <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
-                </div>
-            </div>
-
-            <div class="row animation mt-3 mb-3">
-                <div class="col-8">
-                    <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
-                </div>
-                <div class="col-4">
-                    <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
-                    <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                    <button class="mx-auto d-block" type="button">Read More</button>
-                </div>
-            </div>
-
-            <div class="animation mt-3">
+            <div class="animation mt-5 mb-5">
                 <h1 class="h1 text-center">現地案内</h1>
                 <div class="row">
                     <p class="col-2"></p>
-                    <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="col-8 img-fluid { max-width: 100%; height: auto } ">
+                    <img src="{{ asset('/images/マップ1.jpg') }}" alt="サンプル画像" class="col-8 img-fluid { max-width: 100%; height: auto } ">
                     <p class="col-2"></p>
                 </div>
                 <div class="row mt-3 mb-3">
@@ -147,8 +180,6 @@
             </div>
 
         </div>
-
-
 
         
     </div>
