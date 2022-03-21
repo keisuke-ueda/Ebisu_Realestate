@@ -22,15 +22,21 @@
 
     <div class="second_view">
         <div class="black_wall text-white py-5">
-            <div class="row animation mb-4">
-                <p class="col-3"></p>
-                <div class="col-2"><p>JR線「恵比寿」駅へ徒歩<span class="gold h1" style="display:inline-block">11</span>分 / </p><p class="small">(恵比寿スカイウォークより徒歩7分)</p></div>
-                <p class="col-2">東京メトロ日比谷線「恵比寿」駅へ徒歩<span class="gold h1">13</span>分 / </p>
-                <p class="col-2">JR線「目黒」駅へ徒歩<span class="gold h1">13</span>分</p>
+            <div class="animation mb-4">
+                <div class="row">
+                    <p class="col-3"></p>
+                    <p class="col-6">JR線「恵比寿」駅へ徒歩<span class="gold h1" style="display:inline-block">11</span>分 /
+                    東京メトロ日比谷線「恵比寿」駅へ徒歩<span class="gold h1">13</span>分 / 
+                    JR線「目黒」駅へ徒歩<span class="gold h1">13</span>分</p>
+                </div>
+                <div class="row">  
+                    <p class="col-3"></p>
+                    <p class="col-6 small">(恵比寿スカイウォークより徒歩7分)</p>
+                </div>
             </div>
 
             <div class="animation gold">
-                <div class="row mb-4">
+                <div class="row mt-5 mb-4">
                     <p class="col-2"></p>
                     <div class="col-4">
                         <p class="border border-warning text-center h-100">最寄りJR線「恵比寿」駅より<br><span>「渋谷」駅~2分(1分).「新宿」駅~7分(6分).「品川」駅~9分(9分)</span></p>
@@ -54,20 +60,48 @@
 
 
             <div class="row animation mt-5">
-                <p class="col-3"></p>
-                <div class="col-6 border border-warning text-center">
-                    <p class="text-center h2 gold mb-4">「お住まいについてのアンケート」にご協力ください。</p>
-                    <p class="text-center mb-4">ダミーコピーオリジナル動画などで物件を詳しくご紹介します。<br>郵便を待たずに、限定アプリでいち早く物件情報をご覧になれます。</p> 
+                <p class="text-center h2 mb-4">「お住まいについてのアンケート」にご協力ください。</p>
+                <p class="col-4"></p>
+                <div class="col-4 border border-warning text-center">
+                    <br>
+                    <br>
+                    <br>
+                    <p class="text-center mb-4">アンケート項目すべてにご協力いただいた方に、<br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
+                    <br>
+                    <br>
                     <div class="row">
-                        <p class="col-4"></p>
+                        <p class="col-3"></p>
                         <form action="/questionnaire" method="GET">
-                            <button type="submit" class="col-4" >アンケートはこちら</button>
+                            <button type="submit" class="col-6 btn btn-warning" ><span class="h3 text-white">アンケートはこちら</span></button>
                         </form>
-                        <p class="col-4"></p>
+                        <p class="col-3"></p>
+                    <br>
+                    <br>
                     </div>
                 </div>
-                <p class="col-3"></p>
+                <p class="col-4"></p>
             </div>
+
+            <div class="row animation mt-5">
+                <p class="text-center h2 mb-4">INFORMATION</p>
+                <p class="col-4"></p>
+
+                <div class="col-4">
+                    <table class="table text-white">
+                        <tr>
+                            <td scope="col">2022.4.8</td>
+                            <td scope="col">ラ・アトレ恵比寿グランガーデン　ホームページ開設</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">2022.4.8</td>
+                            <td scope="col">お住まいのアンケートを開設しました。(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <p class="col-4"></p>
+            </div>
+
         </div>
 
 
@@ -79,7 +113,7 @@
                 <div class="col-4">
                     <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                     <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                    <button class="mx-auto d-block" type="button">Read More</button>
+                    <button class="mx-auto d-block btn btn-warning" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
             </div>
 
@@ -97,7 +131,7 @@
                 <div class="row mt-5 mb-5">
                     <div class="col-7 text-center">
                         <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                        <button class="mx-auto d-block" type="button">Read More</button>
+                        <button class="mx-auto d-block btn btn-warning" type="button"><span class="h3 text-white">Read More</span></button>
                     </div>
                     <div class="col-4">
                         <img src="{{ asset('/images/自然教育園_3.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
@@ -126,7 +160,7 @@
                     </div>
                     <div class="col-4">
                         <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                        <button class="mx-auto d-block" type="button">Read More</button>
+                        <button class="mx-auto d-block btn btn-warning" type="button"><span class="h3 text-white">Read More</span></button>
                     </div>
                 </div>
             </div>
@@ -135,7 +169,7 @@
                 <div class="col-4">
                     <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                     <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                    <button class="mx-auto d-block" type="button">Read More</button>
+                    <button class="mx-auto d-block btn btn-warning" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
                 <div class="col-8">
                     <img src="{{ asset('/images/picture1.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
@@ -150,7 +184,7 @@
                 <div class="col-4">
                     <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                     <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                    <button class="mx-auto d-block" type="button">Read More</button>
+                    <button class="mx-auto d-block btn btn-warning" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
             </div>
 
@@ -169,7 +203,7 @@
                 </div>
                 <div class="row mt-3 mb-3">
                     <form action="/access" method="GET">
-                        <button class="col-3 mx-auto d-block" type="submit">Read More</button>
+                        <button class="col-3 mx-auto d-block btn btn-warning" type="submit"><span class="h3 text-white">資料請求受付中</span></button>
                     </form>
                 </div>
                 <div class="row  mt-3">
@@ -180,7 +214,6 @@
             </div>
 
         </div>
-
         
     </div>
 
