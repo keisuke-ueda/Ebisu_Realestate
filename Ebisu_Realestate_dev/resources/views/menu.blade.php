@@ -1,5 +1,10 @@
+<!-- ロゴ -->
+<div class="index_logo position-absolute mt-2 ms-3 logo_animation" style="z-index: 10000;">
+    <a href="/"><img src="{{ asset('/images/logo.png') }}" alt="ヘッダーロゴ" style="width: 70px;"></a>
+</div>
+
 <!-- ハンバーガーボタン -->
-<button class="menu-trigger">
+<button class="menu-trigger menu_animation">
   <span></span>
   <span></span>
   <span></span>

@@ -1,5 +1,5 @@
-<header class="header container-fluid text-white position-fixed top-0 start-0">
-  <div class="header_content row justify-content-between align-items-center d-none">
+<header class="header container-fluid text-white position-fixed top-0 start-0 py-2 d-none">
+  <div class="header_content row justify-content-between align-items-center">
     <div class="header_title d-flex col-3 ps-3">
       <a href="/"><img src="{{ asset('/images/logo.png') }}" alt="ヘッダーロゴ" style="width: 70px;"></a>
       <div class="d-table ms-2">
