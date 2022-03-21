@@ -32,14 +32,15 @@ $(function(){
     };
   });
 
-  $(window).on('load', function() {
-    var movie_height = $('.movie-1').height();
-    $('.first_view').css('height', movie_height);
-  });
+  // $(window).on('load', function() {
+  //   var movie_height = $('.movie-1').height();
+  //   $('.first_view').css('height', movie_height);
+  // });
 
   // 動画の連続再生
   $('.movie-1').on("ended", function() {
-    $(this).hide();
+    // $(this).hide();
+    $(this).css('opacity', 0);
     $('.movie-2').removeClass('d-none')
     $('.movie-2').css('opacity', 1);
     $('.movie-2').get(0).play();
