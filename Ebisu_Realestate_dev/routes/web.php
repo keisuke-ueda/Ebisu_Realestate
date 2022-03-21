@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\QuestionnaireController;
 
 /*
 |--------------------------------------------------------------------------
@@ -76,3 +77,6 @@ Route::get('/reserve', function () {
 Route::get('/questionnaire', function () {
     return view('questionnaire');
 });
+
+// メール送信
+Route::post('/questionnaire_mail', [QuestionnaireController::class, 'send']);

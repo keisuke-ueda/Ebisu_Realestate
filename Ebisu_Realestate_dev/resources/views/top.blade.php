@@ -2,9 +2,9 @@
 
 @section('content')
 
-    <div class="first_view container-fluid position-relative">
+    <div class="first_view position-relative d-flex align-items-auto">
 
-        <video autoplay muted class="movie-1 w-100 position-absolute top-0 start-0">
+        <video autoplay muted class="movie-1 w-100">
             <source src="{{ asset('/images/ebisu_mae_0320.mp4') }}" type="video/mp4">
         </video>
 

@@ -26,24 +26,39 @@ $(function(){
     // スクロールによるヘッダーの出現・固定
     var position = $('.menu-trigger').offset().top + $('.menu-trigger').height();
     if($(window).scrollTop() > position) {
-      $('.header_content').removeClass('d-none');
+      $('.header').removeClass('d-none');
     } else {
-      $('.header_content').addClass('d-none');
+      $('.header').addClass('d-none');
     };
   });
 
-  $(window).on('load', function() {
-    var movie_height = $('.movie-1').height();
-    $('.first_view').css('height', movie_height);
-  });
+  // $(window).on('load', function() {
+  //   var movie_height = $('.movie-1').height();
+  //   $('.first_view').css('height', movie_height);
+  // });
+  
+  if (!$('div').hasClass('first_view')) {
+    $('.index_logo').removeClass('logo_animation');
+    $('.menu-trigger').removeClass('menu_animation');
+  }
+  
 
   // 動画の連続再生
   $('.movie-1').on("ended", function() {
-    $(this).hide();
+    // $(this).hide();
+    $(this).css('opacity', 0);
     $('.movie-2').removeClass('d-none')
     $('.movie-2').css('opacity', 1);
     $('.movie-2').get(0).play();
     $('.movie_skip').addClass('d-none')
+    $('.logo_animation').delay(11000).queue(function(){
+      $(this).addClass('active')
+      $(this).dequeue();
+      $('.menu_animation').delay(1000).queue(function(){
+        $(this).addClass('active')
+        $(this).dequeue();
+      });
+    });
   });
 
   // スキップボタンクリック
@@ -51,6 +66,14 @@ $(function(){
     $('.movie-2').removeClass('d-none')
     $('.movie-2').get(0).play();
     $('.movie_skip').addClass('d-none')
+    $('.logo_animation').delay(11000).queue(function(){
+      $(this).addClass('active')
+      $(this).dequeue();
+      $('.menu_animation').delay(1000).queue(function(){
+        $(this).addClass('active')
+        $(this).dequeue();
+      });
+    });
   })
 
   // ハンバーガーボタンをクリック

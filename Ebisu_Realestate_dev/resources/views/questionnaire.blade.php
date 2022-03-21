@@ -8,10 +8,11 @@
 
 @section('content')
 <body>
-    <div class="container text-white">
+    <div class="container text-white pt-5">
         <h1 class="p-title row">資料請求フォーム</h1>
         <div class="main-content row">
-            <form class="mailformpro"method="POST">
+            <form class="mailformpro" method="POST" action="/questionnaire_mail">
+            @csrf
                 <div class="mfp_phase" summary="個人情報">
                     <div class="mailfield">
                         <dl class="mailform">
