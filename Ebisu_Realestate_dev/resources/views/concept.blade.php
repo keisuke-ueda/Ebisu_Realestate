@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- 開発対象 -->
-<div class="container text-white">
+<div class="container text-white pt-5">
     <h1 class="p-title text-white row">CONCEPT</h1>
     <div class="main-content">
         <div class="row animation">

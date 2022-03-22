@@ -36,7 +36,7 @@
                     
                             <dt class="row">必 郵便番号</dt>
                             <dd>
-                            <input type="text" name="郵便番号1" size="4" maxlength="3"> － <input type="text" name="郵便番号2" size="5" maxlength="4" onKeyUp="AjaxZip3.zip2addr('郵便番号1','郵便番号2','都道府県','市区町村');" required="required">
+                            <input type="text" name="郵便番号1" size="4" maxlength="3" required> － <input type="text" name="郵便番号2" size="5" maxlength="4" onKeyUp="AjaxZip3.zip2addr('郵便番号1','郵便番号2','都道府県','市区町村');" required="required">
                             <p>※郵便番号を入力いただくと自動的に住所が入力されます。</p>
                             </dd>
                         

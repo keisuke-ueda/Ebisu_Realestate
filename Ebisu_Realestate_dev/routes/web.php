@@ -19,64 +19,40 @@ use App\Http\Controllers\QuestionnaireController;
 // });
 
 // TOP
-Route::get('/', function () {
-    return view('top');
-});
+Route::view('/', 'top');
 
 // CONCEPT
-Route::get('/concept', function () {
-    return view('concept');
-});
+Route::view('/concept', 'concept');
 
 // LOCATION
-Route::get('/location', function () {
-    return view('location');
-});
+Route::view('/location', 'location');
 
 // ACCESS
-Route::get('/access', function () {
-    return view('access');
-});
+Route::view('/access', 'access');
 
 // DESIGN
-Route::get('/design', function () {
-    return view('design');
-});
+Route::view('/design', 'design');
 
 // MODEL ROOM
-Route::get('/model_room', function () {
-    return view('model_room');
-});
+Route::view('/model_room', 'model_room');
 
 // PLAN
-Route::get('/plan', function () {
-    return view('plan');
-});
+Route::view('/plan', 'plan');
 
 // BLANDING
-Route::get('/blanding', function () {
-    return view('blanding');
-});
+Route::view('/blanding', 'blanding');
 
 // 物件概要
-Route::get('/overview', function () {
-    return view('overview');
-});
+Route::view('/overview', 'overview');
 
 // 物件エントリー
-Route::get('/entry', function () {
-    return view('entry');
-});
+Route::view('/entry', 'entry');
 
 // 来場予約
-Route::get('/reserve', function () {
-    return view('reserve');
-});
+Route::view('/reserve', 'reserve');
 
 // アンケート
-Route::get('/questionnaire', function () {
-    return view('questionnaire');
-});
+Route::view('/questionnaire', 'questionnaire');
 
 // メール送信
 Route::post('/questionnaire_mail', [QuestionnaireController::class, 'send']);
