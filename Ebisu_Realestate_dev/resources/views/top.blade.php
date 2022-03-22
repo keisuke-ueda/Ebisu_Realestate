@@ -21,7 +21,9 @@
 
 
     <div class="second_view">
+        <!-- ブラック背景テキストエリア -->
         <div class="black_wall text-white py-5">
+            <!-- 移動 -->
             <div class="animation mb-4">
                 <div class="row">
                     <p class="col-3"></p>
@@ -35,7 +37,9 @@
                 </div>
             </div>
 
+            <!-- 枠 -->
             <div class="animation gold">
+                <!-- 枠1 -->
                 <div class="row mt-5 mb-4">
                     <p class="col-2"></p>
                     <div class="col-4">
@@ -46,6 +50,7 @@
                     </div>
                     <p class="col-2"></p>
                 </div>
+                <!-- 枠2 -->
                 <div class="row">
                     <p class="col-2"></p>
                     <div class="col-4">
@@ -58,7 +63,7 @@
                 </div>
             </div>
 
-
+            <!-- アンケートエリア -->
             <div class="row animation mt-5">
                 <p class="text-center h2 mb-4">「お住まいについてのアンケート」にご協力ください。</p>
                 <p class="col-4"></p>
@@ -82,6 +87,7 @@
                 <p class="col-4"></p>
             </div>
 
+            <!-- INFOMATION -->
             <div class="row animation mt-5">
                 <p class="text-center h2 mb-4">INFORMATION</p>
                 <p class="col-4"></p>
@@ -117,6 +123,7 @@
                 </div>
             </div>
 
+            <!-- ロケーション -->
             <div class="animation mt-5 mb-5">
                 <div class="row">
                     <p class="col-1"></p>
