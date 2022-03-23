@@ -24,19 +24,15 @@ $(function(){
     });
 
     // スクロールによるヘッダーの出現・固定
-    var position = $('.menu-trigger').offset().top + $('.menu-trigger').height();
-    if($(window).scrollTop() > position) {
-      $('.header').removeClass('d-none');
-    } else {
-      $('.header').addClass('d-none');
-    };
+    // var position = $('.menu-trigger').offset().top + $('.menu-trigger').height();
+    // if($(window).scrollTop() > position) {
+    //   $('.header').removeClass('d-none');
+    // } else {
+    //   $('.header').addClass('d-none');
+    // };
   });
 
-  // $(window).on('load', function() {
-  //   var movie_height = $('.movie-1').height();
-  //   $('.first_view').css('height', movie_height);
-  // });
-  
+  // トップページのみ、ハンバーガーボタンとロゴがアニメーションで出現
   if (!$('div').hasClass('first_view')) {
     $('.index_logo').removeClass('logo_animation');
     $('.menu-trigger').removeClass('menu_animation');
@@ -78,25 +74,27 @@ $(function(){
 
   // ハンバーガーボタンをクリック
   $('.menu-trigger').on('click', function() {
-    // if ($('.overlay').css('opacity') == 0 && $('.overlay').css('z-index') == 0) {
-    if ($('.overlay').hasClass('d-none')) {
-      // メニューが閉じていたら開く
-      // $('.overlay').css({'opacity':'1','z-index':'999'});
-      $('.overlay').removeClass('d-none')
-      $('.menu_content').removeClass('slide_out');
-      $('.menu_content').addClass('slide_in');
-    } else {
-      // メニューが開いていたら閉じる
-      $('.menu_content').removeClass('slide_in');
-      $('.menu_content').addClass('slide_out');
-      $('.overlay').delay(500).queue(function(){
-        // $(this).css({'opacity':'0','z-index':'0'});
-        $(this).addClass('d-none')
-        $(this).dequeue();
-      });
-    };
+    // if ($('.overlay').hasClass('d-none')) {
+    //   // メニューが閉じていたら開く
+    //   $('.overlay').removeClass('d-none')
+    //   $('.menu_content').removeClass('slide_out');
+    //   $('.menu_content').addClass('slide_in');
+    // } else {
+    //   // メニューが開いていたら閉じる
+    //   $('.menu_content').removeClass('slide_in');
+    //   $('.menu_content').addClass('slide_out');
+    //   $('.overlay').delay(500).queue(function(){
+    //     $(this).addClass('d-none')
+    //     $(this).dequeue();
+    //   });
+    // };
+    // $('.menu-trigger').toggleClass('open');
 
-    $('.menu-trigger').toggleClass('open');
+    $('.header').removeClass('d-none');
+  })
+
+  $('.header_menu_trigger').on('click', function(){
+    $('.header').addClass('d-none');
   })
 
   // メニューエリア外をクリックでハンバーガーメニューを閉じる
@@ -116,4 +114,20 @@ $(function(){
     };
   });
 
+
+  // アンケートフォームの入力バリデーション
+  $('.mailformpro').validate({
+    rules: {
+      confirm_email: {
+        equalTo: "#email"
+      }
+    }
+  });
+
+  $.extend($.validator.messages, {
+    required: '*必須',
+    equalTo: '*確認対象と一致しません'
+  });
+
+  
 });

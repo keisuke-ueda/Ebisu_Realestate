@@ -1,17 +1,26 @@
 <!-- ロゴ -->
-<div class="index_logo position-absolute mt-2 ms-3 logo_animation" style="z-index: 10000;">
+<!-- <div class="index_logo position-absolute mt-2 ms-3 logo_animation" style="z-index: 10000;">
     <a href="/"><img src="{{ asset('/images/logo.png') }}" alt="ヘッダーロゴ" style="width: 70px;"></a>
+</div> -->
+<div class="index_logo position-fixed mt-3 ms-3 logo_animation" style="z-index: 1000;">
+  <a href="/">
+    <div class="d-flex flex-column align-items-center">
+      <img src="{{ asset('/images/lattrait.png') }}" alt="ヘッダーロゴ" class="mb-2" style="width: 100px;">
+      <p class="text-center small m-0">ラ・アトレ恵比寿グランガーデン</p>
+    </div>
+  </a>
 </div>
 
 <!-- ハンバーガーボタン -->
-<button class="menu-trigger menu_animation">
+<button class="menu-trigger menu_animation position-fixed top-0 end-0 mt-3 me-3">
+  menu
+  <!-- <span></span>
   <span></span>
-  <span></span>
-  <span></span>
+  <span></span> -->
 </button>
 
 <!-- メニュー -->
-<div class="overlay d-none">
+<!-- <div class="overlay d-none">
   <div class="menu_content d-flex flex-column justify-content-center align-items-center">
     <div class="menu_links">
       <div class="menu_link h4 mb-3">
@@ -52,4 +61,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->

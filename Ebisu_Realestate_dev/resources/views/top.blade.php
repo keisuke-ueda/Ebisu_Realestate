@@ -43,10 +43,22 @@
                 <div class="row mt-5 mb-4">
                     <p class="col-2"></p>
                     <div class="col-4">
-                        <p class="border border-warning text-center h-100">最寄りJR線「恵比寿」駅より<br><span>「渋谷」駅~2分(1分).「新宿」駅~7分(6分).「品川」駅~9分(9分)</span></p>
+                        <div class="gold_frame">
+                            <div class="frame_border">
+                                <div class="frame_circle">
+                                    <p class="h-100">最寄りのJR山手線・埼京線「恵比寿」駅より、<br><span>「渋谷」駅へ2分「新宿」駅へ7分「品川」駅へ9分</span></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-4">
-                        <p class="border border-warning text-center h-100">都心にありながら、都心の喧騒を離れ、樹々の安らぎと<br><span>空の恵みを繕う約26mの丘の上の美しい邸宅</span></p>
+                        <div class="gold_frame">
+                            <div class="frame_border">
+                                <div class="frame_circle">
+                                    <p class="h-100">緑に包まれた「ウエスティンホテル東京」<br><span>「恵比寿ガーデンプレイス」に隣接</span></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <p class="col-2"></p>
                 </div>
@@ -54,10 +66,22 @@
                 <div class="row">
                     <p class="col-2"></p>
                     <div class="col-4">
-                        <p class="border border-warning text-center">隣には緑に包まれた<br><span>「ウェスティンホテル東京」「恵比寿ガーデンプレイス」</span></p>
+                        <div class="gold_frame">
+                            <div class="frame_border">
+                                <div class="frame_circle">
+                                    <p class="">内廊下設計<br><span>角住戸率66%超</span></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-4">
-                        <p class="border border-warning text-center">内廊下設計<br><span>角住戸率66%超</span></p>
+                        <div class="gold_frame">
+                            <div class="frame_border">
+                                <div class="frame_circle">
+                                    <p class="">大型SUV車、スポーツカーが<br><span>安心の駐車場8台分設置</span></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <p class="col-2"></p>
                 </div>
@@ -75,11 +99,11 @@
                     <br>
                     <br>
                     <div class="row">
-                        <p class="col-3"></p>
+                        <p class="col-2"></p>
                         <form action="/questionnaire" method="GET">
-                            <button type="submit" class="col-6 btn btn-warning" ><span class="h3 text-white">アンケートはこちら</span></button>
+                            <button type="submit" class="col-8 gold_btn p-2" ><span class="h3 text-white">アンケートはこちら</span></button>
                         </form>
-                        <p class="col-3"></p>
+                        <p class="col-2"></p>
                     <br>
                     <br>
                     </div>
@@ -119,7 +143,7 @@
                 <div class="col-4">
                     <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                     <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                    <button class="mx-auto d-block btn btn-warning" type="button"><span class="h3 text-white">Read More</span></button>
+                    <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
             </div>
 
@@ -138,7 +162,7 @@
                 <div class="row mt-5 mb-5">
                     <div class="col-7 text-center">
                         <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                        <button class="mx-auto d-block btn btn-warning" type="button"><span class="h3 text-white">Read More</span></button>
+                        <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
                     </div>
                     <div class="col-4">
                         <img src="{{ asset('/images/自然教育園_3.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
@@ -167,7 +191,7 @@
                     </div>
                     <div class="col-4">
                         <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                        <button class="mx-auto d-block btn btn-warning" type="button"><span class="h3 text-white">Read More</span></button>
+                        <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
                     </div>
                 </div>
             </div>
@@ -176,7 +200,7 @@
                 <div class="col-4">
                     <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                     <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                    <button class="mx-auto d-block btn btn-warning" type="button"><span class="h3 text-white">Read More</span></button>
+                    <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
                 <div class="col-8">
                     <img src="{{ asset('/images/picture1.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
@@ -191,7 +215,7 @@
                 <div class="col-4">
                     <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                     <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
-                    <button class="mx-auto d-block btn btn-warning" type="button"><span class="h3 text-white">Read More</span></button>
+                    <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
             </div>
 
