@@ -19,7 +19,7 @@
                             <input type="hidden" name="お名前" data-unjoin="姓+ +名+（+セイ+ +メイ+）" value="" />
                             <dt class="row">必 お名前</dt>
                             <dd>
-                                <input type="text" name="姓" data-kana="セイ" required placeholder="姓" />
+                                <input type="text" name="姓" data-kana="セイ" placeholder="姓" required />
                                 <input type="text" name="名" data-kana="メイ" placeholder="名" required />
                             </dd>
                             <dt class="row">必 フリガナ</dt>
@@ -36,7 +36,7 @@
                     
                             <dt class="row">必 郵便番号</dt>
                             <dd>
-                            <input type="text" name="郵便番号1" size="4" maxlength="3" required> － <input type="text" name="郵便番号2" size="5" maxlength="4" onKeyUp="AjaxZip3.zip2addr('郵便番号1','郵便番号2','都道府県','市区町村');" required="required">
+                            <input type="number" name="郵便番号1" size="4" maxlength="3" required> － <input type="number" name="郵便番号2" size="5" maxlength="4" onKeyUp="AjaxZip3.zip2addr('郵便番号1','郵便番号2','都道府県','市区町村');" required="required">
                             <p>※郵便番号を入力いただくと自動的に住所が入力されます。</p>
                             </dd>
                         
@@ -66,9 +66,9 @@
                                 アドレス
                             </dt>
                             <dd>
-                                <input type="email" data-type="email" data-parent="mailfield" name="email" required/>
+                                <input type="email" data-type="email" data-parent="mailfield" name="email" id="email" required/>
                                 <p>※ 確認のためもう一度ご入力ください</p>
-                                <input type="email" data-type="email" data-parent="mailfield" name="confirm_email" required/>
+                                <input type="email" data-type="email" data-parent="mailfield" name="confirm_email" id="confirm_email" required/>
                             </dd>
 
                             <div>
@@ -172,7 +172,7 @@
                             </div>
                             
                             <div>
-                                <button type="reset">リセット</button>&nbsp;&nbsp;<button type="submit" data-disabled="入力内容にエラーがあります">送信する</button>
+                                <button type="reset">リセット</button>&nbsp;&nbsp;<button type="submit" id="q_post" data-disabled="入力内容にエラーがあります">送信する</button>
                             </div>
                         </dl>
                     </div>

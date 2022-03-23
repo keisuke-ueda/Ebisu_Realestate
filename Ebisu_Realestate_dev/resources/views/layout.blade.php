@@ -15,6 +15,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- AjaxZip3のライブラリー読み込み -->
     <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+    <!-- 入力バリデーション用のライブラリー読み込み -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/localization/messages_ja.min.js"></script>
     
     <!-- JSファイル読み込み -->
     <script type="text/javascript" src="{{ asset('/js/layout.js') }}"></script>
