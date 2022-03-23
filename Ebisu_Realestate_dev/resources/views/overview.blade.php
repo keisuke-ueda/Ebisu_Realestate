@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- 物件概要ページ -->
-<div class="container text-white">
+<div class="container text-white" style="padding-top: 100px;">
     <h1 class="p-title row">物件概要</h1>
     <div class="main-content row">
         <table class="table table-dark table-striped mt-5 mb-3 text-white animation">

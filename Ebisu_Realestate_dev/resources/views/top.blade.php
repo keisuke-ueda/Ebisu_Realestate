@@ -43,10 +43,22 @@
                 <div class="row mt-5 mb-4">
                     <p class="col-2"></p>
                     <div class="col-4">
-                        <p class="border border-warning text-center h-100">最寄りJR線「恵比寿」駅より<br><span>「渋谷」駅~2分(1分).「新宿」駅~7分(6分).「品川」駅~9分(9分)</span></p>
+                        <div class="gold_frame">
+                            <div class="frame_border">
+                                <div class="frame_circle">
+                                    <p class="h-100">最寄りJR線「恵比寿」駅より<br><span>「渋谷」駅~2分(1分).「新宿」駅~7分(6分).「品川」駅~9分(9分)</span></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-4">
-                        <p class="border border-warning text-center h-100">都心にありながら、都心の喧騒を離れ、樹々の安らぎと<br><span>空の恵みを繕う約26mの丘の上の美しい邸宅</span></p>
+                        <div class="gold_frame">
+                            <div class="frame_border">
+                                <div class="frame_circle">
+                                    <p class="h-100">都心にありながら、都心の喧騒を離れ、樹々の安らぎと<br><span>空の恵みを繕う約26mの丘の上の美しい邸宅</span></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <p class="col-2"></p>
                 </div>
@@ -54,10 +66,22 @@
                 <div class="row">
                     <p class="col-2"></p>
                     <div class="col-4">
-                        <p class="border border-warning text-center">隣には緑に包まれた<br><span>「ウェスティンホテル東京」「恵比寿ガーデンプレイス」</span></p>
+                        <div class="gold_frame">
+                            <div class="frame_border">
+                                <div class="frame_circle">
+                                    <p class="">隣には緑に包まれた<br><span>「ウェスティンホテル東京」「恵比寿ガーデンプレイス」</span></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-4">
-                        <p class="border border-warning text-center">内廊下設計<br><span>角住戸率66%超</span></p>
+                        <div class="gold_frame">
+                            <div class="frame_border">
+                                <div class="frame_circle">
+                                    <p class="">内廊下設計<br><span>角住戸率66%超</span></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <p class="col-2"></p>
                 </div>
@@ -77,7 +101,7 @@
                     <div class="row">
                         <p class="col-3"></p>
                         <form action="/questionnaire" method="GET">
-                            <button type="submit" class="col-6 btn btn-warning" ><span class="h3 text-white">アンケートはこちら</span></button>
+                            <button type="submit" class="col-6 gold_btn" ><span class="h3 text-white">アンケートはこちら</span></button>
                         </form>
                         <p class="col-3"></p>
                     <br>

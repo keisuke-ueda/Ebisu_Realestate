@@ -8,7 +8,7 @@
 
 @section('content')
 <body>
-    <div class="container text-white pt-5">
+    <div class="container text-white" style="padding-top: 100px;">
         <h1 class="p-title row">資料請求フォーム</h1>
         <div class="main-content row">
             <form class="mailformpro" method="POST" action="/questionnaire_mail">
