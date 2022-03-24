@@ -1,5 +1,5 @@
 body {
-  
+  overflow-x: hidden;
 }
 
 /* ヘッダー */
@@ -58,8 +58,6 @@ body {
   margin: 0;
 }
 
-
-
 /*アニメーション要素のスタイル*/
 .animation, .logo_animation, .menu_animation{
   opacity : 0;
@@ -72,6 +70,19 @@ body {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+}
+
+.animation-0-zm, .animation-1-zm, .animation-2-zm {
+  opacity : 0;
+  visibility: hidden;
+  transition: 1s;
+  transform: scale(1.5)
+}
+
+.active-zm {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
 }
 
 .gold {
