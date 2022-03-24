@@ -1,15 +1,15 @@
-@extends('layout')
+@extends('layout2')
 
 @section('content')
 
-<div class="container-fluid bg-white" style="padding-top: 100px;">
+<div class="container-fluid" style="padding-top: 100px;">
   <div class="row">
     <div class="col-4"></div>
-    <p class="col-4 text-center">PROPERTY ENTRY</p>
+    <p class="col-4 text-center h1">PROPERTY ENTRY</p>
     <div class="col-4"></div>
   </div>
-  <p class="text-center">物件エントリー</p>
-  <p class="text-center">以下のフォームに必要な項目を入力のうえ「送信」ボタンを押してください。</p>
+  <p class="text-center h4 mb-5">物件エントリー</p>
+  <p class="text-center mt-5">以下のフォームに必要な項目を入力のうえ「送信」ボタンを押してください。</p>
   <p class="text-center"><span class="badge badge-danger">必須</span>は必須項目です。</p>
 
   <div class="row">

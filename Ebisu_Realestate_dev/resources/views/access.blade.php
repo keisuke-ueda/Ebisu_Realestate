@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout2')
 
 @section('content')
 
@@ -41,7 +41,7 @@
 
 
 
-        
+
         </div>
 
     </div>
