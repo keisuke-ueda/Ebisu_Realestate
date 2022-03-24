@@ -7,17 +7,17 @@
       </div>
     </div> -->
     <div class="header_title col-2 ps-3">
-      <a href="/" class="">
+      <a href="/" class="text-white" style="text-decoration: none;">
         <div class="d-flex flex-column align-items-center">
           <img src="{{ asset('/images/lattrait.png') }}" alt="ヘッダーロゴ" class="mb-2" style="width: 100px;">
-          <p class="text-center small m-0">ラ・アトレ恵比寿グランガーデン</p>
+          <p class="text-center small m-0">L'attrait Ebisu Grand Garden</p>
         </div>
       </a>
     </div>
     <div class="header_links d-flex justify-content-between align-items-center col-10 px-3">
       <div class="header_link h-100">
         <div>&nbsp;</div>
-        <a href="/concept">CONCEPT</a>
+        <a href="/concept" class="text-white">Ebisu</a>
       </div>
       <div class="header_link">
         <div>&nbsp;</div>
@@ -25,7 +25,7 @@
       </div>
       <div class="header_link">
         <div>&nbsp;</div>
-        <a href="/access">ACCESS</a>
+        <a href="/access" class="text-white">ACCESS</a>
       </div>
       <div class="header_link">
         <div>&nbsp;</div>
@@ -36,11 +36,11 @@
         <a href="/model_room">MODEL ROOM</a>
       </div>
       <div class="header_link">
-        <div><a href="/overview" class="small">>物件概要</a></div>
+        <div><a href="/overview" class="small white_link">>物件概要</a></div>
         <a href="/plan">PLAN</a>
       </div>
       <div class="header_link">
-        <div><a href="#" class="small">>現地案内図</a></div>
+        <div><a href="#" class="small text-white">>現地案内図</a></div>
         <a href="/blanding">BLANDING</a>
       </div>
       <div class="header_link">
@@ -53,7 +53,9 @@
           <button type="button" class="questionnaire_btn text-white" style="height: 50px; width: 180px;">お住まいのアンケート</button>
         </a>
       </div>
-      <button class="header_menu_trigger" type="button" style="height: 60px; width: 60px;">menu</button>
+      <button class="header_menu_trigger" type="button" style="height: 60px; width: 60px;">
+        <span class="batsu"></span>
+      </button>
     </div>
   </div>
 </header>

@@ -9,23 +9,52 @@ body {
   z-index: 10000;
 }
 
-.header a {
-  color: white;
+.header_link a {
+  color: gray;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 .header a:hover {
-	color: white;
+	color: gray;
 }
 
 .entry_btn {
+  font-family: serif;
   border: none; 
   background: linear-gradient(to right, #bab5b1 0%, #9c8b7e 25%, #9c8b7e 51%, #bab5b1 100%);
 }
 
 .questionnaire_btn {
+  font-family: serif;
   background-color: #444444;
   border: none; 
+}
+
+.batsu {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+ 
+.batsu::before, .batsu::after { 
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px; 
+  height: 30px;
+  background: gray;
+}
+ 
+.batsu::before {
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+ 
+.batsu::after {
+  transform: translate(-50%,-50%) rotate(-45deg);
 }
 
 /* フッター */
