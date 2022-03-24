@@ -302,3 +302,7 @@ body {
 .error {
   color: red;
 }
+
+.badge-danger {
+  background-color: #CC0000	;
+}
