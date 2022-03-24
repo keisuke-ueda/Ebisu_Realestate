@@ -24,12 +24,12 @@ $(function(){
     });
 
     // スクロールによるヘッダーの出現・固定
-    // var position = $('.menu-trigger').offset().top + $('.menu-trigger').height();
-    // if($(window).scrollTop() > position) {
-    //   $('.header').removeClass('d-none');
-    // } else {
-    //   $('.header').addClass('d-none');
-    // };
+    var position = $('.menu-trigger').offset().top + $('.menu-trigger').height();
+    if($(window).scrollTop() > position) {
+      if ($('.header').removeClass('d-none')) {
+        $('.header').hasClass('d-none');
+      }
+    } 
   });
 
   // トップページのみ、ハンバーガーボタンとロゴがアニメーションで出現
@@ -98,21 +98,21 @@ $(function(){
   })
 
   // メニューエリア外をクリックでハンバーガーメニューを閉じる
-  $(document).on('click', function(e) {
-    console.log('click!!!')
-    if(!$(e.target).closest('.menu_content').length && !$(e.target).closest('.menu-trigger').length){
-      if ($('.menu-trigger').hasClass('open')) {
-        $('.menu_content').removeClass('slide_in');
-        $('.menu_content').addClass('slide_out');
-        $('.menu-trigger').removeClass('open')
-        $('.overlay').delay(500).queue(function(){
-          // $(this).css({'opacity':'0','z-index':'0'});
-          $(this).addClass('d-none')
-          $(this).dequeue();
-        });
-      }
-    };
-  });
+  // $(document).on('click', function(e) {
+  //   console.log('click!!!')
+  //   if(!$(e.target).closest('.menu_content').length && !$(e.target).closest('.menu-trigger').length){
+  //     if ($('.menu-trigger').hasClass('open')) {
+  //       $('.menu_content').removeClass('slide_in');
+  //       $('.menu_content').addClass('slide_out');
+  //       $('.menu-trigger').removeClass('open')
+  //       $('.overlay').delay(500).queue(function(){
+  //         // $(this).css({'opacity':'0','z-index':'0'});
+  //         $(this).addClass('d-none')
+  //         $(this).dequeue();
+  //       });
+  //     }
+  //   };
+  // });
 
 
   // アンケートフォームの入力バリデーション

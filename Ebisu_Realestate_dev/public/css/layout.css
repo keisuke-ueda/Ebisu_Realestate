@@ -58,6 +58,8 @@ body {
   margin: 0;
 }
 
+
+
 /*アニメーション要素のスタイル*/
 .animation, .logo_animation, .menu_animation{
   opacity : 0;
@@ -90,6 +92,12 @@ body {
   background: linear-gradient(to right, #d6c88d 0%, #b0a071 50%, #d6c88d 100%);
   font-family: serif;
   border: 1px solid #D8CA82;
+}
+
+.copper_btn {
+  background: linear-gradient(to right, #bab5b1 0%, #9c8b7e 25%, #9c8b7e 51%, #bab5b1 100%);
+  font-family: serif;
+  border: 1px solid #cec5bb;
 }
 
 .gold_frame {
