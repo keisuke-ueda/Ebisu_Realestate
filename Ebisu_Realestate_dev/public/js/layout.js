@@ -26,10 +26,15 @@ $(function(){
     // スクロールによるヘッダーの出現・固定
     var position = $('.menu-trigger').offset().top + $('.menu-trigger').height();
     if($(window).scrollTop() > position) {
-      if ($('.header').removeClass('d-none')) {
-        $('.header').hasClass('d-none');
+      if ($('.header').hasClass('d-none')) {
+        $('.header').removeClass('d-none');
       }
     } 
+
+    // ページ最上部ではヘッダーは非表示
+    if ($('.header').offset().top == 0) {
+      $('.header').addClass('d-none');
+    }
   });
 
   // トップページのみ、ハンバーガーボタンとロゴがアニメーションで出現
@@ -130,4 +135,14 @@ $(function(){
   });
 
   
+  $('.header_link a').each(function(){
+    var href = $(this).attr('href');
+    if(location.href.match(href)) {
+      $(this).addClass('current');
+    } else {
+      $(this).removeClass('current');
+    };
+  });
+  $('.current').css('color', 'white');
+ 
 });
