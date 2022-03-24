@@ -141,8 +141,12 @@
                     <img src="{{ asset('/images/12.JPG') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4">
-                    <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
-                    <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
+                    <img src="{{ asset('/images/ロゴ1.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
+                    <p class="h2">恵比寿、そても「恵比寿ガーデンプレイス」<br>
+                        「ウエスティンホテル東京」を間近とする住宅地。<br>
+                        その静謐なる佇まいそのまま、住まわれる方の誇りとなる。<br>
+                        多くを語らずとも本物を知る人を魅了するレジデンス。<br>
+                        「ラ・アトレ恵比寿」-ゆるぎなき矜持がここにある。</p>
                     <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
             </div>
@@ -154,27 +158,44 @@
                     <div class="col-4">
                         <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                     </div>
-                    <div class="col-4">
-                        <img src="{{ asset('/images/アメリカ橋公園_3.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
-                        <p class="small">アメリカ橋公園(徒歩 分/約 m)</p>
+                    <div class="col-3">
+                        <img src="{{ asset('/images/ウエスティンホテル.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
+                    </div>
+                    <div class="col-3">
+                        <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
                     </div>
                 </div>
                 <div class="row mt-5 mb-5">
-                    <div class="col-7 text-center">
-                        <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
+                    <div class="col-4">
+                        <p class="h2">洗練と成熟に抱かれた街、恵比寿。<br>
+                            ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
+                            「ラ・アトレ恵比寿グランガーデン」<br>
+                            建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
+                            ココに暮らす人々の姿さえも、この地の美しい風景となる。</p>
                         <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
                     </div>
-                    <div class="col-4">
-                        <img src="{{ asset('/images/自然教育園_3.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
-                        <p class="small">自然教育公園(徒歩 分/約 m)</p>
+                    <div class="col-3">
+                        <img src="{{ asset('/images/アメリカ橋公園3.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
+                    </div>
+                    <div class="col-3">
+                        <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
                     </div>
                 </div>
             </div>
 
             <div class="animation mt-5 mb-5">
                 <div class="row">
-                    <div class="col-8">
-                        <img src="{{ asset('/images/路線図.jpg') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
+                    <div class="col-2">
+                        <img src="{{ asset('/images/渋谷.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
+                    </div>
+                    <div class="col-2">
+                        <img src="{{ asset('/images/六本木.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
+                    </div>
+                    <div class="col-2">
+                        <img src="{{ asset('/images/新宿.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
+                    </div>
+                    <div class="col-2">
+                        <img src="{{ asset('/images/品川.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                     </div>
                     <div class="col-4">
                         <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
@@ -185,12 +206,11 @@
                     <div class="col-8">
                         <p></p>
 
-
-                        路線情報
-
                     </div>
                     <div class="col-4">
-                        <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
+                        <p class="">都心をもっと近くする、スピーディなアクセス。<br>
+                            渋谷、霞ヶ関、銀座へダイレクトにつながることのできる日比谷線。<br>
+                            ここには、目的に合わせて、路線を使いこなせる自由がある</p>
                         <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
                     </div>
                 </div>
@@ -199,7 +219,12 @@
             <div class="row animation mt-5 mb-5">
                 <div class="col-4">
                     <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
-                    <p class="text-center">テキストテキストテキストテキストテキストテキストテキスト</p>
+                    <p class="h2">常緑樹の深い緑も豊かな静謐なる街並み。周辺に
+                        高級住宅街にふさわしい丘上の　酒な5階建て。
+                        緑と調和しながら独自の存在感を醸し出しています。
+                        バルコニーの目立たない高級感にあふれる　　フォルム。
+                        落ち着いた基調色が街並みと美しく調和します。
+</p>
                     <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
                 <div class="col-8">
@@ -210,7 +235,7 @@
 
             <div class="row animation mt-5 mb-5">
                 <div class="col-8">
-                    <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
+                    <img src="{{ asset('/images/ダミーマップ.jpg') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4">
                     <img src="{{ asset('/images/環境-新宿.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
@@ -226,12 +251,6 @@
             </div>
 
             <div class="animation mt-5 mb-5">
-                <h1 class="h1 text-center">現地案内</h1>
-                <div class="row">
-                    <p class="col-2"></p>
-                    <img src="{{ asset('/images/マップ1.jpg') }}" alt="サンプル画像" class="col-8 img-fluid { max-width: 100%; height: auto } ">
-                    <p class="col-2"></p>
-                </div>
                 <div class="row mt-3 mb-3">
                     <form action="/access" method="GET">
                         <button class="col-3 mx-auto d-block copper_btn" type="submit"><span class="h3 text-white">資料請求受付中</span></button>
@@ -239,7 +258,7 @@
                 </div>
                 <div class="row  mt-3">
                     <p class="col-3"></p>
-                    <p class="col-6 small">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    <p class="col-6 small">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                     <p class="col-3"></p>
                 </div>
             </div>
