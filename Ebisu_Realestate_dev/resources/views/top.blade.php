@@ -171,7 +171,7 @@
                     <img src="{{ asset('/images/アメリカ橋公園3.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4">
-                <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
+                    <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
                     <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
                 </div>
             </div>
@@ -192,8 +192,9 @@
                 <div class="col-4">
                     <img src="{{ asset('/images/ロゴ1.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                     <p class="">都心をもっと近くする、スピーディなアクセス。<br>
-                        渋谷、霞ヶ関、銀座へダイレクトにつながることのできる日比谷線。<br>
-                        ここには、目的に合わせて、路線を使いこなせる自由がある
+                        渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
+                        渋谷、霞ヶ関、銀座へダイレクトに繋がることのできる日比谷線。<br>
+                        ここには、目的に合わせて、路線を使いこなせる自由がある。
                     </p>
                     <div class="gold_line w-50 my-3"></div>
                     <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
@@ -248,7 +249,15 @@
                     </form>
                 </div>
                 <div class="row  mt-3">
-
+                    <p class="col-2"></p>
+                    <p class="col-8 small">
+                        *1) 総戸数21戸中 12戸が角住戸により、57%超の角住戸となります。<br>
+                        *2) 全12台の駐車場は、大型SUV車、スポーツカーが3台駐車可能となります。また、1台の屋外平置式シェアカーを含んでいます。<br>
+                        *正射画像データ:国土地理院刊行の正射画像データに、一部CG加工を施しており、実際とは異なります。<br>
+                        *航空写真:令和4年3月撮影の航空写真に、一部CG加工を施しており、実際とは異なります。<br>
+                        *掲載の写真は2022年3月に撮影したもので、一部加工・修正を施しております。<br>
+                    </p>
+                    <p class="col-2"></p>
                 </div>
             </div>
 

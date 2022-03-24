@@ -125,7 +125,7 @@ body {
 }
 
 .white_wall {
-  background-image: url("../images/bg-white.jpg");
+  background-color: #fff;
 }
 
 .gold_btn {
