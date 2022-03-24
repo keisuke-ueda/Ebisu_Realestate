@@ -258,7 +258,7 @@
                 </div>
                 <div class="row  mt-3">
                     <p class="col-3"></p>
-                    <p class="col-6 small">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    <p class="col-6 small">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                     <p class="col-3"></p>
                 </div>
             </div>
