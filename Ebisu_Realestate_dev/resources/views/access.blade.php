@@ -16,6 +16,46 @@
         <p class="small">ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、「ウェスティンホテル東京」を間近とする住宅地。その静謐なる佇まいは、そのまま住まわれる方の誇りとなる。多くを語らずと</p>
     </div>
 
+    <div class="row"> 
+        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/渋谷2.png') }}">
+        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/渋谷2.png') }}">
+        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/渋谷2.png') }}">
+        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/渋谷2.png') }}">
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <img  class="d-block mx-auto" src="{{ asset('/images/路線図.jpg') }}">
+            <p>※各駅への所要時間はJR線「恵比寿」駅発、東京メトロ日比谷線「恵比寿」駅発、また東京メトロ南北線・<br>
+                都営三田線「目黒」駅発の所要時間は日中平常時、平日の13時台及び(  )内は通勤時8時台の<br>
+                最短所要時間を表記しています。<br>
+                ※所要時間には、乗り換え・待ち時間は含まれません。(JR線・東京メトロ線・都営地下鉄線時刻表調べ)<br>
+                ※2駅7路線とは、JR山手線・埼京線・湘南新宿ライン「恵比寿」駅、東京メトロ日比谷線「」恵比寿駅、<br>
+                JR山手線「目黒」駅、都営地下鉄三田線・東京メトロ南北線・東急目黒線「目黒」駅のことです。<br>
+                ※現地からの徒歩分数は、80mを1分として算出し、端数は切り上げております。<br>
+                ※掲載の情報は、令和4年3月現在によるもので変更になる場合があります。
+            </p>
+        </div>
+        <div class="col-6">
+
+
+
+
+        
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- 路線情報 -->
