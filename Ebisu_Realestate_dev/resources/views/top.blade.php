@@ -234,7 +234,7 @@
                 </div>
                 <div class="row mt-3 mb-3">
                     <form action="/access" method="GET">
-                        <button class="col-3 mx-auto d-block btn btn-warning" type="submit"><span class="h3 text-white">資料請求受付中</span></button>
+                        <button class="col-3 mx-auto d-block copper_btn" type="submit"><span class="h3 text-white">資料請求受付中</span></button>
                     </form>
                 </div>
                 <div class="row  mt-3">

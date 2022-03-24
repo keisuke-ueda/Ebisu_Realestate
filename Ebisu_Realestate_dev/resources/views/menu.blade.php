@@ -2,7 +2,7 @@
 <!-- <div class="index_logo position-absolute mt-2 ms-3 logo_animation" style="z-index: 10000;">
     <a href="/"><img src="{{ asset('/images/logo.png') }}" alt="ヘッダーロゴ" style="width: 70px;"></a>
 </div> -->
-<div class="index_logo position-fixed mt-3 ms-3 logo_animation" style="z-index: 1000;">
+<div class="index_logo position-absolute mt-3 ms-3 logo_animation" style="z-index: 1000;">
   <a href="/">
     <div class="d-flex flex-column align-items-center">
       <img src="{{ asset('/images/lattrait.png') }}" alt="ヘッダーロゴ" class="mb-2" style="width: 100px;">
@@ -12,7 +12,7 @@
 </div>
 
 <!-- ハンバーガーボタン -->
-<button class="menu-trigger menu_animation position-fixed top-0 end-0 mt-3 me-3">
+<button class="menu-trigger menu_animation position-absolute top-0 end-0 mt-3 me-3">
   menu
   <!-- <span></span>
   <span></span>
