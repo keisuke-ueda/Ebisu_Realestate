@@ -28,14 +28,14 @@
 ・デザイン1.png
 
 ==EBISU==
-・Access_1.png
-・Access_2.png
+・Ebisu_1.png
+・Ebisu_2.png
 ・ガーデンプレイス2.jpg
 ・ウエスティン2.jpg
 ・国立付属1.jpg
 ・医療科学研究所.jpg
 ・東急ストア.jpg
-・Access_3.png
+・Ebisu_3.png
 
 
 
