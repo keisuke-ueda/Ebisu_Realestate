@@ -27,15 +27,15 @@
 ・4区.png
 ・デザイン1.png
 
-==ACCESS==
-・Access_1.png
-・Access_2.png
+==EBISU==
+・Ebisu_1.png
+・Ebisu_2.png
 ・ガーデンプレイス2.jpg
 ・ウエスティン2.jpg
 ・国立付属1.jpg
 ・医療科学研究所.jpg
 ・東急ストア.jpg
-・Access_3.png
+・Ebisu_3.png
 
 
 
