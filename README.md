@@ -27,7 +27,7 @@
 ・4区.png
 ・デザイン1.png
 
-==ACCESS==
+==EBISU==
 ・Access_1.png
 ・Access_2.png
 ・ガーデンプレイス2.jpg
