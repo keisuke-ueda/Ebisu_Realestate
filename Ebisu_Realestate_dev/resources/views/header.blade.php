@@ -11,11 +11,11 @@
     <div class="header_links d-flex justify-content-between align-items-center col-10">
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/concept">EBISU</a>
+        <a href="/concept" style="pointer-events:none;">EBISU</a>
       </div>
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/location">LOCATION</a>
+        <a href="/location" style="pointer-events:none;">LOCATION</a>
       </div>
       <div class="header_link ms-3">
         <div>&nbsp;</div>
@@ -23,19 +23,19 @@
       </div>
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/design">DESIGN</a>
+        <a href="/design" style="pointer-events:none;">DESIGN</a>
       </div>
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/model_room">MODEL ROOM</a>
+        <a href="/model_room" style="pointer-events:none;">MODEL ROOM</a>
       </div>
       <div class="header_link ms-3">
         <div><a href="/overview" class="small">>物件概要</a></div>
-        <a href="/plan">PLAN</a>
+        <a href="/plan" style="pointer-events:none;">PLAN</a>
       </div>
       <div class="header_link ms-3">
-        <div><a href="#" class="small">>現地案内図</a></div>
-        <a href="/blanding">BLANDING</a>
+        <div><a href="#" class="small" style="pointer-events:none;">>現地案内図</a></div>
+        <a href="/blanding" style="pointer-events:none;">BLANDING</a>
       </div>
       <div class="header_link ms-3">
         <a href="/entry" class="">
