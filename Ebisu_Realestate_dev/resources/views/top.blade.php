@@ -141,7 +141,7 @@
                     <img src="{{ asset('/images/12.JPG') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4">
-                    <img src="{{ asset('/images/ロゴ1.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
+                    <img src="{{ asset('/images/theebisu.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                     <p class="">恵比寿、それも「恵比寿ガーデンプレイス」<br>
                         「ウエスティンホテル東京」を間近とする住宅地。<br>
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
@@ -156,7 +156,7 @@
             <!-- ロケーション -->
             <div class="row animation mt-5 mb-5">
                 <div class="col-4">
-                    <img src="{{ asset('/images/ロゴ1.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
+                    <img src="{{ asset('/images/thelocation.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                     <p class="">洗練と成熟に抱かれた街、恵比寿。<br>
                         ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
                         「ラ・アトレ恵比寿グランガーデン」<br>
@@ -166,31 +166,22 @@
                     <div class="gold_line w-50 my-3"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
-                <div class="col-4">
-                    <img src="{{ asset('/images/ウエスティンホテル.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
-                    <img src="{{ asset('/images/アメリカ橋公園3.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
+                <div class="col-4 d-flex flex-column justify-content-between">
+                    <img src="{{ asset('/images/ウエスティンホテル1.png') }}" alt="サンプル画像" style="width: 100%; height: 48%; object-fit: cover; object-position: 100% 100%">
+                    <img src="{{ asset('/images/アメリカ橋公園1.png') }}" alt="サンプル画像" style="width: 100%; height: 48%; object-fit: cover; object-position: 100% 100%">
                 </div>
-                <div class="col-4">
-                    <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
-                    <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
+                <div class="col-4 d-flex flex-column justify-content-between">
+                    <img src="{{ asset('/images/恵比寿ガーデンプレイス1.png') }}" alt="サンプル画像" style="width: 100%; height: 48%; object-fit: cover; object-position: 100% 100%">
+                    <img src="{{ asset('/images/国立科学博物館付属自然教育園1.png') }}" alt="サンプル画像" style="width: 100%; height: 48%; object-fit: cover; object-position: 100% 100%">
                 </div>
             </div>
 
             <div class="row animation mt-5 mb-5">
-                <div class="col-2">
-                    <img src="{{ asset('/images/渋谷.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
-                </div>
-                <div class="col-2">
-                    <img src="{{ asset('/images/六本木.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
-                </div>
-                <div class="col-2">
-                    <img src="{{ asset('/images/新宿.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
-                </div>
-                <div class="col-2">
-                    <img src="{{ asset('/images/品川.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
+                <div class="col-8">
+                    <img src="{{ asset('/images/4区.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4">
-                    <img src="{{ asset('/images/ロゴ1.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
+                    <img src="{{ asset('/images/theaccess.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                     <p class="">都心をもっと近くする、スピーディなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
                         渋谷、霞ヶ関、銀座へダイレクトに繋がることのできる日比谷線。<br>
@@ -204,7 +195,7 @@
 
             <div class="row animation mt-5 mb-5">
                 <div class="col-4">
-                    <img src="{{ asset('/images/ロゴ1.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
+                    <img src="{{ asset('/images/thedesign.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                     <p class="">常緑樹の深い緑も豊かな静謐なる街並み。周辺に
                         高級住宅街にふさわしい丘上の瀟洒な5階建て。
                         緑と調和しながら独自の存在感を醸し出しています。
@@ -213,6 +204,7 @@
                     </p>
                     <div class="gold_line w-50 my-3"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button"><span class="h3 text-white">Read More</span></button>
+                    <img src="{{ asset('/images/デザイン1.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-8">
                     <img src="{{ asset('/images/picture1.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
@@ -225,7 +217,7 @@
                     <img src="{{ asset('/images/ダミーマップ.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                 </div>
                 <div class="col-4">
-                    <img src="{{ asset('/images/ロゴ1.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
+                    <img src="{{ asset('/images/theplan.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                     <p class="">ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
                         「ウェスティンホテル東京」を間近とする住宅地。その静謐なる佇まいは、
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。多くを語らずとも、
