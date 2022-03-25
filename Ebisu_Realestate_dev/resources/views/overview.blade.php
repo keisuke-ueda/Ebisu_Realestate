@@ -3,8 +3,8 @@
 @section('content')
 
 <!-- 物件概要ページ -->
-<div class="container" style="padding-top: 100px;">
-    <h1 class="p-title center-block text-center">OUTLINE</h1>
+<div class="container" style="padding: 100px 150px 0;">
+    <h1 class="p-title gold-title center-block text-center">OUTLINE</h1>
     <p class="p-title center-block text-center h3">物件概要</p>
     <div class="main-content row">
         <table class="gold_table mt-5 mb-3 animation">

@@ -1,11 +1,5 @@
 <header class="header container-fluid text-white position-fixed top-0 start-0 py-3 d-none">
   <div class="header_content row justify-content-between align-items-center">
-    <!-- <div class="header_title d-flex col-3 ps-3">
-      <a href="/"><img src="{{ asset('/images/logo.png') }}" alt="ヘッダーロゴ" style="width: 70px;"></a>
-      <div class="d-table ms-2">
-        <p class="d-table-cell align-middle small">ラ・アトレ恵比寿グランガーデン</p>
-      </div>
-    </div> -->
     <div class="header_title col-2 ps-3">
       <a href="/" class="text-white" style="text-decoration: none;">
         <div class="d-flex flex-column align-items-center">
@@ -14,7 +8,7 @@
         </div>
       </a>
     </div>
-    <div class="header_links d-flex justify-content-end align-items-center col-10 pe-3">
+    <div class="header_links d-flex justify-content-between align-items-center col-10">
       <div class="header_link ms-3">
         <div>&nbsp;</div>
         <a href="/concept">EBISU</a>

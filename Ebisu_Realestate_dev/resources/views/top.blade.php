@@ -149,7 +149,7 @@
                         「ラ・アトレ恵比寿」-ゆるぎなき矜持がここにある。
                     </p>
                     <div class="gold_line w-50 my-3"></div>
-                    <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
+                    <button class="mx-auto d-block gold_btn px-4 py-2" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
             </div>
 
@@ -164,7 +164,7 @@
                         ココに暮らす人々の姿さえも、この地の美しい風景となる。
                     </p>
                     <div class="gold_line w-50 my-3"></div>
-                    <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
+                    <button class="mx-auto d-block gold_btn px-4 py-2" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
                 <div class="col-4">
                     <img src="{{ asset('/images/ウエスティンホテル.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto }">
@@ -197,7 +197,7 @@
                         ここには、目的に合わせて、路線を使いこなせる自由がある。
                     </p>
                     <div class="gold_line w-50 my-3"></div>
-                    <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
+                    <button class="mx-auto d-block gold_btn px-4 py-2" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
             </div>
 
@@ -212,7 +212,7 @@
                         落ち着いた基調色が街並みと美しく調和します。
                     </p>
                     <div class="gold_line w-50 my-3"></div>
-                    <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
+                    <button class="mx-auto d-block gold_btn px-4 py-2" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
                 <div class="col-8">
                     <img src="{{ asset('/images/picture1.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
@@ -232,7 +232,7 @@
                         本物を知る人を魅了するレジデンス。ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
                     </p>
                     <div class="gold_line w-50 my-3"></div>
-                    <button class="mx-auto d-block gold_btn" type="button"><span class="h3 text-white">Read More</span></button>
+                    <button class="mx-auto d-block gold_btn px-4 py-2" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
             </div>
 
@@ -244,8 +244,8 @@
 
             <div class="animation mt-5 mb-5">
                 <div class="row mt-3 mb-3">
-                    <form action="/access" method="GET">
-                        <button class="col-3 mx-auto d-block copper_btn" type="submit"><span class="h3 text-white">資料請求受付中</span></button>
+                    <form action="/entry" method="GET">
+                        <button class="col-3 mx-auto d-block copper_btn py-2" type="submit"><span class="h3 text-white">物件エントリー受付中</span></button>
                     </form>
                 </div>
                 <div class="row  mt-3">
