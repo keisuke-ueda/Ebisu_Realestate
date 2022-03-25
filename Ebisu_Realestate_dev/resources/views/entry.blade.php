@@ -16,7 +16,7 @@
           <td></td>
         </tr>
         <tr>
-          <th><label for="name"><span class="badge badge-danger">必須</span>お名前</label></th>
+          <td><label for="name"><span class="badge badge-danger">必須</span>お名前</label></td>
           <td></td>
           <td>
             <input type="text">
@@ -24,7 +24,7 @@
           </td>
         </tr>
         <tr>
-          <th><label for="name"><span class="badge badge-danger">必須</span>フリガナ</label></th>
+          <td><label for="name"><span class="badge badge-danger">必須</span>フリガナ</label></td>
           <td></td>
           <td>
             <input type="text">
@@ -32,7 +32,7 @@
           </td>
         </tr>
         <tr>
-          <th><label for="name"><span class="badge badge-danger">必須</span>性別</label></th>
+          <td><label for="name"><span class="badge badge-danger">必須</span>性別</label></td>
           <td></td>
           <td>
             <div><input type="radio">男性</div>
@@ -40,13 +40,13 @@
           </td>
         </tr>
         <tr>
-          <th>
+          <td>
             <div><label for="name"><span class="badge badge-danger">必須</span>生年月日</label></div>
             <div><label for="name"><span class="badge badge-danger">必須</span>メールアドレス</label></div>
-          </th>
+          </td>
           <td></td>
           <td>
-            <div><input type="text">年<input type="text">月<input type="text">日</div>
+            <div><input type="text">年 <input type="text">月 <input type="text">日</div>
             <p>*半角英数字で入力してください</p>
             <div><input type="text"></div>
             <p>*確認のためもう一度ご入力ください</p>
@@ -54,31 +54,35 @@
           </td>
         </tr>
         <tr>
-          <th style="width: 22%;"><label for="name"><span class="badge badge-danger">必須</span>ご住所</label></th>
+          <th style="width: 22%;"><label for="name"><span class="badge badge-danger">必須</span>ご住所</label></td>
           <td>
-            <div>
-              <label for="name">郵便番号<span class="badge badge-danger">必須</span></label>
-            </div>
-            <div>
-              <label for="name">都道府県<span class="badge badge-danger">必須</span></label>
-            </div>
-            <div>
-              <label for="name">市区町村<span class="badge badge-danger">必須</span></label>
-            </div>
-            <div>
-              <label for="name">丁目番地<span class="badge badge-danger">必須</span></label>
-            </div>
-            <div>
-              <label for="name">建物名</label>
-            </div>
+            <div class="d-flex flex-column justify-content-between">
+              <div>
+                <label for="name">郵便番号<span class="badge badge-danger">必須</span></label>
+              </div>
+              <div>
+                <label for="name">都道府県<span class="badge badge-danger">必須</span></label>
+              </div>
+              <div>
+                <label for="name">市区町村<span class="badge badge-danger">必須</span></label>
+              </div>
+              <div>
+                <label for="name">丁目番地<span class="badge badge-danger">必須</span></label>
+              </div>
+              <div>
+                <label for="name">建物名</label>
+              </div>
+            </div>  
           </td>
           <td style="width: 65%;">
             <div>
-              <input type="text">-<input type="text">
+              <input type="text"> - <input type="text">
               <p>*半角数字で入力してください</p>
             </div>
             <div>
-              <input type="text">
+              <select>
+                <option value="">選択</option>
+              </select>
             </div>
             <div>
               <input type="text">
@@ -92,7 +96,7 @@
           </td>
         </tr>
         <tr>
-          <th><label for="name"><span class="badge badge-danger">必須</span>電話番号</label></th>
+          <td><label for="name"><span class="badge badge-danger">必須</span>電話番号</label></td>
           <td></td>
           <td>
             <input type="text">
@@ -100,37 +104,66 @@
           </td>
         </tr>
         <tr>
-          <th><label for="name"><span class="badge">　　</span>ご年収</label></th>
+          <td><label for="name"><span class="badge badge-danger">必須</span>ご職業</label></td>
           <td></td>
-          <td><input type="text"></td>
+          <td>
+            <select>
+              <option value="">選択</option>
+            </select>
+          </td>
         </tr>
         <tr>
-          <th><label for="name"><span class="badge">　　</span>自己資金</label></th>
+          <td><label for="name"><span class="badge">　　</span>ご年収</label></td>
           <td></td>
-          <td><input type="text"></td>
+          <td>
+            <select>
+              <option value="">選択</option>
+            </select>
+          </td>
         </tr>
         <tr>
-          <th><label for="name"><span class="badge">　　</span>ご購入の目的</label></th>
+          <td><label for="name"><span class="badge">　　</span>自己資金</label></td>
           <td></td>
-          <td><input type="text"></td>
+          <td>
+            <select>
+              <option value="">選択</option>
+            </select>
+          </td>
         </tr>
         <tr>
-          <th><label for="name"><span class="badge">　　</span>現在のお住まい(住居形態)</label></th>
+          <td><label for="name"><span class="badge">　　</span>ご購入の目的</label></td>
           <td></td>
-          <td><input type="text"></td>
+          <td>
+            <select>
+              <option value="">選択</option>
+            </select>
+          </td>
         </tr>
         <tr>
-          <th><label for="name"><span class="badge">　　</span>ご家族人数</label></th>
+          <td><label for="name"><span class="badge">　　</span>現在のお住まい(住居形態)</label></td>
+          <td></td>
+          <td>
+            <select>
+              <option value="">選択</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="name"><span class="badge">　　</span>ご家族人数</label></td>
           <td></td>
           <td><input type="text">人</td>
         </tr>
         <tr>
-          <th><label for="name"><span class="badge">　　</span>ご希望条件(面積)</label></th>
+          <td><label for="name"><span class="badge">　　</span>ご希望条件(面積)</label></td>
           <td></td>
-          <td><input type="text"></td>
+          <td>
+            <select>
+              <option value="">選択</option>
+            </select>
+          </td>
         </tr>
         <tr>
-          <th><label for="name"><span class="badge">　　</span>ご希望条件(間取り)</label></th>
+          <td><label for="name"><span class="badge">　　</span>ご希望条件(間取り)</label></td>
           <td></td>
           <td>
             <div><input type="checkbox">1LDK</div>
@@ -139,12 +172,23 @@
           </td>
         </tr>
         <tr>
-          <th><label for="name"><span class="badge badge-danger">必須</span>ご希望条件(価格帯)</label></th>
+          <td><label for="name"><span class="badge badge-danger">必須</span>ご希望条件(価格帯)</label></td>
           <td></td>
-          <td><input type="text"></td>
+          <td>
+            <select>
+              <option value="">選択</option>
+              <option value="">〜8,000万円</option>
+              <option value="">〜1億円</option>
+              <option value="">〜1億2,000万円</option>
+              <option value="">〜1億5,000万円</option>
+              <option value="">〜1億8,000万円</option>
+              <option value="">〜2億円</option>
+              <option value="">〜1億円以上</option>
+            </select>
+          </td>
         </tr>
         <tr>
-          <th><label for="name"><span class="badge badge-danger">必須</span>このHPをどこでお知りになりましたか？</label></th>
+          <td><label for="name"><span class="badge badge-danger">必須</span>このHPをどこでお知りになりましたか？</label></td>
           <td></td>
           <td>
             <div><input type="radio">ラ・アトレホームページ</div>

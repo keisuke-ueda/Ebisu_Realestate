@@ -281,7 +281,19 @@ body {
   padding: 16px 0;
 }
 
-input {
+input, select {
   background-color: #EEEEEE;
   border: 1px solid #DDDDDD;
+}
+
+
+/* トップに戻る */
+.arrow-top {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 0 10px;
+  border-top: 4px solid #000;
+  border-left: 4px solid #000;
+  transform: rotate(45deg);
 }
