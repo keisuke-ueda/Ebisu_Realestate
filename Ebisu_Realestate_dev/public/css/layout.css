@@ -185,7 +185,6 @@ body {
 }
 
 .gold_line {
-  height: auto;
   min-height: 10%;
   border-right: 2px solid #d6c88d;
 }

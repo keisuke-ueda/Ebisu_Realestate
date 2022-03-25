@@ -136,13 +136,14 @@
 
 
         <div class="white_wall py-5">
-            <div class="row animation mt-5 mb-5">
+            <!-- Ebisu -->
+            <div class="row animation my-5">
                 <div class="col-8">
                     <img src="{{ asset('/images/12.JPG') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4">
-                    <img src="{{ asset('/images/theebisu.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
-                    <p class="">恵比寿、それも「恵比寿ガーデンプレイス」<br>
+                    <img src="{{ asset('/images/theebisu.png') }}" alt="サンプル画像" style="width: 56%;">
+                    <p class="" style="font-size: 15.7px;">恵比寿、それも「恵比寿ガーデンプレイス」<br>
                         「ウエスティンホテル東京」を間近とする住宅地。<br>
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
                         多くを語らずとも本物を知る人を魅了するレジデンス。<br>
@@ -153,16 +154,18 @@
                 </div>
             </div>
 
-            <!-- ロケーション -->
-            <div class="row animation mt-5 mb-5">
+            <!-- Location -->
+            <div class="row animation my-5">
                 <div class="col-4">
-                    <img src="{{ asset('/images/thelocation.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
-                    <p class="">洗練と成熟に抱かれた街、恵比寿。<br>
-                        ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
-                        「ラ・アトレ恵比寿グランガーデン」<br>
-                        建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
-                        ココに暮らす人々の姿さえも、この地の美しい風景となる。
-                    </p>
+                    <img src="{{ asset('/images/thelocation.png') }}" alt="サンプル画像" style="width: 90.3%;">
+                    <div class="d-flex justify-content-end">
+                        <p class="d-inline-block" style="font-size: 15.7px;">洗練と成熟に抱かれた街、恵比寿。<br>
+                            ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
+                            「ラ・アトレ恵比寿グランガーデン」<br>
+                            建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
+                            ココに暮らす人々の姿さえも、この地の美しい風景となる。
+                        </p>
+                    </div>
                     <div class="gold_line w-50 my-3"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button"><span class="h3 text-white">Read More</span></button>
                 </div>
@@ -176,13 +179,14 @@
                 </div>
             </div>
 
-            <div class="row animation mt-5 mb-5">
+            <!-- Access -->
+            <div class="row animation my-5">
                 <div class="col-8">
                     <img src="{{ asset('/images/4区.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4">
-                    <img src="{{ asset('/images/theaccess.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
-                    <p class="">都心をもっと近くする、スピーディなアクセス。<br>
+                    <img src="{{ asset('/images/theaccess.png') }}" alt="サンプル画像" style="width: 81.9%;">
+                    <p class="" style="font-size: 15.7px;">都心をもっと近くする、スピーディなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
                         渋谷、霞ヶ関、銀座へダイレクトに繋がることのできる日比谷線。<br>
                         ここには、目的に合わせて、路線を使いこなせる自由がある。
@@ -192,11 +196,11 @@
                 </div>
             </div>
 
-
-            <div class="row animation mt-5 mb-5">
+            <!-- Design -->
+            <div class="row animation my-5">
                 <div class="col-4">
-                    <img src="{{ asset('/images/thedesign.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
-                    <p class="">常緑樹の深い緑も豊かな静謐なる街並み。周辺に
+                    <img src="{{ asset('/images/thedesign.png') }}" alt="サンプル画像" style="width: 70%;">
+                    <p class="" style="font-size: 15.7px;">常緑樹の深い緑も豊かな静謐なる街並み。周辺に
                         高級住宅街にふさわしい丘上の瀟洒な5階建て。
                         緑と調和しながら独自の存在感を醸し出しています。
                         バルコニーの目立たない高級感にあふれる雁行フォルム。
@@ -207,18 +211,18 @@
                     <img src="{{ asset('/images/デザイン1.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-8">
-                    <img src="{{ asset('/images/picture1.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
+                    <img src="{{ asset('/images/picture1.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                 </div>
             </div>
 
-
-            <div class="row animation mt-5 mb-5">
+            <!-- Plan -->
+            <div class="row animation my-5">
                 <div class="col-8">
                     <img src="{{ asset('/images/ダミーマップ.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                 </div>
                 <div class="col-4">
-                    <img src="{{ asset('/images/theplan.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
-                    <p class="">ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
+                    <img src="{{ asset('/images/theplan.png') }}" alt="サンプル画像" style="width: 45.1%;">
+                    <p class="" style="font-size: 15.7px;">ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
                         「ウェスティンホテル東京」を間近とする住宅地。その静謐なる佇まいは、
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。多くを語らずとも、
                         本物を知る人を魅了するレジデンス。ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
@@ -228,13 +232,13 @@
                 </div>
             </div>
 
-            <div class="row mt-5 mb-5">
+            <div class="row my-5">
                 <p class="col-2"></p>
                 <p class="col-8 text-center">ボタン画像</p>
                 <p class="col-4"></p>
             </div>
 
-            <div class="animation mt-5 mb-5">
+            <div class="animation my-5">
                 <div class="row mt-3 mb-3">
                     <form action="/entry" method="GET">
                         <button class="col-3 mx-auto d-block copper_btn py-2" type="submit"><span class="h3 text-white">物件エントリー受付中</span></button>
