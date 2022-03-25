@@ -2,11 +2,11 @@
 <!-- <div class="index_logo position-absolute mt-2 ms-3 logo_animation" style="z-index: 10000;">
     <a href="/"><img src="{{ asset('/images/logo.png') }}" alt="ヘッダーロゴ" style="width: 70px;"></a>
 </div> -->
-<div class="index_logo position-absolute mt-3 ms-3 logo_animation" style="z-index: 1000;">
+<div class="index_logo position-absolute mt-3 ps-3 logo_animation col-2" style="z-index: 1000;">
   <a href="/">
     <div class="d-flex flex-column align-items-center">
       <img src="{{ asset('/images/lattrait.png') }}" alt="ヘッダーロゴ" class="mb-2" style="width: 100px;">
-      <p class="text-center small m-0">ラ・アトレ恵比寿グランガーデン</p>
+      <p class="text-center small m-0" style="font-family: serif;">L'attrait Ebisu Grand Garden</p>
     </div>
   </a>
 </div>
