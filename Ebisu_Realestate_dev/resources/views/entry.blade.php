@@ -50,9 +50,9 @@
           <td></td>
           <td>
             <div><input type="text">年 <input type="text">月 <input type="text">日</div>
-            <p>*半角英数字で入力してください</p>
+            <p>※半角英数字で入力してください</p>
             <div><input type="text"></div>
-            <p>*確認のためもう一度ご入力ください</p>
+            <p>※確認のためもう一度ご入力ください</p>
             <div><input type="text"></div>
           </td>
         </tr>
@@ -80,7 +80,7 @@
           <td style="width: 65%;">
             <div>
               <input type="text"> - <input type="text">
-              <p>*半角数字で入力してください</p>
+              <p>※半角数字で入力してください</p>
             </div>
             <div>
               <select>
@@ -106,7 +106,7 @@
           <td></td>
           <td>
             <input type="text">
-            <p>*半角数字で入力してください</p>
+            <p>※半角数字で入力してください</p>
           </td>
         </tr>
         <tr>
@@ -259,6 +259,7 @@
         </tr>
       </tbody>
     </table>
+    <button>入力内容の確認</button>
     <div>
       <label for="name"><span class="badge badge-danger">必須</span></label>
       <input type="checkbox">個人情報の取り扱いについて同意の方はチェックを入れてください。

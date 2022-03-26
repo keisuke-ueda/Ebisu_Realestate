@@ -7,7 +7,7 @@
     <h1 class="p-title gold-title center-block text-center">OUTLINE</h1>
     <p class="p-title center-block text-center h3">物件概要</p>
     <div class="main-content row">
-        <table class="gold_table mt-5 mb-3 animation">
+        <table class="gold_table mt-5 mb-5 animation">
             <tbody>
                 <tr>
                     <th>【全体物件概要】</th>
@@ -126,9 +126,13 @@
                         （公社）首都圏不動産公正取引協議会加盟 ■第1期販売概要
                     </td>
                 </tr>
+            </tbody>
+        </table>
+        <table class="gold_table mt-5 mb-3 animation">
+            <tbody>
 
                 <tr>
-                    <th style="padding-top: 50px;">【第一期販売概要】</th>
+                    <th>【第一期販売概要】</th>
                 </tr>
                 <tr>
                     <th>販売戸数</th>
