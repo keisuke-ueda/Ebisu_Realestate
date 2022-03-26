@@ -35,6 +35,13 @@
     <!-- 各ページの内容 -->
     @yield('content')
 
+    <!-- トップへ戻るボタン -->
+    <div class="w-100 d-flex justify-content-center">
+        <a href="/" class="d-inline-block mx-auto my-0 text-dark" style="text-decoration: none;">
+            <p class="text-center"><span class="arrow-top d-inline-block mb-1">∧</span><br>TOPへ戻る</p>
+        </a>
+    </div>
+
     <!-- フッター -->
     @include('footer')
     </div>

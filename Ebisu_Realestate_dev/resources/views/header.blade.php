@@ -11,7 +11,7 @@
     <div class="header_links d-flex justify-content-between align-items-center col-10">
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/concept" style="pointer-events:none;">EBISU</a>
+        <a href="/concept">EBISU</a>
       </div>
       <div class="header_link ms-3">
         <div>&nbsp;</div>
