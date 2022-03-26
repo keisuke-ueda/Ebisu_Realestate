@@ -13,17 +13,15 @@
 
 <body>
     <div class="container" style="padding-top: 100px;">
-        <h1 class="p-title">お住まいのアンケート</h1>
-        <p>画像で対応</p>
-        <img class="w-100" src="{{ asset('/images/access_info.png') }}" alt="アクセス情報">
+        <h1 class="p-title text-center">お住まいのアンケート</h1>
+        <img class="center-block" src="{{ asset('/images/お住まいアンケート1.png') }}">
         <p class="text-center mt-5 mb-5">この度、目黒区・渋谷区・港区・品川区を中心とするエリアで、LAホールディングスグループの<br>
             株式会社ラ・アトレが分譲マンションの計画を検討しています。<br>
             そこで、、今後の商品・販売計画の参考に資するべく当アンケートを企画させていただきました。<br>
             つきましては、目黒区三田・渋谷区恵比寿・港区白金台・品川区上大崎にお住いの皆様の<br>
             様々なご意見をお聞かせいただければ幸いです。
         </p>
-        <p>画像で対応</p>
-        <img class="w-100" src="{{ asset('/images/access_info.png') }}" alt="アクセス情報">
+        <img class="center-block w-50" src="{{ asset('/images/お住まいのアンケート2.png') }}">
         
         <p>下記のフォームに必要な項目を入力のうえ、「送信」ボタンを押してください。</p>
         <p><span class="badge badge-danger">必須</span>は必須項目です</p>
@@ -363,398 +361,58 @@
                         </div>
                     </div>
 
-                    <div class="mt-5">7.世帯主様の職業は何でしょうか？</p>
+                    <div class="mt-5">7.世帯主様の職業は何でしょうか。<input type="text"></p></div>
+
+                    <div class="mt-5">8.世帯主様の通勤手段は何でしょうか。<input type="text"></p></div>
+
+                    <div class="mt-5">9.現在のお住まいで所有している自家用車の台数と車種をお聞かせ下さい。</p>
+                        <p>［台   数］<input type="text">台数    ［車   種］<input type="text"></p>
+                    </div>
+
+                    <div class="mt-5">10.</p>
+                        <p>［世帯主様］<input type="text">万円</p>
+                        <p>［配偶者様］<input type="text">万円    ［全    体］<input type="text"></p>
+                    </div>
+
+                    <div class="mt-5">11.目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。</p>
                         <div>
-                            <input type="text">
+                            <input type="checkbox">ある<br>
+                            <input type="checkbox">ない
                         </div>
                     </div>
 
+                    <div class="mt-5">12.現在の住宅から買い替え予定はありますか。</p>
+                        <div>
+                            <input type="checkbox">ある<input type="text"><br>
+                            <input type="checkbox">ない
+                        </div>
+                    </div>
 
-
-
-
-
-
-
-                </div>
-
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <table>
-
-                    
-
-                        <tr>
-                        <td><label for="name"><span class="badge">　　</span>ご年収</label></td>
-                        <td></td>
-                        <td>
-                            <select>
-                            <option value="">選択</option>
-                            <option value="">300万円未満</option>
-                            <option value="">300万〜400万円</option>
-                            <option value="">401万〜500万円</option>
-                            <option value="">501万〜600万円</option>
-                            <option value="">601万〜700万円</option>
-                            <option value="">701万〜800万円</option>
-                            <option value="">801万〜900万円</option>
-                            <option value="">901万〜1000万円</option>
-                            <option value="">1000万円以上</option>
-                            </select>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td><label for="name"><span class="badge">　　</span>自己資金</label></td>
-                        <td></td>
-                        <td>
-                            <select>
-                            <option value="">選択</option>
-                            <option value="">500万円未満</option>
-                            <option value="">501万〜600万円</option>
-                            <option value="">601万〜700万円</option>
-                            <option value="">701万〜800万円</option>
-                            <option value="">801万〜900万円</option>
-                            <option value="">901万〜1000万円</option>
-                            <option value="">1000万円以上</option>
-                            </select>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td><label for="name"><span class="badge">　　</span>ご購入の目的</label></td>
-                        <td></td>
-                        <td>
-                            <select>
-                            <option value="">選択</option>
-                            <option value="">家賃の無駄</option>
-                            <option value="">狭い</option>
-                            <option value="">古い</option>
-                            <option value="">環境が悪い</option>
-                            <option value="">不便（通勤・通学・買い物）</option>
-                            <option value="">転勤のため</option>
-                            <option value="">結婚・世帯分離</option>
-                            <option value="">老後のため</option>
-                            <option value="">セカンドハウス</option>
-                            <option value="">その他</option>
-                            </select>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td><label for="name"><span class="badge">　　</span>現在のお住まい(住居形態)</label></td>
-                        <td></td>
-                        <td>
-                            <select>
-                            <option value="">選択</option>
-                            <option value="">マンション（賃貸）</option>
-                            <option value="">マンション（分譲賃貸）</option>
-                            <option value="">マンション（持家）</option>
-                            <option value="">戸建（持家）</option>
-                            <option value="">戸建（借家）</option>
-                            <option value="">社宅・官舎</option>
-                            <option value="">実家</option>
-                            <option value="">その他</option>
-                            </select>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td><label for="name"><span class="badge">　　</span>ご家族人数</label></td>
-                        <td></td>
-                        <td><input type="text">人</td>
-                        </tr>
-                        <tr>
-                        <td><label for="name"><span class="badge">　　</span>ご希望条件(面積)</label></td>
-                        <td></td>
-                        <td>
-                            <select>
-                            <option value="">選択</option>
-                            <option value="">〜50m&sup2;</option>
-                            <option value="">〜55m&sup2;</option>
-                            <option value="">〜60m&sup2;</option>
-                            <option value="">〜65m&sup2;</option>
-                            <option value="">〜70m&sup2;</option>
-                            <option value="">〜75m&sup2;</option>
-                            <option value="">〜80m&sup2;</option>
-                            <option value="">〜85m&sup2;</option>
-                            <option value="">90m&sup2;以上</option>
-                            </select>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td><label for="name"><span class="badge">　　</span>ご希望条件(間取り)</label></td>
-                        <td></td>
-                        <td>
-                            <div><input type="checkbox">1LDK</div>
-                            <div><input type="checkbox">2LDK</div>
-                            <div><input type="checkbox">3LDK</div>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td><label for="name"><span class="badge badge-danger">必須</span>ご希望条件(価格帯)</label></td>
-                        <td></td>
-                        <td>
-                            <select>
-                            <option value="">選択</option>
-                            <option value="">〜8,000万円</option>
-                            <option value="">〜1億円</option>
-                            <option value="">〜1億2,000万円</option>
-                            <option value="">〜1億5,000万円</option>
-                            <option value="">〜1億8,000万円</option>
-                            <option value="">〜2億円</option>
-                            <option value="">〜1億円以上</option>
-                            </select>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td><label for="name"><span class="badge badge-danger">必須</span>このHPをどこでお知りになりましたか？</label></td>
-                        <td></td>
-                        <td>
-                            <div><input type="radio">ラ・アトレホームページ</div>
-                            <div><input type="radio">ダイレクトメール</div>
-                            <div><input type="radio">ご紹介</div>
-                            <div><input type="radio">その他</div>
-                        </td>
-                        </tr>
-                    </table>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            @csrf
-                <div class="mfp_phase" summary="個人情報">
-                    <div class="mailfield">
-                        <dl class="mailform">
-
-
-
-                            <dt class="row">
-                                <p class="col"><span class="badge badge-danger">必須</span>性別</p>
-                                <div class="col">
-                                    <p><input type="radio" name="ご希望の広さ" value="100m2未満" /> 男性</p>
-                                    <p><input type="radio" name="ご希望の広さ" value="～150m2" /> 女性</p>
-                                </div>
-                            </dt>
-
-                            <dt class="row">
-                                <p class="col"><span class="badge badge-danger">必須</span>ご住所</p>
-                                <div class="col">
-                                    <p>郵便番号<span class="badge badge-danger">必須</span><input type="number" name="郵便番号1" size="4" maxlength="3" required> － <input type="number" name="郵便番号2" size="5" maxlength="4" onKeyUp="AjaxZip3.zip2addr('郵便番号1','郵便番号2','都道府県','市区町村');" required="required"></p>
-                                    <p class="small">※半角数字で入力して下さい。</p>
-                                    <p>都道府県<input type="text" name="都道府県" required="required"></p>
-                                    
-
-
-
-
-
-                                </div>
-                            </dt>
-
-
-
-
-                            <dt class="row">必 郵便番号</dt>
-                            <dd>
-                            
-                            <p>※郵便番号を入力いただくと自動的に住所が入力されます。</p>
-                            </dd>
-                        
-                            <dt class="row">必 住所</dt>
-                            <dd>
-                                <ol>
-                                    <li>
-                                        都道府県
-                                        <input type="text" name="都道府県" required="required">
-                                    </li>
-                                    <li>
-                                        <span>市区町村　  <input type="text" name="市区町村" required="required">
-                                    </li>
-                                    <li>
-                                        <span>丁目番地　  <input type="text" name="丁目番地" required="required"/>
-                                    </li>
-                                    <li>
-                                        <span>建物名など  <input type="text" name="建物名など"/>
-                                    </li>
-                                </ol>
-                            </dd>
-                            <dt class="row">電話番号</dt>
-                            <dd>
-                                <input type="tel" data-type="tel" name="電話番号"/>
-                            </dd>                           
-                            <dt class="row">必 メール<br>
-                                アドレス
-                            </dt>
-
-
-
-
-                            <dt class="row">ご家族数</dt>
-                            <dd><input type="text" name="ご家族数" size="5" /> 人</dd>
-                    
-
-
-
-
-
-
-
-
-                            <dd>
-                                <input type="email" data-type="email" data-parent="mailfield" name="email" id="email" required/>
-                                <p>※ 確認のためもう一度ご入力ください</p>
-                                <input type="email" data-type="email" data-parent="mailfield" name="confirm_email" id="confirm_email" required/>
-                            </dd>
-
-                            <div>
-                                <input type="checkbox">
-                                <label for="tab-one">アンケートにご協力お願いいたします。</label>
-
-                                <div>
-                                    <p>■ご希望の物件についてお聞かせください。</p>    
-                                    <dt class="row">（複数回答可）</dt>
-                                    <dd>
-                                        <ul>
-                                            <li><label><input type="checkbox" name="ご希望の物件" value="神宮ハイツ 504号室" /> 神宮ハイツ 504号室</label></li>
-                                            <li><label><input type="checkbox" name="ご希望の物件" value="クリスタルコート鳥居坂 403号室" /> クリスタルコート鳥居坂 403号室</label></li>
-                                            <li><label><input type="checkbox" name="ご希望の物件" value="パークマンション白金台サンク 501号室" /> パークマンション白金台サンク 501号室</label></li>
-                                            <li><label><input type="checkbox" name="ご希望の物件" value="赤坂アーバンライフ 305号室" /> 赤坂アーバンライフ 305号室</label></li>
-                                            <li><label><input type="checkbox" name="ご希望の物件" value="ハイ・トリオ赤坂八丁目 106号室" /> ハイ・トリオ赤坂八丁目 106号室</label></li>
-                                            <li><label><input type="checkbox" name="ご希望の物件" value="マノー乃木坂 803号室" /> マノー乃木坂 803号室</label></li>
-                                            <li><label><input type="checkbox" name="ご希望の物件" value="シャトー東洋南青山 202号室" /> シャトー東洋南青山 202号室</label></li>
-                                            <li><label><input type="checkbox" name="ご希望の物件" value="シャトー東洋南青山 414号室" /> シャトー東洋南青山 414号室</label></li>		
-                                        </ul>
-                                    </dd>
-
-                                    <p>■ご希望の間取りと広さとご予算についてお聞かせください。</p>    
-                                    <dt class="row">広さについて</dt>
-                                    <dd>
-                                        <ul>
-                                            <li><label><input type="radio" name="ご希望の広さ" value="100m2未満" /> 100m<sup>2</sup>未満</label></li>
-                                            <li><label><input type="radio" name="ご希望の広さ" value="～150m2" /> ～150m<sup>2</sup></label></li>
-                                            <li><label><input type="radio" name="ご希望の広さ" value="～200m2" /> ～200m<sup>2</sup></label></li>
-                                            <li><label><input type="radio" name="ご希望の広さ" value="200m2以上" /> 200m<sup>2</sup>以上</label></li>
-                                        </ul>
-                                    </dd>
-                                                
-                                    <dt class="row">ご予算について</dt>
-                                    <dd>
-                                        <ul>
-                                            <li><label><input type="radio" name="ご予算" value="1億円未満" /> 1億円未満</label></li>
-                                            <li><label><input type="radio" name="ご予算" value="～1億5千万円" /> ～1億5千万円</label></li>
-                                            <li><label><input type="radio" name="ご予算" value="～2億円" /> ～2億円</label></li>
-                                            <li><label><input type="radio" name="ご予算" value="～2億5千万円" /> ～2億5千万円</label></li>
-                                            <li><label><input type="radio" name="ご予算" value="～3億円" /> ～3億円</label></li>
-                                            <li><label><input type="radio" name="ご予算" value="3億円以上" /> 3億円以上</label></li>
-                                        </ul>
-                                    </dd>
-
-                                    <dt class="row">間取りについて</dt>
-                                    <dd>
-                                        <ul>
-                                            <li><label><input type="radio" name="間取りについて" value="2LDK" /> 2LDK</label></li>
-                                            <li><label><input type="radio" name="間取りについて" value="3LDK" /> 3LDK</label></li>
-                                            <li><label><input type="radio" name="間取りについて" value="4LDK" /> 4LDK</label></li>
-                                            <li><label><input type="radio" name="間取りについて" value="それ以上" />それ以上</label></li>
-                                        </ul>
-                                    </dd>
-
-                                    <p>■現地モデルルームで実際のお部屋をご覧になれますがご参加の希望をお聞かせください。</p>    
-                                    <dt class="row"></dt>
-                                    <dd>
-                                        <ul>
-                                            <li><label><input type="radio" name="現地案内会予定" value="内覧したい" /> 内覧したい</label></li>
-                                            <li><label><input type="radio" name="現地案内会予定" value="どちらか迷っている" /> どちらか迷っている</label></li>
-                                            <li><label><input type="radio" name="現地案内会予定" value="資料を見てから参加したい" /> 資料を見てから内覧したい</label></li>
-                                        </ul>
-                                    </dd>
-
-                                    <p>■本物件を何で知りましたか？</p>    
-                                    <dt class="row">（複数回答可）</dt>
-                                    <dd>
-                                        <ul>
-                                            <p>新聞折込</p>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="朝日新聞" />朝日新聞</label></li>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="読売新聞" />読売新聞</label></li>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="日経新聞" />日経新聞</label></li>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="産経新聞" />産経新聞</label></li>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="東京新聞" />東京新聞</label></li>
-                                            <p>ポータルサイト</p>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="SUUMO" />SUUMO</label></li>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="Yahoo!不動産" />Yahoo!不動産</label></li>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="athome" />athome</label></li>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="Home’s" />Home’s</label></li>
-                                            <p>交通広告</p>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="駅貼ポスター" />駅貼ポスター</label></li>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="車内広告" />車内広告</label></li>
-                                            <p>他媒体</p>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="現地看板" />現地看板</label></li>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="ポスティングチラシ" />ポスティングチラシ</label></li>
-                                            <li><label><input type="checkbox" name="本物件を何で知りましたか？" value="その他" />その他（ <input class="nyuryoku02" type="text" name="本物件を何で知りましたか？-その他" id="route_area" /> ）</label></li>
-                                        </ul>
-                                    </dd>
-                                </div>
-                            </div>
-
-                            <dt class="row">必 個人情報保護方針の確認 </dt>
-                            <dd >個人情報保護方針の確認<br>
-                                <label><input type="checkbox"  required="required" data-exc="1" name="個人情報保護方針" value="確認済み" /> 
-                                <a href="http://www.lattrait.co.jp/privacy.html" target="_blank">個人情報保護方針</a>を確認したらチェックを入れてください。</label>
-                            </dd>
-                        
-                            <div> 
-                                <script type="text/javascript" src="//seal.globalsign.com/SiteSeal/gmogs_image_115-57_ja.js" defer></script>
-                            </div>
-                            
-                            <div>
-                                <button type="reset">リセット</button>&nbsp;&nbsp;<button type="submit" id="q_post" data-disabled="入力内容にエラーがあります">送信する</button>
-                            </div>
-                        </dl>
+                    <div class="mt-5">13.現在の住宅購入をする場合の予算はどのぐらいですか。</p>
+                        <div>
+                            <input type="text">万円
+                        </div>
                     </div>
                 </div>
+
+                <p>アンケートにご協力いただき、誠にありがとうございました。</p>
+                
+                <button>入力内容の確認</button>
+
             </form>
+
+        </div>
+
+        <div class="border mt-5 mb-5">
+            <p class="p-3">【アンケートご回答者様からご提供いただいた個人情報の取り扱いについて】<br>
+                ※本アンケートは市場調査(商品企画)に反映するために企画したものです。<br>
+                ※ご回答内容につきましては、ご回答を集計処理・保管をいたしますので、皆様にご迷惑をおかけすることは一切ございませんことを、確約させていただきます。<br>
+                忌憚のないご意見を頂戴できましたら、幸いでございます。<br>
+                ※ご提供いただきました個人情報については、アンケート謝礼送付、本エリアでの物件情報をお送りするために利用いたします。<br>
+                ※当社は、「個人情報の保護に関する法令、国が定める指針」その他の規範を尊重・遵守し、個人情報の適正な取り扱いと保護に努めます。<br>
+                当社の「個人情報保護方針」につきましては、https://lattrait.co.jp/privacy/をご覧ください。<br>
+                <調査主体・調査実施>株式会社ラ・アトレ<アンケート集計・調査分析>株式会社アドバンスクリエイティブ
+            </p>
         </div>
     </div>
 </body>
