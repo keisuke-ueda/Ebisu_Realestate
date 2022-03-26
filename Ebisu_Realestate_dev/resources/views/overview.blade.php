@@ -196,7 +196,6 @@
         ※掲載の環境写真は、令和4年3月に撮影したものです。
         </p>
     </div>
-    <p class="center-block text-center">TOPへ戻る</p>
 </div>
 
 

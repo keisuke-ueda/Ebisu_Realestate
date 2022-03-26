@@ -1,14 +1,14 @@
-@extends('layout2')
+@extends('layout')
 
 @section('content')
 
 
 <!-- 開発対象 -->
 <!-- 背景色、テキスト一時的に調整 -->
-<div class="main-content container">
-    <img  class="d-block mx-auto center-block" src="{{ asset('/images/渋谷2.png') }}">
 
-        <div class="center-block">
+<img  class="d-block w-100 center-block" src="{{ asset('/images/ACCESS_1.png') }}">
+<div class="main-content container">
+        <!-- <div class="center-block">
             <table>
                 <tr>
                     <td>JR山手線・埼京線<br>
@@ -32,20 +32,20 @@
                     <td></td>
                 </tr>
             </table>
-        </div>
+        </div> -->
 
 <!-- 路線図 -->
     <div class="row mt-5 mb-5 animation"> 
-        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/渋谷2.png') }}">
-        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/六本木2.png') }}">
-        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/渋谷2.png') }}">
-        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/渋谷2.png') }}">
+        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/ACCESS_4.png') }}">
+        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/ACCESS_3.png') }}">
+        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/ACCESS_5.png') }}">
+        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/ACCESS_6.png') }}">
     </div>
 
     <!-- 路線情報 -->
     <div class="row mt-5 mb-5 animation">
         <div class="col-6">
-            <img  class="img-thumbnail" src="{{ asset('/images/路線図.jpg') }}">
+            <img  class="img-thumbnail" src="{{ asset('/images/ACCESS_2.png') }}">
             <br>
             <br>
             <br>
@@ -148,7 +148,7 @@
         
     <!-- タクシー写真 -->
     <div class="row mt-5 mb-5 animation">
-        <img class="col-3" src="{{ asset('/images/仮1.jpg') }}">
+        <img class="col-3" src="{{ asset('/images/ACCESS_7.png') }}">
         <div class="col-9">
         <table>
             <tr>
@@ -208,8 +208,6 @@
         </p>
         </div>
     </div>
-
-    <p class="center-block text-center">TOPへ戻る</p>
 
 </div>
 
