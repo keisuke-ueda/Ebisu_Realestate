@@ -57,7 +57,7 @@
           </td>
         </tr>
         <tr>
-          <th style="width: 22%;"><label for="name"><span class="badge badge-danger">必須</span>ご住所</label></td>
+          <th style="width: 22%;"><label for="name"><span class="badge badge-danger">必須</span>ご住所</label></th>
           <td>
             <div class="d-flex flex-column justify-content-between">
               <div>
