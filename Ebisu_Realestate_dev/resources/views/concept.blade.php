@@ -59,5 +59,7 @@
     </div>
 </div>
 
+削除して
+
 
 @endsection
