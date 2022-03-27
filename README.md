@@ -161,3 +161,6 @@ Class名-開始タイミング[s]-方向または拡縮
 ・animation-1-zm
 ・animation-2-zm
 
+# hover animation
+ホバーアニメーション
+・mh-partsD
