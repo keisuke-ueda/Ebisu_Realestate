@@ -22,7 +22,7 @@
         </div>
 
        <p>所在地：東京都目黒区三田1丁目1-16</p>
-       <button>Google Mapで開く</button><button>印刷する</button>
+       <button class="mh-parts">Google Mapで開く</button><button class="mh-parts">印刷する</button>
 
        <p>印刷ボタンの画像</p>
        <img class="center-block" src="{{ asset('/images/map_3.png') }}">

@@ -111,7 +111,7 @@
                         <div class="row">
                             <p class="col-2"></p>
                             <form action="/questionnaire" method="GET">
-                                <button type="submit" class="col-8 gold_btn p-2" ><span class="h3 text-white">アンケートはこちら</span></button>
+                                <button type="submit" class="col-8 gold_btn p-2 mh-parts" ><span class="h3 text-white">アンケートはこちら</span></button>
                             </form>
                             <p class="col-2"></p>
                         <br>
@@ -166,7 +166,7 @@
                     </p>
                     <div class="gold_line w-50 mb-4"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2 bottom-0" type="button">
-                        <a href="/concept" class="h3 text-white" style="text-decoration: none;">Read More</a>
+                        <a href="/concept" class="h3 text-white mh-parts" style="text-decoration: none;">Read More</a>
                     </button>
                 </div>
             </div>
@@ -183,7 +183,7 @@
                     </p>
                     <div class="gold_line w-50 mb-4"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button">
-                        <a href="/location" class="h3 text-white" style="text-decoration: none; pointer-events:none;">Read More</a>
+                        <a href="/location" class="h3 text-white mh-parts" style="text-decoration: none; pointer-events:none;">Read More</a>
                     </button>
                 </div>
                 <div class="col-4 d-flex flex-column justify-content-between">
@@ -210,7 +210,7 @@
                     </p>
                     <div class="gold_line w-50 mb-4"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button">
-                        <a href="/access" class="h3 text-white" style="text-decoration: none;">Read More</a>
+                        <a href="/access" class="h3 text-white mh-parts" style="text-decoration: none;">Read More</a>
                     </button>
                 </div>
             </div>
@@ -227,7 +227,7 @@
                     </p>
                     <div class="gold_line w-50 mb-4"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button">
-                        <a href="/design" class="h3 text-white" style="text-decoration:none; pointer-events:none;">Read More</a>
+                        <a href="/design" class="h3 text-white mh-parts" style="text-decoration:none; pointer-events:none;">Read More</a>
                     </button>
                     <img src="{{ asset('/images/デザイン1.png') }}" alt="サンプル画像" class="mt-4 mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
@@ -250,7 +250,7 @@
                     </p>
                     <div class="gold_line w-50 mb-4"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button">
-                        <a href="/plan" class="h3 text-white" style="text-decoration:none; pointer-events:none;">Read More</a>
+                        <a href="/plan" class="h3 text-white mh-parts" style="text-decoration:none; pointer-events:none;">Read More</a>
                     </button>
                 </div>
             </div>
@@ -268,7 +268,7 @@
             <div class="animation my-5">
                 <div class="row mt-3 mb-3">
                     <button class="col-3 mx-auto d-block copper_btn py-2" type="button">
-                        <a href="/entry" class="h3 text-white" style="text-decoration: none;">物件エントリー受付中</a>
+                        <a href="/entry" class="h3 text-white mh-parts" style="text-decoration: none;">物件エントリー受付中</a>
                     </button>
                 </div>
                 <div class="row  mt-3">

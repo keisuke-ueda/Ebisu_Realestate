@@ -397,7 +397,7 @@
 
                 <p>アンケートにご協力いただき、誠にありがとうございました。</p>
                 
-                <button>入力内容の確認</button>
+                <button class="mh-parts">入力内容の確認</button>
 
             </form>
 

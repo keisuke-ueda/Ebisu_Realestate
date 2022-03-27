@@ -304,3 +304,16 @@ input, select {
 .arrow-top { 
   transform: scale(4, 2);
 }
+
+
+/* マウスホバー */
+.mh-parts {
+	display: inline-block;
+	transition: all .3s ease 0s;
+	text-decoration: none;
+}
+
+.mh-parts:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}

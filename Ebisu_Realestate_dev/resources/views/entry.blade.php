@@ -259,7 +259,7 @@
         </tr>
       </tbody>
     </table>
-    <button>入力内容の確認</button>
+    <button class="mh-parts">入力内容の確認</button>
     <div>
       <label for="name"><span class="badge badge-danger">必須</span></label>
       <input type="checkbox">個人情報の取り扱いについて同意の方はチェックを入れてください。
