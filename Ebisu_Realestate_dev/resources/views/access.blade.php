@@ -11,10 +11,10 @@
 
     <!-- 路線図 -->
     <div class="row animation"> 
-        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/ACCESS_4.png') }}">
-        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/ACCESS_3.png') }}">
-        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/ACCESS_5.png') }}">
-        <img  class="col-3 d-block mx-auto" src="{{ asset('/images/ACCESS_6.png') }}">
+        <img  class="col-3 d-block mx-auto animation-0-zm" src="{{ asset('/images/ACCESS_4.png') }}">
+        <img  class="col-3 d-block mx-auto animation-0-zm" src="{{ asset('/images/ACCESS_3.png') }}">
+        <img  class="col-3 d-block mx-auto animation-1-zm" src="{{ asset('/images/ACCESS_5.png') }}">
+        <img  class="col-3 d-block mx-auto animation-1-zm" src="{{ asset('/images/ACCESS_6.png') }}">
     </div>
 
     <div class="row mt-5 animation"> 
@@ -23,8 +23,8 @@
     </div>
 
     <!-- 路線情報 -->
-    <div class="row mt-3 animation">
-        <div class="col-6 d-flex flex-column justify-content-between">
+    <div class="row mt-3">
+        <div class="col-6 d-flex flex-column justify-content-between animation-0-zm">
             <img class="w-100" src="{{ asset('/images/ACCESS_2.png') }}">
             <p class="font-11">※各駅への所要時間はJR線「恵比寿」駅発、東京メトロ日比谷線「恵比寿」駅発、また東京メトロ南北線・<br>
                 都営三田線「目黒」駅発の所要時間は日中平常時、平日の13時台及び(  )内は通勤時8時台の<br>
@@ -36,7 +36,7 @@
                 ※掲載の情報は、令和4年3月現在によるもので変更になる場合があります。
             </p>
         </div>
-        <div class="col-6 small">
+        <div class="col-6 small animation">
             <p class="font-11">「ラ・アトレ恵比寿グランガーデン」は、JR山手線・埼京線・湘南新宿ライン「恵比寿」駅徒歩11分の3路線、<br>
                 東京メトロ日比谷線「恵比寿」駅徒歩13分の1路線、JR山手線・都営地下鉄三田線・東京メトロ南北線・<br>
                 東急目黒線「目黒」駅徒歩13分の4路線が利用でき、都心の主要エリアへダイレクトアクセスが可能です。
@@ -122,10 +122,10 @@
         
     <!-- タクシー情報 -->
     <div class="row mt-3 mb-3 animation">
-        <div class="col-4 d-flex align-items-center">
+        <div class="col-4 d-flex align-items-center animation-0-zm">
             <img class="w-100" src="{{ asset('/images/ACCESS_7.png') }}">
         </div>
-        <div class="col-8 small">
+        <div class="col-8 small animation">
             <table class="taxi_table mb-3 text-center">
                 <tr class="border-bottom">
                     <td></td>

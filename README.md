@@ -51,7 +51,6 @@
 # 調整課題
 ## 全体
 ・フォントのパーツ作り-上田
-・アニメーションのパーツづくり-上田
 
 ## TOP
 ・四つの四角の枠の内容
@@ -160,4 +159,8 @@ Class名-開始タイミング[s]-方向または拡縮
 ・animation-0-zm
 ・animation-1-zm
 ・animation-2-zm
+
+# hover animation
+ホバーアニメーション
+・mh-parts
 
