@@ -1,4 +1,4 @@
-@extends('layout2')
+@extends('layout')
 
 @section('content')
 
@@ -12,7 +12,7 @@
             <img class="w-100" src="{{ asset('/images/Ebisu_2.png') }}">
             </div>
             <!-- <img class="col-6 animation-1-zm" src="{{ asset('/images/Ebisu_2.png') }}"> -->
-            <div class="col-4 animation text-white d-flex flex-column justify-content-between align-items-center ft2" style="background-color: #3c3939; padding: 60px 20px;">
+            <div class="text-white col-4 animation d-flex flex-column justify-content-between align-items-center ft2" style="background-color: #3c3939; padding: 60px 20px;">
                 <p><span class="gold h5">緑も豊かな「恵比寿ガーデンプレイス」<br>
                     「ウエスティンホテル東京」に隣接。</span></p>
                 <p class="small">先進的な都市の表情が洗練されたセンスが集う街、恵比寿。<br>
@@ -25,7 +25,7 @@
             <p class="col-1"></p>
         </div>
 
-        <div class="row mt-5">
+        <div class="row mt-5 ft2">
             <p class="col-1"></p>
             <img  class="col-2 animation-0-zm" src="{{ asset('/images/ガーデンプレイス2.jpg') }}">
             <img  class="col-2 animation-0-zm" src="{{ asset('/images/ウエスティン2.jpg') }}">
@@ -35,7 +35,7 @@
             <p class="col-1"></p>
         </div>
 
-        <div class="row mt-5 mb-5 ft2">
+        <div class="row mt-2 mb-5">
             <p class="col-1"></p>
             <p class="col-2 small animation">「恵比寿ガーデンプレイス」(約260m・徒歩4分)</p>
             <p class="col-2 small animation">「ウエスティンホテル東京」(約300m・徒歩4分)</p>
@@ -47,7 +47,7 @@
 
         <div class="row bg-light mt-5 mb-5 ft2">
             <p class="col-1"></p>
-            <p class="col-4 pt-5 animationblack-50"><span class="gold h5">約26mの丘の上で上質な日常が始まる。</span><br><br>
+            <p class="col-4 pt-5 animation black-50"><span class="gold h5">約26mの丘の上で上質な日常が始まる。</span><br><br>
                 恵比寿の丘の上。<br>
                 都心でありながら、都心の喧騒を離れ、様々な安らぎと<br>
                 恵比寿、目黒の2駅を使いこなせる立地でありながら、<br>
