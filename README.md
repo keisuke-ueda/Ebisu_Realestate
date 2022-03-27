@@ -50,7 +50,6 @@
 
 # 調整課題
 ## 全体
-・フォントのパーツ作り-上田
 
 ## TOP
 ・四つの四角の枠の内容
@@ -92,6 +91,8 @@
 ・ボタンに画像反映
 ・印刷JS作成(phpでも可)-横田
 ・GooglemapのJS作成(phpでも可)-横田
+・ハンバーガーメニューの出現位置
+
 
 
 
@@ -165,3 +166,9 @@ Class名-開始タイミング[s]-方向または拡縮
 ホバーアニメーション
 ・mh-parts
 
+# フォントパーツ
+・ft1---"Roboto Thin"
+・ft2---"Noto Serif JP ExtraLight"
+・ft3---"Adobe Garamond Pro Regular"
+・ft4---"Adobe Garamond Pro Regular"
+・ft5---"小塚ゴシック Pr6N R"
