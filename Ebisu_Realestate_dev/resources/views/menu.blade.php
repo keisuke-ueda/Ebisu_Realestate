@@ -13,10 +13,7 @@
 
 <!-- ハンバーガーボタン -->
 <button class="menu-trigger menu_animation position-absolute top-0 end-0 mt-3 me-3">
-  menu
-  <!-- <span></span>
-  <span></span>
-  <span></span> -->
+  <img class="w-100" src="{{ asset('/images/menu_btn.png') }}" alt="メニューボタン">
 </button>
 
 <!-- メニュー -->
