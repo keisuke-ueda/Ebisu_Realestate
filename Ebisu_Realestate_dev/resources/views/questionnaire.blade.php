@@ -37,16 +37,16 @@
                             <td><label for="name"><span class="badge badge-danger">必須</span>お名前</label></td>
                             <td></td>
                             <td>
-                                <input type="text" name="姓" data-kana="セイ" placeholder="姓" required>
-                                <input type="text" name="名" data-kana="メイ" placeholder="名" required>
+                                <input type="text" name="sei" data-kana="セイ" placeholder="姓" required>
+                                <input type="text" name="mei" data-kana="メイ" placeholder="名" required>
                             </td>
                         </tr>
                         <tr>
                             <td><label for="name"><span class="badge badge-danger">必須</span>フリガナ</label></td>
                             <td></td>
                             <td>
-                                <input type="text" name="セイ" data-charcheck="kana" placeholder="セイ" required>
-                                <input type="text" name="メイ" data-charcheck="kana" placeholder="メイ" required>
+                                <input type="text" name="sei_kana" data-charcheck="kana" placeholder="セイ" required>
+                                <input type="text" name="mei_kana" data-charcheck="kana" placeholder="メイ" required>
                             </td>
                         </tr>
                         <tr>
@@ -61,7 +61,7 @@
                             <td><label for="name"><span class="badge badge-danger">必須</span>ご家族人数</label></td>
                             <td></td>
                             <td>
-                                <div><input type="text" name="ご家族人数" required>人</div>
+                                <div><input type="text" name="family_size" required>人</div>
                             </td>
                         </tr>
                         <tr>
@@ -87,25 +87,25 @@
                             </td>
                             <td style="width: 65%;">
                                 <div>
-                                    <input type="text"> - <input type="text">
-                                    <p>※半角数字で入力してください</p>
+                                    <input type="text" name="post_code">
+                                    <p>※半角数字(ハイフンなし)で入力してください</p>
                                 </div>
                                 <div>
                                     <select>
                                         <option value="">選択</option>
                                         @foreach ($prefectures as $prefecture)
-                                        <option value="{{ $prefecture }}">{{$prefecture}}</option>
+                                        <option value="{{ $prefecture }}" name="home_prefectures">{{$prefecture}}</option>
                                         @endforeach
                                     </select>
                                 </div>
                                 <div>
-                                    <input type="text">
+                                    <input type="text" name="home_municipalities">
                                 </div>
                                 <div>
-                                    <input type="text">
+                                    <input type="text" name="home_chome_address">
                                 </div>
                                 <div>
-                                    <input type="text">
+                                    <input type="text" name="home_chome_address">
                                 </div>
                             </td>
                         </tr>
@@ -113,7 +113,7 @@
                             <td><label for="name"><span class="badge badge-danger">必須</span>現在のお住まいの年数</label></td>
                             <td></td>
                             <td>
-                                <div><input type="text" name="現在のお住まいの年数" required>年</div>
+                                <div><input type="text" name="years_of_residence" required>年</div>
                                 <p>※半角数字で入力してください</p>
                             </td>
                         </tr>
@@ -132,7 +132,7 @@
                             <td><label for="name"><span class="badge badge-danger">必須</span>電話番号</label></td>
                             <td></td>
                             <td>
-                                <input type="tel" data-type="tel" name="電話番号" placeholder="(例)03-0000-0000">
+                                <input type="tel" name="phone_number" data-type="tel" name="電話番号" placeholder="(例)00099998888">
                                 <p>※半角数字で入力してください</p>
                             </td>
                         </tr>
@@ -142,9 +142,9 @@
                             </td>
                             <td></td>
                             <td>
-                                <div><input type="text"></div>
+                                <div><input type="email" name="email"></div>
                                 <p>※確認のためもう一度ご入力ください</p>
-                                <div><input type="text"></div>
+                                <div><input type="text" name="confirm_email"></div>
                             </td>
                         </tr>
                         <tr>
@@ -189,10 +189,10 @@
                                     </select>
                                 </div>
                                 <div>
-                                    <input type="text">
+                                    <input type="text" required>
                                 </div>
                                 <div>
-                                    <input type="text">
+                                    <input type="text" required>
                                 </div>
                                 <div>
                                     <input type="text">

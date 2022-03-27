@@ -88,8 +88,65 @@ $(function(){
   // アンケートフォームの入力バリデーション
   $('.mailformpro').validate({
     rules: {
+      sei: {
+        required: [true, "苗字を"],
+      },
+      mei: {
+        required: [true, "名前を"],
+      },
+      sei_kana: {
+        required: [true, "苗字をカタカナで"],
+      },
+      mei_kana: {
+        required: [true, "名前をカタカナで"],
+      },
+      family_size: {
+        required: [true, "ご家族人数を"],
+        number: true,
+      },
+      home_post_code: {
+        required: [true, "郵便番号を"],
+        number: true,
+      },
+      home_prefectures: {
+        required: [true, "都道府県を"],
+      },
+      home_municipalities: {
+        required: [true, "市区町村を"],
+      },
+      home_chome_address: {
+        required: [true, "丁目番地を"],
+      },
+      years_of_residence: {
+        required: [true, "現在のお住いの年数を"],
+        number: true,
+      },
+      phone_number: {
+        required: [true, "電話番号を"],
+        number: true,
+      },
+      email: {
+        required: [true, "メールアドレスを"],
+        email: true,
+      },
+      office_name: {
+        required: [true, "勤務先名を"]
+      },
+      work_post_code: {
+        required: [true, "郵便番号を"],
+        number: true,
+      },
+      work_prefectures: {
+        required: [true, "都道府県を"],
+      },
+      work_municipalities: {
+        required: [true, "市区町村を"],
+      },
+      work_chome_address: {
+        required: [true, "丁目番地を"],
+      },
       confirm_email: {
-        equalTo: "#email"
+        equalTo: "[name=email]"
       }
     }
   });
@@ -104,8 +161,10 @@ $(function(){
   });
 
   $.extend($.validator.messages, {
-    required: '*必須',
-    equalTo: '*確認対象と一致しません'
+    required: "{1}入力してください。",
+    number: "半角数字で入力してください。",
+    email: "正しいメールアドレスを入力してください。",
+      equalTo: "違う値が入力されています。",
   });
 
   
