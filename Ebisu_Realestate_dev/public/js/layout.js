@@ -94,6 +94,15 @@ $(function(){
     }
   });
 
+  // エントリーフォームの入力バリデーション
+  $('.entry_form').validate({
+    // rules: {
+    //   confirm_email: {
+    //     equalTo: "#email"
+    //   }
+    // }
+  });
+
   $.extend($.validator.messages, {
     required: '*必須',
     equalTo: '*確認対象と一致しません'

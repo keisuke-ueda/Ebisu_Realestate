@@ -34,7 +34,7 @@
         <a href="/plan" style="pointer-events:none;">PLAN</a>
       </div>
       <div class="header_link ms-3">
-        <div><a href="/map" class="small" style="pointer-events:none;">>現地案内図</a></div>
+        <div><a href="/map" class="small">>現地案内図</a></div>
         <a href="/blanding" style="pointer-events:none;">BLANDING</a>
       </div>
       <div class="header_link ms-3">

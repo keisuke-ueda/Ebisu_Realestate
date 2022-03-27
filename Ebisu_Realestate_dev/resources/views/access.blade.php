@@ -130,51 +130,51 @@
                 <tr class="border-bottom">
                     <td></td>
                     <td></td>
-                    <td>距離</td>
+                    <td class="ps-4">距離</td>
                     <td>日中料金</td>
                     <td>所要時間</td>
                     <td>深夜料金</td>
-                    <td>所要時間</td>
+                    <td class="pe-4">所要時間</td>
                     <td>乗車場所</td>
                 </tr>
                 <tr class="border-bottom">
                     <td class="text-start"><span class="h5">品川駅</span>から</td>
-                    <td><span class="h5">SJINAGAWA</span></td>
-                    <td><span class="h5">3.9</span>km</td>
+                    <td><span class="h6">SJINAGAWA</span></td>
+                    <td><span class="h5 border-start ps-4">3.9</span>km</td>
                     <td><span class="h5">1,700</span>円</td>
                     <td><span class="h5">14</span>分</td>
                     <td><span class="h5">2,020</span>円</td>
-                    <td><span class="h5">14</span>分</td>
+                    <td><span class="h5">14</span>分<span class="h5 border-end pe-4"></span></td>
                     <td>(高輪口より乗車)</td>
                 </tr>
                 <tr class="border-bottom">
                     <td class="text-start"><span class="h5">六本木駅</span>から</td>
-                    <td><span class="h5">ROPPONGI</span></td>
-                    <td><span class="h5">3.5</span>km</td>
-                    <td><span class="h5">1,54</span>0円</td>
+                    <td><span class="h6">ROPPONGI</span></td>
+                    <td><span class="h5 border-start ps-4">3.5</span>km</td>
+                    <td><span class="h5">1,540</span>円</td>
                     <td><span class="h5">12</span>分</td>
                     <td><span class="h5">1,860</span>円</td>
-                    <td><span class="h5">12</span>分</td>
+                    <td><span class="h5">12</span>分<span class="h5 border-end pe-4"></span></td>
                     <td>(六本木交差点より乗車)</td>
                 </tr>
                 <tr class="border-bottom">
                     <td class="text-start"><span class="h5">銀座駅</span>から</td>
-                    <td><span class="h5">GINZA</span></td>
-                    <td><span class="h5">6.9</span>km</td>
+                    <td><span class="h6">GINZA</span></td>
+                    <td><span class="h5 border-start ps-4">6.9</span>km</td>
                     <td><span class="h5">2,980</span>円</td>
                     <td><span class="h5">24</span>分</td>
                     <td><span class="h5">3,540</span>円</td>
-                    <td><span class="h5">23</span>分</td>
+                    <td><span class="h5">23</span>分<span class="h5 border-end pe-4"></span></td>
                     <td>(銀座4丁目交差点より乗車)</td>
                 </tr>
                 <tr class="border-bottom">
                     <td class="text-start"><span class="h5">東京駅</span>から</td>
-                    <td><span class="h5">TOKYO</span></td>
-                    <td><span class="h5">7.9</span>km</td>
+                    <td><span class="h6">TOKYO</span></td>
+                    <td><span class="h5 border-start ps-4">7.9</span>km</td>
                     <td><span class="h5">3,380</span>円</td>
                     <td><span class="h5">26</span>分</td>
                     <td><span class="h5">4,020</span>円</td>
-                    <td><span class="h5">26</span>分</td>
+                    <td><span class="h5">26</span>分<span class="h5 border-end pe-4"></span></td>
                     <td>(丸ノ内南口より乗車)</td>
                 </tr>
             </table>

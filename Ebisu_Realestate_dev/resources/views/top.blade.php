@@ -183,7 +183,7 @@
                     </p>
                     <div class="gold_line w-50 mb-4"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button">
-                        <a href="/location" class="h3 text-white" style="text-decoration: none;">Read More</a>
+                        <a href="/location" class="h3 text-white" style="text-decoration: none; pointer-events:none;">Read More</a>
                     </button>
                 </div>
                 <div class="col-4 d-flex flex-column justify-content-between">
@@ -227,7 +227,7 @@
                     </p>
                     <div class="gold_line w-50 mb-4"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button">
-                        <a href="/design" class="h3 text-white" style="text-decoration: none;">Read More</a>
+                        <a href="/design" class="h3 text-white" style="text-decoration:none; pointer-events:none;">Read More</a>
                     </button>
                     <img src="{{ asset('/images/デザイン1.png') }}" alt="サンプル画像" class="mt-4 mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
@@ -250,7 +250,7 @@
                     </p>
                     <div class="gold_line w-50 mb-4"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button">
-                        <a href="/plan" class="h3 text-white" style="text-decoration: none;">Read More</a>
+                        <a href="/plan" class="h3 text-white" style="text-decoration:none; pointer-events:none;">Read More</a>
                     </button>
                 </div>
             </div>
@@ -258,7 +258,7 @@
             <div class="row my-5">
                 <p class="col-2"></p>
                 <div class="col-8">
-                    <a href="/blanding">
+                    <a href="/blanding" style="pointer-events:none;">
                     <img src="{{ asset('/images/TOP_7.png') }}">
                     </a>
                 </div>
