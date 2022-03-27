@@ -7,7 +7,6 @@
 <title>新たな価値を創造したプレミアムリノベーションマンション｜株式会社ラ・アトレ</title>
 
 @section('content')
-
 <body>
     <div class="container ft2">
         <h1 class="text-center mt-5 mb-5">現地案内図</h1>
@@ -28,5 +27,4 @@
        <img class="center-block" src="{{ asset('/images/map_3.png') }}">
        
 </body>
-
 @endsection
