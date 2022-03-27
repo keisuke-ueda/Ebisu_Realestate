@@ -4,25 +4,55 @@
 
 <!-- 開発対象 -->
 <div class="container text-white" style="padding-top: 100px;">
-    <h1 class="p-title text-white row">CONCEPT</h1>
     <div class="main-content">
-        <div class="row animation">
-            <img  class="col-4 d-block mx-auto" src="{{ asset('/images/logo-white.png') }}">
+        <div class="row mb-5">
+            <img  class="d-block mx-auto" src="{{ asset('/images/Ebisu_1.png') }}">
         </div>
 
-        <div class="row mt-3 mb-3 animation">
-            <p class="text-center text-warning h1">恵比寿、その聡明なる選択。</p>
-            <p class="text-center text-warning">It S pace w e s pecialize i n p roviding c ustomers w ith a w ide r ange o f t he m ost l uxurious a nd i .</p>
+        <div class="row mt-5 mb-5">
+            <p class="col-1"></p>
+            <img  class="col-5" src="{{ asset('/images/Ebisu_2.png') }}">
+            <div class="col-6">
+                <p><span class="gold h4">緑も豊かな「恵比寿ガーデンプレイス」<br>
+                    「ウエスティンホテル東京」に隣接。</span></p>
+                <p>先進的な都市の表情が洗練されたセンスが集う街、恵比寿。<br>
+                JR山手線・埼京線・湘南新宿ラインと東京メトロ日比谷線を利用できる高いアクセス性。<br>
+                時代の感性の最先端をいく流行のファッションやグルメが充実した駅ビル。<br>
+                そして、この街の象徴といえる恵比寿ガーデンプレイスとその街中の落ち着いたリズムと<br>
+                緩やかに流れる時間は、ここでしか感じることのできない上質なエリア。<br>
+                これこそが「恵比寿」という最高の魅力である。</p>
+            </div>
         </div>
-        
-        <div class="row mt-3 mb-3 animation">
-            <img  class="col-4 d-block mx-auto" src="{{ asset('/images/logo-white.png') }}">
+
+        <div class="row mt-5 mb-5">
+            <p class="col-1"></p>
+            <img  class="col-2" src="{{ asset('/images/ガーデンプレイス2.jpg') }}">
+            <img  class="col-2" src="{{ asset('/images/ウエスティン2.jpg') }}">
+            <img  class="col-2" src="{{ asset('/images/国立付属1.jpg') }}">
+            <img  class="col-2" src="{{ asset('/images/医療科学研究所.jpg') }}">
+            <img  class="col-2" src="{{ asset('/images/東急ストア.jpg') }}">
+            <p class="col-1"></p>
         </div>
-        
-        <div class="row mt-3 mb-3 animation">
-            <p class="text-center text-warning">恵比寿、それも「恵比寿ガーデンプレイス」、「ウェスティンホテル東京」を間近とする住宅地。</p>
-            <p class="text-center text-warning">その静謐なる佇まいは、そのまま住まわれる方の誇りとなる。多くを語らずとも、本物を知る人を魅了するレジデンス。</p>
-            <p class="text-center text-warning">「ラ・アトレ恵比寿グランガーデン」 ゆるぎなき矜持が此処にある。</p>
+
+        <div class="row mt-5 mb-5">
+            <p class="col-1"></p>
+            <p class="col-2 small">「恵比寿ガーデンプレイス」(約260m・徒歩4分)</p>
+            <p class="col-2 small">「ウエスティンホテル東京」(約300m・徒歩4分)</p>
+            <p class="col-2 small">「国立科学博物館付属 自然教育園」(約1000m・徒歩13分)</p>
+            <p class="col-2 small">「東京大学医療科学研究附属病院」(約630m・徒歩8分)</p>
+            <p class="col-2 small">「東急ストア目黒店」(約910m・徒歩12分)</p>
+            <p class="col-1"></p>
+        </div>
+
+        <div class="row bg-light mt-5 mb-5">
+            <p class="col-1"></p>
+            <p class="col-4 text-dark pt-5"><span class="gold h4">約26mの丘の上で上質な日常が始まる。</span><br><br>
+                恵比寿の丘の上。<br>
+                都心でありながら、都心の喧騒を離れ、様々な安らぎと<br>
+                恵比寿、目黒の2駅を使いこなせる立地でありながら、<br>
+                緩やかな時が流れる緑に囲まれた閑静な邸宅地。<br>
+                恵比寿の丘の上で優雅な日々がここから始まる。</p>
+            <img  class="col-7" src="{{ asset('/images/Ebisu_3.png') }}">
         </div>
     </div>
 </div>

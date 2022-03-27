@@ -56,3 +56,6 @@ Route::view('/questionnaire', 'questionnaire');
 
 // メール送信
 Route::post('/questionnaire_mail', [QuestionnaireController::class, 'send']);
+
+//現地案内
+Route::view('/map', 'map');
