@@ -72,6 +72,30 @@ $(function(){
       }
     });
 
+    // アニメーション-4
+    $('.animation-2-zm').each(function(){
+      //ターゲットの位置を取得
+      var target = $(this).offset().top;
+      //ターゲットの高さを取得
+      var target_height = $(this).height();
+      //スクロール量を取得
+      var scroll = $(window).scrollTop();
+      //ウィンドウの高さを取得
+      var window_height = $(window).height();
+
+      //ターゲットまでスクロールするとフェードインする
+      if (scroll > target - window_height){
+        $(this).addClass('active-2-zm');
+        // ターゲットを超えるとフェードアウトする
+        if (scroll > target + target_height){
+          $(this).removeClass('active-2-zm');
+        } 
+      } else {
+        // ターゲットまでスクロールしないとフェードインしない
+        $(this).removeClass('active-2-zm');
+      }
+    });
+
 
 
 

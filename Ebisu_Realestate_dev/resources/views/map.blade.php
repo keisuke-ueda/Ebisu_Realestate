@@ -11,12 +11,12 @@
 <body>
     <div class="container">
         <h1 class="text-center mt-5 mb-5">現地案内図</h1>
-        <div class="row mt-5 mb-5">
+        <div class="row mt-5 mb-5 animation-1-zm">
             <p>【広域地図】</p>
             <img class="center-block" src="{{ asset('/images/map_1.png') }}">
         </div>
 
-        <div class="row mt-5 mb-5">
+        <div class="row mt-5 mb-5 animation-1-zm">
             <p>【狭域地図】</p>
             <img class="center-block" src="{{ asset('/images/map_2.png') }}">
         </div>
