@@ -3,7 +3,7 @@
     <div class="header_title col-2 ps-3">
       <a href="/" class="text-white" style="text-decoration: none;">
         <div class="d-flex flex-column align-items-center">
-          <img src="{{ asset('/images/lattrait.png') }}" alt="ヘッダーロゴ" class="mb-2" style="width: 100px;">
+          <img src="{{ asset('/images/lattrait.png') }}" alt="ヘッダーロゴ" class="mb-2 mh-parts" style="width: 100px;">
           <p class="text-center small m-0">L'attrait Ebisu Grand Garden</p>
         </div>
       </a>
@@ -11,44 +11,44 @@
     <div class="header_links d-flex justify-content-between align-items-center col-10">
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/concept">EBISU</a>
+        <a href="/concept" class="mh-parts">EBISU</a>
       </div>
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/location" style="pointer-events:none;">LOCATION</a>
+        <a href="/location" style="pointer-events:none;" class="mh-parts">LOCATION</a>
       </div>
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/access">ACCESS</a>
+        <a href="/access" class="mh-parts">ACCESS</a>
       </div>
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/design" style="pointer-events:none;">DESIGN</a>
+        <a href="/design" style="pointer-events:none;" class="mh-parts">DESIGN</a>
       </div>
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/model_room" style="pointer-events:none;">MODEL ROOM</a>
+        <a href="/model_room" style="pointer-events:none;" class="mh-parts">MODEL ROOM</a>
       </div>
       <div class="header_link ms-3">
-        <div><a href="/overview" class="small">>物件概要</a></div>
-        <a href="/plan" style="pointer-events:none;">PLAN</a>
+        <div><a href="/overview" class="small mh-parts">>物件概要</a></div>
+        <a href="/plan" style="pointer-events:none;" class="mh-parts">PLAN</a>
       </div>
       <div class="header_link ms-3">
-        <div><a href="/map" class="small">>現地案内図</a></div>
-        <a href="/blanding" style="pointer-events:none;">BLANDING</a>
+        <div><a href="/map" class="small mh-parts">>現地案内図</a></div>
+        <a href="/blanding" style="pointer-events:none;" class="mh-parts">BLANDING</a>
       </div>
       <div class="header_link ms-3">
-        <a href="/entry" class="">
+        <a href="/entry" class="mh-parts">
           <button type="button" class="entry_btn text-white" style="height: 50px; width: 180px;">物件エントリー</button>
         </a>
       </div>
       <div class="header_link ms-3">
         <a href="/questionnaire">
-          <button type="button" class="questionnaire_btn text-white" style="height: 50px; width: 180px;">お住まいのアンケート</button>
+          <button type="button" class="questionnaire_btn text-white mh-parts" style="height: 50px; width: 180px;">お住まいのアンケート</button>
         </a>
       </div>
-      <button class="header_menu_trigger ms-3" type="button" style="height: 60px; width: 60px;">
-        <span class="batsu"></span>
+      <button class="header_menu_trigger ms-3 mh-parts" type="button" style="height: 60px; width: 60px;">
+        <span class="batsu mh-parts"></span>
       </button>
     </div>
   </div>
