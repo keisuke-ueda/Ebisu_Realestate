@@ -99,32 +99,57 @@ body {
   margin: 0;
 }
 
-/*アニメーション要素のスタイル*/
+/*アニメーション-1*/
 .animation, .logo_animation, .menu_animation{
   opacity : 0;
   visibility: hidden;
-  transition: 1s;
+  transition: 2s;
   transform: translateY(30px);
 }
-/*アニメーション要素までスクロールした時のスタイル*/
+/*アニメーション-1の変化後*/
 .active{
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
 
-.animation-0-zm, .animation-1-zm, .animation-2-zm {
+/* アニメーション-2 */
+.animation-0-zm {
   opacity : 0;
   visibility: hidden;
-  transition: 1s;
-  transform: scale(1.5)
+  transition: 2s;
+  transform: scale(1.3)
 }
 
-.active-zm {
+/* アニメーション-2の変化後 */
+.active-0-zm {
   opacity: 1;
   visibility: visible;
   transform: scale(1);
 }
+
+/* アニメーション-3 */
+.animation-1-zm{
+  opacity : 0;
+  visibility: hidden;
+  transition: 4s;
+  transform: scale(1.3)
+}
+
+/* アニメーション-3の変化後 */
+.active-1-zm {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+
+
+
+
+
+
+
 
 .gold {
   color: transparent;

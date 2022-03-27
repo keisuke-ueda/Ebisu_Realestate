@@ -1,4 +1,5 @@
 $(function(){
+  // アニメーション-1
   $(window).on('load scroll',function (){
     $('.animation').each(function(){
       //ターゲットの位置を取得
@@ -22,6 +23,63 @@ $(function(){
         $(this).removeClass('active');
       }
     });
+
+    // アニメーション-2
+    $('.animation-0-zm').each(function(){
+      //ターゲットの位置を取得
+      var target = $(this).offset().top;
+      //ターゲットの高さを取得
+      var target_height = $(this).height();
+      //スクロール量を取得
+      var scroll = $(window).scrollTop();
+      //ウィンドウの高さを取得
+      var window_height = $(window).height();
+
+      //ターゲットまでスクロールするとフェードインする
+      if (scroll > target - window_height){
+        $(this).addClass('active-0-zm');
+        // ターゲットを超えるとフェードアウトする
+        if (scroll > target + target_height){
+          $(this).removeClass('active-0-zm');
+        } 
+      } else {
+        // ターゲットまでスクロールしないとフェードインしない
+        $(this).removeClass('active-0-zm');
+      }
+    });
+
+    // アニメーション-3
+    $('.animation-1-zm').each(function(){
+      //ターゲットの位置を取得
+      var target = $(this).offset().top;
+      //ターゲットの高さを取得
+      var target_height = $(this).height();
+      //スクロール量を取得
+      var scroll = $(window).scrollTop();
+      //ウィンドウの高さを取得
+      var window_height = $(window).height();
+
+      //ターゲットまでスクロールするとフェードインする
+      if (scroll > target - window_height){
+        $(this).addClass('active-1-zm');
+        // ターゲットを超えるとフェードアウトする
+        if (scroll > target + target_height){
+          $(this).removeClass('active-1-zm');
+        } 
+      } else {
+        // ターゲットまでスクロールしないとフェードインしない
+        $(this).removeClass('active-1-zm');
+      }
+    });
+
+
+
+
+
+
+
+
+    
 
     // スクロールによるヘッダーの出現・固定
     var position = $('.menu-trigger').offset().top + $('.menu-trigger').height();

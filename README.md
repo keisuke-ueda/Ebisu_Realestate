@@ -163,4 +163,5 @@ Class名-開始タイミング[s]-方向または拡縮
 
 # hover animation
 ホバーアニメーション
-・mh-partsD
+・mh-parts
+
