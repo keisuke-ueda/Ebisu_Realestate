@@ -19,7 +19,7 @@
 
     <div class="row mt-5 animation ft2"> 
         <p class="col-6"></p>
-        <p class="h5 col-6 gold">2駅7路線が利用可能。もっと自由な都心生活を。</h2>
+        <p class="h4 col-6 gold">2駅7路線が利用可能。もっと自由な都心生活を。</h2>
     </div>
 
     <!-- 路線情報 -->
