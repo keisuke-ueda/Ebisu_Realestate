@@ -9,7 +9,7 @@
 @section('content')
 
 <body>
-    <div class="container">
+    <div class="container ft2">
         <h1 class="text-center mt-5 mb-5">現地案内図</h1>
         <div class="row mt-5 mb-5 animation-1-zm">
             <p>【広域地図】</p>

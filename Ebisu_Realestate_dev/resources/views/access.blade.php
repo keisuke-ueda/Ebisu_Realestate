@@ -17,13 +17,13 @@
         <img  class="col-3 d-block mx-auto animation-1-zm" src="{{ asset('/images/ACCESS_6.png') }}">
     </div>
 
-    <div class="row mt-5 animation"> 
+    <div class="row mt-5 animation ft2"> 
         <p class="col-6"></p>
         <p class="h5 col-6 gold">2駅7路線が利用可能。もっと自由な都心生活を。</h2>
     </div>
 
     <!-- 路線情報 -->
-    <div class="row mt-3">
+    <div class="row mt-3 ft2">
         <div class="col-6 d-flex flex-column justify-content-between animation-0-zm">
             <img class="w-100" src="{{ asset('/images/ACCESS_2.png') }}">
             <p class="font-11">※各駅への所要時間はJR線「恵比寿」駅発、東京メトロ日比谷線「恵比寿」駅発、また東京メトロ南北線・<br>
@@ -36,7 +36,7 @@
                 ※掲載の情報は、令和4年3月現在によるもので変更になる場合があります。
             </p>
         </div>
-        <div class="col-6 small animation">
+        <div class="col-6 small animation ft2">
             <p class="font-11">「ラ・アトレ恵比寿グランガーデン」は、JR山手線・埼京線・湘南新宿ライン「恵比寿」駅徒歩11分の3路線、<br>
                 東京メトロ日比谷線「恵比寿」駅徒歩13分の1路線、JR山手線・都営地下鉄三田線・東京メトロ南北線・<br>
                 東急目黒線「目黒」駅徒歩13分の4路線が利用でき、都心の主要エリアへダイレクトアクセスが可能です。
@@ -115,13 +115,13 @@
         </div>
     </div>
 
-    <div class="row gold mt-5 animation">
+    <div class="row gold mt-5 animation ft2">
         <p class="h5 col-6">都心の様々な要所へ、タクシーでの移動にも優れたロケーションです。</p>
         <p class="col-6"></p>
     </div>
         
     <!-- タクシー情報 -->
-    <div class="row mt-3 mb-3 animation">
+    <div class="row mt-3 mb-3 animation ft2">
         <div class="col-4 d-flex align-items-center animation-0-zm">
             <img class="w-100" src="{{ asset('/images/ACCESS_7.png') }}">
         </div>

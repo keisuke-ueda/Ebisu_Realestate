@@ -13,9 +13,9 @@
 
 <body>
     <div class="container" style="padding-top: 100px;">
-        <h1 class="p-title text-center">お住まいのアンケート</h1>
+        <h1 class="p-title text-center ft4">お住まいのアンケート</h1>
         <img class="center-block" src="{{ asset('/images/お住まいアンケート1.png') }}">
-        <p class="text-center mt-5 mb-5">この度、目黒区・渋谷区・港区・品川区を中心とするエリアで、LAホールディングスグループの<br>
+        <p class="text-center mt-5 mb-5 ft2">この度、目黒区・渋谷区・港区・品川区を中心とするエリアで、LAホールディングスグループの<br>
             株式会社ラ・アトレが分譲マンションの計画を検討しています。<br>
             そこで、、今後の商品・販売計画の参考に資するべく当アンケートを企画させていただきました。<br>
             つきましては、目黒区三田・渋谷区恵比寿・港区白金台・品川区上大崎にお住いの皆様の<br>
@@ -23,10 +23,10 @@
         </p>
         <img class="center-block w-50" src="{{ asset('/images/お住まいのアンケート2.png') }}">
         
-        <p>下記のフォームに必要な項目を入力のうえ、「送信」ボタンを押してください。</p>
-        <p><span class="badge badge-danger">必須</span>は必須項目です</p>
+        <p class="ft2">下記のフォームに必要な項目を入力のうえ、「送信」ボタンを押してください。</p>
+        <p class="ft2"><span class="badge badge-danger">必須</span>は必須項目です</p>
         
-        <div class="main-content center-block">
+        <div class="main-content center-block ft2">
             <form class="mailformpro" method="POST" action="/questionnaire_mail">
                 <table class="gold_table mb-3 animation mb-5">
                     <tbody>
@@ -403,7 +403,7 @@
 
         </div>
 
-        <div class="border mt-5 mb-5">
+        <div class="border mt-5 mb-5 ft5">
             <p class="p-3">【アンケートご回答者様からご提供いただいた個人情報の取り扱いについて】<br>
                 ※本アンケートは市場調査(商品企画)に反映するために企画したものです。<br>
                 ※ご回答内容につきましては、ご回答を集計処理・保管をいたしますので、皆様にご迷惑をおかけすることは一切ございませんことを、確約させていただきます。<br>
