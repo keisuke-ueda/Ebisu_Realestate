@@ -35,7 +35,7 @@
             <p class="col-1"></p>
         </div>
 
-        <div class="row mt-2 mb-5">
+        <div class="row mt-2 mb-5 ft2">
             <p class="col-1"></p>
             <p class="col-2 small animation">「恵比寿ガーデンプレイス」(約260m・徒歩4分)</p>
             <p class="col-2 small animation">「ウエスティンホテル東京」(約300m・徒歩4分)</p>
