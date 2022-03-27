@@ -47,7 +47,7 @@
 
         <div class="row bg-light mt-5 mb-5 ft2">
             <p class="col-1"></p>
-            <p class="col-4 pt-5 animation"><span class="gold h5">約26mの丘の上で上質な日常が始まる。</span><br><br>
+            <p class="col-4 pt-5 animationblack-50"><span class="gold h5">約26mの丘の上で上質な日常が始まる。</span><br><br>
                 恵比寿の丘の上。<br>
                 都心でありながら、都心の喧騒を離れ、様々な安らぎと<br>
                 恵比寿、目黒の2駅を使いこなせる立地でありながら、<br>
@@ -58,8 +58,5 @@
         </div>
     </div>
 </div>
-
-削除して
-
 
 @endsection
