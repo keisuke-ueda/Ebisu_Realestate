@@ -12,7 +12,7 @@
         <div class="row mt-5 mb-5">
             <p class="col-1"></p>
             <img  class="col-5 animation-1-zm" src="{{ asset('/images/Ebisu_2.png') }}">
-            <div class="col-6 animation">
+            <div class="col-6 animation ft2">
                 <p><span class="gold h4">緑も豊かな「恵比寿ガーデンプレイス」<br>
                     「ウエスティンホテル東京」に隣接。</span></p>
                 <p>先進的な都市の表情が洗練されたセンスが集う街、恵比寿。<br>
@@ -34,7 +34,7 @@
             <p class="col-1"></p>
         </div>
 
-        <div class="row mt-5 mb-5">
+        <div class="row mt-5 mb-5 ft2">
             <p class="col-1"></p>
             <p class="col-2 small animation">「恵比寿ガーデンプレイス」(約260m・徒歩4分)</p>
             <p class="col-2 small animation">「ウエスティンホテル東京」(約300m・徒歩4分)</p>
@@ -44,7 +44,7 @@
             <p class="col-1"></p>
         </div>
 
-        <div class="row bg-light mt-5 mb-5">
+        <div class="row bg-light mt-5 mb-5 ft2">
             <p class="col-1"></p>
             <p class="col-4 text-dark pt-5 animation"><span class="gold h4">約26mの丘の上で上質な日常が始まる。</span><br><br>
                 恵比寿の丘の上。<br>
