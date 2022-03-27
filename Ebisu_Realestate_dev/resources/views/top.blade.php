@@ -43,7 +43,7 @@
             </div>
 
             <!-- 枠 -->
-            <div class="animation gold">
+            <div class="animation gold ft2">
                 <!-- 枠1 -->
                 <div class="row mt-5 mb-4">
                     <p class="col-2"></p>
@@ -68,7 +68,7 @@
                     <p class="col-2"></p>
                 </div>
                 <!-- 枠2 -->
-                <div class="row">
+                <div class="row ft2">
                     <p class="col-2"></p>
                     <div class="col-4">
                         <div class="gold_frame">
@@ -96,12 +96,12 @@
             <div class="animation mt-5">
                 <div class="row">
                     <p class="col-1"></p>
-                    <p class="col-10 gold-title text-center h2 mb-4">「お住まいについてのアンケート」にご協力ください。</p>
+                    <p class="col-10 gold-title text-center h2 mb-4 ft2">「お住まいについてのアンケート」にご協力ください。</p>
                     <p class="col-1"></p>
                 </div>
                 <div class="row">
                     <p class="col-4"></p>
-                    <div class="col-4 border border-warning text-center">
+                    <div class="col-4 border border-warning text-center ft2">
                         <br>
                         <br>
                         <br>
@@ -126,10 +126,10 @@
             <div class="row animation mt-5">
                 <div class="row mb-4"> 
                     <p class="col-1"></p>
-                    <p class="col-10 gold-title text-center h2">INFORMATION</p>
+                    <p class="col-10 gold-title text-center h2 ft3">INFORMATION</p>
                     <p class="col-1"></p>
                 </div>
-                <div class="row">
+                <div class="row ft2">
                     <p class="col-3"></p>
                     <div class="col-6">
                         <table class="table text-white">
@@ -158,7 +158,7 @@
                 </div>
                 <div class="col-4 animation">
                     <img class="mb-4" src="{{ asset('/images/theebisu.png') }}" alt="サンプル画像" style="width: 56%;">
-                    <p class="mb-4" style="font-size: 15px;">恵比寿、それも「恵比寿ガーデンプレイス」<br>
+                    <p class="mb-4 ft2" style="font-size: 15px;">恵比寿、それも「恵比寿ガーデンプレイス」<br>
                         「ウエスティンホテル東京」を間近とする住宅地。<br>
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
                         多くを語らずとも本物を知る人を魅了するレジデンス。<br>
@@ -173,7 +173,7 @@
 
             <!-- Location -->
             <div class="row my-5">
-                <div class="col-4 animation">
+                <div class="col-4 animation ft2">
                     <img class="mb-4 ms-3" src="{{ asset('/images/thelocation.png') }}" alt="サンプル画像" style="width: 90.3%;">
                     <p class="mb-4 ms-5" style="font-size: 15px;">洗練と成熟に抱かれた街、恵比寿。<br>
                         ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
@@ -201,7 +201,7 @@
                 <div class="col-8 animation-0-zm">
                     <img src="{{ asset('/images/4区.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
-                <div class="col-4 animation">
+                <div class="col-4 animation ft2">
                     <img class="mb-4" src="{{ asset('/images/theaccess.png') }}" alt="サンプル画像" style="width: 81.9%;">
                     <p class="mb-4" style="font-size: 15px;">都心をもっと近くする、スピーディなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
@@ -217,7 +217,7 @@
 
             <!-- Design -->
             <div class="row my-5">
-                <div class="col-4 animation">
+                <div class="col-4 animation ft2">
                     <img class="mb-4 ms-3" src="{{ asset('/images/thedesign.png') }}" alt="サンプル画像" style="width: 70%;">
                     <p class="mb-4 ms-3" style="font-size: 15px;">常緑樹の深い緑も豊かな静謐なる街並み。周辺に
                         高級住宅街にふさわしい丘上の瀟洒な5階建て。
@@ -241,7 +241,7 @@
                 <div class="col-8 animation-0-zm">
                     <img src="{{ asset('/images/ダミーマップ.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                 </div>
-                <div class="col-4 animation">
+                <div class="col-4 animation ft2">
                     <img class="mb-4" src="{{ asset('/images/theplan.png') }}" alt="サンプル画像" style="width: 45.1%;">
                     <p class="mb-4" style="font-size: 15px;">ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
                         「ウェスティンホテル東京」を間近とする住宅地。その静謐なる佇まいは、
@@ -268,12 +268,12 @@
             <div class="animation my-5">
                 <div class="row mt-3 mb-3">
                     <button class="col-3 mx-auto d-block copper_btn py-2" type="button">
-                        <a href="/entry" class="h3 text-white mh-parts" style="text-decoration: none;">物件エントリー受付中</a>
+                        <a href="/entry" class="h3 text-white mh-parts ft2" style="text-decoration: none;">物件エントリー受付中</a>
                     </button>
                 </div>
                 <div class="row  mt-3">
                     <p class="col-2"></p>
-                    <p class="col-8 small">
+                    <p class="col-8 small ft2">
                         ※1) 総戸数21戸中 12戸が角住戸により、57%超の角住戸となります。<br>
                         ※2) 全12台の駐車場は、大型SUV車、スポーツカーが3台駐車可能となります。また、1台の屋外平置式シェアカーを含んでいます。<br>
                         ※正射画像データ:国土地理院刊行の正射画像データに、一部CG加工を施しており、実際とは異なります。<br>

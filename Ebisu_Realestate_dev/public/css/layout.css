@@ -6,6 +6,31 @@ body {
   font-size: 11px;
 }
 
+/* フォントtype-1 */
+.ft1{
+  font-family: "Roboto Thin";
+}
+
+/* フォントtype-2 */
+.ft2{
+  font-family: "Noto Serif JP ExtraLight";
+}
+
+/* フォントtype-3 */
+.ft3{
+  font-family: "Adobe Garamond Pro Regular";
+}
+
+/* フォントtype-4 */
+.ft4{
+  font-family: "A-OTF リュウミン Pro";
+}
+
+
+
+
+
+
 /* アクセスページ */
 .taxi_table td {
   padding: 10px;
@@ -159,11 +184,6 @@ body {
 }
 
 
-
-
-
-
-
 .gold {
   color: transparent;
   -webkit-background-clip: text;
@@ -180,7 +200,7 @@ body {
 
 .gold_btn {
   background: linear-gradient(to right, #d6c88d 0%, #b0a071 50%, #d6c88d 100%);
-  font-family: serif;
+  font-family: Noto Serif JP ExtraLight;
   border: 1px solid #D8CA82;
   text-shadow: 1px 2px 3px #808080; 
 }
@@ -305,7 +325,6 @@ body {
 .gold-title {
   display: flex;
   align-items: center;
-  font-family:  Garamond Pro;
 }
 
 .gold-title::before, .gold-title::after {
