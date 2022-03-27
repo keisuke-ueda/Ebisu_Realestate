@@ -4,9 +4,9 @@
 
 <!-- 物件概要ページ -->
 <div class="container" style="padding: 100px 150px 0;">
-    <h1 class="p-title gold-title center-block text-center">OUTLINE</h1>
-    <p class="p-title center-block text-center h3">物件概要</p>
-    <div class="main-content row">
+    <h1 class="p-title gold-title center-block text-center ft4">OUTLINE</h1>
+    <p class="p-title center-block text-center h3 ft2">物件概要</p>
+    <div class="main-content row ft2">
         <table class="gold_table mt-5 mb-5 animation">
             <tbody>
                 <tr>
