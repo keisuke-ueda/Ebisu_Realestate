@@ -116,8 +116,8 @@
     </div>
 
     <div class="row gold mt-5 animation ft2">
-        <p class="h5 col-6">都心の様々な要所へ、タクシーでの移動にも優れたロケーションです。</p>
-        <p class="col-6"></p>
+        <p class="h4 col-7">都心の様々な要所へ、タクシーでの移動にも優れたロケーションです。</p>
+        <p class="col-5"></p>
     </div>
         
     <!-- タクシー情報 -->
