@@ -27,11 +27,11 @@
         <div class="col-6 d-flex flex-column justify-content-between animation-0-zm">
             <img class="w-100" src="{{ asset('/images/ACCESS_2.png') }}">
             <p class="font-11">※各駅への所要時間はJR線「恵比寿」駅発、東京メトロ日比谷線「恵比寿」駅発、また東京メトロ南北線・<br>
-                都営三田線「目黒」駅発の所要時間は日中平常時、平日の13時台及び(  )内は通勤時8時台の<br>
-                最短所要時間を表記しています。<br>
+                &emsp;都営三田線「目黒」駅発の所要時間は日中平常時、平日の13時台及び(  )内は通勤時8時台の<br>
+                &emsp;最短所要時間を表記しています。<br>
                 ※所要時間には、乗り換え・待ち時間は含まれません。(JR線・東京メトロ線・都営地下鉄線時刻表調べ)<br>
                 ※2駅7路線とは、JR山手線・埼京線・湘南新宿ライン「恵比寿」駅、東京メトロ日比谷線「」恵比寿駅、<br>
-                JR山手線「目黒」駅、都営地下鉄三田線・東京メトロ南北線・東急目黒線「目黒」駅のことです。<br>
+                &emsp;JR山手線「目黒」駅、都営地下鉄三田線・東京メトロ南北線・東急目黒線「目黒」駅のことです。<br>
                 ※現地からの徒歩分数は、80mを1分として算出し、端数は切り上げております。<br>
                 ※掲載の情報は、令和4年3月現在によるもので変更になる場合があります。
             </p>
@@ -46,16 +46,16 @@
             <p class="border-bottom pb-2">■ＪＲ山手線・埼京線・湘南新宿ライン「恵比寿」駅より</p>
             <table>
                 <tr>
-                    <td><span class="h5">「渋谷」</span>駅へ直通………………<span class="h5">2</span>分（1分）</td>
-                    <td><span class="h5">「新宿」</span>駅へ直通………………<span class="h5">7</span>分（6分）</td>
+                    <td><span class="h4">「渋谷」</span>駅へ直通………………<span class="h5">2</span>分（1分）</td>
+                    <td><span class="h4">「新宿」</span>駅へ直通………………<span class="h5">7</span>分（6分）</td>
                 </tr>
                 <tr>
                     <td class="font-11">ＪＲ湘南新宿ライン利用</td>
                     <td class="font-11">ＪＲ湘南新宿ライン利用</td>
                 </tr>
                 <tr>
-                    <td><span class="h5">「品川」</span>駅へ………………………<span class="h5">9</span>分（9分）</td>
-                    <td><span class="h5">「池袋」</span>駅へ……………………<span class="h5">12</span>分（11分）</td>
+                    <td><span class="h4">「品川」</span>駅へ………………………<span class="h5">9</span>分（9分）</td>
+                    <td><span class="h4">「池袋」</span>駅へ……………………<span class="h5">12</span>分（11分）</td>
                 </tr>
                 <tr>
                     <td class="font-11">ＪＲ山手線利用</td>
@@ -66,16 +66,16 @@
             <p class="border-bottom pb-2">■東京メトロ日比谷線「恵比寿」駅より</p>
             <table>
                 <tr>
-                    <td><span class="h5">「六本木」</span>駅へ直通…………<span class="h5">5</span>分（6分）</td>
-                    <td><span class="h5">「霞ヶ関」</span>駅へ直通………………<span class="h5">11</span>分（12分）</td>
+                    <td><span class="h4">「六本木」</span>駅へ直通…………<span class="h5">5</span>分（6分）</td>
+                    <td><span class="h4">「霞ヶ関」</span>駅へ直通………………<span class="h5">11</span>分（12分）</td>
                 </tr>
                 <tr>
                     <td class="font-11">東京メトロ日比谷線利用</td>
                     <td class="font-11">東京メトロ日比谷線利用</td>
                 </tr>
                 <tr>
-                    <td><span class="h5">「銀座」</span>駅へ…………<span class="h5">15</span>分（15分）</td>
-                    <td><span class="h5">「東京」</span>駅へ……………………<span class="h5">16</span>分（16分）</td>
+                    <td><span class="h4">「銀座」</span>駅へ…………<span class="h5">15</span>分（15分）</td>
+                    <td><span class="h4">「東京」</span>駅へ……………………<span class="h5">16</span>分（16分）</td>
                 </tr>
                 <tr>
                     <td class="font-11">東京メトロ日比谷線利用</td>
@@ -86,16 +86,16 @@
             <p class="border-bottom pb-2">■東京メトロ南北線・都営三田線「目黒」駅より</p>
             <table>
                 <tr>
-                    <td><span class="h5">「三田」</span>駅へ直通………………<span class="h5">7</span>分（7分）</td>
-                    <td><span class="h5">「新宿」</span>駅へ直通………………<span class="h5">9</span>分（9分）</td>
+                    <td><span class="h4">「三田」</span>駅へ直通………………<span class="h5">7</span>分（7分）</td>
+                    <td><span class="h4">「新宿」</span>駅へ直通………………<span class="h5">9</span>分（9分）</td>
                 </tr>
                 <tr>
                     <td class="font-11">都営三田線利用</td>
                     <td class="font-11">東京メトロ南北線利用</td>
                 </tr>
                 <tr>
-                    <td><span class="h5">「永田」</span>駅へ………………………<span class="h5">12</span>分（12分）</td>
-                    <td><span class="h5">「大手町」</span>駅へ……………………<span class="h5">15</span>分（15分）</td>
+                    <td><span class="h4">「永田」</span>駅へ………………………<span class="h5">12</span>分（12分）</td>
+                    <td><span class="h4">「大手町」</span>駅へ……………………<span class="h5">15</span>分（15分）</td>
                 </tr>
                 <tr>
                     <td class="font-11">東京メトロ南北線利用</td>
@@ -106,7 +106,7 @@
                     <td class="font-11">東京メトロ南北線利用</td>
                 </tr>
                 <tr>
-                    <td><span class="h5">「飯田橋」</span>駅へ………………………<span class="h5">18</span>分（18分）</td>
+                    <td><span class="h4">「飯田橋」</span>駅へ………………………<span class="h5">18</span>分（18分）</td>
                 </tr>
                 <tr>
                     <td class="font-11">東京メトロ南北線利用</td>
@@ -180,7 +180,7 @@
             </table>
             <p class="font-11">※出典:Japan Taxi https://japantaxi<br>
                 ※掲載の情報は2022年2月現在のJapan Taxiウェブサイトにて算出したもので実際の走行ルートは料金と異なる可能性があります。<br>
-                料金・所要時間は有料・高速道路を利用していない場合の内容です。深夜料金該当時間は22:00～5:00を設定しています。
+                &emsp;料金・所要時間は有料・高速道路を利用していない場合の内容です。深夜料金該当時間は22:00～5:00を設定しています。
             </p>
         </div>
     </div>

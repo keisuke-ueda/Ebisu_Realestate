@@ -47,12 +47,14 @@
 
         <div class="row bg-white text-dark mt-5 mb-5 ft2">
             <p class="col-1"></p>
-            <p class="col-4 pt-5 animation black-50"><span class="gold h5">約26mの丘の上で上質な日常が始まる。</span><br><br>
-                恵比寿の丘の上。<br>
+            <div class="col-4">
+            <p class="pt-5 animation text-dark"><span class="gold h5">約26mの丘の上で上質な日常が始まる。</span></p>
+            <p class="pt-4 animation text-dark"> 恵比寿の丘の上。<br>
                 都心でありながら、都心の喧騒を離れ、様々な安らぎと<br>
                 恵比寿、目黒の2駅を使いこなせる立地でありながら、<br>
                 緩やかな時が流れる緑に囲まれた閑静な邸宅地。<br>
                 恵比寿の丘の上で優雅な日々がここから始まる。</p>
+            </div>
             <img  class="col-6 animation-2-zm" src="{{ asset('/images/Ebisu_3.png') }}">
             <p class="col-1"></p>
         </div>

@@ -24,7 +24,7 @@
             </div>
             <p class="text-center h3 mb-5">所在地：東京都目黒区三田1丁目1-16</p>
        </div>
-       <div class="d-flex justify-content-center mb-5">
+       <div class="d-flex justify-content-center mb-5 pb-4">
             <button class="map_btn mh-parts me-4" style="height: 60px; width: 210px;">
                 <a href="https://www.google.co.jp/maps/place/東京都目黒区三田1丁目1-16" target="_blank" rel="noopener noreferrer" class="text-white" style="text-decoration: none;">Google Mapで開く</a>
             </button>
