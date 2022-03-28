@@ -1,6 +1,6 @@
 <footer class="footer container-fluid text-white position-absolute bottom-0">
   <div class="row p-5">
-    <div class="col-6 d-flex flex-column justify-content-center">
+    <div class="col-6 d-flex flex-column justify-content-center ft3">
       <p class="h5">[営業時間] 10:00〜18:00 [定休日] 火・水曜日</p>
       <p class="display-3 ft3">0120-978-690</p>
       <p class="h5">「ラ・アトレ恵比寿グランガーデン」現場事務所</p>

@@ -23,13 +23,9 @@ body {
   font-family: "小塚ゴシック Pr6N R";
 }
 
-
 /* フォントサイズ */
 .font-11 {
   font-size: 11px;
-}
-.s14{
-  font-size: 14px;
 }
 .s15{
   font-size: 15px;
@@ -37,13 +33,6 @@ body {
 .s19{
   font-size: 19px;
 }
-.s20{
-  font-size: 20px;
-}
-.s24{
-  font-size: 24px;
-}
-
 
 
 
@@ -217,7 +206,7 @@ body {
 .gold_btn {
   background: linear-gradient(to right, #d6c88d 0%, #b0a071 50%, #d6c88d 100%);
   border: 1px solid #D8CA82;
-  text-shadow: 1px 2px 3px #808080; 
+  text-shadow: 2px 2px 2px #000000; 
 }
 
 .copper_btn {
@@ -408,12 +397,13 @@ input, select {
   border: none; 
   background: linear-gradient(to right, #d6c88d 0%, #b0a071 50%, #d6c88d 100%);
   border: 1px solid #D8CA82;
-  text-shadow: 1px 2px 3px #808080; 
+  text-shadow: 2px 2px 2px #000000;
 }
 
 .map_btn {
   background-color: #444444;
   border: none; 
+  text-shadow: 2px 2px 2px #000000;
 }
 
 .print-off {
