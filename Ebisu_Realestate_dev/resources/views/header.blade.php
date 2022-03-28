@@ -1,4 +1,4 @@
-<header class="header container-fluid text-white position-fixed top-0 start-0 py-3 d-none">
+<header class="header container-fluid text-white position-fixed top-0 start-0 px-3 py-3 d-none">
   <div class="header_content row justify-content-between align-items-center">
     <div class="header_title col-2 ps-3">
       <a href="/" class="text-white" style="text-decoration: none;">
@@ -48,7 +48,7 @@
         </a>
       </div>
       <button class="header_menu_trigger ms-3 mh-parts" type="button" style="height: 60px; width: 60px;">
-        <span class="batsu mh-parts"></span>
+        <span class="batsu"></span>
       </button>
     </div>
   </div>

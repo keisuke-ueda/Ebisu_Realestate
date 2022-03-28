@@ -25,16 +25,6 @@
         <div class="black_wall text-white py-5">
             <!-- 移動 -->
             <div class="row animation mb-4">
-                <!-- <div class="row">
-                    <p class="col-2"></p>
-                    <p class="col-8">JR線「恵比寿」駅へ徒歩<span class="gold h1" style="display:inline-block">11</span>分 /
-                    東京メトロ日比谷線「恵比寿」駅へ徒歩<span class="gold h1">13</span>分 / 
-                    JR線「目黒」駅へ徒歩<span class="gold h1">13</span>分</p>
-                </div>
-                <div class="row">  
-                    <p class="col-2"></p>
-                    <p class="col-8 small">(恵比寿スカイウォークより徒歩7分)</p>
-                </div> -->
                 <p class="col-1"></p>
                 <div class="col-10">
                     <img class="w-100" src="{{ asset('/images/access_info.png') }}" alt="アクセス情報">
@@ -51,7 +41,7 @@
                         <div class="gold_frame">
                             <div class="frame_border">
                                 <div class="frame_circle">
-                                    <p class="h-100">最寄りのJR山手線・埼京線「恵比寿」駅より、<br><span>「渋谷」駅へ2分「新宿」駅へ7分「品川」駅へ9分</span></p>
+                                    <p>最寄りのJR山手線・埼京線「恵比寿」駅より、<br><span>「渋谷」駅へ2分「新宿」駅へ7分「品川」駅へ9分</span></p>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +50,7 @@
                         <div class="gold_frame">
                             <div class="frame_border">
                                 <div class="frame_circle">
-                                    <p class="h-100">緑に包まれた「ウエスティンホテル東京」<br><span>「恵比寿ガーデンプレイス」に隣接</span></p>
+                                    <p>緑に包まれた「ウエスティンホテル東京」<br><span>「恵比寿ガーデンプレイス」に隣接</span></p>
                                 </div>
                             </div>
                         </div>
@@ -71,10 +61,10 @@
                 <div class="row ft2">
                     <p class="col-2"></p>
                     <div class="col-4">
-                        <div class="gold_frame">
-                            <div class="frame_border">
-                                <div class="frame_circle">
-                                    <p class="">内廊下設計<br><span>角住戸率66%超</span></p>
+                        <div class="gold_frame h-100">
+                            <div class="frame_border h-100">
+                                <div class="frame_circle h-100">
+                                    <p style="line-height: 48px">内廊下設計、角住戸率57%<sup class="font-11">※1</sup>超</p>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +73,7 @@
                         <div class="gold_frame">
                             <div class="frame_border">
                                 <div class="frame_circle">
-                                    <p class="">大型SUV車、スポーツカーが<br><span>安心の駐車場8台分設置</span></p>
+                                    <p>大型SUV車、スポーツカーも安心<br><span>全12台分の駐車場を設置<sup class="font-11">※２</sup></span></p>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +86,7 @@
             <div class="animation mt-5">
                 <div class="row">
                     <p class="col-1"></p>
-                    <p class="col-10 gold-title text-center h2 mb-4 ft2">「お住まいについてのアンケート」にご協力ください。</p>
+                    <p class="col-10 gold-title text-center h4 mb-4 ft2">「お住まいについてのアンケート」にご協力ください。</p>
                     <p class="col-1"></p>
                 </div>
                 <div class="row">
@@ -111,7 +101,7 @@
                         <div class="row">
                             <p class="col-2"></p>
                             <form action="/questionnaire" method="GET">
-                                <button type="submit" class="col-8 gold_btn p-2 mh-parts" ><span class="h3 text-white">アンケートはこちら</span></button>
+                                <button type="submit" class="col-8 gold_btn p-2 mh-parts"><span class="h5 text-white">アンケートはこちら</span></button>
                             </form>
                             <p class="col-2"></p>
                         <br>
@@ -126,13 +116,13 @@
             <div class="row animation mt-5">
                 <div class="row mb-4"> 
                     <p class="col-1"></p>
-                    <p class="col-10 gold-title text-center h2 ft3">INFORMATION</p>
+                    <p class="col-10 gold-title text-center h4 ft3">INFORMATION</p>
                     <p class="col-1"></p>
                 </div>
                 <div class="row ft2">
                     <p class="col-3"></p>
                     <div class="col-6">
-                        <table class="table text-white">
+                        <table class="table text-white small">
                             <tr>
                                 <td class="py-3" scope="col">2022.4.8</td>
                                 <td class="py-3" scope="col">ラ・アトレ恵比寿グランガーデン　ホームページ開設</td>
@@ -166,7 +156,7 @@
                     </p>
                     <div class="gold_line w-50 mb-4"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2 bottom-0" type="button">
-                        <a href="/concept" class="h3 text-white mh-parts" style="text-decoration: none;">Read More</a>
+                        <a href="/concept" class="text-white mh-parts small" style="text-decoration: none;">Read More</a>
                     </button>
                 </div>
             </div>
@@ -183,7 +173,7 @@
                     </p>
                     <div class="gold_line w-50 mb-4"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button">
-                        <a href="/location" class="h3 text-white mh-parts" style="text-decoration: none; pointer-events:none;">Read More</a>
+                        <a href="/location" class="text-white mh-parts small" style="text-decoration: none; pointer-events:none;">Read More</a>
                     </button>
                 </div>
                 <div class="col-4 d-flex flex-column justify-content-between">
@@ -210,7 +200,7 @@
                     </p>
                     <div class="gold_line w-50 mb-4"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button">
-                        <a href="/access" class="h3 text-white mh-parts" style="text-decoration: none;">Read More</a>
+                        <a href="/access" class="text-white mh-parts small" style="text-decoration: none;">Read More</a>
                     </button>
                 </div>
             </div>
@@ -227,7 +217,7 @@
                     </p>
                     <div class="gold_line w-50 mb-4"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button">
-                        <a href="/design" class="h3 text-white mh-parts" style="text-decoration:none; pointer-events:none;">Read More</a>
+                        <a href="/design" class="text-white mh-parts small" style="text-decoration:none; pointer-events:none;">Read More</a>
                     </button>
                     <img src="{{ asset('/images/デザイン1.png') }}" alt="サンプル画像" class="mt-4 mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
@@ -250,7 +240,7 @@
                     </p>
                     <div class="gold_line w-50 mb-4"></div>
                     <button class="mx-auto d-block gold_btn px-4 py-2" type="button">
-                        <a href="/plan" class="h3 text-white mh-parts" style="text-decoration:none; pointer-events:none;">Read More</a>
+                        <a href="/plan" class="text-white mh-parts small" style="text-decoration:none; pointer-events:none;">Read More</a>
                     </button>
                 </div>
             </div>
@@ -268,12 +258,12 @@
             <div class="animation my-5">
                 <div class="row mt-3 mb-3">
                     <button class="col-3 mx-auto d-block copper_btn py-2" type="button">
-                        <a href="/entry" class="h3 text-white mh-parts ft2" style="text-decoration: none;">物件エントリー受付中</a>
+                        <a href="/entry" class="text-white mh-parts ft2" style="text-decoration: none; font-size: 19px;">物件エントリー受付中</a>
                     </button>
                 </div>
                 <div class="row  mt-3">
                     <p class="col-2"></p>
-                    <p class="col-8 small ft2">
+                    <p class="col-8 font-11 ft2">
                         ※1) 総戸数21戸中 12戸が角住戸により、57%超の角住戸となります。<br>
                         ※2) 全12台の駐車場は、大型SUV車、スポーツカーが3台駐車可能となります。また、1台の屋外平置式シェアカーを含んでいます。<br>
                         ※正射画像データ:国土地理院刊行の正射画像データに、一部CG加工を施しており、実際とは異なります。<br>

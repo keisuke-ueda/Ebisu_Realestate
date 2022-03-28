@@ -8,14 +8,14 @@
     <div class="main-content">
         <div class="row mt-5 mb-5">
             <p class="col-1"></p>
-            <div class="col-6 animation-1-zm pe-4">
+            <div class="col-5 animation-1-zm">
             <img class="w-100" src="{{ asset('/images/Ebisu_2.png') }}">
             </div>
             <!-- <img class="col-6 animation-1-zm" src="{{ asset('/images/Ebisu_2.png') }}"> -->
-            <div class="text-white col-4 animation d-flex flex-column justify-content-between align-items-center ft2" style="background-color: #3c3939; padding: 60px 20px;">
+            <div class="text-white col-5 animation d-flex flex-column justify-content-center align-items-center ft2" style="background-color: #3c3939;">
                 <p><span class="gold h5">緑も豊かな「恵比寿ガーデンプレイス」<br>
                     「ウエスティンホテル東京」に隣接。</span></p>
-                <p class="small">先進的な都市の表情が洗練されたセンスが集う街、恵比寿。<br>
+                <p class="small" style="margin-top: 40px;">先進的な都市の表情が洗練されたセンスが集う街、恵比寿。<br>
                 JR山手線・埼京線・湘南新宿ラインと東京メトロ日比谷線を利用できる高いアクセス性。<br>
                 時代の感性の最先端をいく流行のファッションやグルメが充実した駅ビル。<br>
                 そして、この街の象徴といえる恵比寿ガーデンプレイスとその街中の落ち着いたリズムと<br>
@@ -35,17 +35,17 @@
             <p class="col-1"></p>
         </div>
 
-        <div class="row mt-2 mb-5 ft2">
+        <div class="row mt-2 mb-5 ft2 text-end" style="font-size: 10px;">
             <p class="col-1"></p>
-            <p class="col-2 small animation">「恵比寿ガーデンプレイス」(約260m・徒歩4分)</p>
-            <p class="col-2 small animation">「ウエスティンホテル東京」(約300m・徒歩4分)</p>
-            <p class="col-2 small animation">「国立科学博物館付属 自然教育園」(約1000m・徒歩13分)</p>
-            <p class="col-2 small animation">「東京大学医療科学研究附属病院」(約630m・徒歩8分)</p>
-            <p class="col-2 small animation">「東急ストア目黒店」(約910m・徒歩12分)</p>
+            <p class="col-2 animation px-2">「恵比寿ガーデンプレイス」(約260m・徒歩4分)</p>
+            <p class="col-2 animation px-2">「ウエスティンホテル東京」(約300m・徒歩4分)</p>
+            <p class="col-2 animation px-2">「国立科学博物館付属 自然教育園」<br>(約1000m・徒歩13分)</p>
+            <p class="col-2 animation px-2">「東京大学医療科学研究附属病院」<br>(約630m・徒歩8分)</p>
+            <p class="col-2 animation px-2">「東急ストア目黒店」(約910m・徒歩12分)</p>
             <p class="col-1"></p>
         </div>
 
-        <div class="row bg-light mt-5 mb-5 ft2">
+        <div class="row bg-white text-dark mt-5 mb-5 ft2">
             <p class="col-1"></p>
             <p class="col-4 pt-5 animation black-50"><span class="gold h5">約26mの丘の上で上質な日常が始まる。</span><br><br>
                 恵比寿の丘の上。<br>
