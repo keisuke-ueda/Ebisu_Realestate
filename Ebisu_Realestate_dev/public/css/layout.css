@@ -329,7 +329,8 @@ body {
   align-items: center;
 }
 
-.gold-title::before, .gold-title::after {
+.gold-title::before,
+.gold-title::after {
   content: '';
   height: 1.5px;
   /* background-color: #d6c88d; */
@@ -345,12 +346,25 @@ body {
   margin-left: 2rem;
 }
 
-.gold_table tr{
+.gold_table > tbody > tr{
   border-bottom: 1.5px solid #d6c88d;
 }
 
-.gold_table td, .gold_table th {
+.gold_table > tbody > tr > td,
+.gold_table > tbody > tr > th {
   padding: 16px 0;
+}
+
+.gold_table .column1 {
+  width: 22%;
+}
+
+.gold_table .column3 {
+  width: 65%;
+}
+
+.table_nest > tr > th {
+  vertical-align: top;
 }
 
 input, select {

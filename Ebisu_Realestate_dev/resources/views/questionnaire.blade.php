@@ -22,118 +22,161 @@
             様々なご意見をお聞かせいただければ幸いです。
         </p>
         <img class="center-block w-50" src="{{ asset('/images/お住まいのアンケート2.png') }}">
-        
+
         <p class="ft2">下記のフォームに必要な項目を入力のうえ、「送信」ボタンを押してください。</p>
         <p class="ft2"><span class="badge badge-danger">必須</span>は必須項目です</p>
-        
+
         <div class="main-content center-block ft2">
             <form class="mailformpro" method="POST" action="/questionnaire_mail">
                 <table class="gold_table mb-3 animation mb-5">
                     <tbody>
                         <tr>
-                            <td></td>
+                            <td class="column1"></td>
+                            <td class="column2"></td>
+                            <td class="column3"></td>
                         </tr>
                         <tr>
                             <td><label for="name"><span class="badge badge-danger">必須</span>お名前</label></td>
                             <td></td>
                             <td>
-                                <input type="text" name="sei" data-kana="セイ" placeholder="姓" required>
-                                <input type="text" name="mei" data-kana="メイ" placeholder="名" required>
+                                <input type="text" name="sei" data-kana="セイ" placeholder="姓" required
+                                    data-error_placement="#sei">
+                                <input type="text" name="mei" data-kana="メイ" placeholder="名" required
+                                    data-error_placement="#mei">
+                                <div class="validation-message" id="sei"></div>
+                                <div class="validation-message" id="mei"></div>
                             </td>
                         </tr>
                         <tr>
                             <td><label for="name"><span class="badge badge-danger">必須</span>フリガナ</label></td>
                             <td></td>
                             <td>
-                                <input type="text" name="sei_kana" data-charcheck="kana" placeholder="セイ" required>
-                                <input type="text" name="mei_kana" data-charcheck="kana" placeholder="メイ" required>
+                                <input type="text" name="sei_kana" data-charcheck="kana" placeholder="セイ" required
+                                    data-error_placement="#sei-kana">
+                                <input type="text" name="mei_kana" data-charcheck="kana" placeholder="メイ" required
+                                    data-error_placement="#mei-kana">
+                                <div class="validation-message" id="sei-kana"></div>
+                                <div class="validation-message" id="mei-kana"></div>
                             </td>
                         </tr>
                         <tr>
                             <td><label for="name"><span class="badge badge-danger">必須</span>性別</label></td>
                             <td></td>
                             <td>
-                                <div><input type="radio">男性</div>
-                                <div><input type="radio">女性</div>
+                                <div><input type="radio" name="gender" value="male" data-error_placement="#gender">男性
+                                </div>
+                                <div><input type="radio" name="gender" value="female" data-error_placement="#gender">女性
+                                </div>
+                                <div class="validation-message" id="gender"></div>
                             </td>
                         </tr>
                         <tr>
                             <td><label for="name"><span class="badge badge-danger">必須</span>ご家族人数</label></td>
                             <td></td>
                             <td>
-                                <div><input type="text" name="family_size" required>人</div>
+                                <div><input type="text" name="family_size" required
+                                        data-error_placement="#family_size">人</div>
+                                <div class="validation-message" id="family_size"></div>
                             </td>
                         </tr>
                         <tr>
-                            <th style="width: 22%;"><label for="name"><span class="badge badge-danger">必須</span>ご住所</label></th>
-                            <td>
-                                <div class="d-flex flex-column justify-content-between">
-                                    <div>
-                                        <label for="name">郵便番号<span class="badge badge-danger">必須</span></label>
-                                    </div>
-                                    <div>
-                                        <label for="name">都道府県<span class="badge badge-danger">必須</span></label>
-                                    </div>
-                                    <div>
-                                        <label for="name">市区町村<span class="badge badge-danger">必須</span></label>
-                                    </div>
-                                    <div>
-                                        <label for="name">丁目番地<span class="badge badge-danger">必須</span></label>
-                                    </div>
-                                    <div>
-                                        <label for="name">建物名</label>
-                                    </div>
-                                </div>  
-                            </td>
-                            <td style="width: 65%;">
-                                <div>
-                                    <input type="text" name="post_code">
-                                    <p>※半角数字(ハイフンなし)で入力してください</p>
-                                </div>
-                                <div>
-                                    <select>
-                                        <option value="">選択</option>
-                                        @foreach ($prefectures as $prefecture)
-                                        <option value="{{ $prefecture }}" name="home_prefectures">{{$prefecture}}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                                <div>
-                                    <input type="text" name="home_municipalities">
-                                </div>
-                                <div>
-                                    <input type="text" name="home_chome_address">
-                                </div>
-                                <div>
-                                    <input type="text" name="home_chome_address">
-                                </div>
+                            <th><label for="name"><span class="badge badge-danger">必須</span>ご住所</label></th>
+                            <td colspan="2">
+                                <table class="table_nest" style="width: 100%;">
+                                    <tr rowspan="2">
+                                        <th valign="top">
+                                            <label for="name">郵便番号<span class="badge badge-danger">必須</span></label>
+                                        </th>
+                                        <td style="width: 83.3%;">
+                                            <input type="text" name="home_post_code" data-error_placement="#home_post_code">
+                                            <div class="validation-message" id="home_post_code"></div>
+                                            <p>※半角数字(ハイフンなし)で入力してください</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label for="name">都道府県<span class="badge badge-danger">必須</span></label>
+                                        </th>
+                                        <td>
+                                            <select>
+                                                <option value="">選択</option>
+                                                @foreach ($prefectures as $prefecture)
+                                                <option value="{{ $prefecture }}" name="home_prefectures"
+                                                    data-error_placement="#home_prefectures">
+                                                    {{$prefecture}}</option>
+                                                @endforeach
+                                                <div class="validation-message" id="home_prefectures"></div>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label for="name">市区町村<span class="badge badge-danger">必須</span></label>
+                                        </th>
+                                        <td>
+                                            <input type="text" name="home_municipalities"
+                                                data-error_placement="#home_manicipalities">
+                                            <div class="validation-message" id="home_manicipalities"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label for="name">丁目番地<span class="badge badge-danger">必須</span></label>
+                                        </th>
+                                        <td>
+                                            <input type="text" name="home_chome_address"
+                                                data-error_placement="#home_chome_address">
+                                            <div class="validation-message" id="home_chome_address"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label for="name">建物名</label>
+                                        </th>
+                                        <td>
+                                            <input type="text" name="home_building_name">
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                         </tr>
                         <tr>
                             <td><label for="name"><span class="badge badge-danger">必須</span>現在のお住まいの年数</label></td>
                             <td></td>
                             <td>
-                                <div><input type="text" name="years_of_residence" required>年</div>
+                                <div><input type="text" name="years_of_residence" required
+                                        data-error_placement="#years_of_residence">年</div>
+                                <div class="validation_message" id="years_of_residence"></div>
                                 <p>※半角数字で入力してください</p>
                             </td>
                         </tr>
                         <tr>
                             <td colspan="2"><label for="name"><span class="badge badge-danger">必須</span>現在おしまいの住居形態<br>
-                            ※該当するものを1つだけ選択してください。</label></td>
+                                    ※該当するものを1つだけ選択してください。</label></td>
                             <td>
-                                <div><input type="radio">分譲マンション</div>
-                                <div><input type="radio">一戸建持家</div>
-                                <div><input type="radio">賃貸マンション</div>
-                                <div><input type="radio">社宅・官舎</div>
-                                <div><input type="radio">その他<input type="text"></div>
+                                <div><input type="radio" name="housing_form"
+                                        data-error_placement="#housing_form">分譲マンション
+                                </div>
+                                <div><input type="radio" name="housing_form" data-error_placement="#housing_form">一戸建持家
+                                </div>
+                                <div><input type="radio" name="housing_form"
+                                        data-error_placement="#housing_form">賃貸マンション
+                                </div>
+                                <div><input type="radio" name="housing_form" data-error_placement="#housing_form">社宅・官舎
+                                </div>
+                                <div><input type="radio" name="housing_form"
+                                        data-error_placement="#housing_form">その他<input type="text"></div>
+                                <div class="validation_message" id="housing_form"></div>
                             </td>
                         </tr>
                         <tr>
                             <td><label for="name"><span class="badge badge-danger">必須</span>電話番号</label></td>
                             <td></td>
                             <td>
-                                <input type="tel" name="phone_number" data-type="tel" name="電話番号" placeholder="(例)00099998888">
+                                <input type="tel" name="phone_number" data-type="tel" name="電話番号"
+                                    placeholder="(例)00099998888" data-error_placement="#phone_number">
                                 <p>※半角数字で入力してください</p>
+                                <div class="validation_message" id="phone_number"></div>
                             </td>
                         </tr>
                         <tr>
@@ -142,66 +185,87 @@
                             </td>
                             <td></td>
                             <td>
-                                <div><input type="email" name="email"></div>
+                                <div><input type="email" name="email" data-error_placement="#email"></div>
+                                <div class="validation_message" id="email"></div>
                                 <p>※確認のためもう一度ご入力ください</p>
-                                <div><input type="text" name="confirm_email"></div>
+                                <div><input type="text" name="confirm_email" data-error_placement="#confirm_email">
+                                </div>
+                                <div class="validation_message" id="confirm_email"></div>
                             </td>
                         </tr>
                         <tr>
                             <td><label for="name"><span class="badge badge-danger">必須</span>勤務先名</label></td>
                             <td></td>
                             <td>
-                                <div><input type="text" name="勤務先名" required></div>
+                                <div><input type="text" name="office_name" required data-error_placement="#office_name">
+                                </div>
+                                <div class="validation_message" id="office_name"></div>
                             </td>
                         </tr>
                         <tr>
-                            <th style="width: 22%;"><label for="name"><span class="badge badge-danger">必須</span>勤務先ご住所</label></th>
-                            <td>
-                                <div class="d-flex flex-column justify-content-between">
-                                    <div>
-                                        <label for="name">郵便番号<span class="badge badge-danger">必須</span></label>
-                                    </div>
-                                    <div>
-                                        <label for="name">都道府県<span class="badge badge-danger">必須</span></label>
-                                    </div>
-                                    <div>
-                                        <label for="name">市区町村<span class="badge badge-danger">必須</span></label>
-                                    </div>
-                                    <div>
-                                        <label for="name">丁目番地<span class="badge badge-danger">必須</span></label>
-                                    </div>
-                                    <div>
-                                        <label for="name">建物名</label>
-                                    </div>
-                                </div>  
-                            </td>
-                            <td style="width: 65%;">
-                                <div>
-                                    <input type="text"> - <input type="text">
-                                    <p>※半角数字で入力してください</p>
-                                </div>
-                                <div>
-                                    <select>
-                                        <option value="">選択</option>
-                                        @foreach ($prefectures as $prefecture)
-                                        <option value="{{ $prefecture }}">{{$prefecture}}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                                <div>
-                                    <input type="text" required>
-                                </div>
-                                <div>
-                                    <input type="text" required>
-                                </div>
-                                <div>
-                                    <input type="text">
-                                </div>
+                            <th><label for="name"><span class="badge badge-danger">必須</span>勤務先ご住所</label></th>
+                            <td colspan="2">
+                                <table class="table_nest" style="width: 100%;">
+                                    <tr rowspan="2">
+                                        <th valign="top">
+                                            <label for="name">郵便番号<span class="badge badge-danger">必須</span></label>
+                                        </th>
+                                        <td style="width: 83.3%;">
+                                            <input type="text" name="work_post_code" data-error_placement="#work_post_code">
+                                            <div class="validation-message" id="work_post_code"></div>
+                                            <p>※半角数字(ハイフンなし)で入力してください</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label for="name">都道府県<span class="badge badge-danger">必須</span></label>
+                                        </th>
+                                        <td>
+                                            <select>
+                                                <option value="">選択</option>
+                                                @foreach ($prefectures as $prefecture)
+                                                <option value="{{ $prefecture }}" name="work_prefectures"
+                                                    data-error_placement="#work_prefectures">
+                                                    {{$prefecture}}</option>
+                                                @endforeach
+                                                <div class="validation-message" id="work_prefectures"></div>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label for="name">市区町村<span class="badge badge-danger">必須</span></label>
+                                        </th>
+                                        <td>
+                                            <input type="text" name="work_municipalities"
+                                                data-error_placement="#work_manicipalities">
+                                            <div class="validation-message" id="work_manicipalities"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label for="name">丁目番地<span class="badge badge-danger">必須</span></label>
+                                        </th>
+                                        <td>
+                                            <input type="text" name="work_chome_address"
+                                                data-error_placement="#work_chome_address">
+                                            <div class="validation-message" id="work_chome_address"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label for="name">建物名</label>
+                                        </th>
+                                        <td>
+                                            <input type="text" name="work_building_name">
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                         </tr>
                     </tbody>
                 </table>
-                        
+
                 <p class="text-center mt-5 mb-5">お住まいついてのアンケート</p>
 
                 <div>
@@ -209,7 +273,7 @@
                     <p>※アンケートはすべて必須項目になります。</p>
                     <div class="mt-5">
                         <p>1.仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。<br>
-                        (1つだけ回答)</p>
+                            (1つだけ回答)</p>
                         <div><input type="checkbox">一戸建てにこだわる</div>
                         <div><input type="checkbox">マンションにこだわる</div>
                         <div><input type="checkbox">一戸建てもマンションも同様に検討する</div>
@@ -361,17 +425,19 @@
                         </div>
                     </div>
 
-                    <div class="mt-5">7.世帯主様の職業は何でしょうか。<input type="text"></p></div>
+                    <div class="mt-5">7.世帯主様の職業は何でしょうか。<input type="text"></p>
+                    </div>
 
-                    <div class="mt-5">8.世帯主様の通勤手段は何でしょうか。<input type="text"></p></div>
+                    <div class="mt-5">8.世帯主様の通勤手段は何でしょうか。<input type="text"></p>
+                    </div>
 
                     <div class="mt-5">9.現在のお住まいで所有している自家用車の台数と車種をお聞かせ下さい。</p>
-                        <p>［台   数］<input type="text">台数    ［車   種］<input type="text"></p>
+                        <p>［台 数］<input type="text">台数 ［車 種］<input type="text"></p>
                     </div>
 
                     <div class="mt-5">10.</p>
                         <p>［世帯主様］<input type="text">万円</p>
-                        <p>［配偶者様］<input type="text">万円    ［全    体］<input type="text"></p>
+                        <p>［配偶者様］<input type="text">万円 ［全 体］<input type="text"></p>
                     </div>
 
                     <div class="mt-5">11.目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。</p>
@@ -396,7 +462,7 @@
                 </div>
 
                 <p>アンケートにご協力いただき、誠にありがとうございました。</p>
-                
+
                 <button class="mh-parts">入力内容の確認</button>
 
             </form>
