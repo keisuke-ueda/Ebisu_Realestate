@@ -202,7 +202,6 @@ body {
 
 .gold_btn {
   background: linear-gradient(to right, #d6c88d 0%, #b0a071 50%, #d6c88d 100%);
-  font-family: Noto Serif JP ExtraLight;
   border: 1px solid #D8CA82;
   text-shadow: 1px 2px 3px #808080; 
 }
@@ -401,4 +400,8 @@ input, select {
 .map_btn {
   background-color: #444444;
   border: none; 
+}
+
+.print-off {
+  display: none;
 }

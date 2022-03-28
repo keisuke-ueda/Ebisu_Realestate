@@ -13,9 +13,9 @@
             </div>
             <!-- <img class="col-6 animation-1-zm" src="{{ asset('/images/Ebisu_2.png') }}"> -->
             <div class="text-white col-5 animation d-flex flex-column justify-content-center align-items-center ft2" style="background-color: #3c3939;">
-                <p><span class="gold h5">緑も豊かな「恵比寿ガーデンプレイス」<br>
+                <p><span class="gold h4">緑も豊かな「恵比寿ガーデンプレイス」<br>
                     「ウエスティンホテル東京」に隣接。</span></p>
-                <p class="small" style="margin-top: 40px;">先進的な都市の表情が洗練されたセンスが集う街、恵比寿。<br>
+                <p class="" style="margin-top: 40px;">先進的な都市の表情が洗練されたセンスが集う街、恵比寿。<br>
                 JR山手線・埼京線・湘南新宿ラインと東京メトロ日比谷線を利用できる高いアクセス性。<br>
                 時代の感性の最先端をいく流行のファッションやグルメが充実した駅ビル。<br>
                 そして、この街の象徴といえる恵比寿ガーデンプレイスとその街中の落ち着いたリズムと<br>
