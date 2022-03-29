@@ -25,11 +25,41 @@
         <div class="black_wall text-white py-5">
             <!-- 移動 -->
             <div class="row animation mb-4">
-                <p class="col-1"></p>
-                <div class="col-10">
-                    <img class="w-100" src="{{ asset('/images/access_info.png') }}" alt="アクセス情報">
+                <div class="access_info ft2 h5 d-sm-flex justify-content-center align-items-center">
+                    <div class="mx-2">
+                        <div class="d-flex align-items-end">
+                            <div>
+                                <p class="s15">JR山手線・埼京線</p>
+                                <p><span class="s15">湘南新宿ライン</span>「恵比寿」駅</p>
+                            </div>
+                            <p>徒歩<span class="h1 gold" style="line-height: 100%;">11</span>分 /</p>
+                        </div>
+                        <p class="font-11">
+                            <span class="s15" style="color: transparent;">湘南新宿ライン</span>
+                            （恵比寿スカイウォークより徒歩7分）
+                        </p>
+                    </div>
+                    <div class="mx-2">
+                        <div class="d-flex align-items-end">
+                            <div>
+                                <p class="s15">&nbsp;</p>
+                                <p><span class="s15">東京メトロ日比谷線</span>「恵比寿」駅</p>
+                            </div>
+                            <p>徒歩<span class="h1 gold" style="line-height: 100%;">13</span>分 /</p>
+                        </div>
+                        <p class="font-11">&nbsp;</p>
+                    </div>
+                    <div class="mx-2">
+                        <div class="d-flex align-items-end">
+                            <div>
+                                <p class="s15">JR山手線・東京メトロ南北線・</p>
+                                <p><span class="s15">都営地下鉄三田線・東急目黒線</span>「目黒」駅</p>
+                            </div>
+                            <p>徒歩<span class="h1 gold" style="line-height: 100%;">13</span>分</p>
+                        </div>
+                        <p class="font-11">&nbsp;</p>
+                    </div>
                 </div>
-                <p class="col-1"></p>
             </div>
 
             <!-- 枠 -->
@@ -95,7 +125,7 @@
                         <br>
                         <br>
                         <br>
-                        <p class="text-center mb-4"><span style="border-bottom:1px solid white;">アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
+                        <p class="text-center mb-4" style="line-height:2;"><span class="pb-1" style="border-bottom:1px solid white;">アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
                         <br>
                         <br>
                         <div class="row">
@@ -155,8 +185,8 @@
                         「ラ・アトレ恵比寿」-ゆるぎなき矜持がここにある。
                     </p>
                     <div class="gold_line w-50 mb-4 ebisu_line"></div>
-                    <button class="mx-auto d-block gold_btn px-5 py-2 bottom-0" type="button">
-                        <a href="/concept" class="text-white mh-parts small" style="text-decoration: none;">Read More</a>
+                    <button class="mx-auto d-block gold_btn bottom-0" type="button">
+                        <a href="/concept" class="text-white mh-parts small" style=";text-decoration: none;">Read More</a>
                     </button>
                 </div>
             </div>
@@ -172,7 +202,7 @@
                         ココに暮らす人々の姿さえも、この地の美しい風景となる。
                     </p>
                     <div class="gold_line w-50 mb-4 location_line"></div>
-                    <button class="mx-auto d-block gold_btn px-5 py-2" type="button">
+                    <button class="mx-auto d-block gold_btn" type="button">
                         <a href="/location" class="text-white mh-parts small" style="text-decoration: none; pointer-events:none;">Read More</a>
                     </button>
                 </div>
@@ -199,7 +229,7 @@
                         ここには、目的に合わせて、路線を使いこなせる自由がある。
                     </p>
                     <div class="gold_line w-50 mb-4 access_line"></div>
-                    <button class="mx-auto d-block gold_btn px-5 py-2" type="button">
+                    <button class="mx-auto d-block gold_btn" type="button">
                         <a href="/access" class="text-white mh-parts small" style="text-decoration: none;">Read More</a>
                     </button>
                 </div>
@@ -216,7 +246,7 @@
                         落ち着いた基調色が街並みと美しく調和します。
                     </p>
                     <div class="gold_line w-50 mb-4 design_line"></div>
-                    <button class="mx-auto d-block gold_btn px-5 py-2 mb-4" type="button">
+                    <button class="mx-auto d-block gold_btn mb-4" type="button">
                         <a href="/design" class="text-white mh-parts small" style="text-decoration:none; pointer-events:none;">Read More</a>
                     </button>
                     <img src="{{ asset('/images/デザイン1.png') }}" alt="サンプル画像" class="design_img2 mt-4 mx-auto d-block img-fluid { max-width: 100%; height: auto }">
@@ -239,7 +269,7 @@
                         本物を知る人を魅了するレジデンス。ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
                     </p>
                     <div class="gold_line w-50 mb-4 plan_line"></div>
-                    <button class="mx-auto d-block gold_btn px-5 py-2" type="button">
+                    <button class="mx-auto d-block gold_btn" type="button">
                         <a href="/plan" class="text-white mh-parts small" style="text-decoration:none; pointer-events:none;">Read More</a>
                     </button>
                 </div>
