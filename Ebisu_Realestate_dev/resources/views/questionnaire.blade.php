@@ -88,7 +88,8 @@
                                             <label for="name">郵便番号<span class="badge badge-danger">必須</span></label>
                                         </th>
                                         <td style="width: 83.3%;">
-                                            <input type="text" name="home_post_code" data-error_placement="#home_post_code">
+                                            <input type="text" name="home_post_code"
+                                                data-error_placement="#home_post_code">
                                             <div class="validation-message" id="home_post_code"></div>
                                             <p>※半角数字(ハイフンなし)で入力してください</p>
                                         </td>
@@ -211,7 +212,8 @@
                                             <label for="name">郵便番号<span class="badge badge-danger">必須</span></label>
                                         </th>
                                         <td style="width: 83.3%;">
-                                            <input type="text" name="work_post_code" data-error_placement="#work_post_code">
+                                            <input type="text" name="work_post_code"
+                                                data-error_placement="#work_post_code">
                                             <div class="validation-message" id="work_post_code"></div>
                                             <p>※半角数字(ハイフンなし)で入力してください</p>
                                         </td>
@@ -271,157 +273,220 @@
                 <div>
                     <p>※アンケート項目すべてにご協力いただけた方に、もれなくAmazonギフトカードを進呈いたします。</p>
                     <p>※アンケートはすべて必須項目になります。</p>
-                    <div class="mt-5">
+                    <div class="questionnaire questionnaire1 mt-5">
                         <p>1.仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。<br>
                             (1つだけ回答)</p>
-                        <div><input type="checkbox">一戸建てにこだわる</div>
-                        <div><input type="checkbox">マンションにこだわる</div>
-                        <div><input type="checkbox">一戸建てもマンションも同様に検討する</div>
-                        <div><input type="checkbox">新築</div>
+                        <ul>
+                            <li><input type="checkbox" id="box_1" value="1"
+                                    onclick="click_cb(1, 'questionnaire1');">一戸建てにこだわる</li><br>
+                            <li><input type="checkbox" id="box_2" value="2"
+                                    onclick="click_cb(1, 'questionnaire1');">マンションにこだわる</li><br>
+                            <li><input type="checkbox" id="box_3" value="3"
+                                    onclick="click_cb(1, 'questionnaire1');">一戸建てもマンションも同様に検討する</li><br>
+                            <li><input type="checkbox" id="box_4" value="4" onclick="click_cb(1, 'questionnaire1');">新築
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="mt-5">
                         <p>2.あなたがお住まいに求める条件をお聞かせください。(それぞれ3つ回答)</p>
-                        <p>【駅名】</p>
-                        <div>
-                            <input type="checkbox">恵比寿
-                            <input type="checkbox">目黒
-                            <input type="checkbox">白金台
-                            <input type="checkbox">白金高輪
-                            <input type="checkbox">麻布十番
-                            <input type="checkbox">広尾<br>
-                            <input type="checkbox">中目黒
-                            <input type="checkbox">代官山
-                            <input type="checkbox">品川
-                            <input type="checkbox">三田
-                            <input type="checkbox">その他<input type="text">
+                        <div class="questionnaire questionnaire2_1">
+                            <p>【駅名】</p>
+                            <ul>
+                                <li><input type="checkbox" value="1" onclick="click_cb(3, 'questionnaire2_1');">恵比寿</li>
+                                <li><input type="checkbox" value="2" onclick="click_cb(3, 'questionnaire2_1');">目黒</li>
+                                <li><input type="checkbox" value="3" onclick="click_cb(3, 'questionnaire2_1');">白金台</li>
+                                <li><input type="checkbox" value="4" onclick="click_cb(3, 'questionnaire2_1');">白金高輪
+                                </li>
+                                <li><input type="checkbox" value="5" onclick="click_cb(3, 'questionnaire2_1');">麻布十番
+                                </li>
+                                <li><input type="checkbox" value="6" onclick="click_cb(3, 'questionnaire2_1');">広尾<br>
+                                </li><br>
+                                <li><input type="checkbox" value="7" onclick="click_cb(3, 'questionnaire2_1');">中目黒</li>
+                                <li><input type="checkbox" value="8" onclick="click_cb(3, 'questionnaire2_1');">代官山</li>
+                                <li><input type="checkbox" value="9" onclick="click_cb(3, 'questionnaire2_1');">品川</li>
+                                <li><input type="checkbox" value="10" onclick="click_cb(3, 'questionnaire2_1');">三田</li>
+                                <br>
+                                <li><input type="checkbox" value="11"
+                                        onclick="click_cb(3, 'questionnaire2_1');">その他<input type="text"></li><br>
+                            </ul>
                         </div>
-                        <p>【立地】</p>
-                        <div>
-                            <input type="checkbox">駅徒歩分数(
-                            <input type="checkbox">～5分
-                            <input type="checkbox">～7分
-                            <input type="checkbox">～10分
-                            <input type="checkbox">～12分
-                            <input type="checkbox">～15分)<br>
-                            <input type="checkbox">通勤・通学に便利
-                            <input type="checkbox">落ち着いた環境
-                            <input type="checkbox">緑が多い<br>
-                            <input type="checkbox">スーパーや病院など生活利便設備が徒歩圏に揃うこと
-                            <input type="checkbox">その他<input type="text">
-                        </div>
-                        <p>【建物】</p>
-                        <div>
-                            <input type="checkbox">価格
-                            <input type="checkbox">広さ
-                            <input type="checkbox">間取り
-                            <input type="checkbox">眺望
-                            <input type="checkbox">駐車場有無
-                            <input type="checkbox">角住戸
-                            <input type="checkbox">内廊下
-                            <input type="checkbox">低層住宅<br>
-                            <input type="checkbox">高層住宅
-                            <input type="checkbox">収納の多さ
-                            <input type="checkbox">設備の充実
-                            <input type="checkbox">新築
-                            <input type="checkbox">その他<input type="text">
-                        </div>
-                    </div>
-
-                    <div class="mt-5">3.仮に今後、マンション購入を検討する場合に希望される間取りと広さをお聞かせください。<br>
-                        (それぞれ1つ回答)</p>
-                        <p>【ご希望の間取り】</p>
-                        <div>
-                            <input type="checkbox">1LDK
-                            <input type="checkbox">2LDK
-                            <input type="checkbox">3LDK
-                            <input type="checkbox">その他<input type="text">
-                        </div>
-                        <p>【ご希望の広さ】</p>
-                        <div>
-                            <input type="checkbox">～50㎡
-                            <input type="checkbox">50㎡～
-                            <input type="checkbox">60㎡～
-                            <input type="checkbox">70㎡～
-                            <input type="checkbox">80㎡～
-                            <input type="checkbox">90㎡～
+                        <div class="questionnaire questionnaire2_2">
+                            <p>【立地】</p>
+                            <ul>
+                                <input type="checkbox" value="1" onclick="click_cb(3, 'questionnaire2_2');">駅徒歩分数(
+                                <input type="checkbox" value="2" onclick="click_cb(3, 'questionnaire2_2');">～5分
+                                <input type="checkbox" value="3" onclick="click_cb(3, 'questionnaire2_2');">～7分
+                                <input type="checkbox" value="4" onclick="click_cb(3, 'questionnaire2_2');">～10分
+                                <input type="checkbox" value="5" onclick="click_cb(3, 'questionnaire2_2');">～12分
+                                <input type="checkbox" value="6" onclick="click_cb(3, 'questionnaire2_2');">～15分)<br>
+                                <input type="checkbox" value="7" onclick="click_cb(3, 'questionnaire2_2');">通勤・通学に便利
+                                <input type="checkbox" value="8" onclick="click_cb(3, 'questionnaire2_2');">落ち着いた環境
+                                <input type="checkbox" value="9" onclick="click_cb(3, 'questionnaire2_2');">緑が多い<br>
+                                <input type="checkbox" value="10"
+                                    onclick="click_cb(3, 'questionnaire2_2');">スーパーや病院など生活利便設備が徒歩圏に揃うこと
+                                <input type="checkbox" value="11" onclick="click_cb(3, 'questionnaire2_2');">その他<input
+                                    type="text"><br>
+                            </ul>
                         </div>
                         <p>【建物】</p>
-                        <div>
-                            <input type="checkbox">価格
-                            <input type="checkbox">広さ
-                            <input type="checkbox">間取り
-                            <input type="checkbox">眺望
-                            <input type="checkbox">駐車場有無
-                            <input type="checkbox">角住戸
-                            <input type="checkbox">内廊下
-                            <input type="checkbox">低層住宅<br>
-                            <input type="checkbox">高層住宅
-                            <input type="checkbox">収納の多さ
-                            <input type="checkbox">設備の充実
-                            <input type="checkbox">新築
-                            <input type="checkbox">その他<input type="text">
+                        <div class="questionnaire questionnaire2_3">
+                            <ul>
+                                <li><input type="checkbox" value="1" onclick="click_cb(3, 'questionnaire2_3');">価格</li>
+                                <li><input type="checkbox" value="2" onclick="click_cb(3, 'questionnaire2_3');">広さ</li>
+                                <li><input type="checkbox" value="3" onclick="click_cb(3, 'questionnaire2_3');">間取り</li>
+                                <li><input type="checkbox" value="4" onclick="click_cb(3, 'questionnaire2_3');">眺望</li>
+                                <li><input type="checkbox" value="5" onclick="click_cb(3, 'questionnaire2_3');">駐車場有無
+                                </li>
+                                <li><input type="checkbox" value="6" onclick="click_cb(3, 'questionnaire2_3');">角住戸</li>
+                                <li><input type="checkbox" value="7" onclick="click_cb(3, 'questionnaire2_3');">内廊下</li>
+                                <li><input type="checkbox" value="8" onclick="click_cb(3, 'questionnaire2_3');">低層住宅<br>
+                                </li>
+                                <li><input type="checkbox" value="9" onclick="click_cb(3, 'questionnaire2_3');">高層住宅
+                                </li>
+                                <li><input type="checkbox" value="10" onclick="click_cb(3, 'questionnaire2_3');">収納の多さ
+                                </li>
+                                <li><input type="checkbox" value="11" onclick="click_cb(3, 'questionnaire2_3');">設備の充実
+                                </li>
+                                <li><input type="checkbox" value="12" onclick="click_cb(3, 'questionnaire2_3');">新築</li>
+                                <li><input type="checkbox" value="13"
+                                        onclick="click_cb(3, 'questionnaire2_3');">その他<input type="text"></li><br>
+                            </ul>
                         </div>
                     </div>
 
-                    <div class="mt-5">4.新築分譲マンション・分譲リノベーションマンションを購入するとした場合についてお聞かせください。<br>
-                        (それぞれ1つ回答)</p>
-                        <div>
-                            <input type="checkbox">新築分譲マンションのみ
-                            <input type="checkbox">分譲リノベーションマンションのみ<br>
-                            <input type="checkbox">どちらも検討する
-                            <input type="checkbox">購入予定はない
+                    <div class="mt-5">
+                        <p>3.仮に今後、マンション購入を検討する場合に希望される間取りと広さをお聞かせください。<br>
+                            (それぞれ1つ回答)</p>
+                        <div class="questionnaire questionnaire3_1">
+                            <p>【ご希望の間取り】</p>
+                            <ul>
+                                <li><input type="checkbox" value="1" onclick="click_cb(1, 'questionnaire3_1');">1LDK
+                                </li>
+                                <li><input type="checkbox" value="2" onclick="click_cb(1, 'questionnaire3_1');">2LDK
+                                </li>
+                                <li><input type="checkbox" value="3" onclick="click_cb(1, 'questionnaire3_1');">3LDK
+                                </li>
+                                <li><input type="checkbox" value="4"
+                                        onclick="click_cb(1, 'questionnaire3_1');">その他<input type="text"></li>
+                            </ul>
+                        </div>
+                        <div class="questionnaire questionnaire3_2">
+                            <p>【ご希望の広さ】</p>
+                            <ul>
+                                <li><input type="checkbox" value="1" onclick="click_cb(1, 'questionnaire3_2');">～50㎡
+                                </li>
+                                <li><input type="checkbox" value="2" onclick="click_cb(1, 'questionnaire3_2');">50㎡～
+                                </li>
+                                <li><input type="checkbox" value="3" onclick="click_cb(1, 'questionnaire3_2');">60㎡～
+                                </li>
+                                <li><input type="checkbox" value="4" onclick="click_cb(1, 'questionnaire3_2');">70㎡～
+                                </li>
+                                <li><input type="checkbox" value="5" onclick="click_cb(1, 'questionnaire3_2');">80㎡～
+                                </li>
+                                <li><input type="checkbox" value="6" onclick="click_cb(1, 'questionnaire3_2');">90㎡～
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="questionnaire questionnaire3_3">
+                            <p>【建物】</p>
+                            <ul>
+                                <li><input type="checkbox" value="1" onclick="click_cb(1, 'questionnaire3_3');">価格</li>
+                                <li><input type="checkbox" value="2" onclick="click_cb(1, 'questionnaire3_3');">広さ</li>
+                                <li><input type="checkbox" value="3" onclick="click_cb(1, 'questionnaire3_3');">間取り</li>
+                                <li><input type="checkbox" value="4" onclick="click_cb(1, 'questionnaire3_3');">眺望</li>
+                                <li><input type="checkbox" value="5" onclick="click_cb(1, 'questionnaire3_3');">駐車場有無
+                                </li>
+                                <li><input type="checkbox" value="6" onclick="click_cb(1, 'questionnaire3_3');">角住戸</li>
+                                <li><input type="checkbox" value="7" onclick="click_cb(1, 'questionnaire3_3');">内廊下</li>
+                                <li><input type="checkbox" value="8" onclick="click_cb(1, 'questionnaire3_3');">低層住宅<br>
+                                </li>
+                                <li><input type="checkbox" value="9" onclick="click_cb(1, 'questionnaire3_3');">高層住宅
+                                </li>
+                                <li><input type="checkbox" value="10" onclick="click_cb(1, 'questionnaire3_3');">収納の多さ
+                                </li>
+                                <li><input type="checkbox" value="11" onclick="click_cb(1, 'questionnaire3_3');">設備の充実
+                                </li>
+                                <li><input type="checkbox" value="12" onclick="click_cb(1, 'questionnaire3_3');">新築</li>
+                                <li><input type="checkbox" value="13"
+                                        onclick="click_cb(1, 'questionnaire3_3');">その他<input type="text"></li>
+                            </ul>
                         </div>
                     </div>
 
-                    <div class="mt-5">5.仮に今後、新たに住宅を検討するとした場合の購入エリアについてお聞かせください。<br>
-                        (複数回答可)</p>
-                        <p>【渋谷区】</p>
-                        <div>
-                            <input type="checkbox">恵比寿1丁目
-                            <input type="checkbox">恵比寿2丁目
-                            <input type="checkbox">恵比寿3丁目
-                            <input type="checkbox">恵比寿4丁目<br>
-                            <input type="checkbox">恵比寿南1丁目
-                            <input type="checkbox">恵比寿南2丁目
-                            <input type="checkbox">恵比寿南3丁目
+                    <div class="mt-5">
+                        <div class="questionnaire questionnaire4_1">
+                            <p>
+                                4.新築分譲マンション・分譲リノベーションマンションを購入するとした場合についてお聞かせください。<br>
+                                (それぞれ1つ回答)
+                            </p>
+                            <ul>
+                                <li><input type="checkbox" value="1" onclick="click_cb(1, 'questionnaire4_1');">新築分譲マンションのみ</li>
+                                <li><input type="checkbox" value="2" onclick="click_cb(1, 'questionnaire4_1');">分譲リノベーションマンションのみ<br></li>
+                                <li><input type="checkbox" value="3" onclick="click_cb(1, 'questionnaire4_1');">どちらも検討する</li>
+                                <li><input type="checkbox" value="4" onclick="click_cb(1, 'questionnaire4_1');">購入予定はない</li>
+                            </ul>
                         </div>
-                        <p>【目黒区】</p>
-                        <div>
-                            <input type="checkbox">三田1丁目
-                            <input type="checkbox">三田2丁目
-                            <input type="checkbox">目黒1丁目
-                            <input type="checkbox">目黒2丁目
+                    </div>
+
+                    <div class="mt-5">
+                        <div class="questionnaire questionnaire5_1">
+                        <p>
+                            5.仮に今後、新たに住宅を検討するとした場合の購入エリアについてお聞かせください。<br>
+                            (複数回答可)
+                        </p>
+                            <p>【渋谷区】</p>
+                            <ul>
+                                <li><input type="checkbox" value="1">恵比寿2丁目</li>
+                                <li><input type="checkbox" value="2">恵比寿3丁目</li>
+                                <li><input type="checkbox" value="3">恵比寿4丁目</li><br>
+                                <li><input type="checkbox" value="4">恵比寿南1丁目</li>
+                                <li><input type="checkbox" value="5">恵比寿南2丁目</li>
+                                <li><input type="checkbox" value="6">恵比寿南3丁目</li>
+                            </ul>
                         </div>
-                        <p>【港区】</p>
-                        <div>
-                            <input type="checkbox">白金台2丁目
-                            <input type="checkbox">白金台3丁目
-                            <input type="checkbox">白金台4丁目
-                            <input type="checkbox">白金台5丁目<br>
-                            <input type="checkbox">白金1丁目
-                            <input type="checkbox">白金2丁目
-                            <input type="checkbox">白金3丁目
-                            <input type="checkbox">白金4丁目
-                            <input type="checkbox">白金5丁目
-                            <input type="checkbox">白金6丁目
+                        <div class="questionnaire questionnaire5_2">
+                            <p>【目黒区】</p>
+                            <ul>
+                                <li><input type="checkbox" value="1">三田1丁目</li>
+                                <li><input type="checkbox" value="2">三田2丁目</li>
+                                <li><input type="checkbox" value="3">目黒1丁目</li>
+                                <li><input type="checkbox" value="4">目黒2丁目</li>
+                            </ul>
                         </div>
+                        <div class="questionnaire questionnaire5_3">
+                            <p>【港区】</p>
+                            <ul>
+                                <li><input type="checkbox" value="1">白金台2丁目</li>
+                                <li><input type="checkbox" value="2">白金台3丁目</li>
+                                <li><input type="checkbox" value="3">白金台4丁目</li>
+                                <li><input type="checkbox" value="4">白金台5丁目<br></li>
+                                <li><input type="checkbox" value="5">白金1丁目</li>
+                                <li><input type="checkbox" value="6">白金2丁目</li>
+                                <li><input type="checkbox" value="7">白金3丁目</li>
+                                <li><input type="checkbox" value="8">白金4丁目</li>
+                                <li><input type="checkbox" value="9">白金5丁目</li>
+                                <li><input type="checkbox" value="10">白金6丁目</li>
+                            </ul>
+                        </div>
+                        <div class="questionnaire questionnaire5_4">
                         <p>【品川区】</p>
-                        <div>
-                            <input type="checkbox">上大崎1丁目
-                            <input type="checkbox">上大崎2丁目
-                            <input type="checkbox">その他<input type="text">
+                        <ul>
+                            <li><input type="checkbox" value="1">上大崎1丁目</li>
+                            <li><input type="checkbox" value="2">上大崎2丁目</li>
+                            <li><input type="checkbox" value="3">その他<input type="text"></li>
+                        </ul>
                         </div>
                     </div>
 
                     <div class="mt-5">6.仮に上記エリアで新規分譲マンションまたは分譲リノベーションマンションを<br>
                         検討する場合、どの住戸を検討しますか。</p>
-                        <div>
-                            <input type="checkbox">1LDK 55㎡前後 0,000万円～
-                            <input type="checkbox">1LDK 60㎡前後 0,000万円～<br>
-                            <input type="checkbox">2LDK 80㎡前後 00,000万円～
-                            <input type="checkbox">2LDK 90㎡前後 00,000万円～<br>
-                            <input type="checkbox">その他<input type="text">
+                        <div class="questionnaire questionnaire6_1">
+                            <li><input type="checkbox" value="1">1LDK 55㎡前後 0,000万円～</li>
+                            <li><input type="checkbox" value="2">1LDK 60㎡前後 0,000万円～<br></li>
+                            <li><input type="checkbox" value="3">2LDK 80㎡前後 00,000万円～</li>
+                            <li><input type="checkbox" value="4">2LDK 90㎡前後 00,000万円～<br></li>
+                            <li><input type="checkbox" value="5">その他<input type="text"></li>
                         </div>
                     </div>
 
@@ -435,22 +500,28 @@
                         <p>［台 数］<input type="text">台数 ［車 種］<input type="text"></p>
                     </div>
 
-                    <div class="mt-5">10.</p>
+                    <div class="mt-5">10.目黒区三田１丁目の分譲リノベーションマンションについてご興味はございますか。</p>
                         <p>［世帯主様］<input type="text">万円</p>
                         <p>［配偶者様］<input type="text">万円 ［全 体］<input type="text"></p>
                     </div>
 
-                    <div class="mt-5">11.目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。</p>
-                        <div>
-                            <input type="checkbox">ある<br>
-                            <input type="checkbox">ない
+                    <div class="mt-5">
+                        <div class="questionnaire questionnaire11">
+                            <p>11.目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。</p>
                         </div>
+                        <ul>
+                            <li><input type="checkbox" value="1">ある<br></li>
+                            <li><input type="checkbox" value="2">ない</li>
+                        </ul>
                     </div>
 
-                    <div class="mt-5">12.現在の住宅から買い替え予定はありますか。</p>
-                        <div>
-                            <input type="checkbox">ある<input type="text"><br>
-                            <input type="checkbox">ない
+                    <div class="mt-5">
+                        <div class="questionnaire questionnaire12">
+                        <p>12.現在の住宅から買い替え予定はありますか。</p>
+                        <ul>
+                            <li><input type="checkbox" value="1">ある<input type="text"><br></li>
+                            <li><input type="checkbox" value="2">ない</li>
+                        </ul>
                         </div>
                     </div>
 
