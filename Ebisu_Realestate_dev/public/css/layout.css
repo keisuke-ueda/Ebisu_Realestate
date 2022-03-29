@@ -207,6 +207,7 @@ body {
   background: linear-gradient(to right, #d6c88d 0%, #b0a071 50%, #d6c88d 100%);
   border: 1px solid #D8CA82;
   text-shadow: 2px 2px 2px #000000; 
+  padding: 15px 70px;
 }
 
 .copper_btn {
