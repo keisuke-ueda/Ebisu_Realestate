@@ -1,7 +1,7 @@
-$(function(){
+$(function () {
   // アニメーション-1
-  $(window).on('load scroll',function (){
-    $('.animation').each(function(){
+  $(window).on('load scroll', function () {
+    $('.animation').each(function () {
       //ターゲットの位置を取得
       var target = $(this).offset().top;
       //ターゲットの高さを取得
@@ -12,12 +12,12 @@ $(function(){
       var window_height = $(window).height();
 
       //ターゲットまでスクロールするとフェードインする
-      if (scroll > target - window_height){
+      if (scroll > target - window_height) {
         $(this).addClass('active');
         // ターゲットを超えるとフェードアウトする
-        if (scroll > target + target_height){
+        if (scroll > target + target_height) {
           $(this).removeClass('active');
-        } 
+        }
       } else {
         // ターゲットまでスクロールしないとフェードインしない
         $(this).removeClass('active');
@@ -25,7 +25,7 @@ $(function(){
     });
 
     // アニメーション-2
-    $('.animation-0-zm').each(function(){
+    $('.animation-0-zm').each(function () {
       //ターゲットの位置を取得
       var target = $(this).offset().top;
       //ターゲットの高さを取得
@@ -36,12 +36,12 @@ $(function(){
       var window_height = $(window).height();
 
       //ターゲットまでスクロールするとフェードインする
-      if (scroll > target - window_height){
+      if (scroll > target - window_height) {
         $(this).addClass('active-0-zm');
         // ターゲットを超えるとフェードアウトする
-        if (scroll > target + target_height){
+        if (scroll > target + target_height) {
           $(this).removeClass('active-0-zm');
-        } 
+        }
       } else {
         // ターゲットまでスクロールしないとフェードインしない
         $(this).removeClass('active-0-zm');
@@ -49,7 +49,7 @@ $(function(){
     });
 
     // アニメーション-3
-    $('.animation-1-zm').each(function(){
+    $('.animation-1-zm').each(function () {
       //ターゲットの位置を取得
       var target = $(this).offset().top;
       //ターゲットの高さを取得
@@ -60,12 +60,12 @@ $(function(){
       var window_height = $(window).height();
 
       //ターゲットまでスクロールするとフェードインする
-      if (scroll > target - window_height){
+      if (scroll > target - window_height) {
         $(this).addClass('active-1-zm');
         // ターゲットを超えるとフェードアウトする
-        if (scroll > target + target_height){
+        if (scroll > target + target_height) {
           $(this).removeClass('active-1-zm');
-        } 
+        }
       } else {
         // ターゲットまでスクロールしないとフェードインしない
         $(this).removeClass('active-1-zm');
@@ -73,7 +73,7 @@ $(function(){
     });
 
     // アニメーション-4
-    $('.animation-2-zm').each(function(){
+    $('.animation-2-zm').each(function () {
       //ターゲットの位置を取得
       var target = $(this).offset().top;
       //ターゲットの高さを取得
@@ -84,12 +84,12 @@ $(function(){
       var window_height = $(window).height();
 
       //ターゲットまでスクロールするとフェードインする
-      if (scroll > target - window_height){
+      if (scroll > target - window_height) {
         $(this).addClass('active-2-zm');
         // ターゲットを超えるとフェードアウトする
-        if (scroll > target + target_height){
+        if (scroll > target + target_height) {
           $(this).removeClass('active-2-zm');
-        } 
+        }
       } else {
         // ターゲットまでスクロールしないとフェードインしない
         $(this).removeClass('active-2-zm');
@@ -103,15 +103,15 @@ $(function(){
 
 
 
-    
+
 
     // スクロールによるヘッダーの出現・固定
     var position = $('.menu-trigger').offset().top + $('.menu-trigger').height();
-    if($(window).scrollTop() > position) {
+    if ($(window).scrollTop() > position) {
       if ($('.header').hasClass('d-none')) {
         $('.header').removeClass('d-none');
       }
-    } 
+    }
 
     // ページ最上部ではヘッダーは非表示
     if ($('.header').offset().top == 0) {
@@ -124,19 +124,19 @@ $(function(){
     $('.index_logo').removeClass('logo_animation');
     $('.menu-trigger').removeClass('menu_animation');
   }
-  
+
 
   // 動画の連続再生
-  $('.movie-1').on("ended", function() {
+  $('.movie-1').on("ended", function () {
     $(this).css('opacity', 0);
     $('.movie-2').removeClass('d-none')
     $('.movie-2').css('opacity', 1);
     $('.movie-2').get(0).play();
     $('.movie_skip').addClass('d-none')
-    $('.logo_animation').delay(11000).queue(function(){
+    $('.logo_animation').delay(11000).queue(function () {
       $(this).addClass('active')
       $(this).dequeue();
-      $('.menu_animation').delay(1000).queue(function(){
+      $('.menu_animation').delay(1000).queue(function () {
         $(this).addClass('active')
         $(this).dequeue();
       });
@@ -144,14 +144,14 @@ $(function(){
   });
 
   // スキップボタンクリック
-  $('.movie_skip_btn').on('click', function() {
+  $('.movie_skip_btn').on('click', function () {
     $('.movie-2').removeClass('d-none')
     $('.movie-2').get(0).play();
     $('.movie_skip').addClass('d-none')
-    $('.logo_animation').delay(11000).queue(function(){
+    $('.logo_animation').delay(11000).queue(function () {
       $(this).addClass('active')
       $(this).dequeue();
-      $('.menu_animation').delay(1000).queue(function(){
+      $('.menu_animation').delay(1000).queue(function () {
         $(this).addClass('active')
         $(this).dequeue();
       });
@@ -159,11 +159,11 @@ $(function(){
   })
 
   // ハンバーガーボタンをクリック
-  $('.menu-trigger').on('click', function() {
+  $('.menu-trigger').on('click', function () {
     $('.header').removeClass('d-none');
   })
 
-  $('.header_menu_trigger').on('click', function(){
+  $('.header_menu_trigger').on('click', function () {
     $('.header').addClass('d-none');
   })
 
@@ -238,10 +238,10 @@ $(function(){
       }
     },
     //エラーメッセージ表示位置指定
-    errorPlacement: function(error, element){
+    errorPlacement: function (error, element) {
       // data-error_placementで指定された要素に追加
       error.appendTo(element.data('error_placement'));
-  }
+    }
   });
 
   // エントリーフォームの入力バリデーション
@@ -262,15 +262,61 @@ $(function(){
   });
 
 
-  
-  $('.header_link a').each(function(){
+
+  $('.header_link a').each(function () {
     var href = $(this).attr('href');
-    if(location.href.match(href)) {
+    if (location.href.match(href)) {
       $(this).addClass('current');
     } else {
       $(this).removeClass('current');
     };
   });
   $('.current').css('color', 'white');
- 
+
 });
+
+
+
+/*
+  以降アンケートフォーム(questionnaire.blade.php)用のチェックボックス制御
+  要別ファイルへ移行と思われます
+*/
+// アンケートフォームチェックボックス制御
+function click_cb(limit, class_name) {
+  //チェックカウント用変数
+  var check_count = 0;
+  var lim = limit - 1;
+  var target_li = "." + class_name + " ul li";
+  // 箇所チェック数カウント
+  $(target_li).each(function () {
+    var parent_checkbox = $(this).children("input[type='checkbox']");
+    if (parent_checkbox.prop('checked')) {
+      check_count = check_count + 1;
+    }
+  });
+  // 0個のとき（チェックがすべて外れたとき）
+  if (check_count == 0) {
+    $(target_li).each(function () {
+      $(this).find(".locked").removeClass("locked");
+    });
+    // チェック可能上限数以上の時
+  } else if (check_count > lim) {
+    $(target_li).each(function () {
+      // チェックされていないチェックボックスをロックする
+      if (!$(this).children("input[type='checkbox']").prop('checked')) {
+        $(this).children("input[type='checkbox']").prop('disabled', true);
+        $(this).addClass("locked");
+      }
+    });
+  } else {
+    $(target_li).each(function () {
+      // チェックされていないチェックボックスを選択可能にする
+      if (!$(this).children("input[type='checkbox']").prop('checked')) {
+        $(this).children("input[type='checkbox']").prop('disabled', false);
+        $(this).removeClass("locked");
+      }
+    });
+  }
+  return false;
+}
+

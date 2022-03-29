@@ -409,3 +409,11 @@ input, select {
 .print-off {
   display: none;
 }
+
+/*
+ アンケートページ(questionnaire.blade.php)
+*/
+.questionnaire > ul > li {
+  list-style: none;
+  float: left;
+}
