@@ -94,7 +94,11 @@
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
-                                    <p style="line-height: 48px">内廊下設計、角住戸率57%<sup class="font-11">※1</sup>超</p>
+                                    <div class="">
+                                        <p class="m-0"><span style="color: transparent;">あああああああああああ</span><span class="font-11">※1</span>&nbsp;&nbsp;&nbsp;</p>
+                                        <p class="m-0">内廊下設計、角住戸率<span class="h5">57%</span>超</p>
+                                    </div>
+                                    <!-- <p style="line-height: 48px">内廊下設計、角住戸率57%<sup class="font-11">※1</sup>超</p> -->
                                 </div>
                             </div>
                         </div>
@@ -103,7 +107,12 @@
                         <div class="gold_frame">
                             <div class="frame_border">
                                 <div class="frame_circle">
-                                    <p>大型SUV車、スポーツカーも安心<br><span>全12台分の駐車場を設置<sup class="font-11">※２</sup></span></p>
+                                    <div>
+                                        <p>大型SUV車、スポーツカーも安心</p>
+                                        <p class="font-11"><span style="color: transparent;">ああああああああああああああ</span>※２</p>
+                                        <p>全12台分の駐車場を設置</p>
+                                    </div>
+                                    <!-- <p>大型SUV車、スポーツカーも安心<br><span>全12台分の駐車場を設置<sup class="font-11">※２</sup></span></p> -->
                                 </div>
                             </div>
                         </div>
@@ -154,11 +163,11 @@
                     <div class="col-6">
                         <table class="table text-white small">
                             <tr>
-                                <td class="py-3" scope="col">2022.4.8</td>
+                                <td class="py-3" scope="col">2022.4.15</td>
                                 <td class="py-3" scope="col">ラ・アトレ恵比寿グランガーデン　ホームページ開設</td>
                             </tr>
                             <tr>
-                                <td class="py-3" scope="col">2022.4.8</td>
+                                <td class="py-3" scope="col">2022.4.15</td>
                                 <td class="py-3" scope="col">お住まいのアンケートを開設しました。(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
                             </tr>
                         </table>
@@ -239,17 +248,17 @@
             <div class="row my-5 py-5">
                 <div class="col-4 animation ft2 design_col">
                     <img class="mb-4 ms-3 design_img" src="{{ asset('/images/thedesign.png') }}" alt="サンプル画像" style="width: 70%;">
-                    <p class="mb-4 ms-3 design_p" style="font-size: 15px;">常緑樹の深い緑も豊かな静謐なる街並み。周辺に
-                        高級住宅街にふさわしい丘上の瀟洒な5階建て。
-                        緑と調和しながら独自の存在感を醸し出しています。
-                        バルコニーの目立たない高級感にあふれる雁行フォルム。
+                    <p class="mb-4 ms-3 design_p" style="font-size: 15px;">常緑樹の深い緑も豊かな静謐なる街並み。周辺の<br>
+                        高級住宅街にふさわしい丘上の瀟洒な5階建て。<br>
+                        緑と調和しながら独自の存在感を醸し出しています。<br>
+                        バルコニーの目立たない高級感にあふれる雁行フォルム。<br>
                         落ち着いた基調色が街並みと美しく調和します。
                     </p>
                     <div class="gold_line w-50 mb-4 design_line"></div>
                     <button class="mx-auto d-block gold_btn mb-4" type="button">
                         <a href="/design" class="text-white mh-parts small" style="text-decoration:none; pointer-events:none;">Read More</a>
                     </button>
-                    <img src="{{ asset('/images/デザイン1.png') }}" alt="サンプル画像" class="design_img2 mt-4 mx-auto d-block img-fluid { max-width: 100%; height: auto }">
+                    <!-- <img src="{{ asset('/images/デザイン1.png') }}" alt="サンプル画像" class="design_img2 mt-4 mx-auto d-block img-fluid { max-width: 100%; height: auto }"> -->
                 </div>
                 <div class="col-8 animation-1-zm">
                     <img src="{{ asset('/images/picture1.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
@@ -257,7 +266,7 @@
             </div>
 
             <!-- Plan -->
-            <div class="row my-5 py-5">
+            <!-- <div class="row my-5 py-5">
                 <div class="col-8 animation-0-zm">
                     <img src="{{ asset('/images/ダミーマップ.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                 </div>
@@ -273,21 +282,21 @@
                         <a href="/plan" class="text-white mh-parts small" style="text-decoration:none; pointer-events:none;">Read More</a>
                     </button>
                 </div>
-            </div>
+            </div> -->
 
             <div class="row my-5 py-5 animation-0-zm">
-                <p class="col-1"></p>
-                <div class="col-10 d-flex justify-content-center">
-                    <a href="/blanding" style="pointer-events:none;">
-                    <img src="{{ asset('/images/TOP_7.png') }}">
+                <p class="col-2"></p>
+                <div class="col-8 d-flex justify-content-center">
+                    <a href="/blanding" style="pointer-events:none;" class="w-100">
+                    <img src="{{ asset('/images/TOP_7.png') }}" class="w-100">
                     </a>
                 </div>
-                <p class="col-1"></p>
+                <p class="col-2"></p>
             </div>
 
             <div class="animation">
                 <div class="row">
-                    <button class="col-3 mx-auto d-block copper_btn py-2" type="button">
+                    <button class="col-3 mx-auto d-block copper_btn py-3" type="button">
                         <a href="/entry" class="text-white mh-parts ft2" style="text-decoration: none; font-size: 19px;">物件エントリー受付中</a>
                     </button>
                 </div>
@@ -329,24 +338,23 @@
                 var design_col = $('.design_col').height();
                 var design_img = $('.design_img').height();
                 var design_p = $('.design_p').height();
-                var design_img2 = $('.design_img2').height();
 
-                var plan_col = $('.plan_col').height();
-                var plan_img = $('.plan_img').height();
-                var plan_p = $('.plan_p').height();
+                // var plan_col = $('.plan_col').height();
+                // var plan_img = $('.plan_img').height();
+                // var plan_p = $('.plan_p').height();
 
 
                 var ebisu_line = ebisu_col - ebisu_img - ebisu_p - btn - 72
                 var location_line = location_col - location_img - location_p - btn - 72
                 var access_line = access_col - access_img - access_p - btn - 72
-                var design_line = design_col - design_img - design_p - btn - design_img2 - 96
-                var plan_line = plan_col - plan_img - plan_p - btn - 72
+                var design_line = design_col - design_img - design_p - btn  - 72
+                // var plan_line = plan_col - plan_img - plan_p - btn - 72
 
                 $('.ebisu_line').height(ebisu_line);
                 $('.location_line').height(location_line);
                 $('.access_line').height(access_line);
                 $('.design_line').height(design_line);
-                $('.plan_line').height(plan_line);
+                // $('.plan_line').height(plan_line);
             })
         })
     </script>
