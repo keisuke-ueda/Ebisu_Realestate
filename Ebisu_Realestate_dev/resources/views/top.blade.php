@@ -186,7 +186,7 @@
                     <img src="{{ asset('/images/12.JPG') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4 animation ft2 ebisu_col">
-                    <img class="mb-4 ebisu_img" src="{{ asset('/images/theebisu.png') }}" alt="サンプル画像" style="width: 56%;">
+                    <img class="mb-4 ebisu_img" src="{{ asset('/images/theebisu.svg') }}" alt="サンプル画像" style="width: 56%;">
                     <p class="mb-4 ft2 ebisu_p" style="font-size: 15px;">恵比寿、それも「恵比寿ガーデンプレイス」<br>
                         「ウエスティンホテル東京」を間近とする住宅地。<br>
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
@@ -203,7 +203,7 @@
             <!-- Location -->
             <div class="row my-5 py-5">
                 <div class="col-4 animation ft2 location_col">
-                    <img class="mb-4 ms-3 location_img" src="{{ asset('/images/thelocation.png') }}" alt="サンプル画像" style="width: 90.3%;">
+                    <img class="mb-4 ms-3 location_img" src="{{ asset('/images/thelocation.svg') }}" alt="サンプル画像" style="width: 90.3%;">
                     <p class="mb-4 ms-5 location_p" style="font-size: 15px;">洗練と成熟に抱かれた街、恵比寿。<br>
                         ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
                         「ラ・アトレ恵比寿グランガーデン」<br>
@@ -231,7 +231,7 @@
                     <img src="{{ asset('/images/4区.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4 animation ft2 access_col">
-                    <img class="mb-4 access_img" src="{{ asset('/images/theaccess.png') }}" alt="サンプル画像" style="width: 81.9%;">
+                    <img class="mb-4 access_img" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像" style="width: 81.9%;">
                     <p class="mb-4 access_p" style="font-size: 15px;">都心をもっと近くする、スピーディなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
                         渋谷、霞ヶ関、銀座へダイレクトに繋がることのできる日比谷線。<br>
