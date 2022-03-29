@@ -276,13 +276,13 @@
             </div>
 
             <div class="row my-5 py-5 animation-0-zm">
-                <p class="col-2"></p>
-                <div class="col-8">
+                <p class="col-1"></p>
+                <div class="col-10 d-flex justify-content-center">
                     <a href="/blanding" style="pointer-events:none;">
                     <img src="{{ asset('/images/TOP_7.png') }}">
                     </a>
                 </div>
-                <p class="col-4"></p>
+                <p class="col-1"></p>
             </div>
 
             <div class="animation">
