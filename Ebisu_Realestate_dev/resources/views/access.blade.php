@@ -7,6 +7,46 @@
 <!-- 背景色、テキスト一時的に調整 -->
 
 <img  class="d-block w-100 center-block" src="{{ asset('/images/ACCESS_1.png') }}">
+
+<div class="pb-4" style="background-color: #000;">
+    <div class="access_info ft2 h5 d-sm-flex justify-content-center align-items-center">
+        <div class="mx-2">
+            <div class="d-flex align-items-end">
+                <div>
+                    <p class="s15">JR山手線・埼京線</p>
+                    <p><span class="s15">湘南新宿ライン</span>「恵比寿」駅</p>
+                </div>
+                <p>徒歩<span class="h1 gold" style="line-height: 100%;">11</span>分 /</p>
+            </div>
+            <p class="font-11">
+                <span class="s15" style="color: transparent;">ーーーーーーー</span>
+                （恵比寿スカイウォークより徒歩7分）
+            </p>
+        </div>
+        <div class="mx-2">
+            <div class="d-flex align-items-end">
+                <div>
+                    <p class="s15">&nbsp;</p>
+                    <p><span class="s15">東京メトロ日比谷線</span>「恵比寿」駅</p>
+                </div>
+                <p>徒歩<span class="h1 gold" style="line-height: 100%;">13</span>分 /</p>
+            </div>
+            <p class="font-11">&nbsp;</p>
+        </div>
+        <div class="mx-2">
+            <div class="d-flex align-items-end">
+                <div>
+                    <p class="s15">JR山手線・東京メトロ南北線・</p>
+                    <p><span class="s15">都営地下鉄三田線・東急目黒線</span>「目黒」駅</p>
+                </div>
+                <p>徒歩<span class="h1 gold" style="line-height: 100%;">13</span>分</p>
+            </div>
+            <p class="font-11">&nbsp;</p>
+        </div>
+    </div>
+</div>
+
+
 <div class="main-content container-fluid p-5">
 
     <!-- 路線図 -->

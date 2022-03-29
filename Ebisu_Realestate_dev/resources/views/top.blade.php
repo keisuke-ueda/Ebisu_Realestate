@@ -35,7 +35,7 @@
                             <p>徒歩<span class="h1 gold" style="line-height: 100%;">11</span>分 /</p>
                         </div>
                         <p class="font-11">
-                            <span class="s15" style="color: transparent;">湘南新宿ライン</span>
+                            <span class="s15" style="color: transparent;">ーーーーーーー</span>
                             （恵比寿スカイウォークより徒歩7分）
                         </p>
                     </div>
@@ -68,10 +68,15 @@
                 <div class="row mt-5 mb-4">
                     <p class="col-2"></p>
                     <div class="col-4">
-                        <div class="gold_frame">
-                            <div class="frame_border">
-                                <div class="frame_circle">
-                                    <p>最寄りのJR山手線・埼京線「恵比寿」駅より、<br><span>「渋谷」駅へ2分「新宿」駅へ7分「品川」駅へ9分</span></p>
+                        <div class="gold_frame h-100">
+                            <div class="frame_border h-100">
+                                <div class="frame_circle h-100">
+                                    <!-- <p>最寄りのJR山手線・埼京線「恵比寿」駅より、<br><span>「渋谷」駅へ2分「新宿」駅へ7分「品川」駅へ9分</span></p> -->
+                                    <p class="font-11">&nbsp;</p>
+                                    <p>最寄りのJR山手線・埼京線「恵比寿」駅より、</p>
+                                    <p class="font-11">&nbsp;</p>
+                                    <p>「渋谷」駅へ<<span class="h5">2</span>分「新宿」駅へ<span class="h5">7</span>分「品川」駅へ<span class="h5">9</span>分</p>
+                                    <p class="font-11">&nbsp;</p>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +85,12 @@
                         <div class="gold_frame">
                             <div class="frame_border">
                                 <div class="frame_circle">
-                                    <p>緑に包まれた「ウエスティンホテル東京」<br><span>「恵比寿ガーデンプレイス」に隣接</span></p>
+                                    <!-- <p>緑に包まれた「ウエスティンホテル東京」<br><span>「恵比寿ガーデンプレイス」に隣接</span></p> -->
+                                    <p class="font-11">&nbsp;</p>
+                                    <p>緑に包まれた<span class="h5">「ウエスティンホテル東京」</span></p>
+                                    <p class="font-11">&nbsp;</p>
+                                    <p><span class="h5">「恵比寿ガーデンプレイス」</span>に隣接</p>
+                                    <p class="font-11">&nbsp;</p>
                                 </div>
                             </div>
                         </div>
@@ -95,8 +105,9 @@
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
                                     <div class="">
-                                        <p class="m-0"><span style="color: transparent;">あああああああああああ</span><span class="font-11">※1</span>&nbsp;&nbsp;&nbsp;</p>
-                                        <p class="m-0">内廊下設計、角住戸率<span class="h5">57%</span>超</p>
+                                        <p class=""><span style="color: transparent;">ーーーーーーーーーーー</span><span class="font-11">※1</span>&nbsp;&nbsp;&nbsp;</p>
+                                        <p class="">内廊下設計、角住戸率<span class="h5">57%</span>超</p>
+                                        <p class="font-11">&nbsp;</p>
                                     </div>
                                     <!-- <p style="line-height: 48px">内廊下設計、角住戸率57%<sup class="font-11">※1</sup>超</p> -->
                                 </div>
@@ -108,9 +119,11 @@
                             <div class="frame_border">
                                 <div class="frame_circle">
                                     <div>
-                                        <p>大型SUV車、スポーツカーも安心</p>
-                                        <p class="font-11"><span style="color: transparent;">ああああああああああああああ</span>※２</p>
-                                        <p>全12台分の駐車場を設置</p>
+                                        <p class="font-11">&nbsp;</p>
+                                        <p class="h5">大型SUV車、スポーツカーも安心</p>
+                                        <p class="font-11"><span style="color: transparent;">ーーーーーーーーーーーーーー</span>※２</p>
+                                        <p class="h5">全12台分の駐車場を設置</p>
+                                        <p class="font-11">&nbsp;</p>
                                     </div>
                                     <!-- <p>大型SUV車、スポーツカーも安心<br><span>全12台分の駐車場を設置<sup class="font-11">※２</sup></span></p> -->
                                 </div>

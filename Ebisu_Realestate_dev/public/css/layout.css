@@ -41,6 +41,10 @@ body {
   padding: 10px;
 }
 
+.access_info p {
+  margin: 0;
+}
+
 /* ヘッダー */
 .header {
   background-color: black;
@@ -226,6 +230,13 @@ body {
   padding: 1em;
   color: #ca4;
   text-align: center;
+}
+
+.frame_circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 100%;
 }
 
 .frame_border:before,
