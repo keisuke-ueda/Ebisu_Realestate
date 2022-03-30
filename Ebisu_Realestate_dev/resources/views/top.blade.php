@@ -63,19 +63,18 @@
             </div>
 
             <!-- 枠 -->
-            <div class="animation gold ft2">
+            <div class="animation gold ft2 pb-5">
                 <!-- 枠1 -->
                 <div class="row mt-5 mb-4">
                     <p class="col-2"></p>
                     <div class="col-4">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
-                                <div class="frame_circle h-100">
-                                    <!-- <p>最寄りのJR山手線・埼京線「恵比寿」駅より、<br><span>「渋谷」駅へ2分「新宿」駅へ7分「品川」駅へ9分</span></p> -->
+                                <div class="frame_circle h-100 h5">
                                     <p class="font-11">&nbsp;</p>
                                     <p>最寄りのJR山手線・埼京線「恵比寿」駅より、</p>
                                     <p class="font-11">&nbsp;</p>
-                                    <p>「渋谷」駅へ<<span class="h5">2</span>分「新宿」駅へ<span class="h5">7</span>分「品川」駅へ<span class="h5">9</span>分</p>
+                                    <p>「渋谷」駅へ<<span class="h4">2</span>分「新宿」駅へ<span class="h4">7</span>分「品川」駅へ<span class="h4">9</span>分</p>
                                     <p class="font-11">&nbsp;</p>
                                 </div>
                             </div>
@@ -84,12 +83,11 @@
                     <div class="col-4">
                         <div class="gold_frame">
                             <div class="frame_border">
-                                <div class="frame_circle">
-                                    <!-- <p>緑に包まれた「ウエスティンホテル東京」<br><span>「恵比寿ガーデンプレイス」に隣接</span></p> -->
+                                <div class="frame_circle h5">
                                     <p class="font-11">&nbsp;</p>
-                                    <p>緑に包まれた<span class="h5">「ウエスティンホテル東京」</span></p>
+                                    <p>緑に包まれた<span class="h4">「ウエスティンホテル東京」</span></p>
                                     <p class="font-11">&nbsp;</p>
-                                    <p><span class="h5">「恵比寿ガーデンプレイス」</span>に隣接</p>
+                                    <p><span class="h4">「恵比寿ガーデンプレイス」</span>に隣接</p>
                                     <p class="font-11">&nbsp;</p>
                                 </div>
                             </div>
@@ -103,13 +101,10 @@
                     <div class="col-4">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
-                                <div class="frame_circle h-100">
-                                    <div class="">
-                                        <p class=""><span style="color: transparent;">ーーーーーーーーーーー</span><span class="font-11">※1</span>&nbsp;&nbsp;&nbsp;</p>
-                                        <p class="">内廊下設計、角住戸率<span class="h5">57%</span>超</p>
-                                        <p class="font-11">&nbsp;</p>
-                                    </div>
-                                    <!-- <p style="line-height: 48px">内廊下設計、角住戸率57%<sup class="font-11">※1</sup>超</p> -->
+                                <div class="frame_circle h-100 h5">
+                                    <p class=""><span style="color: transparent;">ーーーーーーーーーーー</span><span class="font-11">※1</span>&nbsp;&nbsp;&nbsp;</p>
+                                    <p class="">内廊下設計、角住戸率<span class="h4">57%</span>超</p>
+                                    <p class="font-11">&nbsp;</p>
                                 </div>
                             </div>
                         </div>
@@ -117,15 +112,12 @@
                     <div class="col-4">
                         <div class="gold_frame">
                             <div class="frame_border">
-                                <div class="frame_circle">
-                                    <div>
-                                        <p class="font-11">&nbsp;</p>
-                                        <p class="h5">大型SUV車、スポーツカーも安心</p>
-                                        <p class="font-11"><span style="color: transparent;">ーーーーーーーーーーーーーー</span>※２</p>
-                                        <p class="h5">全12台分の駐車場を設置</p>
-                                        <p class="font-11">&nbsp;</p>
-                                    </div>
-                                    <!-- <p>大型SUV車、スポーツカーも安心<br><span>全12台分の駐車場を設置<sup class="font-11">※２</sup></span></p> -->
+                                <div class="frame_circle h5">
+                                    <p class="font-11">&nbsp;</p>
+                                    <p class="h4">大型SUV車、スポーツカーも安心</p>
+                                    <p class="font-11"><span style="color: transparent;">ーーーーーーーーーーーーーーーーーー</span>※２</p>
+                                    <p class="h4">全12台分の駐車場を設置</p>
+                                    <p class="font-11">&nbsp;</p>
                                 </div>
                             </div>
                         </div>
@@ -135,13 +127,13 @@
             </div>
 
             <!-- アンケートエリア -->
-            <div class="animation mt-5">
+            <div class="animation my-5">
                 <div class="row">
                     <p class="col-1"></p>
-                    <p class="col-10 gold-title text-center h4 mb-4 ft2">「お住まいについてのアンケート」にご協力ください。</p>
+                    <p class="col-10 gold-title text-center h4 mt--5 mb-4 ft2">「お住まいについてのアンケート」にご協力ください。</p>
                     <p class="col-1"></p>
                 </div>
-                <div class="row">
+                <div class="row pb-5">
                     <p class="col-4"></p>
                     <div class="col-4 border border-warning text-center ft2">
                         <br>
@@ -153,7 +145,7 @@
                         <div class="row">
                             <p class="col-2"></p>
                             <form action="/questionnaire" method="GET">
-                                <button type="submit" class="col-8 gold_btn p-2 mh-parts"><span class="h5 text-white">アンケートはこちら</span></button>
+                                <button type="submit" class="col-8 gold_btn px-2 mh-parts"><span class="h5 text-white">アンケートはこちら</span></button>
                             </form>
                             <p class="col-2"></p>
                         <br>
@@ -165,7 +157,7 @@
             </div>
 
             <!-- INFOMATION -->
-            <div class="row animation mt-5">
+            <div class="row animation my-5">
                 <div class="row mb-4"> 
                     <p class="col-1"></p>
                     <p class="col-10 gold-title text-center h4 ft3">INFORMATION</p>
@@ -199,15 +191,15 @@
                     <img src="{{ asset('/images/12.JPG') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4 animation ft2 ebisu_col">
-                    <img class="mb-4 ebisu_img" src="{{ asset('/images/theebisu.svg') }}" alt="サンプル画像" style="width: 56%;">
-                    <p class="mb-4 ft2 ebisu_p" style="font-size: 15px;">恵比寿、それも「恵比寿ガーデンプレイス」<br>
+                    <img class="d-block ms-5 mb-4 ebisu_img w-75" src="{{ asset('/images/theebisu.svg') }}" alt="サンプル画像">
+                    <p class="d-block ms-5 mb-4 ft2 ebisu_p s19">恵比寿、それも「恵比寿ガーデンプレイス」<br>
                         「ウエスティンホテル東京」を間近とする住宅地。<br>
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
                         多くを語らずとも本物を知る人を魅了するレジデンス。<br>
                         「ラ・アトレ恵比寿」-ゆるぎなき矜持がここにある。
                     </p>
                     <div class="gold_line w-50 mb-4 ebisu_line"></div>
-                    <button class="mx-auto d-block gold_btn bottom-0" type="button">
+                    <button class="mx-auto d-block gold_btn read_more" type="button">
                         <a href="/concept" class="text-white mh-parts small" style=";text-decoration: none;">Read More</a>
                     </button>
                 </div>
@@ -216,15 +208,15 @@
             <!-- Location -->
             <div class="row my-5 py-5">
                 <div class="col-4 animation ft2 location_col">
-                    <img class="mb-4 ms-3 location_img" src="{{ asset('/images/thelocation.svg') }}" alt="サンプル画像" style="width: 90.3%;">
-                    <p class="mb-4 ms-5 location_p" style="font-size: 15px;">洗練と成熟に抱かれた街、恵比寿。<br>
+                    <img class="d-block ms-5 mb-4 ms-3 location_img w-75" src="{{ asset('/images/thelocation.svg') }}" alt="サンプル画像">
+                    <p class="d-block ms-5 mb-4 ms-5 location_p s19">洗練と成熟に抱かれた街、恵比寿。<br>
                         ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
                         「ラ・アトレ恵比寿グランガーデン」<br>
                         建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
                         ココに暮らす人々の姿さえも、この地の美しい風景となる。
                     </p>
                     <div class="gold_line w-50 mb-4 location_line"></div>
-                    <button class="mx-auto d-block gold_btn" type="button">
+                    <button class="mx-auto d-block gold_btn read_more" type="button">
                         <a href="/location" class="text-white mh-parts small" style="text-decoration: none; pointer-events:none;">Read More</a>
                     </button>
                 </div>
@@ -244,14 +236,14 @@
                     <img src="{{ asset('/images/4区.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4 animation ft2 access_col">
-                    <img class="mb-4 access_img" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像" style="width: 81.9%;">
-                    <p class="mb-4 access_p" style="font-size: 15px;">都心をもっと近くする、スピーディなアクセス。<br>
+                    <img class="d-block ms-5 mb-4 access_img w-75" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
+                    <p class="d-block ms-5 mb-4 access_p s19">都心をもっと近くする、スピーディなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
                         渋谷、霞ヶ関、銀座へダイレクトに繋がることのできる日比谷線。<br>
                         ここには、目的に合わせて、路線を使いこなせる自由がある。
                     </p>
                     <div class="gold_line w-50 mb-4 access_line"></div>
-                    <button class="mx-auto d-block gold_btn" type="button">
+                    <button class="mx-auto d-block gold_btn read_more" type="button">
                         <a href="/access" class="text-white mh-parts small" style="text-decoration: none;">Read More</a>
                     </button>
                 </div>
@@ -260,15 +252,15 @@
             <!-- Design -->
             <div class="row my-5 py-5">
                 <div class="col-4 animation ft2 design_col">
-                    <img class="mb-4 ms-3 design_img" src="{{ asset('/images/thedesign.png') }}" alt="サンプル画像" style="width: 70%;">
-                    <p class="mb-4 ms-3 design_p" style="font-size: 15px;">常緑樹の深い緑も豊かな静謐なる街並み。周辺の<br>
+                    <img class="d-block ms-5 mb-4 ms-3 design_img w-75" src="{{ asset('/images/thedesign.png') }}" alt="サンプル画像">
+                    <p class="d-block ms-5 mb-4 ms-3 design_p s19">常緑樹の深い緑も豊かな静謐なる街並み。周辺の<br>
                         高級住宅街にふさわしい丘上の瀟洒な5階建て。<br>
                         緑と調和しながら独自の存在感を醸し出しています。<br>
                         バルコニーの目立たない高級感にあふれる雁行フォルム。<br>
                         落ち着いた基調色が街並みと美しく調和します。
                     </p>
                     <div class="gold_line w-50 mb-4 design_line"></div>
-                    <button class="mx-auto d-block gold_btn mb-4" type="button">
+                    <button class="mx-auto d-block gold_btn read_more" type="button">
                         <a href="/design" class="text-white mh-parts small" style="text-decoration:none; pointer-events:none;">Read More</a>
                     </button>
                     <!-- <img src="{{ asset('/images/デザイン1.png') }}" alt="サンプル画像" class="design_img2 mt-4 mx-auto d-block img-fluid { max-width: 100%; height: auto }"> -->
@@ -284,8 +276,8 @@
                     <img src="{{ asset('/images/ダミーマップ.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                 </div>
                 <div class="col-4 animation ft2 plan_col">
-                    <img class="mb-4 plan_img" src="{{ asset('/images/theplan.png') }}" alt="サンプル画像" style="width: 45.1%;">
-                    <p class="mb-4 plan_p" style="font-size: 15px;">ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
+                    <img class="d-block ms-5 mb-4 plan_img w-75" src="{{ asset('/images/theplan.png') }}" alt="サンプル画像">
+                    <p class="d-block ms-5 mb-4 plan_p s19">ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
                         「ウェスティンホテル東京」を間近とする住宅地。その静謐なる佇まいは、
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。多くを語らずとも、
                         本物を知る人を魅了するレジデンス。ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
@@ -315,7 +307,7 @@
                 </div>
                 <div class="row mt-5">
                     <p class="col-2"></p>
-                    <p class="col-8 font-11 ft2">
+                    <p class="col-8 small ft2">
                         ※1) 総戸数21戸中 12戸が角住戸により、57%超の角住戸となります。<br>
                         ※2) 全12台の駐車場は、大型SUV車、スポーツカーが3台駐車可能となります。また、1台の屋外平置式シェアカーを含んでいます。<br>
                         ※正射画像データ:国土地理院刊行の正射画像データに、一部CG加工を施しており、実際とは異なります。<br>
@@ -334,7 +326,7 @@
     <script>
         $(function(){
             $(window).on('load',function (){
-                let btn = $('.gold_btn').outerHeight();
+                let btn = $('.read_more').outerHeight();
 
                 var ebisu_col = $('.ebisu_col').height();
                 var ebisu_img = $('.ebisu_img').height();

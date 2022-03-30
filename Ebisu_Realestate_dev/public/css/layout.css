@@ -106,7 +106,6 @@ body {
 /* フッター */
 .footer {
   background-color: black;
-  font-family: serif;
 }
 
 .footer p {
@@ -215,7 +214,8 @@ body {
 }
 
 .copper_btn {
-  background: linear-gradient(to right, #bab5b1 0%, #9c8b7e 25%, #9c8b7e 51%, #bab5b1 100%);
+  /* background: linear-gradient(to right, #bab5b1 0%, #9c8b7e 25%, #9c8b7e 51%, #bab5b1 100%); */
+  background-color: #9c8b7e;
   font-family: serif;
   border: 1px solid #cec5bb;
 }
