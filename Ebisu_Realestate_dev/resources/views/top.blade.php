@@ -63,18 +63,18 @@
             </div>
 
             <!-- 枠 -->
-            <div class="animation gold ft2">
+            <div class="animation gold ft2 pb-5">
                 <!-- 枠1 -->
                 <div class="row mt-5 mb-4">
                     <p class="col-2"></p>
                     <div class="col-4">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
-                                <div class="frame_circle h-100">
+                                <div class="frame_circle h-100 h5">
                                     <p class="font-11">&nbsp;</p>
                                     <p>最寄りのJR山手線・埼京線「恵比寿」駅より、</p>
                                     <p class="font-11">&nbsp;</p>
-                                    <p>「渋谷」駅へ<<span class="h5">2</span>分「新宿」駅へ<span class="h5">7</span>分「品川」駅へ<span class="h5">9</span>分</p>
+                                    <p>「渋谷」駅へ<<span class="h4">2</span>分「新宿」駅へ<span class="h4">7</span>分「品川」駅へ<span class="h4">9</span>分</p>
                                     <p class="font-11">&nbsp;</p>
                                 </div>
                             </div>
@@ -83,11 +83,11 @@
                     <div class="col-4">
                         <div class="gold_frame">
                             <div class="frame_border">
-                                <div class="frame_circle">
+                                <div class="frame_circle h5">
                                     <p class="font-11">&nbsp;</p>
-                                    <p>緑に包まれた<span class="h5">「ウエスティンホテル東京」</span></p>
+                                    <p>緑に包まれた<span class="h4">「ウエスティンホテル東京」</span></p>
                                     <p class="font-11">&nbsp;</p>
-                                    <p><span class="h5">「恵比寿ガーデンプレイス」</span>に隣接</p>
+                                    <p><span class="h4">「恵比寿ガーデンプレイス」</span>に隣接</p>
                                     <p class="font-11">&nbsp;</p>
                                 </div>
                             </div>
@@ -101,12 +101,10 @@
                     <div class="col-4">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
-                                <div class="frame_circle h-100">
-                                    <div class="">
-                                        <p class=""><span style="color: transparent;">ーーーーーーーーーーー</span><span class="font-11">※1</span>&nbsp;&nbsp;&nbsp;</p>
-                                        <p class="">内廊下設計、角住戸率<span class="h5">57%</span>超</p>
-                                        <p class="font-11">&nbsp;</p>
-                                    </div>
+                                <div class="frame_circle h-100 h5">
+                                    <p class=""><span style="color: transparent;">ーーーーーーーーーーー</span><span class="font-11">※1</span>&nbsp;&nbsp;&nbsp;</p>
+                                    <p class="">内廊下設計、角住戸率<span class="h4">57%</span>超</p>
+                                    <p class="font-11">&nbsp;</p>
                                 </div>
                             </div>
                         </div>
@@ -114,14 +112,12 @@
                     <div class="col-4">
                         <div class="gold_frame">
                             <div class="frame_border">
-                                <div class="frame_circle">
-                                    <div>
-                                        <p class="font-11">&nbsp;</p>
-                                        <p class="h5">大型SUV車、スポーツカーも安心</p>
-                                        <p class="font-11"><span style="color: transparent;">ーーーーーーーーーーーーーーーーーー</span>※２</p>
-                                        <p class="h5">全12台分の駐車場を設置</p>
-                                        <p class="font-11">&nbsp;</p>
-                                    </div>
+                                <div class="frame_circle h5">
+                                    <p class="font-11">&nbsp;</p>
+                                    <p class="h4">大型SUV車、スポーツカーも安心</p>
+                                    <p class="font-11"><span style="color: transparent;">ーーーーーーーーーーーーーーーーーー</span>※２</p>
+                                    <p class="h4">全12台分の駐車場を設置</p>
+                                    <p class="font-11">&nbsp;</p>
                                 </div>
                             </div>
                         </div>
@@ -131,13 +127,13 @@
             </div>
 
             <!-- アンケートエリア -->
-            <div class="animation mt-5">
+            <div class="animation my-5">
                 <div class="row">
                     <p class="col-1"></p>
-                    <p class="col-10 gold-title text-center h4 mb-4 ft2">「お住まいについてのアンケート」にご協力ください。</p>
+                    <p class="col-10 gold-title text-center h4 mt--5 mb-4 ft2">「お住まいについてのアンケート」にご協力ください。</p>
                     <p class="col-1"></p>
                 </div>
-                <div class="row">
+                <div class="row pb-5">
                     <p class="col-4"></p>
                     <div class="col-4 border border-warning text-center ft2">
                         <br>
@@ -161,7 +157,7 @@
             </div>
 
             <!-- INFOMATION -->
-            <div class="row animation mt-5">
+            <div class="row animation my-5">
                 <div class="row mb-4"> 
                     <p class="col-1"></p>
                     <p class="col-10 gold-title text-center h4 ft3">INFORMATION</p>
