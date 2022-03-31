@@ -9,7 +9,7 @@
     <div class="col-4 d-flex flex-column justify-content-center align-items-end">
       <p class="h5 d-inline-block">[売主] 株式会社ラ・アトレ</p>
       <div class="d-flex justify-content-end align-items-center my-3">
-        <img src="{{ asset('/images/フッター.png') }}" alt="フッターロゴ" style="height: 80px;">
+        <img src="{{ asset('/images/フッタ―.svg') }}" alt="フッターロゴ" style="height: 80px;">
         <div class="d-flex flex-column justify-content-center align-items-start ms-2 ft3"> 
           <p class="group_title d-inline-block"><span class="small">東京ジャスダック上場企業</span><br>LAホールディングス</p>
           <p class="text-muted sans-serif d-inline-block font-11">ラ・アトレは<br>LAホールディングスのグループ会社です。</p>
