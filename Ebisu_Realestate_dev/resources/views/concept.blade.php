@@ -10,8 +10,8 @@
             <p class="col-1"></p>
             <div class="col-5 animation-1-zm">
             <img class="w-100" src="{{ asset('/images/Ebisu_2.png') }}">
+            <p>※掲載写真は、令和4年3月に撮影したものです。</p>
             </div>
-            <!-- <img class="col-6 animation-1-zm" src="{{ asset('/images/Ebisu_2.png') }}"> -->
             <div class="text-white col-5 animation d-flex flex-column justify-content-center align-items-center ft2" style="background-color: #3c3939;">
                 <p><span class="gold h4">緑も豊かな「恵比寿ガーデンプレイス」<br>
                     「ウエスティンホテル東京」に隣接。</span></p>

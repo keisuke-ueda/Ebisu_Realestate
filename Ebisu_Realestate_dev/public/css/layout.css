@@ -41,6 +41,10 @@ body {
   padding: 10px;
 }
 
+.access_info p {
+  margin: 0;
+}
+
 /* ヘッダー */
 .header {
   background-color: black;
@@ -102,7 +106,6 @@ body {
 /* フッター */
 .footer {
   background-color: black;
-  font-family: serif;
 }
 
 .footer p {
@@ -207,10 +210,12 @@ body {
   background: linear-gradient(to right, #d6c88d 0%, #b0a071 50%, #d6c88d 100%);
   border: 1px solid #D8CA82;
   text-shadow: 2px 2px 2px #000000; 
+  padding: 15px 70px;
 }
 
 .copper_btn {
-  background: linear-gradient(to right, #bab5b1 0%, #9c8b7e 25%, #9c8b7e 51%, #bab5b1 100%);
+  /* background: linear-gradient(to right, #bab5b1 0%, #9c8b7e 25%, #9c8b7e 51%, #bab5b1 100%); */
+  background-color: #9c8b7e;
   font-family: serif;
   border: 1px solid #cec5bb;
 }
@@ -225,6 +230,13 @@ body {
   padding: 1em;
   color: #ca4;
   text-align: center;
+}
+
+.frame_circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 100%;
 }
 
 .frame_border:before,
