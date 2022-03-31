@@ -586,7 +586,7 @@
                         <div class="questionnaire questionnaire13">
                             <div>
                                 <p><span class="question-num-2">13</span>現在の住宅購入をする場合の予算はどのぐらいですか。</p>
-                                <input type="text" name="q13">万円
+                                <p class="indent-1"><input type="text" name="q13">万円</p>
                             </div>
                         </div>
                     </div>
