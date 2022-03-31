@@ -7,6 +7,46 @@
 <!-- 背景色、テキスト一時的に調整 -->
 
 <img  class="d-block w-100 center-block" src="{{ asset('/images/ACCESS_1.png') }}">
+
+<div class="pb-4" style="background-color: #000;">
+    <div class="access_info ft2 h5 d-sm-flex justify-content-center align-items-center">
+        <div class="mx-2">
+            <div class="d-flex align-items-end">
+                <div>
+                    <p class="s15">JR山手線・埼京線</p>
+                    <p><span class="s15">湘南新宿ライン</span>「恵比寿」駅</p>
+                </div>
+                <p>徒歩<span class="h1 gold" style="line-height: 100%;">11</span>分 /</p>
+            </div>
+            <p class="font-11">
+                <span class="s15" style="color: transparent;">ーーーーーーー</span>
+                （恵比寿スカイウォークより徒歩7分）
+            </p>
+        </div>
+        <div class="mx-2">
+            <div class="d-flex align-items-end">
+                <div>
+                    <p class="s15">&nbsp;</p>
+                    <p><span class="s15">東京メトロ日比谷線</span>「恵比寿」駅</p>
+                </div>
+                <p>徒歩<span class="h1 gold" style="line-height: 100%;">13</span>分 /</p>
+            </div>
+            <p class="font-11">&nbsp;</p>
+        </div>
+        <div class="mx-2">
+            <div class="d-flex align-items-end">
+                <div>
+                    <p class="s15">JR山手線・東京メトロ南北線・</p>
+                    <p><span class="s15">都営地下鉄三田線・東急目黒線</span>「目黒」駅</p>
+                </div>
+                <p>徒歩<span class="h1 gold" style="line-height: 100%;">13</span>分</p>
+            </div>
+            <p class="font-11">&nbsp;</p>
+        </div>
+    </div>
+</div>
+
+
 <div class="main-content container-fluid p-5">
 
     <!-- 路線図 -->
@@ -25,7 +65,7 @@
     <!-- 路線情報 -->
     <div class="row mt-3 ft2">
         <div class="col-6 d-flex flex-column justify-content-between animation-0-zm">
-            <img class="w-100" src="{{ asset('/images/ACCESS_2.png') }}">
+            <img class="w-100" src="{{ asset('/images/rosenzu.svg') }}">
             <p class="font-11">※各駅への所要時間はJR線「恵比寿」駅発、東京メトロ日比谷線「恵比寿」駅発、また東京メトロ南北線・<br>
                 &emsp;都営三田線「目黒」駅発の所要時間は日中平常時、平日の13時台及び(  )内は通勤時8時台の<br>
                 &emsp;最短所要時間を表記しています。<br>

@@ -167,7 +167,7 @@ $(function () {
     $('.header').addClass('d-none');
   })
 
-  // アンケートフォームの入力バリデーション
+  // フォームの入力バリデーション
   $('.mailformpro').validate({
     rules: {
       sei: {
