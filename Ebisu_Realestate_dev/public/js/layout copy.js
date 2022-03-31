@@ -295,13 +295,7 @@ function click_cb(limit, class_name) {
     }
   });
   // 0個のとき（チェックがすべて外れたとき）
-  if (check_count == 0) {
-    $(target_li).each(function () {
-      $(this).children("input[type='checkbox']").prop('disabled', false);
-      $(this).find(".locked").removeClass("locked");
-    });
-    // チェック可能上限数以上の時
-  } else if (check_count > lim){
+ if (check_count > lim) {
     $(target_li).each(function () {
       // チェックされていないチェックボックスをロックする
       if (!$(this).children("input[type='checkbox']").prop('checked')) {
@@ -309,15 +303,13 @@ function click_cb(limit, class_name) {
         $(this).addClass("locked");
       }
     });
-  } else {
-    $(target_li).each(function () {
-      // チェックされていないチェックボックスを選択可能にする
-      if (!$(this).children("input[type='checkbox']").prop('checked')) {
-        $(this).children("input[type='checkbox']").prop('disabled', false);
-        $(this).removeClass("locked");
-      }
-    });
   }
+  else (check_count == 0) {
+    $(target_li).each(function () {
+      $(this).find(".locked").removeClass("locked");
+    });
+    // チェック可能上限数以上の時
+  } 
   return false;
 }
 
