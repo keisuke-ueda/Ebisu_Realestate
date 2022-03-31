@@ -5,12 +5,12 @@
     <div class="first_view position-relative d-flex align-items-auto">
 
         <video autoplay muted class="movie-1 w-100 vh-100" style="object-fit: cover; object-position: 100% 100%">
-            <source src="{{ asset('/images/ebisu_mae_0320.mp4') }}" type="video/mp4">
+            <source src="{{ asset('/images/ebisu_mae_0331.mp4') }}" type="video/mp4">
         </video>
 
         <!-- 上の動画が消えた後に下の動画が同じ画角上で流れる用にする -->
         <video autoplay muted class="movie-2 w-100 vh-100 position-absolute top-0 start-0 d-none" style="object-fit: cover; object-position: 100% 100%">
-            <source src="{{ asset('/images/ebisu_ato_0321.mp4') }}" type="video/mp4">
+            <source src="{{ asset('/images/ebisu_ato_0331.mp4') }}" type="video/mp4">
         </video>
 
         <!-- スキップボタン -->
@@ -18,7 +18,6 @@
             <button type="button" class="movie_skip_btn btn btn-outline-light">SKIP</button>
         </div>
     </div>
-
 
     <div class="second_view">
         <!-- ブラック背景テキストエリア -->
