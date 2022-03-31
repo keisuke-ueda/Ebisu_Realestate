@@ -2,7 +2,7 @@
 
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
 <meta name="format-detection" content="telephone=no">
-<title>新たな価値を創造したプレミアムリノベーションマンション｜株式会社ラ・アトレ</title>
+<title>お住いのアンケート</title>
 
 @section('content')
 <?php
@@ -41,9 +41,9 @@
                             <td><label for="name"><span class="badge badge-danger">必須</span>お名前</label></td>
                             <td></td>
                             <td>
-                                <input type="text" name="sei" data-kana="セイ" placeholder="姓" required
+                                <input class="input" type="text" name="sei" data-kana="セイ" placeholder="姓" required
                                 data-error_placement="#sei">
-                                <input type="text" name="mei" data-kana="メイ" placeholder="名" required
+                                <input class="input" type="text" name="mei" data-kana="メイ" placeholder="名" required
                                 data-error_placement="#mei">
                                 <div class="validation-message" id="sei"></div>
                                 <div class="validation-message" id="mei"></div>
@@ -54,9 +54,9 @@
                             <td><label for="name"><span class="badge badge-danger">必須</span>フリガナ</label></td>
                             <td></td>
                             <td>
-                                <input type="text" name="sei_kana" data-charcheck="kana" placeholder="セイ" required
+                                <input class="input" type="text" name="sei_kana" data-charcheck="kana" placeholder="セイ" required
                                 data-error_placement="#sei-kana">
-                                <input type="text" name="mei_kana" data-charcheck="kana" placeholder="メイ" required
+                                <input class="input" type="text" name="mei_kana" data-charcheck="kana" placeholder="メイ" required
                                 data-error_placement="#mei-kana">
                                 <div class="validation-message" id="sei-kana"></div>
                                 <div class="validation-message" id="mei-kana"></div>
