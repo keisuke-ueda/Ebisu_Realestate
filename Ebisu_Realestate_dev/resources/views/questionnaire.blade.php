@@ -279,9 +279,9 @@
                     <p>※アンケート項目すべてにご協力いただけた方に、もれなくAmazonギフトカードを進呈いたします。</p>
                     <p>※アンケートはすべて必須項目になります。</p>
                     <div class="gold_line_bottom mt-3 pb-2">
-                        <p><span class="question-num">1</span>仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。<br>
-                            (1つだけ回答)</p>
                         <div class="questionnaire questionnaire1">
+                            <p><span class="question-num">1</span>仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。<br>
+                            (1つだけ回答)</p>
                             <ul>
                                 <li><input type="checkbox" id="box_1" name="q1[]" value="1"
                                         onclick="click_cb(1, 'questionnaire1');">一戸建てにこだわる</li><br>
@@ -296,8 +296,8 @@
                         </div>
                     </div>
                     <div class="gold_line_bottom mt-3 pb-2">
-                        <p><span class="question-num">2</span>あなたがお住まいに求める条件をお聞かせください。(それぞれ3つ回答)</p>
                         <div class="questionnaire questionnaire2_1">
+                            <p><span class="question-num">2</span>あなたがお住まいに求める条件をお聞かせください。(それぞれ3つ回答)</p>
                             <p>【駅名】</p>
                             <ul>
                                 <li><input type="checkbox" name="q2_1[]" value="1" onclick="click_cb(3, 'questionnaire2_1');">恵比寿</li>
@@ -362,9 +362,9 @@
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
+                        <div class="questionnaire questionnaire3_1">
                         <p><span class="question-num">3</span>仮に今後、マンション購入を検討する場合に希望される間取りと広さをお聞かせください。<br>
                             (それぞれ1つ回答)</p>
-                        <div class="questionnaire questionnaire3_1">
                             <p>【ご希望の間取り】</p>
                             <ul>
                                 <li><input type="checkbox" name="q3_1[]" value="1" onclick="click_cb(1, 'questionnaire3_1');">1LDK

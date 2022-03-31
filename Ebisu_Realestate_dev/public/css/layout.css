@@ -473,7 +473,7 @@ input, select {
 }
 
 .mailformpro input {
-  margin: 0.25rem 1rem 0.25rem 0;
+  margin: 0.25rem 1rem 0.25rem 0.25rem;
 }
 
 .mailformpro .badge {
