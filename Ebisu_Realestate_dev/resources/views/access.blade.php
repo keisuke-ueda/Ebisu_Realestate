@@ -5,8 +5,9 @@
 
 <!-- 開発対象 -->
 <!-- 背景色、テキスト一時的に調整 -->
-
-<img  class="d-block w-100 center-block" src="{{ asset('/images/ACCESS_1.png') }}">
+<div class="d-flex justify-content-center bg-black">
+    <img  class="w-25 img-fluid mt-ex" src="{{ asset('/images/the access.svg') }}">
+</div>
 
 <div class="pb-4" style="background-color: #000;">
     <div class="access_info ft2 h5 d-sm-flex justify-content-center align-items-center">
