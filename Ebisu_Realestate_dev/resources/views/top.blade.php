@@ -187,7 +187,7 @@
             <!-- Ebisu -->
             <div class="row my-5 pb-5">
                 <div class="col-8 animation-0-zm">
-                    <img src="{{ asset('/images/12.JPG') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
+                    <img src="{{ asset('/images/TOPmap.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4 animation ft2 ebisu_col">
                     <img class="d-block ms-5 mb-4 ebisu_img w-75" src="{{ asset('/images/theebisu.svg') }}" alt="サンプル画像">
@@ -251,7 +251,7 @@
             <!-- Design -->
             <div class="row my-5 py-5">
                 <div class="col-4 animation ft2 design_col">
-                    <img class="d-block ms-5 mb-4 ms-3 design_img w-75" src="{{ asset('/images/thedesign.png') }}" alt="サンプル画像">
+                    <img class="d-block ms-5 mb-4 ms-3 design_img w-75" src="{{ asset('/images/thedesign.svg') }}" alt="サンプル画像">
                     <p class="d-block ms-5 mb-4 ms-3 design_p s19">常緑樹の深い緑も豊かな静謐なる街並み。周辺の<br>
                         高級住宅街にふさわしい丘上の瀟洒な5階建て。<br>
                         緑と調和しながら独自の存在感を醸し出しています。<br>

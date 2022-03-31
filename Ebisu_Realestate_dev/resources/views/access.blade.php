@@ -65,7 +65,7 @@
     <!-- 路線情報 -->
     <div class="row mt-3 ft2">
         <div class="col-6 d-flex flex-column justify-content-between animation-0-zm">
-            <img class="w-100" src="{{ asset('/images/ACCESS_2.png') }}">
+            <img class="w-100" src="{{ asset('/images/rosenzu.svg') }}">
             <p class="font-11">※各駅への所要時間はJR線「恵比寿」駅発、東京メトロ日比谷線「恵比寿」駅発、また東京メトロ南北線・<br>
                 &emsp;都営三田線「目黒」駅発の所要時間は日中平常時、平日の13時台及び(  )内は通勤時8時台の<br>
                 &emsp;最短所要時間を表記しています。<br>
