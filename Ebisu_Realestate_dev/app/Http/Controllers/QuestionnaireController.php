@@ -22,7 +22,13 @@ class QuestionnaireController extends Controller
         "family_size", "home_post_code", "home_prefectures", "home_manicipalities", "home_chome_address",
         "home_building_name", "years_of_residence", "housing_form", "phone_number", "email",
         "office_name", "work_post_code", "work_prefectures", "work_manicipalities", "work_chome_address",
-        "work_building_name"
+        "work_building_name",
+
+        "q1[]", "q2_1[]","q2_2[]", "q2_3[]", "q3_1[]",
+        // "q3_2[]", "q4[]", "q5_1[]", "q5_2[]", "q5_3[]",
+        // "q5_4[]", "q6[]", "q7", "q8", "q9_1",
+        // "q9_2", "q10_1", "q10_2", "q11", "q12_1[]",
+        // "q12_2"
     ];
 
     function show()
