@@ -187,7 +187,7 @@
             <!-- Ebisu -->
             <div class="row my-5 pb-5">
                 <div class="col-8 animation-0-zm">
-                    <img src="{{ asset('/images/TOPmap.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
+                    <img src="{{ asset('/images/12.JPG') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4 animation ft2 ebisu_col">
                     <img class="d-block ms-5 mb-4 ebisu_img w-75" src="{{ asset('/images/theebisu.svg') }}" alt="サンプル画像">
