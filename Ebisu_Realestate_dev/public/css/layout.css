@@ -480,7 +480,7 @@ input, select {
 	font-size:0.85em;	/* フォントの大きさ */
 }
 
-.mailformpro input {
+.mailformpro input ,.mailformpro select {
   margin: 0.25rem 1rem 0.25rem 0.25rem;
 }
 
