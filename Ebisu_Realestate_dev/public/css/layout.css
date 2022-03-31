@@ -452,7 +452,7 @@ input, select {
 
 .question-num{
 	padding:2px 8px; /* 枠と文字の空間 */
-	margin:0 5px; /* 枠の外の空間 */
+	margin:0 1rem; /* 枠の外の空間 */
 	background-color:#000000; /* 枠の背景色 */
   color: white;
 	border:1px solid #777; /* 枠の線の太さ・種類・色 */
@@ -463,7 +463,7 @@ input, select {
 
 .question-num-2{
 	padding:2px 4px; /* 枠と文字の空間 */
-	margin:0 5px; /* 枠の外の空間 */
+	margin:0 1rem; /* 枠の外の空間 */
 	background-color:#000000; /* 枠の背景色 */
   color: white;
 	border:1px solid #777; /* 枠の線の太さ・種類・色 */
@@ -482,4 +482,32 @@ input, select {
 
 .questionnaire input {
   margin: 0.25rem;
+}
+
+
+.band {
+  color: #FFFFFF;
+  background-color: #373737;
+  width: 100%;
+  height: 3rem;
+}
+
+.band p {
+  line-height: 3rem;
+}
+
+.indent-1 {
+  text-indent: 1rem;
+}
+
+.indent-2 {
+  text-indent: 2rem;
+}
+
+.indent-3 {
+  text-indent: 3.5rem;
+}
+
+.questionnaire > p {
+  line-height: 2rem;
 }
