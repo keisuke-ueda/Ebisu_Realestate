@@ -10,7 +10,7 @@
 ?>
 
 <body>
-    <div class="container" style="padding-top: 100px;">
+    <div class="container ml-1 mr-1" style="padding-top: 100px;">
         <div class="row justify-content-center">
             <h1 class="p-title gold-title text-center ft4">お住いのアンケート</h1>
             <img class="center-block mx-auto d-block" style="width: 60%;" src="{{ asset('/images/お住まいアンケート1.png') }}">
@@ -42,22 +42,22 @@
                             <td></td>
                             <td>
                                 <input class="input" type="text" name="sei" data-kana="セイ" placeholder="姓" required
-                                data-error_placement="#sei">
+                                    data-error_placement="#sei">
                                 <input class="input" type="text" name="mei" data-kana="メイ" placeholder="名" required
-                                data-error_placement="#mei">
+                                    data-error_placement="#mei">
                                 <div class="validation-message" id="sei"></div>
                                 <div class="validation-message" id="mei"></div>
                             </td>
                         </tr>
-                        
+
                         <tr>
                             <td><label for="name"><span class="badge badge-danger">必須</span>フリガナ</label></td>
                             <td></td>
                             <td>
-                                <input class="input" type="text" name="sei_kana" data-charcheck="kana" placeholder="セイ" required
-                                data-error_placement="#sei-kana">
-                                <input class="input" type="text" name="mei_kana" data-charcheck="kana" placeholder="メイ" required
-                                data-error_placement="#mei-kana">
+                                <input class="input" type="text" name="sei_kana" data-charcheck="kana" placeholder="セイ"
+                                    required data-error_placement="#sei-kana">
+                                <input class="input" type="text" name="mei_kana" data-charcheck="kana" placeholder="メイ"
+                                    required data-error_placement="#mei-kana">
                                 <div class="validation-message" id="sei-kana"></div>
                                 <div class="validation-message" id="mei-kana"></div>
                             </td>
@@ -78,7 +78,7 @@
                             <td></td>
                             <td>
                                 <div><input type="text" name="family_size" required
-                                    data-error_placement="#family_size">人
+                                        data-error_placement="#family_size">人
                                 </div>
                                 <div class="validation-message" id="family_size"></div>
                             </td>
@@ -272,16 +272,17 @@
                     </tbody>
                 </table>
 
-    
-                <p class="text-center mt-5 mb-5">お住まいについてのアンケート</p>
+                <div class="band">
+                    <p class="text-center mt-5 mb-5">お住まいについてのアンケート</p>
+                </div>
 
-                <div>
-                    <p>※アンケート項目すべてにご協力いただけた方に、もれなくAmazonギフトカードを進呈いたします。</p>
-                    <p>※アンケートはすべて必須項目になります。</p>
+                <div class="mt-2">
+                    <p class="indent-1">※アンケート項目すべてにご協力いただいた方に、もれなくAmazonギフトカードを進呈いたします。</p>
+                    <p class="indent-1">※アンケートはすべて必須項目になります。</p>
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire1">
-                            <p><span class="question-num">1</span>仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。<br>
-                            (1つだけ回答)</p>
+                            <p><span class="question-num">1</span>仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。</p>
+                            <p class="indent-3"> (1つだけ回答)</p>
                             <ul>
                                 <li><input type="checkbox" id="box_1" name="q1[]" value="1"
                                         onclick="click_cb(1, 'questionnaire1');">一戸建てにこだわる</li><br>
@@ -300,19 +301,29 @@
                             <p><span class="question-num">2</span>あなたがお住まいに求める条件をお聞かせください。(それぞれ3つ回答)</p>
                             <p>【駅名】</p>
                             <ul>
-                                <li><input type="checkbox" name="q2_1[]" value="1" onclick="click_cb(3, 'questionnaire2_1');">恵比寿</li>
-                                <li><input type="checkbox" name="q2_1[]" value="2" onclick="click_cb(3, 'questionnaire2_1');">目黒</li>
-                                <li><input type="checkbox" name="q2_1[]" value="3" onclick="click_cb(3, 'questionnaire2_1');">白金台</li>
-                                <li><input type="checkbox" name="q2_1[]" value="4" onclick="click_cb(3, 'questionnaire2_1');">白金高輪
+                                <li><input type="checkbox" name="q2_1[]" value="1"
+                                        onclick="click_cb(3, 'questionnaire2_1');">恵比寿</li>
+                                <li><input type="checkbox" name="q2_1[]" value="2"
+                                        onclick="click_cb(3, 'questionnaire2_1');">目黒</li>
+                                <li><input type="checkbox" name="q2_1[]" value="3"
+                                        onclick="click_cb(3, 'questionnaire2_1');">白金台</li>
+                                <li><input type="checkbox" name="q2_1[]" value="4"
+                                        onclick="click_cb(3, 'questionnaire2_1');">白金高輪
                                 </li>
-                                <li><input type="checkbox" name="q2_1[]"value="5" onclick="click_cb(3, 'questionnaire2_1');">麻布十番
+                                <li><input type="checkbox" name="q2_1[]" value="5"
+                                        onclick="click_cb(3, 'questionnaire2_1');">麻布十番
                                 </li>
-                                <li><input type="checkbox" name="q2_1[]" value="6" onclick="click_cb(3, 'questionnaire2_1');">広尾<br>
+                                <li><input type="checkbox" name="q2_1[]" value="6"
+                                        onclick="click_cb(3, 'questionnaire2_1');">広尾<br>
                                 </li><br>
-                                <li><input type="checkbox" name="q2_1[]" value="7" onclick="click_cb(3, 'questionnaire2_1');">中目黒</li>
-                                <li><input type="checkbox" name="q2_1[]" value="8" onclick="click_cb(3, 'questionnaire2_1');">代官山</li>
-                                <li><input type="checkbox" name="q2_1[]" value="9" onclick="click_cb(3, 'questionnaire2_1');">品川</li>
-                                <li><input type="checkbox" name="q2_1[]" value="10" onclick="click_cb(3, 'questionnaire2_1');">三田</li>
+                                <li><input type="checkbox" name="q2_1[]" value="7"
+                                        onclick="click_cb(3, 'questionnaire2_1');">中目黒</li>
+                                <li><input type="checkbox" name="q2_1[]" value="8"
+                                        onclick="click_cb(3, 'questionnaire2_1');">代官山</li>
+                                <li><input type="checkbox" name="q2_1[]" value="9"
+                                        onclick="click_cb(3, 'questionnaire2_1');">品川</li>
+                                <li><input type="checkbox" name="q2_1[]" value="10"
+                                        onclick="click_cb(3, 'questionnaire2_1');">三田</li>
                                 <li><input type="checkbox" name="q2_1[]" value="11"
                                         onclick="click_cb(3, 'questionnaire2_1');">その他<input type="text"></li><br>
                             </ul>
@@ -320,41 +331,62 @@
                         <div class="questionnaire questionnaire2_2">
                             <p>【立地】</p>
                             <ul>
-                                <input type="checkbox" name="q2_2[]" value="1" onclick="click_cb(3, 'questionnaire2_2');">駅徒歩分数(
-                                <input type="checkbox" name="q2_2[]" value="2" onclick="click_cb(3, 'questionnaire2_2');">～5分
-                                <input type="checkbox" name="q2_2[]" value="3" onclick="click_cb(3, 'questionnaire2_2');">～7分
-                                <input type="checkbox" name="q2_2[]" value="4" onclick="click_cb(3, 'questionnaire2_2');">～10分
-                                <input type="checkbox" name="q2_2[]" value="5" onclick="click_cb(3, 'questionnaire2_2');">～12分
-                                <input type="checkbox" name="q2_2[]" value="6" onclick="click_cb(3, 'questionnaire2_2');">～15分)<br>
-                                <input type="checkbox" name="q2_2[]" value="7" onclick="click_cb(3, 'questionnaire2_2');">通勤・通学に便利
-                                <input type="checkbox" name="q2_2[]" value="8" onclick="click_cb(3, 'questionnaire2_2');">落ち着いた環境
-                                <input type="checkbox" name="q2_2[]" value="9" onclick="click_cb(3, 'questionnaire2_2');">緑が多い<br>
+                                <input type="checkbox" name="q2_2[]" value="1"
+                                    onclick="click_cb(3, 'questionnaire2_2');">駅徒歩分数(
+                                <input type="checkbox" name="q2_2[]" value="2"
+                                    onclick="click_cb(3, 'questionnaire2_2');">～5分
+                                <input type="checkbox" name="q2_2[]" value="3"
+                                    onclick="click_cb(3, 'questionnaire2_2');">～7分
+                                <input type="checkbox" name="q2_2[]" value="4"
+                                    onclick="click_cb(3, 'questionnaire2_2');">～10分
+                                <input type="checkbox" name="q2_2[]" value="5"
+                                    onclick="click_cb(3, 'questionnaire2_2');">～12分
+                                <input type="checkbox" name="q2_2[]" value="6"
+                                    onclick="click_cb(3, 'questionnaire2_2');">～15分)<br>
+                                <input type="checkbox" name="q2_2[]" value="7"
+                                    onclick="click_cb(3, 'questionnaire2_2');">通勤・通学に便利
+                                <input type="checkbox" name="q2_2[]" value="8"
+                                    onclick="click_cb(3, 'questionnaire2_2');">落ち着いた環境
+                                <input type="checkbox" name="q2_2[]" value="9"
+                                    onclick="click_cb(3, 'questionnaire2_2');">緑が多い<br>
                                 <input type="checkbox" name="q2_2[]" value="10"
                                     onclick="click_cb(3, 'questionnaire2_2');">スーパーや病院など生活利便設備が徒歩圏に揃うこと
-                                <input type="checkbox" name="q2_2[]" value="11" onclick="click_cb(3, 'questionnaire2_2');">その他<input
-                                    type="text"><br>
+                                <input type="checkbox" name="q2_2[]" value="11"
+                                    onclick="click_cb(3, 'questionnaire2_2');">その他<input type="text"><br>
                             </ul>
                         </div>
                         <div class="questionnaire questionnaire2_3">
                             <p>【建物】</p>
                             <ul>
-                                <li><input type="checkbox" name="q2_3[]" value="1" onclick="click_cb(3, 'questionnaire2_3');">価格</li>
-                                <li><input type="checkbox" name="q2_3[]" value="2" onclick="click_cb(3, 'questionnaire2_3');">広さ</li>
-                                <li><input type="checkbox" name="q2_3[]" value="3" onclick="click_cb(3, 'questionnaire2_3');">間取り</li>
-                                <li><input type="checkbox" name="q2_3[]" value="4" onclick="click_cb(3, 'questionnaire2_3');">眺望</li>
-                                <li><input type="checkbox" name="q2_3[]" value="5" onclick="click_cb(3, 'questionnaire2_3');">駐車場有無
+                                <li><input type="checkbox" name="q2_3[]" value="1"
+                                        onclick="click_cb(3, 'questionnaire2_3');">価格</li>
+                                <li><input type="checkbox" name="q2_3[]" value="2"
+                                        onclick="click_cb(3, 'questionnaire2_3');">広さ</li>
+                                <li><input type="checkbox" name="q2_3[]" value="3"
+                                        onclick="click_cb(3, 'questionnaire2_3');">間取り</li>
+                                <li><input type="checkbox" name="q2_3[]" value="4"
+                                        onclick="click_cb(3, 'questionnaire2_3');">眺望</li>
+                                <li><input type="checkbox" name="q2_3[]" value="5"
+                                        onclick="click_cb(3, 'questionnaire2_3');">駐車場有無
                                 </li>
-                                <li><input type="checkbox" name="q2_3[]" value="6" onclick="click_cb(3, 'questionnaire2_3');">角住戸</li>
-                                <li><input type="checkbox" name="q2_3[]" value="7" onclick="click_cb(3, 'questionnaire2_3');">内廊下</li>
-                                <li><input type="checkbox" name="q2_3[]" value="8" onclick="click_cb(3, 'questionnaire2_3');">低層住宅
+                                <li><input type="checkbox" name="q2_3[]" value="6"
+                                        onclick="click_cb(3, 'questionnaire2_3');">角住戸</li>
+                                <li><input type="checkbox" name="q2_3[]" value="7"
+                                        onclick="click_cb(3, 'questionnaire2_3');">内廊下</li>
+                                <li><input type="checkbox" name="q2_3[]" value="8"
+                                        onclick="click_cb(3, 'questionnaire2_3');">低層住宅
                                 </li><br>
-                                <li><input type="checkbox" name="q2_3[]" value="9" onclick="click_cb(3, 'questionnaire2_3');">高層住宅
+                                <li><input type="checkbox" name="q2_3[]" value="9"
+                                        onclick="click_cb(3, 'questionnaire2_3');">高層住宅
                                 </li>
-                                <li><input type="checkbox" name="q2_3[]" value="10" onclick="click_cb(3, 'questionnaire2_3');">収納の多さ
+                                <li><input type="checkbox" name="q2_3[]" value="10"
+                                        onclick="click_cb(3, 'questionnaire2_3');">収納の多さ
                                 </li>
-                                <li><input type="checkbox" name="q2_3[]" value="11" onclick="click_cb(3, 'questionnaire2_3');">設備の充実
+                                <li><input type="checkbox" name="q2_3[]" value="11"
+                                        onclick="click_cb(3, 'questionnaire2_3');">設備の充実
                                 </li>
-                                <li><input type="checkbox" name="q2_3[]" value="12" onclick="click_cb(3, 'questionnaire2_3');">新築</li>
+                                <li><input type="checkbox" name="q2_3[]" value="12"
+                                        onclick="click_cb(3, 'questionnaire2_3');">新築</li>
                                 <li><input type="checkbox" name="q2_3[]" value="13"
                                         onclick="click_cb(3, 'questionnaire2_3');">その他<input type="text"></li><br>
                             </ul>
@@ -363,15 +395,19 @@
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire3_1">
-                        <p><span class="question-num">3</span>仮に今後、マンション購入を検討する場合に希望される間取りと広さをお聞かせください。<br>
-                            (それぞれ1つ回答)</p>
+                            <p><span class="question-num">3</span>仮に今後、マンション購入を検討する場合に希望される間取りと広さをお聞かせください。<br>
+                            </p>
+                            <p class="indent-3">(それぞれ1つ回答)</p>
                             <p>【ご希望の間取り】</p>
                             <ul>
-                                <li><input type="checkbox" name="q3_1[]" value="1" onclick="click_cb(1, 'questionnaire3_1');">1LDK
+                                <li><input type="checkbox" name="q3_1[]" value="1"
+                                        onclick="click_cb(1, 'questionnaire3_1');">1LDK
                                 </li>
-                                <li><input type="checkbox" name="q3_1[]" value="2" onclick="click_cb(1, 'questionnaire3_1');">2LDK
+                                <li><input type="checkbox" name="q3_1[]" value="2"
+                                        onclick="click_cb(1, 'questionnaire3_1');">2LDK
                                 </li>
-                                <li><input type="checkbox" name="q3_1[]" value="3" onclick="click_cb(1, 'questionnaire3_1');">3LDK
+                                <li><input type="checkbox" name="q3_1[]" value="3"
+                                        onclick="click_cb(1, 'questionnaire3_1');">3LDK
                                 </li>
                                 <li><input type="checkbox" name="q3_1[]" value="4"
                                         onclick="click_cb(1, 'questionnaire3_1');">その他<input type="text"></li><br>
@@ -380,17 +416,23 @@
                         <div class="questionnaire questionnaire3_2">
                             <p>【ご希望の広さ】</p>
                             <ul>
-                                <li><input type="checkbox" name="q3_2[]" value="1" onclick="click_cb(1, 'questionnaire3_2');">～50㎡
+                                <li><input type="checkbox" name="q3_2[]" value="1"
+                                        onclick="click_cb(1, 'questionnaire3_2');">～50㎡
                                 </li>
-                                <li><input type="checkbox" name="q3_2[]" value="2" onclick="click_cb(1, 'questionnaire3_2');">50㎡～
+                                <li><input type="checkbox" name="q3_2[]" value="2"
+                                        onclick="click_cb(1, 'questionnaire3_2');">50㎡～
                                 </li>
-                                <li><input type="checkbox" name="q3_2[]" value="3" onclick="click_cb(1, 'questionnaire3_2');">60㎡～
+                                <li><input type="checkbox" name="q3_2[]" value="3"
+                                        onclick="click_cb(1, 'questionnaire3_2');">60㎡～
                                 </li>
-                                <li><input type="checkbox" name="q3_2[]" value="4" onclick="click_cb(1, 'questionnaire3_2');">70㎡～
+                                <li><input type="checkbox" name="q3_2[]" value="4"
+                                        onclick="click_cb(1, 'questionnaire3_2');">70㎡～
                                 </li>
-                                <li><input type="checkbox" name="q3_2[]" value="5" onclick="click_cb(1, 'questionnaire3_2');">80㎡～
+                                <li><input type="checkbox" name="q3_2[]" value="5"
+                                        onclick="click_cb(1, 'questionnaire3_2');">80㎡～
                                 </li>
-                                <li><input type="checkbox" name="q3_2[]" value="6" onclick="click_cb(1, 'questionnaire3_2');">90㎡～
+                                <li><input type="checkbox" name="q3_2[]" value="6"
+                                        onclick="click_cb(1, 'questionnaire3_2');">90㎡～
                                 </li>
                             </ul>
                             <br>
@@ -401,17 +443,20 @@
                         <div class="questionnaire questionnaire4_1">
                             <p>
                                 <span class="question-num">4</span>新築分譲マンション・分譲リノベーションマンションを購入するとした場合についてお聞かせください。<br>
-                                (1つだけ回答)
+
                             </p>
+                            <p class="indent-3">(1つだけ回答)</p>
                             <ul>
                                 <li><input type="checkbox" value="1" name="q4[]"
                                         onclick="click_cb(1, 'questionnaire4_1');">新築分譲マンションのみ
                                 </li>
                                 <li><input type="checkbox" value="2" name="q4[]"
                                         onclick="click_cb(1, 'questionnaire4_1');">分譲リノベーションマンションのみ</li><br>
-                                <li><input type="checkbox" value="3" name="q4[]" onclick="click_cb(1, 'questionnaire4_1');">どちらも検討する
+                                <li><input type="checkbox" value="3" name="q4[]"
+                                        onclick="click_cb(1, 'questionnaire4_1');">どちらも検討する
                                 </li>
-                                <li><input type="checkbox" value="4" name="q4[]" onclick="click_cb(1, 'questionnaire4_1');">購入予定はない
+                                <li><input type="checkbox" value="4" name="q4[]"
+                                        onclick="click_cb(1, 'questionnaire4_1');">購入予定はない
                                 </li>
                             </ul>
                         </div>
@@ -421,8 +466,9 @@
                         <div class="questionnaire questionnaire5_1">
                             <p>
                                 <span class="question-num">5</span>仮に今後、新たに住宅を検討するとした場合の購入エリアについてお聞かせください。<br>
-                                (複数回答可)
+
                             </p>
+                            <p class="indent-3">(複数回答可)</p>
                             <p>【渋谷区】</p>
                             <ul>
                                 <li><input type="checkbox" name="q5_1[]" value="1">恵比寿2丁目</li>
@@ -474,7 +520,10 @@
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire6_1">
                             <p><span class="question-num">6</span>仮に上記エリアで新規分譲マンションまたは分譲リノベーションマンションを<br>
-                                検討する場合、どの住戸を検討しますか。</p>
+                            </p>
+                            <p class="indent-3">
+                                検討する場合、どの住戸を検討しますか。
+                            </p>
                             <ul>
                                 <li><input type="checkbox" name="q6[]" value="1">1LDK 55㎡前後 0,000万円～</li>
                                 <li><input type="checkbox" name="q6[]" value="2">1LDK 60㎡前後 0,000万円～</li><br>
@@ -501,7 +550,7 @@
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire9">
                             <p><span class="question-num">9</span>現在のお住まいで所有している自家用車の台数と車種をお聞かせ下さい。</p>
-                            <p>［台 数］<input type="text">台数 ［車 種］<input type="text" name="q9"></p>
+                            <p>［台 数］<input type="text">台 ［車 種］<input type="text" name="q9"></p>
                         </div>
                     </div>
 
@@ -527,21 +576,22 @@
                         <div class="questionnaire questionnaire12">
                             <p><span class="question-num-2">12</span>現在の住宅から買い替え予定はありますか。</p>
                             <ul>
-                                <li><input type="checkbox" name="q12_1[]" value="1">ある<input type="text" name="q12_2">年以内</li><br><br>
+                                <li><input type="checkbox" name="q12_1[]" value="1">ある<input type="text"
+                                        name="q12_2">年以内</li><br><br>
                                 <li><input type="checkbox" name="q12_1[]" value="2">ない</li>
                             </ul>
                         </div>
                     </div>
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire13">
-                            <p><span class="question-num-2">13</span>現在の住宅購入をする場合の予算はどのぐらいですか。</p>
                             <div>
-                                <input type="text" name="q13">万円
+                                <p><span class="question-num-2">13</span>現在の住宅購入をする場合の予算はどのぐらいですか。</p>
+                                <p class="indent-1"><input type="text" name="q13">万円</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p>アンケートにご協力いただき、誠にありがとうございました。</p>
+                <p class="text-end">アンケートにご協力いただき、誠にありがとうございました。</p>
 
                 <button class="mh-parts btn btn-dark mx-auto d-block"><span class="p-3">入力内容の確認</span></button>
             </form>
