@@ -3,10 +3,13 @@
 @section('content')
 
 <!-- 開発対象 -->
-<img  class="w-100" src="{{ asset('/images/Ebisu_1.png') }}">
+<div class="d-flex justify-content-center bg-black">
+    <img  class="w-25 img-fluid mt-ex" src="{{ asset('/images/the EBISU.svg') }}">
+</div>
+
 <div class="container-fluid">
     <div class="main-content">
-        <div class="row mt-5 mb-5">
+        <div class="row mt-5">
             <p class="col-1"></p>
             <div class="col-5 animation-1-zm">
             <img class="w-100" src="{{ asset('/images/Ebisu_2.png') }}">

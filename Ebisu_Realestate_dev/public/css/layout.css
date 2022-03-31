@@ -34,7 +34,15 @@ body {
   font-size: 19px;
 }
 
+/* 背景設定 */
+.bg-black{
+  background-color:#000000;
+}
 
+/* 特殊余白 */
+.mt-ex{
+  margin:200px 0 0 0;
+}
 
 /* アクセスページ */
 .taxi_table td {
