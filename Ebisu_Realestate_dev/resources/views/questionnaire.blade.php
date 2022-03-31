@@ -28,8 +28,9 @@
                 <p class="ft2">下記のフォームに必要な項目を入力のうえ、「送信」ボタンを押してください。</p>
                 <p class="ft2"><span class="badge badge-danger">必須</span>は必須項目です</p>
             </div>
-            <form class="mailformpro" method="POST" action="/questionnaire_mail">
+            <form class="mailformpro" method="POST" action="{{ route('form.post') }}">
                 <table class="gold_table mb-3 animation mb-5">
+                    @csrf
                     <tbody>
                         <tr>
                             <td height="0" class="column1"></td>
@@ -41,21 +42,22 @@
                             <td></td>
                             <td>
                                 <input type="text" name="sei" data-kana="セイ" placeholder="姓" required
-                                    data-error_placement="#sei">
+                                data-error_placement="#sei">
                                 <input type="text" name="mei" data-kana="メイ" placeholder="名" required
-                                    data-error_placement="#mei">
+                                data-error_placement="#mei">
                                 <div class="validation-message" id="sei"></div>
                                 <div class="validation-message" id="mei"></div>
                             </td>
                         </tr>
+                        
                         <tr>
                             <td><label for="name"><span class="badge badge-danger">必須</span>フリガナ</label></td>
                             <td></td>
                             <td>
                                 <input type="text" name="sei_kana" data-charcheck="kana" placeholder="セイ" required
-                                    data-error_placement="#sei-kana">
+                                data-error_placement="#sei-kana">
                                 <input type="text" name="mei_kana" data-charcheck="kana" placeholder="メイ" required
-                                    data-error_placement="#mei-kana">
+                                data-error_placement="#mei-kana">
                                 <div class="validation-message" id="sei-kana"></div>
                                 <div class="validation-message" id="mei-kana"></div>
                             </td>
@@ -76,7 +78,7 @@
                             <td></td>
                             <td>
                                 <div><input type="text" name="family_size" required
-                                        data-error_placement="#family_size">人
+                                    data-error_placement="#family_size">人
                                 </div>
                                 <div class="validation-message" id="family_size"></div>
                             </td>
@@ -101,10 +103,10 @@
                                             <label for="name">都道府県<span class="badge badge-danger">必須</span></label>
                                         </th>
                                         <td>
-                                            <select>
+                                            <select name="home_prefectures">
                                                 <option value="">選択</option>
                                                 @foreach ($prefectures as $prefecture)
-                                                <option value="{{ $prefecture }}" name="home_prefectures"
+                                                <option value="{{ $prefecture }}"
                                                     data-error_placement="#home_prefectures">
                                                     {{$prefecture}}</option>
                                                 @endforeach
@@ -117,7 +119,7 @@
                                             <label for="name">市区町村<span class="badge badge-danger">必須</span></label>
                                         </th>
                                         <td>
-                                            <input type="text" name="home_municipalities"
+                                            <input type="text" name="home_manicipalities"
                                                 data-error_placement="#home_manicipalities">
                                             <div class="validation-message" id="home_manicipalities"></div>
                                         </td>
@@ -225,10 +227,10 @@
                                             <label for="name">都道府県<span class="badge badge-danger">必須</span></label>
                                         </th>
                                         <td>
-                                            <select>
+                                            <select name="work_prefectures">
                                                 <option value="">選択</option>
                                                 @foreach ($prefectures as $prefecture)
-                                                <option value="{{ $prefecture }}" name="work_prefectures"
+                                                <option value="{{ $prefecture }}"
                                                     data-error_placement="#work_prefectures">
                                                     {{$prefecture}}</option>
                                                 @endforeach
@@ -241,7 +243,7 @@
                                             <label for="name">市区町村<span class="badge badge-danger">必須</span></label>
                                         </th>
                                         <td>
-                                            <input type="text" name="work_municipalities"
+                                            <input type="text" name="work_manicipalities"
                                                 data-error_placement="#work_manicipalities">
                                             <div class="validation-message" id="work_manicipalities"></div>
                                         </td>
@@ -269,7 +271,8 @@
                         </tr>
                     </tbody>
                 </table>
-
+<!--
+    
                 <p class="text-center mt-5 mb-5">お住まいついてのアンケート</p>
 
                 <div>
@@ -280,13 +283,13 @@
                             (1つだけ回答)</p>
                         <div class="questionnaire questionnaire1">
                             <ul>
-                                <li><input type="checkbox" id="box_1" value="1"
+                                <li><input type="checkbox" id="box_1" name="q1" value="1"
                                         onclick="click_cb(1, 'questionnaire1');">一戸建てにこだわる</li><br>
-                                <li><input type="checkbox" id="box_2" value="2"
+                                <li><input type="checkbox" id="box_2" name="q1" value="2"
                                         onclick="click_cb(1, 'questionnaire1');">マンションにこだわる</li><br>
-                                <li><input type="checkbox" id="box_3" value="3"
+                                <li><input type="checkbox" id="box_3" name="q1" value="3"
                                         onclick="click_cb(1, 'questionnaire1');">一戸建てもマンションも同様に検討する</li><br>
-                                <li><input type="checkbox" id="box_4" value="4"
+                                <li><input type="checkbox" id="box_4" name="q1" value="4"
                                         onclick="click_cb(1, 'questionnaire1');">新築
                                 </li>
                             </ul>
@@ -297,62 +300,62 @@
                         <div class="questionnaire questionnaire2_1">
                             <p>【駅名】</p>
                             <ul>
-                                <li><input type="checkbox" value="1" onclick="click_cb(3, 'questionnaire2_1');">恵比寿</li>
-                                <li><input type="checkbox" value="2" onclick="click_cb(3, 'questionnaire2_1');">目黒</li>
-                                <li><input type="checkbox" value="3" onclick="click_cb(3, 'questionnaire2_1');">白金台</li>
-                                <li><input type="checkbox" value="4" onclick="click_cb(3, 'questionnaire2_1');">白金高輪
+                                <li><input type="checkbox" name="q2-1" value="1" onclick="click_cb(3, 'questionnaire2_1');">恵比寿</li>
+                                <li><input type="checkbox" name="q2-1" value="2" onclick="click_cb(3, 'questionnaire2_1');">目黒</li>
+                                <li><input type="checkbox" name="q2-1" value="3" onclick="click_cb(3, 'questionnaire2_1');">白金台</li>
+                                <li><input type="checkbox" name="q2-1" value="4" onclick="click_cb(3, 'questionnaire2_1');">白金高輪
                                 </li>
-                                <li><input type="checkbox" value="5" onclick="click_cb(3, 'questionnaire2_1');">麻布十番
+                                <li><input type="checkbox" name="q2-1"value="5" onclick="click_cb(3, 'questionnaire2_1');">麻布十番
                                 </li>
-                                <li><input type="checkbox" value="6" onclick="click_cb(3, 'questionnaire2_1');">広尾<br>
+                                <li><input type="checkbox" name="q2-1" value="6" onclick="click_cb(3, 'questionnaire2_1');">広尾<br>
                                 </li><br>
-                                <li><input type="checkbox" value="7" onclick="click_cb(3, 'questionnaire2_1');">中目黒</li>
-                                <li><input type="checkbox" value="8" onclick="click_cb(3, 'questionnaire2_1');">代官山</li>
-                                <li><input type="checkbox" value="9" onclick="click_cb(3, 'questionnaire2_1');">品川</li>
-                                <li><input type="checkbox" value="10" onclick="click_cb(3, 'questionnaire2_1');">三田</li>
-                                <li><input type="checkbox" value="11"
+                                <li><input type="checkbox" name="q2-1" value="7" onclick="click_cb(3, 'questionnaire2_1');">中目黒</li>
+                                <li><input type="checkbox" name="q2-1" value="8" onclick="click_cb(3, 'questionnaire2_1');">代官山</li>
+                                <li><input type="checkbox" name="q2-1" value="9" onclick="click_cb(3, 'questionnaire2_1');">品川</li>
+                                <li><input type="checkbox" name="q2-1" value="10" onclick="click_cb(3, 'questionnaire2_1');">三田</li>
+                                <li><input type="checkbox" name="q2-1" value="11"
                                         onclick="click_cb(3, 'questionnaire2_1');">その他<input type="text"></li><br>
                             </ul>
                         </div>
                         <div class="questionnaire questionnaire2_2">
                             <p>【立地】</p>
                             <ul>
-                                <input type="checkbox" value="1" onclick="click_cb(3, 'questionnaire2_2');">駅徒歩分数(
-                                <input type="checkbox" value="2" onclick="click_cb(3, 'questionnaire2_2');">～5分
-                                <input type="checkbox" value="3" onclick="click_cb(3, 'questionnaire2_2');">～7分
-                                <input type="checkbox" value="4" onclick="click_cb(3, 'questionnaire2_2');">～10分
-                                <input type="checkbox" value="5" onclick="click_cb(3, 'questionnaire2_2');">～12分
-                                <input type="checkbox" value="6" onclick="click_cb(3, 'questionnaire2_2');">～15分)<br>
-                                <input type="checkbox" value="7" onclick="click_cb(3, 'questionnaire2_2');">通勤・通学に便利
-                                <input type="checkbox" value="8" onclick="click_cb(3, 'questionnaire2_2');">落ち着いた環境
-                                <input type="checkbox" value="9" onclick="click_cb(3, 'questionnaire2_2');">緑が多い<br>
-                                <input type="checkbox" value="10"
+                                <input type="checkbox" name="q2-2" value="1" onclick="click_cb(3, 'questionnaire2_2');">駅徒歩分数(
+                                <input type="checkbox" name="q2-2" value="2" onclick="click_cb(3, 'questionnaire2_2');">～5分
+                                <input type="checkbox" name="q2-2" value="3" onclick="click_cb(3, 'questionnaire2_2');">～7分
+                                <input type="checkbox" name="q2-2" value="4" onclick="click_cb(3, 'questionnaire2_2');">～10分
+                                <input type="checkbox" name="q2-2" value="5" onclick="click_cb(3, 'questionnaire2_2');">～12分
+                                <input type="checkbox" name="q2-2" value="6" onclick="click_cb(3, 'questionnaire2_2');">～15分)<br>
+                                <input type="checkbox" name="q2-2" value="7" onclick="click_cb(3, 'questionnaire2_2');">通勤・通学に便利
+                                <input type="checkbox" name="q2-2" value="8" onclick="click_cb(3, 'questionnaire2_2');">落ち着いた環境
+                                <input type="checkbox" name="q2-2" value="9" onclick="click_cb(3, 'questionnaire2_2');">緑が多い<br>
+                                <input type="checkbox" name="q2-2" value="10"
                                     onclick="click_cb(3, 'questionnaire2_2');">スーパーや病院など生活利便設備が徒歩圏に揃うこと
-                                <input type="checkbox" value="11" onclick="click_cb(3, 'questionnaire2_2');">その他<input
+                                <input type="checkbox" name="q2-2" value="11" onclick="click_cb(3, 'questionnaire2_2');">その他<input
                                     type="text"><br>
                             </ul>
                         </div>
                         <div class="questionnaire questionnaire2_3">
                             <p>【建物】</p>
                             <ul>
-                                <li><input type="checkbox" value="1" onclick="click_cb(3, 'questionnaire2_3');">価格</li>
-                                <li><input type="checkbox" value="2" onclick="click_cb(3, 'questionnaire2_3');">広さ</li>
-                                <li><input type="checkbox" value="3" onclick="click_cb(3, 'questionnaire2_3');">間取り</li>
-                                <li><input type="checkbox" value="4" onclick="click_cb(3, 'questionnaire2_3');">眺望</li>
-                                <li><input type="checkbox" value="5" onclick="click_cb(3, 'questionnaire2_3');">駐車場有無
+                                <li><input type="checkbox" name="q2-3" value="1" onclick="click_cb(3, 'questionnaire2_3');">価格</li>
+                                <li><input type="checkbox" name="q2-3" value="2" onclick="click_cb(3, 'questionnaire2_3');">広さ</li>
+                                <li><input type="checkbox" name="q2-3" value="3" onclick="click_cb(3, 'questionnaire2_3');">間取り</li>
+                                <li><input type="checkbox" name="q2-3" value="4" onclick="click_cb(3, 'questionnaire2_3');">眺望</li>
+                                <li><input type="checkbox" name="q2-3" value="5" onclick="click_cb(3, 'questionnaire2_3');">駐車場有無
                                 </li>
-                                <li><input type="checkbox" value="6" onclick="click_cb(3, 'questionnaire2_3');">角住戸</li>
-                                <li><input type="checkbox" value="7" onclick="click_cb(3, 'questionnaire2_3');">内廊下</li>
-                                <li><input type="checkbox" value="8" onclick="click_cb(3, 'questionnaire2_3');">低層住宅
+                                <li><input type="checkbox" name="q2-3" value="6" onclick="click_cb(3, 'questionnaire2_3');">角住戸</li>
+                                <li><input type="checkbox" name="q2-3" value="7" onclick="click_cb(3, 'questionnaire2_3');">内廊下</li>
+                                <li><input type="checkbox" name="q2-3" value="8" onclick="click_cb(3, 'questionnaire2_3');">低層住宅
                                 </li><br>
-                                <li><input type="checkbox" value="9" onclick="click_cb(3, 'questionnaire2_3');">高層住宅
+                                <li><input type="checkbox" name="q2-3" value="9" onclick="click_cb(3, 'questionnaire2_3');">高層住宅
                                 </li>
-                                <li><input type="checkbox" value="10" onclick="click_cb(3, 'questionnaire2_3');">収納の多さ
+                                <li><input type="checkbox" name="q2-3" value="10" onclick="click_cb(3, 'questionnaire2_3');">収納の多さ
                                 </li>
-                                <li><input type="checkbox" value="11" onclick="click_cb(3, 'questionnaire2_3');">設備の充実
+                                <li><input type="checkbox" name="q2-3" value="11" onclick="click_cb(3, 'questionnaire2_3');">設備の充実
                                 </li>
-                                <li><input type="checkbox" value="12" onclick="click_cb(3, 'questionnaire2_3');">新築</li>
-                                <li><input type="checkbox" value="13"
+                                <li><input type="checkbox" name="q2-3" value="12" onclick="click_cb(3, 'questionnaire2_3');">新築</li>
+                                <li><input type="checkbox" name="q2-3" value="13"
                                         onclick="click_cb(3, 'questionnaire2_3');">その他<input type="text"></li><br>
                             </ul>
                         </div>
@@ -540,6 +543,7 @@
                 </div>
                 <p>アンケートにご協力いただき、誠にありがとうございました。</p>
 
+-->
                 <button class="mh-parts btn btn-dark mx-auto d-block"><span class="p-3">入力内容の確認</span></button>
             </form>
         </div>

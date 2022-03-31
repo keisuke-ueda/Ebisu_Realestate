@@ -52,7 +52,15 @@ Route::view('/entry', 'entry');
 Route::view('/reserve', 'reserve');
 
 // アンケート
-Route::view('/questionnaire', 'questionnaire');
+// Route::view('/questionnaire', 'questionnaire');
+
+Route::get('/questionnaire', [QuestionnaireController::class, 'show'])->name("form.show");
+Route::post('/questionnaire', [QuestionnaireController::class, 'post'])->name("form.post");
+
+Route::get('/questionnaire/confirm', [QuestionnaireController::class, 'confirm'])->name("form.confirm");
+Route::post('/questionnaire/confirm', [QuestionnaireController::class, 'send'])->name("form.send");
+
+Route::get('/questionnaire/thanks', [QuestionnaireController::class, 'complete'])->name("form.complete");
 
 // メール送信
 Route::post('/questionnaire_mail', [QuestionnaireController::class, 'send']);
