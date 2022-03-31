@@ -1,7 +1,5 @@
 @extends('layout2')
 
-<!-- バリデーション作る -->
-
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
 <meta name="format-detection" content="telephone=no">
 <title>新たな価値を創造したプレミアムリノベーションマンション｜株式会社ラ・アトレ</title>
@@ -14,7 +12,7 @@
 <body>
     <div class="container" style="padding-top: 100px;">
         <div class="row justify-content-center">
-            <h1 class="p-title text-center ft4">お住いのアンケート</h1>
+            <h1 class="p-title gold-title text-center ft4">お住いのアンケート</h1>
             <img class="center-block mx-auto d-block" style="width: 60%;" src="{{ asset('/images/お住まいアンケート1.png') }}">
 
             <p class="text-center mt-2 mb-5 ft2 s19">この度、目黒区・渋谷区・港区・品川区を中心とするエリアで、LAホールディングスグループの<br>
