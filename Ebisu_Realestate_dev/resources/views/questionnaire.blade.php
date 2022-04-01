@@ -43,7 +43,7 @@
                             <td>
                                 <input class="input" type="text" name="sei" data-kana="セイ" placeholder="姓" required
                                     data-error_placement="#sei">
-                                <input class="input" type="text" name="mei" data-kana="メイ" placeholder="名" required
+                                <input class="input ms-2" type="text" name="mei" data-kana="メイ" placeholder="名" required
                                     data-error_placement="#mei">
                                 <div class="validation-message" id="sei"></div>
                                 <div class="validation-message" id="mei"></div>
@@ -56,7 +56,7 @@
                             <td>
                                 <input class="input" type="text" name="sei_kana" data-charcheck="kana" placeholder="セイ"
                                     required data-error_placement="#sei-kana">
-                                <input class="input" type="text" name="mei_kana" data-charcheck="kana" placeholder="メイ"
+                                <input class="input ms-2" type="text" name="mei_kana" data-charcheck="kana" placeholder="メイ"
                                     required data-error_placement="#mei-kana">
                                 <div class="validation-message" id="sei-kana"></div>
                                 <div class="validation-message" id="mei-kana"></div>
@@ -102,7 +102,7 @@
                                         <th>
                                             <label for="name">都道府県<span class="badge badge-danger">必須</span></label>
                                         </th>
-                                        <td>
+                                        <td class="py-1">
                                             <select name="home_prefectures">
                                                 <option value="">選択</option>
                                                 @foreach ($prefectures as $prefecture)
@@ -118,7 +118,7 @@
                                         <th>
                                             <label for="name">市区町村<span class="badge badge-danger">必須</span></label>
                                         </th>
-                                        <td>
+                                        <td class="py-1">
                                             <input type="text" name="home_manicipalities"
                                                 data-error_placement="#home_manicipalities">
                                             <div class="validation-message" id="home_manicipalities"></div>
@@ -128,7 +128,7 @@
                                         <th>
                                             <label for="name">丁目番地<span class="badge badge-danger">必須</span></label>
                                         </th>
-                                        <td>
+                                        <td class="py-1">
                                             <input type="text" name="home_chome_address"
                                                 data-error_placement="#home_chome_address">
                                             <div class="validation-message" id="home_chome_address"></div>
@@ -138,7 +138,7 @@
                                         <th>
                                             <label for="name">建物名</label>
                                         </th>
-                                        <td>
+                                        <td class="py-1">
                                             <input type="text" name="home_building_name">
                                         </td>
                                     </tr>
@@ -156,7 +156,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><label for="name"><span class="badge badge-danger">必須</span>現在おしまいの住居形態<br>
+                            <td colspan="2"><label for="name"><span class="badge badge-danger">必須</span>現在お住まいの住居形態<br>
                                     ※該当するものを1つだけ選択してください。</label></td>
                             <td>
                                 <div><input type="radio" name="housing_form"
@@ -170,7 +170,7 @@
                                 <div><input type="radio" name="housing_form" data-error_placement="#housing_form">社宅・官舎
                                 </div>
                                 <div><input type="radio" name="housing_form"
-                                        data-error_placement="#housing_form">その他<input type="text"></div>
+                                        data-error_placement="#housing_form">その他<input class="ms-2" type="text"></div>
                                 <div class="validation_message" id="housing_form"></div>
                             </td>
                         </tr>
@@ -226,7 +226,7 @@
                                         <th>
                                             <label for="name">都道府県<span class="badge badge-danger">必須</span></label>
                                         </th>
-                                        <td>
+                                        <td class="py-1">
                                             <select name="work_prefectures">
                                                 <option value="">選択</option>
                                                 @foreach ($prefectures as $prefecture)
@@ -242,7 +242,7 @@
                                         <th>
                                             <label for="name">市区町村<span class="badge badge-danger">必須</span></label>
                                         </th>
-                                        <td>
+                                        <td class="py-1">
                                             <input type="text" name="work_manicipalities"
                                                 data-error_placement="#work_manicipalities">
                                             <div class="validation-message" id="work_manicipalities"></div>
@@ -252,7 +252,7 @@
                                         <th>
                                             <label for="name">丁目番地<span class="badge badge-danger">必須</span></label>
                                         </th>
-                                        <td>
+                                        <td class="py-1">
                                             <input type="text" name="work_chome_address"
                                                 data-error_placement="#work_chome_address">
                                             <div class="validation-message" id="work_chome_address"></div>
@@ -262,7 +262,7 @@
                                         <th>
                                             <label for="name">建物名</label>
                                         </th>
-                                        <td>
+                                        <td class="py-1">
                                             <input type="text" name="work_building_name">
                                         </td>
                                     </tr>
@@ -273,16 +273,16 @@
                 </table>
 
                 <div class="band">
-                    <p class="text-center mt-5 mb-5">お住まいについてのアンケート</p>
+                    <p class="text-center mt-5 mb-3 py-3 text-white h5" style="background-color:#444444;">お住まいについてのアンケート</p>
                 </div>
 
                 <div class="mt-2">
-                    <p class="indent-1">※アンケート項目すべてにご協力いただいた方に、もれなくAmazonギフトカードを進呈いたします。</p>
-                    <p class="indent-1">※アンケートはすべて必須項目になります。</p>
-                    <div class="gold_line_bottom mt-3 pb-2">
+                    <p class="indent-1 h5">※アンケート項目すべてにご協力いただいた方に、もれなくAmazonギフトカードを進呈いたします。</p>
+                    <p class="indent-1 h5">※アンケートはすべて必須項目になります。</p>
+                    <div class="gold_line_bottom mt-4 py-2">
                         <div class="questionnaire questionnaire1">
                             <p><span class="question-num">1</span>仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。</p>
-                            <p class="indent-3"> (1つだけ回答)</p>
+                            <p class="indent-3 pb-2"> (1つだけ回答)</p>
                             <ul>
                                 <li><input type="checkbox" id="box_1" name="q1[]" value="1"
                                         onclick="click_cb(1, 'questionnaire1');">一戸建てにこだわる</li><br>
@@ -298,7 +298,7 @@
                     </div>
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire2_1">
-                            <p><span class="question-num">2</span>あなたがお住まいに求める条件をお聞かせください。(それぞれ3つ回答)</p>
+                            <p class="pb-2"><span class="question-num">2</span>あなたがお住まいに求める条件をお聞かせください。(それぞれ3つ回答)</p>
                             <p>【駅名】</p>
                             <ul>
                                 <li><input type="checkbox" name="q2_1[]" value="1"
@@ -325,7 +325,7 @@
                                 <li><input type="checkbox" name="q2_1[]" value="10"
                                         onclick="click_cb(3, 'questionnaire2_1');">三田</li>
                                 <li><input type="checkbox" name="q2_1[]" value="11"
-                                        onclick="click_cb(3, 'questionnaire2_1');">その他<input type="text"></li><br>
+                                        onclick="click_cb(3, 'questionnaire2_1');">その他<input class="ms-2" type="text"></li><br>
                             </ul>
                         </div>
                         <div class="questionnaire questionnaire2_2">
@@ -352,7 +352,7 @@
                                 <input type="checkbox" name="q2_2[]" value="10"
                                     onclick="click_cb(3, 'questionnaire2_2');">スーパーや病院など生活利便設備が徒歩圏に揃うこと
                                 <input type="checkbox" name="q2_2[]" value="11"
-                                    onclick="click_cb(3, 'questionnaire2_2');">その他<input type="text"><br>
+                                    onclick="click_cb(3, 'questionnaire2_2');">その他<input class="ms-2" type="text"><br>
                             </ul>
                         </div>
                         <div class="questionnaire questionnaire2_3">
@@ -388,7 +388,7 @@
                                 <li><input type="checkbox" name="q2_3[]" value="12"
                                         onclick="click_cb(3, 'questionnaire2_3');">新築</li>
                                 <li><input type="checkbox" name="q2_3[]" value="13"
-                                        onclick="click_cb(3, 'questionnaire2_3');">その他<input type="text"></li><br>
+                                        onclick="click_cb(3, 'questionnaire2_3');">その他<input class="ms-2" type="text"></li><br>
                             </ul>
                         </div>
                     </div>
@@ -397,7 +397,7 @@
                         <div class="questionnaire questionnaire3_1">
                             <p><span class="question-num">3</span>仮に今後、マンション購入を検討する場合に希望される間取りと広さをお聞かせください。<br>
                             </p>
-                            <p class="indent-3">(それぞれ1つ回答)</p>
+                            <p class="indent-3 pb-2">(それぞれ1つ回答)</p>
                             <p>【ご希望の間取り】</p>
                             <ul>
                                 <li><input type="checkbox" name="q3_1[]" value="1"
@@ -410,7 +410,7 @@
                                         onclick="click_cb(1, 'questionnaire3_1');">3LDK
                                 </li>
                                 <li><input type="checkbox" name="q3_1[]" value="4"
-                                        onclick="click_cb(1, 'questionnaire3_1');">その他<input type="text"></li><br>
+                                        onclick="click_cb(1, 'questionnaire3_1');">その他<input class="ms-2" type="text"></li><br>
                             </ul>
                         </div>
                         <div class="questionnaire questionnaire3_2">
@@ -445,7 +445,7 @@
                                 <span class="question-num">4</span>新築分譲マンション・分譲リノベーションマンションを購入するとした場合についてお聞かせください。<br>
 
                             </p>
-                            <p class="indent-3">(1つだけ回答)</p>
+                            <p class="indent-3 pb-2">(1つだけ回答)</p>
                             <ul>
                                 <li><input type="checkbox" value="1" name="q4[]"
                                         onclick="click_cb(1, 'questionnaire4_1');">新築分譲マンションのみ
@@ -468,7 +468,7 @@
                                 <span class="question-num">5</span>仮に今後、新たに住宅を検討するとした場合の購入エリアについてお聞かせください。<br>
 
                             </p>
-                            <p class="indent-3">(複数回答可)</p>
+                            <p class="indent-3 pb-2">(複数回答可)</p>
                             <p>【渋谷区】</p>
                             <ul>
                                 <li><input type="checkbox" name="q5_1[]" value="1">恵比寿2丁目</li>
@@ -511,7 +511,7 @@
                             <ul>
                                 <li><input type="checkbox" name="q5_4[]" value="1">上大崎1丁目</li>
                                 <li><input type="checkbox" name="q5_4[]" value="2">上大崎2丁目</li>
-                                <li><input type="checkbox" name="q5_4[]" value="3">その他<input type="text"></li>
+                                <li><input type="checkbox" name="q5_4[]" value="3">その他<input class="ms-2" type="text"></li>
                             </ul>
                             <br>
                         </div>
@@ -521,7 +521,7 @@
                         <div class="questionnaire questionnaire6_1">
                             <p><span class="question-num">6</span>仮に上記エリアで新規分譲マンションまたは分譲リノベーションマンションを<br>
                             </p>
-                            <p class="indent-3">
+                            <p class="indent-3 pb-2">
                                 検討する場合、どの住戸を検討しますか。
                             </p>
                             <ul>
@@ -529,7 +529,7 @@
                                 <li><input type="checkbox" name="q6[]" value="2">1LDK 60㎡前後 0,000万円～</li><br>
                                 <li><input type="checkbox" name="q6[]" value="3">2LDK 80㎡前後 00,000万円～</li>
                                 <li><input type="checkbox" name="q6[]" value="4">2LDK 90㎡前後 00,000万円～</li><br>
-                                <li><input type="checkbox" name="q6[]" value="5">その他<input type="text"></li>
+                                <li><input type="checkbox" name="q6[]" value="5">その他<input class="ms-2" type="text"></li>
                             </ul>
                             <br>
                         </div>
@@ -549,22 +549,22 @@
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire9">
-                            <p><span class="question-num">9</span>現在のお住まいで所有している自家用車の台数と車種をお聞かせ下さい。</p>
+                            <p class="pb-2"><span class="question-num">9</span>現在のお住まいで所有している自家用車の台数と車種をお聞かせ下さい。</p>
                             <p>［台 数］<input type="text">台 ［車 種］<input type="text" name="q9"></p>
                         </div>
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire10">
-                            <p><span class="question-num-2">10</span>世帯主様、配偶者様、ご家族全体の年収をそれぞれお聞かせください。</p>
+                            <p class="pb-2"><span class="question-num-2">10</span>世帯主様、配偶者様、ご家族全体の年収をそれぞれお聞かせください。</p>
                             <p>［世帯主様］<input type="text" name="q10_1">万円</p>
-                            <p>［配偶者様］<input type="text" name="q10_2">万円 ［全 体］<input type="text" name="q10_3"></p>
+                            <p class="mt-2">［配偶者様］<input type="text" name="q10_2">万円 ［全 体］<input type="text" name="q10_3"></p>
                         </div>
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire11">
-                            <p><span class="question-num-2">11</span>目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。</p>
+                            <p class="pb-2"><span class="question-num-2">11</span>目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。</p>
                             <ul>
                                 <li><input type="checkbox" name="q11" value="1">ある</li><br>
                                 <li><input type="checkbox" name="q11" value="2">ない</li>
@@ -574,7 +574,7 @@
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire12">
-                            <p><span class="question-num-2">12</span>現在の住宅から買い替え予定はありますか。</p>
+                            <p class="pb-2"><span class="question-num-2">12</span>現在の住宅から買い替え予定はありますか。</p>
                             <ul>
                                 <li><input type="checkbox" name="q12_1[]" value="1">ある<input type="text"
                                         name="q12_2">年以内</li><br><br>
