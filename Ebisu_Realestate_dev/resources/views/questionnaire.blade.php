@@ -2,7 +2,7 @@
 
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
 <meta name="format-detection" content="telephone=no">
-<title>お住いのアンケート</title>
+<title>お住いについてのアンケート</title>
 
 @section('content')
 <?php
@@ -282,7 +282,7 @@
                     <div class="gold_line_bottom mt-4 py-2">
                         <div class="questionnaire questionnaire1">
                             <p><span class="question-num">1</span>仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。</p>
-                            <p class="indent-3 pb-2"> (1つだけ回答)</p>
+                            <p class="indent-3 pb-2">&emsp;&emsp;(1つだけ回答)</p>
                             <ul>
                                 <li><input type="checkbox" id="box_1" name="q1[]" value="1"
                                         onclick="click_cb(1, 'questionnaire1');">一戸建てにこだわる</li><br>
@@ -290,9 +290,6 @@
                                         onclick="click_cb(1, 'questionnaire1');">マンションにこだわる</li><br>
                                 <li><input type="checkbox" id="box_3" name="q1[]" value="3"
                                         onclick="click_cb(1, 'questionnaire1');">一戸建てもマンションも同様に検討する</li><br>
-                                <li><input type="checkbox" id="box_4" name="q1[]" value="4"
-                                        onclick="click_cb(1, 'questionnaire1');">新築
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -417,21 +414,18 @@
                             <p>【ご希望の広さ】</p>
                             <ul>
                                 <li><input type="checkbox" name="q3_2[]" value="1"
-                                        onclick="click_cb(1, 'questionnaire3_2');">～50㎡
+                                        onclick="click_cb(1, 'questionnaire3_2');">～60㎡
                                 </li>
                                 <li><input type="checkbox" name="q3_2[]" value="2"
-                                        onclick="click_cb(1, 'questionnaire3_2');">50㎡～
-                                </li>
-                                <li><input type="checkbox" name="q3_2[]" value="3"
                                         onclick="click_cb(1, 'questionnaire3_2');">60㎡～
                                 </li>
-                                <li><input type="checkbox" name="q3_2[]" value="4"
+                                <li><input type="checkbox" name="q3_2[]" value="3"
                                         onclick="click_cb(1, 'questionnaire3_2');">70㎡～
                                 </li>
-                                <li><input type="checkbox" name="q3_2[]" value="5"
+                                <li><input type="checkbox" name="q3_2[]" value="4"
                                         onclick="click_cb(1, 'questionnaire3_2');">80㎡～
                                 </li>
-                                <li><input type="checkbox" name="q3_2[]" value="6"
+                                <li><input type="checkbox" name="q3_2[]" value="5"
                                         onclick="click_cb(1, 'questionnaire3_2');">90㎡～
                                 </li>
                             </ul>
@@ -525,11 +519,10 @@
                                 検討する場合、どの住戸を検討しますか。
                             </p>
                             <ul>
-                                <li><input type="checkbox" name="q6[]" value="1">1LDK 55㎡前後 0,000万円～</li>
-                                <li><input type="checkbox" name="q6[]" value="2">1LDK 60㎡前後 0,000万円～</li><br>
-                                <li><input type="checkbox" name="q6[]" value="3">2LDK 80㎡前後 00,000万円～</li>
-                                <li><input type="checkbox" name="q6[]" value="4">2LDK 90㎡前後 00,000万円～</li><br>
-                                <li><input type="checkbox" name="q6[]" value="5">その他<input class="ms-2" type="text"></li>
+                                <li><input type="checkbox" name="q6[]" value="1">1LDK   55㎡超   12,000万円～</li>
+                                <li><input type="checkbox" name="q6[]" value="2">1LDK   64㎡超   14,000万円～</li><br>
+                                <li><input type="checkbox" name="q6[]" value="3">2LDK   88㎡超   18,000万円～</li><br>
+                                <li><input type="checkbox" name="q6[]" value="4">その他<input class="ms-2" type="text"></li>
                             </ul>
                             <br>
                         </div>
@@ -537,13 +530,29 @@
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire7">
-                            <p><span class="question-num">7</span>世帯主様の職業は何でしょうか。<input type="text" name="q7"></p>
+                            <p><span class="question-num">7</span>世帯主様の職業は何でしょうか。</p>
+                            <ul>
+                                <li><input type="checkbox" name="q7[]" value="1">会社経営者</li>
+                                <li><input type="checkbox" name="q7[]" value="2">会社役員</li>
+                                <li><input type="checkbox" name="q7[]" value="3">会社員</li>
+                                <li><input type="checkbox" name="q7[]" value="4">公務員</li><br>
+                                <li><input type="checkbox" name="q7[]" value="5">医師</li>
+                                <li><input type="checkbox" name="q7[]" value="6">弁護士</li>
+                                <li><input type="checkbox" name="q7[]" value="7">その他<input class="ms-2" type="text"></li>
+                            </ul>
                         </div>
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire8">
-                            <p><span class="question-num">8</span>世帯主様の通勤手段は何でしょうか。<input type="text" name="q8"></p>
+                            <p><span class="question-num">8</span>世帯主様の通勤手段は何でしょうか。</p>
+                                <ul>
+                                    <li><input type="checkbox" name="q8[]" value="1">電車</li>
+                                    <li><input type="checkbox" name="q8[]" value="2">車</li>
+                                    <li><input type="checkbox" name="q8[]" value="3">バイク</li>
+                                    <li><input type="checkbox" name="q8[]" value="4">自転車</li>
+                                    <li><input type="checkbox" name="q8[]" value="5">その他<input class="ms-2" type="text"></li>
+                                </ul>
                         </div>
                     </div>
 
@@ -556,9 +565,13 @@
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire10">
-                            <p class="pb-2"><span class="question-num-2">10</span>世帯主様、配偶者様、ご家族全体の年収をそれぞれお聞かせください。</p>
-                            <p>［世帯主様］<input type="text" name="q10_1">万円</p>
-                            <p class="mt-2">［配偶者様］<input type="text" name="q10_2">万円 ［全 体］<input type="text" name="q10_3"></p>
+                            <p class="pb-2"><span class="question-num-2">10</span>ご家族全体の年収をお聞かせください。</p>
+                            <ul>
+                                    <li><input type="checkbox" name="q10[]" value="1">～1,000万円</li>
+                                    <li><input type="checkbox" name="q10[]" value="2">1,001万円～1,500万円</li>
+                                    <li><input type="checkbox" name="q10[]" value="3">1,501万円～2,000万円</li>
+                                    <li><input type="checkbox" name="q10[]" value="4">2,000万円～</li>
+                                </ul>
                         </div>
                     </div>
 
@@ -603,7 +616,8 @@
                 忌憚のないご意見を頂戴できましたら、幸いでございます。<br>
                 ※ご提供いただきました個人情報については、アンケート謝礼送付、本エリアでの物件情報をお送りするために利用いたします。<br>
                 ※当社は、「個人情報の保護に関する法令、国が定める指針」その他の規範を尊重・遵守し、個人情報の適正な取り扱いと保護に努めます。<br>
-                当社の「個人情報保護方針」につきましては、https://lattrait.co.jp/privacy/をご覧ください。<br>
+                &emsp;当社の「個人情報保護方針」につきましては、https://lattrait.co.jp/privacy/をご覧ください。<br>
+                ※アンケートにご協力いただいた方は、今後販売する本プロジェクトへの優先的なご案内をさせていただく際にも利用させていただきます。<br>
                 <調査主体・調査実施>株式会社ラ・アトレ<アンケート集計・調査分析>株式会社アドバンスクリエイティブ
             </p>
         </div>
