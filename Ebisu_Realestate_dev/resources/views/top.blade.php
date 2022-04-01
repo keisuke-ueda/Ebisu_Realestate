@@ -259,7 +259,7 @@
                     <!-- <img src="{{ asset('/images/デザイン1.png') }}" alt="サンプル画像" class="design_img2 mt-4 mx-auto d-block img-fluid { max-width: 100%; height: auto }"> -->
                 </div>
                 <div class="col-8 animation-1-zm">
-                    <img src="{{ asset('/images/picture1.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
+                    <img src="{{ asset('/images/TOP_11.png') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                 </div>
             </div>
 

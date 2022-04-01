@@ -32,21 +32,23 @@
 
         <div class="row mt-5 ft2">
             <p class="col-1"></p>
+            <img  class="col-2 animation-0-zm" src="{{ asset('/images/アトレ恵比寿.png') }}">
             <img  class="col-2 animation-0-zm" src="{{ asset('/images/ガーデンプレイス2.jpg') }}">
             <img  class="col-2 animation-0-zm" src="{{ asset('/images/ウエスティン2.jpg') }}">
             <img  class="col-2 animation-1-zm" src="{{ asset('/images/国立付属1.jpg') }}">
             <img  class="col-2 animation-1-zm" src="{{ asset('/images/医療科学研究所.jpg') }}">
-            <img  class="col-2 animation-1-zm" src="{{ asset('/images/東急ストア.jpg') }}">
+            <img  class="col-2 animation-1-zm" src="{{ asset('/images/サッポロ広場.png') }}">
             <p class="col-1"></p>
         </div>
 
         <div class="row mt-2 mb-5 ft2 text-end" style="font-size: 10px;">
             <p class="col-1"></p>
+            <p class="col-2 animation px-2">「アトレ恵比寿」(約1000m・徒歩13分)</p>
             <p class="col-2 animation px-2">「恵比寿ガーデンプレイス」(約260m・徒歩4分)</p>
             <p class="col-2 animation px-2">「ウエスティンホテル東京」(約300m・徒歩4分)</p>
             <p class="col-2 animation px-2">「国立科学博物館付属 自然教育園」<br>(約1000m・徒歩13分)</p>
             <p class="col-2 animation px-2">「東京大学医療科学研究附属病院」<br>(約630m・徒歩8分)</p>
-            <p class="col-2 animation px-2">「東急ストア目黒店」(約910m・徒歩12分)</p>
+            <p class="col-2 animation px-2">「サッポロ広場」(約260m・徒歩4分)</p>
             <p class="col-1"></p>
         </div>
 
