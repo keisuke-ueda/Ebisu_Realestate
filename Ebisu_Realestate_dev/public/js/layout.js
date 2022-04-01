@@ -167,7 +167,7 @@ $(function () {
     $('.header').addClass('d-none');
   })
 
-  // アンケートフォームの入力バリデーション
+  // フォームの入力バリデーション
   $('.mailformpro').validate({
     rules: {
       sei: {
@@ -297,10 +297,11 @@ function click_cb(limit, class_name) {
   // 0個のとき（チェックがすべて外れたとき）
   if (check_count == 0) {
     $(target_li).each(function () {
+      $(this).children("input[type='checkbox']").prop('disabled', false);
       $(this).find(".locked").removeClass("locked");
     });
     // チェック可能上限数以上の時
-  } else if (check_count > lim) {
+  } else if (check_count > lim){
     $(target_li).each(function () {
       // チェックされていないチェックボックスをロックする
       if (!$(this).children("input[type='checkbox']").prop('checked')) {
