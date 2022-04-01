@@ -7,6 +7,8 @@
     <img  class="w-25 img-fluid mt-ex" src="{{ asset('/images/the EBISU.svg') }}">
 </div>
 
+<div style="height:116px; background-color:#000;"></div>
+
 <div class="container-fluid">
     <div class="main-content">
         <div class="row mt-5">
@@ -16,7 +18,7 @@
             <p>※掲載写真は、令和4年3月に撮影したものです。</p>
             </div>
             <div class="text-white col-5 animation d-flex flex-column justify-content-center align-items-center ft2" style="background-color: #3c3939;">
-                <p><span class="gold h4">緑も豊かな「恵比寿ガーデンプレイス」<br>
+                <p><span class="gold-2 h4">緑も豊かな「恵比寿ガーデンプレイス」<br>
                     「ウエスティンホテル東京」に隣接。</span></p>
                 <p class="" style="margin-top: 40px;">先進的な都市の表情が洗練されたセンスが集う街、恵比寿。<br>
                 JR山手線・埼京線・湘南新宿ラインと東京メトロ日比谷線を利用できる高いアクセス性。<br>
@@ -51,7 +53,7 @@
         <div class="row bg-white text-dark mt-5 mb-5 ft2">
             <p class="col-1"></p>
             <div class="col-4">
-            <p class="pt-5 animation text-dark"><span class="gold h5">約26mの丘の上で上質な日常が始まる。</span></p>
+            <p class="pt-5 animation text-dark"><span class="gold-2 h5">約26mの丘の上で上質な日常が始まる。</span></p>
             <p class="pt-4 animation text-dark"> 恵比寿の丘の上。<br>
                 都心でありながら、都心の喧騒を離れ、様々な安らぎと<br>
                 恵比寿、目黒の2駅を使いこなせる立地でありながら、<br>

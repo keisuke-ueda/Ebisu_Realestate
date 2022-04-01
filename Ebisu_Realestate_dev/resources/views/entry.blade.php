@@ -300,7 +300,7 @@
         <input type="checkbox">個人情報の取り扱いについて同意の方はチェックを入れてください。
         <p>資料請求を行う際には、「個人情報のお取り扱いについて」(株式会社LAホールディングス)をお読みの上チェックを入れて下記の「入力内容の確認」ボタンを押してください。</p>
       </div>
-      <button class="mh-parts btn btn-dark mx-auto d-block"><span class="p-3">入力内容の確認</span></button>
+      <button class="mh-parts btn btn-dark mx-auto d-block my-5"><span class="p-3">入力内容の確認</span></button>
     </form>
 
   </div>
