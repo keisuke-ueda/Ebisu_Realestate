@@ -26,7 +26,7 @@
             <td></td>
             <td>
               <input type="text" name="sei" data-kana="セイ" placeholder="姓" required data-error_placement="#sei">
-              <input type="text" name="mei" data-kana="メイ" placeholder="名" required data-error_placement="#mei">
+              <input type="text" name="mei" data-kana="メイ" placeholder="名" required data-error_placement="#mei" class="ms-2">
               <div class="validation-message" id="sei"></div>
               <div class="validation-message" id="mei"></div>
             </td>
@@ -38,7 +38,7 @@
               <input type="text" name="sei_kana" data-charcheck="kana" placeholder="セイ" required
                 data-error_placement="#sei-kana">
               <input type="text" name="mei_kana" data-charcheck="kana" placeholder="メイ" required
-                data-error_placement="#mei-kana">
+                data-error_placement="#mei-kana" class="ms-2">
               <div class="validation-message" id="sei-kana"></div>
               <div class="validation-message" id="mei-kana"></div>
             </td>
@@ -56,17 +56,17 @@
           </tr>
           <tr>
             <td>
-              <div><label for="name"><span class="badge badge-danger">必須</span>生年月日</label></div>
+              <div class="mb-5"><label for="name"><span class="badge badge-danger">必須</span>生年月日</label></div>
               <div><label for="name"><span class="badge badge-danger">必須</span>メールアドレス</label></div>
             </td>
             <td></td>
             <td>
-              <div><input type="text">年 <input type="text">月 <input type="text">日</div>
-              <p>※半角英数で入力してください</p>
-              <div><input type="email" name="email" data-error_placement="#email"></div>
+              <div><input class="w-25" type="text">年 <input class="w-25 ms-3" type="text">月 <input class="w-25 ms-3" type="text">日</div>
+              <p class="mt-2 mb-0">※半角英数で入力してください</p>
+              <div><input class="w-100" type="email" name="email" data-error_placement="#email"></div>
               <div class="validation_message" id="email"></div>
-              <p>※確認のためもう一度ご入力ください</p>
-              <div><input type="text" name="confirm_email" data-error_placement="#confirm_email">
+              <p class="m-0">※確認のためもう一度ご入力ください</p>
+              <div><input class="w-100" type="text" name="confirm_email" data-error_placement="#confirm_email">
               </div>
               <div class="validation_message" id="confirm_email"></div>
             </td>
@@ -90,7 +90,7 @@
                   <th>
                     <label for="name">都道府県<span class="badge badge-danger">必須</span></label>
                   </th>
-                  <td>
+                  <td class="py-1">
                     <select>
                       <option value="">選択</option>
                       @foreach ($prefectures as $prefecture)
@@ -106,7 +106,7 @@
                   <th>
                     <label for="name">市区町村<span class="badge badge-danger">必須</span></label>
                   </th>
-                  <td>
+                  <td class="py-1">
                     <input type="text" name="home_municipalities" data-error_placement="#home_manicipalities">
                     <div class="validation-message" id="home_manicipalities"></div>
                   </td>
@@ -115,7 +115,7 @@
                   <th>
                     <label for="name">丁目番地<span class="badge badge-danger">必須</span></label>
                   </th>
-                  <td>
+                  <td class="py-1">
                     <input type="text" name="home_chome_address" data-error_placement="#home_chome_address">
                     <div class="validation-message" id="home_chome_address"></div>
                   </td>
@@ -124,7 +124,7 @@
                   <th>
                     <label for="name">建物名</label>
                   </th>
-                  <td>
+                  <td class="py-1">
                     <input type="text" name="home_building_name">
                   </td>
                 </tr>
