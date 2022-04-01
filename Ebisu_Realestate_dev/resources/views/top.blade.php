@@ -1,4 +1,4 @@
-@extends('layout2')
+@extends('layout')
 
 @section('content')
 
@@ -80,9 +80,9 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="gold_frame">
-                            <div class="frame_border">
-                                <div class="frame_circle h5">
+                        <div class="gold_frame h-100">
+                            <div class="frame_border h-100">
+                                <div class="frame_circle h-100 h5">
                                     <p class="font-11">&nbsp;</p>
                                     <p>緑に包まれた<span class="h4">「ウエスティンホテル東京」</span></p>
                                     <p class="font-11">&nbsp;</p>
@@ -100,9 +100,10 @@
                     <div class="col-4">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
-                                <div class="frame_circle h-100 h5">
+                                <div class="frame_circle h-100 h4">
                                     <p class=""><span style="color: transparent;">ーーーーーーーーーーー</span><span class="font-11">※1</span>&nbsp;&nbsp;&nbsp;</p>
-                                    <p class="">内廊下設計、角住戸率<span class="h4">57%</span>超</p>
+                                    <p class="">内廊下設計、角住戸率<span class="h3">57%</span>超</p>
+                                    <p class="font-11">&nbsp;</p>
                                     <p class="font-11">&nbsp;</p>
                                 </div>
                             </div>
@@ -127,28 +128,21 @@
 
             <!-- アンケートエリア -->
             <div class="animation my-5">
-                <div class="row">
+                <div class="row mb-4">
                     <p class="col-1"></p>
                     <p class="col-10 gold-title text-center h4 mt--5 mb-4 ft2">「お住まいについてのアンケート」にご協力ください。</p>
                     <p class="col-1"></p>
                 </div>
                 <div class="row pb-5">
                     <p class="col-4"></p>
-                    <div class="col-4 border border-warning text-center ft2">
-                        <br>
-                        <br>
-                        <br>
-                        <p class="text-center mb-4" style="line-height:2;"><span class="pb-1" style="border-bottom:1px solid white;">アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
-                        <br>
-                        <br>
+                    <div class="col-4 border-gold text-center ft2 py-4">
+                        <p class="text-center mt-2 mb-3" style="line-height:2;"><span class="pb-1" style="border-bottom:1px solid white;">アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
                         <div class="row">
-                            <p class="col-2"></p>
+                            <p class="col-1"></p>
                             <form action="/questionnaire" method="GET">
-                                <button type="submit" class="col-8 gold_btn px-2 mh-parts"><span class="h5 text-white">アンケートはこちら</span></button>
+                                <button type="submit" class="col-10 gold_btn px-2 mh-parts mt-4 mb-2"><span class="h5 text-white">アンケートはこちら</span></button>
                             </form>
-                            <p class="col-2"></p>
-                        <br>
-                        <br>
+                            <p class="col-1"></p>
                         </div>
                     </div>
                     <p class="col-4"></p>
@@ -165,7 +159,7 @@
                 <div class="row ft2">
                     <p class="col-3"></p>
                     <div class="col-6">
-                        <table class="table text-white small">
+                        <table class="table text-white small info_table">
                             <tr>
                                 <td class="py-3" scope="col">2022.4.15</td>
                                 <td class="py-3" scope="col">ラ・アトレ恵比寿グランガーデン　ホームページ開設</td>
@@ -183,7 +177,7 @@
         </div>
 
 
-        <div class="white_wall py-5">
+        <div class="py-5">
             <!-- Ebisu -->
             <div class="row my-5 pb-5">
                 <div class="col-8 animation-0-zm">
