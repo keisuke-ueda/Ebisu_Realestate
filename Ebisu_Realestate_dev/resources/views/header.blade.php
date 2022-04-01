@@ -11,31 +11,31 @@
     <div class="header_links d-flex justify-content-between align-items-center col-10">
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/concept" class="mh-parts">EBISU</a>
+        <a href="/concept" class="mh-parts white_link">EBISU</a>
       </div>
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/location" style="pointer-events:none;" class="mh-parts">LOCATION</a>
+        <a href="/location" style="pointer-events:none;" class="mh-parts white_link">LOCATION</a>
       </div>
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/access" class="mh-parts">ACCESS</a>
+        <a href="/access" class="mh-parts white_link">ACCESS</a>
       </div>
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/design" style="pointer-events:none;" class="mh-parts">DESIGN</a>
+        <a href="/design" style="pointer-events:none;" class="mh-parts white_link">DESIGN</a>
       </div>
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <a href="/model_room" style="pointer-events:none;" class="mh-parts">MODEL ROOM</a>
+        <a href="/model_room" style="pointer-events:none;" class="mh-parts gray_link">MODEL ROOM</a>
       </div>
       <div class="header_link ms-3">
-        <div><a href="/overview" class="small mh-parts">>物件概要</a></div>
-        <a href="/plan" style="pointer-events:none;" class="mh-parts">PLAN</a>
+        <div><a href="/overview" class="small mh-parts white_link">>物件概要</a></div>
+        <a href="/plan" style="pointer-events:none;" class="mh-parts gray_link">PLAN</a>
       </div>
       <div class="header_link ms-3">
-        <div><a href="/map" class="small mh-parts">>現地案内図</a></div>
-        <a href="/blanding" style="pointer-events:none;" class="mh-parts">BLANDING</a>
+        <div><a href="/map" class="small mh-parts white_link">>現地案内図</a></div>
+        <a href="/blanding" style="pointer-events:none;" class="mh-parts gray_link">BLANDING</a>
       </div>
       <div class="header_link ms-3">
         <a href="/entry" class="mh-parts">
