@@ -7,7 +7,7 @@
         <img src="{{ asset('/images/フッタ―.svg') }}" alt="フッターロゴ" height="80">
         <div class="d-flex flex-column justify-content-center align-items-start ms-2 ft3"> 
           <p class="group_title d-inline-block"><span class="small">東京ジャスダック上場企業</span><br>LAホールディングス</p>
-          <p class="text-muted sans-serif d-inline-block font-11">ラ・アトレは<br>LAホールディングスのグループ会社です。</p>
+          <p class="text-wite sans-serif d-inline-block font-11 te">ラ・アトレは<br>LAホールディングスのグループ会社です。</p>
         </div>
       </div>
       <p class="ft3 font-weight-bold s15">Copyright©L'attrait Co.,Ltd.All Rights Reserved.</p>

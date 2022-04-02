@@ -31,7 +31,7 @@
                                 <p class="s15">JR山手線・埼京線</p>
                                 <p><span class="s15">湘南新宿ライン</span>「恵比寿」駅</p>
                             </div>
-                            <p>徒歩<span class="h1 gold" style="line-height: 100%;">11</span>分 /</p>
+                            <p>徒歩<span class="h1 gold-2" style="line-height: 100%;">11</span>分 /</p>
                         </div>
                         <p class="font-11">
                             <span class="s15" style="color: transparent;">ーーーーーーー</span>
@@ -44,7 +44,7 @@
                                 <p class="s15">&nbsp;</p>
                                 <p><span class="s15">東京メトロ日比谷線</span>「恵比寿」駅</p>
                             </div>
-                            <p>徒歩<span class="h1 gold" style="line-height: 100%;">13</span>分 /</p>
+                            <p>徒歩<span class="h1 gold-2" style="line-height: 100%;">13</span>分 /</p>
                         </div>
                         <p class="font-11">&nbsp;</p>
                     </div>
@@ -54,7 +54,7 @@
                                 <p class="s15">JR山手線・東京メトロ南北線・</p>
                                 <p><span class="s15">都営地下鉄三田線・東急目黒線</span>「目黒」駅</p>
                             </div>
-                            <p>徒歩<span class="h1 gold" style="line-height: 100%;">13</span>分</p>
+                            <p>徒歩<span class="h1 gold-2" style="line-height: 100%;">13</span>分</p>
                         </div>
                         <p class="font-11">&nbsp;</p>
                     </div>
@@ -62,7 +62,7 @@
             </div>
 
             <!-- 枠 -->
-            <div class="animation gold ft2 pb-5">
+            <div class="animation gold-2 ft2 pb-5">
                 <!-- 枠1 -->
                 <div class="row mt-5 mb-4">
                     <p class="col-2"></p>
@@ -130,12 +130,12 @@
             <div class="animation my-5">
                 <div class="row mb-4">
                     <p class="col-1"></p>
-                    <p class="col-10 gold-title text-center h4 mt--5 mb-4 ft2">「お住まいについてのアンケート」にご協力ください。</p>
+                    <p class="col-10 gold-title-2 text-center h4 mt--5 mb-4 ft2">「お住まいについてのアンケート」にご協力ください。</p>
                     <p class="col-1"></p>
                 </div>
                 <div class="row pb-5">
                     <p class="col-4"></p>
-                    <div class="col-4 border-gold text-center ft2 py-4">
+                    <div class="col-4 border-gold-2 text-center ft2 py-4">
                         <p class="text-center mt-2 mb-3" style="line-height:2;"><span class="pb-1" style="border-bottom:1px solid white;">アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
                         <div class="row">
                             <p class="col-1"></p>
@@ -153,7 +153,7 @@
             <div class="row animation my-5">
                 <div class="row mb-4"> 
                     <p class="col-1"></p>
-                    <p class="col-10 gold-title text-center h4 ft3">INFORMATION</p>
+                    <p class="col-10 gold-title-2 text-center h4 ft3">INFORMATION</p>
                     <p class="col-1"></p>
                 </div>
                 <div class="row ft2">

@@ -14,7 +14,7 @@
         <div class="row mt-5">
             <p class="col-1"></p>
             <div class="col-5 animation-1-zm">
-            <img class="w-100" src="{{ asset('/images/Ebisu_2.png') }}">
+            <img class="w-100" src="{{ asset('/images/Ebisu_2.jpg') }}">
             <!-- <p>※掲載写真は、令和4年3月に撮影したものです。</p> -->
             </div>
             <div class="text-white col-5 animation d-flex flex-column justify-content-center align-items-center ft2">
@@ -90,18 +90,16 @@
         </div> -->
 
         <div class="row bg-white text-dark mt-5 ft2">
-            <p class="text-center gold-2 h4 py-4">恵比寿、丘の上の美しい風景へ</p>
-            <p class="col-1"></p>
-            <div class="col-4">
-            <p class="pt-5 animation text-dark"><span class="gold-2 h5">約26mの丘の上で上質な日常が始まる。</span></p>
-            <p class="pt-4 animation text-dark"> 恵比寿の丘の上。<br>
-                都心でありながら、都心の喧騒を離れ、様々な安らぎと<br>
-                恵比寿、目黒の2駅を使いこなせる立地でありながら、<br>
-                緩やかな時が流れる緑に囲まれた閑静な邸宅地。<br>
-                恵比寿の丘の上で優雅な日々がここから始まる。</p>
+            <p class="text-center gold-2 h4 py-5">恵比寿、丘の上の美しい風景へ</p>
+            <div class="col-3 ps-5">
+                <p class="pt-5 animation text-dark"><span class="gold-2 h5">約26mの丘の上で上質な日常が始まる。</span></p>
+                <p class="pt-4 animation text-dark"> 恵比寿の丘の上。<br>
+                    都心でありながら、都心の喧騒を離れ、様々な安らぎと<br>
+                    恵比寿、目黒の2駅を使いこなせる立地でありながら、<br>
+                    緩やかな時が流れる緑に囲まれた閑静な邸宅地。<br>
+                    恵比寿の丘の上で優雅な日々がここから始まる。</p>
             </div>
-            <img  class="col-6 animation-2-zm" src="{{ asset('/images/Ebisu_3.png') }}">
-            <p class="col-1"></p>
+            <img  class="col-9 animation-2-zm pe-5" src="{{ asset('/images/Ebisu_3.png') }}">
         </div>
     </div>
 </div>

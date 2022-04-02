@@ -4,7 +4,7 @@
 
 <!-- 物件概要ページ -->
 <div class="container" style="padding: 100px 150px 0;">
-    <h1 class="p-title gold-title center-block text-center ft4">OUTLINE</h1>
+    <h1 class="p-title gold-title-2 center-block text-center ft4">OUTLINE</h1>
     <p class="p-title center-block text-center h3 ft2">物件概要</p>
     <div class="main-content row ft2">
         <table class="gold_table mt-5 mb-5 animation">
@@ -102,7 +102,7 @@
                 </tr>
                 <tr>
                     <th>リノベーション（改修）</th>
-                    <td>一部リノベーション（専有部）、小規模修繕工事（共用部：屋上防水・等）</td>
+                    <td>屋上防水等</td>
                 </tr>
                 <tr>
                     <th>駐車場</th>
@@ -125,7 +125,7 @@
                         東京都知事（3）第90611号<br>
                         （公社）全国宅地建物取引業保証協会会員<br>
                         （公社）東京都宅地建物取引業協会会員<br>
-                        （公社）首都圏不動産公正取引協議会加盟 ■第1期販売概要
+                        （公社）首都圏不動産公正取引協議会加盟
                     </td>
                 </tr>
             </tbody>
