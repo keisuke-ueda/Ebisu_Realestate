@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <div class="min-vh-100 position-relative" style="padding: 0 0 180px;">
+    <div class="min-vh-100 position-relative" style="padding: 0 0 174px;">
     <!-- ヘッダー -->
     @include('header')
 
@@ -37,9 +37,9 @@
     @yield('content')
 
     <!-- トップへ戻るボタン -->
-    <div class="w-100 d-flex justify-content-center mb-4">
-        <a href="#" class="d-inline-block mx-auto my-0 text-dark" style="text-decoration: none;">
-            <p class="text-center"><span class="arrow-top d-inline-block mb-1 ft2">∧</span><br>TOPへ戻る</p>
+    <div class="w-100 d-flex justify-content-center py-5" style="background-color:#3e3a39;">
+        <a href="#" class="d-inline-block mx-auto my-0 text-white" style="text-decoration: none;">
+            <p class="text-center m-0"><span class="arrow-top d-inline-block mb-1 ft2">∧</span><br>TOPへ戻る</p>
         </a>
     </div>
 

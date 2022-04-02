@@ -48,7 +48,7 @@
 </div>
 
 
-<div class="main-content container-fluid p-5">
+<div class="main-content container-fluid px-5 pt-5">
 
     <!-- 路線図 -->
     <div class="row animation"> 
@@ -215,7 +215,7 @@
                     <td>(丸ノ内南口より乗車)</td>
                 </tr>
             </table>
-            <p class="font-11">※出典:Japan Taxi https://japantaxi<br>
+            <p class="font-11 m-0">※出典:Japan Taxi https://japantaxi<br>
                 ※掲載の情報は2022年2月現在のJapan Taxiウェブサイトにて算出したもので実際の走行ルートは料金と異なる可能性があります。<br>
                 &emsp;料金・所要時間は有料・高速道路を利用していない場合の内容です。深夜料金該当時間は22:00～5:00を設定しています。
             </p>
