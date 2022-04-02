@@ -6,7 +6,7 @@
 ?>
 
 <div class="container" style="padding: 100px 150px 0;">
-  <h1 class="p-title gold-title center-block text-center ft4">PROPERTY ENTRY</h1>
+  <h1 class="p-title gold-title-2 center-block text-center ft4">PROPERTY ENTRY</h1>
   <p class="p-title center-block text-center h3 mb-5 ft2">物件エントリー</p>
   <div class="main-content row px-5">
     <div class="ft2">
