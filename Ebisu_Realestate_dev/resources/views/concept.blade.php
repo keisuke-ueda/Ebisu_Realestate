@@ -17,7 +17,7 @@
             <img class="w-100" src="{{ asset('/images/Ebisu_2.png') }}">
             <!-- <p>※掲載写真は、令和4年3月に撮影したものです。</p> -->
             </div>
-            <div class="text-white col-5 animation d-flex flex-column justify-content-center align-items-center ft2" style="background-color: #3c3939;">
+            <div class="text-white col-5 animation d-flex flex-column justify-content-center align-items-center ft2">
                 <p><span class="gold-2 h4">緑も豊かな「恵比寿ガーデンプレイス」<br>
                     「ウエスティンホテル東京」に隣接。</span></p>
                 <p class="" style="margin-top: 40px;">先進的な都市の表情が洗練されたセンスが集う街、恵比寿。<br>
@@ -90,6 +90,7 @@
         </div> -->
 
         <div class="row bg-white text-dark mt-5 ft2">
+            <p class="text-center gold-2 h4 py-4">恵比寿、丘の上の美しい風景へ</p>
             <p class="col-1"></p>
             <div class="col-4">
             <p class="pt-5 animation text-dark"><span class="gold-2 h5">約26mの丘の上で上質な日常が始まる。</span></p>
