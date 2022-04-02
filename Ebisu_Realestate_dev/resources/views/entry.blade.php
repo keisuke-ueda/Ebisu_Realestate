@@ -14,6 +14,7 @@
       <p class="text-center"><span class="badge badge-danger">必須</span>は必須項目です。</p>
     </div>
     <form class="mailformpro" method="POST" action="/questionnaire_mail">
+      @csrf
       <table class="gold_table mb-3 animation ft2">
         <tbody>
           <tr>
