@@ -17,7 +17,7 @@
                     <p class="s15">JR山手線・埼京線</p>
                     <p><span class="s15">湘南新宿ライン</span>「恵比寿」駅</p>
                 </div>
-                <p>徒歩<span class="h1 gold" style="line-height: 100%;">11</span>分 /</p>
+                <p>徒歩<span class="h1 gold-2" style="line-height: 100%;">11</span>分 /</p>
             </div>
             <p class="font-11">
                 <span class="s15" style="color: transparent;">ーーーーーーー</span>
@@ -30,7 +30,7 @@
                     <p class="s15">&nbsp;</p>
                     <p><span class="s15">東京メトロ日比谷線</span>「恵比寿」駅</p>
                 </div>
-                <p>徒歩<span class="h1 gold" style="line-height: 100%;">13</span>分 /</p>
+                <p>徒歩<span class="h1 gold-2" style="line-height: 100%;">13</span>分 /</p>
             </div>
             <p class="font-11">&nbsp;</p>
         </div>
@@ -40,7 +40,7 @@
                     <p class="s15">JR山手線・東京メトロ南北線・</p>
                     <p><span class="s15">都営地下鉄三田線・東急目黒線</span>「目黒」駅</p>
                 </div>
-                <p>徒歩<span class="h1 gold" style="line-height: 100%;">13</span>分</p>
+                <p>徒歩<span class="h1 gold-2" style="line-height: 100%;">13</span>分</p>
             </div>
             <p class="font-11">&nbsp;</p>
         </div>

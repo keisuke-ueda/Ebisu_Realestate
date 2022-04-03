@@ -78,7 +78,7 @@
                             <td></td>
                             <td>
                                 <div><input type="text" name="family_size" required
-                                        data-error_placement="#family_size">人
+                                        data-error_placement="#family_size" class="me-2">人
                                 </div>
                                 <div class="validation-message" id="family_size"></div>
                             </td>
@@ -150,7 +150,7 @@
                             <td></td>
                             <td>
                                 <div><input type="text" name="years_of_residence" required
-                                        data-error_placement="#years_of_residence">年</div>
+                                        data-error_placement="#years_of_residence" class="me-2">年</div>
                                 <div class="validation_message" id="years_of_residence"></div>
                                 <p>※半角数字で入力してください</p>
                             </td>
@@ -519,7 +519,7 @@
                                 検討する場合、どの住戸を検討しますか。
                             </p>
                             <ul>
-                                <li><input type="checkbox" name="q6[]" value="1">1LDK   55㎡超   12,000万円～</li>
+                                <li><input type="checkbox" name="q6[]" value="1">1LDK   58㎡超   12,000万円～</li>
                                 <li><input type="checkbox" name="q6[]" value="2">1LDK   64㎡超   14,000万円～</li><br>
                                 <li><input type="checkbox" name="q6[]" value="3">2LDK   88㎡超   18,000万円～</li><br>
                                 <li><input type="checkbox" name="q6[]" value="4">その他<input class="ms-2" type="text"></li>
@@ -559,7 +559,7 @@
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire9">
                             <p class="pb-2"><span class="question-num">9</span>現在のお住まいで所有している自家用車の台数と車種をお聞かせ下さい。</p>
-                            <p>［台 数］<input type="text">台 ［車 種］<input type="text" name="q9"></p>
+                            <p>［台 数］<input type="text" class="me-2">台 ［車 種］<input type="text" name="q9"></p>
                         </div>
                     </div>
 
@@ -589,8 +589,7 @@
                         <div class="questionnaire questionnaire12">
                             <p class="pb-2"><span class="question-num-2">12</span>現在の住宅から買い替え予定はありますか。</p>
                             <ul>
-                                <li><input type="checkbox" name="q12_1[]" value="1">ある<input type="text"
-                                        name="q12_2">年以内</li><br><br>
+                                <li><input type="checkbox" name="q12_1[]" value="1">ある<input type="text" name="q12_2" class="mx-2 w-25">年以内</li><br><br>
                                 <li><input type="checkbox" name="q12_1[]" value="2">ない</li>
                             </ul>
                         </div>
@@ -599,7 +598,7 @@
                         <div class="questionnaire questionnaire13">
                             <div>
                                 <p><span class="question-num-2">13</span>現在の住宅購入をする場合の予算はどのぐらいですか。</p>
-                                <p class="indent-1"><input type="text" name="q13">万円</p>
+                                <p class="indent-1"><input type="text" name="q13" class="me-2">万円</p>
                             </div>
                         </div>
                     </div>
