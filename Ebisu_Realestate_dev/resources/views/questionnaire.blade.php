@@ -272,11 +272,11 @@
                     </tbody>
                 </table>
 
-                <div class="band">
+                <div class="band animation">
                     <p class="text-center mt-5 mb-3 py-3 text-white h5" style="background-color:#444444;">お住まいについてのアンケート</p>
                 </div>
 
-                <div class="mt-2">
+                <div class="mt-2 animation">
                     <p class="indent-1 h5">※アンケート項目すべてにご協力いただいた方に、もれなくAmazonギフトカードを進呈いたします。</p>
                     <p class="indent-1 h5">※アンケートはすべて必須項目になります。</p>
                     <div class="gold_line_bottom mt-4 py-2">
@@ -519,9 +519,9 @@
                                 検討する場合、どの住戸を検討しますか。
                             </p>
                             <ul>
-                                <li><input type="checkbox" name="q6[]" value="1">1LDK   58㎡超   12,000万円～</li>
-                                <li><input type="checkbox" name="q6[]" value="2">1LDK   64㎡超   14,000万円～</li><br>
-                                <li><input type="checkbox" name="q6[]" value="3">2LDK   88㎡超   18,000万円～</li><br>
+                                <li><input type="checkbox" name="q6[]" value="1">1LDK&emsp;&emsp;58㎡超&emsp;&emsp;12,000万円～</li>
+                                <li><input type="checkbox" name="q6[]" value="2">1LDK&emsp;&emsp;64㎡超&emsp;&emsp;14,000万円～</li><br>
+                                <li><input type="checkbox" name="q6[]" value="3">2LDK&emsp;&emsp;88㎡超&emsp;&emsp;18,000万円～</li><br>
                                 <li><input type="checkbox" name="q6[]" value="4">その他<input class="ms-2" type="text"></li>
                             </ul>
                             <br>
@@ -603,12 +603,12 @@
                         </div>
                     </div>
                 </div>
-                <p class="text-end">アンケートにご協力いただき、誠にありがとうございました。</p>
+                <p class="text-end animation">アンケートにご協力いただき、誠にありがとうございました。</p>
 
                 <button class="mh-parts btn btn-dark mx-auto d-block"><span class="p-3">入力内容の確認</span></button>
             </form>
         </div>
-        <div class="border border-dark mt-5 mb-5 ft5">
+        <div class="border border-dark mt-5 mb-5 ft5 animation">
             <p class="p-3">【アンケートご回答者様からご提供いただいた個人情報の取り扱いについて】<br>
                 ※本アンケートは市場調査(商品企画)に反映するために企画したものです。<br>
                 ※ご回答内容につきましては、ご回答を集計処理・保管をいたしますので、皆様にご迷惑をおかけすることは一切ございませんことを、確約させていただきます。<br>
