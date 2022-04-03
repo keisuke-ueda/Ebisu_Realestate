@@ -48,7 +48,7 @@
             <div class="col-5 d-flex flex-column justify-content-end">
                 <div class="d-flex justify-content-between">
                     <div style="width: 30%;">
-                        <img class="animation-0-zm w-100 h-75" src="{{ asset('/images/アトレ恵比寿.png') }}" style="object-fit: cover; object-position: 100% 100%">
+                        <img class="animation-0-zm w-100 h-75" src="{{ asset('/images/Ebisu_6.png') }}" style="object-fit: cover; object-position: 100% 100%">
                         <p class="text-end font-11">「アトレ恵比寿」<br>(約1000m・徒歩13分)</p>
                     </div>
                     <div style="width: 30%;">

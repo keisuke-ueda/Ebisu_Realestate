@@ -296,7 +296,7 @@
           </tr>
         </tbody>
       </table>
-      <div class="ft2">
+      <div class="ft2 animation">
         <label for="name"><span class="badge badge-danger">必須</span></label>
         <input type="checkbox">個人情報の取り扱いについて同意の方はチェックを入れてください。
         <p>資料請求を行う際には、「個人情報のお取り扱いについて」(株式会社LAホールディングス)をお読みの上チェックを入れて下記の「入力内容の確認」ボタンを押してください。</p>
