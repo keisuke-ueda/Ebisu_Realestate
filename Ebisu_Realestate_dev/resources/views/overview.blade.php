@@ -4,10 +4,10 @@
 
 <!-- 物件概要ページ -->
 <div class="container" style="padding: 100px 150px 0;">
-    <h1 class="p-title gold-title-2 center-block text-center ft4">OUTLINE</h1>
-    <p class="p-title center-block text-center h3 ft2">物件概要</p>
-    <div class="main-content row ft2">
-        <table class="gold_table mt-5 mb-5 animation">
+    <h1 class="p-title gold-title-2 center-block text-center pt24">OUTLINE</h1>
+    <p class="p-title center-block text-center pt14">物件概要</p>
+    <div class="main-content row">
+        <table class="gold_table mt-5 mb-5 animation pt13">
             <tbody>
                 <tr>
                     <th>【全体物件概要】</th>
@@ -175,7 +175,7 @@
             </tbody>
         </table>
     </div>
-    <div class="comment row small mt-5 mb-5 animation">
+    <div class="comment row pt11 mt-5 mb-5 animation">
         <p class="m-0">※先着順につき、ご希望の住戸が売却済みの場合が御座います。予めご了承ください。<br>
         また、申込の際には、2021年・2022年分の収入証明書、身分証明書（健康保険証・運転免許証）および認印が必要です。<br>
         ※坪表示は1㎡=0.3025坪で換算した約表示です。<br>

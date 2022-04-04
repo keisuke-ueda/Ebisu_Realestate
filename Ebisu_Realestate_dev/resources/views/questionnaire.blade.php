@@ -12,10 +12,10 @@
 <body>
     <div class="container ml-1 mr-1" style="padding-top: 100px;">
         <div class="row justify-content-center">
-            <h1 class="p-title gold-title-2 text-center ft4">お住いについてのアンケート</h1>
+            <h1 class="p-title gold-title-2 text-center">お住いについてのアンケート</h1>
             <img class="center-block mx-auto d-block" style="width: 60%;" src="{{ asset('/images/お住まいアンケート1.png') }}">
 
-            <p class="text-center mt-2 mb-5 ft2 s19">この度、目黒区・渋谷区・港区・品川区を中心とするエリアで、LAホールディングスグループの<br>
+            <p class="text-center mt-2 mb-5 s19">この度、目黒区・渋谷区・港区・品川区を中心とするエリアで、LAホールディングスグループの<br>
                 株式会社ラ・アトレが分譲マンションの計画を検討しています。<br>
                 そこで、今後の商品・販売計画の参考に資するべく当アンケートを企画させていただきました。<br>
                 つきましては、目黒区三田・渋谷区恵比寿・港区白金台・品川区上大崎にお住いの皆様の<br>
@@ -23,10 +23,10 @@
             </p>
             <img class="center-block mx-auto d-block" style="width: 70%;" src="{{ asset('/images/お住まいのアンケート2.png') }}">
         </div>
-        <div class="main-content center-block ft2 mt-5 mx-5 px-5">
+        <div class="main-content center-block mt-5 mx-5 px-5">
             <div class="text-center">
-                <p class="ft2">下記のフォームに必要な項目を入力のうえ、「送信」ボタンを押してください。</p>
-                <p class="ft2"><span class="badge badge-danger">必須</span>は必須項目です</p>
+                <p class="">下記のフォームに必要な項目を入力のうえ、「送信」ボタンを押してください。</p>
+                <p class=""><span class="badge badge-danger">必須</span>は必須項目です</p>
             </div>
             <form class="mailformpro" method="POST" action="{{ route('form.post') }}">
                 <table class="gold_table mb-3 animation mb-5">

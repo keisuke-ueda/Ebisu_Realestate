@@ -6,16 +6,16 @@
 ?>
 
 <div class="container" style="padding: 100px 150px 0;">
-  <h1 class="p-title gold-title-2 center-block text-center ft4">PROPERTY ENTRY</h1>
-  <p class="p-title center-block text-center h3 mb-5 ft2">物件エントリー</p>
+  <h1 class="p-title gold-title-2 center-block text-center">PROPERTY ENTRY</h1>
+  <p class="p-title center-block text-center h3 mb-5">物件エントリー</p>
   <div class="main-content row px-5">
-    <div class="ft2">
+    <div class="">
       <p class="text-center">以下のフォームに必要な項目を入力のうえ「送信」ボタンを押してください。</p>
       <p class="text-center"><span class="badge badge-danger">必須</span>は必須項目です。</p>
     </div>
     <form class="mailformpro" method="POST" action="/questionnaire_mail">
       @csrf
-      <table class="gold_table mb-3 animation ft2">
+      <table class="gold_table mb-3 animation">
         <tbody>
           <tr>
             <td height="0" class="column1"></td>
@@ -296,7 +296,7 @@
           </tr>
         </tbody>
       </table>
-      <div class="ft2 animation">
+      <div class="animation">
         <label for="name"><span class="badge badge-danger">必須</span></label>
         <input type="checkbox">個人情報の取り扱いについて同意の方はチェックを入れてください。
         <p>資料請求を行う際には、「個人情報のお取り扱いについて」(株式会社LAホールディングス)をお読みの上チェックを入れて下記の「入力内容の確認」ボタンを押してください。</p>

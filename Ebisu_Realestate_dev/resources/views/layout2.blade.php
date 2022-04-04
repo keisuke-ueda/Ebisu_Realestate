@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="恵比寿GG,恵比寿gg,ラ・アトレ恵比寿グランガーデン,ラ・アトレ恵比寿GG">
     <title>【公式】ラ・アトレ恵比寿グランガーデン｜株式会社ラ・アトレ</title>
+    
+    <link rel="stylesheet" href="{{ asset('/css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/layout.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/layout_768.css') }}" media="screen and (max-width:768px)">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- CreateJSのライブラリー読み込み -->
     <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
@@ -39,7 +43,7 @@
     <!-- トップへ戻るボタン -->
     <div class="w-100 d-flex justify-content-center py-5" style="background-color:#3e3a39;">
         <a href="#" class="d-inline-block mx-auto my-0 text-white" style="text-decoration: none;">
-            <p class="text-center m-0"><span class="arrow-top d-inline-block mb-1 ft2">∧</span><br>TOPへ戻る</p>
+            <p class="text-center m-0 pt12"><span class="arrow-top d-inline-block mb-1">∧</span><br>TOPへ戻る</p>
         </a>
     </div>
 
