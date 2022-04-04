@@ -7,21 +7,59 @@ button {
 }
 
 /* フォントtype */
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> */
 .ft1{
-  font-family: "Roboto Thin";
+  font-family: 'Roboto', sans-serif;
 }
+/* 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet"> */
 .ft2{
-  font-family: "Noto Serif JP ExtraLight";
+  font-family: 'Noto Serif JP', serif;
 }
+/* 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet"> */
 .ft3{
-  font-family: "Adobe Garamond Pro Regular";
+  font-family: 'Noto Serif JP', serif;
 }
+/* 商用利用不可？ */
 .ft4{
-  font-family: "Adobe Garamond Pro Regular";
+  font-family: 'adobe-garamond-pro', serif;
 }
+/*  */
 .ft5{
-  font-family: "小塚ゴシック Pr6N R";
+  font-family: "A-OTF リュウミン Pro L-KL";
 }
+/*  */
+.ft6{
+  font-family: "KozGoPr6N-Regular";
+}
+/*  */
+.ft7{
+  font-family: "helveticaneue-light";
+}
+/* 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet"> */
+.ft8{
+  font-family: 'Noto Serif JP', serif;
+}
+/*  */
+.ft9{
+  font-family: "小塚ゴシック Pro M";
+}
+/*  */
+.ft10{
+  font-family: "YuGo Medium";
+}
+/*  */
+.ft11{
+  font-family: "A-OTF リュウミン Pro M-KL";
+}
+
+
+
+
 
 /* フォントサイズ */
 .font-11 {
