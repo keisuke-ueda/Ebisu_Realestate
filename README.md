@@ -129,7 +129,7 @@ Class名-開始タイミング[s]-方向または拡縮
 ・ft1---"Roboto Thin"
 ・ft2---"Noto Serif JP ExtraLight"
 ・ft3---"Adobe Garamond Pro Regular"
-・ft4---"Adobe Garamond Pro Regular"
+・ft4---"Noto Serif JP Regular"
 ・ft5---"小塚ゴシック Pr6N R"
 
 # フォントサイズ
