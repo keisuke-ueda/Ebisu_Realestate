@@ -100,7 +100,8 @@
                     恵比寿の丘の上で優雅な日々がここから始まる。</p>
             </div>
             <img  class="col-8 animation-2-zm ps-0 pe-5" src="{{ asset('/images/kouteizu.png') }}">
-            <p class="text-end">高低高低差概念図は、国土地理院/GSIMaps調べ<br></p>
+            <p class="text-end font-11 ft2">高低差概念図は、国土地理院/GISMaps調べ<br>
+            ※掲載の高低差概念図の表現されている建物の高さ・形状・色等は実際とは異なります。周辺の道路・建物・街路樹などは一部簡略化しており、実際とは異なります。</p>
         </div>
     </div>
 </div>
