@@ -1,0 +1,31 @@
+/* トップページ */
+video {
+  object-position: 50% 50%;
+}
+
+.access_info_group {
+  display: block;
+}
+
+.access_info {
+  width: 80%;
+  margin: 15px auto;
+}
+
+.gold_info_group {
+  display: block;
+  margin-bottom: 0;
+}
+
+.gold_info {
+  width: 80%;
+  margin: 15px auto;
+}
+
+.questionnaire_info {
+  width: 80%;
+}
+
+.info_table {
+  width:80%;
+}

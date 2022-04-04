@@ -9,27 +9,27 @@
 
 @section('content')
 
-    <div class="container ft2" style="padding: 100px 150px 0;">
-        <h1 class="text-center gold-title-2 mb-5">現地案内図</h1>
+    <div class="container" style="padding: 100px 150px 0;">
+        <h1 class="text-center gold-title-2 mb-5 pt24">現地案内図</h1>
         <div class="print_area">
-            <div class="row mb-5 animation-1-zm map_img">
+            <div class="row mb-5 animation-1-zm map_img pt14">
                 <p>【広域地図】</p>
                 <img class="center-block" src="{{ asset('/images/map_1.png') }}">
             </div>
 
-            <div class="row mt-5 mb-3 animation-1-zm map_img">
+            <div class="row mt-5 mb-3 animation-1-zm map_img pt14">
                 <p>【狭域地図】</p>
                 <img class="center-block" src="{{ asset('/images/map_2.png') }}">
             </div>
-            <p class="text-center h3 mb-5">所在地：東京都目黒区三田1丁目1-16</p>
+            <p class="text-center mb-5 pt24">所在地：東京都目黒区三田1丁目1-16</p>
        </div>
        <div class="d-flex justify-content-center mb-5 pb-4">
             <button class="map_btn mh-parts me-4" style="height: 60px; width: 210px;">
-                <a href="https://www.google.co.jp/maps/place/東京都目黒区三田1丁目1-16" target="_blank" rel="noopener noreferrer" class="text-white" style="text-decoration: none;">Google Mapで開く</a>
+                <a href="https://www.google.co.jp/maps/place/東京都目黒区三田1丁目1-16" target="_blank" rel="noopener noreferrer" class="text-white pt14" style="text-decoration: none;">Google Mapで開く</a>
             </button>
             <button class="print_btn-2 mh-parts text-white d-flex justify-content-center align-items-center" style="height: 60px; width: 210px;">
                 <img src="{{ asset('/images/map_3.png') }}" alt="印刷ボタンの画像" style="height: 30px;">
-                <p class="ms-4 mb-0">印刷する</p>
+                <p class="ms-4 mb-0 pt14">印刷する</p>
             </button>
        </div>
     </div>

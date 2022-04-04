@@ -3,7 +3,7 @@
   <a href="/">
     <div class="d-flex flex-column align-items-center">
       <img src="{{ asset('/images/lattrait.png') }}" alt="ヘッダーロゴ" class="mb-2" style="width: 120px;">
-      <p class="text-center small m-0" style="font-family: serif;">L'attrait Ebisu Grand Garden</p>
+      <p class="text-center small m-0">L'attrait Ebisu Grand Garden</p>
     </div>
   </a>
 </div>
