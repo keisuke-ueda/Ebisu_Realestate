@@ -246,8 +246,8 @@
             <!-- Design -->
             <div class="row my-5 py-5">
                 <div class="col-4 animation ft2 design_col">
-                    <img class="d-block mx-auto mb-4 ms-3 design_img w-75" src="{{ asset('/images/thedesign.svg') }}" alt="サンプル画像">
-                    <p class="d-block mx-auto mb-4 ms-3 design_p s15 w-75">常緑樹の深い緑も豊かな静謐なる街並み。周辺の<br>
+                    <img class="d-block mx-auto mb-4 design_img w-75" src="{{ asset('/images/thedesign.svg') }}" alt="サンプル画像">
+                    <p class="d-block mx-auto mb-4 design_p s15 w-75">常緑樹の深い緑も豊かな静謐なる街並み。周辺の<br>
                         高級住宅街にふさわしい丘上の瀟洒な5階建て。<br>
                         緑と調和しながら独自の存在感を醸し出しています。<br>
                         バルコニーの目立たない高級感にあふれる雁行フォルム。<br>
