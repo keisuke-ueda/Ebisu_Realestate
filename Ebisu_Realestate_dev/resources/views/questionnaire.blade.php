@@ -2,7 +2,7 @@
 
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
 <meta name="format-detection" content="telephone=no">
-<title>お住いについてのアンケート</title>
+
 
 @section('content')
 <?php
@@ -12,7 +12,7 @@
 <body>
     <div class="container ml-1 mr-1" style="padding-top: 100px;">
         <div class="row justify-content-center">
-            <h1 class="p-title gold-title-2 text-center ft4">お住いのアンケート</h1>
+            <h1 class="p-title gold-title-2 text-center ft4">お住いについてのアンケート</h1>
             <img class="center-block mx-auto d-block" style="width: 60%;" src="{{ asset('/images/お住まいアンケート1.png') }}">
 
             <p class="text-center mt-2 mb-5 ft2 s19">この度、目黒区・渋谷区・港区・品川区を中心とするエリアで、LAホールディングスグループの<br>
@@ -570,7 +570,7 @@
                                     <li><input type="checkbox" name="q10[]" value="1">～1,000万円</li>
                                     <li><input type="checkbox" name="q10[]" value="2">1,001万円～1,500万円</li>
                                     <li><input type="checkbox" name="q10[]" value="3">1,501万円～2,000万円</li>
-                                    <li><input type="checkbox" name="q10[]" value="4">2,000万円～</li>
+                                    <li><input type="checkbox" name="q10[]" value="4">2,001万円～</li>
                                 </ul>
                         </div>
                     </div>
