@@ -100,7 +100,7 @@
                     恵比寿の丘の上で優雅な日々がここから始まる。</p>
             </div>
             <img  class="col-8 animation-2-zm ps-0 pe-5" src="{{ asset('/images/kouteizu.png') }}">
-            <p>高低高低差</p>
+            <p class="text-end">高低高低差概念図は、国土地理院/GSIMaps調べ<br></p>
         </div>
     </div>
 </div>
