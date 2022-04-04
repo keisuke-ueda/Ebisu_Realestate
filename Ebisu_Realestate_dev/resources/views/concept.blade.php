@@ -99,7 +99,7 @@
                     緩やかな時が流れる緑に囲まれた閑静な邸宅地。<br>
                     恵比寿の丘の上で優雅な日々がここから始まる。</p>
             </div>
-            <img  class="col-8 animation-2-zm ps-0 pe-5" src="{{ asset('/images/Ebisu_5.png') }}">
+            <img  class="col-8 animation-2-zm ps-0 pe-5" src="{{ asset('/images/kouteizu.png') }}">
         </div>
     </div>
 </div>
