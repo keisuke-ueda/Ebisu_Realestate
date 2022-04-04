@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <div class="min-vh-100 position-relative" style="padding: 0 0 174px;">
+    <div class="min-vh-100 position-relative" style="padding: 0 0 150px;">
     <!-- ヘッダー -->
     @include('header')
 
