@@ -254,7 +254,7 @@
                     <img src="{{ asset('/images/ダミーマップ.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                 </div>
                 <div class="col-4 animation ft2 plan_col">
-                    <img class="d-block ms-5 mb-4 plan_img w-75" src="{{ asset('/images/theplan.png') }}" alt="サンプル画像">
+                    <img class="d-block ms-5 mb-4 plan_img w-75" src="{{ asset('/images/theplan.svg') }}" alt="サンプル画像">
                     <p class="d-block ms-5 mb-4 plan_p s19">ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
                         「ウェスティンホテル東京」を間近とする住宅地。その静謐なる佇まいは、
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。多くを語らずとも、
