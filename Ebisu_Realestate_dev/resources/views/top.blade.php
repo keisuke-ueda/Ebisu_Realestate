@@ -73,7 +73,7 @@
                                     <p class="font-11">&nbsp;</p>
                                     <p>最寄りのJR山手線・埼京線「恵比寿」駅より、</p>
                                     <p class="font-11">&nbsp;</p>
-                                    <p>「渋谷」駅へ<<span class="h4">2</span>分「新宿」駅へ<span class="h4">7</span>分「品川」駅へ<span class="h4">9</span>分</p>
+                                    <p>「渋谷」駅へ<span class="h4">2</span>分「新宿」駅へ<span class="h4">7</span>分「品川」駅へ<span class="h4">9</span>分</p>
                                     <p class="font-11">&nbsp;</p>
                                 </div>
                             </div>
@@ -101,8 +101,9 @@
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100 h4">
-                                    <p class=""><span style="color: transparent;">ーーーーーーーーーーー</span><span class="font-11">※1</span>&nbsp;&nbsp;&nbsp;</p>
-                                    <p class="">内廊下設計、角住戸率<span class="h3">57%</span>超</p>
+                                    <p class="font-11">&nbsp;</p>
+                                    <p class="font-11"><span style="color: transparent;">ーーーーーーーーーーーーーーーーーーーーーー</span>※1</p>
+                                    <p class="" style="line-height:100%;">内廊下設計、角住戸率<span class="h3" style="line-height:100%;">57%</span>超</p>
                                     <p class="font-11">&nbsp;</p>
                                     <p class="font-11">&nbsp;</p>
                                 </div>
@@ -184,8 +185,8 @@
                     <img src="{{ asset('/images/12.JPG') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4 animation ft2 ebisu_col">
-                    <img class="d-block ms-5 mb-4 ebisu_img w-75" src="{{ asset('/images/theebisu.svg') }}" alt="サンプル画像">
-                    <p class="d-block ms-5 mb-4 ft2 ebisu_p s19">恵比寿、それも「恵比寿ガーデンプレイス」<br>
+                    <img class="d-block mx-auto mb-4 ebisu_img w-75" src="{{ asset('/images/theebisu.svg') }}" alt="サンプル画像">
+                    <p class="d-block mx-auto mb-4 ft2 ebisu_p s15 w-75">恵比寿、それも「恵比寿ガーデンプレイス」<br>
                         「ウエスティンホテル東京」を間近とする住宅地。<br>
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
                         多くを語らずとも本物を知る人を魅了するレジデンス。<br>
@@ -201,8 +202,8 @@
             <!-- Location -->
             <div class="row my-5 py-5">
                 <div class="col-4 animation ft2 location_col">
-                    <img class="d-block ms-5 mb-4 ms-3 location_img w-75" src="{{ asset('/images/thelocation.svg') }}" alt="サンプル画像">
-                    <p class="d-block ms-5 mb-4 ms-5 location_p s19">洗練と成熟に抱かれた街、恵比寿。<br>
+                    <img class="d-block mx-auto mb-4 location_img w-75" src="{{ asset('/images/thelocation.svg') }}" alt="サンプル画像">
+                    <p class="d-block mx-auto mb-4 location_p s15 w-75">洗練と成熟に抱かれた街、恵比寿。<br>
                         ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
                         「ラ・アトレ恵比寿グランガーデン」<br>
                         建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
@@ -229,8 +230,8 @@
                     <img src="{{ asset('/images/4区.png') }}" alt="サンプル画像" class="mx-auto d-block img-fluid { max-width: 100%; height: auto }">
                 </div>
                 <div class="col-4 animation ft2 access_col">
-                    <img class="d-block ms-5 mb-4 access_img w-75" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
-                    <p class="d-block ms-5 mb-4 access_p s19">都心をもっと近くする、スピーディなアクセス。<br>
+                    <img class="d-block mx-auto mb-4 access_img w-75" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
+                    <p class="d-block mx-auto mb-4 access_p s15 w-75">都心をもっと近くする、スピーディなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
                         渋谷、霞ヶ関、銀座へダイレクトに繋がることのできる日比谷線。<br>
                         ここには、目的に合わせて、路線を使いこなせる自由がある。
@@ -245,8 +246,8 @@
             <!-- Design -->
             <div class="row my-5 py-5">
                 <div class="col-4 animation ft2 design_col">
-                    <img class="d-block ms-5 mb-4 ms-3 design_img w-75" src="{{ asset('/images/thedesign.svg') }}" alt="サンプル画像">
-                    <p class="d-block ms-5 mb-4 ms-3 design_p s19">常緑樹の深い緑も豊かな静謐なる街並み。周辺の<br>
+                    <img class="d-block mx-auto mb-4 ms-3 design_img w-75" src="{{ asset('/images/thedesign.svg') }}" alt="サンプル画像">
+                    <p class="d-block mx-auto mb-4 ms-3 design_p s15 w-75">常緑樹の深い緑も豊かな静謐なる街並み。周辺の<br>
                         高級住宅街にふさわしい丘上の瀟洒な5階建て。<br>
                         緑と調和しながら独自の存在感を醸し出しています。<br>
                         バルコニーの目立たない高級感にあふれる雁行フォルム。<br>
