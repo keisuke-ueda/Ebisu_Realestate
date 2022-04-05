@@ -48,19 +48,19 @@
 </div>
 
 
-<div class="main-content container-fluid px-5 pt-5">
+<div class="main-content" style="padding: 40px 40px 0 45px;">
 
     <!-- 路線図 -->
-    <div class="row animation"> 
-        <img  class="col-3 d-block mx-auto animation-0-zm" src="{{ asset('/images/ACCESS_4.png') }}">
-        <img  class="col-3 d-block mx-auto animation-0-zm" src="{{ asset('/images/ACCESS_3.png') }}">
-        <img  class="col-3 d-block mx-auto animation-1-zm" src="{{ asset('/images/ACCESS_5.png') }}">
-        <img  class="col-3 d-block mx-auto animation-1-zm" src="{{ asset('/images/ACCESS_6.png') }}">
+    <div class="animation d-flex justify-content-between w-100" > 
+        <img  class="d-block animation-0-zm" style="width: calc(25% - 19px)" src="{{ asset('/images/ACCESS_4.png') }}">
+        <img  class="d-block animation-0-zm" style="width: calc(25% - 19px)" src="{{ asset('/images/ACCESS_3.png') }}">
+        <img  class="d-block animation-1-zm" style="width: calc(25% - 19px)" src="{{ asset('/images/ACCESS_5.png') }}">
+        <img  class="d-block animation-1-zm" style="width: calc(25% - 19px)" src="{{ asset('/images/ACCESS_6.png') }}">
     </div>
 
-    <div class="row mt-5 animation"> 
-        <p class="col-6"></p>
-        <p class="pt18 col-6 gold-2">2駅7路線が利用可能。もっと自由な都心生活を。</h2>
+    <div class="animation d-flex justify-content-between" style="margin-top:30px;"> 
+        <p class="w-50"></p>
+        <p class="pt18 w-50 gold-2">2駅7路線が利用可能。もっと自由な都心生活を。</h2>
     </div>
 
     <!-- 路線情報 -->
@@ -152,18 +152,15 @@
         </div>
     </div>
 
-    <div class="row gold-2 mt-5 animation">
-        <p class="pt18 col-7">都心の様々な要所へ、タクシーでの移動にも優れたロケーションです。</p>
-        <p class="col-5"></p>
-    </div>
+    <p class="pt18 gold-2 animation" style="margin:65px 0 0 5px;">都心の様々な要所へ、タクシーでの移動にも優れたロケーションです。</p>    
         
     <!-- タクシー情報 -->
-    <div class="row mt-3 mb-3 animation">
-        <div class="col-4 d-flex align-items-center animation-0-zm">
+    <div class="row animation" style="margin-bottom:30px;">
+        <div class="w-25 d-flex animation-0-zm" style="margin-top:42px;">
             <img class="w-100" src="{{ asset('/images/ACCESS_7.png') }}">
         </div>
-        <div class="col-8 small animation">
-            <table class="taxi_table mb-3 text-center">
+        <div class="w-75 small animation">
+            <table class="taxi_table mb-3 text-center w-100">
                 <tr class="border-bottom">
                     <td></td>
                     <td></td>
@@ -215,7 +212,7 @@
                     <td>(丸ノ内南口より乗車)</td>
                 </tr>
             </table>
-            <p class="pt9 m-0">※出典:Japan Taxi https://japantaxi<br>
+            <p class="pt9" style="margin-top:22px;">※出典:Japan Taxi https://japantaxi<br>
                 ※掲載の情報は2022年2月現在のJapan Taxiウェブサイトにて算出したもので実際の走行ルートは料金と異なる可能性があります。<br>
                 &emsp;料金・所要時間は有料・高速道路を利用していない場合の内容です。深夜料金該当時間は22:00～5:00を設定しています。
             </p>
