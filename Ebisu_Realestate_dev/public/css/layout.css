@@ -149,6 +149,26 @@ button {
   border-bottom: 1px solid #B67B03;
   border-image: linear-gradient(45deg, #B67B03 0%, #DAAF08 45%, #FEE9A0 70%, #DAAF08 85%, #B67B03 90% 100%);
   border-image-slice: 1;
+  width: 100%;
+
+  
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_title{
+
+}
+
+.header_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 200px);
 }
 
 .new-mark, .blank {
@@ -183,6 +203,10 @@ button {
 .questionnaire_btn {
   background-color: #444444;
   border: none; 
+}
+
+.header_menu_trigger {
+  background-color: white;
 }
 
 .batsu {
@@ -234,7 +258,7 @@ button {
 
 video {
   object-fit: cover;
-  object-position: 100% 100%;
+  object-position: 50% 50%;
 }
 
 .movie_skip_btn {
@@ -278,6 +302,70 @@ video {
 
 .info_table > tbody > td {
 
+}
+
+.picture_side {
+  max-width: 66%;
+}
+.text_side {
+  min-width: 33%;
+}
+.text_side img {
+ 
+  /* margin: 0 auto 24px; */
+}
+.text_side p {
+  width: 100%;
+  /* margin: 0 auto 24px; */
+  margin-bottom: 24px;
+}
+.gold_line {
+  min-height: 1%;
+  border-right: 1px solid #ac9759;
+  margin-bottom: 24px;
+}
+.gold_line_bottom {
+  border-bottom: 2px solid #d6c88d;
+}
+.read_more {
+  width:210px;
+  height:60px;
+  padding: 20px 60px; 
+}
+
+/* EBISU */
+.ebisu_col {
+  padding: 0 27px 0 70px;
+}
+.ebisu_img {
+  width: 80%;
+}
+.ebisu_p {
+
+}
+.ebisu_line {
+  width:40%;
+}
+
+/* LOCATION */
+.location_col {
+  padding: 0 15px 0 110px;
+}
+.location_img {
+  width: calc(100% - 50px); 
+}
+.location_pic {
+  /* width: calc(100% - 7px);  */
+  height: calc(50% - 10px);
+  object-fit: cover; 
+  object-position: 100% 100%;
+}
+
+.access_col {
+  padding: 0 18px 0 60px;
+}
+.design_col {
+  padding: 0 45px 0 100px;
 }
 
 /*アニメーション-1*/
@@ -363,7 +451,7 @@ video {
   background-color: #ac9759;
   border: 1px solid #D8CA82;
   text-shadow: 2px 2px 2px #000000; 
-  padding: 15px 70px;
+  /* padding: 15px 70px; */
 }
 
 .copper_btn {
@@ -434,14 +522,7 @@ video {
   border-image-slice: 1;
 }
 
-.gold_line {
-  min-height: 15%;
-  border-right: 1px solid #ac9759;
-}
 
-.gold_line_bottom {
-  border-bottom: 2px solid #d6c88d;
-}
 
 /* ハンバーガーボタン */
 .menu-trigger, .menu-trigger span {
@@ -453,6 +534,7 @@ video {
   width: 60px;
   height: 60px;
   z-index: 1000;
+  background-color: white;
 }
 .menu-trigger span {
   position: absolute;
@@ -496,7 +578,9 @@ video {
 	color: white;
 }
 
+.menu-trigger {
 
+}
 
 .error {
   color: red;

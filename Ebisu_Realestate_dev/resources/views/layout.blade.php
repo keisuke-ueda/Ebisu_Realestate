@@ -6,9 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="恵比寿GG,恵比寿gg,ラ・アトレ恵比寿グランガーデン,ラ・アトレ恵比寿GG">
     <title>【公式】ラ・アトレ恵比寿グランガーデン｜株式会社ラ・アトレ</title>
+
     <link rel="stylesheet" href="{{ asset('/css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/layout.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/layout_768.css') }}" media="screen and (max-width:768px)">
+
+    <!-- フォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- CreateJSのライブラリー読み込み -->
@@ -40,7 +49,7 @@
     @yield('content')
 
     <!-- トップへ戻るボタン -->
-    <div class="w-100 d-flex justify-content-center py-5">
+    <div class="w-100 d-flex justify-content-center" style="padding: 25px 0 45px;">
         <a href="#" class="d-inline-block mx-auto my-0 text-white" style="text-decoration: none;">
             <p class="text-center m-0 pt12"><span class="arrow-top d-inline-block mb-1">∧</span><br>TOPへ戻る</p>
         </a>

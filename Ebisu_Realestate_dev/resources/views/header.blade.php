@@ -1,13 +1,12 @@
-<header class="header container-fluid text-white position-fixed top-0 start-0 px-3 py-3 d-none">
-  <div class="header_content row justify-content-between align-items-center">
-    <div class="header_title col-2 ps-3">
-      <a href="/" class="text-white" style="text-decoration: none;">
-        <div class="d-flex flex-column align-items-center">
-          <img src="{{ asset('/images/ebisulogo.png') }}" alt="ヘッダーロゴ" class="mb-2 mh-parts" style="width: 120px;">
-        </div>
+<header class="header text-white position-fixed top-0 start-0 px-4 py-3 d-none">
+  <div class="header_content">
+    <div class="header_title">
+      <a href="/" class="">
+        <img src="{{ asset('/images/ebisulogo.png') }}" alt="ヘッダーロゴ" class="mh-parts" style="width: 120px;">
       </a>
     </div>
-    <div class="header_links d-flex justify-content-between align-items-center col-10">
+    <div class="header_links">
+      
       <div class="header_link ms-3">
         <div>&nbsp;</div>
         <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark">NEW</p></div>
@@ -28,6 +27,7 @@
         <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark">NEW</p></div>
         <a href="/design" style="pointer-events:none;" class="small mh-parts white_link">DESIGN</a>
       </div>
+
       <div class="header_link ms-3">
         <div>&nbsp;</div>
         <div class="d-flex align-items-auto"><p class="s10 ft1 blank">&nbsp;</p></div>
@@ -41,8 +41,9 @@
       <div class="header_link ms-3">
         <div><a href="/map" class="s10 mh-parts white_link">>現地案内図</a></div>
         <div class="d-flex align-items-auto"><p class="s10 ft1 blank">&nbsp;</p></div>
-        <a href="/blanding" style="pointer-events:none;" class="small mh-parts gray_link">BLANDING</a>
+        <a href="/blanding" style="pointer-events:none;" class="small mh-parts gray_link">BLAND</a>
       </div>
+
       <div class="header_link ms-3">
         <a href="/entry" class="mh-parts">
           <button type="button" class="s13 entry_btn text-white" style="height: 50px; width: 180px;">物件エントリー</button>

@@ -29,3 +29,34 @@ video {
 .info_table {
   width:80%;
 }
+
+
+.pt14 {
+  font-size: 1vw;
+}
+
+.picture_side {
+  width: 70%;
+}
+
+.text_side {
+  width: 30%; 
+}
+.text_side img {
+  /* width: 90%;  */
+  margin-bottom: 1vw;
+}
+.text_side p {
+  width: 90%; 
+  margin-bottom: 1vw;
+}
+
+.gold_line {
+  min-height: 3vw;
+  margin-bottom: 1vw;
+}
+
+.gold_btn {
+  font-size: 1vw;
+  padding: 1vw 2vw;
+}
