@@ -215,9 +215,10 @@ button {
   width: 120px;
 }
 .menu_p {
-  display: flex;
-  margin-right: 0;
-  margin-left: auto;
+  z-index:500;
+  position: absolute;
+  right: 30px;
+  margin-top: 20px;
 }
 
 /* ヘッダー */
