@@ -903,3 +903,67 @@ input[type="checkbox"], input[type="radio"] {
   margin-right: 5px;
 }
 
+
+td.h-40px {
+  height: 40px;
+}
+
+td.h-110px {
+  height: 110px;
+}
+
+.m-none {
+  margin: 0;
+}
+
+#questionnaire .column1 {
+  width: 22%;
+}
+
+#questionnaire .column3 {
+  width: 65%;
+}
+
+#qustionnaire .mb-20px {
+  margin-bottom: 20px;
+}
+
+#questionnaire .mt-20px {
+  margin-top: 20px;
+}
+
+#questionnaire .mr-20px {
+  margin-right: 20px;
+}
+
+#questionnaire .mb-25px {
+  margin-bottom: 25px;
+}
+
+#questionnaire .mt-30px {
+  margin-top: 30px;
+}
+
+#questionnaire .img1 {
+  padding-bottom: 40px;
+}
+
+#questionnaire .mb-45px {
+  margin-bottom: 45px;
+}
+
+#questionnaire .caption1 {
+  margin-bottom: 25px;
+}
+
+.gold_table > tbody > tr.top{
+  border-top: 2px solid #d6c88d;
+}
+
+.table_questionnaire {
+  margin: 0 20px 50px;
+}
+
+/*
+  アンケートページここまで
+*/
