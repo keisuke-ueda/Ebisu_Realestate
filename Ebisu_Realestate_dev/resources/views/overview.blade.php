@@ -7,7 +7,7 @@
     <h1 class="gold-title-2 ft4 s24">OUTLINE</h1>
     <h2 class="ft2 s14 ov-t1">物件概要</h2>
     <div class="ft2 s13">
-        <table class="ov_gold_table animation">
+        <table class="ov_gold_table animation ">
             <tbody>
                 <tr>
                     <th>【全体物件概要】</th>
@@ -183,8 +183,8 @@
             </tbody>
         </table>
     </div>
-    <div class="comment ov_m2 animation">
-        <p class="m-0 ft2 s11">※先着順につき、ご希望の住戸が売却済みの場合が御座います。予めご了承ください。<br>
+    <div class="ov_comment ov_m2 animation">
+        <p class="ft2 s11">※先着順につき、ご希望の住戸が売却済みの場合が御座います。予めご了承ください。<br>
         また、申込の際には、2020年・2021年分の収入証明書、身分証明書（健康保険証・運転免許証）および認印が必要です。<br>
         ※坪表示は1㎡=0.3025坪で換算した約表示です。<br>
         ※敷地面積表示は、実測によるものです。<br>
