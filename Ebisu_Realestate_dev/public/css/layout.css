@@ -68,69 +68,69 @@ button {
 
 /* フォントサイズ */
 .s9 {
-  /* font-size: 0.5625rem; */
-  font-size: 0.75vw;
+  font-size: 0.5625rem;
+  /* font-size: 0.75vw; */
 }
 .s10 {
-  /* font-size: 0.625rem; */
-  font-size: 0.83vw;
+  font-size: 0.625rem;
+  /* font-size: 0.83vw; */
 }
 .s11 {
-  /* font-size: 0.6875rem; */
-  font-size: 0.92vw;
+  font-size: 0.6875rem;
+  /* font-size: 0.92vw; */
 }
 .s12 {
-  /* font-size: 0.75rem; */
-  font-size: 1vw;
+  font-size: 0.75rem;
+  /* font-size: 1vw; */
 }
 .s13 {
-  /* font-size: 0.8125rem; */
-  font-size: 1.08vw;
+  font-size: 0.8125rem;
+  /* font-size: 1.08vw; */
 }
 .s14 {
-  /* font-size: 0.875rem;  */
-  font-size: 1.17vw;
+  font-size: 0.875rem; 
+  /* font-size: 1.17vw; */
 }
 .s15{
-  /* font-size: 0.9375rem; */
-  font-size: 1.25vw;
+  font-size: 0.9375rem;
+  /* font-size: 1.25vw; */
 }
 .s16{
-  /* font-size: 1rem; */
-  font-size: 1.333vw;
+  font-size: 1rem;
+  /* font-size: 1.333vw; */
 }
 .s18{
-  /* font-size: 1.125rem; */
-  font-size: 1.5vw;
+  font-size: 1.125rem;
+  /* font-size: 1.5vw; */
 }
 .s19{
-  /* font-size: 1.1875rem; */
-  font-size: 1.58vw;
+  font-size: 1.1875rem;
+  /* font-size: 1.58vw; */
 }
 .s20{
-  /* font-size: 1.25rem; */
-  font-size: 1.67vw;
+  font-size: 1.25rem;
+  /* font-size: 1.67vw; */
 }
 .s21{
-  /* font-size: 1.3125rem; */
-  font-size: 1.75vw;
+  font-size: 1.3125rem;
+  /* font-size: 1.75vw; */
 }
 .s24{
-  /* font-size: 1.5rem; */
-  font-size: 2vw;
+  font-size: 1.5rem;
+  /* font-size: 2vw; */
 }
 .s27{
-  /* font-size: 1.6875rem; */
-  font-size: 2.25vw;
+  font-size: 1.6875rem;
+  /* font-size: 2.25vw; */
 }
 .s30{
-  /* font-size: 1.875rem; */
-  font-size: 2.5vw;
+  font-size: 1.875rem;
+  /* font-size: 2.5vw; */
 }
 
 .s42{
-  /* font-size: 2.625rem; */
-  font-size: 3.5vw;
+  font-size: 2.625rem;
+  /* font-size: 3.5vw; */
 }
 
 
