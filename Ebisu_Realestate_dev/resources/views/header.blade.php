@@ -10,44 +10,49 @@
     <div class="header_links">
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark">NEW</p></div>
-        <a href="/concept" class="small mh-parts white_link">EBISU</a>
+        <div class="d-flex align-items-auto">
+          <p class="s10 ft1 new-mark">NEW</p></div>
+        <a href="/concept" class="small mh-parts white_link s14">EBISU</a>
       </div>
 
       <div class="header_link ms-3">
         <div>&nbsp;</div>
         <!-- <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark">NEW</p></div> -->
-        <a href="/location" style="pointer-events:none; margin-top:13px;" class="small mh-parts gray_link">LOCATION</a>
+        <a href="/location" style="pointer-events:none; margin-top:10px;" class="small mh-parts gray_link s14">LOCATION</a>
       </div>
 
       <div class="header_link ms-3">
         <div>&nbsp;</div>
         <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark">NEW</p></div>
-        <a href="/access" class="small mh-parts white_link">ACCESS</a>
+        <a href="/access" class="small mh-parts white_link s14">ACCESS</a>
       </div>
 
       <div class="header_link ms-3">
         <div>&nbsp;</div>
         <!-- <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark">NEW</p></div> -->
-        <a href="/design" style="pointer-events:none; margin-top:13px;" class="small mh-parts gray_link">DESIGN</a>
+        <a href="/design" style="pointer-events:none; margin-top:10px;" class="small mh-parts gray_link s14">DESIGN</a>
       </div>
 
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <div class="d-flex align-items-auto"><p class="s10 ft1 blank">&nbsp;</p></div>
-        <a href="/model_room" style="pointer-events:none; white-space:nowrap;" class="small mh-parts gray_link">MODEL ROOM</a>
+        <!-- <div class="d-flex align-items-auto"><p class="s10 ft1 blank">&nbsp;</p></div> -->
+        <a href="/model_room" style="pointer-events:none; white-space:nowrap; margin-top:10px;" class="small mh-parts gray_link s14">MODEL ROOM</a>
       </div>
 
       <div class="header_link ms-3">
-        <div><a href="/overview" class="s10 mh-parts white_link" style="white-space:nowrap;">>物件概要</a></div>
-        <div class="d-flex align-items-auto"><p class="s10 ft1 blank">&nbsp;</p></div>
-        <a href="/plan" style="pointer-events:none;" class="small mh-parts gray_link">PLAN</a>
+        <div class="s14"><a href="/overview" class="s10 mh-parts white_link" style="white-space:nowrap;">>物件概要</a></div>
+        <div class="d-flex align-items-auto">
+          <!-- <p class="s10 ft1 blank">&nbsp;</p> -->
+        </div>
+        <a href="/plan" style="pointer-events:none; margin-top:20px;" class="small mh-parts gray_link s14">PLAN</a>
       </div>
 
       <div class="header_link ms-3">
         <div><a href="/map" class="s10 mh-parts white_link" style="white-space:nowrap;">>現地案内図</a></div>
-        <div class="d-flex align-items-auto"><p class="s10 ft1 blank">&nbsp;</p></div>
-        <a href="/blanding" style="pointer-events:none;" class="small mh-parts gray_link">BLAND</a>
+        <div class="d-flex align-items-auto">
+          <!-- <p class="s10 ft1 blank">&nbsp;</p> -->
+        </div>
+        <a href="/blanding" style="pointer-events:none; margin-top:20px;" class="small mh-parts gray_link s14">BLAND</a>
       </div>
 
       <div class="header_link ms-3">
@@ -66,6 +71,6 @@
         <span class="batsu"></span>
       </button>
     </div>
-    
+
   </div>
 </header>
