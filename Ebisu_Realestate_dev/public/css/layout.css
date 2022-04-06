@@ -383,7 +383,7 @@ video {
 }
 
 .picture_side {
-  width: 60%;
+  width: 65%;
   display:flex;
   align-items: auto;
 }
@@ -409,15 +409,15 @@ video {
   border-bottom: 0.125rem solid #d6c88d;
 }
 .read_more {
-  /* width: 13.125rem;
+  width: 13.125rem;
   height: 3.75rem;
-  padding: 1.25rem 3.75rem; */
-  width:17.5vw;
-  height:5vw;
+  padding: 1.25rem 3.75rem;
+  /* width:17.5vw; */
+  /* height:5vw; */
   /* padding: 1.67vw 5vw;  */
 }
 
-/* EBISU */
+/* EBISUリンク */
 .ebisu_col {
   /* padding: 0 1.6875rem 0 4.375rem; */
   /* padding: 0 2.25vw 0 5.83vw; */
@@ -434,7 +434,7 @@ video {
   width:40%;
 }
 
-/* LOCATION */
+/* LOCATIONリンク */
 .location_col {
   /* padding: 0 0.9375rem 0 6.875rem; */
   /* padding-right: 1.25vw; */
@@ -452,11 +452,22 @@ video {
   object-position: 100% 100%; */
 }
 
+/* ACCESSリンク */
 .access_col {
   /* padding: 0 1.125rem 0 3.75rem; */
   /* padding: 0 0 0 70px; */
   margin-left: 70px;
 }
+.access_img {
+  width: 85%;
+}
+.access_p {
+
+}
+.access_line {
+  width:40%;
+}
+
 .design_col {
   /* padding: 0 2.8125rem 0 6.25rem; */
   /* padding: 0 3.75vw 0 0; */

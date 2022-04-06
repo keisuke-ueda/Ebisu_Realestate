@@ -63,8 +63,8 @@
             <!-- 枠 -->
             <div class="animation gold-2" style="margin-bottom: 5.3125rem;">
                 <!-- 枠1 -->
-                <div class="gold_info_group" style="height: 9.17vw;">
-                    <div class="gold_info ft2 s16" style="width: 42vw;">
+                <div class="gold_info_group" style="height: 110px;">
+                    <div class="gold_info ft2 s16" style="width: 504px;">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
@@ -77,7 +77,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gold_info ft2 s16" style="width:42vw;">
+                    <div class="gold_info ft2 s16" style="width:504px;">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
@@ -92,8 +92,8 @@
                     </div>
                 </div>
                 <!-- 枠2 -->
-                <div class="gold_info_group" style="height:9.17vw;">
-                    <div class="gold_info ft2 s21" style="width:42vw">
+                <div class="gold_info_group" style="height:110px;">
+                    <div class="gold_info ft2 s21" style="width:504px">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
@@ -106,7 +106,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gold_info ft2 s20" style="width:42vw;">
+                    <div class="gold_info ft2 s20" style="width:504px;">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
@@ -127,7 +127,7 @@
                 <p class="gold-title-2 text-center mx-auto ft2 s24" style="width: 80%; margin-bottom: 2.8125rem;">「お住まいのアンケート」にご協力ください。</p>
                 <div class="questionnaire_info d-flex justify-content-center">
                     <div class="border-gold-2 mx-auto d-inline-block" style="padding: 2.5rem;">
-                        <p class="text-center d-inline-block ft2 s16" style="line-height:2;"><span class="pb-1" style="border-bottom:1px solid white;">アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
+                        <p class="text-center ft2 s16" style="line-height:2;"><span class="pb-1" style="border-bottom:1px solid white;">アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
                         <div class="" style="width: 29.2vw; height: 4.17vw; margin: 3.125rem auto 0;">
                             <button type="submit" class="gold_btn w-100 h-100 mh-parts" ><a href="/questionnaire" class="text-white ft2 s20" style="text-decoration:none;">アンケートはこちら</a></button>
                         </div>
@@ -155,9 +155,9 @@
         </div>
 
 
-        <div class="" style="padding-top:5rem;">
+        <div class="" style="padding-top:80px;">
             <!-- Ebisu -->
-            <div class="read_more_link d-flex justify-content-start align-items-auto" style="margin-bottom:8rem;">
+            <div class="read_more_link d-flex justify-content-start w-100 align-items-auto" style="margin-bottom:128px;">
                 <div class="animation-0-zm h-100 picture_side ebisu_pic">
                     <img src="{{ asset('/images/the ebisu photo1.png') }}" alt="サンプル画像" class=" w-100" style="object-fit: cover;">
                 </div>
@@ -207,24 +207,26 @@
             </div> -->
 
             <!-- Access -->
-            <div class="read_more_link d-flex justify-content-start align-items-auto" >
+            <div class="read_more_link d-flex justify-content-start align-items-auto w-100" >
                 <div class="picture_side animation-0-zm access_pic h-100">
-                    <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100" style="height: auto; objet-fit:cover;">
+                    <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100 access_pic_img" style="height: auto; objet-fit:cover;">
                 </div>
                 <div class="text_side animation access_col ft2 s14">
-                    <img class="d-block access_img w-75" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
+                    <img class="d-block access_img" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
                     <p class="d-block mb-4 access_p" style="white-space:nowrap;">都心をもっと近くする、スピーディなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
                         渋谷、霞ヶ関、銀座へダイレクトに繋がることのできる日比谷線。<br>
                         ここには、目的に合わせて、路線を使いこなせる自由がある。
                     </p>
-                    <div class="gold_line w-50 mb-4 access_line"></div>
+                    <div class="gold_line mb-4 access_line"></div>
+                    <div style="width:80%">
                     <button class="mx-auto d-block gold_btn read_more" type="button">
                         <a href="/access" class="text-white mh-parts" style="text-decoration: none;">Read More</a>
                     </button>
+                    </div>
                 </div>
             </div>
-            <p class="s9 text-white text-end" style="width:60%; margin-bottom: 8.125rem;">image</p>
+            <p class="s9 text-white text-end min_image_p" style="width:65%; margin-bottom: 130px;">image</p>
 
             <!-- Design -->
             <!-- <div class="read_more_link d-flex justify-content-between align-items-auto" style="margin-bottom: 8.0625rem;">
@@ -265,7 +267,7 @@
                 </div>
             </div> -->
 
-            <div class="animation-0-zm" style="padding:0 7.5rem;">
+            <div class="animation-0-zm mx-auto" style="width:calc(100% - 240px);">
                 <a href="/blanding" style="pointer-events:none;" class="w-100">
                 <img src="{{ asset('/images/bland photo.png') }}" class="w-100">
                 </a>
@@ -337,6 +339,8 @@
                 $('.access_line').height(access_line);
                 $('.design_line').height(design_line);
                 // $('.plan_line').height(plan_line);
+
+                // $('.min_image_p').width(access_pic)
             })
         })
     </script>
