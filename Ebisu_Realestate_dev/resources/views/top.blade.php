@@ -167,7 +167,8 @@
                         「ウエスティンホテル東京」を間近とする住宅地。<br>
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
                         多くを語らずとも本物を知る人を魅了するレジデンス。<br>
-                        「ラ・アトレ恵比寿グランガーデン」- ゆるぎなき矜持がここにある。
+                        「ラ・アトレ恵比寿グランガーデン」- ゆるぎなき矜持が<br>
+                        ここにある。
                     </p>
                     <div class="gold_line ebisu_line"></div>
                     
@@ -207,20 +208,18 @@
             </div> -->
 
             <!-- Access -->
-            <div class="read_more_link d-flex justify-content-start align-items-auto w-100" >
-                <div class="picture_side animation-0-zm access_pic h-100">
+            <div class="read_more_link d-flex justify-content-start align-items-auto w-100" style="margin-bottom: 130px;">
+                <div class="picture_side animation-0-zm access_pic h-100 d-flex flex-column">
                     <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100 access_pic_img" style="height: auto; objet-fit:cover;">
+                    <p class="s9 text-white text-end min_image_p d-inline">image</p>
                 </div>
                 <div class="text_side animation access_col ft2 s14">
-<<<<<<< HEAD
-                    <img class="d-block access_img w-75" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像" style="margin-left: auto;margin-right: auto;width: 755px;">
-=======
                     <img class="d-block access_img" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
->>>>>>> d4c23255a55194990a17ab8cca878ecc54fa42ad
                     <p class="d-block mb-4 access_p" style="white-space:nowrap;">都心をもっと近くする、スピーディなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
-                        渋谷、霞ヶ関、銀座へダイレクトに繋がることのできる日比谷線。<br>
-                        ここには、目的に合わせて、路線を使いこなせる自由がある。
+                        渋谷、霞ヶ関、銀座へダイレクトに繋がることのできる<br>
+                        日比谷線。ここには、目的に合わせて、路線を<br>
+                        使いこなせる自由がある。
                     </p>
                     <div class="gold_line mb-4 access_line"></div>
                     <div style="width:80%">
@@ -230,7 +229,7 @@
                     </div>
                 </div>
             </div>
-            <p class="s9 text-white text-end min_image_p" style="width:65%; margin-bottom: 130px;">image</p>
+            <!-- <p class="s9 text-white text-end min_image_p" style="margin-bottom: 130px;">image</p> -->
 
             <!-- Design -->
             <!-- <div class="read_more_link d-flex justify-content-between align-items-auto" style="margin-bottom: 8.0625rem;">
@@ -344,8 +343,18 @@
                 $('.design_line').height(design_line);
                 // $('.plan_line').height(plan_line);
 
-                // $('.min_image_p').width(access_pic)
+                // var access_pic_img = $('.access_pic').width()
+                // $('.min_image_p').width(access_pic_img)
+
+                if($('body').width() < 1200){
+                    $('.ebisu_p').css('white-space','normal')
+                    $('.access_p').css('white-space','normal')
+                } else {
+                    $('.ebisu_p').css('white-space','nowrap')
+                    $('.access_p').css('white-space','nowrap')
+                }
             })
+            
         })
     </script>
 
