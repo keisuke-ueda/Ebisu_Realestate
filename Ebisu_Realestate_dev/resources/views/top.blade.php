@@ -3,12 +3,12 @@
 @section('content')
     <div class="first_view">
 
-        <video autoplay muted class="movie-1 w-100 vh-100">
+        <video autoplay muted class="movie-1" style="width: 100%">
             <source src="{{ asset('/images/ebisu_mae_0331.mp4') }}" type="video/mp4">
         </video>
 
         <!-- 上の動画が消えた後に下の動画が同じ画角上で流れる用にする -->
-        <video autoplay muted class="movie-2 w-100 vh-100 position-absolute top-0 start-0 d-none">
+        <video autoplay muted class="movie-2 absolute top-0 start-0 d-none" style="width: 100%">
             <source src="{{ asset('/images/ebisu_ato_0331.mp4') }}" type="video/mp4">
         </video>
 
