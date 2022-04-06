@@ -319,10 +319,11 @@ video {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  height: 110px;
 }
 
 .gold_info {
-  width: 40%;
+  width: 35%;
   margin: 0 10px;
 }
 

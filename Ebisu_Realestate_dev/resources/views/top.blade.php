@@ -70,9 +70,9 @@
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
                                     <p>&nbsp;</p>
-                                    <p>最寄りのJR山手線・埼京線「恵比寿」駅より、</p>
-                                    <p>&nbsp;</p>
-                                    <p>「渋谷」駅へ<span class="h4">2</span>分「新宿」駅へ<span class="h4">7</span>分「品川」駅へ<span class="h4">9</span>分</p>
+                                    <p>最寄りのJR山手線・埼京線・湘南新宿ライン「恵比寿」駅より、</p>
+                                    <p class="s14">&nbsp;</p>
+                                    <p style="line-height:100%;">「渋谷」駅へ<span class="s24 h-100">2</span>分「新宿」駅へ<span class="s24 h-100">7</span>分「品川」駅へ<span class="s24 h-100">9</span>分</p>
                                     <p>&nbsp;</p>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@
                                 <div class="frame_circle h-100">
                                     <p>&nbsp;</p>
                                     <p class="s14"><span style="color: transparent;">ーーーーーーーーーーーーーーーー&nbsp;</span>※2</p>
-                                    <p class="s21" style="line-height:100%;">内廊下設計、角住戸率<span class="s27" style="line-height:100%;">57%</span>超</p>
+                                    <p class="s21" style="line-height:100%;">内廊下設計、角住戸率<span class="s27 h-100">57%</span>超</p>
                                     <p>&nbsp;</p>
                                     <p>&nbsp;</p>
                                 </div>
@@ -110,7 +110,7 @@
                     <div class="gold_info ft2 s20">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
-                                <div class="frame_circle h-100 h5">
+                                <div class="frame_circle h-100">
                                     <p>&nbsp;</p>
                                     <p class="s20">大型SUV車、スポーツカーも安心</p>
                                     <p class="s14"><span style="color: transparent;">ーーーーー-ーーーーーーーーー</span>※3</p>
@@ -168,13 +168,13 @@
                         「ウエスティンホテル東京」を間近とする住宅地。<br>
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
                         多くを語らずとも本物を知る人を魅了するレジデンス。<br>
-                        「ラ・アトレ恵比寿」- ゆるぎなき矜持がここにある。
+                        「ラ・アトレ恵比寿グランガーデン」- ゆるぎなき矜持がここにある。
                     </p>
                     <div class="gold_line ebisu_line"></div>
                     
                     <div style="width:80%">
                     <button class="d-block gold_btn read_more mx-auto" type="button">
-                        <a href="/conce class="text-white mh-parts style="text-decoration: none;">Read More</a>
+                        <a href="/concept" class="text-white mh-parts" style="text-decoration: none;">Read More</a>
                     </button>
                     </div>
                 </div>
@@ -208,7 +208,7 @@
             </div>
 
             <!-- Access -->
-            <div class="read_more_link d-flex justify-content-between align-items-auto" style="margin-bottom: 130px;">
+            <div class="read_more_link d-flex justify-content-between align-items-auto" >
                 <div class="picture_side animation-0-zm">
                     <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100" style="object-fit: cover;">
                 </div>
@@ -225,6 +225,7 @@
                     </button>
                 </div>
             </div>
+            <p class="s9 text-white text-end" style="width:66%; margin-bottom: 130px;">image</p>
 
             <!-- Design -->
             <div class="read_more_link d-flex justify-content-between align-items-auto" style="margin-bottom: 129px;">
