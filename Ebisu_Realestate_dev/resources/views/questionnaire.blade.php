@@ -10,11 +10,13 @@
 ?>
 
 <body>
-    <div id="questionnaire" class="container">
-        <div class="row justify-content-center">
+    <div id="questionnaire" class="container pb-40px">
+        <div class="">
             <h1 class="p-title gold-title-2 text-center">お住いについてのアンケート</h1>
-            <img class="center-block img1 mx-auto d-block" style="width: 60%;"
-                src="{{ asset('/images/お住まいアンケート1.png') }}">
+            <div class="pl-120px pr-120px">
+                <img class="pb-40px img1"
+                    src="{{ asset('/images/お住まいアンケート1.png') }}">
+            </div>
             <div class="text-center test">
                 <p class="m-none" style="margin-bottom: 20px;">この度、目黒区・渋谷区・港区・品川区を中心とするエリアで、LAホールディングスグループの<br>
                     株式会社ラ・アトレが分譲マンションの計画を検討しています。<br>
@@ -23,8 +25,9 @@
                     様々なご意見をお聞かせいただければ幸いです。
                 </p>
             </div>
-            <img class="center-block mb-45px mx-auto d-block" style="width: 70%;"
-                src="{{ asset('/images/お住まいのアンケート2.png') }}">
+            <div class="pr-22px pl-22px">
+                <img class="mb-45px img2" src="{{ asset('/images/お住まいのアンケート2.png') }}">
+            </div>
         </div>
         <div class="main-content center-block mx-auto">
             <div class="text-center caption1">
@@ -279,7 +282,7 @@
                 <div class="mt-2 animation">
                     <p class="indent-1 h5 mt-20px">※アンケート項目すべてにご協力いただいた方に、もれなくAmazonギフトカードを進呈いたします。</p>
                     <p class="indent-1 h5 mb-45px">※アンケートはすべて必須項目になります。</p>
-                    <div class="gold_line_bottom mb-25px mt-30px">
+                    <div class="gold_line_bottom  pb-25px">
                         <div class="questionnaire questionnaire1">
                             <p><span class="question-num mr-20px">1</span>仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。</p>
                             <p class="indent-3 pb-2">&emsp;&emsp;(1つだけ回答)</p>
@@ -293,9 +296,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="gold_line_bottom mb-25px mt-30px">
+                    <div class="gold_line_bottom pb-25px pt-30px">
                         <div class="questionnaire questionnaire2_1">
-                            <p class="pb-2"><span class="question-num mr-20px">2</span>あなたがお住まいに求める条件をお聞かせください。(それぞれ3つ回答)</p>
+                            <p class="pb-2"><span
+                                    class="question-num mr-20px">2</span>あなたがお住まいに求める条件をお聞かせください。(それぞれ3つ回答)</p>
                             <p>【駅名】</p>
                             <ul>
                                 <li><input type="checkbox" name="q2_1[]" value="1"
@@ -392,7 +396,7 @@
                         </div>
                     </div>
 
-                    <div class="gold_line_bottom mb-25px mt-30px">
+                    <div class="gold_line_bottom pb-25px pt-30px">
                         <div class="questionnaire questionnaire3_1">
                             <p><span class="question-num mr-20px">3</span>仮に今後、マンション購入を検討する場合に希望される間取りと広さをお聞かせください。<br>
                             </p>
@@ -436,10 +440,11 @@
                         </div>
                     </div>
 
-                    <div class="gold_line_bottom mb-25px mt-30px">
+                    <div class="gold_line_bottom pb-25px pt-30px">
                         <div class="questionnaire questionnaire4_1">
                             <p>
-                                <span class="question-num mr-20px">4</span>新築分譲マンション・分譲リノベーションマンションを購入するとした場合についてお聞かせください。<br>
+                                <span
+                                    class="question-num mr-20px">4</span>新築分譲マンション・分譲リノベーションマンションを購入するとした場合についてお聞かせください。<br>
 
                             </p>
                             <p class="indent-3 pb-2">(1つだけ回答)</p>
@@ -459,7 +464,7 @@
                         </div>
                     </div>
 
-                    <div class="gold_line_bottom mb-25px mt-30px">
+                    <div class="gold_line_bottom pb-25px pt-30px">
                         <div class="questionnaire questionnaire5_1">
                             <p>
                                 <span class="question-num mr-20px">5</span>仮に今後、新たに住宅を検討するとした場合の購入エリアについてお聞かせください。<br>
@@ -515,7 +520,7 @@
                         </div>
                     </div>
 
-                    <div class="gold_line_bottom mb-25px mt-30px">
+                    <div class="gold_line_bottom pb-25px pt-30px">
                         <div class="questionnaire questionnaire6_1">
                             <p><span class="question-num mr-20px">6</span>仮に上記エリアで新規分譲マンションまたは分譲リノベーションマンションを<br>
                             </p>
@@ -536,7 +541,7 @@
                         </div>
                     </div>
 
-                    <div class="gold_line_bottom mb-25px mt-30px">
+                    <div class="gold_line_bottom pb-25px pt-30px">
                         <div class="questionnaire questionnaire7">
                             <p><span class="question-num mr-20px">7</span>世帯主様の職業は何でしょうか。</p>
                             <ul>
@@ -552,7 +557,7 @@
                         </div>
                     </div>
 
-                    <div class="gold_line_bottom mb-25px mt-30px">
+                    <div class="gold_line_bottom pb-25px pt-30px">
                         <div class="questionnaire questionnaire8">
                             <p><span class="question-num mr-20px">8</span>世帯主様の通勤手段は何でしょうか。</p>
                             <ul>
@@ -566,14 +571,15 @@
                         </div>
                     </div>
 
-                    <div class="gold_line_bottom mb-25px mt-30px">
+                    <div class="gold_line_bottom pb-25px pt-30px">
                         <div class="questionnaire questionnaire9">
-                            <p class="pb-2"><span class="question-num mr-20px">9</span>現在のお住まいで所有している自家用車の台数と車種をお聞かせ下さい。</p>
+                            <p class="pb-2"><span class="question-num mr-20px">9</span>現在のお住まいで所有している自家用車の台数と車種をお聞かせ下さい。
+                            </p>
                             <p>［台 数］<input type="text" class="me-2">台 ［車 種］<input type="text" name="q9"></p>
                         </div>
                     </div>
 
-                    <div class="gold_line_bottom mb-25px mt-30px">
+                    <div class="gold_line_bottom pb-25px pt-30px">
                         <div class="questionnaire questionnaire10">
                             <p class="pb-2"><span class="question-num mr-20px-2">10</span>ご家族全体の年収をお聞かせください。</p>
                             <ul>
@@ -585,9 +591,10 @@
                         </div>
                     </div>
 
-                    <div class="gold_line_bottom mb-25px mt-30px">
+                    <div class="gold_line_bottom pb-25px pt-30px">
                         <div class="questionnaire questionnaire11">
-                            <p class="pb-2"><span class="question-num mr-20px-2">11</span>目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。
+                            <p class="pb-2"><span
+                                    class="question-num mr-20px-2">11</span>目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。
                             </p>
                             <ul>
                                 <li><input type="checkbox" name="q11" value="1">ある</li><br>
@@ -596,7 +603,7 @@
                         </div>
                     </div>
 
-                    <div class="gold_line_bottom mb-25px mt-30px">
+                    <div class="gold_line_bottom pb-25px pt-30px">
                         <div class="questionnaire questionnaire12">
                             <p class="pb-2"><span class="question-num mr-20px-2">12</span>現在の住宅から買い替え予定はありますか。</p>
                             <ul>
@@ -606,7 +613,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="gold_line_bottom mb-25px mt-30px">
+                    <div class="gold_line_bottom pt-30px">
                         <div class="questionnaire questionnaire13">
                             <div>
                                 <p><span class="question-num mr-20px-2">13</span>現在の住宅購入をする場合の予算はどのぐらいですか。</p>
@@ -615,13 +622,13 @@
                         </div>
                     </div>
                 </div>
-                <p class="text-end animation">アンケートにご協力いただき、誠にありがとうございました。</p>
+                <p class="text-end animation mb-45px">アンケートにご協力いただき、誠にありがとうございました。</p>
 
-                <button class="mh-parts btn btn-dark mx-auto d-block"><span class="p-3">入力内容の確認</span></button>
+                <button class="mh-parts btn btn-dark mx-auto mb-35px d-block"><span class="p-3">入力内容の確認</span></button>
             </form>
         </div>
-        <div class="border border-dark mt-5 mb-5 animation">
-            <p class="p-3">【アンケートご回答者様からご提供いただいた個人情報の取り扱いについて】<br>
+        <div class="border border-dark animation">
+            <p class="m-none pt-25px pr-20px pl-20px pb-25px">【アンケートご回答者様からご提供いただいた個人情報の取り扱いについて】<br>
                 ※本アンケートは市場調査(商品企画)に反映するために企画したものです。<br>
                 ※ご回答内容につきましては、ご回答を集計処理・保管をいたしますので、皆様にご迷惑をおかけすることは一切ございませんことを、確約させていただきます。<br>
                 &emsp;忌憚のないご意見を頂戴できましたら、幸いでございます。<br>
