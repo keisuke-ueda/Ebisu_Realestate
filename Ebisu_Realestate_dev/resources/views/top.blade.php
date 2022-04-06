@@ -278,7 +278,7 @@
 
             <div class="animation">
                 <div class="d-flex justify-content-center" style="margin: 60px 0 50px;">
-                    <button class="d-block copper_btn py-3" type="button" style="margin-left: auto;margin-right: auto;width: 960px;">
+                    <button class="d-block copper_btn py-3" type="button" style="margin-left: auto;margin-right: auto;width: 350px;">
                         <a href="/entry" class="text-white mh-parts ft2 s19" style="text-decoration: none;">物件エントリー受付中</a>
                     </button>
                 </div>
