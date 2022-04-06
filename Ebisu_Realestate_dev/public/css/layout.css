@@ -6,6 +6,11 @@ button {
   text-align: center;
 }
 
+/* 改行ポイント */
+.bl {
+  display: inline-block;
+}
+
 /* フォントtype */
 /* <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,12 +18,12 @@ button {
 .ft1{
   font-family: 'Roboto', sans-serif;
 }
-/* 
+/*
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet"> */
 .ft2{
   font-family: 'Noto Serif JP', serif;
 }
-/* 
+/*
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet"> */
 .ft3{
   font-family: 'Noto Serif JP', serif;
@@ -39,7 +44,7 @@ button {
 .ft7{
   font-family: "helveticaneue-light";
 }
-/* 
+/*
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet"> */
 .ft8{
   font-family: 'Noto Serif JP', serif;
@@ -63,22 +68,22 @@ button {
 
 /* フォントサイズ */
 .s9 {
-  font-size: 0.5625rem; 
+  font-size: 0.5625rem;
 }
 .s10 {
-  font-size: 0.625rem; 
+  font-size: 0.625rem;
 }
 .s11 {
-  font-size: 0.6875rem; 
+  font-size: 0.6875rem;
 }
 .s12 {
-  font-size: 0.75rem; 
+  font-size: 0.75rem;
 }
 .s13 {
-  font-size: 0.8125rem; 
+  font-size: 0.8125rem;
 }
 .s14 {
-  font-size: 0.875rem; 
+  font-size: 0.875rem;
 }
 .s15{
   font-size: 0.9375rem;
@@ -189,7 +194,7 @@ button {
   border-image-slice: 1;
   width: 100%;
 
-  
+
 }
 
 .header_content {
@@ -233,14 +238,14 @@ button {
 }
 
 .entry_btn {
-  border: none; 
+  border: none;
   /* background: linear-gradient(to right, #bab5b1 0%, #9c8b7e 25%, #9c8b7e 51%, #bab5b1 100%); */
   background-color: #9c8b7e;
 }
 
 .questionnaire_btn {
   background-color: #444444;
-  border: none; 
+  border: none;
 }
 
 .header_menu_trigger {
@@ -254,21 +259,21 @@ button {
   height: 30px;
   margin: 0 auto;
 }
- 
-.batsu::before, .batsu::after { 
+
+.batsu::before, .batsu::after {
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 2px; 
+  width: 2px;
   height: 30px;
   background: gray;
 }
- 
+
 .batsu::before {
   transform: translate(-50%,-50%) rotate(45deg);
 }
- 
+
 .batsu::after {
   transform: translate(-50%,-50%) rotate(-45deg);
 }
@@ -350,7 +355,7 @@ video {
   min-width: 33%;
 }
 .text_side img {
- 
+
   /* margin: 0 auto 24px; */
 }
 .text_side p {
@@ -369,7 +374,7 @@ video {
 .read_more {
   width:210px;
   height:60px;
-  padding: 20px 60px; 
+  padding: 20px 60px;
 }
 
 /* EBISU */
@@ -391,12 +396,12 @@ video {
   padding: 0 15px 0 110px;
 }
 .location_img {
-  width: calc(100% - 50px); 
+  width: calc(100% - 50px);
 }
 .location_pic {
   /* width: calc(100% - 7px);  */
   height: calc(50% - 10px);
-  object-fit: cover; 
+  object-fit: cover;
   object-position: 100% 100%;
 }
 
@@ -434,9 +439,54 @@ video {
   margin-top: 45px;
   margin-bottom: 40px;
 }
-.bl {
-  display: inline-block;
+
+
+/* 現地案内ページ */
+.map-m {
+  padding: 150px 120px 40px 210px;
 }
+.map-t1{
+  text-align:center;
+  position:relative;
+}
+.map_but{
+  display: flex;
+  justify-content: center;
+}
+.map_but_s{
+  height: 60px;
+  width: 210px;
+}
+.map_img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
+.map_but_img{
+  height: 30px;
+}
+.map_m1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.map_m2{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.map_m3{
+  margin: 7px;
+
+}
+.map_side_layout{
+  display: inline-block;
+  justify-content: center;
+  margin: 0 20px 0 0;
+}
+
+
+
+
+
 
 /*アニメーション-1*/
 .animation, .logo_animation, .menu_animation{
@@ -520,7 +570,7 @@ video {
   /* background: linear-gradient(to right, #d6c88d 0%, #b0a071 50%, #d6c88d 100%); */
   background-color: #ac9759;
   border: 1px solid #D8CA82;
-  text-shadow: 2px 2px 2px #000000; 
+  text-shadow: 2px 2px 2px #000000;
   /* padding: 15px 70px; */
 }
 
@@ -694,7 +744,7 @@ video {
   height: 2px;
   /* background-color: #d6c88d; */
   /* background-color: #ca4; */
-  
+
   background-color: #d09a58;
   flex-grow: 1;
 }
@@ -734,7 +784,7 @@ input, select {
 
 
 /* トップに戻るボタン */
-.arrow-top { 
+.arrow-top {
   transform: scale(4, 2);
 }
 
@@ -752,14 +802,14 @@ input, select {
 }
 
 .print_btn {
-  border: none; 
+  border: none;
   background: linear-gradient(to right, #d6c88d 0%, #b0a071 50%, #d6c88d 100%);
   border: 1px solid #D8CA82;
   text-shadow: 2px 2px 2px #000000;
 }
 
 .print_btn-2 {
-  border: none; 
+  border: none;
   background-color: #ac9759;
   border: 1px solid #D8CA82;
   text-shadow: 2px 2px 2px #000000;
@@ -767,7 +817,7 @@ input, select {
 
 .map_btn {
   background-color: #444444;
-  border: none; 
+  border: none;
   text-shadow: 2px 2px 2px #000000;
 }
 
