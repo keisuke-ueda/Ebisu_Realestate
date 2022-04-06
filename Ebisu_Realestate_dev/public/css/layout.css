@@ -826,11 +826,27 @@ td.h-110px {
   margin-bottom: 20px;
 }
 
+#questionnaire .mt-20px {
+  margin-top: 20px;
+}
+
+#questionnaire .mr-20px {
+  margin-right: 20px;
+}
+
+#questionnaire .mb-25px {
+  margin-bottom: 25px;
+}
+
+#questionnaire .mt-30px {
+  margin-top: 30px;
+}
+
 #questionnaire .img1 {
   padding-bottom: 40px;
 }
 
-#questionnaire .img2 {
+#questionnaire .mb-45px {
   margin-bottom: 45px;
 }
 
