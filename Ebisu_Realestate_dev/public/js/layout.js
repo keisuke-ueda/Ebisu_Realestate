@@ -133,7 +133,7 @@ $(function () {
     $('.movie-2').css('opacity', 1);
     $('.movie-2').get(0).play();
     $('.movie_skip').addClass('d-none')
-    $('.logo_animation').delay(11000).queue(function () {
+    $('.logo_animation').delay(6000).queue(function () {
       $(this).addClass('active')
       $(this).dequeue();
       $('.menu_animation').delay(1000).queue(function () {
@@ -148,7 +148,7 @@ $(function () {
     $('.movie-2').removeClass('d-none')
     $('.movie-2').get(0).play();
     $('.movie_skip').addClass('d-none')
-    $('.logo_animation').delay(11000).queue(function () {
+    $('.logo_animation').delay(1000).queue(function () {
       $(this).addClass('active')
       $(this).dequeue();
       $('.menu_animation').delay(1000).queue(function () {

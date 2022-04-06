@@ -201,6 +201,23 @@ button {
   margin: 0;
 }
 
+/* メニュー */
+.absolute{
+  position: absolute;
+}
+.logo_p{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.logo_s{
+  width: 120px;
+}
+.menu_p {
+  margin-left: 100%;
+}
+
+
+
 /* ヘッダー */
 .header {
   background-color: black;
@@ -209,8 +226,6 @@ button {
   border-image: linear-gradient(45deg, #B67B03 0%, #DAAF08 45%, #FEE9A0 70%, #DAAF08 85%, #B67B03 90% 100%);
   border-image-slice: 1;
   width: 100%;
-
-
 }
 
 .header_content {
