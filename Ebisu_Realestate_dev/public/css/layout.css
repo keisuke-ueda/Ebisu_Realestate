@@ -83,7 +83,7 @@ button {
   font-size: 0.8125rem;
 }
 .s14 {
-  font-size: 0.875rem;
+  font-size: 0.875rem; 
 }
 .s15{
   font-size: 0.9375rem;
@@ -355,31 +355,29 @@ video {
   min-width: 33%;
 }
 .text_side img {
-
-  /* margin: 0 auto 24px; */
+  
 }
 .text_side p {
   width: 100%;
-  /* margin: 0 auto 24px; */
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 .gold_line {
   min-height: 1%;
-  border-right: 1px solid #ac9759;
-  margin-bottom: 24px;
+  border-right: 0.0625rem solid #ac9759;
+  margin-bottom: 1.5rem;
 }
 .gold_line_bottom {
-  border-bottom: 2px solid #d6c88d;
+  border-bottom: 0.125rem solid #d6c88d;
 }
 .read_more {
-  width:210px;
-  height:60px;
-  padding: 20px 60px;
+  width: 13.125rem;
+  height: 3.75rem;
+  padding: 1.25rem 3.75rem;
 }
 
 /* EBISU */
 .ebisu_col {
-  padding: 0 27px 0 70px;
+  padding: 0 1.6875rem 0 4.375rem;
 }
 .ebisu_img {
   width: 80%;
@@ -393,23 +391,23 @@ video {
 
 /* LOCATION */
 .location_col {
-  padding: 0 15px 0 110px;
+  padding: 0 0.9375rem 0 6.875rem;
 }
 .location_img {
-  width: calc(100% - 50px);
+  width: calc(100% - 3.125rem);
 }
 .location_pic {
   /* width: calc(100% - 7px);  */
-  height: calc(50% - 10px);
+  height: calc(50% - 0.625rem);
   object-fit: cover;
   object-position: 100% 100%;
 }
 
 .access_col {
-  padding: 0 18px 0 60px;
+  padding: 0 1.125rem 0 3.75rem;
 }
 .design_col {
-  padding: 0 45px 0 100px;
+  padding: 0 2.8125rem 0 6.25rem;
 }
 
 

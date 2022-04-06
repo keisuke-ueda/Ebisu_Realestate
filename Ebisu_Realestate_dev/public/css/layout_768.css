@@ -19,21 +19,21 @@ video {
 
 .gold_info {
   width: 80%;
-  margin: 15px auto;
+  margin: 1rem auto;
 }
-
+/* 
 .questionnaire_info {
   width: 80%;
-}
+} */
 
 .info_table {
   width:80%;
 }
 
-
+/* 
 .pt14 {
   font-size: 1vw;
-}
+} */
 
 .picture_side {
   width: 70%;
