@@ -148,7 +148,7 @@ $(function () {
     $('.movie-2').removeClass('d-none')
     $('.movie-2').get(0).play();
     $('.movie_skip').addClass('d-none')
-    $('.logo_animation').delay(1000).queue(function () {
+    $('.logo_animation').delay(8000).queue(function () {
       $(this).addClass('active')
       $(this).dequeue();
       $('.menu_animation').delay(1000).queue(function () {
