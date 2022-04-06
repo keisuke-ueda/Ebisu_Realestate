@@ -317,6 +317,10 @@
     border-top: 2px solid #d6c88d;
 }
 
+.gold-table-entry {
+    width: 100%;
+}
+
 .gold-table-entry input,
 .gold-table-entry select {
     height: 30px;
