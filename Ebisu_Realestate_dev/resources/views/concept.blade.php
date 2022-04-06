@@ -14,7 +14,7 @@
         <div class="row mt-5">
             <p class="col-1"></p>
             <div class="col-5 animation-1-zm">
-                <img class="w-100" src="{{ asset('/images/Ebisu_2.jpg') }}">
+                <img class="w-100" src="{{ asset('/images/ebisupage_photo2.png') }}">
             </div>
             <div class="text-white col-5 animation d-flex flex-column justify-content-center align-items-center">
                 <p><span class="gold-2 pt18">緑も豊かな「恵比寿ガーデンプレイス」<br>
@@ -32,36 +32,36 @@
         <div class="row mt-5">
             <p class="col-1"></p>
             <div class="col-5 animation-1-zm">
-                <img class="w-100" src="{{ asset('/images/Ebisu_2.png') }}">
+                <img class="w-100" src="{{ asset('/images/ebisupage_photo.png') }}">
                 <p class="text-end pt9">※掲載写真は、令和4年3月に撮影したものです。</p>
                 <p class="font-11 m-0">&nbsp;</p>
             </div>
             <div class="col-5 d-flex flex-column justify-content-end">
                 <div class="d-flex justify-content-between">
                     <div style="width: 30%;">
-                        <img class="animation-0-zm w-100 h-75" src="{{ asset('/images/Ebisu_6.png') }}" style="object-fit: cover; object-position: 100% 100%">
+                        <img class="animation-0-zm w-100 h-75" src="{{ asset('/images/ebisupage_atreebisu.png') }}" style="object-fit: cover; object-position: 100% 100%">
                         <p class="text-end pt9">「アトレ恵比寿」<br>(約1000m・徒歩13分)</p>
                     </div>
                     <div style="width: 30%;">
-                        <img class="animation-0-zm w-100 h-75" src="{{ asset('/images/ガーデンプレイス2.jpg') }}" style="object-fit: cover; object-position: 100% 100%">
+                        <img class="animation-0-zm w-100 h-75" src="{{ asset('/images/ebisupage_恵比寿ガーデンプレイス.png') }}" style="object-fit: cover; object-position: 100% 100%">
                         <p class="text-end pt9">「恵比寿ガーデンプレイス」<br>(約260m・徒歩4分)</p>
                     </div>
                     <div style="width: 30%;">
-                        <img class="animation-0-zm w-100 h-75" src="{{ asset('/images/ウエスティン2.jpg') }}" style="object-fit: cover; object-position: 100% 100%">
+                        <img class="animation-0-zm w-100 h-75" src="{{ asset('/images/ebisupage_ウエスティンホテル.png') }}" style="object-fit: cover; object-position: 100% 100%">
                         <p class="text-end pt9">「ウエスティンホテル東京」<br>(約300m・徒歩4分)</p>
                     </div>
                 </div>
                 <div class="d-flex justify-content-between">
                     <div style="width: 30%;">
-                        <img class="animation-1-zm w-100 h-75" src="{{ asset('/images/国立付属1.jpg') }}" style="object-fit: cover; object-position: 100% 100%">
+                        <img class="animation-1-zm w-100 h-75" src="{{ asset('/images/ebisupage_国立博物館付属自然教育園.png') }}" style="object-fit: cover; object-position: 100% 100%">
                         <p class="text-end pt9">「国立科学博物館付属 自然教育園」<br>(約1000m・徒歩13分)</p>
                     </div>
                     <div style="width: 30%;">
-                        <img class="animation-1-zm w-100 h-75" src="{{ asset('/images/医療科学研究所.jpg') }}" style="object-fit: cover; object-position: 100% 100%">
+                        <img class="animation-1-zm w-100 h-75" src="{{ asset('/images/ebisupage_東京大学医療課付属研究所.png') }}" style="object-fit: cover; object-position: 100% 100%">
                         <p class="text-end pt9">「東京大学医療科学研究附属病院」<br>(約630m・徒歩8分)</p>
                     </div>
                     <div style="width: 30%;">
-                        <img class="animation-1-zm w-100 h-75" src="{{ asset('/images/サッポロ広場.png') }}" style="object-fit: cover; object-position: 100% 100%">
+                        <img class="animation-1-zm w-100 h-75" src="{{ asset('/images/ebisupage_サッポロ広場.png') }}" style="object-fit: cover; object-position: 100% 100%">
                         <p class="text-end pt9">「サッポロ広場」<br>(約260m・徒歩4分)</p>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                     緩やかな時が流れる緑に囲まれた閑静な邸宅地。<br>
                     恵比寿の丘の上で優雅な日々がここから始まる。</p>
             </div>
-            <img  class="col-8 animation-2-zm ps-0 pe-5" src="{{ asset('/images/kouteizu.png') }}">
+            <img  class="col-8 animation-2-zm ps-0 pe-5" src="{{ asset('/images/ebisupage_illustration.png') }}">
             <p class="text-end pt9">高低差概念図は、国土地理院/GISMaps調べ<br>
             ※掲載の高低差概念図の表現されている建物の高さ・形状・色等は実際とは異なります。周辺の道路・建物・街路樹などは一部簡略化しており、実際とは異なります。</p>
         </div>

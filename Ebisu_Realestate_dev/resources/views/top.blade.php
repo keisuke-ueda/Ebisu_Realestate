@@ -210,7 +210,7 @@
             <!-- Access -->
             <div class="read_more_link d-flex justify-content-between align-items-auto" style="margin-bottom: 130px;">
                 <div class="picture_side animation-0-zm">
-                    <img src="{{ asset('/images/4区.png') }}" alt="サンプル画像" class="w-100" style="object-fit: cover;">
+                    <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100" style="object-fit: cover;">
                 </div>
                 <div class="text_side animation access_col ft2 s14">
                     <img class="d-block access_img w-75" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
