@@ -21,10 +21,10 @@
 
     <div class="second_view">
         <!-- ブラック背景テキストエリア -->
-        <div class="black_wall text-white py-5">
+        <div class="black_wall text-white" style="padding: 80px 0 70px;">
             <!-- 移動 -->
-            <div class="animation mb-4">
-                <div class="access_info_group">
+            <!-- <div class="animation"> -->
+                <div class="access_info_group animation" style="margin-bottom: 30px;">
                     <div class="access_info ft2">
                         <div class="d-flex align-items-end">
                             <div>
@@ -46,7 +46,7 @@
                             </div>
                             <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">13</span>分 /</p>
                         </div>
-                        <p class="">&nbsp;</p>
+                        <p class="s9">&nbsp;</p>
                     </div>
                     <div class="access_info ft2">
                         <div class="d-flex align-items-end">
@@ -56,23 +56,23 @@
                             </div>
                             <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">13</span>分</p>
                         </div>
-                        <p class="">&nbsp;</p>
+                        <p class="s9">&nbsp;</p>
                     </div>
                 </div>
-            </div>
+            <!-- </div> -->
 
             <!-- 枠 -->
-            <div class="animation gold-2 pb-5">
+            <div class="animation gold-2" style="margin-bottom: 85px;">
                 <!-- 枠1 -->
-                <div class="mt-5 gold_info_group">
+                <div class="gold_info_group">
                     <div class="gold_info ft2 s16">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
                                     <p>&nbsp;</p>
-                                    <p>最寄りのJR山手線・埼京線「恵比寿」駅より、</p>
-                                    <p>&nbsp;</p>
-                                    <p>「渋谷」駅へ<span class="h4">2</span>分「新宿」駅へ<span class="h4">7</span>分「品川」駅へ<span class="h4">9</span>分</p>
+                                    <p>最寄りのJR山手線・埼京線・湘南新宿ライン「恵比寿」駅より、</p>
+                                    <p class="s14">&nbsp;</p>
+                                    <p style="line-height:100%;">「渋谷」駅へ<span class="s24 h-100">2</span>分「新宿」駅へ<span class="s24 h-100">7</span>分「品川」駅へ<span class="s24 h-100">9</span>分</p>
                                     <p>&nbsp;</p>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@
                                 <div class="frame_circle h-100">
                                     <p>&nbsp;</p>
                                     <p class="s14"><span style="color: transparent;">ーーーーーーーーーーーーーーーー&nbsp;</span>※2</p>
-                                    <p class="s21" style="line-height:100%;">内廊下設計、角住戸率<span class="s27" style="line-height:100%;">57%</span>超</p>
+                                    <p class="s21" style="line-height:100%;">内廊下設計、角住戸率<span class="s27 h-100">57%</span>超</p>
                                     <p>&nbsp;</p>
                                     <p>&nbsp;</p>
                                 </div>
@@ -110,7 +110,7 @@
                     <div class="gold_info ft2 s20">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
-                                <div class="frame_circle h-100 h5">
+                                <div class="frame_circle h-100">
                                     <p>&nbsp;</p>
                                     <p class="s20">大型SUV車、スポーツカーも安心</p>
                                     <p class="s14"><span style="color: transparent;">ーーーーー-ーーーーーーーーー</span>※3</p>
@@ -124,36 +124,30 @@
             </div>
 
             <!-- アンケートエリア -->
-            <div class="animation my-5">
-                <div class="mb-4">
-                    <p class="gold-title-2 text-center mt-5 mb-4 mx-auto ft2 s24" style="width: 80%;">「お住まいのアンケート」にご協力ください。</p>
-                </div>
-                <div class="pb-5 questionnaire_info mx-auto">
-                    <div class="border-gold-2 text-center py-4 mx-auto w-100">
-                        <p class="text-center mt-2 mb-3 ft2 s16" style="line-height:2;"><span class="pb-1" style="border-bottom:1px solid white;">アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
-                        <div class="">
-                            <form action="/questionnaire" method="GET">
-                                <button type="submit" class="gold_btn px-5 mh-parts mt-4 mb-2"><span class="text-white ft2 s20">アンケートはこちら</span></button>
-                            </form>
+            <div class="animation" style="margin-bottom: 75px;;">
+                <p class="gold-title-2 text-center mx-auto ft2 s24" style="width: 80%; margin-bottom: 45px;">「お住まいのアンケート」にご協力ください。</p>
+                <div class="questionnaire_info d-flex justify-content-center">
+                    <div class="border-gold-2 mx-auto d-inline-block" style="padding: 40px;">
+                        <p class="text-center d-inline-block ft2 s16" style="line-height:2;"><span class="pb-1" style="border-bottom:1px solid white;">アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
+                        <div class="" style="width:350px; height:50px; margin: 50px auto 0;">
+                            <button type="submit" class="gold_btn w-100 h-100 mh-parts" ><a href="/questionnaire" class="text-white ft2 s20" style="text-decoration:none;">アンケートはこちら</a></button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- INFOMATION -->
-            <div class="row animation my-5">
-                <div class="mb-4"> 
-                    <p class="gold-title-2 text-center mx-auto ft4 s30" style="width: 80%;">INFORMATION</p>
-                </div>
+            <div class="row animation">
+                <p class="gold-title-2 text-center mx-auto ft4 s30" style="width: 80%; margin-bottom: 45px;">INFORMATION</p>
                 <div class="ft2 s14">
                     <table class="text-white 4 info_table mx-auto">
                         <tr>
-                            <td class="py-3" scope="col">2022.4.15</td>
-                            <td class="py-3 ps-5" scope="col">ラ・アトレ恵比寿グランガーデン　ホームページ開設</td>
+                            <td class="" scope="col" style="padding-bottom: 25px;">2022.4.15</td>
+                            <td class="" scope="col" style="padding-left: 55px;">ラ・アトレ恵比寿グランガーデン　ホームページ開設</td>
                         </tr>
                         <tr>
-                            <td class="py-3" scope="col">2022.4.15</td>
-                            <td class="py-3 ps-5" scope="col">お住まいのアンケートを開設しました。(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
+                            <td class="" scope="col" style="padding: 25px 0;">2022.4.15</td>
+                            <td class="" scope="col" style="padding: 20px 0px 25px 55px;">お住まいのアンケートを開設しました。(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
                         </tr>
                     </table>
                 </div>
@@ -174,13 +168,13 @@
                         「ウエスティンホテル東京」を間近とする住宅地。<br>
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
                         多くを語らずとも本物を知る人を魅了するレジデンス。<br>
-                        「ラ・アトレ恵比寿」- ゆるぎなき矜持がここにある。
+                        「ラ・アトレ恵比寿グランガーデン」- ゆるぎなき矜持がここにある。
                     </p>
                     <div class="gold_line ebisu_line"></div>
                     
                     <div style="width:80%">
                     <button class="d-block gold_btn read_more mx-auto" type="button">
-                        <a href="/conce class="text-white mh-parts style="text-decoration: none;">Read More</a>
+                        <a href="/concept" class="text-white mh-parts" style="text-decoration: none;">Read More</a>
                     </button>
                     </div>
                 </div>
@@ -214,7 +208,7 @@
             </div>
 
             <!-- Access -->
-            <div class="read_more_link d-flex justify-content-between align-items-auto" style="margin-bottom: 130px;">
+            <div class="read_more_link d-flex justify-content-between align-items-auto" >
                 <div class="picture_side animation-0-zm">
                     <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100" style="object-fit: cover;">
                 </div>
@@ -231,6 +225,7 @@
                     </button>
                 </div>
             </div>
+            <p class="s9 text-white text-end" style="width:66%; margin-bottom: 130px;">image</p>
 
             <!-- Design -->
             <div class="read_more_link d-flex justify-content-between align-items-auto" style="margin-bottom: 129px;">
@@ -303,7 +298,7 @@
     </div>
 
     <!-- 後々"layout.js"に記述予定 -->
-    <scri
+    <script>
         $(function(){
             $(window).on('load',function (){
                 let btn = $('.read_more').outerHeight();
@@ -342,6 +337,6 @@
                 // $('.plan_line').height(plan_line);
             })
         })
-    </scri
+    </script>
 
 @endsection

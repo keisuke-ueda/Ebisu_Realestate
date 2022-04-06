@@ -63,43 +63,43 @@ button {
 
 /* フォントサイズ */
 .s9 {
-  font-size: 9px; 
+  font-size: 0.5625rem; 
 }
 .s10 {
-  font-size: 10px; 
+  font-size: 0.625rem; 
 }
 .s11 {
-  font-size: 11px; 
+  font-size: 0.6875rem; 
 }
 .s12 {
-  font-size: 12px; 
+  font-size: 0.75rem; 
 }
 .s13 {
-  font-size: 13px; 
+  font-size: 0.8125rem; 
 }
 .s14 {
-  font-size: 14px; 
+  font-size: 0.875rem; 
 }
 .s15{
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 .s16{
-  font-size: 16px;
+  font-size: 1rem;
 }
 .s18{
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .s19{
   font-size: 19px;
 }
 .s20{
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .s21{
-  font-size: 21px;
+  font-size: 1.3125rem;
 }
 .s24{
-  font-size: 24px;
+  font-size: 1.5px;
 }
 .s27{
   font-size: 27px;
@@ -109,7 +109,7 @@ button {
 }
 
 .s42{
-  font-size: 42px;
+  font-size: 2.625rem;
 }
 
 
@@ -319,19 +319,20 @@ video {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  height: 110px;
 }
 
 .gold_info {
-  width: 40%;
+  width: 35%;
   margin: 0 10px;
 }
 
 .questionnaire_info {
-  width: 40%;
+  /* width: 40%; */
 }
 
 .info_table {
-  width:50%;
+  width: 600px;
 }
 
 .info_table > tbody > tr {

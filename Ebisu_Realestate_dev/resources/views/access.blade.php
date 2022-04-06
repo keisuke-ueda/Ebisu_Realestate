@@ -48,19 +48,19 @@
 </div>
 
 
-<div class="main-content container-fluid px-5 5">
+<div class="main-content" style="padding: 40px 40px 0 45px;">
 
     <!-- 路線図 -->
-    <div class="row animation"> 
-        <img  class="col-3 d-block mx-auto animation-0-zm" src="{{ asset('/images/access_shibuya.png') }}">
-        <img  class="col-3 d-block mx-auto animation-0-zm" src="{{ asset('/images/access_roppongi.png') }}">
-        <img  class="col-3 d-block mx-auto animation-1-zm" src="{{ asset('/images/access_shinjuku.png') }}">
-        <img  class="col-3 d-block mx-auto animation-1-zm" src="{{ asset('/images/access_shinagawa.png') }}">
+    <div class="animation d-flex justify-content-between w-100" > 
+        <img  class="d-block animation-0-zm" style="width: calc(25% - 19px)" src="{{ asset('/images/access_shibuya.png') }}">
+        <img  class="d-block animation-0-zm" style="width: calc(25% - 19px)" src="{{ asset('/images/access_roppongi.png') }}">
+        <img  class="d-block animation-1-zm" style="width: calc(25% - 19px)" src="{{ asset('/images/access_shinjuku.png') }}">
+        <img  class="d-block animation-1-zm" style="width: calc(25% - 19px)" src="{{ asset('/images/access_shinagawa.png') }}">
     </div>
 
-    <div class="row mt-5 animation"> 
-        <p class="col-6"></p>
-        <p class="col-6 gold-2 ft2 s18">2駅7路線が利用可能。もっと自由な都心生活を。</h2>
+    <div class="animation d-flex justify-content-between" style="margin-top:30px;"> 
+        <p class="w-50"></p>
+        <p class="pt18 w-50 gold-2">2駅7路線が利用可能。もっと自由な都心生活を。</h2>
     </div>
 
     <!-- 路線情報 -->
@@ -152,6 +152,7 @@
         </div>
     </div>
 
+
     <div class="row gold-2 mt-5 animation">
         <p class="col-7 ft2 s18">都心の様々な要所へ、タクシーでの移動にも優れたロケーションです。</p>
         <p class="col-5"></p>
@@ -160,8 +161,8 @@
     <!-- タクシー情報 -->
     <div class="row mt-3 mb-3 animation">
         <div class="col-4 d-flex align-items-center animation-0-zm">
-            <img class="w-100" src="{{ asset('/images/access_taxi.png') }}">
-            <img src="{{ asset('/images/access_taxi_mono.png') }}">
+            <img class="w-50" src="{{ asset('/images/access_taxi.png') }}">
+            <img class="w-50" src="{{ asset('/images/access_taxi_mono.png') }}">
         </div>
         <div class="col-8 animation ft2 s14">
             <table class="taxi_table mb-3 text-center">
