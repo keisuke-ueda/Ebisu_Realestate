@@ -207,6 +207,7 @@ button {
   position: absolute;
 }
 .logo_p{
+  z-index:500;
   margin-top: 20px;
   margin-left: 60px;
 }
@@ -214,7 +215,9 @@ button {
   width: 120px;
 }
 .menu_p {
-  margin-left: 100%;
+  display: flex;
+  margin-right: 0;
+  margin-left: auto;
 }
 
 /* ヘッダー */
