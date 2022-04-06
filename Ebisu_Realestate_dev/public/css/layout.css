@@ -325,11 +325,11 @@ video {
 }
 
 .questionnaire_info {
-  width: 40%;
+  /* width: 40%; */
 }
 
 .info_table {
-  width:50%;
+  width: 600px;
 }
 
 .info_table > tbody > tr {
