@@ -1,0 +1,23 @@
+.gold-table-questionnaire input,
+.gold-table-questionnaire select {
+    height: 30px;
+}
+
+.gold-table-questionnaire > tbody > tr > td,
+.gold-table-questionnaire > tbody > tr > th {
+    padding: 5px 0 5px;
+    vertical-align: middle;
+}
+
+.gold-table-questionnaire > tbody > tr {
+    border-bottom: 2px solid #d6c88d;
+}
+
+.top {
+    border-top: 2px solid #d6c88d;
+}
+
+.questionnaire-table-nest > tbody > tr > th,
+.questionnaire-table-nest > tbody > tr > td {
+    vertical-align: middle;
+}

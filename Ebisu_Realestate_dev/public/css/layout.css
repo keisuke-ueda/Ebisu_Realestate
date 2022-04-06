@@ -916,7 +916,7 @@ input, select {
 }
 
 .questionnaire {
-  margin: 3px 30px 15px;
+  margin: 0 30px 0;
 }
 
 .questionnaire > p {
