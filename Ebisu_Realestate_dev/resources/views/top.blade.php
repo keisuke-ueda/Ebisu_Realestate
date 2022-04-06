@@ -21,10 +21,10 @@
 
     <div class="second_view">
         <!-- ブラック背景テキストエリア -->
-        <div class="black_wall text-white" style="padding: 80px 0 70px;">
+        <div class="black_wall text-white" style="padding: 5rem 0 4.375rem;">
             <!-- 移動 -->
             <!-- <div class="animation"> -->
-                <div class="access_info_group animation" style="margin-bottom: 30px;">
+                <div class="access_info_group animation" style="margin-bottom: 1.875rem;">
                     <div class="access_info ft2">
                         <div class="d-flex align-items-end">
                             <div>
@@ -62,10 +62,10 @@
             <!-- </div> -->
 
             <!-- 枠 -->
-            <div class="animation gold-2" style="margin-bottom: 85px;">
+            <div class="animation gold-2" style="margin-bottom: 5.3125rem;">
                 <!-- 枠1 -->
-                <div class="gold_info_group">
-                    <div class="gold_info ft2 s16">
+                <div class="gold_info_group" style="height:6.875rem;">
+                    <div class="gold_info ft2 s16" style="width:31.5rem;">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
@@ -78,7 +78,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gold_info ft2 s16">
+                    <div class="gold_info ft2 s16" style="width:31.5rem;">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
@@ -93,8 +93,8 @@
                     </div>
                 </div>
                 <!-- 枠2 -->
-                <div class="gold_info_group">
-                    <div class="gold_info ft2 s21">
+                <div class="gold_info_group" style="height:6.875rem;">
+                    <div class="gold_info ft2 s21" style="width:31.5rem;">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
@@ -107,7 +107,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gold_info ft2 s20">
+                    <div class="gold_info ft2 s20" style="width:31.5rem;">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
@@ -124,12 +124,12 @@
             </div>
 
             <!-- アンケートエリア -->
-            <div class="animation" style="margin-bottom: 75px;;">
-                <p class="gold-title-2 text-center mx-auto ft2 s24" style="width: 80%; margin-bottom: 45px;">「お住まいのアンケート」にご協力ください。</p>
+            <div class="animation" style="margin-bottom: 4.6875rem;">
+                <p class="gold-title-2 text-center mx-auto ft2 s24" style="width: 80%; margin-bottom: 2.8125rem;">「お住まいのアンケート」にご協力ください。</p>
                 <div class="questionnaire_info d-flex justify-content-center">
-                    <div class="border-gold-2 mx-auto d-inline-block" style="padding: 40px;">
+                    <div class="border-gold-2 mx-auto d-inline-block" style="padding: 2.5rem;">
                         <p class="text-center d-inline-block ft2 s16" style="line-height:2;"><span class="pb-1" style="border-bottom:1px solid white;">アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
-                        <div class="" style="width:350px; height:50px; margin: 50px auto 0;">
+                        <div class="" style="width: 21.875rem; height: 3.125rem; margin: 3.125rem auto 0;">
                             <button type="submit" class="gold_btn w-100 h-100 mh-parts" ><a href="/questionnaire" class="text-white ft2 s20" style="text-decoration:none;">アンケートはこちら</a></button>
                         </div>
                     </div>
@@ -138,16 +138,16 @@
 
             <!-- INFOMATION -->
             <div class="row animation">
-                <p class="gold-title-2 text-center mx-auto ft4 s30" style="width: 80%; margin-bottom: 45px;">INFORMATION</p>
+                <p class="gold-title-2 text-center mx-auto ft4 s30" style="width: 80%; margin-bottom: 2.8125rem;">INFORMATION</p>
                 <div class="ft2 s14">
-                    <table class="text-white 4 info_table mx-auto">
+                    <table class="text-white 4 info_table mx-auto" style="width:37.5rem;">
                         <tr>
-                            <td class="" scope="col" style="padding-bottom: 25px;">2022.4.15</td>
-                            <td class="" scope="col" style="padding-left: 55px;">ラ・アトレ恵比寿グランガーデン　ホームページ開設</td>
+                            <td class="" scope="col" style="padding-bottom: 1.5625rem;">2022.4.15</td>
+                            <td class="" scope="col" style="padding-left: 3.4375rem;">ラ・アトレ恵比寿グランガーデン　ホームページ開設</td>
                         </tr>
                         <tr>
-                            <td class="" scope="col" style="padding: 25px 0;">2022.4.15</td>
-                            <td class="" scope="col" style="padding: 20px 0px 25px 55px;">お住まいのアンケートを開設しました。(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
+                            <td class="" scope="col" style="padding: 1.5625rem 0;">2022.4.15</td>
+                            <td class="" scope="col" style="padding: 1.25rem 0px 1.5625rem 3.4375rem;">お住まいのアンケートを開設しました。(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
                         </tr>
                     </table>
                 </div>
@@ -156,9 +156,9 @@
         </div>
 
 
-        <div class="" style="padding-top:80px;">
+        <div class="" style="padding-top:5rem;">
             <!-- Ebisu -->
-            <div class="read_more_link d-flex align-items-auto" style="margin-bottom:128px;">
+            <div class="read_more_link d-flex align-items-auto" style="margin-bottom:8rem;">
                 <div class="animation-0-zm h-100 picture_side">
                     <img src="{{ asset('/images/the ebisu photo1.png') }}" alt="サンプル画像" class="w-100" style="object-fit: cover;">
                 </div>
@@ -181,7 +181,7 @@
             </div>
 
             <!-- Location -->
-            <div class="read_more_link d-flex align-items-auto" style="margin-bottom: 135px;">
+            <div class="read_more_link d-flex align-items-auto" style="margin-bottom: 8.4375rem;">
                 <div class="animation location_col text_side ft2 s14">
                     <img class="d-block location_img" src="{{ asset('/images/thelocation.svg') }}" alt="サンプル画像">
                     <p class="d-block mx-auto mb-4 location_p">洗練と成熟に抱かれた街、恵比寿。<br>
@@ -195,14 +195,14 @@
                         <a href="/location" class="text-white mh-parts" style="text-decoration: none; pointer-events:none;">Read More</a>
                     </button>
                 </div>
-                <div class="picture_side d-flex" style="padding-right:38px;">
-                    <div class="d-flex flex-column h-100" style="width:calc(50% - 7px);">
+                <div class="picture_side d-flex" style="padding-right:2.375rem;">
+                    <div class="d-flex flex-column h-100" style="width:calc(50% - 0.4375rem);">
                         <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="サンプル画像" class="animation-0-zm location_pic">
-                        <img src="{{ asset('/images/アメリカ橋公園.png') }}" alt="サンプル画像"  class="animation-0-zm location_pic" style="margin-top:20px;">
+                        <img src="{{ asset('/images/アメリカ橋公園.png') }}" alt="サンプル画像"  class="animation-0-zm location_pic" style="margin-top:1.25rem;">
                     </div>
-                    <div class="d-flex flex-column h-100" style="width:calc(50% - 7px); margin-left: 14px;">
+                    <div class="d-flex flex-column h-100" style="width:calc(50% - 0.4375rem); margin-left: 0.875rem;">
                         <img src="{{ asset('/images/ウエスティンホテル.png') }}" alt="サンプル画像" class="animation-1-zm location_pic">
-                        <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="サンプル画像"  class="animation-1-zm location_pic" style="margin-top:20px;">
+                        <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="サンプル画像"  class="animation-1-zm location_pic" style="margin-top:1.25rem;">
                     </div>
                 </div>
             </div>
@@ -225,10 +225,10 @@
                     </button>
                 </div>
             </div>
-            <p class="s9 text-white text-end" style="width:66%; margin-bottom: 130px;">image</p>
+            <p class="s9 text-white text-end" style="width:66%; margin-bottom: 8.125rem;">image</p>
 
             <!-- Design -->
-            <div class="read_more_link d-flex justify-content-between align-items-auto" style="margin-bottom: 129px;">
+            <div class="read_more_link d-flex justify-content-between align-items-auto" style="margin-bottom: 8.0625rem;">
                 <div class="text_side animation design_col ft2 s14">
                     <img class="d-block design_img w-75" src="{{ asset('/images/thedesign.svg') }}" alt="サンプル画像">
                     <p class="d-block mb-4 design_p">常緑樹の深い緑も豊かな静謐なる街並み。周辺の<br>
@@ -267,14 +267,14 @@
                 </div>
             </div> -->
 
-            <div class="animation-0-zm" style="padding:0 120px; margin: ;">
+            <div class="animation-0-zm" style="padding:0 7.5rem;">
                 <a href="/blanding" style="pointer-events:none;" class="w-100">
                 <img src="{{ asset('/images/bland photo.png') }}" class="w-100">
                 </a>
             </div>
 
             <div class="animation">
-                <div class="" style="padding: 60px 425px;">
+                <div class="" style="padding: 3.75rem 26.5625rem;">
                     <button class="d-block copper_btn py-3 w-100" type="button">
                         <a href="/entry" class="text-white mh-parts ft2 s19" style="text-decoration: none;">物件エントリー受付中</a>
                     </button>
