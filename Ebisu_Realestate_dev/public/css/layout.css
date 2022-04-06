@@ -217,8 +217,6 @@ button {
   margin-left: 100%;
 }
 
-
-
 /* ヘッダー */
 .header {
   background-color: black;
@@ -227,11 +225,11 @@ button {
   border-image: linear-gradient(45deg, #B67B03 0%, #DAAF08 45%, #FEE9A0 70%, #DAAF08 85%, #B67B03 90% 100%);
   border-image-slice: 1;
   width: 100%;
+  padding: 20px 30px 10px 60px;
 }
 
 .header_content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -241,9 +239,10 @@ button {
 
 .header_links {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: calc(100% - 200px);
+  /* width: calc(100% - 200px); */
+  margin-right: 0;
+  margin-left: auto;
 }
 
 .new-mark, .blank {
