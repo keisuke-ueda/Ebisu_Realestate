@@ -1,33 +1,32 @@
 @extends('layout2')
 
+<link rel="stylesheet" href="{{ asset('/css/entry.css') }}">
+
 @section('content')
 <?php
   $prefectures = array('北海道','青森県','岩手県','宮城県','秋田県','山形県','福島県','茨城県','栃木県','群馬県','埼玉県','千葉県','東京都','神奈川県','新潟県','富山県','石川県','福井県','山梨県','長野県','岐阜県','静岡県','愛知県','三重県','滋賀県','京都府','大阪府','兵庫県','奈良県','和歌山県','鳥取県','島根県','岡山県','広島県','山口県','徳島県','香川県','愛媛県','高知県','福岡県','佐賀県','長崎県','熊本県','大分県','宮崎県','鹿児島県','沖縄県');
 ?>
 
-<div class="container" style="padding: 100px 150px 0;">
-  <h1 class="p-title gold-title-2 center-block text-center">PROPERTY ENTRY</h1>
-  <p class="p-title center-block text-center h3 mb-5">物件エントリー</p>
-  <div class="main-content row px-5">
+<div class="" id="entry" style="padding: 150px 210px 0px 210px; width: 100%;">
+  <h1 class="p-title gold-title-2 center-block text-center m-none">PROPERTY ENTRY</h1>
+  <p class="p-title center-block text-center h3 mt-10px" style="margin-bottom: 25px;">物件エントリー</p>
+  <div class="main-content">
     <div class="">
-      <p class="text-center">以下のフォームに必要な項目を入力のうえ「送信」ボタンを押してください。</p>
-      <p class="text-center"><span class="badge badge-danger">必須</span>は必須項目です。</p>
+      <p class="text-center" style="margin-bottom: 10px;">以下のフォームに必要な項目を入力のうえ「送信」ボタンを押してください。</p>
+      <p class="text-center" style="margin-bottom: 20px;"><span class="badge badge-danger">必須</span>は必須項目です。</p>
     </div>
-    <form class="mailformpro" method="POST" action="/questionnaire_mail">
+    <form class="mailformpro" style="padding-left:10px; padding-right:10px;" method="POST" action="/questionnaire_mail">
       @csrf
-      <table class="gold_table mb-3 animation">
+      <table class="gold_table table_entry animation">
         <tbody>
-          <tr>
-            <td height="0" class="column1"></td>
-            <td height="0" class="column2"></td>
-            <td height="0" class="column3"></td>
-          </tr>
-          <tr>
-            <td><label for="name"><span class="badge badge-danger">必須</span>お名前</label></td>
-            <td></td>
-            <td>
+          <tr class="top">
+            <td class="column1" style="width: 22%;"><label for="name"><span
+                  class="badge badge-danger">必須</span>お名前</label></td>
+            <td class="column2 h-40px" style="width: 120px;"></td>
+            <td class="column3" style="width: auto;">
               <input type="text" name="sei" data-kana="セイ" placeholder="姓" required data-error_placement="#sei">
-              <input type="text" name="mei" data-kana="メイ" placeholder="名" required data-error_placement="#mei" class="ms-2">
+              <input type="text" name="mei" data-kana="メイ" placeholder="名" required data-error_placement="#mei"
+                class="ms-2">
               <div class="validation-message" id="sei"></div>
               <div class="validation-message" id="mei"></div>
             </td>
@@ -62,7 +61,8 @@
             </td>
             <td></td>
             <td>
-              <div><input class="w-25" type="text">年 <input class="w-25 ms-3" type="text">月 <input class="w-25 ms-3" type="text">日</div>
+              <div><input class="w-25" type="text">年 <input class="w-25 ms-3" type="text">月 <input class="w-25 ms-3"
+                  type="text">日</div>
               <p class="mt-2 mb-0">※半角英数で入力してください</p>
               <div><input class="w-100" type="email" name="email" data-error_placement="#email"></div>
               <div class="validation_message" id="email"></div>
@@ -78,10 +78,10 @@
             <td colspan="2">
               <table class="table_nest" style="width: 100%;">
                 <tr rowspan="2">
-                  <th valign="top">
+                  <th valign="top" style="width: 120px;">
                     <label for="name">郵便番号<span class="badge badge-danger">必須</span></label>
                   </th>
-                  <td style="width: 83.3%;">
+                  <td>
                     <input type="text" name="home_post_code" data-error_placement="#home_post_code">
                     <div class="validation-message" id="home_post_code"></div>
                     <p>※半角数字(ハイフンなし)で入力してください</p>
@@ -296,9 +296,11 @@
           </tr>
         </tbody>
       </table>
-      <div class="animation">
-        <label for="name"><span class="badge badge-danger">必須</span></label>
-        <input type="checkbox">個人情報の取り扱いについて同意の方はチェックを入れてください。
+      <div class="animation mt-20px">
+        <p><label for="name"><span class="badge badge-danger">必須</span></label>
+          <input type="checkbox">個人情報の取り扱いについて同意の方はチェックを入れてください。
+        </p>
+
         <p>資料請求を行う際には、「個人情報のお取り扱いについて」(株式会社LAホールディングス)をお読みの上チェックを入れて下記の「入力内容の確認」ボタンを押してください。</p>
       </div>
       <button class="mh-parts btn btn-dark mx-auto d-block my-5"><span class="p-3">入力内容の確認</span></button>
