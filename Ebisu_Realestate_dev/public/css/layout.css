@@ -90,7 +90,7 @@ button {
   font-size: 1.125rem;
 }
 .s19{
-  font-size: 19px;
+  font-size: 1.1875rem;
 }
 .s20{
   font-size: 1.25rem;
@@ -99,13 +99,13 @@ button {
   font-size: 1.3125rem;
 }
 .s24{
-  font-size: 1.5px;
+  font-size: 1.5rem;
 }
 .s27{
-  font-size: 27px;
+  font-size: 1.6875rem;
 }
 .s30{
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .s42{
@@ -405,6 +405,37 @@ video {
 }
 .design_col {
   padding: 0 45px 0 100px;
+}
+
+/* 物件概要ページ */
+.ov-m {
+  padding: 150px 120px 40px 210px;
+}
+.ov-t1{
+  text-align:center;
+  position:relative;
+}
+.ov_gold_table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.ov_gold_table > tbody > tr{
+  border-bottom: 2px solid #d6c88d;
+}
+.ov_gold_table > tbody > tr > td,
+.ov_gold_table > tbody > tr > th {
+  padding: 16px 0;
+}
+.ov_m1{
+  margin-top: 60px;
+}
+.ov_m2{
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+.bl {
+  display: inline-block;
 }
 
 /*アニメーション-1*/
