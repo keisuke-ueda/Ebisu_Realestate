@@ -10,14 +10,14 @@
 <div style="height:50px; background-color:#000;"></div>
 
 <div class="">
-    <div class="mx-auto" style="width: 1112px; padding:40px 0 0 5px;">
+    <div class="mx-auto" style="max-width: 1200px; padding:40px 40px 0 45px;">
         <div class="d-flex justify-content-between align-items-center w-100">
             <div class="animation-1-zm" style="width:45%;">
                 <img class="w-100" src="{{ asset('/images/ebisupage_photo2.png') }}">
             </div>
             <div class="text-white animation d-flex flex-column justify-content-center ft2 s18" style="width:calc(55% - 45px);">
-                <p class="gold-2" style="margin-bottom:20px;">緑も豊かな「恵比寿ガーデンプレイス」</p>
-                <p class="gold-2" style="margin-bottom:40px;">「ウエスティンホテル東京」に隣接。</p>
+                <p class="gold-2" style="margin-bottom:10px;">緑も豊かな「恵比寿ガーデンプレイス」</p>
+                <p class="gold-2" style="margin-bottom:20px;">「ウエスティンホテル東京」に隣接。</p>
                 <p class="s14" style="margin:0;">先進的な都市の表情が洗練されたセンスが集う街、恵比寿。<br>
                 JR山手線・埼京線・湘南新宿ラインと東京メトロ日比谷線を利用できる高いアクセス性。<br>
                 時代の感性の最先端をいく流行のファッションやグルメが充実した駅ビル。<br>
@@ -67,7 +67,7 @@
     </div>
 
     <div class="bg-white">
-        <div class="bg-white text-dark mx-auto" style="width: 1112px; padding:35px 0 0 5px;">
+        <div class="bg-white text-dark mx-auto" style="max-width: 1200px; padding:35px 40px 0 45px; margin-bottom:30px;">
                 <p class="text-center gold-2 s24" style="margin-bottom:35px;">恵比寿、丘の上の美しい風景へ</p>
                 <div class="d-flex justify-content-start align-items-center">
                     <div class="d-flex flex-column justify-content-center">
@@ -78,9 +78,9 @@
                             緩やかな時が流れる緑に囲まれた閑静な邸宅地。<br>
                             恵比寿の丘の上で優雅な日々がここから始まる。</p>
                     </div>
-                    <img class="animation-2-zm" style="width:700px;" src="{{ asset('/images/ebisupage_illustration.png') }}">
+                    <img class="animation-2-zm" style="width:70%;" src="{{ asset('/images/ebisupage_illustration.png') }}">
                 </div>
-                <p class="text-end s9">高低差概念図は、国土地理院/GISMaps調べ<br>
+                <p class="text-end s9 m-0" style="padding-bottom:5px;">高低差概念図は、国土地理院/GISMaps調べ<br>
                 ※掲載の高低差概念図の表現されている建物の高さ・形状・色等は実際とは異なります。周辺の道路・建物・街路樹などは一部簡略化しており、実際とは異なります。</p>
         </div>
     </div>
