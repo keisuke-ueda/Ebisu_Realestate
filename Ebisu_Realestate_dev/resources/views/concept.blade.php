@@ -9,14 +9,14 @@
 
 <div style="height:130px; background-color:#000;"></div>
 
-<div class="container-fluid">
-    <div class="main-content">
-        <div class="row mt-5">
-            <p class="col-1"></p>
-            <div class="col-5 animation-1-zm">
+<div class="">
+    <div class="main-content" style="">
+        <div class="d-flex align-items-center">
+            
+            <div class="animation-1-zm">
                 <img class="w-100" src="{{ asset('/images/ebisupage_photo2.png') }}">
             </div>
-            <div class="text-white col-5 animation d-flex flex-column justify-content-center align-items-center">
+            <div class="text-white animation d-flex flex-column justify-content-center align-items-center">
                 <p><span class="gold-2 pt18">緑も豊かな「恵比寿ガーデンプレイス」<br>
                     「ウエスティンホテル東京」に隣接。</span></p>
                 <p class="pt14" style="margin-top: 40px;">先進的な都市の表情が洗練されたセンスが集う街、恵比寿。<br>
@@ -26,7 +26,7 @@
                 緩やかに流れる時間は、ここでしか感じることのできない上質なエリア。<br>
                 これこそが「恵比寿」という最高の魅力である。</p>
             </div>
-            <p class="col-1"></p>
+           
         </div>
 
         <div class="row mt-5">
