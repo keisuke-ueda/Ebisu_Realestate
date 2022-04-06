@@ -19,22 +19,22 @@ video {
 
 .gold_info {
   width: 80%;
-  margin: 15px auto;
+  margin: 1rem auto;
 }
-
+/* 
 .questionnaire_info {
   width: 80%;
-}
+} */
 
 .info_table {
   width:80%;
 }
 
-
+/* 
 .pt14 {
   font-size: 1vw;
-}
-
+} */
+/* 
 .picture_side {
   width: 70%;
 }
@@ -43,7 +43,7 @@ video {
   width: 30%; 
 }
 .text_side img {
-  /* width: 90%;  */
+  width: 90%; 
   margin-bottom: 1vw;
 }
 .text_side p {
@@ -59,4 +59,4 @@ video {
 .gold_btn {
   font-size: 1vw;
   padding: 1vw 2vw;
-}
+} */

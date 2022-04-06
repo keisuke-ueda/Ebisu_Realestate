@@ -39,7 +39,7 @@
 </head>
 
 <body>
-    <div class="text-white min-vh-100 position-relative" style="padding: 0 0 150px; background-color: #3e3a39;">
+    <div class="text-white min-vh-100 position-relative" style="padding: 0 0 13.94vw; background-color: #3e3a39;">
     <!-- ヘッダー -->
     @include('header')
 
