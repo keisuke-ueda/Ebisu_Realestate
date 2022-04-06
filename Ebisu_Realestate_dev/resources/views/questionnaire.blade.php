@@ -10,37 +10,36 @@
 ?>
 
 <body>
-    <div class="container ml-1 mr-1" style="padding-top: 100px;">
+    <div id="questionnaire" class="container">
         <div class="row justify-content-center">
             <h1 class="p-title gold-title-2 text-center">お住いについてのアンケート</h1>
-            <img class="center-block mx-auto d-block" style="width: 60%;" src="{{ asset('/images/お住まいアンケート1.png') }}">
-
-            <p class="text-center mt-2 mb-5 s19">この度、目黒区・渋谷区・港区・品川区を中心とするエリアで、LAホールディングスグループの<br>
-                株式会社ラ・アトレが分譲マンションの計画を検討しています。<br>
-                そこで、今後の商品・販売計画の参考に資するべく当アンケートを企画させていただきました。<br>
-                つきましては、目黒区三田・渋谷区恵比寿・港区白金台・品川区上大崎にお住いの皆様の<br>
-                様々なご意見をお聞かせいただければ幸いです。
-            </p>
-            <img class="center-block mx-auto d-block" style="width: 70%;" src="{{ asset('/images/お住まいのアンケート2.png') }}">
+            <img class="center-block img1 mx-auto d-block" style="width: 60%;"
+                src="{{ asset('/images/お住まいアンケート1.png') }}">
+            <div class="text-center test">
+                <p class="m-none" style="margin-bottom: 20px;">この度、目黒区・渋谷区・港区・品川区を中心とするエリアで、LAホールディングスグループの<br>
+                    株式会社ラ・アトレが分譲マンションの計画を検討しています。<br>
+                    そこで、今後の商品・販売計画の参考に資するべく当アンケートを企画させていただきました。<br>
+                    つきましては、目黒区三田・渋谷区恵比寿・港区白金台・品川区上大崎にお住いの皆様の<br>
+                    様々なご意見をお聞かせいただければ幸いです。
+                </p>
+            </div>
+            <img class="center-block img2 mx-auto d-block" style="width: 70%;"
+                src="{{ asset('/images/お住まいのアンケート2.png') }}">
         </div>
-        <div class="main-content center-block mt-5 mx-5 px-5">
-            <div class="text-center">
-                <p class="">下記のフォームに必要な項目を入力のうえ、「送信」ボタンを押してください。</p>
-                <p class=""><span class="badge badge-danger">必須</span>は必須項目です</p>
+        <div class="main-content center-block mx-auto">
+            <div class="text-center caption1">
+                <p class="m-none">下記のフォームに必要な項目を入力のうえ、「送信」ボタンを押してください。</p>
+                <p class="m-none"><span class="badge badge-danger">必須</span>は必須項目です</p>
             </div>
             <form class="mailformpro" method="POST" action="{{ route('form.post') }}">
-                <table class="gold_table mb-3 animation mb-5">
+                <table class="gold_table table_questionnaire animation">
                     @csrf
                     <tbody>
-                        <tr>
-                            <td height="0" class="column1"></td>
-                            <td height="0" class="column2"></td>
-                            <td height="0" class="column3"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="name"><span class="badge badge-danger">必須</span>お名前</label></td>
-                            <td></td>
-                            <td>
+                        <tr class="top">
+                            <td class="column1"><label for="name"><span class="badge badge-danger">必須</span>お名前</label>
+                            </td>
+                            <td class="column2 h-40px"></td>
+                            <td class="column3">
                                 <input class="input" type="text" name="sei" data-kana="セイ" placeholder="姓" required
                                     data-error_placement="#sei">
                                 <input class="input ms-2" type="text" name="mei" data-kana="メイ" placeholder="名" required
@@ -52,19 +51,19 @@
 
                         <tr>
                             <td><label for="name"><span class="badge badge-danger">必須</span>フリガナ</label></td>
-                            <td></td>
+                            <td class="h-40px"></td>
                             <td>
                                 <input class="input" type="text" name="sei_kana" data-charcheck="kana" placeholder="セイ"
                                     required data-error_placement="#sei-kana">
-                                <input class="input ms-2" type="text" name="mei_kana" data-charcheck="kana" placeholder="メイ"
-                                    required data-error_placement="#mei-kana">
+                                <input class="input ms-2" type="text" name="mei_kana" data-charcheck="kana"
+                                    placeholder="メイ" required data-error_placement="#mei-kana">
                                 <div class="validation-message" id="sei-kana"></div>
                                 <div class="validation-message" id="mei-kana"></div>
                             </td>
                         </tr>
                         <tr>
                             <td><label for="name"><span class="badge badge-danger">必須</span>性別</label></td>
-                            <td></td>
+                            <td class="h-110px"></td>
                             <td>
                                 <div><input type="radio" name="gender" value="male" data-error_placement="#gender">男性
                                 </div>
@@ -77,8 +76,8 @@
                             <td><label for="name"><span class="badge badge-danger">必須</span>ご家族人数</label></td>
                             <td></td>
                             <td>
-                                <div><input type="text" name="family_size" required
-                                        data-error_placement="#family_size" class="me-2">人
+                                <div><input type="text" name="family_size" required data-error_placement="#family_size"
+                                        class="me-2">人
                                 </div>
                                 <div class="validation-message" id="family_size"></div>
                             </td>
@@ -272,8 +271,9 @@
                     </tbody>
                 </table>
 
-                <div class="band animation">
-                    <p class="text-center mt-5 mb-3 py-3 text-white h5" style="background-color:#444444;">お住まいについてのアンケート</p>
+                <div class="animation">
+                    <p class="band text-center mb-20px text-white h5" style="background-color:#444444;">お住まいについてのアンケート
+                    </p>
                 </div>
 
                 <div class="mt-2 animation">
@@ -322,7 +322,8 @@
                                 <li><input type="checkbox" name="q2_1[]" value="10"
                                         onclick="click_cb(3, 'questionnaire2_1');">三田</li>
                                 <li><input type="checkbox" name="q2_1[]" value="11"
-                                        onclick="click_cb(3, 'questionnaire2_1');">その他<input class="ms-2" type="text"></li><br>
+                                        onclick="click_cb(3, 'questionnaire2_1');">その他<input class="ms-2" type="text">
+                                </li><br>
                             </ul>
                         </div>
                         <div class="questionnaire questionnaire2_2">
@@ -385,7 +386,8 @@
                                 <li><input type="checkbox" name="q2_3[]" value="12"
                                         onclick="click_cb(3, 'questionnaire2_3');">新築</li>
                                 <li><input type="checkbox" name="q2_3[]" value="13"
-                                        onclick="click_cb(3, 'questionnaire2_3');">その他<input class="ms-2" type="text"></li><br>
+                                        onclick="click_cb(3, 'questionnaire2_3');">その他<input class="ms-2" type="text">
+                                </li><br>
                             </ul>
                         </div>
                     </div>
@@ -407,7 +409,8 @@
                                         onclick="click_cb(1, 'questionnaire3_1');">3LDK
                                 </li>
                                 <li><input type="checkbox" name="q3_1[]" value="4"
-                                        onclick="click_cb(1, 'questionnaire3_1');">その他<input class="ms-2" type="text"></li><br>
+                                        onclick="click_cb(1, 'questionnaire3_1');">その他<input class="ms-2" type="text">
+                                </li><br>
                             </ul>
                         </div>
                         <div class="questionnaire questionnaire3_2">
@@ -505,7 +508,8 @@
                             <ul>
                                 <li><input type="checkbox" name="q5_4[]" value="1">上大崎1丁目</li>
                                 <li><input type="checkbox" name="q5_4[]" value="2">上大崎2丁目</li>
-                                <li><input type="checkbox" name="q5_4[]" value="3">その他<input class="ms-2" type="text"></li>
+                                <li><input type="checkbox" name="q5_4[]" value="3">その他<input class="ms-2" type="text">
+                                </li>
                             </ul>
                             <br>
                         </div>
@@ -519,10 +523,14 @@
                                 検討する場合、どの住戸を検討しますか。
                             </p>
                             <ul>
-                                <li><input type="checkbox" name="q6[]" value="1">1LDK&emsp;&emsp;58㎡超&emsp;&emsp;12,000万円～</li>
-                                <li><input type="checkbox" name="q6[]" value="2">1LDK&emsp;&emsp;64㎡超&emsp;&emsp;14,000万円～</li><br>
-                                <li><input type="checkbox" name="q6[]" value="3">2LDK&emsp;&emsp;88㎡超&emsp;&emsp;18,000万円～</li><br>
-                                <li><input type="checkbox" name="q6[]" value="4">その他<input class="ms-2" type="text"></li>
+                                <li><input type="checkbox" name="q6[]"
+                                        value="1">1LDK&emsp;&emsp;58㎡超&emsp;&emsp;12,000万円～</li>
+                                <li><input type="checkbox" name="q6[]"
+                                        value="2">1LDK&emsp;&emsp;64㎡超&emsp;&emsp;14,000万円～</li><br>
+                                <li><input type="checkbox" name="q6[]"
+                                        value="3">2LDK&emsp;&emsp;88㎡超&emsp;&emsp;18,000万円～</li><br>
+                                <li><input type="checkbox" name="q6[]" value="4">その他<input class="ms-2" type="text">
+                                </li>
                             </ul>
                             <br>
                         </div>
@@ -538,7 +546,8 @@
                                 <li><input type="checkbox" name="q7[]" value="4">公務員</li><br>
                                 <li><input type="checkbox" name="q7[]" value="5">医師</li>
                                 <li><input type="checkbox" name="q7[]" value="6">弁護士</li>
-                                <li><input type="checkbox" name="q7[]" value="7">その他<input class="ms-2" type="text"></li>
+                                <li><input type="checkbox" name="q7[]" value="7">その他<input class="ms-2" type="text">
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -546,13 +555,14 @@
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire8">
                             <p><span class="question-num">8</span>世帯主様の通勤手段は何でしょうか。</p>
-                                <ul>
-                                    <li><input type="checkbox" name="q8[]" value="1">電車</li>
-                                    <li><input type="checkbox" name="q8[]" value="2">車</li>
-                                    <li><input type="checkbox" name="q8[]" value="3">バイク</li>
-                                    <li><input type="checkbox" name="q8[]" value="4">自転車</li>
-                                    <li><input type="checkbox" name="q8[]" value="5">その他<input class="ms-2" type="text"></li>
-                                </ul>
+                            <ul>
+                                <li><input type="checkbox" name="q8[]" value="1">電車</li>
+                                <li><input type="checkbox" name="q8[]" value="2">車</li>
+                                <li><input type="checkbox" name="q8[]" value="3">バイク</li>
+                                <li><input type="checkbox" name="q8[]" value="4">自転車</li>
+                                <li><input type="checkbox" name="q8[]" value="5">その他<input class="ms-2" type="text">
+                                </li>
+                            </ul>
                         </div>
                     </div>
 
@@ -567,17 +577,18 @@
                         <div class="questionnaire questionnaire10">
                             <p class="pb-2"><span class="question-num-2">10</span>ご家族全体の年収をお聞かせください。</p>
                             <ul>
-                                    <li><input type="checkbox" name="q10[]" value="1">～1,000万円</li>
-                                    <li><input type="checkbox" name="q10[]" value="2">1,001万円～1,500万円</li>
-                                    <li><input type="checkbox" name="q10[]" value="3">1,501万円～2,000万円</li>
-                                    <li><input type="checkbox" name="q10[]" value="4">2,001万円～</li>
-                                </ul>
+                                <li><input type="checkbox" name="q10[]" value="1">～1,000万円</li>
+                                <li><input type="checkbox" name="q10[]" value="2">1,001万円～1,500万円</li>
+                                <li><input type="checkbox" name="q10[]" value="3">1,501万円～2,000万円</li>
+                                <li><input type="checkbox" name="q10[]" value="4">2,001万円～</li>
+                            </ul>
                         </div>
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire11">
-                            <p class="pb-2"><span class="question-num-2">11</span>目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。</p>
+                            <p class="pb-2"><span class="question-num-2">11</span>目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。
+                            </p>
                             <ul>
                                 <li><input type="checkbox" name="q11" value="1">ある</li><br>
                                 <li><input type="checkbox" name="q11" value="2">ない</li>
@@ -589,7 +600,8 @@
                         <div class="questionnaire questionnaire12">
                             <p class="pb-2"><span class="question-num-2">12</span>現在の住宅から買い替え予定はありますか。</p>
                             <ul>
-                                <li><input type="checkbox" name="q12_1[]" value="1">ある<input type="text" name="q12_2" class="mx-2 w-25">年以内</li><br><br>
+                                <li><input type="checkbox" name="q12_1[]" value="1">ある<input type="text" name="q12_2"
+                                        class="mx-2 w-25">年以内</li><br><br>
                                 <li><input type="checkbox" name="q12_1[]" value="2">ない</li>
                             </ul>
                         </div>
@@ -608,7 +620,7 @@
                 <button class="mh-parts btn btn-dark mx-auto d-block"><span class="p-3">入力内容の確認</span></button>
             </form>
         </div>
-        <div class="border border-dark mt-5 mb-5 ft5 animation">
+        <div class="border border-dark mt-5 mb-5 animation">
             <p class="p-3">【アンケートご回答者様からご提供いただいた個人情報の取り扱いについて】<br>
                 ※本アンケートは市場調査(商品企画)に反映するために企画したものです。<br>
                 ※ご回答内容につきましては、ご回答を集計処理・保管をいたしますので、皆様にご迷惑をおかけすることは一切ございませんことを、確約させていただきます。<br>
