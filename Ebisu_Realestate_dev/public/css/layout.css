@@ -208,7 +208,7 @@ button {
 }
 .logo_p{
   z-index:500;
-  margin-top: 20px;
+  margin-top: 23px;
   margin-left: 60px;
 }
 .logo_s{
@@ -216,9 +216,7 @@ button {
 }
 .menu_p {
   z-index:500;
-  position: absolute;
-  right: 30px;
-  margin-top: 20px;
+  margin: 20px 30px auto auto;
 }
 
 /* ヘッダー */
@@ -330,8 +328,7 @@ button {
 /* トップページ */
 .first_view {
   position: relative;
-  display: flex;
-  align-items: auto;
+  
 }
 
 video {
