@@ -68,53 +68,69 @@ button {
 
 /* フォントサイズ */
 .s9 {
-  font-size: 0.5625rem;
+  /* font-size: 0.5625rem; */
+  font-size: 0.75vw;
 }
 .s10 {
-  font-size: 0.625rem;
+  /* font-size: 0.625rem; */
+  font-size: 0.83vw;
 }
 .s11 {
-  font-size: 0.6875rem;
+  /* font-size: 0.6875rem; */
+  font-size: 0.92vw;
 }
 .s12 {
-  font-size: 0.75rem;
+  /* font-size: 0.75rem; */
+  font-size: 1vw;
 }
 .s13 {
-  font-size: 0.8125rem;
+  /* font-size: 0.8125rem; */
+  font-size: 1.08vw;
 }
 .s14 {
-  font-size: 0.875rem; 
+  /* font-size: 0.875rem;  */
+  font-size: 1.17vw;
 }
 .s15{
-  font-size: 0.9375rem;
+  /* font-size: 0.9375rem; */
+  font-size: 1.25vw;
 }
 .s16{
-  font-size: 1rem;
+  /* font-size: 1rem; */
+  font-size: 1.333vw;
 }
 .s18{
-  font-size: 1.125rem;
+  /* font-size: 1.125rem; */
+  font-size: 1.5vw;
 }
 .s19{
-  font-size: 1.1875rem;
+  /* font-size: 1.1875rem; */
+  font-size: 1.58vw;
 }
 .s20{
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
+  font-size: 1.67vw;
 }
 .s21{
-  font-size: 1.3125rem;
+  /* font-size: 1.3125rem; */
+  font-size: 1.75vw;
 }
 .s24{
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-size: 2vw;
 }
 .s27{
-  font-size: 1.6875rem;
+  /* font-size: 1.6875rem; */
+  font-size: 2.25vw;
 }
 .s30{
-  font-size: 1.875rem;
+  /* font-size: 1.875rem; */
+  font-size: 2.5vw;
 }
 
 .s42{
-  font-size: 2.625rem;
+  /* font-size: 2.625rem; */
+  font-size: 3.5vw;
 }
 
 
@@ -349,10 +365,15 @@ video {
 }
 
 .picture_side {
-  max-width: 66%;
+  width: 66%;
+  display:flex;
+  align-items: auto;
+}
+.picture_side img {
+  /* height: auto; */
 }
 .text_side {
-  min-width: 33%;
+  width: 33%;
 }
 .text_side img {
   
@@ -370,14 +391,18 @@ video {
   border-bottom: 0.125rem solid #d6c88d;
 }
 .read_more {
-  width: 13.125rem;
+  /* width: 13.125rem;
   height: 3.75rem;
-  padding: 1.25rem 3.75rem;
+  padding: 1.25rem 3.75rem; */
+  width:17.5vw;
+  height:5vw;
+  /* padding: 1.67vw 5vw;  */
 }
 
 /* EBISU */
 .ebisu_col {
-  padding: 0 1.6875rem 0 4.375rem;
+  /* padding: 0 1.6875rem 0 4.375rem; */
+  padding: 0 2.25vw 0 5.83vw;
 }
 .ebisu_img {
   width: 80%;
@@ -391,10 +416,12 @@ video {
 
 /* LOCATION */
 .location_col {
-  padding: 0 0.9375rem 0 6.875rem;
+  /* padding: 0 0.9375rem 0 6.875rem; */
+  padding-right: 1.25vw;
 }
 .location_img {
-  width: calc(100% - 3.125rem);
+  /* width: calc(100% - 3.125rem); */
+  width: calc(100% - 4.17vw);
 }
 .location_pic {
   /* width: calc(100% - 7px);  */
@@ -404,16 +431,17 @@ video {
 }
 
 .access_col {
-  padding: 0 1.125rem 0 3.75rem;
+  /* padding: 0 1.125rem 0 3.75rem; */
+  padding: 0 0 0 5vw;
 }
 .design_col {
-  padding: 0 2.8125rem 0 6.25rem;
+  /* padding: 0 2.8125rem 0 6.25rem; */
+  padding: 0 3.75vw 0 0;
 }
-
 
 /* 物件概要ページ */
 .ov-m {
-  padding: 150px 0px 40px 0px;
+  padding: 150px 120px 40px 210px;
 }
 .ov-t1{
   text-align:center;
@@ -422,20 +450,11 @@ video {
 .ov_gold_table{
   margin-left: auto;
   margin-right: auto;
-  width: 870px;
-  /* max-width: 870px; */
+  width: 100%;
 }
 .ov_gold_table > tbody > tr{
   border-bottom: 2px solid #d6c88d;
 }
-.ov_comment{
-  margin-left: auto;
-  margin-right: auto;
-  width: 870px;
-}
-
-
-
 .ov_gold_table > tbody > tr > td,
 .ov_gold_table > tbody > tr > th {
   padding: 16px 0;
@@ -447,8 +466,6 @@ video {
   margin-top: 45px;
   margin-bottom: 40px;
 }
-
-
 
 
 /* 現地案内ページ */
@@ -746,7 +763,6 @@ video {
 .gold-title-2 {
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
 }
 
 .gold-title-2::before,
@@ -839,12 +855,6 @@ input, select {
 /*
  アンケートページ(questionnaire.blade.php)
 */
-
-#questionnaire.container {
-  margin: auto;
-  padding: 100px 170px;
-}
-
 .questionnaire > ul > li {
   display: inline-block;
   list-style: none;
@@ -892,51 +902,3 @@ input, select {
 input[type="checkbox"], input[type="radio"] {
   margin-right: 5px;
 }
-
-td.h-40px {
-  height: 40px;
-}
-
-td.h-110px {
-  height: 110px;
-}
-
-.m-none {
-  margin: 0;
-}
-
-#questionnaire .column1 {
-  width: 22%;
-}
-
-#questionnaire .column3 {
-  width: 65%;
-}
-
-#qustionnaire .mb-20px {
-  margin-bottom: 20px;
-}
-
-#questionnaire .img1 {
-  padding-bottom: 40px;
-}
-
-#questionnaire .img2 {
-  margin-bottom: 45px;
-}
-
-#questionnaire .caption1 {
-  margin-bottom: 25px;
-}
-
-.gold_table > tbody > tr.top{
-  border-top: 2px solid #d6c88d;
-}
-
-.table_questionnaire {
-  margin: 0 20px 50px;
-}
-
-/*
-  アンケートページここまで
-*/
