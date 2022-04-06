@@ -46,12 +46,12 @@
 
       <div class="header_link ms-3">
         <a href="/entry" class="mh-parts">
-          <button type="button" class="s13 entry_btn text-white" style="height: 50px; width: 180px;">物件エントリー</button>
+          <button type="button" class="s13 entry_btn text-white" style="height: 4.17vw; width: 15vw;">物件エントリー</button>
         </a>
       </div>
       <div class="header_link ms-3">
         <a href="/questionnaire">
-          <button type="button" class="s13 questionnaire_btn text-white mh-parts" style="height: 50px; width: 180px;">お住まいのアンケート</button>
+          <button type="button" class="s13 questionnaire_btn text-white mh-parts" style="height: 4.17vw; width: 15vw;">お住まいのアンケート</button>
         </a>
       </div>
       <button class="header_menu_trigger ms-3 mh-parts" type="button" style="height: 60px; width: 60px;">
