@@ -1,5 +1,6 @@
-body {
+html, body {
   overflow-x: hidden;
+  width: 100vw;
 }
 
 button {
@@ -201,6 +202,23 @@ button {
   margin: 0;
 }
 
+/* メニュー */
+.absolute{
+  position: absolute;
+}
+.logo_p{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.logo_s{
+  width: 120px;
+}
+.menu_p {
+  margin-left: 100%;
+}
+
+
+
 /* ヘッダー */
 .header {
   background-color: black;
@@ -209,8 +227,6 @@ button {
   border-image: linear-gradient(45deg, #B67B03 0%, #DAAF08 45%, #FEE9A0 70%, #DAAF08 85%, #B67B03 90% 100%);
   border-image-slice: 1;
   width: 100%;
-
-
 }
 
 .header_content {
@@ -365,15 +381,15 @@ video {
 }
 
 .picture_side {
-  width: 66%;
+  width: 60%;
   display:flex;
   align-items: auto;
 }
 .picture_side img {
-  /* height: auto; */
+  /* width: 40%;  */
 }
 .text_side {
-  width: 33%;
+  /* width: 30%;  */
 }
 .text_side img {
   
@@ -402,7 +418,9 @@ video {
 /* EBISU */
 .ebisu_col {
   /* padding: 0 1.6875rem 0 4.375rem; */
-  padding: 0 2.25vw 0 5.83vw;
+  /* padding: 0 2.25vw 0 5.83vw; */
+  /* padding: 0 0 0 70px;  */
+  margin-left: 70px;
 }
 .ebisu_img {
   width: 80%;
@@ -417,31 +435,34 @@ video {
 /* LOCATION */
 .location_col {
   /* padding: 0 0.9375rem 0 6.875rem; */
-  padding-right: 1.25vw;
+  /* padding-right: 1.25vw; */
+  /* padding: 0 15px 0 110px; */
 }
 .location_img {
   /* width: calc(100% - 3.125rem); */
-  width: calc(100% - 4.17vw);
+  /* width: calc(100% - 4.17vw); */
+  /* width: calc(100% - 50px); */
 }
 .location_pic {
   /* width: calc(100% - 7px);  */
-  height: calc(50% - 0.625rem);
+  /* height: calc(50% - 0.625rem);
   object-fit: cover;
-  object-position: 100% 100%;
+  object-position: 100% 100%; */
 }
 
 .access_col {
   /* padding: 0 1.125rem 0 3.75rem; */
-  padding: 0 0 0 5vw;
+  /* padding: 0 0 0 70px; */
+  margin-left: 70px;
 }
 .design_col {
   /* padding: 0 2.8125rem 0 6.25rem; */
-  padding: 0 3.75vw 0 0;
+  /* padding: 0 3.75vw 0 0; */
 }
 
 /* 物件概要ページ */
 .ov-m {
-  padding: 150px 120px 40px 210px;
+  padding: 150px 0px 40px 0px;
 }
 .ov-t1{
   text-align:center;
@@ -450,8 +471,14 @@ video {
 .ov_gold_table{
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 870px;
 }
+.ov_comment{
+  margin-left: auto;
+  margin-right: auto;
+  width: 870px;
+}
+
 .ov_gold_table > tbody > tr{
   border-bottom: 2px solid #d6c88d;
 }
@@ -470,11 +497,16 @@ video {
 
 /* 現地案内ページ */
 .map-m {
-  padding: 150px 120px 40px 210px;
+  padding: 150px 0px 40px 0px;
 }
 .map-t1{
   text-align:center;
   position:relative;
+}
+.map_comment{
+  margin-left: auto;
+  margin-right: auto;
+  width: 870px;
 }
 .map_but{
   display: flex;
@@ -903,7 +935,6 @@ input[type="checkbox"], input[type="radio"] {
   margin-right: 5px;
 }
 
-<<<<<<< HEAD
 td.h-40px {
   height: 40px;
 }
@@ -930,6 +961,13 @@ td.h-110px {
 
 #questionnaire .mb-20px {
   margin-bottom: 20px;
+}
+#qustionnaire .mb-20px {
+  margin-bottom: 20px;
+}
+
+#questionnaire .mt-20px {
+  margin-top: 20px;
 }
 
 #questionnaire .mr-20px {
@@ -1103,6 +1141,17 @@ td.h-110px {
 #questionnaire .pl-45px {
   padding-left: 45px;
 }
+#questionnaire .mt-30px {
+  margin-top: 30px;
+}
+
+#questionnaire .img1 {
+  padding-bottom: 40px;
+}
+
+#questionnaire .mb-45px {
+  margin-bottom: 45px;
+}
 
 #questionnaire .caption1 {
   margin-bottom: 25px;
@@ -1143,5 +1192,3 @@ td.h-110px {
 /*
   アンケートページここまで
 */
-=======
->>>>>>> 65bababd2f2317857abc9bf82845625a319ddd0a

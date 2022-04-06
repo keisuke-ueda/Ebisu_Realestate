@@ -1,7 +1,6 @@
 @extends('layout')
 
 @section('content')
-
     <div class="first_view">
 
         <video autoplay muted class="movie-1 w-100 vh-100">
@@ -158,7 +157,7 @@
 
         <div class="" style="padding-top:5rem;">
             <!-- Ebisu -->
-            <div class="read_more_link d-flex align-items-auto" style="margin-bottom:8rem;">
+            <div class="read_more_link d-flex justify-content-start align-items-auto" style="margin-bottom:8rem;">
                 <div class="animation-0-zm h-100 picture_side ebisu_pic">
                     <img src="{{ asset('/images/the ebisu photo1.png') }}" alt="サンプル画像" class=" w-100" style="object-fit: cover;">
                 </div>
@@ -181,7 +180,7 @@
             </div>
 
             <!-- Location -->
-            <div class="read_more_link d-flex align-items-auto" style="margin-bottom: 8.4375rem;">
+            <!-- <div class="read_more_link d-flex align-items-auto" style="margin-bottom: 8.4375rem;">
                 <div class="animation location_col text_side ft2 s14">
                     <img class="d-block location_img" src="{{ asset('/images/thelocation.svg') }}" alt="サンプル画像">
                     <p class="d-block mx-auto mb-4 location_p" style="white-space:nowrap;">洗練と成熟に抱かれた街、恵比寿。<br>
@@ -195,7 +194,7 @@
                         <a href="/location" class="text-white mh-parts" style="text-decoration: none; pointer-events:none;">Read More</a>
                     </button>
                 </div>
-                <div class="picture_side d-flex location_pic" style="padding-right:2.375rem;">
+                <div class="picture_side d-flex location_pics" style="padding-right:2.375rem;">
                     <div class="d-flex flex-column h-100" style="width:calc(50% - 0.4375rem);">
                         <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="サンプル画像" class="animation-0-zm location_pic">
                         <img src="{{ asset('/images/アメリカ橋公園.png') }}" alt="サンプル画像"  class="animation-0-zm location_pic" style="margin-top:1.25rem;">
@@ -205,10 +204,10 @@
                         <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="サンプル画像"  class="animation-1-zm location_pic" style="margin-top:1.25rem;">
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Access -->
-            <div class="read_more_link d-flex justify-content-between align-items-auto" >
+            <div class="read_more_link d-flex justify-content-start align-items-auto" >
                 <div class="picture_side animation-0-zm access_pic h-100">
                     <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100" style="height: auto; objet-fit:cover;">
                 </div>
@@ -225,10 +224,10 @@
                     </button>
                 </div>
             </div>
-            <p class="s9 text-white text-end" style="width:66%; margin-bottom: 8.125rem;">image</p>
+            <p class="s9 text-white text-end" style="width:60%; margin-bottom: 8.125rem;">image</p>
 
             <!-- Design -->
-            <div class="read_more_link d-flex justify-content-between align-items-auto" style="margin-bottom: 8.0625rem;">
+            <!-- <div class="read_more_link d-flex justify-content-between align-items-auto" style="margin-bottom: 8.0625rem;">
                 <div class="text_side animation design_col ft2 s14">
                     <img class="d-block design_img w-75" src="{{ asset('/images/thedesign.svg') }}" alt="サンプル画像">
                     <p class="d-block mb-4 design_p" style="white-space:nowrap;">常緑樹の深い緑も豊かな静謐なる街並み。周辺の<br>
@@ -241,12 +240,11 @@
                     <button class="mx-auto d-block gold_btn read_more" type="button">
                         <a href="/design" class="text-white mh-parts" style="text-decoration:none; pointer-events:none;">Read More</a>
                     </button>
-                    <!-- <img src="{{ asset('/images/デザイン1.png') }}" alt="サンプル画像" class="design_img2 mt-4 mx-auto d-block img-fluid { max-width: 100%; height: auto }"> -->
                 </div>
                 <div class="picture_side animation-1-zm design_pic h-100">
                     <img src="{{ asset('/images/the design photo1.png') }}" alt="サンプル画像" class="w-100">
                 </div>
-            </div>
+            </div> -->
 
             <!-- Plan -->
             <!-- <div class="row my-5 py-5">
@@ -309,7 +307,7 @@
                 var ebisu_p = $('.ebisu_p').height();
                 
                 var location_col = $('.location_col').height();
-                var location_pic = $('.location_pic').height();
+                var location_pic = $('.location_pics').height();
                 var location_img = $('.location_img').height();
                 var location_p = $('.location_p').height();
 
