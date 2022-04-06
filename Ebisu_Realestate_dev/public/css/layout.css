@@ -441,7 +441,7 @@ video {
 
 /* 物件概要ページ */
 .ov-m {
-  padding: 150px 120px 40px 210px;
+  padding: 150px 0px 40px 0px;
 }
 .ov-t1{
   text-align:center;
@@ -450,8 +450,14 @@ video {
 .ov_gold_table{
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 870px;
 }
+.ov_comment{
+  margin-left: auto;
+  margin-right: auto;
+  width: 870px;
+}
+
 .ov_gold_table > tbody > tr{
   border-bottom: 2px solid #d6c88d;
 }
@@ -470,11 +476,16 @@ video {
 
 /* 現地案内ページ */
 .map-m {
-  padding: 150px 120px 40px 210px;
+  padding: 150px 0px 40px 0px;
 }
 .map-t1{
   text-align:center;
   position:relative;
+}
+.map_comment{
+  margin-left: auto;
+  margin-right: auto;
+  width: 870px;
 }
 .map_but{
   display: flex;

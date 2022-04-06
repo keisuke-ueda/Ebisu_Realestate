@@ -9,7 +9,7 @@
 
 @section('content')
 
-    <div class="map-m">
+    <div class="map-m map_comment">
         <h1 class="gold-title-2 ft2 s24">現地案内図</h1>
         <div class="print_area">
             <div class="animation-1-zm map_m1">
