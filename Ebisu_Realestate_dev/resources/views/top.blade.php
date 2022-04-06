@@ -159,7 +159,7 @@
             <!-- Ebisu -->
             <div class="read_more_link d-flex justify-content-start w-100 align-items-auto" style="margin-bottom:128px;">
                 <div class="animation-0-zm h-100 picture_side ebisu_pic">
-                    <img src="{{ asset('/images/the ebisu photo1.png') }}" alt="サンプル画像" class=" w-100" style="object-fit: cover;">
+                    <img src="{{ asset('/images/the ebisu photo1.png') }}" alt="サンプル画像" class=" w-100" style="margin-left: auto;margin-right: auto;width: 755px;">
                 </div>
                 <div class="animation ebisu_col text_side ft2 s14">
                     <img class="d-block ebisu_img" src="{{ asset('/images/theebisu.svg') }}" alt="サンプル画像">
@@ -212,7 +212,11 @@
                     <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100 access_pic_img" style="height: auto; objet-fit:cover;">
                 </div>
                 <div class="text_side animation access_col ft2 s14">
+<<<<<<< HEAD
+                    <img class="d-block access_img w-75" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像" style="margin-left: auto;margin-right: auto;width: 755px;">
+=======
                     <img class="d-block access_img" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
+>>>>>>> d4c23255a55194990a17ab8cca878ecc54fa42ad
                     <p class="d-block mb-4 access_p" style="white-space:nowrap;">都心をもっと近くする、スピーディなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
                         渋谷、霞ヶ関、銀座へダイレクトに繋がることのできる日比谷線。<br>
@@ -275,13 +279,13 @@
 
             <div class="animation">
                 <div class="d-flex justify-content-center" style="margin: 60px 0 50px;">
-                    <button class="d-block copper_btn py-3" type="button" style="width:350px;">
+                    <button class="d-block copper_btn py-3" type="button" style="margin-left: auto;margin-right: auto;width: 960px;">
                         <a href="/entry" class="text-white mh-parts ft2 s19" style="text-decoration: none;">物件エントリー受付中</a>
                     </button>
                 </div>
-                <div class="d-flex justify-content-center ">
+                <div style="margin-left: auto;margin-right: auto;width: 870px;">
                     
-                    <p class="ft2 s11" style="white-space:nowrap;">
+                    <p class="ft2 s11" style="white-space:nowrap;margin-left: auto;margin-right: auto;width: 870px;">
                         ※1）恵比寿ガーデンプレイスまで徒歩4分(約260m)、ウエスティンホテル東京まで徒歩4分(約300m)<br>
                         ※2）総戸数21戸中12戸が角住戸により、57％超の角住戸率となります。<br>
                         ※3）全12台の駐車場は、大型SUV車・スポーツカーが3台駐車可能となります。また、1台分の屋外平置式シェアカーを含んでいます。<br>
