@@ -141,11 +141,11 @@
                 <div class="ft2 s14">
                     <table class="text-white 4 info_table mx-auto" style="width: 50vw;">
                         <tr>
-                            <td class="" scope="col" style="padding-bottom: 1.5625rem;">2022.4.15</td>
+                            <td class="" scope="col" style="padding-bottom: 1.5625rem;">2022.4.22</td>
                             <td class="" scope="col" style="padding-left: 3.4375rem;">ラ・アトレ恵比寿グランガーデン　ホームページ開設</td>
                         </tr>
                         <tr>
-                            <td class="" scope="col" style="padding: 1.5625rem 0;">2022.4.15</td>
+                            <td class="" scope="col" style="padding: 1.5625rem 0;">2022.4.22</td>
                             <td class="" scope="col" style="padding: 1.25rem 0px 1.5625rem 3.4375rem;">お住まいのアンケートを開設しました。(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
                         </tr>
                     </table>
@@ -163,7 +163,7 @@
                 </div>
                 <div class="animation ebisu_col text_side ft2 s14">
                     <img class="d-block ebisu_img" src="{{ asset('/images/theebisu.svg') }}" alt="サンプル画像">
-                    <p class="d-block ebisu_p" style="white-space:nowrap;">恵比寿、それも「恵比寿ガーデンプレイス」<br>
+                    <p class="d-block ebisu_p" style="white-space:nowrap; margin-top: 20px;">恵比寿、それも「恵比寿ガーデンプレイス」<br>
                         「ウエスティンホテル東京」を間近とする住宅地。<br>
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
                         多くを語らずとも本物を知る人を魅了するレジデンス。<br>
@@ -174,7 +174,7 @@
                     
                     <div style="width:80%">
                     <button class="d-block gold_btn read_more mx-auto" type="button">
-                        <a href="/concept" class="text-white mh-parts" style="text-decoration: none;">Read More</a>
+                        <a href="/concept" class="text-white mh-parts ft2" style="text-decoration: none;">Read More</a>
                     </button>
                     </div>
                 </div>
@@ -215,7 +215,7 @@
                 </div>
                 <div class="text_side animation access_col">
                     <img class="d-block access_img" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
-                    <p class="d-block mb-4 access_p ft2 s14" style="white-space:nowrap;">都心をもっと近くする、スピーディなアクセス。<br>
+                    <p class="d-block mb-4 access_p ft2 s14" style="white-space:nowrap; margin-top: 20px;">都心をもっと近くする、スピーディなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
                         六本木、霞ヶ関、銀座へダイレクトに繋がることのできる<br>
                         日比谷線。ここには、目的に合わせて、路線を<br>
@@ -224,7 +224,7 @@
                     <div class="gold_line mb-4 access_line"></div>
                     <div style="width:80%;">
                     <button class="mx-auto d-block gold_btn read_more" type="button">
-                        <a href="/access" class="text-white mh-parts" style="text-decoration: none;">Read More</a>
+                        <a href="/access" class="text-white mh-parts ft2" style="text-decoration: none; text-align:center;">Read More</a>
                     </button>
                     </div>
                 </div>
@@ -331,9 +331,9 @@
                 // var plan_p = $('.plan_p').height();
 
 
-                var ebisu_line = ebisu_pic - ebisu_img - ebisu_p - btn - 48
+                var ebisu_line = ebisu_pic - ebisu_img - ebisu_p - btn - 48 - 20
                 var location_line = location_pic - location_img - location_p - btn - 48
-                var access_line = access_pic - access_img - access_p - btn - 48
+                var access_line = access_pic - access_img - access_p - btn - 48 -20
                 var design_line = design_pic - design_img - design_p - btn  - 48
                 // var plan_line = plan_col - plan_img - plan_p - btn - 48
 
