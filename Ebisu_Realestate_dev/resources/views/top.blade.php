@@ -331,9 +331,9 @@
                 // var plan_p = $('.plan_p').height();
 
 
-                var ebisu_line = ebisu_pic - ebisu_img - ebisu_p - btn - 48
+                var ebisu_line = ebisu_pic - ebisu_img - ebisu_p - btn - 48 - 20
                 var location_line = location_pic - location_img - location_p - btn - 48
-                var access_line = access_pic - access_img - access_p - btn - 48
+                var access_line = access_pic - access_img - access_p - btn - 48 -20
                 var design_line = design_pic - design_img - design_p - btn  - 48
                 // var plan_line = plan_col - plan_img - plan_p - btn - 48
 
