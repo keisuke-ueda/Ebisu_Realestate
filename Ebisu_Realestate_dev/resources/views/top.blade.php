@@ -159,7 +159,7 @@
             <!-- Ebisu -->
             <div class="read_more_link d-flex justify-content-start w-100 align-items-auto" style="margin-bottom:128px;">
                 <div class="animation-0-zm h-100 picture_side ebisu_pic">
-                    <img src="{{ asset('/images/the ebisu photo1.png') }}" alt="サンプル画像" class=" w-100" style="margin-left: auto;margin-right: auto;width: 755px;">
+                    <img src="{{ asset('/images/the ebisu photo1.png') }}" alt="サンプル画像" class="w-100" style="margin-left: auto;margin-right: auto; width: 755px;">
                 </div>
                 <div class="animation ebisu_col text_side ft2 s14">
                     <img class="d-block ebisu_img" src="{{ asset('/images/theebisu.svg') }}" alt="サンプル画像">
@@ -211,18 +211,18 @@
             <div class="read_more_link d-flex justify-content-start align-items-auto w-100" style="margin-bottom: 130px;">
                 <div class="picture_side animation-0-zm access_pic h-100 d-flex flex-column">
                     <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100 access_pic_img" style="height: auto; objet-fit:cover; width: 755px;">
-                    <!-- <p class="s9 text-white text-end min_image_p d-inline">image</p> -->
+                    <p class="s9 text-white text-end min_image_p d-inline">image</p>
                 </div>
-                <div class="text_side animation access_col ft2 s14">
+                <div class="text_side animation access_col">
                     <img class="d-block access_img" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
-                    <p class="d-block mb-4 access_p" style="white-space:nowrap;">都心をもっと近くする、スピーディなアクセス。<br>
+                    <p class="d-block mb-4 access_p ft2 s14" style="white-space:nowrap;">都心をもっと近くする、スピーディなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
                         渋谷、霞ヶ関、銀座へダイレクトに繋がることのできる<br>
                         日比谷線。ここには、目的に合わせて、路線を<br>
                         使いこなせる自由がある。
                     </p>
                     <div class="gold_line mb-4 access_line"></div>
-                    <div style="width:80%">
+                    <div style="width:80%;">
                     <button class="mx-auto d-block gold_btn read_more" type="button">
                         <a href="/access" class="text-white mh-parts" style="text-decoration: none;">Read More</a>
                     </button>
