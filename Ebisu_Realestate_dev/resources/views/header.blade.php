@@ -23,7 +23,7 @@
 
       <div class="header_link ms-3">
         <div>&nbsp;</div>
-        <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark">NEW</p></div>
+        <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark" style="margin-left:5px;">NEW</p></div>
         <a href="/access" class="small mh-parts white_link s14" style="margin-left:5px;">ACCESS</a>
       </div>
 
