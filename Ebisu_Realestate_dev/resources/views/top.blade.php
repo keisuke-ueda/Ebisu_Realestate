@@ -141,11 +141,11 @@
                 <div class="ft2 s14">
                     <table class="text-white 4 info_table mx-auto" style="width: 50vw;">
                         <tr>
-                            <td class="" scope="col" style="padding-bottom: 1.5625rem;">2022.4.15</td>
+                            <td class="" scope="col" style="padding-bottom: 1.5625rem;">2022.4.22</td>
                             <td class="" scope="col" style="padding-left: 3.4375rem;">ラ・アトレ恵比寿グランガーデン　ホームページ開設</td>
                         </tr>
                         <tr>
-                            <td class="" scope="col" style="padding: 1.5625rem 0;">2022.4.15</td>
+                            <td class="" scope="col" style="padding: 1.5625rem 0;">2022.4.22</td>
                             <td class="" scope="col" style="padding: 1.25rem 0px 1.5625rem 3.4375rem;">お住まいのアンケートを開設しました。(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
                         </tr>
                     </table>
@@ -174,7 +174,7 @@
                     
                     <div style="width:80%">
                     <button class="d-block gold_btn read_more mx-auto" type="button">
-                        <a href="/concept" class="text-white mh-parts" style="text-decoration: none;">Read More</a>
+                        <a href="/concept" class="text-white mh-parts ft2" style="text-decoration: none;">Read More</a>
                     </button>
                     </div>
                 </div>
@@ -224,7 +224,7 @@
                     <div class="gold_line mb-4 access_line"></div>
                     <div style="width:80%;">
                     <button class="mx-auto d-block gold_btn read_more" type="button">
-                        <a href="/access" class="text-white mh-parts" style="text-decoration: none;">Read More</a>
+                        <a href="/access" class="text-white mh-parts ft2" style="text-decoration: none; text-align:center;">Read More</a>
                     </button>
                     </div>
                 </div>

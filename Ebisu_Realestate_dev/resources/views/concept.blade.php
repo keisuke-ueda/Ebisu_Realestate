@@ -68,7 +68,7 @@
 
     <div class="bg-white">
         <div class="bg-white text-dark mx-auto ft2" style="max-width: 1200px; padding:35px 40px 0 45px; margin-bottom:30px;">
-                <p class="text-center gold-2 s24" style="margin-bottom:35px;">恵比寿、丘の上の美しい風景へ</p>
+                <p class="text-center  s24" style="margin-bottom:35px;">恵比寿、丘の上の美しい風景へ</p>
                 <div class="d-flex justify-content-start align-items-center">
                     <div class="d-flex flex-column justify-content-center">
                         <p class="animation text-dark" style="margin-bottom:32px;"><span class="gold-2 s18">約26mの丘の上で上質な日常が始まる。</span></p>
@@ -80,7 +80,7 @@
                     </div>
                     <img class="animation-2-zm" style="width:70%;" src="{{ asset('/images/ebisupage_illustration.png') }}">
                 </div>
-                <p class="text-end s9 m-0 ft2" style="padding-bottom:5px;">高低差概念図は、国土地理院/GISMaps調べ<br>
+                <p class="text-end m-0 ft2" style="padding-bottom:5px; font-size: 9px;">高低差概念図は、国土地理院/GISMaps調べ<br>
                 ※掲載の高低差概念図の表現されている建物の高さ・形状・色等は実際とは異なります。周辺の道路・建物・街路樹などは一部簡略化しており、実際とは異なります。</p>
         </div>
     </div>
