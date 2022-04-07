@@ -408,6 +408,31 @@ video {
 .gold_line_bottom {
   border-bottom: 0.125rem solid #d6c88d;
 }
+
+.gold-title-4 {
+  display: flex;
+  align-items: center;
+}
+
+.gold-title-4::before,
+.gold-title-4::after {
+  content: '';
+  height: 2px;
+  /* background-color: #d6c88d; */
+  /* background-color: #ca4; */
+
+  background-color: #d09a58;
+  flex-grow: 1;
+}
+
+.gold-title-4::before {
+  margin-right: 60px;
+}
+
+.gold-title-4::after {
+  margin-left: 60px;
+}
+
 .read_more {
   width: 13.125rem;
   height: 3.75rem;

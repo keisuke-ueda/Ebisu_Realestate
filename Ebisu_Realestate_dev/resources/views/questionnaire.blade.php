@@ -38,7 +38,7 @@
                     style="width: 100%;">
                     <tbody>
                         <tr class="top">
-                            <td class="column1" style="width: 22%;"><label for="name"><span
+                            <td class="column1" style="width: 22%; padding-left: 1.5rem"><label for="name"><span
                                         class="badge badge-danger">必須</span>お名前</label>
                             </td>
                             <td class="column2" style="width: 120px;"></td>
@@ -53,7 +53,7 @@
                         </tr>
 
                         <tr>
-                            <td colspan="2"><label for="name"><span class="badge badge-danger">必須</span>フリガナ</label>
+                            <td style="padding-left: 1.5rem" colspan="2"><label for="name"><span class="badge badge-danger">必須</span>フリガナ</label>
                             </td>
                             <td>
                                 <input class="input" style="width: 30%;" type="text" name="sei_kana" data-charcheck="kana" placeholder="セイ"
@@ -65,7 +65,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><label for="name"><span class="badge badge-danger">必須</span>性別</label></td>
+                            <td style="padding-left: 1.5rem" colspan="2"><label for="name"><span class="badge badge-danger">必須</span>性別</label></td>
                             <td style="padding-top: 10px; padding-bottom: 10px;">
                                 <div class="s16"><input type="radio" name="gender" value="male" data-error_placement="#gender">男性
                                 </div>
@@ -75,7 +75,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><label for="name"><span class="badge badge-danger">必須</span>ご家族人数</label>
+                            <td style="padding-left: 1.5rem" colspan="2"><label for="name"><span class="badge badge-danger">必須</span>ご家族人数</label>
                             </td>
                             <td>
                                 <div><input type="text" style="width: 70px;" name="family_size" required data-error_placement="#family_size"
@@ -85,7 +85,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><label for="name" class="s14"><span class="badge badge-danger">必須</span>ご住所</label></th>
+                            <th style="padding-left: 1.5rem"><label for="name" class="s14"><span class="badge badge-danger">必須</span>ご住所</label></th>
                             <td colspan="2" style="padding-top: 10px; padding-bottom: 10px;">
                                 <table class="questionnaire-table-nest" style="width: 100%;">
                                     <tr rowspan="2">
@@ -147,7 +147,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><label for="name" class="s14"><span
+                            <td style="padding-left: 1.5rem" colspan="2"><label for="name" class="s14"><span
                                         class="badge badge-danger">必須</span>現在のお住まいの年数</label>
                             </td>
                             <td>
@@ -158,8 +158,9 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><label for="name" class="s14"><span class="badge badge-danger">必須</span>現在お住まいの住居形態<br>
-                                    ※該当するものを1つだけ選択してください。</label></td>
+                            <td style="padding-left: 1.5rem" colspan="2"><label for="name" class="s14"><span class="badge badge-danger">必須</span>現在お住まいの住居形態<br>
+                                    <p style="text-indent: 2.75rem; margin: 0;">※該当するものを1つだけ</p>
+                                       <p style="text-indent: 3.75rem; margin: 0;">選択してください。</p></label></td>
                             <td>
                                 <div class="s16"><input type="radio" name="housing_form"
                                         data-error_placement="#housing_form">分譲マンション
@@ -177,7 +178,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2" class="s14"><label for="name"><span class="badge badge-danger">必須</span>電話番号</label>
+                            <td style="padding-left: 1.5rem" colspan="2" class="s14"><label for="name"><span class="badge badge-danger">必須</span>電話番号</label>
                             </td>
                             <td>
                                 <input type="tel" name="phone_number" data-type="tel" name="電話番号"
@@ -187,7 +188,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2">
+                            <td style="padding-left: 1.5rem" colspan="2">
                                 <div><label for="name" class="s14"><span class="badge badge-danger">必須</span>メールアドレス</label></div>
                             </td>
                             <td>
@@ -200,7 +201,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><label for="name" class="s14"><span class="badge badge-danger">必須</span>勤務先名</label>
+                            <td style="padding-left: 1.5rem" colspan="2"><label for="name" class="s14"><span class="badge badge-danger">必須</span>勤務先名</label>
                             </td>
                             <td>
                                 <div><input type="text" name="office_name" required data-error_placement="#office_name">
@@ -209,7 +210,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><label for="name"><span class="badge badge-danger">必須</span>勤務先ご住所</label></th>
+                            <th style="padding-left: 1.5rem"><label for="name"><span class="badge badge-danger">必須</span>勤務先ご住所</label></th>
                             <td colspan="2">
                                 <table class="questionnaire-table-nest" style="width: 100%;">
                                     <tr rowspan="2">
@@ -286,7 +287,7 @@
                 <div class="gold_line_bottom  pb-25px ft2 s14">
                     <div class="questionnaire questionnaire1">
                         <p><span class="question-num mr-20px">1</span>仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。</p>
-                        <p class="indent-3 pb-2">&emsp;&emsp;(1つだけ回答)</p>
+                        <p style="text-indent: 3rem;">(1つだけ回答)</p>
                         <ul class="s16">
                             <li><input type="checkbox" id="box_1" name="q1[]" value="1"
                                     onclick="click_cb(1, 'questionnaire1');">一戸建てにこだわる</li><br>
@@ -401,7 +402,7 @@
                     <div class="questionnaire questionnaire3_1 ft2 s14">
                         <p><span class="question-num mr-20px">3</span>仮に今後、マンション購入を検討する場合に希望される間取りと広さをお聞かせください。<br>
                         </p>
-                        <p class="indent-3 pb-2">(それぞれ1つ回答)</p>
+                        <p style="text-indent: 3rem;">(それぞれ1つ回答)</p>
                         <p class="s14">【ご希望の間取り】</p>
                         <ul class="s16">
                             <li><input type="checkbox" name="q3_1[]" value="1"
@@ -448,7 +449,7 @@
                                 class="question-num mr-20px">4</span>新築分譲マンション・分譲リノベーションマンションを購入するとした場合についてお聞かせください。<br>
 
                         </p>
-                        <p class="indent-3 pb-2 s14">(1つだけ回答)</p>
+                        <p style="text-indent: 3rem;">(1つだけ回答)</p>
                         <ul class="s16">
                             <li><input type="checkbox" value="1" name="q4[]"
                                     onclick="click_cb(1, 'questionnaire4_1');">新築分譲マンションのみ
@@ -470,7 +471,7 @@
                         <p>
                             <span class="question-num mr-20px">5</span>仮に今後、新たに住宅を検討するとした場合の購入エリアについてお聞かせください。<br>
                         </p>
-                        <p class="indent-3 pb-2">(複数回答可)</p>
+                        <p style="text-indent: 3rem;">(複数回答可)</p>
                         <p class="s14">【渋谷区】</p>
                         <ul class="s16">
                             <li><input type="checkbox" name="q5_1[]" value="1">恵比寿2丁目</li>
@@ -524,7 +525,7 @@
                     <div class="questionnaire questionnaire6_1">
                         <p><span class="question-num mr-20px ft2 s14">6</span>仮に上記エリアで新規分譲マンションまたは分譲リノベーションマンションを<br>
                         </p>
-                        <p class="indent-3 pb-2 s14">
+                        <p class="s14" style="text-indent: 3rem;">
                             検討する場合、どの住戸を検討しますか。
                         </p>
                         <ul class="s16">
@@ -581,7 +582,7 @@
 
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire10 ft2 s14">
-                        <p class="pb-2"><span class="question-num mr-20px-2">10</span>ご家族全体の年収をお聞かせください。</p>
+                        <p class="pb-2"><span class="question-num-2 mr-20px-2">10</span>ご家族全体の年収をお聞かせください。</p>
                         <ul class="s16">
                             <li><input type="checkbox" name="q10[]" value="1">～1,000万円</li>
                             <li><input type="checkbox" name="q10[]" value="2">1,001万円～1,500万円</li>
@@ -594,7 +595,7 @@
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire11 ft2 s14">
                         <p class="pb-2"><span
-                                class="question-num mr-20px-2">11</span>目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。
+                                class="question-num-2 mr-20px-2">11</span>目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。
                         </p>
                         <ul class="s16">
                             <li><input type="checkbox" name="q11" value="1">ある</li><br>
@@ -605,7 +606,7 @@
 
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire12 ft2 s14">
-                        <p class="pb-2"><span class="question-num mr-20px-2">12</span>現在の住宅から買い替え予定はありますか。</p>
+                        <p class="pb-2"><span class="question-num-2 mr-20px-2">12</span>現在の住宅から買い替え予定はありますか。</p>
                         <ul class="s16">
                             <li><input type="checkbox" name="q12_1[]" value="1">ある<input type="text" name="q12_2"
                                     class="mx-2 w-25">年以内</li><br><br>
@@ -616,7 +617,7 @@
                 <div class="gold_line_bottom pt-30px">
                     <div class="questionnaire questionnaire13 ft2 s14">
                         <div>
-                            <p><span class="question-num mr-20px-2">13</span>現在の住宅購入をする場合の予算はどのぐらいですか。</p>
+                            <p><span class="question-num-2 mr-20px-2">13</span>現在の住宅購入をする場合の予算はどのぐらいですか。</p>
                             <p class="indent-1 s16"><input type="text" name="q13" class="me-2">万円</p>
                         </div>
                     </div>
