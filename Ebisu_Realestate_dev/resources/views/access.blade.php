@@ -158,7 +158,7 @@
     <div class="animation d-flex justify-content-start align-items-start" style="margin-bottom:30px;">
         <div class="d-flex align-items-center animation-0-zm" style="width:30%; margin-top:30px;">
             <img class="w-75" src="{{ asset('/images/access_taxi.png') }}">
-            <img class="w-25" src="{{ asset('/images/access_taxi_mono.png') }}" style="margin-left:5px;">
+            <img class="w-25" src="{{ asset('/images/taxi.svg') }}" style="margin-left:5px;">
         </div>
         <div class="animation ft2 s10" style="margin-left:10px;">
             <table class="taxi_table text-center" style="margin-bottom:22px;">
