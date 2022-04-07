@@ -156,7 +156,7 @@
         
     <!-- タクシー情報 -->
     <div class="animation d-flex justify-content-start align-items-start" style="margin-bottom:30px;">
-        <div class="d-flex align-items-center animation-0-zm" style="width:28%; margin-top:30px;">
+        <div class="d-flex align-items-center animation-0-zm" style="width:30%; margin-top:30px;">
             <img class="w-75" src="{{ asset('/images/access_taxi.png') }}">
             <img class="w-25" src="{{ asset('/images/access_taxi_mono.png') }}" style="margin-left:5px;">
         </div>
@@ -174,7 +174,7 @@
                 </tr>
                 <tr class="border-bottom">
                     <td class="text-start s11"><span class="s16">品 川 駅 </span>から</td>
-                    <td style="padding:10px 0 10px;"><span class="">SHINAGAWA</span></td>
+                    <td style="padding:8px 0 8px;"><span class="s11">SHINAGAWA</span></td>
                     <td><span class="s16 border-start" style="padding-left:30px;">3.9</span>km</td>
                     <td><span class="s16">1,700</span>円</td>
                     <td><span class="s16">14</span>分</td>
@@ -184,7 +184,7 @@
                 </tr>
                 <tr class="border-bottom">
                     <td class="text-start s12"><span class="s16">六 本 木 駅 </span>から</td>
-                    <td style="padding-right:0;"><span class="s12">ROPPONGI</span></td>
+                    <td style="padding:8px 0 8px;"><span class="s11">ROPPONGI</span></td>
                     <td><span class="s16 border-start" style="padding-left:30px;">3.5</span>km</td>
                     <td><span class="s16">1,540</span>円</td>
                     <td><span class="s16">12</span>分</td>
@@ -194,7 +194,7 @@
                 </tr>
                 <tr class="border-bottom">
                     <td class="text-start s12"><span class="s16">銀 座 駅 </span>から</td>
-                    <td style="padding-right:0;"><span class="s12">GINZA</span></td>
+                    <td style="padding:8px 0 8px;"><span class="s11">GINZA</span></td>
                     <td><span class="s16 border-start" style="padding-left:30px;">6.9</span>km</td>
                     <td><span class="s16">2,980</span>円</td>
                     <td><span class="s16">24</span>分</td>
@@ -204,7 +204,7 @@
                 </tr>
                 <tr class="border-bottom">
                     <td class="text-start s12"><span class="s16">東 京 駅 </span>から</td>
-                    <td style="padding-right:0;"><span class="s12">TOKYO</span></td>
+                    <td style="padding:8px 0 8px;"><span class="s11">TOKYO</span></td>
                     <td><span class="s16 border-start" style="padding-left:30px;">7.9</span>km</td>
                     <td><span class="s16">3,380</span>円</td>
                     <td><span class="s16">26</span>分</td>
