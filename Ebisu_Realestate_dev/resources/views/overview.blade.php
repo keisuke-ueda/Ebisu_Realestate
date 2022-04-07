@@ -4,7 +4,9 @@
 
 <!-- 物件概要ページ -->
 <div class="ov-m">
-    <h1 class="gold-title-2 ft4 s24">OUTLINE</h1>
+    <div style="margin: 0 200px;">
+        <h1 class="gold-title-4 ft4 s24">OUTLINE</h1>
+    </div>
     <h2 class="ft2 s14 ov-t1">物件概要</h2>
     <div class="ft2 s13">
         <table class="ov_gold_table animation ">

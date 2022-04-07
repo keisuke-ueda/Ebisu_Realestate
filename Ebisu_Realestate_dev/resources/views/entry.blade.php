@@ -59,8 +59,8 @@
               <div><label for="name"><span class="badge badge-danger s11">必須</span>メールアドレス</label></div>
             </td>
             <td style="padding-top: 10px; padding-bottom: 10px;">
-              <div><input style="width: 20%;" type="text"><span class="s10">年</span><input style="width: 20%;" type="text"><span class="s10">月</span><input style="width: 20%;"
-                  type="text"><span class="s10">日</span></div>
+              <div><input style="width: 20%;" type="text"><span class="s10"> 年 </span><input style="width: 20%;" type="text"><span class="s10"> 月 </span><input style="width: 20%;"
+                  type="text"><span class="s10"> 日 </span></div>
               <p class="mt-2 mb-0 s12">※半角英数で入力してください</p>
               <div><input class="w-100" type="email" name="email" data-error_placement="#email"></div>
               <div class="validation_message" id="email"></div>
@@ -80,9 +80,9 @@
                     <label for="name" class="s14">郵便番号<span class="badge badge-danger s11">必須</span></label>
                   </th>
                   <td>
-                    <input type="text" name="home_post_code" data-error_placement="#home_post_code">
+                    <input type="text" style="width: 60px;" name="home_post_code" data-error_placement="#home_post_code"> - <input type="text" style="width: 100px;">
                     <div class="validation-message" id="home_post_code"></div>
-                    <p style="margin: 0;" class="s12">※半角数字(ハイフンなし)で入力してください</p>
+                    <p style="margin: 0;" class="s12">※半角数字で入力してください</p>
                   </td>
                 </tr>
                 <tr>
@@ -229,7 +229,7 @@
           <tr>
             <td colspan="2"><label for="name"><span class="badge"></span>　　　ご家族人数</label></td>
             <td>
-              <div class="s11"><input type="text" style="width: 70px;" name="family_size" required data-error_placement="#family_size">人
+              <div class="s11"><input type="text" style="width: 70px;" name="family_size" required data-error_placement="#family_size"> 人
               </div>
               <div class="validation-message" id="family_size"></div>
             </td>
@@ -275,7 +275,7 @@
             </td>
           </tr>
           <tr>
-            <td colspan="2"><label for="name"><span class="badge badge-danger">必須</span>このHPをどこでお知りになりましたか？</label></td>
+            <td colspan="2"><label for="name"><span class="badge badge-danger">必須</span>このHPをどこでお知りに<br>　　　 なりましたか？</label></td>
             <td style="padding-top: 10px; padding-bottom: 10px;">
               <div class="s16"><input type="radio">ラ・アトレホームページ</div>
               <div class="s16"><input type="radio">ダイレクトメール</div>
@@ -286,7 +286,7 @@
         </tbody>
       </table>
       <div class="animation mt-20px ft2 s16">
-        <p style="margin-bottom: 10px; margin-left: 20px;"><label for="name"><span class="badge badge-danger">必須</span></label>
+        <p style="margin-bottom: 10px; margin-left: 11px;"><label for="name"><span class="badge badge-danger">必須</span></label>
           <input type="checkbox">個人情報の取り扱いについて同意の方はチェックを入れてください。
         </p>
 
