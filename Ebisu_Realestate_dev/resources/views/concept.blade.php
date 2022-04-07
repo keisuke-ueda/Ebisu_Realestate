@@ -80,8 +80,10 @@
                     </div>
                     <img class="animation-2-zm" style="width:70%;" src="{{ asset('/images/ebisupage_illustration.png') }}">
                 </div>
-                <p class="text-end m-0 ft2" style="padding-bottom:5px; font-size: 9px;">高低差概念図は、国土地理院/GISMaps調べ<br>
-                ※掲載の高低差概念図の表現されている建物の高さ・形状・色等は実際とは異なります。周辺の道路・建物・街路樹などは一部簡略化しており、実際とは異なります。</p>
+                <div class="" style="padding-bottom:5px;">
+                    <p class="text-end m-0 ft2 chrome s9">高低差概念図は、国土地理院/GISMaps調べ<br>
+                    ※掲載の高低差概念図の表現されている建物の高さ・形状・色等は実際とは異なります。周辺の道路・建物・街路樹などは一部簡略化しており、実際とは異なります。</p>
+                </div>
         </div>
     </div>
 </div>

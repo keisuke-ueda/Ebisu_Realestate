@@ -35,6 +35,7 @@
 
     <!-- JSファイル読み込み -->
     <script type="text/javascript" src="{{ asset('/js/layout.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/css_browser_selector.js') }}"></script>
 
 </head>
 
