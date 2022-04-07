@@ -52,7 +52,7 @@
     <!-- トップへ戻るボタン -->
     <div class="w-100 d-flex justify-content-center py-5" style="background-color:#3e3a39;">
         <a href="#" class="d-inline-block mx-auto my-0 text-white" style="text-decoration: none;">
-            <p class="text-center m-0 pt12 ft2"><span class="arrow-top d-inline-block mb-1">∧</span><br>TOPへ戻る</p>
+            <p class="text-center m-0 s12 ft2"><span class="arrow-top d-inline-block mb-1">∧</span><br>TOPへ戻る</p>
         </a>
     </div>
 

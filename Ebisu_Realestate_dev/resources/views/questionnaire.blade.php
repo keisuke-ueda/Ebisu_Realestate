@@ -10,7 +10,7 @@
 ?>
 <div id="questionnaire" style="margin: 150px 200px 0px;" class="pb-40px">
     <div class="">
-        <h1 class="p-title gold-title-2 text-center ft2 s24" style="margin-bottom: 50px;">お住いについてのアンケート</h1>
+        <h1 class="p-title gold-title-2 text-center ft2 s24" style="margin-bottom: 50px;">お住まいについてのアンケート</h1>
         <div class="pl-120px pr-120px">
             <img class="pb-40px img1" src="{{ asset('/images/お住まいアンケート1.png') }}">
         </div>
@@ -31,7 +31,7 @@
             <p class="m-none">下記のフォームに必要な項目を入力のうえ、「送信」ボタンを押してください。</p>
             <p class="m-none"><span class="badge badge-danger">必須</span>は必須項目です</p>
         </div>
-        <form class="mailformpro" method="POST" action="{{ route('form.post') }}">
+        <form class="mailformpro" metdod="POST" action="{{ route('form.post') }}">
             @csrf
             <div style="padding-left: 20px; padding-right: 20px;">
                 <table class="gold-table-questionnaire animation ft2 s14"
@@ -85,13 +85,13 @@
                             </td>
                         </tr>
                         <tr>
-                            <th style="padding-left: 1.5rem"><label for="name" class="s14"><span class="badge badge-danger">必須</span>ご住所</label></th>
-                            <td colspan="2" style="padding-top: 10px; padding-bottom: 10px;">
-                                <table class="questionnaire-table-nest" style="width: 100%;">
+                            <td style="padding-left: 1.5rem"><label for="name" class="s14 ft2"><span class="badge badge-danger">必須</span>ご住所</label></td>
+                            <td colspan="2" style="padding-top: 10px; padding-bottom: 10px;" class="ft2">
+                                <table class="questionnaire-table-nest ft2" style="width: 100%;">
                                     <tr rowspan="2">
-                                        <th valign="top" style="width: 120px;">
+                                        <td valign="top" style="width: 120px;">
                                             <label for="name" class="s14">郵便番号<span class="badge badge-danger">必須</span></label>
-                                        </th>
+                                        </td>
                                         <td>
                                             <input type="text" style="width: 60px;" name="home_post_code"
                                                 data-error_placement="#home_post_code"> - <input type="text" style="width: 100px;">
@@ -100,9 +100,9 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th>
+                                        <td>
                                             <label for="name" class="s14">都道府県<span class="badge badge-danger">必須</span></label>
-                                        </th>
+                                        </td>
                                         <td class="py-1">
                                             <select name="home_prefectures" class="s11">
                                                 <option value="">選択</option>
@@ -116,9 +116,9 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th>
+                                        <td>
                                             <label for="name" class="s14">市区町村<span class="badge badge-danger">必須</span></label>
-                                        </th>
+                                        </td>
                                         <td class="py-1">
                                             <input type="text" style="width: 250px;" name="home_manicipalities"
                                                 data-error_placement="#home_manicipalities">
@@ -126,9 +126,9 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th>
+                                        <td>
                                             <label for="name" class="s14">丁目番地<span class="badge badge-danger">必須</span></label>
-                                        </th>
+                                        </td>
                                         <td class="py-1">
                                             <input type="text" style="width: 250px;"  name="home_chome_address"
                                                 data-error_placement="#home_chome_address">
@@ -136,9 +136,9 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th>
+                                        <td>
                                             <label for="name" class="s14">建物名</label>
-                                        </th>
+                                        </td>
                                         <td class="py-1">
                                             <input type="text" style="width: 250px;"  name="home_building_name">
                                         </td>
@@ -210,13 +210,13 @@
                             </td>
                         </tr>
                         <tr>
-                            <th style="padding-left: 1.5rem"><label for="name"><span class="badge badge-danger">必須</span>勤務先ご住所</label></th>
+                            <td style="padding-left: 1.5rem" class="ft2"><label for="name"><span class="badge badge-danger">必須</span>勤務先ご住所</label></td>
                             <td colspan="2">
-                                <table class="questionnaire-table-nest" style="width: 100%;">
+                                <table class="questionnaire-table-nest ft2" style="width: 100%;">
                                     <tr rowspan="2">
-                                        <th style="width: 120px;" valign="top" class="s16">
-                                            <label for="name" class="s14">郵便番号<span class="badge badge-danger">必須</span></label>
-                                        </th>
+                                        <td style="width: 120px;" valign="top" class="s16">
+                                            <label for="name" class="s14 ft2">郵便番号<span class="badge badge-danger">必須</span></label>
+                                        </td>
                                         <td>
                                             <input type="text" style="width: 60px;" name="work_post_code"
                                                 data-error_placement="#work_post_code"> - <input style="width: 100px;">
@@ -225,9 +225,9 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th>
-                                            <label for="name" class="s14">都道府県<span class="badge badge-danger">必須</span></label>
-                                        </th>
+                                        <td>
+                                            <label for="name" class="s14 ft2">都道府県<span class="badge badge-danger">必須</span></label>
+                                        </td>
                                         <td class="py-1">
                                             <select name="work_prefectures" class="s11">
                                                 <option value="">選択</option>
@@ -241,9 +241,9 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th>
-                                            <label for="name" class="s14">市区町村<span class="badge badge-danger">必須</span></label>
-                                        </th>
+                                        <td>
+                                            <label for="name" class="s14 ft2"><span class="s14 ft2">市区町村</span><span class="badge badge-danger">必須</span></label>
+                                        </td>
                                         <td class="py-1">
                                             <input type="text" style="width: 250px;" name="work_manicipalities"
                                                 data-error_placement="#work_manicipalities">
@@ -251,9 +251,9 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th>
-                                            <label for="name" class="s14">丁目番地<span class="badge badge-danger">必須</span></label>
-                                        </th>
+                                        <td>
+                                            <label for="name" class="s14 ft2">丁目番地<span class="badge badge-danger">必須</span></label>
+                                        </td>
                                         <td class="py-1">
                                             <input type="text" style="width: 250px;" name="work_chome_address"
                                                 data-error_placement="#work_chome_address">
@@ -261,9 +261,9 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th>
+                                        <td>
                                             <label for="name" class="s14">建物名</label>
-                                        </th>
+                                        </td>
                                         <td class="py-1">
                                             <input type="text" style="width: 250px;" name="work_building_name">
                                         </td>
@@ -282,12 +282,12 @@
             </div>
 
             <div class="mt-2 animation ft2 s16">
-                <p class="indent-1 mt-20px">※アンケート項目すべてにご協力いただいた方に、もれなくAmazonギフトカードを進呈いたします。</p>
-                <p class="indent-1 mb-45px">※アンケートはすべて必須項目になります。</p>
+                <p class="indent-1 mt-20px mb-45px">※アンケート項目すべてにご協力いただいた方に、もれなくAmazonギフトカードを進呈いたします。<br>※アンケートはすべて必須項目になります。</p>
+                <!-- <p class="indent-1 mb-45px">※アンケートはすべて必須項目になります。</p> -->
                 <div class="gold_line_bottom  pb-25px ft2 s14">
                     <div class="questionnaire questionnaire1">
-                        <p><span class="question-num mr-20px">1</span>仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。</p>
-                        <p style="text-indent: 3rem;">(1つだけ回答)</p>
+                        <p><span class="question-num mr-20px">1</span>仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。(1つだけ回答)</p>
+                        <!-- <p style="text-indent: 3rem;"></p> -->
                         <ul class="s16">
                             <li><input type="checkbox" id="box_1" name="q1[]" value="1"
                                     onclick="click_cb(1, 'questionnaire1');">一戸建てにこだわる</li><br>
@@ -300,7 +300,7 @@
                 </div>
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire2_1">
-                        <p class="pb-2"><span class="question-num mr-20px ft2 s14">2</span>あなたがお住まいに求める条件をお聞かせください。(それぞれ3つ回答)
+                        <p class="pb-2 ft2 s14"><span class="question-num mr-20px">2</span>あなたがお住まいに求める条件をお聞かせください。(それぞれ3つ回答)
                         </p>
                         <p class="s14">【駅名】</p>
                         <ul class="s16">
@@ -522,7 +522,7 @@
                 </div>
 
                 <div class="gold_line_bottom pb-25px pt-30px">
-                    <div class="questionnaire questionnaire6_1">
+                    <div class="questionnaire questionnaire6_1 ft2 s14">
                         <p><span class="question-num mr-20px ft2 s14">6</span>仮に上記エリアで新規分譲マンションまたは分譲リノベーションマンションを<br>
                         </p>
                         <p class="s14" style="text-indent: 3rem;">
@@ -597,7 +597,7 @@
                         <p class="pb-2"><span
                                 class="question-num-2 mr-20px-2">11</span>目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。
                         </p>
-                        <ul class="s16">
+                        <ul class="s14">
                             <li><input type="checkbox" name="q11" value="1">ある</li><br>
                             <li><input type="checkbox" name="q11" value="2">ない</li>
                         </ul>
@@ -607,9 +607,8 @@
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire12 ft2 s14">
                         <p class="pb-2"><span class="question-num-2 mr-20px-2">12</span>現在の住宅から買い替え予定はありますか。</p>
-                        <ul class="s16">
-                            <li><input type="checkbox" name="q12_1[]" value="1">ある<input type="text" name="q12_2"
-                                    class="mx-2 w-25">年以内</li><br><br>
+                        <ul class="s14">
+                            <li><input type="checkbox" name="q12_1[]" value="1">ある<input type="text" name="q12_2" class="mx-2 w-25">年以内</li><br>
                             <li><input type="checkbox" name="q12_1[]" value="2">ない</li>
                         </ul>
                     </div>
@@ -636,7 +635,7 @@
             ※ご回答内容につきましては、ご回答を集計処理・保管をいたしますので、皆様にご迷惑をおかけすることは一切ございませんことを、確約させていただきます。<br>
             &emsp;忌憚のないご意見を頂戴できましたら、幸いでございます。<br>
             ※ご提供いただきました個人情報については、アンケート謝礼送付、本エリアでの物件情報をお送りするために利用いたします。<br>
-            ※当社は、「個人情報の保護に関する法令、国が定める指針」その他の規範を尊重・遵守し、個人情報の適正な取り扱いと保護に努めます。<br>
+            ※当社は、個人情報の保護に関する法令、国が定める指針その他の規範を尊重・遵守し、個人情報の適正な取り扱いと保護に努めます。<br>
             &emsp;当社の「個人情報保護方針」につきましては、https://lattrait.co.jp/privacy/をご覧ください。<br>
             ※アンケートにご協力いただいた方は、今後販売する本プロジェクトへの優先的なご案内をさせていただく際にも利用させていただきます。<br>
             <調査主体・調査実施>株式会社ラ・アトレ<アンケート集計・調査分析>株式会社アドバンスクリエイティブ
