@@ -129,7 +129,7 @@
                     <div class="border-gold-2 mx-auto d-inline-block" style="padding: 2.5rem;">
                         <p class="text-center ft2 s16" style="line-height:2;"><span class="pb-1" style="border-bottom:1px solid white;">アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
                         <div class="" style="width: 29.2vw; height: 4.17vw; margin: 3.125rem auto 0;">
-                            <button type="submit" class="gold_btn w-100 h-100 mh-parts" ><a href="/questionnaire" class="text-white ft2 s20" style="text-decoration:none;">アンケートはこちら</a></button>
+                            <button type="submit" class="gold_btn w-100 h-100" ><a href="/questionnaire" class="text-white ft2 s20 mh-parts" style="text-decoration:none;">アンケートはこちら</a></button>
                         </div>
                     </div>
                 </div>
@@ -172,8 +172,8 @@
                     </p>
                     <div class="gold_line ebisu_line"></div>
                     
-                    <div style="width:80%">
-                    <button class="d-block gold_btn read_more mx-auto" type="button">
+                    <div style="width:60%">
+                    <button class="d-block gold_btn read_more mx-auto" type="button" style="line-height:100%;">
                         <a href="/concept" class="text-white mh-parts ft2" style="text-decoration: none;">Read More</a>
                     </button>
                     </div>
@@ -213,17 +213,17 @@
                     <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100 access_pic_img" style="">
                     <p class="s9 text-white text-end min_image_p d-inline">image</p>
                 </div>
-                <div class="text_side animation access_col">
+                <div class="text_side animation access_col s14">
                     <img class="d-block access_img" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
-                    <p class="d-block mb-4 access_p ft2 s14" style="white-space:nowrap; margin-top: 20px;">都心をもっと近くする、スピーディなアクセス。<br>
+                    <p class="d-block mb-4 access_p ft2" style="white-space:nowrap; margin-top: 20px;">都心をもっと近くする、スピーディなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
                         六本木、霞ヶ関、銀座へダイレクトに繋がることのできる<br>
                         日比谷線。ここには、目的に合わせて、路線を<br>
                         使いこなせる自由がある。
                     </p>
                     <div class="gold_line mb-4 access_line"></div>
-                    <div style="width:80%;">
-                    <button class="mx-auto d-block gold_btn read_more" type="button">
+                    <div style="width:60%;">
+                    <button class="mx-auto d-block gold_btn read_more" type="button" style="line-height:100%;">
                         <a href="/access" class="text-white mh-parts ft2" style="text-decoration: none; text-align:center;">Read More</a>
                     </button>
                     </div>
