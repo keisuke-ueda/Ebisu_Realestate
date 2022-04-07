@@ -329,6 +329,7 @@ button {
 /* トップページ */
 .first_view {
   position: relative;
+  background-color: #000;
 }
 
 video {
@@ -454,13 +455,13 @@ video {
   /* margin-right: 27px; */
 }
 .ebisu_img {
-  width: 80%;
+  width: 18.75vw;
 }
 .ebisu_p {
 
 }
 .ebisu_line {
-  width:40%;
+  width:30%;
 }
 
 /* LOCATIONリンク */
@@ -489,13 +490,13 @@ video {
   /* padding-right: 18px; */
 }
 .access_img {
-  width: 85%;
+  width: 23.17vw;
 }
 .access_p {
 
 }
 .access_line {
-  width:40%;
+  width:30%;
 }
 
 .design_col {
