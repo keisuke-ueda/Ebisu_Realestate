@@ -72,7 +72,7 @@
                 <div class="d-flex justify-content-start align-items-center">
                     <div class="d-flex flex-column justify-content-center">
                         <p class="animation text-dark" style="margin-bottom:32px;"><span class="gold-2 s18">約26mの丘の上で上質な日常が始まる。</span></p>
-                        <p class="animation text-dark s14" style="margin:0; line-height: 1.5;"> 恵比寿の丘の上。<br>
+                        <p class="animation text-dark s14" style="margin-bottom:50px; line-height: 1.5; white-space:nowrap;"> 恵比寿の丘の上。<br>
                             都心でありながら、都心の喧騒を離れ、様々な安らぎと<br>
                             恵比寿、目黒の2駅を使いこなせる立地でありながら、<br>
                             緩やかな時が流れる緑に囲まれた閑静な邸宅地。<br>

@@ -155,61 +155,61 @@
     <p class="gold-2 animation ft2 s18" style="margin:65px 0 20px;">都心の様々な要所へ、タクシーでの移動にも優れたロケーションです。</p>
         
     <!-- タクシー情報 -->
-    <div class="animation d-flex align-items-start" style="margin-bottom:30px;">
-        <div class="d-flex align-items-center animation-0-zm w-25" style="margin-top:30px;">
+    <div class="animation d-flex justify-content-start align-items-start" style="margin-bottom:30px;">
+        <div class="d-flex align-items-center animation-0-zm" style="width:28%; margin-top:30px;">
             <img class="w-75" src="{{ asset('/images/access_taxi.png') }}">
-            <img class="w-25" src="{{ asset('/images/access_taxi_mono.png') }}">
+            <img class="w-25" src="{{ asset('/images/access_taxi_mono.png') }}" style="margin-left:5px;">
         </div>
-        <div class="animation ft2 s14">
+        <div class="animation ft2 s10" style="margin-left:10px;">
             <table class="taxi_table text-center" style="margin-bottom:22px;">
                 <tr class="border-bottom">
                     <td></td>
                     <td></td>
-                    <td class="" style="padding:0 0 9px;">距離</td>
-                    <td style="padding:0 0 9px;">日中料金</td>
-                    <td style="padding:0 0 9px;">所要時間</td>
-                    <td style="padding:0 0 9px;">深夜料金</td>
-                    <td class="" style="padding:0 0 9px;">所要時間</td>
-                    <td style="padding:0 0 9px;">乗車場所</td>
+                    <td class="s12" style="padding:0 0 9px 30px;">距離</td>
+                    <td class="s12" style="padding:0 0 9px;">日中料金</td>
+                    <td class="s12" style="padding:0 0 9px;">所要時間</td>
+                    <td class="s12" style="padding:0 0 9px;">深夜料金</td>
+                    <td class="s12" style="padding:0 30px 9px 0;">所要時間</td>
+                    <td class="s12" style="padding:0 0 9px;">乗車場所</td>
                 </tr>
                 <tr class="border-bottom">
-                    <td class="text-start s12"><span class="s20">品川駅</span>から</td>
-                    <td><span class="s12">SHINAGAWA</span></td>
-                    <td><span class="s20 border-start">3.9</span>km</td>
-                    <td><span class="s20">1,700</span>円</td>
-                    <td><span class="s20">14</span>分</td>
-                    <td><span class="s20">2,020</span>円</td>
-                    <td><span class="s20">14</span>分<span class="s20 border-end"></span></td>
+                    <td class="text-start s11"><span class="s16">品 川 駅 </span>から</td>
+                    <td style="padding:10px 0 10px;"><span class="">SHINAGAWA</span></td>
+                    <td><span class="s16 border-start" style="padding-left:30px;">3.9</span>km</td>
+                    <td><span class="s16">1,700</span>円</td>
+                    <td><span class="s16">14</span>分</td>
+                    <td><span class="s16">2,020</span>円</td>
+                    <td><span class="s16">14</span>分<span class="s16 border-end" style="padding-left:30px;"></span></td>
                     <td>(高輪口より乗車)</td>
                 </tr>
                 <tr class="border-bottom">
-                    <td class="text-start s12"><span class="s20">六本木駅</span>から</td>
-                    <td><span class="s12">ROPPONGI</span></td>
-                    <td><span class="s20 border-start">3.5</span>km</td>
-                    <td><span class="s20">1,540</span>円</td>
-                    <td><span class="s20">12</span>分</td>
-                    <td><span class="s20">1,860</span>円</td>
-                    <td><span class="s20">12</span>分<span class="s20 border-end pe-4"></span></td>
+                    <td class="text-start s12"><span class="s16">六 本 木 駅 </span>から</td>
+                    <td style="padding-right:0;"><span class="s12">ROPPONGI</span></td>
+                    <td><span class="s16 border-start" style="padding-left:30px;">3.5</span>km</td>
+                    <td><span class="s16">1,540</span>円</td>
+                    <td><span class="s16">12</span>分</td>
+                    <td><span class="s16">1,860</span>円</td>
+                    <td><span class="s16">12</span>分<span class="s16 border-end" style="padding-left:30px;"></span></td>
                     <td>(六本木交差点より乗車)</td>
                 </tr>
                 <tr class="border-bottom">
-                    <td class="text-start s12"><span class="s20">銀座駅</span>から</td>
-                    <td><span class="s12">GINZA</span></td>
-                    <td><span class="s20 border-start">6.9</span>km</td>
-                    <td><span class="s20">2,980</span>円</td>
-                    <td><span class="s20">24</span>分</td>
-                    <td><span class="s20">3,540</span>円</td>
-                    <td><span class="s20">23</span>分<span class="s20 border-end"></span></td>
+                    <td class="text-start s12"><span class="s16">銀 座 駅 </span>から</td>
+                    <td style="padding-right:0;"><span class="s12">GINZA</span></td>
+                    <td><span class="s16 border-start" style="padding-left:30px;">6.9</span>km</td>
+                    <td><span class="s16">2,980</span>円</td>
+                    <td><span class="s16">24</span>分</td>
+                    <td><span class="s16">3,540</span>円</td>
+                    <td><span class="s16">23</span>分<span class="s16 border-end" style="padding-left:30px;"></span></td>
                     <td>(銀座4丁目交差点より乗車)</td>
                 </tr>
                 <tr class="border-bottom">
-                    <td class="text-start s12"><span class="s20">東京駅</span>から</td>
-                    <td><span class="s12">TOKYO</span></td>
-                    <td><span class="s20 border-start">7.9</span>km</td>
-                    <td><span class="s20">3,380</span>円</td>
-                    <td><span class="s20">26</span>分</td>
-                    <td><span class="s20">4,020</span>円</td>
-                    <td><span class="s20">26</span>分<span class="s20 border-end"></span></td>
+                    <td class="text-start s12"><span class="s16">東 京 駅 </span>から</td>
+                    <td style="padding-right:0;"><span class="s12">TOKYO</span></td>
+                    <td><span class="s16 border-start" style="padding-left:30px;">7.9</span>km</td>
+                    <td><span class="s16">3,380</span>円</td>
+                    <td><span class="s16">26</span>分</td>
+                    <td><span class="s16">4,020</span>円</td>
+                    <td><span class="s16">26</span>分<span class="s16 border-end" style="padding-left:30px;"></span></td>
                     <td>(丸ノ内南口より乗車)</td>
                 </tr>
             </table>
