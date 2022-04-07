@@ -12,7 +12,7 @@
         <table class="ov_gold_table animation ">
             <tbody>
                 <tr>
-                    <td>【全体物件概要】</td>
+                    <td style="width: 200px;">【全体物件概要】</td>
                 </tr>
                 <tr>
                     <td>名称</td>
@@ -136,7 +136,7 @@
             <tbody>
 
                 <tr>
-                    <td>【第一期販売概要】</td>
+                    <td style="width: 200px;">【第一期販売概要】</td>
                 </tr>
                 <tr>
                     <td>販売戸数</td>
