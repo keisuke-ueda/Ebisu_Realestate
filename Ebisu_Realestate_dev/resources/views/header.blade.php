@@ -18,25 +18,25 @@
       <div class="header_link ms-3">
         <div>&nbsp;</div>
         <!-- <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark">NEW</p></div> -->
-        <a href="/location" style="pointer-events:none; margin-top:10px;" class="small mh-parts gray_link s14">LOCATION</a>
+        <a href="/location" style="pointer-events:none; margin-top:15px; margin-left:5px;" class="small mh-parts gray_link s14">LOCATION</a>
       </div>
 
       <div class="header_link ms-3">
         <div>&nbsp;</div>
         <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark">NEW</p></div>
-        <a href="/access" class="small mh-parts white_link s14">ACCESS</a>
+        <a href="/access" class="small mh-parts white_link s14" style="margin-left:5px;">ACCESS</a>
       </div>
 
       <div class="header_link ms-3">
         <div>&nbsp;</div>
         <!-- <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark">NEW</p></div> -->
-        <a href="/design" style="pointer-events:none; margin-top:10px;" class="small mh-parts gray_link s14">DESIGN</a>
+        <a href="/design" style="pointer-events:none; margin-top:15px; margin-left:5px;" class="small mh-parts gray_link s14">DESIGN</a>
       </div>
 
       <div class="header_link ms-3">
         <div>&nbsp;</div>
         <!-- <div class="d-flex align-items-auto"><p class="s10 ft1 blank">&nbsp;</p></div> -->
-        <a href="/model_room" style="pointer-events:none; white-space:nowrap; margin-top:10px;" class="small mh-parts gray_link s14">MODEL ROOM</a>
+        <a href="/model_room" style="pointer-events:none; white-space:nowrap; margin-top:15px; margin-left:5px;" class="small mh-parts gray_link s14">MODEL ROOM</a>
       </div>
 
       <div class="header_link ms-3">
@@ -44,7 +44,7 @@
         <div class="d-flex align-items-auto">
           <!-- <p class="s10 ft1 blank">&nbsp;</p> -->
         </div>
-        <a href="/plan" style="pointer-events:none; margin-top:10px;" class="small mh-parts gray_link s14">PLAN</a>
+        <a href="/plan" style="pointer-events:none; margin-top:15px; margin-left:10px;" class="small mh-parts gray_link s14">PLAN</a>
       </div>
 
       <div class="header_link ms-3">
@@ -52,7 +52,7 @@
         <div class="d-flex align-items-auto">
           <!-- <p class="s10 ft1 blank">&nbsp;</p> -->
         </div>
-        <a href="/blanding" style="pointer-events:none; margin-top:10px;" class="small mh-parts gray_link s14">BLAND</a>
+        <a href="/blanding" style="pointer-events:none; margin-top:15px; margin-left:10px;" class="small mh-parts gray_link s14">BLAND</a>
       </div>
 
       <div class="header_link ms-3">

@@ -15,7 +15,7 @@
       <p class="text-center" style="margin-bottom: 10px;">以下のフォームに必要な項目を入力のうえ「送信」ボタンを押してください。</p>
       <p class="text-center" style="margin-bottom: 20px;"><span class="badge badge-danger">必須</span>は必須項目です。</p>
     </div>
-    <form class="mailformpro" style="padding-left:10px; padding-right:10px;" method="POST" action="/questionnaire_mail">
+    <form class="mailformpro" style="padding-left:10px; padding-right:10px;" metdod="POST" action="/questionnaire_mail">
       @csrf
       <table class="gold-table-entry table-entry animation ft2 s14">
         <tbody>
@@ -72,13 +72,13 @@
           </tr>
           <tr>
 
-            <th><label for="name" class="s14"><span class="badge badge-danger s11">必須</span>ご住所</label></th>
+            <td><label for="name" class="s14"><span class="badge badge-danger s11">必須</span>ご住所</label></td>
             <td colspan="2" style="padding-top: 10px; padding-bottom: 10px;">
               <table class="entry-table-nest" style="width: 100%;">
                 <tr rowspan="2">
-                  <th style="width: 120px; vertical-align: top;">
+                  <td style="width: 120px; vertical-align: top;">
                     <label for="name" class="s14">郵便番号<span class="badge badge-danger s11">必須</span></label>
-                  </th>
+                  </td>
                   <td>
                     <input type="text" style="width: 60px;" name="home_post_code" data-error_placement="#home_post_code"> - <input type="text" style="width: 100px;">
                     <div class="validation-message" id="home_post_code"></div>
@@ -86,9 +86,9 @@
                   </td>
                 </tr>
                 <tr>
-                  <th>
+                  <td>
                     <label for="name" class="s14">都道府県<span class="badge badge-danger s11">必須</span></label>
-                  </th>
+                  </td>
                   <td class="py-1">
                     <select class="s11">
                       <option value="">選択</option>
@@ -102,27 +102,27 @@
                   </td>
                 </tr>
                 <tr>
-                  <th>
+                  <td>
                     <label for="name" class="s14">市区町村<span class="badge badge-danger s11">必須</span></label>
-                  </th>
+                  </td>
                   <td class="py-1">
                     <input type="text" name="home_municipalities" data-error_placement="#home_manicipalities">
                     <div class="validation-message" id="home_manicipalities"></div>
                   </td>
                 </tr>
                 <tr>
-                  <th>
+                  <td>
                     <label for="name" class="s14">丁目番地<span class="badge badge-danger s11">必須</span></label>
-                  </th>
+                  </td>
                   <td class="py-1">
                     <input type="text" name="home_chome_address" data-error_placement="#home_chome_address">
                     <div class="validation-message" id="home_chome_address"></div>
                   </td>
                 </tr>
                 <tr>
-                  <th>
+                  <td>
                     <label for="name" class="s14">建物名</label>
-                  </th>
+                  </td>
                   <td class="py-1">
                     <input type="text" name="home_building_name">
                   </td>

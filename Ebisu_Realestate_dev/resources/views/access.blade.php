@@ -60,13 +60,13 @@
         <img  class="d-block animation-1-zm" style="width: calc(25% - 19px)" src="{{ asset('/images/access_shinagawa.png') }}">
     </div>
 
-    <p class="pt18 w-50 gold-2" style="margin:30px 0 10px 50%;">2駅7路線が利用可能。もっと自由な都心生活を。</p>
+    <p class="s18 ft2 w-50 gold-2" style="margin:30px 0 10px 50%;">2駅7路線が利用可能。もっと自由な都心生活を。</p>
 
     <!-- 路線情報 -->
     <div class="d-flex justify-content-between align-items-between">
         <div class="d-flex flex-column justify-content-between animation-0-zm" style="width: 48%;">
             <img class="w-100" src="{{ asset('/images/rosenzu.svg') }}" style="margin-top: 20px;">
-            <p class="s9 m-0">※各駅への所要時間はJR線「恵比寿」駅発、東京メトロ日比谷線「恵比寿」駅発、また東京メトロ南北線・<br>
+            <p class="s9 m-0 ft2">※各駅への所要時間はJR線「恵比寿」駅発、東京メトロ日比谷線「恵比寿」駅発、また東京メトロ南北線・<br>
                 &emsp;都営三田線「目黒」駅発の所要時間は日中平常時、平日の13時台及び(  )内は通勤時8時台の<br>
                 &emsp;最短所要時間を表記しています。<br>
                 ※所要時間には、乗り換え・待ち時間は含まれません。(JR線・東京メトロ線・都営地下鉄線時刻表調べ)<br>

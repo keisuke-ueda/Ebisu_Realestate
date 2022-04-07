@@ -210,8 +210,8 @@
             <!-- Access -->
             <div class="read_more_link d-flex justify-content-start align-items-auto w-100" style="margin-bottom: 130px;">
                 <div class="picture_side animation-0-zm access_pic h-100 d-flex flex-column">
-                    <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100 access_pic_img" style="height: auto; objet-fit:cover;">
-                    <p class="s9 text-white text-end min_image_p d-inline">image</p>
+                    <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100 access_pic_img" style="height: auto; objet-fit:cover; width: 755px;">
+                    <!-- <p class="s9 text-white text-end min_image_p d-inline">image</p> -->
                 </div>
                 <div class="text_side animation access_col ft2 s14">
                     <img class="d-block access_img" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
