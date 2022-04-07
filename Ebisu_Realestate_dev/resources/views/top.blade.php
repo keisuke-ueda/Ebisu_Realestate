@@ -210,14 +210,14 @@
             <!-- Access -->
             <div class="read_more_link d-flex justify-content-start align-items-auto w-100" style="margin-bottom: 130px;">
                 <div class="picture_side animation-0-zm access_pic h-100 d-flex flex-column">
-                    <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100 access_pic_img" style="height: auto; objet-fit:cover; width: 755px;">
+                    <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100 access_pic_img" style="">
                     <p class="s9 text-white text-end min_image_p d-inline">image</p>
                 </div>
                 <div class="text_side animation access_col">
                     <img class="d-block access_img" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
                     <p class="d-block mb-4 access_p ft2 s14" style="white-space:nowrap;">都心をもっと近くする、スピーディなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
-                        渋谷、霞ヶ関、銀座へダイレクトに繋がることのできる<br>
+                        六本木、霞ヶ関、銀座へダイレクトに繋がることのできる<br>
                         日比谷線。ここには、目的に合わせて、路線を<br>
                         使いこなせる自由がある。
                     </p>
@@ -346,7 +346,7 @@
                 // var access_pic_img = $('.access_pic').width()
                 // $('.min_image_p').width(access_pic_img)
 
-                if($('body').width() < 1200){
+                if($('body').width() < 1100){
                     $('.ebisu_p').css('white-space','normal')
                     $('.access_p').css('white-space','normal')
                 } else {
