@@ -317,7 +317,7 @@
                 var location_p = $('.location_p').height();
 
                 var access_col = $('.access_col').height();
-                var access_pic = $('.access_pic').height();
+                var access_pic = $('.access_pic_img').height();
                 var access_img = $('.access_img').height();
                 var access_p = $('.access_p').height();
 
