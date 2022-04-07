@@ -68,6 +68,10 @@ button {
 
 
 /* フォントサイズ */
+.chrome .s9{
+  -webkit-transform: scale(0.8);
+  -webkit-transform-origin:-100% 0;
+}
 .s9 {
   font-size: 0.5625rem;
   /* font-size: 0.75vw; */
