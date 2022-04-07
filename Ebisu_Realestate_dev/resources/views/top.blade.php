@@ -270,11 +270,11 @@
                 </div>
             </div> -->
 
-            <div class="animation-0-zm mx-auto" style="width:calc(100% - 240px);">
+            <!-- <div class="animation-0-zm mx-auto" style="width:calc(100% - 240px);">
                 <a href="/blanding" style="pointer-events:none;" class="w-100">
                 <img src="{{ asset('/images/bland photo.png') }}" class="w-100">
                 </a>
-            </div>
+            </div> -->
 
             <div class="animation">
                 <div class="d-flex justify-content-center" style="margin: 60px 0 50px;">
