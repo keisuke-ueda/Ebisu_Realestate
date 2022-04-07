@@ -195,7 +195,8 @@ button {
 
 /* アクセスページ */
 .taxi_table td {
-  padding: 10px;
+  padding: 10px 15px;
+  vertical-align: middle;
 }
 
 .access_info p {
