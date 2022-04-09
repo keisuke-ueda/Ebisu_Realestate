@@ -261,8 +261,6 @@ $(function () {
     equalTo: "違う値が入力されています。",
   });
 
-
-
   $('.header_link a').each(function () {
     var href = $(this).attr('href');
     if (location.href.match(href)) {
@@ -319,5 +317,22 @@ function click_cb(limit, class_name) {
     });
   }
   return false;
+}
+
+function min_check1() {
+  if($('.min_check').prop('checked')) {
+    $('.min').prop("disabled", false);
+  } else {
+    $('.min').prop("checked", false);
+    $('.min').prop("disabled", true);
+  }
+}
+
+function min_check2() {
+  if($('.min:checked').length == 1) {
+    $('.min:unchecked').prop("disabled", true);
+  } else {
+    $('.min').prop("disabled", false);
+  }
 }
 

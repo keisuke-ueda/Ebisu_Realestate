@@ -494,7 +494,7 @@ video {
   /* padding-right: 18px; */
 }
 .access_img {
-  width: 23.17vw;
+  width: 20vw;
 }
 .access_p {
 
@@ -980,7 +980,7 @@ input, select {
 
 
 input[type="checkbox"], input[type="radio"] {
-  margin-right: 5px;
+  margin: 0 5px 3px 0;
 }
 
 td.h-40px {
@@ -1240,3 +1240,4 @@ td.h-110px {
 /*
   アンケートページここまで
 */
+
