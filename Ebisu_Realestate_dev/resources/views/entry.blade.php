@@ -136,7 +136,7 @@
             <td>
               <input type="tel" name="phone_number" data-type="tel" name="電話番号" placeholder="(例)00099998888"
                 data-error_placement="#phone_number">
-              <p style="margin: 0;" class="s12">※半角数字で入力してください</p>
+              <p style="margin: 0;" class="s12">※半角数字・ハイフンなしで入力してください</p>
               <div class="validation_message" id="phone_number"></div>
             </td>
           </tr>
@@ -165,15 +165,12 @@
             <td>
               <select style="width: 200px;" class="s11">
                 <option value="">選択</option>
-                <option value="">300万円未満</option>
-                <option value="">300万〜400万円</option>
-                <option value="">401万〜500万円</option>
-                <option value="">501万〜600万円</option>
-                <option value="">601万〜700万円</option>
-                <option value="">701万〜800万円</option>
-                <option value="">801万〜900万円</option>
-                <option value="">901万〜1000万円</option>
-                <option value="">1000万円以上</option>
+                <option value="">800万円未満</option>
+                <option value="">801万〜1000万円</option>
+                <option value="">1001万〜1200万円</option>
+                <option value="">1201万〜1500万円</option>
+                <option value="">1501万〜2000万円</option>
+                <option value="">2001万円以上</option>
               </select>
             </td>
           </tr>
@@ -182,13 +179,11 @@
             <td>
               <select style="width: 200px;" class="s11">
                 <option value="">選択</option>
-                <option value="">500万円未満</option>
-                <option value="">501万〜600万円</option>
-                <option value="">601万〜700万円</option>
-                <option value="">701万〜800万円</option>
-                <option value="">801万〜900万円</option>
-                <option value="">901万〜1000万円</option>
-                <option value="">1000万円以上</option>
+                <option value="">3000万円未満</option>
+                <option value="">3001万〜5000万円</option>
+                <option value="">5001万〜8000万円</option>
+                <option value="">8001万〜1億円</option>
+                <option value="">1億円以上</option>
               </select>
             </td>
           </tr>
@@ -215,9 +210,8 @@
             <td>
               <select style="width: 120px;" class="s11">
                 <option value="">選択</option>
+                <option value="">マンション（分譲）</option>
                 <option value="">マンション（賃貸）</option>
-                <option value="">マンション（分譲賃貸）</option>
-                <option value="">マンション（持家）</option>
                 <option value="">戸建（持家）</option>
                 <option value="">戸建（借家）</option>
                 <option value="">社宅・官舎</option>

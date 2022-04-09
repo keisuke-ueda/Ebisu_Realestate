@@ -183,7 +183,7 @@
                             <td>
                                 <input type="tel" name="phone_number" data-type="tel" name="電話番号"
                                     placeholder="(例)00099998888" data-error_placement="#phone_number">
-                                <p style="margin: 0;" class="s12">※半角数字で入力してください</p>
+                                <p style="margin: 0;" class="s12">※半角数字・ハイフンなしで入力してください</p>
                                 <div class="validation_message" id="phone_number"></div>
                             </td>
                         </tr>
@@ -523,11 +523,7 @@
 
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire6_1 ft2 s14">
-                        <p><span class="question-num mr-20px ft2 s14">6</span>仮に上記エリアで新規分譲マンションまたは分譲リノベーションマンションを<br>
-                        </p>
-                        <p class="s14" style="text-indent: 3rem;">
-                            検討する場合、どの住戸を検討しますか。
-                        </p>
+                        <p><span class="question-num mr-20px ft2 s14">6</span>仮に上記エリアで新規分譲マンションまたは分譲リノベーションマンションを検討する場合、どの住戸を検討しますか。</p>
                         <ul class="s16">
                             <li><input type="checkbox" name="q6[]" value="1">1LDK&emsp;&emsp;58㎡超&emsp;&emsp;12,000万円～
                             </li>
@@ -638,7 +634,7 @@
             ※当社は、個人情報の保護に関する法令、国が定める指針その他の規範を尊重・遵守し、個人情報の適正な取り扱いと保護に努めます。<br>
             &emsp;当社の「個人情報保護方針」につきましては、https://lattrait.co.jp/privacy/をご覧ください。<br>
             ※アンケートにご協力いただいた方は、今後販売する本プロジェクトへの優先的なご案内をさせていただく際にも利用させていただきます。<br>
-            <調査主体・調査実施>株式会社ラ・アトレ<アンケート集計・調査分析>株式会社アドバンスクリエイティブ
+            <調査主体・調査実施>株式会社ラ・アトレ　<アンケート集計・調査分析>株式会社アドバンスクリエイティブ
 
         </p>
     </div>

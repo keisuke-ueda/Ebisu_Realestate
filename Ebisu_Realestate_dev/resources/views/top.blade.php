@@ -167,7 +167,7 @@
                         「ウエスティンホテル東京」を間近とする住宅地。<br>
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
                         多くを語らずとも本物を知る人を魅了するレジデンス。<br>
-                        「ラ・アトレ恵比寿グランガーデン」- ゆるぎなき矜持が<br>
+                        「ラ・アトレ恵比寿グランガーデン」ゆるぎなき矜持が<br>
                         ここにある。
                     </p>
                     <div class="gold_line ebisu_line"></div>
@@ -215,7 +215,7 @@
                 </div>
                 <div class="text_side animation access_col s14">
                     <img class="d-block access_img" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
-                    <p class="d-block mb-4 access_p ft2" style="white-space:nowrap; margin-top: 20px;">都心をもっと近くする、スピーディなアクセス。<br>
+                    <p class="d-block mb-4 access_p ft2" style="white-space:nowrap; margin-top: 20px;">都心をもっと近くする、スピーディーなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
                         六本木、霞ヶ関、銀座へダイレクトに繋がることのできる<br>
                         日比谷線。ここには、目的に合わせて、路線を<br>
