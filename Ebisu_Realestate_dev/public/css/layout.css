@@ -339,6 +339,7 @@ button {
 video {
   object-fit: cover;
   object-position: 50% 50%;
+  width: 100%;
 }
 
 .movie_skip_btn {
@@ -351,10 +352,21 @@ video {
   margin: 0;
 }
 
+
+.black_wall {
+  background-color: #000;
+  padding: 80px 0 70px;
+}
+
 .access_info_group {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
+}
+
+.gold_info_area {
+  margin-bottom: 85px;
 }
 
 .gold_info_group {
@@ -365,8 +377,58 @@ video {
 }
 
 .gold_info {
-  width: 35%;
+  width: 504px;
   margin: 0 10px;
+}
+
+.gold_frame {
+  overflow: hidden;
+}
+
+.frame_border {
+  position: relative;
+  border: 1px solid #ca4;
+  padding: 1em;
+  color: #ca4;
+  text-align: center;
+}
+
+.frame_circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 100%;
+}
+
+.frame_border:before,
+.frame_border:after,
+.frame_circle:before,
+.frame_circle:after {
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-color: #000;
+    border: 1px solid #ca4;
+}
+
+.frame_border:before {
+    top: -12px;
+    left: -12px;
+}
+.frame_border:after {
+    top: -12px;
+    right: -12px;
+}
+.frame_circle:before {
+    right: -12px;
+    bottom: -12px;
+}
+.frame_circle:after {
+    left: -12px;
+    bottom: -12px;
 }
 
 .questionnaire_info {
@@ -494,7 +556,7 @@ video {
   /* padding-right: 18px; */
 }
 .access_img {
-  width: 23.17vw;
+  width: 20vw;
 }
 .access_p {
 
@@ -665,10 +727,6 @@ video {
   color: #d09a58;
 }
 
-.black_wall {
-  background-color: #000;
-}
-
 .white_wall {
   background-color: #fff;
 }
@@ -685,56 +743,6 @@ video {
   /* background: linear-gradient(to right, #bab5b1 0%, #9c8b7e 25%, #9c8b7e 51%, #bab5b1 100%); */
   background-color: #9c8b7e;
   border: 1px solid #cec5bb;
-}
-
-.gold_frame {
-  overflow: hidden;
-}
-
-.frame_border {
-  position: relative;
-  border: 1px solid #ca4;
-  padding: 1em;
-  color: #ca4;
-  text-align: center;
-}
-
-.frame_circle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  line-height: 100%;
-}
-
-.frame_border:before,
-.frame_border:after,
-.frame_circle:before,
-.frame_circle:after {
-    position: absolute;
-    display: block;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    content: "";
-    background-color: #000;
-    border: 1px solid #ca4;
-}
-
-.frame_border:before {
-    top: -12px;
-    left: -12px;
-}
-.frame_border:after {
-    top: -12px;
-    right: -12px;
-}
-.frame_circle:before {
-    right: -12px;
-    bottom: -12px;
-}
-.frame_circle:after {
-    left: -12px;
-    bottom: -12px;
 }
 
 .border-gold {
@@ -980,7 +988,7 @@ input, select {
 
 
 input[type="checkbox"], input[type="radio"] {
-  margin-right: 5px;
+  margin: 0 5px 3px 0;
 }
 
 td.h-40px {
@@ -1240,3 +1248,4 @@ td.h-110px {
 /*
   アンケートページここまで
 */
+

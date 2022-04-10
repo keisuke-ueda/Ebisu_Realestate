@@ -7,7 +7,7 @@
       <div class="d-flex align-items-center">
         <img src="{{ asset('/images/フッタ―.svg') }}" alt="フッターロゴ" height="50">
         <div class="d-flex flex-column justify-content-center align-items-start ms-2"> 
-          <p class="group_title d-inline-block s10"><span>東京ジャスダック上場企業</span><br>LAホールディングス</p>
+          <p class="group_title d-inline-block s10"><span>東証グロース上場企業</span><br>LAホールディングス</p>
           <p class="text-wite sans-serif d-inline-block" style="font-size: 2px;">ラ・アトレは<br>LAホールディングスのグループ会社です。</p>
         </div>
       </div>

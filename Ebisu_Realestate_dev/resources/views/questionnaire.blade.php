@@ -183,7 +183,7 @@
                             <td>
                                 <input type="tel" name="phone_number" data-type="tel" name="電話番号"
                                     placeholder="(例)00099998888" data-error_placement="#phone_number">
-                                <p style="margin: 0;" class="s12">※半角数字で入力してください</p>
+                                <p style="margin: 0;" class="s12">※半角数字・ハイフンなしで入力してください</p>
                                 <div class="validation_message" id="phone_number"></div>
                             </td>
                         </tr>
@@ -286,8 +286,7 @@
                 <!-- <p class="indent-1 mb-45px">※アンケートはすべて必須項目になります。</p> -->
                 <div class="gold_line_bottom  pb-25px ft2 s14">
                     <div class="questionnaire questionnaire1">
-                        <p><span class="question-num mr-20px">1</span>仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。(1つだけ回答)</p>
-                        <!-- <p style="text-indent: 3rem;"></p> -->
+                        <p class="pb-2"><span class="question-num mr-20px">1</span>仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。(1つだけ回答)</p>
                         <ul class="s16">
                             <li><input type="checkbox" id="box_1" name="q1[]" value="1"
                                     onclick="click_cb(1, 'questionnaire1');">一戸建てにこだわる</li><br>
@@ -335,28 +334,41 @@
                     <div class="questionnaire questionnaire2_2">
                         <p class="s14">【立地】</p>
                         <ul class="s16">
-                            <input type="checkbox" name="q2_2[]" value="1"
-                                onclick="click_cb(3, 'questionnaire2_2');">駅徒歩分数(
-                            <input type="checkbox" name="q2_2[]" value="2"
-                                onclick="click_cb(3, 'questionnaire2_2');">～5分
-                            <input type="checkbox" name="q2_2[]" value="3"
-                                onclick="click_cb(3, 'questionnaire2_2');">～7分
-                            <input type="checkbox" name="q2_2[]" value="4"
-                                onclick="click_cb(3, 'questionnaire2_2');">～10分
-                            <input type="checkbox" name="q2_2[]" value="5"
-                                onclick="click_cb(3, 'questionnaire2_2');">～12分
-                            <input type="checkbox" name="q2_2[]" value="6"
-                                onclick="click_cb(3, 'questionnaire2_2');">～15分)<br>
+                            <li>
+                            <input type="checkbox" class="min_check" name="q2_2[]" value="1"
+                                onclick="click_cb(3, 'questionnaire2_2');min_check1()">駅徒歩分数(
+                            </li>
+                            <input class="min" type="checkbox" name="q2_2[]" value="2" disabled onclick="min_check2()">～5分
+                            <input class="min" type="checkbox" name="q2_2[]" value="3" disabled onclick="min_check2()">～7分
+                            <input class="min" type="checkbox" name="q2_2[]" value="4" disabled onclick="min_check2()">～10分
+                            <input class="min" type="checkbox" name="q2_2[]" value="5" disabled onclick="min_check2()">～12分
+                            <input class="min" type="checkbox" name="q2_2[]" value="6" disabled onclick="min_check2()">～15分 )
+                            <br>
+
+                            <li>
                             <input type="checkbox" name="q2_2[]" value="7"
                                 onclick="click_cb(3, 'questionnaire2_2');">通勤・通学に便利
+                            </li>
+
+                            <li>
                             <input type="checkbox" name="q2_2[]" value="8"
                                 onclick="click_cb(3, 'questionnaire2_2');">落ち着いた環境
+                            </li>
+
+                            <li>
                             <input type="checkbox" name="q2_2[]" value="9"
-                                onclick="click_cb(3, 'questionnaire2_2');">緑が多い<br>
+                                onclick="click_cb(3, 'questionnaire2_2');">緑が多い
+                            </li><br>
+
+                            <li>
                             <input type="checkbox" name="q2_2[]" value="10"
                                 onclick="click_cb(3, 'questionnaire2_2');">スーパーや病院など生活利便設備が徒歩圏に揃うこと
+                            </li>
+
+                            <li>
                             <input type="checkbox" name="q2_2[]" value="11"
-                                onclick="click_cb(3, 'questionnaire2_2');">その他<input class="ms-2" type="text"><br>
+                                onclick="click_cb(3, 'questionnaire2_2');">その他<input class="ms-2" type="text">
+                            </li>
                         </ul>
                     </div>
                     <div class="questionnaire questionnaire2_3">
@@ -400,9 +412,8 @@
 
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire3_1 ft2 s14">
-                        <p><span class="question-num mr-20px">3</span>仮に今後、マンション購入を検討する場合に希望される間取りと広さをお聞かせください。<br>
+                        <p class="pb-2"><span class="question-num mr-20px">3</span>仮に今後、マンション購入を検討する場合に希望される間取りと広さをお聞かせください。(それぞれ1つ回答)
                         </p>
-                        <p style="text-indent: 3rem;">(それぞれ1つ回答)</p>
                         <p class="s14">【ご希望の間取り】</p>
                         <ul class="s16">
                             <li><input type="checkbox" name="q3_1[]" value="1"
@@ -445,11 +456,8 @@
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire4_1 ft2 s14">
                         <p>
-                            <span
-                                class="question-num mr-20px">4</span>新築分譲マンション・分譲リノベーションマンションを購入するとした場合についてお聞かせください。<br>
-
+                            <span class="question-num mr-20px">4</span>新築分譲マンション・分譲リノベーションマンションを購入するとした場合についてお聞かせください。(1つだけ回答)
                         </p>
-                        <p style="text-indent: 3rem;">(1つだけ回答)</p>
                         <ul class="s16">
                             <li><input type="checkbox" value="1" name="q4[]"
                                     onclick="click_cb(1, 'questionnaire4_1');">新築分譲マンションのみ
@@ -468,10 +476,9 @@
 
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire5_1 ft2 s14">
-                        <p>
-                            <span class="question-num mr-20px">5</span>仮に今後、新たに住宅を検討するとした場合の購入エリアについてお聞かせください。<br>
+                        <p class="pb-2">
+                            <span class="question-num mr-20px">5</span>仮に今後、新たに住宅を検討するとした場合の購入エリアについてお聞かせください。(複数回答可)
                         </p>
-                        <p style="text-indent: 3rem;">(複数回答可)</p>
                         <p class="s14">【渋谷区】</p>
                         <ul class="s16">
                             <li><input type="checkbox" name="q5_1[]" value="1">恵比寿2丁目</li>
@@ -523,11 +530,7 @@
 
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire6_1 ft2 s14">
-                        <p><span class="question-num mr-20px ft2 s14">6</span>仮に上記エリアで新規分譲マンションまたは分譲リノベーションマンションを<br>
-                        </p>
-                        <p class="s14" style="text-indent: 3rem;">
-                            検討する場合、どの住戸を検討しますか。
-                        </p>
+                        <p><span class="question-num mr-20px ft2 s14">6</span>仮に上記エリアで新規分譲マンションまたは分譲リノベーションマンションを検討する場合、どの住戸を検討しますか。</p>
                         <ul class="s16">
                             <li><input type="checkbox" name="q6[]" value="1">1LDK&emsp;&emsp;58㎡超&emsp;&emsp;12,000万円～
                             </li>
@@ -638,7 +641,7 @@
             ※当社は、個人情報の保護に関する法令、国が定める指針その他の規範を尊重・遵守し、個人情報の適正な取り扱いと保護に努めます。<br>
             &emsp;当社の「個人情報保護方針」につきましては、https://lattrait.co.jp/privacy/をご覧ください。<br>
             ※アンケートにご協力いただいた方は、今後販売する本プロジェクトへの優先的なご案内をさせていただく際にも利用させていただきます。<br>
-            <調査主体・調査実施>株式会社ラ・アトレ<アンケート集計・調査分析>株式会社アドバンスクリエイティブ
+            <調査主体・調査実施>株式会社ラ・アトレ　<アンケート集計・調査分析>株式会社アドバンスクリエイティブ
 
         </p>
     </div>
