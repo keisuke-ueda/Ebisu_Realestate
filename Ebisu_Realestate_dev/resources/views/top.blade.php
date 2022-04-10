@@ -3,12 +3,12 @@
 @section('content')
     <div class="first_view">
 
-        <video autoplay muted class="movie-1" style="width: 100%">
+        <video autoplay muted class="movie-1">
             <source src="{{ asset('/images/ebisu_mae_0331.mp4') }}" type="video/mp4">
         </video>
 
         <!-- 上の動画が消えた後に下の動画が同じ画角上で流れる用にする -->
-        <video autoplay muted class="movie-2 absolute top-0 start-0 d-none" style="width: 100%">
+        <video autoplay muted class="movie-2 absolute top-0 start-0 d-none">
             <source src="{{ asset('/images/ebisu_ato_0331.mp4') }}" type="video/mp4">
         </video>
 
@@ -20,51 +20,49 @@
 
     <div class="second_view">
         <!-- ブラック背景テキストエリア -->
-        <div class="black_wall text-white" style="padding: 5rem 0 4.375rem;">
+        <div class="black_wall text-white">
             <!-- 移動 -->
-            <!-- <div class="animation"> -->
-                <div class="access_info_group animation" style="margin-bottom: 1.875rem;">
-                    <div class="access_info ft2">
-                        <div class="d-flex align-items-end">
-                            <div>
-                                <p class="s14">JR山手線・埼京線</p>
-                                <p class="s14">湘南新宿ライン<span class="s18">「恵比寿」駅</span></p>
-                            </div>
-                            <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">11</span>分 /</p>
+            <div class="access_info_group animation">
+                <div class="access_info ft2">
+                    <div class="d-flex align-items-end">
+                        <div>
+                            <p class="s14">JR山手線・埼京線</p>
+                            <p class="s14">湘南新宿ライン<span class="s18">「恵比寿」駅</span></p>
                         </div>
-                        <p class="s9">
-                            <span style="color: transparent;">ーーーーーーーーーーー</span>
-                            （恵比寿スカイウォークより徒歩7分）
-                        </p>
+                        <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">11</span>分 /</p>
                     </div>
-                    <div class="access_info ft2">
-                        <div class="d-flex align-items-end">
-                            <div>
-                                <p class="s14">&nbsp;</p>
-                                <p class="s14">東京メトロ日比谷線<span class="s18">「恵比寿」駅</span></p>
-                            </div>
-                            <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">13</span>分 /</p>
-                        </div>
-                        <p class="s9">&nbsp;</p>
-                    </div>
-                    <div class="access_info ft2">
-                        <div class="d-flex align-items-end">
-                            <div>
-                                <p class="s14">JR山手線・東京メトロ南北線・</p>
-                                <p class="s14">都営地下鉄三田線・東急目黒線<span class="s18">「目黒」駅</span></p>
-                            </div>
-                            <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">13</span>分</p>
-                        </div>
-                        <p class="s9">&nbsp;</p>
-                    </div>
+                    <p class="s9">
+                        <span style="color: transparent;">ーーーーーーーーーーー</span>
+                        （恵比寿スカイウォークより徒歩7分）
+                    </p>
                 </div>
-            <!-- </div> -->
+                <div class="access_info ft2">
+                    <div class="d-flex align-items-end">
+                        <div>
+                            <p class="s14">&nbsp;</p>
+                            <p class="s14">東京メトロ日比谷線<span class="s18">「恵比寿」駅</span></p>
+                        </div>
+                        <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">13</span>分 /</p>
+                    </div>
+                    <p class="s9">&nbsp;</p>
+                </div>
+                <div class="access_info ft2">
+                    <div class="d-flex align-items-end">
+                        <div>
+                            <p class="s14">JR山手線・東京メトロ南北線・</p>
+                            <p class="s14">都営地下鉄三田線・東急目黒線<span class="s18">「目黒」駅</span></p>
+                        </div>
+                        <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">13</span>分</p>
+                    </div>
+                    <p class="s9">&nbsp;</p>
+                </div>
+            </div>
 
             <!-- 枠 -->
-            <div class="animation gold-2" style="margin-bottom: 5.3125rem;">
+            <div class="gold_info_area animation gold-2">
                 <!-- 枠1 -->
-                <div class="gold_info_group" style="height: 110px;">
-                    <div class="gold_info ft2 s16" style="width: 504px;">
+                <div class="gold_info_group">
+                    <div class="gold_info ft2 s16">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
@@ -77,7 +75,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gold_info ft2 s16" style="width:504px;">
+                    <div class="gold_info ft2 s16">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
@@ -92,8 +90,8 @@
                     </div>
                 </div>
                 <!-- 枠2 -->
-                <div class="gold_info_group" style="height:110px;">
-                    <div class="gold_info ft2 s21" style="width:504px">
+                <div class="gold_info_group">
+                    <div class="gold_info ft2 s21">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
@@ -123,8 +121,8 @@
             </div>
 
             <!-- アンケートエリア -->
-            <div class="animation" style="margin-bottom: 4.6875rem;">
-                <p class="gold-title-2 text-center mx-auto ft2 s24" style="width: 80%; margin-bottom: 2.8125rem;">「お住まいのアンケート」にご協力ください。</p>
+            <div class="animation" style="margin-bottom: 75px;">
+                <p class="gold-title-2 text-center mx-auto ft2 s24" style="width: 80%; margin-bottom: 45px;">「お住まいのアンケート」にご協力ください。</p>
                 <div class="questionnaire_info d-flex justify-content-center">
                     <div class="border-gold-2 mx-auto d-inline-block" style="padding: 2.5rem;">
                         <p class="text-center ft2 s16" style="line-height:2;"><span class="pb-1" style="border-bottom:1px solid white;">アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
