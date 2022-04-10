@@ -11,3 +11,4 @@
     <img class="w-100" src="{{ asset('/images/menu_btn.png') }}" alt="メニューボタン">
   </button>
 </div>
+
