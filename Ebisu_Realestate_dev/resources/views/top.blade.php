@@ -160,7 +160,7 @@
                     <img src="{{ asset('/images/the ebisu photo1.png') }}" alt="サンプル画像" class="w-100">
                 </div>
                 <div class="animation ebisu_col text_side ft2 s14">
-                    <img class="d-block ebisu_img" src="{{ asset('/images/theebisu.svg') }}" alt="サンプル画像">
+                    <img class="ebisu_img" src="{{ asset('/images/theebisu.svg') }}" alt="サンプル画像">
                     <p class="ebisu_p">恵比寿、それも「恵比寿ガーデンプレイス」<br>
                         「ウエスティンホテル東京」を間近とする住宅地。<br>
                         その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
@@ -170,7 +170,7 @@
                     </p>
                     <div class="gold_line ebisu_line"></div>
                     
-                    <div style="width:60%">
+                    <div class="w-60">
                         <button class="gold_btn read_more" type="button">
                             <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                         </button>
@@ -179,48 +179,50 @@
             </div>
 
             <!-- Location -->
-            <!-- <div class="read_more_link d-flex align-items-auto" style="margin-bottom: 8.4375rem;">
+            <!-- <div class="read_more_link">
                 <div class="animation location_col text_side ft2 s14">
-                    <img class="d-block location_img" src="{{ asset('/images/thelocation.svg') }}" alt="サンプル画像">
-                    <p class="d-block mx-auto mb-4 location_p" style="white-space:nowrap;">洗練と成熟に抱かれた街、恵比寿。<br>
+                    <img class="location_img" src="{{ asset('/images/thelocation.svg') }}" alt="サンプル画像">
+                    <p class="location_p" style="white-space:nowrap;">洗練と成熟に抱かれた街、恵比寿。<br>
                         ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
                         「ラ・アトレ恵比寿グランガーデン」<br>
                         建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
                         ココに暮らす人々の姿さえも、この地の美しい風景となる。
                     </p>
-                    <div class="gold_line w-50 mb-4 location_line"></div>
-                    <button class="mx-auto d-block gold_btn read_more" type="button">
-                        <a href="/location" class="text-white mh-parts" style="text-decoration: none; pointer-events:none;">Read More</a>
-                    </button>
-                </div>
-                <div class="picture_side d-flex location_pics" style="padding-right:2.375rem;">
-                    <div class="d-flex flex-column h-100" style="width:calc(50% - 0.4375rem);">
-                        <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="サンプル画像" class="animation-0-zm location_pic">
-                        <img src="{{ asset('/images/アメリカ橋公園.png') }}" alt="サンプル画像"  class="animation-0-zm location_pic" style="margin-top:1.25rem;">
+                    <div class="gold_line location_line"></div>
+                    <div class="w-60">
+                        <button class="gold_btn read_more" type="button">
+                            <a href="/location" class="text-white mh-parts">Read More</a>
+                        </button>
                     </div>
-                    <div class="d-flex flex-column h-100" style="width:calc(50% - 0.4375rem); margin-left: 0.875rem;">
+                </div>
+                <div class="picture_side location_pics h-100">
+                    <div class="location_pic_pair1">
+                        <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="サンプル画像" class="animation-0-zm location_pic">
+                        <img src="{{ asset('/images/アメリカ橋公園.png') }}" alt="サンプル画像"  class="animation-0-zm location_pic bottom_pic">
+                    </div>
+                    <div class="location_pic_pair2">
                         <img src="{{ asset('/images/ウエスティンホテル.png') }}" alt="サンプル画像" class="animation-1-zm location_pic">
-                        <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="サンプル画像"  class="animation-1-zm location_pic" style="margin-top:1.25rem;">
+                        <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="サンプル画像"  class="animation-1-zm location_pic bottom_pic">
                     </div>
                 </div>
             </div> -->
 
             <!-- Access -->
             <div class="read_more_link">
-                <div class="picture_side animation-0-zm access_pic d-flex flex-column">
+                <div class="picture_side animation-0-zm access_pic">
                     <img src="{{ asset('/images/the access photo.png') }}" alt="サンプル画像" class="w-100 access_pic_img">
                     <p class="s9 text-white text-end min_image_p d-inline">image</p>
                 </div>
-                <div class="text_side animation access_col s14">
-                    <img class="d-block access_img" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
-                    <p class="access_p ft2">都心をもっと近くする、スピーディーなアクセス。<br>
+                <div class="text_side animation access_col ft2 s14">
+                    <img class="access_img" src="{{ asset('/images/theaccess.svg') }}" alt="サンプル画像">
+                    <p class="access_p">都心をもっと近くする、スピーディーなアクセス。<br>
                         渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
                         六本木、霞ヶ関、銀座へダイレクトに繋がることのできる<br>
                         日比谷線。ここには、目的に合わせて、路線を<br>
                         使いこなせる自由がある。
                     </p>
                     <div class="gold_line mb-4 access_line"></div>
-                    <div style="width:60%;">
+                    <div class="w-60">
                         <button class="gold_btn read_more" type="button">
                             <a href="/access" class="text-white mh-parts ft2">Read More</a>
                         </button>
@@ -229,19 +231,21 @@
             </div>
 
             <!-- Design -->
-            <!-- <div class="read_more_link d-flex justify-content-between align-items-auto" style="margin-bottom: 8.0625rem;">
+            <!-- <div class="read_more_link">
                 <div class="text_side animation design_col ft2 s14">
-                    <img class="d-block design_img w-75" src="{{ asset('/images/thedesign.svg') }}" alt="サンプル画像">
-                    <p class="d-block mb-4 design_p" style="white-space:nowrap;">常緑樹の深い緑も豊かな静謐なる街並み。周辺の<br>
+                    <img class="design_img" src="{{ asset('/images/thedesign.svg') }}" alt="サンプル画像">
+                    <p class="design_p">常緑樹の深い緑も豊かな静謐なる街並み。周辺の<br>
                         高級住宅街にふさわしい丘上の瀟洒な5階建て。<br>
                         緑と調和しながら独自の存在感を醸し出しています。<br>
                         バルコニーの目立たない高級感にあふれる雁行フォルム。<br>
                         落ち着いた基調色が街並みと美しく調和します。
                     </p>
-                    <div class="gold_line w-50 mb-4 design_line"></div>
-                    <button class="mx-auto d-block gold_btn read_more" type="button">
-                        <a href="/design" class="text-white mh-parts" style="text-decoration:none; pointer-events:none;">Read More</a>
-                    </button>
+                    <div class="gold_line design_line"></div>
+                    <div class="w-60">
+                        <button class="gold_btn read_more" type="button">
+                            <a href="/design" class="text-white mh-parts">Read More</a>
+                        </button>
+                    </div>
                 </div>
                 <div class="picture_side animation-1-zm design_pic h-100">
                     <img src="{{ asset('/images/the design photo1.png') }}" alt="サンプル画像" class="w-100">
@@ -249,21 +253,23 @@
             </div> -->
 
             <!-- Plan -->
-            <!-- <div class="row my-5 py-5">
-                <div class="col-8 animation-0-zm">
+            <!-- <div class="read_more_link">
+                <div class="animation-0-zm picture_side">
                     <img src="{{ asset('/images/ダミーマップ.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
                 </div>
-                <div class="col-4 animation ft2 plan_col">
-                    <img class="d-block ms-5 plan_img w-75" src="{{ asset('/images/theplan.svg') }}" alt="サンプル画像">
-                    <p class="d-block ms-5 mb-4 plan_p">ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
-                        「ウェスティンホテル東京」を間近とする住宅地。その静謐なる佇まいは、
-                        その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。多くを語らずとも、
+                <div class="animation plan_col text_side ft2 s14">
+                    <img class="plan_img" src="{{ asset('/images/theplan.svg') }}" alt="サンプル画像">
+                    <p class="plan_p">ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、<br>
+                        「ウェスティンホテル東京」を間近とする住宅地。その静謐なる佇まいは、<br>
+                        その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。多くを語らずとも、<br>
                         本物を知る人を魅了するレジデンス。ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
                     </p>
-                    <div class="gold_line w-50 mb-4 plan_line"></div>
-                    <button class="mx-auto d-block gold_btn" type="button">
-                        <a href="/plan" class="text-white mh-parts small" style="text-decoration:none; pointer-events:none;">Read More</a>
-                    </button>
+                    <div class="gold_line plan_line"></div>
+                    <div class="w-60">
+                        <button class="read_more gold_btn" type="button">
+                            <a href="/plan" class="text-white mh-parts">Read More</a>
+                        </button>
+                    </div>
                 </div>
             </div> -->
 
@@ -326,11 +332,11 @@
                 // var plan_p = $('.plan_p').height();
 
 
-                var ebisu_line = ebisu_pic - ebisu_img - ebisu_p - btn - 48 - 20
-                var location_line = location_pic - location_img - location_p - btn - 48
-                var access_line = access_pic - access_img - access_p - btn - 48 - 20
-                var design_line = design_pic - design_img - design_p - btn  - 48
-                // var plan_line = plan_col - plan_img - plan_p - btn - 48
+                var ebisu_line = ebisu_pic - ebisu_img - ebisu_p - btn - 68
+                var location_line = location_pic - location_img - location_p - btn - 68
+                var access_line = access_pic - access_img - access_p - btn - 68
+                var design_line = design_pic - design_img - design_p - btn  - 68
+                // var plan_line = plan_col - plan_img - plan_p - btn - 68
 
                 $('.ebisu_line').height(ebisu_line);
                 $('.location_line').height(location_line);
