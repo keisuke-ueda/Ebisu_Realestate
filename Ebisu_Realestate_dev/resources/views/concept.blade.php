@@ -1,7 +1,6 @@
 @extends('layout')
 
 @section('content')
-
 <!-- 開発対象 -->
 <div class="d-flex justify-content-center bg-black">
     <img  class="w-25 img-fluid mt-ex" src="{{ asset('/images/the EBISU.svg') }}">
@@ -78,7 +77,7 @@
                             緩やかな時が流れる緑に囲まれた閑静な邸宅地。<br>
                             恵比寿の丘の上で優雅な日々がここから始まる。</p>
                     </div>
-                    <img class="animation-2-zm" style="width:70%;" src="{{ asset('/images/ebisupage_illustration.png') }}">
+                    <img class="animation-2-zm" style="width:70%;" src="{{ asset('/images/kouteizu-kai.svg') }}">
                 </div>
                 <div class="" style="padding-bottom:5px;">
                     <p class="text-end m-0 ft2 chrome s9">高低差概念図は、国土地理院/GISMaps調べ<br>

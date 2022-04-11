@@ -1,8 +1,6 @@
 @extends('layout')
 
 @section('content')
-
-
 <!-- 開発対象 -->
 <!-- 背景色、テキスト一時的に調整 -->
 <div class="d-flex justify-content-center bg-black">
@@ -65,7 +63,7 @@
     <!-- 路線情報 -->
     <div class="d-flex justify-content-between align-items-between">
         <div class="d-flex flex-column justify-content-between animation-0-zm" style="width: 56%;">
-            <img class="w-100" src="{{ asset('/images/rosenzu.svg') }}" style="margin-top: 20px;">
+            <img class="w-100" src="{{ asset('/images/rosenzu-0411.svg') }}" style="margin-top: 20px;">
             <p class="s9 m-0 ft2">※各駅への所要時間はJR線「恵比寿」駅発、東京メトロ日比谷線「恵比寿」駅発、また東京メトロ南北線・<br>
                 &emsp;都営三田線「目黒」駅発の所要時間は日中平常時、平日の13時台及び(  )内は通勤時8時台の<br>
                 &emsp;最短所要時間を表記しています。<br>
