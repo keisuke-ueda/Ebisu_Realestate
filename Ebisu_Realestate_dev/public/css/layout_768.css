@@ -97,3 +97,21 @@ video {
 .read_more {
   margin-top: 20px;
 }
+
+
+/* EBISUページ */
+.ebisu-top img {
+  width: 70%;
+}
+.dark-area {
+  display: none;
+}
+.dark-area2 {
+  display: block;
+}
+.white-area {
+  display: none;
+}
+.white-area2 {
+  display: block;
+}

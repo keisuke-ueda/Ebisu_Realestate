@@ -665,6 +665,39 @@ video {
   white-space:nowrap;
 }
 
+/* トップページここまで */
+
+
+/* EBISUページ（Concept） */
+.ebisu-top {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+.ebisu-top img {
+  width: 25%;
+}
+.dark-area {
+  max-width: 1200px; 
+  padding:40px 40px 0 45px;
+  margin: 0 auto;
+}
+.dark-area2 {
+  display: none;
+}
+
+.white-area {
+  max-width: 1200px; 
+  padding:35px 40px 0 45px; 
+  margin: 0 auto 30px;
+}
+.white-area2 {
+  display: none;
+}
+/* EBISUページ（Concept）ここまで */
+
+
+
 /* 物件概要ページ */
 .ov-m {
   padding: 150px 0px 40px 0px;
