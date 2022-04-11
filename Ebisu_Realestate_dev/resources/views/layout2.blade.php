@@ -1,3 +1,6 @@
+<?php
+    $logo = "black";
+?>
 <!DOCTYPE html>
 <html lang="jp">
 <head>

@@ -444,6 +444,10 @@ video {
   justify-content: center;
 }
 
+.to_questionnaire {
+
+}
+
 .info_table {
   width: 600px;
   margin: 0 auto;
@@ -472,6 +476,9 @@ video {
 
 .read_more_area {
   padding-top:80px;
+}
+.read_more_area2 {
+  display: none;
 }
 
 .read_more_link {
@@ -824,7 +831,6 @@ video {
   background-color: #ac9759;
   border: 1px solid #D8CA82;
   text-shadow: 2px 2px 2px #000000;
-  /* padding: 15px 70px; */
 }
 
 .copper_btn {

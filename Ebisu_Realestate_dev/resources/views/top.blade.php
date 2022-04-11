@@ -27,7 +27,7 @@
                     <div class="d-flex align-items-end">
                         <div>
                             <p class="s14">JR山手線・埼京線</p>
-                            <p class="s14">湘南新宿ライン<span class="s18">「恵比寿」駅</span></p>
+                            <p class="s14">湘南新宿ライン<span class="s18">｢恵比寿｣駅</span></p>
                         </div>
                         <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">11</span>分 /</p>
                     </div>
@@ -40,7 +40,7 @@
                     <div class="d-flex align-items-end">
                         <div>
                             <p class="s14">&nbsp;</p>
-                            <p class="s14">東京メトロ日比谷線<span class="s18">「恵比寿」駅</span></p>
+                            <p class="s14">東京メトロ日比谷線<span class="s18">｢恵比寿｣駅</span></p>
                         </div>
                         <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">13</span>分 /</p>
                     </div>
@@ -50,7 +50,7 @@
                     <div class="d-flex align-items-end">
                         <div>
                             <p class="s14">JR山手線・東京メトロ南北線・</p>
-                            <p class="s14">都営地下鉄三田線・東急目黒線<span class="s18">「目黒」駅</span></p>
+                            <p class="s14">都営地下鉄三田線・東急目黒線<span class="s18">｢目黒｣駅</span></p>
                         </div>
                         <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">13</span>分</p>
                     </div>
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gold_info ft2 s20" style="width:504px;">
+                    <div class="gold_info ft2 s20">
                         <div class="gold_frame h-100">
                             <div class="frame_border h-100">
                                 <div class="frame_circle h-100">
@@ -124,10 +124,10 @@
             <div class="animation questionnaire_info_area">
                 <p class="gold-title-2 ft2 s24 info_title">「お住まいのアンケート」にご協力ください。</p>
                 <div class="questionnaire_info">
-                    <div class="border-gold-2 mx-auto d-inline-block">
+                    <div class="border-gold-2 d-inline-block">
                         <p class="text-center ft2 s16" style="line-height:2;"><span>アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
-                        <div>
-                            <button type="submit" class="gold_btn w-100 h-100" ><a href="/questionnaire" class="text-white ft2 s20 mh-parts" style="text-decoration:none;">アンケートはこちら</a></button>
+                        <div class="w-100">
+                            <button type="submit" class="gold_btn to_questionnaire w-100 h-100" ><a href="/questionnaire" class="text-white ft2 s20 mh-parts" style="text-decoration:none;">アンケートはこちら</a></button>
                         </div>
                     </div>
                 </div>
@@ -278,27 +278,93 @@
                 <img src="{{ asset('/images/bland photo.png') }}" class="w-100">
                 </a>
             </div> -->
-
-            <div class="animation">
-                <div class="entry_link">
-                    <button class="copper_btn" type="button">
-                        <a href="/entry" class="text-white mh-parts ft2 s19">物件エントリー受付中</a>
-                    </button>
-                </div>
-                <div class="comment-area">
-                    <p class="ft2 s11">
-                        ※1）恵比寿ガーデンプレイスまで徒歩4分(約260m)、ウエスティンホテル東京まで徒歩4分(約300m)<br>
-                        ※2）総戸数21戸中12戸が角住戸により、57％超の角住戸率となります。<br>
-                        ※3）全12台の駐車場は、大型SUV車・スポーツカーが3台駐車可能となります。また、1台分の屋外平置式シェアカーを含んでいます。<br>
-                        ※正射画像データ:国土地理院刊行の正射画像データに、一部CG加工を施しており、実際とは異なります。<br>
-                        ※航空写真:令和4年3月撮影の航空写真に、一部CG加工を施しており、実際とは異なります。<br>
-                        ※掲載の写真は2022年3月に撮影したもので、一部加工・修正を施しております。<br>
-                    </p>
-                </div>
-            </div>
-
         </div>
-        
+
+        <!-- Read More スマホ表示 -->
+        <div class="read_more_area2">
+            <!-- EBISU -->
+            <div class="read_more_link2">
+                <img src="{{ asset('/images/theebisu.svg') }}" alt="THE EBISU" class="the-logo">
+                <div class="gold_line2"></div>
+                <p class="text-center" style="font-size:1vw;">
+                    恵比寿、それも「恵比寿ガーデンプレイス」「ウエスティンホテル東京」を間近とする住宅地。<br>
+                    その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
+                    多くを語らずとも本物を知る人を魅了するレジデンス。<br>
+                    「ラ・アトレ恵比寿グランガーデン」ゆるぎなき矜持がここにある。
+                </p>
+                <img src="{{ asset('/images/the ebisu photo1.png') }}" alt="EBISU 写真" class="photo-80">
+                <button class="gold_btn read_more" type="button">
+                    <a href="/concept" class="text-white mh-parts ft2">Read More</a>
+                </button>
+            </div>
+            <!-- LOCATION -->
+            <div class="read_more_link2">
+                <img src="{{ asset('/images/thelocation.svg') }}" alt="THE LOCATION" class="the-logo">
+                <div class="gold_line2"></div>
+                <p class="text-center" style="font-size:1vw;">
+                    洗練と成熟に抱かれた街、恵比寿。ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
+                    「ラ・アトレ恵比寿グランガーデン」<br>
+                    建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
+                    ココに暮らす人々の姿さえも、この地の美しい風景となる。
+                </p>
+                <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="LOCATION 写真" class="photo-70">
+                <img src="{{ asset('/images/ウエスティンホテル.png') }}" alt="LOCATION 写真" class="photo-70">
+                <img src="{{ asset('/images/アメリカ橋公園.png') }}" alt="LOCATION 写真" class="photo-70">
+                <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="LOCATION 写真" class="photo-70">
+                <button class="gold_btn read_more" type="button">
+                    <a href="/concept" class="text-white mh-parts ft2">Read More</a>
+                </button>
+            </div>
+            <!-- ACCESS -->
+            <div class="read_more_link2">
+                <img src="{{ asset('/images/theaccess.svg') }}" alt="THE ACCESS" class="the-logo">
+                <div class="gold_line2"></div>
+                <p class="text-center" style="font-size:1vw;">
+                    都心をもっと近くする、スピーディーなアクセス。<br>
+                    渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
+                    六本木、霞ヶ関、銀座へダイレクトに繋がることのできる日比谷線。<br>
+                    ここには、目的に合わせて、路線を使いこなせる自由がある。
+                </p>
+                <img src="{{ asset('/images/the access photo.png') }}" alt="ACCESS 写真" class="photo-80">
+                <button class="gold_btn read_more" type="button">
+                    <a href="/concept" class="text-white mh-parts ft2">Read More</a>
+                </button>
+            </div>
+            <!-- DESIGN -->
+            <div class="read_more_link2">
+                <img src="{{ asset('/images/thedesign.svg') }}" alt="THE DESIGN" class="the-logo">
+                <div class="gold_line2"></div>
+                <p class="text-center" style="font-size:1vw;">
+                    常緑樹の深い緑も豊かな静謐なる街並み。<br>
+                    周辺の高級住宅街にふさわしい丘上の瀟洒な5階建て。<br>
+                    緑と調和しながら独自の存在感を醸し出しています。<br>
+                    バルコニーの目立たない高級感にあふれる雁行フォルム。<br>
+                    落ち着いた基調色が街並みと美しく調和します。
+                </p>
+                <img src="{{ asset('/images/the design photo1.png') }}" alt="DESIGN 写真" class="photo-80">
+                <button class="gold_btn read_more" type="button">
+                    <a href="/concept" class="text-white mh-parts ft2">Read More</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="animation">
+            <div class="entry_link">
+                <button class="copper_btn" type="button">
+                    <a href="/entry" class="text-white mh-parts ft2 s19">物件エントリー受付中</a>
+                </button>
+            </div>
+            <div class="comment-area">
+                <p class="ft2 s11">
+                    ※1）恵比寿ガーデンプレイスまで徒歩4分(約260m)、ウエスティンホテル東京まで徒歩4分(約300m)<br>
+                    ※2）総戸数21戸中12戸が角住戸により、57％超の角住戸率となります。<br>
+                    ※3）全12台の駐車場は、大型SUV車・スポーツカーが3台駐車可能となります。また、1台分の屋外平置式シェアカーを含んでいます。<br>
+                    ※正射画像データ:国土地理院刊行の正射画像データに、一部CG加工を施しており、実際とは異なります。<br>
+                    ※航空写真:令和4年3月撮影の航空写真に、一部CG加工を施しており、実際とは異なります。<br>
+                    ※掲載の写真は2022年3月に撮影したもので、一部加工・修正を施しております。<br>
+                </p>
+            </div>
+        </div>
     </div>
 
     <!-- 後々"layout.js"に記述予定 -->

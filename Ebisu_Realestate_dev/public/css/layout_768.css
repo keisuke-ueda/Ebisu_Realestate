@@ -1,3 +1,4 @@
+
 /* トップページ */
 video {
   object-position: 50% 50%;
@@ -14,11 +15,11 @@ video {
 
 .gold_info_group {
   display: block;
-  margin-bottom: 0;
+  height: auto;
 }
 
 .gold_info {
-  width: 80%;
+  width: 90%;
   margin: 1rem auto;
 }
 /* 
@@ -60,3 +61,39 @@ video {
   font-size: 1vw;
   padding: 1vw 2vw;
 } */
+
+.read_more_area {
+  display: none;
+}
+.read_more_area2 {
+  display: block;
+  /* padding-top:50px; */
+}
+.read_more_link2 {
+  margin-top: 50px;
+}
+.the-logo {
+  width:50%;
+  display: block;
+  margin: 0 auto;
+}
+.photo-80 {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.photo-70 {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.gold_line2 {
+  /* border-right: 1px solid #ac9759; */
+  border-right: 1px solid #d09a58;
+  margin: 20px 0;
+  width:50%;
+  height: 50px;
+}
+.read_more {
+  margin-top: 20px;
+}
