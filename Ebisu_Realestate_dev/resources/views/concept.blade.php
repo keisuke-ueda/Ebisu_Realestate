@@ -124,7 +124,7 @@
                     緩やかな時が流れる緑に囲まれた閑静な邸宅地。<br>
                     恵比寿の丘の上で優雅な日々がここから始まる。</p>
             </div>
-            <img class="animation-2-zm" style="width:70%;" src="{{ asset('/images/kouteizu-kai.svg') }}">
+            <img class="animation-2-zm" style="width:69%;" src="{{ asset('/images/kouteizu-kai.svg') }}">
         </div>
         <div class="" style="padding-bottom:5px;">
             <p class="text-end m-0 chrome s9">高低差概念図は、国土地理院/GISMaps調べ<br>
