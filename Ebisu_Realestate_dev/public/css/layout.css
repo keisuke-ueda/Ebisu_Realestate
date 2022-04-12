@@ -197,16 +197,6 @@ button {
   margin:200px 0 0 0;
 }
 
-/* アクセスページ */
-.taxi_table td {
-  padding: 8px 15px;
-  vertical-align: middle;
-}
-
-.access_info p {
-  margin: 0;
-}
-
 /* メニュー */
 .absolute{
   position: absolute;
@@ -238,6 +228,9 @@ button {
 .header_content {
   display: flex;
   align-items: center;
+}
+.header_content2 {
+  display: none;
 }
 
 .header_title{
@@ -664,6 +657,55 @@ video {
 .comment-area p {
   white-space:nowrap;
 }
+
+/* トップページここまで */
+
+
+/* EBISUページ（Concept） */
+.ebisu-top {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+.ebisu-top img {
+  width: 25%;
+}
+.dark-area {
+  max-width: 1200px; 
+  padding:40px 40px 0 45px;
+  margin: 0 auto;
+}
+.dark-area2 {
+  display: none;
+}
+
+.white-area {
+  max-width: 1200px; 
+  padding:35px 40px 0 45px; 
+  margin: 0 auto 30px;
+}
+.white-area2 {
+  display: none;
+}
+/* EBISUページ（Concept）ここまで */
+
+
+/* ACCESSページ */
+.main-content2 {
+  display: none;
+}
+
+.taxi_table td {
+  padding: 8px 15px;
+  vertical-align: middle;
+}
+
+.access_info p {
+  margin: 0;
+}
+/* ACCESSページ ここまで */
+
+
 
 /* 物件概要ページ */
 .ov-m {

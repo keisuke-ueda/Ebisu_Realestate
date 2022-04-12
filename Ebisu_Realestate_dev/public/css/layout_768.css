@@ -1,3 +1,104 @@
+/* ヘッダー */
+.header {
+  background-color: rgba(0,0,0,0.7);;
+  z-index: 10000;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.header_content {
+  display: none;
+}
+.header_content2 {
+  display: block;
+}
+.header_menu_trigger {
+  margin: 20px 30px 0 auto;
+}
+.link_groups {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.link_groups div {
+  margin-bottom: 20px;
+}
+.link_groups p {
+  margin: 0;
+  line-height: 100%;
+}
+.header a{
+  color: white;
+  text-decoration: none;
+}
+.header_content2 button {
+  margin-bottom: 15px;
+}
+
+/* メニュー */
+.absolute{
+  position: absolute;
+}
+.logo_p{
+  z-index:500;
+  /* margin-top: 23px;
+  margin-left: 60px; */
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.logo_s{
+  width: 120px;
+}
+.menu_p {
+  z-index:500;
+  margin: 20px 30px auto auto;
+}
+
+.menu-trigger, .menu-trigger span {
+  display: inline-block;
+  transition: all .4s;
+  box-sizing: border-box;
+}
+.menu-trigger {
+  width: 60px;
+  height: 60px;
+  z-index: 1000;
+  background-color: white;
+}
+.menu-trigger span {
+  position: absolute;
+  left: 10px;
+  width: 30px;
+  height: 4px;
+  background-color: gray;
+  border-radius: 4px;
+}
+.menu-trigger span:nth-of-type(1) {
+  top: 10px;
+}
+.menu-trigger span:nth-of-type(2) {
+  top: 20px;
+}
+.menu-trigger span:nth-of-type(3) {
+  bottom: 10px;
+}
+
+.menu-trigger.open {
+  position: fixed;
+}
+
+.menu-trigger.open span:nth-of-type(1) {
+  transform: translateY(10px) rotate(-45deg);
+}
+.menu-trigger.open span:nth-of-type(2) {
+  opacity: 0;
+}
+.menu-trigger.open span:nth-of-type(3) {
+  transform: translateY(-10px) rotate(45deg);
+}
+
 
 /* トップページ */
 video {
@@ -97,3 +198,43 @@ video {
 .read_more {
   margin-top: 20px;
 }
+
+
+/* EBISUページ */
+.ebisu-top img {
+  width: 70%;
+}
+.dark-area {
+  display: none;
+}
+.dark-area2 {
+  display: block;
+}
+.white-area {
+  display: none;
+}
+.white-area2 {
+  display: block;
+}
+
+
+/* ACCESSページ */
+.main-content {
+  display: none;
+}
+.main-content2 {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+.taxi_table {
+  border-collapse: collapse;
+}
+.taxi_table tr {
+  
+}
+.taxi_table td {
+  padding: 5px 5px;
+  vertical-align: middle;
+}
+/* ACCESSページ ここまで */

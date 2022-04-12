@@ -104,18 +104,19 @@ $(function () {
 
 
 
-
-    // スクロールによるヘッダーの出現・固定
-    var position = $('.menu-trigger').offset().top + $('.menu-trigger').height();
-    if ($(window).scrollTop() > position) {
-      if ($('.header').hasClass('d-none')) {
-        $('.header').removeClass('d-none');
+    if($(".header_content").css('display') != 'none') {
+      // スクロールによるヘッダーの出現・固定(PCのみ)
+      var position = $('.menu-trigger').offset().top + $('.menu-trigger').height();
+      if ($(window).scrollTop() > position) {
+        if ($('.header').hasClass('d-none')) {
+          $('.header').removeClass('d-none');
+        }
       }
-    }
 
-    // ページ最上部ではヘッダーは非表示
-    if ($('.header').offset().top == 0) {
-      $('.header').addClass('d-none');
+      // ページ最上部ではヘッダーは非表示(PCのみ)
+      if ($('.header').offset().top == 0) {
+        $('.header').addClass('d-none');
+      }
     }
   });
 

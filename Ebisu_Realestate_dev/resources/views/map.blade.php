@@ -14,12 +14,12 @@
         <div class="print_area">
             <div class="animation-1-zm map_m1">
                 <p class="ft2 s14">【広域地図】</p>
-                <img src="{{ asset('/images/map_1.png') }}" class="map_img">
+                <img src="{{ asset('/images/map1.svg') }}" class="map_img">
             </div>
 
             <div class="animation-1-zm">
                 <p class="ft2 s14">【狭域地図】</p>
-                <img src="{{ asset('/images/map_2.png') }}" class="map_img">
+                <img src="{{ asset('/images/map2.svg') }}" class="map_img">
             </div>
             <p class="map-t1 map_m2 ft2 s24">所在地：東京都目黒区三田1丁目1-16</p>
        </div>
