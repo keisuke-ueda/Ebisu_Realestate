@@ -352,6 +352,9 @@ video {
   align-items: center;
   margin-bottom: 30px;
 }
+.access_info_group2 {
+  display: none;
+}
 
 .gold_info_area {
   margin-bottom: 85px;
@@ -739,6 +742,12 @@ video {
 .ov_m2{
   margin-top: 45px;
   margin-bottom: 40px;
+}
+.ov_title_td {
+  width: 215px;
+}
+.mx-200 {
+  margin: 0 200px;
 }
 
 

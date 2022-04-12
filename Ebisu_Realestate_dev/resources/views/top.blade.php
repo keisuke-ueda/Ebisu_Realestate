@@ -20,8 +20,10 @@
 
     <div class="second_view">
         <!-- ブラック背景テキストエリア -->
+
         <div class="black_wall text-white">
-            <!-- 移動 -->
+
+            <!-- アクセス情報 -->
             <div class="access_info_group animation">
                 <div class="access_info ft2">
                     <div class="d-flex align-items-end">
@@ -55,6 +57,25 @@
                         <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">13</span>分</p>
                     </div>
                     <p class="s9">&nbsp;</p>
+                </div>
+            </div>
+
+            <!-- アクセス情報 スマホ表示 -->
+            <div class="access_info_group2 animation mx-auto" style="width:85%;">
+                <div class="d-flex justify-content-between align-items-start">
+                    <p class="s10">JR山手線・埼京線・湘南新宿ライン</p>
+                    <div>
+                        <p class="s15"><span class="s21">｢恵比寿｣</span>駅徒歩<span class="gold-2 s30" style="line-height: 100%;">11</span>分</p>
+                        <p class="s9">（恵比寿スカイウォークより徒歩7分）</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <p class="s10">東京メトロ日比谷線</p>
+                    <p class="s15"><span class="s21">｢恵比寿｣</span>駅徒歩<span class="gold-2 s30" style="line-height: 100%;">13</span>分</p>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <p class="s10">JR山手線・東京メトロ南北線・<br>都営地下鉄三田線・東急目黒線</p>
+                    <p class="s15"><span class="s21">｢目黒｣</span>駅徒歩<span class="gold-2 s30" style="line-height: 100%;">13</span>分<span class="s20">　</span></p>
                 </div>
             </div>
 
