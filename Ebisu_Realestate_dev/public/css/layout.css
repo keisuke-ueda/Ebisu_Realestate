@@ -313,6 +313,17 @@ button {
 .footer {
   background-color: black;
 }
+.footer_content {
+  display: flex; 
+  align-items: center; 
+  padding: 10px 40px 10px 50px; 
+  position: relative;
+}
+.footer_right {
+  position: absolute; 
+  right: 50px; 
+  bottom: 10px;
+}
 
 .footer p {
   margin: 0;

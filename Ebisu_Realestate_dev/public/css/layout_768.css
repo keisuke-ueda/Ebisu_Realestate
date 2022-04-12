@@ -37,6 +37,20 @@
   margin-bottom: 15px;
 }
 
+/* フッター */
+.footer_content {
+  display: flex; 
+  align-items: center; 
+  padding: 10px; 
+  position: relative;
+}
+.footer_right {
+  position: absolute; 
+  right: 10px; 
+  bottom: 10px;
+}
+
+
 /* メニュー */
 .absolute{
   position: absolute;
