@@ -169,81 +169,81 @@ $(function () {
   })
 
   // フォームの入力バリデーション
-  $('.mailformpro').validate({
-    rules: {
-      sei: {
-        required: [true, "苗字を", "入力"],
-      },
-      mei: {
-        required: [true, "名前を", "入力"],
-      },
-      sei_kana: {
-        required: [true, "苗字をカタカナで", "入力"],
-      },
-      mei_kana: {
-        required: [true, "名前をカタカナで", "入力"],
-      },
-      gender: {
-        required: [true, "性別を", "選択"],
-      },
-      family_size: {
-        required: [true, "ご家族人数を", "入力"],
-        number: true,
-      },
-      home_post_code: {
-        required: [true, "郵便番号を", "入力"],
-        number: true,
-      },
-      home_prefectures: {
-        required: [true, "都道府県を", "入力"],
-      },
-      home_municipalities: {
-        required: [true, "市区町村を", "入力"],
-      },
-      home_chome_address: {
-        required: [true, "丁目番地を", "入力"],
-      },
-      years_of_residence: {
-        required: [true, "現在のお住いの年数を", "入力"],
-        number: true,
-      },
-      housing_form: {
-        required: [true, "現在お住まいの住居形態を", "選択"]
-      },
-      phone_number: {
-        required: [true, "電話番号を", "入力"],
-        number: true,
-      },
-      email: {
-        required: [true, "メールアドレスを", "入力"],
-        email: true,
-      },
-      office_name: {
-        required: [true, "勤務先名を", "入力"]
-      },
-      work_post_code: {
-        required: [true, "郵便番号を", "入力"],
-        number: true,
-      },
-      work_prefectures: {
-      },
-      work_municipalities: {
-        required: [true, "市区町村を", "入力"],
-      },
-      work_chome_address: {
-        required: [true, "丁目番地を", "入力"],
-      },
-      confirm_email: {
-        required: [true, "メールアドレスを", "入力"],
-        equalTo: "[name=email]"
-      }
-    },
-    //エラーメッセージ表示位置指定
-    errorPlacement: function (error, element) {
-      // data-error_placementで指定された要素に追加
-      error.appendTo(element.data('error_placement'));
-    }
-  });
+  // $('.mailformpro').validate({
+  //   rules: {
+  //     sei: {
+  //       required: [true, "苗字を", "入力"],
+  //     },
+  //     mei: {
+  //       required: [true, "名前を", "入力"],
+  //     },
+  //     sei_kana: {
+  //       required: [true, "苗字をカタカナで", "入力"],
+  //     },
+  //     mei_kana: {
+  //       required: [true, "名前をカタカナで", "入力"],
+  //     },
+  //     gender: {
+  //       required: [true, "性別を", "選択"],
+  //     },
+  //     family_size: {
+  //       required: [true, "ご家族人数を", "入力"],
+  //       number: true,
+  //     },
+  //     home_post_code: {
+  //       required: [true, "郵便番号を", "入力"],
+  //       number: true,
+  //     },
+  //     home_prefectures: {
+  //       required: [true, "都道府県を", "入力"],
+  //     },
+  //     home_municipalities: {
+  //       required: [true, "市区町村を", "入力"],
+  //     },
+  //     home_chome_address: {
+  //       required: [true, "丁目番地を", "入力"],
+  //     },
+  //     years_of_residence: {
+  //       required: [true, "現在のお住いの年数を", "入力"],
+  //       number: true,
+  //     },
+  //     housing_form: {
+  //       required: [true, "現在お住まいの住居形態を", "選択"]
+  //     },
+  //     phone_number: {
+  //       required: [true, "電話番号を", "入力"],
+  //       number: true,
+  //     },
+  //     email: {
+  //       required: [true, "メールアドレスを", "入力"],
+  //       email: true,
+  //     },
+  //     office_name: {
+  //       required: [true, "勤務先名を", "入力"]
+  //     },
+  //     work_post_code: {
+  //       required: [true, "郵便番号を", "入力"],
+  //       number: true,
+  //     },
+  //     work_prefectures: {
+  //     },
+  //     work_municipalities: {
+  //       required: [true, "市区町村を", "入力"],
+  //     },
+  //     work_chome_address: {
+  //       required: [true, "丁目番地を", "入力"],
+  //     },
+  //     confirm_email: {
+  //       required: [true, "メールアドレスを", "入力"],
+  //       equalTo: "[name=email]"
+  //     }
+  //   },
+  //   //エラーメッセージ表示位置指定
+  //   errorPlacement: function (error, element) {
+  //     // data-error_placementで指定された要素に追加
+  //     error.appendTo(element.data('error_placement'));
+  //   }
+  // });
 
   // エントリーフォームの入力バリデーション
   $('.entry_form').validate({

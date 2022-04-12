@@ -24,11 +24,11 @@ class QuestionnaireController extends Controller
         "office_name", "work_post_code", "work_prefectures", "work_manicipalities", "work_chome_address",
         "work_building_name",
 
-        "q1[]", "q2_1[]","q2_2[]", "q2_3[]", "q3_1[]",
-        // "q3_2[]", "q4[]", "q5_1[]", "q5_2[]", "q5_3[]",
-        // "q5_4[]", "q6[]", "q7", "q8", "q9_1",
-        // "q9_2", "q10_1", "q10_2", "q11", "q12_1[]",
-        // "q12_2"
+        "q1","q2_1","q2_2", "q2_3", "q3_1",
+        "q3_2", "q4", "q5_1", "q5_2", "q5_3",
+        "q5_4", "q6", "q7", "q8", "q9_1",
+        "q9_2", "q10_1", "q10_2", "q11", "q12_1",
+        "q12_2"
     ];
 
     function show()
@@ -38,7 +38,7 @@ class QuestionnaireController extends Controller
 
     function post(Request $request)
     {
-
+        // array_fill(0, count($this->formItems), 0);
         $input = $request->only($this->formItems);
         //セッションに書き込む
         $request->session()->put("form_input", $input);
@@ -52,9 +52,9 @@ class QuestionnaireController extends Controller
         $input = $request->session()->get("form_input");
 
         //セッションに値が無い時はフォームに戻る
-        if (!$input) {
-            return redirect()->action([QuestionnaireController::class, 'show']);
-        }
+        // if (!$input) {
+        //     return redirect()->action([QuestionnaireController::class, 'show']);
+        // }
         return view("questionnaire_mail", ["input" => $input]);
     }
 
