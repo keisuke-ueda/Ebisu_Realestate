@@ -924,6 +924,11 @@ video {
   height: 4.17vw; 
   margin: 3.125rem auto 0;
 }
+.to_questionnaire {
+  width:100%;
+  padding: 10px 0; 
+  margin-top: 30px;
+}
 
 
 

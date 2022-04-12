@@ -147,9 +147,9 @@
                 <div class="questionnaire_info">
                     <div class="border-gold-2 d-inline-block">
                         <p class="text-center ft2 s16" style="line-height:2;"><span>アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
-                        <div class="w-100">
-                            <button type="submit" class="gold_btn to_questionnaire w-100 h-100" ><a href="/questionnaire" class="text-white ft2 s20 mh-parts" style="text-decoration:none;">アンケートはこちら</a></button>
-                        </div>
+                        <!-- <div class="w-100"> -->
+                            <button type="submit" class="gold_btn to_questionnaire" ><a href="/questionnaire" class="text-white ft2 s20 mh-parts" style="text-decoration:none;">アンケートはこちら</a></button>
+                        <!-- </div> -->
                     </div>
                 </div>
             </div>
