@@ -127,26 +127,28 @@
             <img class="animation-2-zm" style="width:70%;" src="{{ asset('/images/kouteizu-kai.svg') }}">
         </div>
         <div class="" style="padding-bottom:5px;">
-            <p class="text-end m-0 ft2 chrome s9">高低差概念図は、国土地理院/GISMaps調べ<br>
+            <p class="text-end m-0 chrome s9">高低差概念図は、国土地理院/GISMaps調べ<br>
             ※掲載の高低差概念図の表現されている建物の高さ・形状・色等は実際とは異なります。周辺の道路・建物・街路樹などは一部簡略化しており、実際とは異なります。</p>
         </div>
     </div>
     
 
-    <div class="white-area2 bg-white text-dark">
-        <p class="text-center" style="">恵比寿、丘の上の美しい風景へ</p>
-        <img class="animation-2-zm w-100" style="" src="{{ asset('/images/kouteizu-kai.svg') }}">
-        <p class="text-end m-0 ft2 chrome s9">高低差概念図は、国土地理院/GISMaps調べ<br>
-            ※掲載の高低差概念図の表現されている建物の高さ・形状・色等は実際とは異なります。<br>
-            周辺の道路・建物・街路樹などは一部簡略化しており、実際とは異なります。
-        </p>
-        <p class="animation text-dark gold-2 text-center" style="">約26mの丘の上で上質な日常が始まる。</p>
-        <p class="animation text-dark s14 text-center" style="line-height: 1.5; white-space:nowrap;"> 恵比寿の丘の上。<br>
-            都心でありながら、都心の喧騒を離れ、様々な安らぎと<br>
-            恵比寿、目黒の2駅を使いこなせる立地でありながら緩やかな時が流れる<br>
-            緑に囲まれた閑静な邸宅地。<br>
-            恵比寿の丘の上で優雅な日々がここからはじまる。
-        </p>
+    <div class="white-area2 bg-white text-dark ft2">
+        <div style="width: 80%; margin: 0 auto;">
+            <p class="text-center" style="">恵比寿、丘の上の美しい風景へ</p>
+            <img class="animation-2-zm w-100" style="" src="{{ asset('/images/kouteizu-kai.svg') }}">
+            <p class="text-end m-0 chrome s9">高低差概念図は、国土地理院/GISMaps調べ<br>
+                ※掲載の高低差概念図の表現されている建物の高さ・形状・色等は実際とは異なります。<br>
+                周辺の道路・建物・街路樹などは一部簡略化しており、実際とは異なります。
+            </p>
+            <p class="animation gold-2 text-center" style="">約26mの丘の上で上質な日常が始まる。</p>
+            <p class="animation text-dark s14 text-center" style="line-height: 1.5; white-space:nowrap;"> 恵比寿の丘の上。<br>
+                都心でありながら、都心の喧騒を離れ、様々な安らぎと<br>
+                恵比寿、目黒の2駅を使いこなせる立地でありながら緩やかな時が流れる<br>
+                緑に囲まれた閑静な邸宅地。<br>
+                恵比寿の丘の上で優雅な日々がここからはじまる。
+            </p>
+        </div>
     </div>
 </div>
 

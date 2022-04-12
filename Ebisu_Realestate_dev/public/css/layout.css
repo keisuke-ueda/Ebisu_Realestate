@@ -197,16 +197,6 @@ button {
   margin:200px 0 0 0;
 }
 
-/* アクセスページ */
-.taxi_table td {
-  padding: 8px 15px;
-  vertical-align: middle;
-}
-
-.access_info p {
-  margin: 0;
-}
-
 /* メニュー */
 .absolute{
   position: absolute;
@@ -238,6 +228,9 @@ button {
 .header_content {
   display: flex;
   align-items: center;
+}
+.header_content2 {
+  display: none;
 }
 
 .header_title{
@@ -695,6 +688,22 @@ video {
   display: none;
 }
 /* EBISUページ（Concept）ここまで */
+
+
+/* ACCESSページ */
+.main-content2 {
+  display: none;
+}
+
+.taxi_table td {
+  padding: 8px 15px;
+  vertical-align: middle;
+}
+
+.access_info p {
+  margin: 0;
+}
+/* ACCESSページ ここまで */
 
 
 

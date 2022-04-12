@@ -76,4 +76,78 @@
     </div>
 
   </div>
+
+  <!-- スマホ -->
+  <div class="header_content2">
+      <div class="d-flex justify-content-end">
+        <button class="header_menu_trigger mh-parts" type="button" style="height: 60px; width: 60px;">
+          <span class="batsu"></span>
+        </button>
+      </div>
+
+      <div class="link_groups">
+        <div class="link_group1">
+          <div>
+            <a href="/">
+              <p>TOP</p>
+              <p>トップ</p>
+            </a>
+          </div>
+          <div>
+            <a href="/location">
+              <p>LOCATION</p>
+              <p>ロケーション</p>
+            </a>
+          </div>
+          <div>
+            <a href="/design">
+              <p>DESIGN</p>
+              <p>デザイン</p>
+            </a>
+          </div>
+          <div>
+            <a href="/plan">
+              <p>PLAN</p>
+              <p>プラン</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="link_group2">
+          <div>
+            <a href="/concept">
+              <p>EBISU</p>
+              <p>恵比寿</p>
+            </a>
+          </div>
+          <div>
+            <a href="/access">
+              <p>ACCESS</p>
+              <p>アクセス</p>
+            </a>
+          </div>
+          <div>
+            <a href="/model_room">
+              <p>MODEL ROOM</p>
+              <p>モデルルーム</p>
+            </a>
+          </div>
+          <div>
+            <a href="/blanding">
+              <p>BLAND</p>
+              <p>ブランド</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="s13 entry_btn text-white mx-auto d-block" style="height: 40px; width: 80%;">
+        <a href="/entry">物件エントリー</a>
+      </button>
+
+      <button type="button" class="s13 questionnaire_btn text-white mx-auto d-block" style="height: 40px; width: 80%;">
+        <a href="/questionnaire">お住まいのアンケート</a>
+      </button>
+     
+  </div>
 </header>
