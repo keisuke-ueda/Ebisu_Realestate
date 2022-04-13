@@ -143,7 +143,7 @@
                 ※掲載の高低差概念図の表現されている建物の高さ・形状・色等は実際とは異なります。<br>
                 周辺の道路・建物・街路樹などは一部簡略化しており、実際とは異なります。
             </p>
-            <p class="animation gold-2 text-center" style="">約26mの丘の上で上質な日常が始まる。</p>
+            <p class="animation gold-2 text-center" style="margin: 15px 0 10px;">約26mの丘の上で上質な日常が始まる。</p>
             <p class="animation text-dark s11 text-center" style="line-height: 1.5;"> 恵比寿の丘の上。<br>
                 都心でありながら、都心の喧騒を離れ、様々な安らぎと<br>
                 恵比寿、目黒の2駅を使いこなせる立地でありながら緩やかな時が流れる<br>
