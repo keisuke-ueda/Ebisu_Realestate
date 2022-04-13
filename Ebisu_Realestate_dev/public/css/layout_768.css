@@ -463,3 +463,55 @@ video {
   justify-content: center;
   margin: 0 20px 0 0;
 }
+
+
+/* 現地案内ページ */
+.map-m {
+  padding: 150px 0px 40px 0px;
+}
+.map-t1{
+  text-align:center;
+  position:relative;
+}
+.map_comment{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.map_but{
+  display: flex;
+  justify-content: center;
+}
+.map_but_s{
+  height: 60px;
+  width: 210px;
+}
+.map_img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
+.map_but_img{
+  height: 30px;
+}
+.map_m1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.map_m2{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.map_m3{
+  margin: 7px;
+
+}
+.map_side_layout{
+  display: inline-block;
+  justify-content: center;
+  margin: 0 20px 0 0;
+}
+
+.map_address {
+  font-size: 20px;
+}
