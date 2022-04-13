@@ -120,6 +120,14 @@ $(function () {
     }
   });
 
+
+  // リサイズ中にSPメニューが表示されるのを防ぐ
+  $(window).on('resize', function() {
+    if ($('.header_content').css('display') == 'none') {
+      $('.header').addClass('d-none');
+    }
+  })
+
   // トップページのみ、ハンバーガーボタンとロゴがアニメーションで出現
   if (!$('div').hasClass('first_view')) {
     $('.index_logo').removeClass('logo_animation');
