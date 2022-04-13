@@ -44,6 +44,12 @@
   padding: 10px; 
   position: relative;
 }
+.company_name {
+  font-size: 10px;
+}
+.company_tel {
+  font-size: 15px;
+}
 .footer_right {
   position: absolute; 
   right: 10px; 
@@ -136,10 +142,10 @@ video {
   margin: 0;
 }
 
-.access_info {
+/* .access_info {
   width: 80%;
   margin: 15px auto;
-}
+} */
 
 /* 金枠 */
 .gold_info_area {
@@ -175,6 +181,56 @@ video {
   margin: 0 auto;
 }
 
+.gold-title-2 {
+
+}
+
+.gold-title-2::before {
+  margin-right: 0.4rem;
+}
+.gold-title-2::after {
+  margin-left: 0.4rem;
+}
+
+.info_title {
+  width: 90%; 
+  margin: 40px auto 45px; 
+  font-size: 14px;
+}
+
+.info_table {
+  width: 85%;
+  margin: 0 auto;
+  font-size: 10px;
+}
+
+.date-td-1 {
+  padding-bottom: 10px;
+}
+
+.text-td-1 {
+  padding-left: 15px;
+}
+
+.date-td-2 {
+  padding: 10px 0;
+}
+
+.text-td-2 {
+  padding: 10px 0px 10px 15px;
+}
+
+.border-gold-2 {
+  padding: 30px;
+}
+
+.border-gold-2 p{
+  font-size: 11px;
+  margin: 0;
+}
+.to_questionnaire a{
+  font-size: 14px;
+} 
 
 /* .border-gold-2 {
   border: 1px solid #B67B03;
@@ -196,10 +252,6 @@ video {
 .to_questionnaire {
   
 } */
-
-.info_table {
-  width:80%;
-}
 
 /* 
 .pt14 {
@@ -266,6 +318,16 @@ video {
 }
 .read_more {
   margin-top: 20px;
+}
+
+/* 注釈 */
+.comment-area {
+  margin: 0 auto;
+  width: 90%;
+}
+.comment-area p {
+  white-space: normal;
+  font-size: 10px;
 }
 
 

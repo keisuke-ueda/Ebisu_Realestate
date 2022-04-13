@@ -61,21 +61,21 @@
             </div>
 
             <!-- アクセス情報 スマホ表示 -->
-            <div class="access_info_group2 animation mx-auto" style="width:85%;">
+            <div class="access_info_group2 animation mx-auto ft2" style="width:90%;">
                 <div class="d-flex justify-content-between align-items-start">
                     <p class="s10">JR山手線・埼京線・湘南新宿ライン</p>
                     <div>
-                        <p class="s15"><span class="s21">｢恵比寿｣</span>駅徒歩<span class="gold-2 s30" style="line-height: 100%;">11</span>分</p>
-                        <p class="s9">（恵比寿スカイウォークより徒歩7分）</p>
+                        <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">11</span>分</p>
+                        <p class="s9">(恵比寿スカイウォークより徒歩7分)</p>
                     </div>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
                     <p class="s10">東京メトロ日比谷線</p>
-                    <p class="s15"><span class="s21">｢恵比寿｣</span>駅徒歩<span class="gold-2 s30" style="line-height: 100%;">13</span>分</p>
+                    <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
                     <p class="s10">JR山手線・東京メトロ南北線・<br>都営地下鉄三田線・東急目黒線</p>
-                    <p class="s15"><span class="s21">｢目黒｣</span>駅徒歩<span class="gold-2 s30" style="line-height: 100%;">13</span>分<span class="s20">　</span></p>
+                    <p class="s14"><span class="s18">｢目黒｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
                 </div>
             </div>
 
@@ -143,39 +143,39 @@
 
             <!-- 枠 スマホ表示 -->
             <div class="gold_info_area2">
-                <div class="gold_info ft2 s12">
+                <div class="gold_info ft2 s11">
                     <div class="gold_frame h-100">
                         <div class="frame_border h-100">
                             <div class="frame_circle h-100">
                                 <p>&nbsp;</p>
                                 <p>最寄りのJR山手線・埼京線・湘南新宿ライン「恵比寿」駅より、</p>
-                                <p class="s14">&nbsp;</p>
-                                <p style="line-height:100%;">「渋谷」駅へ<span class="s20 h-100">2</span>分「新宿」駅へ<span class="s20 h-100">7</span>分「品川」駅へ<span class="s20 h-100">9</span>分</p>
+                                <p class="s10">&nbsp;</p>
+                                <p style="line-height:100%;">「渋谷」駅へ<span class="s18 h-100">2</span>分「新宿」駅へ<span class="s18 h-100">7</span>分「品川」駅へ<span class="s18 h-100">9</span>分</p>
                                 <p>&nbsp;</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="gold_info ft2 s12">
+                <div class="gold_info ft2 s11">
                     <div class="gold_frame h-100">
                         <div class="frame_border h-100">
                             <div class="frame_circle h-100">
                                 <p>&nbsp;</p>
-                                <p>緑に包まれた<span class="s16">「ウエスティンホテル東京」</span></p>
+                                <p>緑に包まれた<span class="s15">「ウエスティンホテル東京」</span></p>
                                 <p class="s10"><span style="color: transparent;">ーーーーーーーーーーー&nbsp;</span>※1</p>
-                                <p class=""><span class="s16">「恵比寿ガーデンプレイス」</span>に隣接</p>
+                                <p class=""><span class="s15">「恵比寿ガーデンプレイス」</span>に隣接</p>
                                 <p>&nbsp;</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="gold_info ft2 s12">
+                <div class="gold_info ft2 s11">
                     <div class="gold_frame h-100">
                         <div class="frame_border h-100">
                             <div class="frame_circle h-100">
                                 <p>&nbsp;</p>
                                 <p class="s10" style="line-height:100%;"><span style="color: transparent;">ーーーーーーーーーーーーーーー&nbsp;</span>※2</p>
-                                <p class="s16" style="line-height:100%;">内廊下設計、角住戸率<span class="s18 h-100">57%</span>超</p>
+                                <p class="s15" style="line-height:100%;">内廊下設計、角住戸率<span class="s16 h-100">57%</span>超</p>
                                 <p>&nbsp;</p>
                                 <p>&nbsp;</p>
                             </div>
@@ -358,12 +358,12 @@
 
 
         <!-- Read More スマホ表示 -->
-        <div class="read_more_area2">
+        <div class="read_more_area2 ft2">
             <!-- EBISU -->
             <div class="read_more_link2">
                 <img src="{{ asset('/images/theebisu.svg') }}" alt="THE EBISU" class="the-logo">
                 <div class="gold_line2"></div>
-                <p class="text-center" style="font-size:1vw;">
+                <p class="text-center s10" style="">
                     恵比寿、それも「恵比寿ガーデンプレイス」「ウエスティンホテル東京」を間近とする住宅地。<br>
                     その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
                     多くを語らずとも本物を知る人を魅了するレジデンス。<br>
@@ -378,7 +378,7 @@
             <div class="read_more_link2">
                 <img src="{{ asset('/images/thelocation.svg') }}" alt="THE LOCATION" class="the-logo">
                 <div class="gold_line2"></div>
-                <p class="text-center" style="font-size:1vw;">
+                <p class="text-center s10" style="">
                     洗練と成熟に抱かれた街、恵比寿。ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
                     「ラ・アトレ恵比寿グランガーデン」<br>
                     建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
@@ -400,7 +400,7 @@
             <div class="read_more_link2">
                 <img src="{{ asset('/images/theaccess.svg') }}" alt="THE ACCESS" class="the-logo">
                 <div class="gold_line2"></div>
-                <p class="text-center" style="font-size:1vw;">
+                <p class="text-center s10" style="">
                     都心をもっと近くする、スピーディーなアクセス。<br>
                     渋谷、新宿、東京、品川など主要都市を結ぶ山手線。<br>
                     六本木、霞ヶ関、銀座へダイレクトに繋がることのできる日比谷線。<br>
@@ -415,7 +415,7 @@
             <div class="read_more_link2">
                 <img src="{{ asset('/images/thedesign.svg') }}" alt="THE DESIGN" class="the-logo">
                 <div class="gold_line2"></div>
-                <p class="text-center" style="font-size:1vw;">
+                <p class="text-center s10" style="">
                     常緑樹の深い緑も豊かな静謐なる街並み。<br>
                     周辺の高級住宅街にふさわしい丘上の瀟洒な5階建て。<br>
                     緑と調和しながら独自の存在感を醸し出しています。<br>
