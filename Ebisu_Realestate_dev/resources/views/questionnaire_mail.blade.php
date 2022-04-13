@@ -240,15 +240,15 @@
                         <p><span class="question-num">2</span>あなたがお住まいに求める条件をお聞かせください。(それぞれ3つ回答)</p>
                         <div class="questionnaire questionnaire2_1">
                             <p>【駅名】</p>
-                            {{ $input["q2_1"] }}
+                            {{ implode($input_arrayq2_1) }}
                         </div>
                         <div class="questionnaire questionnaire2_2">
                             <p>【立地】</p>
-                            {{ $input["q2_2"] }}
+                            {{ implode($input_arrayq2_2) }}
                         </div>
                         <div class="questionnaire questionnaire2_3">
                             <p>【建物】</p>
-                            {{ $input["q2_3"] }}
+                            {{ implode($input_arrayq2_3) }}
                         </div>
                     </div>
 
@@ -272,19 +272,7 @@
                                 <span class="question-num">4</span>新築分譲マンション・分譲リノベーションマンションを購入するとした場合についてお聞かせください。<br>
                                 (1つだけ回答)
                             </p>
-                            <ul>
-                                <li><input type="checkbox" value="1" name="q4"
-                                        onclick="click_cb(1, 'questionnaire4_1');">新築分譲マンションのみ
-                                </li>
-                                <li><input type="checkbox" value="2" name="q4"
-                                        onclick="click_cb(1, 'questionnaire4_1');">分譲リノベーションマンションのみ</li><br>
-                                <li><input type="checkbox" value="3" name="q4"
-                                        onclick="click_cb(1, 'questionnaire4_1');">どちらも検討する
-                                </li>
-                                <li><input type="checkbox" value="4" name="q4"
-                                        onclick="click_cb(1, 'questionnaire4_1');">購入予定はない
-                                </li>
-                            </ul>
+                            {{ $input["q4"] }}
                         </div>
                     </div>
 
@@ -295,49 +283,22 @@
                                 (複数回答可)
                             </p>
                             <p>【渋谷区】</p>
-                            <ul>
-                                <li><input type="checkbox" name="q5_1" value="1">恵比寿2丁目</li>
-                                <li><input type="checkbox" name="q5_1" value="2">恵比寿3丁目</li>
-                                <li><input type="checkbox" name="q5_1" value="3">恵比寿4丁目</li><br>
-                                <li><input type="checkbox" name="q5_1" value="4">恵比寿南1丁目</li>
-                                <li><input type="checkbox" name="q5_1" value="5">恵比寿南2丁目</li>
-                                <li><input type="checkbox" name="q5_1" value="6">恵比寿南3丁目</li>
-                            </ul>
+                            {{ implode($input_arrayq5_1) }}
                             <br>
                         </div>
                         <div class="questionnaire questionnaire5_2">
                             <p>【目黒区】</p>
-                            <ul>
-                                <li><input type="checkbox" name="q5_2" value="1">三田1丁目</li>
-                                <li><input type="checkbox" name="q5_2" value="2">三田2丁目</li>
-                                <li><input type="checkbox" name="q5_2" value="3">目黒1丁目</li>
-                                <li><input type="checkbox" name="q5_2" value="4">目黒2丁目</li>
-                            </ul>
+                            {{ implode($input_arrayq5_2) }}
                             <br>
                         </div>
                         <div class="questionnaire questionnaire5_3">
                             <p>【港区】</p>
-                            <ul>
-                                <li><input type="checkbox" name="q5_3" value="1">白金台2丁目</li>
-                                <li><input type="checkbox" name="q5_3" value="2">白金台3丁目</li>
-                                <li><input type="checkbox" name="q5_3" value="3">白金台4丁目</li>
-                                <li><input type="checkbox" name="q5_3" value="4">白金台5丁目</li><br>
-                                <li><input type="checkbox" name="q5_3" value="5">白金1丁目</li>
-                                <li><input type="checkbox" name="q5_3" value="6">白金2丁目</li>
-                                <li><input type="checkbox" name="q5_3" value="7">白金3丁目</li>
-                                <li><input type="checkbox" name="q5_3" value="8">白金4丁目</li>
-                                <li><input type="checkbox" name="q5_3" value="9">白金5丁目</li>
-                                <li><input type="checkbox" name="q5_3" value="10">白金6丁目</li>
-                            </ul>
+                            {{ implode($input_arrayq5_3) }}
                             <br>
                         </div>
                         <div class="questionnaire questionnaire5_4">
                             <p>【品川区】</p>
-                            <ul>
-                                <li><input type="checkbox" name="q5_4" value="1">上大崎1丁目</li>
-                                <li><input type="checkbox" name="q5_4" value="2">上大崎2丁目</li>
-                                <li><input type="checkbox" name="q5_4" value="3">その他<input type="text"></li>
-                            </ul>
+                            {{ implode($input_arrayq5_4) }}
                             <br>
                         </div>
                     </div>
@@ -346,73 +307,60 @@
                         <div class="questionnaire questionnaire6_1">
                             <p><span class="question-num">6</span>仮に上記エリアで新規分譲マンションまたは分譲リノベーションマンションを<br>
                                 検討する場合、どの住戸を検討しますか。</p>
-                            <ul>
-                                <li><input type="checkbox" name="q6" value="1">1LDK 55㎡前後 0,000万円～</li>
-                                <li><input type="checkbox" name="q6" value="2">1LDK 60㎡前後 0,000万円～</li><br>
-                                <li><input type="checkbox" name="q6" value="3">2LDK 80㎡前後 00,000万円～</li>
-                                <li><input type="checkbox" name="q6" value="4">2LDK 90㎡前後 00,000万円～</li><br>
-                                <li><input type="checkbox" name="q6" value="5">その他<input type="text"></li>
-                            </ul>
+                            {{ $input["q6"] }}
                             <br>
                         </div>
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire7">
-                            <p><span class="question-num">7</span>世帯主様の職業は何でしょうか。<input type="text" name="q7"></p>
+                            <p><span class="question-num">7</span>世帯主様の職業は何でしょうか。{{ $input["q7"] }}</p>
                         </div>
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire8">
-                            <p><span class="question-num">8</span>世帯主様の通勤手段は何でしょうか。<input type="text" name="q8"></p>
+                            <p><span class="question-num">8</span>世帯主様の通勤手段は何でしょうか。{{ $input["q8"] }}</p>
                         </div>
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire9">
                             <p><span class="question-num">9</span>現在のお住まいで所有している自家用車の台数と車種をお聞かせ下さい。</p>
-                            <p>［台 数］<input type="text">台数 ［車 種］<input type="text" name="q9"></p>
+                            <p>［台 数］{{ $input["q9_1"] }}台数 ［車 種］{{ $input["q9_2"] }}</p>
                         </div>
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire10">
                             <p><span class="question-num-2">10</span>世帯主様、配偶者様、ご家族全体の年収をそれぞれお聞かせください。</p>
-                            <p>［世帯主様］<input type="text" name="q10_1">万円</p>
-                            <p>［配偶者様］<input type="text" name="q10_2">万円 ［全 体］<input type="text" name="q10_3"></p>
+                            <p class="s16">［世帯主様］{{ $input["q10_1"] }}万円</p>
+                            <p class="s16">［配偶者様］{{ $input["q10_2"] }}万円 ［全 体］{{ $input["q10_3"] }}</p>
                         </div>
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire11">
                             <p><span class="question-num-2">11</span>目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。</p>
-                            <ul>
-                                <li><input type="checkbox" name="q11" value="1">ある</li><br>
-                                <li><input type="checkbox" name="q11" value="2">ない</li>
-                            </ul>
+                            {{ $input["q11"] }}
                         </div>
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire12">
                             <p><span class="question-num-2">12</span>現在の住宅から買い替え予定はありますか。</p>
-                            <ul>
-                                <li><input type="checkbox" name="q12_1" value="1">ある<input type="text"
-                                        name="q12_2">年以内</li><br><br>
-                                <li><input type="checkbox" name="q12_1" value="2">ない</li>
-                            </ul>
+                            {{ $input["q12_1"] }}<br>
+                            {{ $input["q12_2"] }}
                         </div>
                     </div>
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire13">
                             <p><span class="question-num-2">13</span>現在の住宅購入をする場合の予算はどのぐらいですか。</p>
                             <div>
-                                <input type="text" name="q13">万円
+                                {{ $input["q13"] }}万円
                             </div>
                         </div>
                     </div>
-                    --}
                 </div>
                 <p>アンケートにご協力いただき、誠にありがとうございました。</p>
                 <button class="mh-parts btn mx-auto d-block"><span class="p-3"
