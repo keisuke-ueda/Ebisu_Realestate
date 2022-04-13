@@ -27,8 +27,10 @@
             <p>送信しました。
             <p>アンケートにご協力いただき、誠にありがとうございました。</p>
 
-            <button class="mh-parts btn mx-auto d-block"><span class="p-3" onclick="history.back()">戻る</span></button>
-            <button class="mh-parts btn btn-dark mx-auto d-block"><span class="p-3">送信する</span></button>
+            <button class="mh-parts btn mx-auto d-block"><a href="/questionnaire">戻る</a></button>
+
+            <!-- <button class="mh-parts btn mx-auto d-block"><span class="p-3" onclick="history.back()">戻る</span></button> -->
+            <!-- <button class="mh-parts btn btn-dark mx-auto d-block"><span class="p-3">送信する</span></button> -->
 
         </div>
         <div class="border border-dark mt-5 mb-5 ft5">

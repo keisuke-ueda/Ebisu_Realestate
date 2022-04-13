@@ -28,9 +28,9 @@
                 <p class="ft2">下記のフォームに必要な項目を入力のうえ、「送信」ボタンを押してください。</p>
                 <p class="ft2"><span class="badge badge-danger">必須</span>は必須項目です</p>
             </div>
-            @csrf
+            
             <form class="mailformpro" method="POST" action="{{ route('form.send') }}">
-
+            @csrf
                 <div>
 
                     <table class="gold_table mb-3 animation mb-5">
@@ -232,7 +232,9 @@
                         <p><span class="question-num">1</span>仮に今後お住まいを購入するとした場合、どのような住居形態を希望しますか。<br>
                             (1つだけ回答)</p>
                         <div class="questionnaire questionnaire1">
+                            @if(isset($input["q1"]))
                             {{ $input["q1"] }}
+                            @endif
                         </div>
                     </div>
 
@@ -240,15 +242,21 @@
                         <p><span class="question-num">2</span>あなたがお住まいに求める条件をお聞かせください。(それぞれ3つ回答)</p>
                         <div class="questionnaire questionnaire2_1">
                             <p>【駅名】</p>
+                            @if (isset($input_arrayq2_1))
                             {{ implode($input_arrayq2_1) }}
+                            @endif
                         </div>
                         <div class="questionnaire questionnaire2_2">
                             <p>【立地】</p>
+                            @if (isset($input_arrayq2_2))
                             {{ implode($input_arrayq2_2) }}
+                            @endif
                         </div>
                         <div class="questionnaire questionnaire2_3">
                             <p>【建物】</p>
+                            @if (isset($input_arrayq2_1))
                             {{ implode($input_arrayq2_3) }}
+                            @endif
                         </div>
                     </div>
 
@@ -257,11 +265,15 @@
                             (それぞれ1つ回答)</p>
                         <div class="questionnaire questionnaire3_1">
                             <p>【ご希望の間取り】</p>
+                            @if (isset($input["q3_1"]))
                             {{ $input["q3_1"] }}
+                            @endif
                         </div>
                         <div class="questionnaire questionnaire3_2">
                             <p>【ご希望の広さ】</p>
+                            @if (isset($input["q3_2"]))
                             {{ $input["q3_2"] }}
+                            @endif
                             <br>
                         </div>
                     </div>
@@ -272,7 +284,9 @@
                                 <span class="question-num">4</span>新築分譲マンション・分譲リノベーションマンションを購入するとした場合についてお聞かせください。<br>
                                 (1つだけ回答)
                             </p>
+                            @if (isset($input["q4"]))
                             {{ $input["q4"] }}
+                            @endif
                         </div>
                     </div>
 
@@ -283,22 +297,30 @@
                                 (複数回答可)
                             </p>
                             <p>【渋谷区】</p>
+                            @if(isset($input_arrayq5_1))
                             {{ implode($input_arrayq5_1) }}
+                            @endif
                             <br>
                         </div>
                         <div class="questionnaire questionnaire5_2">
                             <p>【目黒区】</p>
+                            @if(isset($input_arrayq5_2))
                             {{ implode($input_arrayq5_2) }}
+                            @endif
                             <br>
                         </div>
                         <div class="questionnaire questionnaire5_3">
                             <p>【港区】</p>
+                            @if(isset($input_arrayq5_3))
                             {{ implode($input_arrayq5_3) }}
+                            @endif
                             <br>
                         </div>
                         <div class="questionnaire questionnaire5_4">
                             <p>【品川区】</p>
+                            @if(isset($input_arrayq5_4))
                             {{ implode($input_arrayq5_4) }}
+                            @endif
                             <br>
                         </div>
                     </div>
@@ -307,20 +329,22 @@
                         <div class="questionnaire questionnaire6_1">
                             <p><span class="question-num">6</span>仮に上記エリアで新規分譲マンションまたは分譲リノベーションマンションを<br>
                                 検討する場合、どの住戸を検討しますか。</p>
+                            @if(isset($input["q6"]))
                             {{ $input["q6"] }}
+                            @endif
                             <br>
                         </div>
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire7">
-                            <p><span class="question-num">7</span>世帯主様の職業は何でしょうか。{{ $input["q7"] }}</p>
+                            <p><span class="question-num">7</span>世帯主様の職業は何でしょうか。@if(isset($input["q7"])){{ $input["q7"] }}@endif</p>
                         </div>
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire8">
-                            <p><span class="question-num">8</span>世帯主様の通勤手段は何でしょうか。{{ $input["q8"] }}</p>
+                            <p><span class="question-num">8</span>世帯主様の通勤手段は何でしょうか。@if(isset($input["q8"])){{ $input["q8"] }}@endif</p>
                         </div>
                     </div>
 
@@ -342,14 +366,16 @@
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire11">
                             <p><span class="question-num-2">11</span>目黒区三田1丁目の分譲リノベーションマンションについてご興味はございますか。</p>
+                            @if(isset($input["q11"]))
                             {{ $input["q11"] }}
+                            @endif
                         </div>
                     </div>
 
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire12">
                             <p><span class="question-num-2">12</span>現在の住宅から買い替え予定はありますか。</p>
-                            {{ $input["q12_1"] }}<br>
+                            @if(isset($input["q12_1"])){{ $input["q12_1"] }}@endif<br>
                             {{ $input["q12_2"] }}
                         </div>
                     </div>

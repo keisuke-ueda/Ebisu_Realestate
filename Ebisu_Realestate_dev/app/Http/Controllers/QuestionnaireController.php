@@ -81,7 +81,7 @@ class QuestionnaireController extends Controller
     function send(Request $request)
     {
         //セッションから値を取り出す
-        $input = $request->session()->get("form_input");
+        $input = $request->session()->get("input");
         $input_arrayq2_1 = $request->session()->get("input_arrayq2_1");
         $input_arrayq2_2 = $request->session()->get("input_arrayq2_2");
         $input_arrayq2_3 = $request->session()->get("input_arrayq2_3");
@@ -102,7 +102,7 @@ class QuestionnaireController extends Controller
             $message->to('himaji.megido@gmail.com', 'Test')->subject('This is a test mail');
         });
         //セッションを空にする
-        $request->session()->forget("form_input");
+        $request->session()->forget("input");
 
         return redirect()->action([QuestionnaireController::class, 'complete']);
     }
