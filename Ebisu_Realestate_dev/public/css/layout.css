@@ -370,6 +370,9 @@ video {
 .gold_info_area {
   margin-bottom: 85px;
 }
+.gold_info_area2 {
+  display: none;
+}
 
 .gold_info_area p, .gold_info_area span {
   margin: 0;

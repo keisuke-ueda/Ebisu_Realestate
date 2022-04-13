@@ -141,14 +141,25 @@ video {
   margin: 15px auto;
 }
 
-.gold_info_group {
+/* 金枠 */
+.gold_info_area {
+  display: none;
+}
+.gold_info_area2 {
+  display: block;
+}
+.gold_info_area2 p {
+  margin: 0;
+}
+/* .gold_info_group {
   display: block;
   height: auto;
-}
+} */
 
 .gold_info {
   width: 90%;
   margin: 1rem auto;
+  height: 70px;
 }
 
 .frame_border {
@@ -163,6 +174,7 @@ video {
   width: 90%;
   margin: 0 auto;
 }
+
 
 /* .border-gold-2 {
   border: 1px solid #B67B03;

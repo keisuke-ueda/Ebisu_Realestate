@@ -23,7 +23,7 @@
 
         <div class="black_wall text-white">
 
-            <!-- アクセス情報 -->
+            <!-- アクセス情報 PC表示 -->
             <div class="access_info_group animation">
                 <div class="access_info ft2">
                     <div class="d-flex align-items-end">
@@ -79,7 +79,7 @@
                 </div>
             </div>
 
-            <!-- 枠 -->
+            <!-- 枠 PC表示 -->
             <div class="gold_info_area animation gold-2">
                 <!-- 枠1 -->
                 <div class="gold_info_group">
@@ -141,20 +141,74 @@
                 </div>
             </div>
 
-            <!-- アンケートエリア -->
+            <!-- 枠 スマホ表示 -->
+            <div class="gold_info_area2">
+                <div class="gold_info ft2 s12">
+                    <div class="gold_frame h-100">
+                        <div class="frame_border h-100">
+                            <div class="frame_circle h-100">
+                                <p>&nbsp;</p>
+                                <p>最寄りのJR山手線・埼京線・湘南新宿ライン「恵比寿」駅より、</p>
+                                <p class="s14">&nbsp;</p>
+                                <p style="line-height:100%;">「渋谷」駅へ<span class="s20 h-100">2</span>分「新宿」駅へ<span class="s20 h-100">7</span>分「品川」駅へ<span class="s20 h-100">9</span>分</p>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gold_info ft2 s12">
+                    <div class="gold_frame h-100">
+                        <div class="frame_border h-100">
+                            <div class="frame_circle h-100">
+                                <p>&nbsp;</p>
+                                <p>緑に包まれた<span class="s16">「ウエスティンホテル東京」</span></p>
+                                <p class="s10"><span style="color: transparent;">ーーーーーーーーーーー&nbsp;</span>※1</p>
+                                <p class=""><span class="s16">「恵比寿ガーデンプレイス」</span>に隣接</p>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gold_info ft2 s12">
+                    <div class="gold_frame h-100">
+                        <div class="frame_border h-100">
+                            <div class="frame_circle h-100">
+                                <p>&nbsp;</p>
+                                <p class="s10" style="line-height:100%;"><span style="color: transparent;">ーーーーーーーーーーーーーーー&nbsp;</span>※2</p>
+                                <p class="s16" style="line-height:100%;">内廊下設計、角住戸率<span class="s18 h-100">57%</span>超</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gold_info ft2 s12">
+                    <div class="gold_frame h-100">
+                        <div class="frame_border h-100">
+                            <div class="frame_circle h-100">
+                                <p>&nbsp;</p>
+                                <p class="s15">大型SUV車、スポーツカーも安心</p>
+                                <p class="s10"><span style="color: transparent;">ーーーーー-ーーーーーーーーー</span>※3</p>
+                                <p class="s15">全12台分の駐車場を設置</p>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- アンケートエリア(PC・SP共通) -->
             <div class="animation questionnaire_info_area">
                 <p class="gold-title-2 ft2 s24 info_title">「お住まいのアンケート」にご協力ください。</p>
                 <div class="questionnaire_info">
                     <div class="border-gold-2 d-inline-block">
                         <p class="text-center ft2 s16" style="line-height:2;"><span>アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
-                        <!-- <div class="w-100"> -->
-                            <button type="submit" class="gold_btn to_questionnaire" ><a href="/questionnaire" class="text-white ft2 s20 mh-parts" style="text-decoration:none;">アンケートはこちら</a></button>
-                        <!-- </div> -->
+                        <button type="submit" class="gold_btn to_questionnaire" ><a href="/questionnaire" class="text-white ft2 s20 mh-parts" style="text-decoration:none;">アンケートはこちら</a></button>
                     </div>
                 </div>
             </div>
 
-            <!-- INFOMATION -->
+            <!-- INFOMATION(PC・SP共通) -->
             <div class="animation">
                 <p class="gold-title-2 ft4 s30 info_title">INFORMATION</p>
                 <div class="ft2 s14">
@@ -173,7 +227,7 @@
 
         </div>
 
-
+        <!-- Read More PC表示 -->
         <div class="read_more_area">
             <!-- Ebisu -->
             <div class="read_more_link">
@@ -301,6 +355,8 @@
             </div> -->
         </div>
 
+
+
         <!-- Read More スマホ表示 -->
         <div class="read_more_area2">
             <!-- EBISU -->
@@ -329,9 +385,13 @@
                     ココに暮らす人々の姿さえも、この地の美しい風景となる。
                 </p>
                 <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="LOCATION 写真" class="photo-70">
+                <p class="s9 text-end mx-auto" style="width:70%;">「恵比寿ガーデンプレイス」(約260m・徒歩4分)</p>
                 <img src="{{ asset('/images/ウエスティンホテル.png') }}" alt="LOCATION 写真" class="photo-70">
+                <p class="s9 text-end mx-auto" style="width:70%;">「ウェスティンホテル東京」(約300m・徒歩4分)</p>
                 <img src="{{ asset('/images/アメリカ橋公園.png') }}" alt="LOCATION 写真" class="photo-70">
+                <p class="s9 text-end mx-auto" style="width:70%;">アメリカ橋公園(徒歩6分/約460m)</p>
                 <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="LOCATION 写真" class="photo-70">
+                <p class="s9 text-end mx-auto" style="width:70%;">「国立化学博物館附属 自然教育園」(約1000m・徒歩13分)</p>
                 <button class="gold_btn read_more" type="button">
                     <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                 </button>
@@ -369,6 +429,8 @@
             </div>
         </div>
 
+
+        <!-- PC・SP共通 -->
         <div class="animation">
             <div class="entry_link">
                 <button class="copper_btn" type="button">
