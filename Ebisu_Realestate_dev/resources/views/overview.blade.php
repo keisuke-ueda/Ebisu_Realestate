@@ -4,7 +4,7 @@
 
 <!-- 物件概要ページ -->
 <div class="ov-m">
-    <div style="margin: 0 200px;">
+    <div class="mx-200">
         <h1 class="gold-title-4 ft4 s24">OUTLINE</h1>
     </div>
     <h2 class="ft2 s14 ov-t1">物件概要</h2>
@@ -12,7 +12,7 @@
         <table class="ov_gold_table animation ">
             <tbody>
                 <tr>
-                    <td style="width: 215px;">【全体物件概要】</td>
+                    <td class="ov_title_td">【全体物件概要】</td>
                 </tr>
                 <tr>
                     <td>名称</td>
@@ -135,7 +135,7 @@
             <tbody>
 
                 <tr>
-                    <td style="width: 215px;">【第一期販売概要】</td>
+                    <td class="ov_title_td">【第一期販売概要】</td>
                 </tr>
                 <tr>
                     <td>販売戸数</td>

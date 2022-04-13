@@ -313,6 +313,17 @@ button {
 .footer {
   background-color: black;
 }
+.footer_content {
+  display: flex; 
+  align-items: center; 
+  padding: 10px 40px 10px 50px; 
+  position: relative;
+}
+.footer_right {
+  position: absolute; 
+  right: 50px; 
+  bottom: 10px;
+}
 
 .footer p {
   margin: 0;
@@ -352,9 +363,15 @@ video {
   align-items: center;
   margin-bottom: 30px;
 }
+.access_info_group2 {
+  display: none;
+}
 
 .gold_info_area {
   margin-bottom: 85px;
+}
+.gold_info_area2 {
+  display: none;
 }
 
 .gold_info_area p, .gold_info_area span {
@@ -672,7 +689,7 @@ video {
 }
 .dark-area {
   max-width: 1200px; 
-  padding:40px 40px 0 45px;
+  padding:40px 40px 0 40px;
   margin: 0 auto;
 }
 .dark-area2 {
@@ -680,8 +697,10 @@ video {
 }
 
 .white-area {
-  max-width: 1200px; 
-  padding:35px 40px 0 45px; 
+  /* max-width: 1200px;  */
+  max-width: 1120px; 
+  /* padding:35px 40px 0 45px;  */
+  padding:35px 20px 0; 
   margin: 0 auto 30px;
 }
 .white-area2 {
@@ -691,6 +710,14 @@ video {
 
 
 /* ACCESSページ */
+.access-top {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+.access-top img {
+  width: 25%;
+}
 .main-content2 {
   display: none;
 }
@@ -739,6 +766,12 @@ video {
 .ov_m2{
   margin-top: 45px;
   margin-bottom: 40px;
+}
+.ov_title_td {
+  width: 215px;
+}
+.mx-200 {
+  margin: 0 200px;
 }
 
 
@@ -903,6 +936,11 @@ video {
   width: 29.2vw; 
   height: 4.17vw; 
   margin: 3.125rem auto 0;
+}
+.to_questionnaire {
+  width:100%;
+  padding: 10px 0; 
+  margin-top: 30px;
 }
 
 

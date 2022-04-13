@@ -37,6 +37,26 @@
   margin-bottom: 15px;
 }
 
+/* フッター */
+.footer_content {
+  display: flex; 
+  align-items: center; 
+  padding: 10px; 
+  position: relative;
+}
+.company_name {
+  font-size: 10px;
+}
+.company_tel {
+  font-size: 15px;
+}
+.footer_right {
+  position: absolute; 
+  right: 10px; 
+  bottom: 10px;
+}
+
+
 /* メニュー */
 .absolute{
   position: absolute;
@@ -105,32 +125,134 @@ video {
   object-position: 50% 50%;
 }
 
-.access_info_group {
-  display: block;
+.black_wall {
+  background-color: #000;
+  padding: 50px 0 70px;
 }
 
-.access_info {
+.access_info_group {
+  /* display: block; */
+  display: none;
+}
+.access_info_group2 {
+  display: block;
+  /* margin-bottom: 50px; */
+}
+.access_info_group2 p {
+  margin: 0;
+}
+
+/* .access_info {
   width: 80%;
   margin: 15px auto;
-}
+} */
 
-.gold_info_group {
+/* 金枠 */
+.gold_info_area {
+  display: none;
+}
+.gold_info_area2 {
+  display: block;
+  margin-top: 50px;
+}
+.gold_info_area2 p {
+  margin: 0;
+}
+/* .gold_info_group {
   display: block;
   height: auto;
-}
+} */
 
 .gold_info {
   width: 90%;
   margin: 1rem auto;
+  height: 70px;
 }
-/* 
+
+.frame_border {
+  position: relative;
+  border: 1px solid #ca4;
+  padding: 0;
+  color: #ca4;
+  text-align: center;
+}
+
 .questionnaire_info {
-  width: 80%;
-} */
+  width: 90%;
+  margin: 0 auto;
+}
+
+.gold-title-2 {
+
+}
+
+.gold-title-2::before {
+  margin-right: 0.4rem;
+}
+.gold-title-2::after {
+  margin-left: 0.4rem;
+}
+
+.info_title {
+  width: 90%; 
+  margin: 40px auto 45px; 
+  font-size: 14px;
+}
 
 .info_table {
-  width:80%;
+  width: 85%;
+  margin: 0 auto;
+  font-size: 10px;
 }
+
+.date-td-1 {
+  padding-bottom: 10px;
+}
+
+.text-td-1 {
+  padding-left: 15px;
+}
+
+.date-td-2 {
+  padding: 10px 0;
+}
+
+.text-td-2 {
+  padding: 10px 0px 10px 15px;
+}
+
+.border-gold-2 {
+  padding: 30px;
+}
+
+.border-gold-2 p{
+  font-size: 11px;
+  margin: 0;
+}
+.to_questionnaire a{
+  font-size: 14px;
+} 
+
+/* .border-gold-2 {
+  border: 1px solid #B67B03;
+  border-image: #d09a58;
+  border-image-slice: 1;
+  padding: 20px;
+}
+
+.border-gold-2 span {
+  border-bottom:1px solid white;
+  padding-bottom: 5px;
+}
+
+.border-gold-2 div {
+  width: 29.2vw; 
+  height: 4.17vw; 
+  margin: 20px auto 0;
+}
+.to_questionnaire {
+  
+} */
 
 /* 
 .pt14 {
@@ -199,6 +321,16 @@ video {
   margin-top: 20px;
 }
 
+/* 注釈 */
+.comment-area {
+  margin: 0 auto;
+  width: 90%;
+}
+.comment-area p {
+  white-space: normal;
+  font-size: 10px;
+}
+
 
 /* EBISUページ */
 .ebisu-top img {
@@ -219,13 +351,17 @@ video {
 
 
 /* ACCESSページ */
+.access-top img{
+  width: 70%;
+}
 .main-content {
   display: none;
 }
 .main-content2 {
   display: block;
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
+  padding: 30px 0 0; 
 }
 .taxi_table {
   border-collapse: collapse;
@@ -234,7 +370,96 @@ video {
   
 }
 .taxi_table td {
-  padding: 5px 5px;
+  padding: 1px;
   vertical-align: middle;
 }
 /* ACCESSページ ここまで */
+
+
+
+/* 物件概要ページ */
+.ov-m {
+  padding: 150px 0px 40px 0px;
+}
+.ov-t1{
+  text-align:center;
+  position:relative;
+}
+.ov_gold_table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+.ov_comment{
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.ov_gold_table > tbody > tr{
+  border-bottom: 2px solid #d6c88d;
+}
+.ov_gold_table > tbody > tr > td,
+.ov_gold_table > tbody > tr > th {
+  padding: 16px 0;
+}
+.ov_m1{
+  margin-top: 60px;
+}
+.ov_m2{
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+.ov_title_td {
+  width: 30%;
+}
+.mx-200 {
+  margin:0;
+}
+
+/* 現地案内ページ */
+.map-m {
+  padding: 70px 0px 40px 0px;
+}
+.map-t1{
+  text-align:center;
+  position:relative;
+}
+.map_comment{
+  margin-left: auto;
+  margin-right: auto;
+  width: 870px;
+}
+.map_but{
+  display: flex;
+  justify-content: center;
+}
+.map_but_s{
+  height: 60px;
+  width: 210px;
+}
+.map_img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
+.map_but_img{
+  height: 30px;
+}
+.map_m1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.map_m2{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.map_m3{
+  margin: 7px;
+
+}
+.map_side_layout{
+  display: inline-block;
+  justify-content: center;
+  margin: 0 20px 0 0;
+}
