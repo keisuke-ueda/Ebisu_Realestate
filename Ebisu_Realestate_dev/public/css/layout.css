@@ -718,7 +718,7 @@ video {
 .access-top img {
   width: 25%;
 }
-.main-content2 {
+.access-main-content2 {
   display: none;
 }
 
@@ -1129,6 +1129,11 @@ input, select {
 /*
  アンケートページ(questionnaire.blade.php)
 */
+#questionnaire {
+  width: 800px;
+  margin: 150px auto 0;
+}
+
 .questionnaire > ul > li {
   display: inline-block;
   list-style: none;
@@ -1430,8 +1435,42 @@ td.h-110px {
 #questionnaire .pl-120px {
   padding-left: 120px;
 }
-
+.questionnaire-title-td {
+  padding-left: 24px;
+}
+.table-div {
+  padding-left: 20px; 
+  padding-right: 20px;
+}
+.long_input {
+  width: 250px;
+}
+.long_input2 {
+  width: 350px;
+}
+.w-60px {
+  width:60px;
+}
+.w-100px {
+  width:100px;
+}
+.w-120px {
+  width: 120px;
+}
 /*
   アンケートページここまで
 */
 
+/* エントリーページ */
+#entry {
+  width: 800px;
+  margin: 150px auto 0;
+}
+
+.entry-column1 {
+  width:22%; 
+}
+
+.w-200px {
+  width:200px;
+}

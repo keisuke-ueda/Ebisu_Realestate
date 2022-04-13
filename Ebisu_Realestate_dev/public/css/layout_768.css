@@ -354,10 +354,10 @@ video {
 .access-top img{
   width: 70%;
 }
-.main-content {
+.access-main-content {
   display: none;
 }
-.main-content2 {
+.access-main-content2 {
   display: block;
   width: 95%;
   margin: 0 auto;
@@ -518,7 +518,94 @@ video {
 
 
 /* アンケート */
-/* #questionnaire {
+#questionnaire {
+  width: calc(100% - 80px);
+  margin: 150px auto 0;
+  font-size: 10px;
+}
+
+#questionnaire p, #questionnaire span, #questionnaire ul, #questionnaire li, #questionnaire input, #questionnaire label, #questionnaire div {
+  font-size: 10px;
+}
+#questionnaire input, #questionnaire select {
+  height: 20px;
+}
+.questionnaire-sm-img{
+  padding: 0;
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto; 
+}
+
+#questionnaire .pr-22px {
+  padding-right: 0px;
+}
+
+#questionnaire .pl-22px {
+  padding-left: 0px;
+}
+
+#questionnaire .pr-120px {
+  padding-right: 0px;
+}
+
+#questionnaire .pl-120px {
+  padding-left: 0px;
+}
+
+.questionnaire-title-td {
+  padding-left: 5px;
+}
+#questionnaire .column1 {
+  width: 33%;
+}
+#questionnaire .column3 {
+  width: 62%;
+}
+.table-div {
+  padding-left: 0; 
+  padding-right: 0;
+}
+.long_input {
+  width: 130px;
+}
+.long_input2 {
+  width: 130px;
+}
+.w-60px {
+  width: 40px;
+}
+.w-100px {
+  width: 50px;
+}
+.w-120px {
+  width: 60px;
+}
+
+/* エントリー */
+#entry {
+  width: calc(100% - 80px);
+  margin: 150px auto 0;
+}
+
+#entry p, #entry span, #entry ul, #entry li, #entry input, #entry label, #entry div {
+  font-size: 10px;
+}
+#entry input, #entry select{
+  height: 20px;
+}
+.entry-column1 {
+  width:33%; 
+}
+.entry-column3 {
+  width:62%; 
+}
+/* #entry .column1 {
+  width: 33%;
+}
+#entry .column3 {
+  width: 62%;
 } */
+
+.w-200px {
+  width:100px;
+}

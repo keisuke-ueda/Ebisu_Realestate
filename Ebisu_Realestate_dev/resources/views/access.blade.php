@@ -65,7 +65,7 @@
 </div>
 
 
-<div class="main-content mx-auto" style="max-width:1200px; padding: 40px 40px 0 45px;">
+<div class="access-main-content mx-auto" style="max-width:1200px; padding: 40px 40px 0 45px;">
 
     <!-- 路線図 -->
     <div class="animation d-flex justify-content-between w-100" > 
@@ -242,7 +242,7 @@
 
 
 <!-- スマホ表示 -->
-<div class="main-content2 ft2">
+<div class="access-main-content2 ft2">
     <div class="animation d-flex justify-content-between w-100" > 
         <img  class="d-block animation-0-zm" style="width: 49%" src="{{ asset('/images/access_roppongi.png') }}">
         <img  class="d-block animation-0-zm" style="width: 49%" src="{{ asset('/images/access_shibuya.png') }}">
