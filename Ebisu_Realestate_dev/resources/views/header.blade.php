@@ -90,25 +90,30 @@
           <div>
             <a href="/">
               <p>TOP</p>
-              <p>トップ</p>
+              <p class="s10">トップ</p>
             </a>
           </div>
           <div>
             <a href="/location">
               <p>LOCATION</p>
-              <p>ロケーション</p>
+              <p class="s10">ロケーション</p>
             </a>
           </div>
           <div>
             <a href="/design">
               <p>DESIGN</p>
-              <p>デザイン</p>
+              <p class="s10">デザイン</p>
             </a>
           </div>
           <div>
             <a href="/plan">
               <p>PLAN</p>
-              <p>プラン</p>
+              <p class="s10">プラン</p>
+            </a>
+          </div>
+          <div>
+            <a href="/over_view">
+              <p>物件概要</p>
             </a>
           </div>
         </div>
@@ -117,25 +122,30 @@
           <div>
             <a href="/concept">
               <p>EBISU</p>
-              <p>恵比寿</p>
+              <p class="s10">恵比寿</p>
             </a>
           </div>
           <div>
             <a href="/access">
               <p>ACCESS</p>
-              <p>アクセス</p>
+              <p class="s10">アクセス</p>
             </a>
           </div>
           <div>
             <a href="/model_room">
               <p>MODEL ROOM</p>
-              <p>モデルルーム</p>
+              <p class="s10">モデルルーム</p>
             </a>
           </div>
           <div>
             <a href="/blanding">
               <p>BLAND</p>
-              <p>ブランド</p>
+              <p class="s10">ブランド</p>
+            </a>
+          </div>
+          <div>
+            <a href="/map">
+              <p>現地案内図</p>
             </a>
           </div>
         </div>

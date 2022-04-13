@@ -168,7 +168,19 @@ $(function () {
     $('.header').addClass('d-none');
   })
 
-  フォームの入力バリデーション
+
+  // カレント表示
+  $('.header_link a').each(function () {
+    var href = $(this).attr('href');
+    if (location.href.match(href)) {
+      $(this).addClass('current');
+    } else {
+      $(this).removeClass('current');
+    };
+  });
+  $('.current').css('color', 'white');
+
+  // フォームの入力バリデーション
   $('.mailformpro').validate({
     rules: {
       sei: {
@@ -261,17 +273,6 @@ $(function () {
     email: "正しいメールアドレスを入力してください。",
     equalTo: "違う値が入力されています。",
   });
-
-  $('.header_link a').each(function () {
-    var href = $(this).attr('href');
-    if (location.href.match(href)) {
-      $(this).addClass('current');
-    } else {
-      $(this).removeClass('current');
-    };
-  });
-  $('.current').css('color', 'white');
-
 });
 
 
