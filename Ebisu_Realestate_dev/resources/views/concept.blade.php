@@ -65,7 +65,8 @@
         </div>
     </div>
 
-    <div class="dark-area2">
+    <!-- スマホ表示 -->
+    <div class="dark-area2 ft2">
         <div style="width: 80%; margin: 0 auto;">
             <p class="gold-2 text-center">緑も豊かな「恵比寿ガーデンプレイス」</p>
             <p class="gold-2 text-center">「ウエスティンホテル東京」に隣接。</p>
@@ -133,6 +134,7 @@
     </div>
     
 
+    <!-- スマホ表示 -->
     <div class="white-area2 bg-white text-dark ft2">
         <div style="width: 80%; margin: 0 auto;">
             <p class="text-center" style="">恵比寿、丘の上の美しい風景へ</p>

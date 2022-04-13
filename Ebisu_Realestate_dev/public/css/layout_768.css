@@ -136,7 +136,7 @@ video {
 }
 .access_info_group2 {
   display: block;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 .access_info_group2 p {
   margin: 0;
@@ -153,6 +153,7 @@ video {
 }
 .gold_info_area2 {
   display: block;
+  margin-top: 50px;
 }
 .gold_info_area2 p {
   margin: 0;
@@ -350,6 +351,9 @@ video {
 
 
 /* ACCESSページ */
+.access-top img{
+  width: 70%;
+}
 .main-content {
   display: none;
 }

@@ -710,6 +710,14 @@ video {
 
 
 /* ACCESSページ */
+.access-top {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+.access-top img {
+  width: 25%;
+}
 .main-content2 {
   display: none;
 }

@@ -3,8 +3,8 @@
 @section('content')
 <!-- 開発対象 -->
 <!-- 背景色、テキスト一時的に調整 -->
-<div class="d-flex justify-content-center bg-black">
-    <img  class="w-25 img-fluid mt-ex" src="{{ asset('/images/the access.svg') }}">
+<div class="access-top">
+    <img  class="img-fluid mt-ex" src="{{ asset('/images/the access.svg') }}">
 </div>
 
 <div class="py-4" style="background-color: #000;">
@@ -41,6 +41,25 @@
                 <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">13</span>分</p>
             </div>
             <p class="s9">&nbsp;</p>
+        </div>
+    </div>
+
+    <!-- スマホ表示 -->
+    <div class="access_info_group2 animation mx-auto ft2" style="width:90%;">
+        <div class="d-flex justify-content-between align-items-start">
+            <p class="s10">JR山手線・埼京線・湘南新宿ライン</p>
+            <div>
+                <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">11</span>分</p>
+                <p class="s9">(恵比寿スカイウォークより徒歩7分)</p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <p class="s10">東京メトロ日比谷線</p>
+            <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <p class="s10">JR山手線・東京メトロ南北線・<br>都営地下鉄三田線・東急目黒線</p>
+            <p class="s14"><span class="s18">｢目黒｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
         </div>
     </div>
 </div>
@@ -223,7 +242,7 @@
 
 
 <!-- スマホ表示 -->
-<div class="main-content2">
+<div class="main-content2 ft2">
     <div class="animation d-flex justify-content-between w-100" > 
         <img  class="d-block animation-0-zm" style="width: 45%" src="{{ asset('/images/access_roppongi.png') }}">
         <img  class="d-block animation-0-zm" style="width: 45%" src="{{ asset('/images/access_shibuya.png') }}">
