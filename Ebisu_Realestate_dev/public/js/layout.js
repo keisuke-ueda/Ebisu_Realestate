@@ -168,7 +168,7 @@ $(function () {
     $('.header').addClass('d-none');
   })
 
-  フォームの入力バリデーション
+  //フォームの入力バリデーション
   $('.mailformpro').validate({
     rules: {
       sei: {
