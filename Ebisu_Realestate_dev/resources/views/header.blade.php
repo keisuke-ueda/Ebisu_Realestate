@@ -112,7 +112,7 @@
             </a>
           </div>
           <div>
-            <a href="/over_view">
+            <a href="/overview">
               <p>物件概要</p>
             </a>
           </div>
