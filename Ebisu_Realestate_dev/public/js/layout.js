@@ -120,6 +120,14 @@ $(function () {
     }
   });
 
+
+  // リサイズ中にSPメニューが表示されるのを防ぐ
+  $(window).on('resize', function() {
+    if ($('.header_content').css('display') == 'none') {
+      $('.header').addClass('d-none');
+    }
+  })
+
   // トップページのみ、ハンバーガーボタンとロゴがアニメーションで出現
   if (!$('div').hasClass('first_view')) {
     $('.index_logo').removeClass('logo_animation');
@@ -168,7 +176,19 @@ $(function () {
     $('.header').addClass('d-none');
   })
 
-  フォームの入力バリデーション
+
+  // カレント表示
+  $('.header_link a').each(function () {
+    var href = $(this).attr('href');
+    if (location.href.match(href)) {
+      $(this).addClass('current');
+    } else {
+      $(this).removeClass('current');
+    };
+  });
+  $('.current').css('color', 'white');
+
+  // フォームの入力バリデーション
   $('.mailformpro').validate({
     rules: {
       sei: {
@@ -261,17 +281,6 @@ $(function () {
     email: "正しいメールアドレスを入力してください。",
     equalTo: "違う値が入力されています。",
   });
-
-  $('.header_link a').each(function () {
-    var href = $(this).attr('href');
-    if (location.href.match(href)) {
-      $(this).addClass('current');
-    } else {
-      $(this).removeClass('current');
-    };
-  });
-  $('.current').css('color', 'white');
-
 });
 
 

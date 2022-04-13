@@ -21,7 +21,7 @@
                 <p class="ft2 s14">【狭域地図】</p>
                 <img src="{{ asset('/images/map_2.png') }}" class="map_img">
             </div>
-            <p class="map-t1 map_m2 ft2 s24">所在地：東京都目黒区三田1丁目1-16</p>
+            <p class="map-t1 map_m2 ft2 s24 map_address">所在地：東京都目黒区三田1丁目1-16</p>
        </div>
        <div class="map_but">
             <button class="map_btn mh-parts map_but_s map_m3">
