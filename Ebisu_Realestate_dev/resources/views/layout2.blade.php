@@ -43,7 +43,7 @@
 </head>
 
 <body>
-    <div class="min-vh-100 position-relative" style="padding: 0 0 110px;">
+    <div class="min-vh-100 position-relative common_layout2" style="">
     <!-- ヘッダー -->
     @include('header')
 
@@ -54,7 +54,7 @@
     @yield('content')
 
     <!-- トップへ戻るボタン -->
-    <div class="w-100 d-flex justify-content-center py-5" style="background-color:#3e3a39;">
+    <div class="to-page-top2 w-100 d-flex justify-content-center" style="">
         <a href="#" class="d-inline-block mx-auto my-0 text-white" style="text-decoration: none;">
             <p class="text-center m-0 s12 ft2"><span class="arrow-top d-inline-block mb-1">∧</span><br>TOPへ戻る</p>
         </a>

@@ -7,6 +7,23 @@ button {
   text-align: center;
 }
 
+.common_layout {
+  padding: 0 0 129px; 
+  background-color: #3e3a39;
+}
+
+.common_layout2 {
+  padding: 0 0 110px;
+}
+
+.to-page-top {
+  padding: 25px 0 45px;
+}
+.to-page-top2 {
+  background-color:#3e3a39;
+  padding: 45px 0;
+}
+
 /* 改行ポイント */
 .bl {
   display: inline-block;
@@ -686,6 +703,7 @@ video {
 }
 .ebisu-top img {
   width: 25%;
+  margin-top: 200px;
 }
 .dark-area {
   max-width: 1200px; 
@@ -717,6 +735,7 @@ video {
 }
 .access-top img {
   width: 25%;
+  margin-top: 200px;
 }
 .access-main-content2 {
   display: none;

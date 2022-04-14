@@ -11,7 +11,7 @@
   <h1 class="p-title gold-title-3 center-block text-center m-none ft4 s24">PROPERTY ENTRY</h1>
   <p class="p-title center-block text-center mt-10px ft2 s14" style="margin-bottom:25px;">物件エントリー</p>
   <!-- <div class="main-content" style="margin-right: 90px; margin-left: 90px"> -->
-  <div class="main-content" style="">
+  <div class="entry-main-content" style="">
     <div class="ft2 s16">
       <p class="text-center" style="margin-bottom: 10px;">以下のフォームに必要な項目を入力のうえ「送信」ボタンを押してください。</p>
       <p class="text-center" style="margin-bottom: 20px;"><span class="badge badge-danger">必須</span>は必須項目です。</p>

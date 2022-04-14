@@ -61,21 +61,21 @@
             </div>
 
             <!-- アクセス情報 スマホ表示 -->
-            <div class="access_info_group2 animation mx-auto ft2" style="width:90%;">
-                <div class="d-flex justify-content-between align-items-start">
-                    <p class="s10">JR山手線・埼京線・湘南新宿ライン</p>
-                    <div>
-                        <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">11</span>分</p>
+            <div class="access_info_group2 animation mx-auto ft2" style="width:328px;">
+                <div class="d-flex justify-content-start align-items-start mb-2">
+                    <p class="s10 pt-1">JR山手線・埼京線・湘南新宿ライン</p>
+                    <div style="margin-left:5px;">
+                        <p class="s12"><span class="s15">｢恵比寿｣</span>駅徒歩<span class="gold-2 s20" style="line-height: 100%;">11</span>分</p>
                         <p class="s9">(恵比寿スカイウォークより徒歩7分)</p>
                     </div>
                 </div>
-                <div class="d-flex justify-content-between align-items-center">
-                    <p class="s10">東京メトロ日比谷線</p>
-                    <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
+                <div class="d-flex justify-content-start align-items-center mb-2">
+                    <p class="s10">東京メトロ日比谷線<span style="color:transparent;">ーーーーーーー</span></p>
+                    <p class="s12" style="margin-left:5px;"><span class="s15">｢恵比寿｣</span>駅徒歩<span class="gold-2 s20" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
                 </div>
-                <div class="d-flex justify-content-between align-items-center">
-                    <p class="s10">JR山手線・東京メトロ南北線・<br>都営地下鉄三田線・東急目黒線</p>
-                    <p class="s14"><span class="s18">｢目黒｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
+                <div class="d-flex justify-content-start align-items-center">
+                    <p class="s10">JR山手線・東京メトロ南北線・<br>都営地下鉄三田線・東急目黒線<span style="color:transparent;">ーー</span></p>
+                    <p class="s12" style="margin-left:5px;"><span class="s15">｢目黒｣</span>駅徒歩<span class="gold-2 s20" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
                 </div>
             </div>
 
@@ -143,14 +143,14 @@
 
             <!-- 枠 スマホ表示 -->
             <div class="gold_info_area2">
-                <div class="gold_info ft2 s11">
+                <div class="gold_info ft2 s10">
                     <div class="gold_frame h-100">
                         <div class="frame_border h-100">
                             <div class="frame_circle h-100">
                                 <p>&nbsp;</p>
-                                <p>最寄りのJR山手線・埼京線・湘南新宿ライン「恵比寿」駅より、</p>
+                                <p>最寄りのJR山手線・埼京線・湘南新宿ライン｢恵比寿｣駅より、</p>
                                 <p class="s10">&nbsp;</p>
-                                <p style="line-height:100%;">「渋谷」駅へ<span class="s18 h-100">2</span>分「新宿」駅へ<span class="s18 h-100">7</span>分「品川」駅へ<span class="s18 h-100">9</span>分</p>
+                                <p style="line-height:100%;">｢渋谷｣駅へ<span class="s18 h-100">2</span>分｢新宿｣駅へ<span class="s18 h-100">7</span>分｢品川｣駅へ<span class="s18 h-100">9</span>分</p>
                                 <p>&nbsp;</p>
                             </div>
                         </div>
@@ -161,21 +161,21 @@
                         <div class="frame_border h-100">
                             <div class="frame_circle h-100">
                                 <p>&nbsp;</p>
-                                <p>緑に包まれた<span class="s15">「ウエスティンホテル東京」</span></p>
+                                <p>緑に包まれた<span class="s14">｢ウエスティンホテル東京｣</span></p>
                                 <p class="s10"><span style="color: transparent;">ーーーーーーーーーーー&nbsp;</span>※1</p>
-                                <p class=""><span class="s15">「恵比寿ガーデンプレイス」</span>に隣接</p>
+                                <p class=""><span class="s14">｢恵比寿ガーデンプレイス｣</span>に隣接</p>
                                 <p>&nbsp;</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="gold_info ft2 s11">
+                <div class="gold_info ft2 s10">
                     <div class="gold_frame h-100">
                         <div class="frame_border h-100">
                             <div class="frame_circle h-100">
                                 <p>&nbsp;</p>
                                 <p class="s10" style="line-height:100%;"><span style="color: transparent;">ーーーーーーーーーーーーーーー&nbsp;</span>※2</p>
-                                <p class="s15" style="line-height:100%;">内廊下設計、角住戸率<span class="s16 h-100">57%</span>超</p>
+                                <p class="s14" style="line-height:100%;">内廊下設計、角住戸率<span class="s16 h-100">57%</span>超</p>
                                 <p>&nbsp;</p>
                                 <p>&nbsp;</p>
                             </div>
@@ -187,9 +187,9 @@
                         <div class="frame_border h-100">
                             <div class="frame_circle h-100">
                                 <p>&nbsp;</p>
-                                <p class="s15">大型SUV車、スポーツカーも安心</p>
+                                <p class="s14">大型SUV車、スポーツカーも安心</p>
                                 <p class="s10"><span style="color: transparent;">ーーーーー-ーーーーーーーーー</span>※3</p>
-                                <p class="s15">全12台分の駐車場を設置</p>
+                                <p class="s14">全12台分の駐車場を設置</p>
                                 <p>&nbsp;</p>
                             </div>
                         </div>
@@ -199,7 +199,7 @@
 
             <!-- アンケートエリア(PC・SP共通) -->
             <div class="animation questionnaire_info_area">
-                <p class="gold-title-2 ft2 s24 info_title">「お住まいのアンケート」にご協力ください。</p>
+                <p class="gold-title-2 ft2 s24 info_title">｢お住まいのアンケート｣にご協力ください。</p>
                 <div class="questionnaire_info">
                     <div class="border-gold-2 d-inline-block">
                         <p class="text-center ft2 s16" style="line-height:2;"><span>アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
@@ -364,12 +364,12 @@
                 <img src="{{ asset('/images/theebisu.svg') }}" alt="THE EBISU" class="the-logo">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
-                    恵比寿、それも「恵比寿ガーデンプレイス」「ウエスティンホテル東京」を間近とする住宅地。<br>
+                    恵比寿、それも｢恵比寿ガーデンプレイス｣ ｢ウエスティンホテル東京｣を間近とする住宅地。<br>
                     その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
                     多くを語らずとも本物を知る人を魅了するレジデンス。<br>
-                    「ラ・アトレ恵比寿グランガーデン」ゆるぎなき矜持がここにある。
+                    ｢ラ・アトレ恵比寿グランガーデン｣ ゆるぎなき矜持がここにある。
                 </p>
-                <img src="{{ asset('/images/the ebisu photo1.png') }}" alt="EBISU 写真" class="photo-80">
+                <img src="{{ asset('/images/the ebisu photo1.png') }}" alt="EBISU 写真" class="photo-100">
                 <button class="gold_btn read_more" type="button">
                     <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                 </button>
@@ -384,14 +384,14 @@
                     建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
                     ココに暮らす人々の姿さえも、この地の美しい風景となる。
                 </p>
-                <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="LOCATION 写真" class="photo-70">
-                <p class="s9 text-end mx-auto" style="width:70%;">「恵比寿ガーデンプレイス」(約260m・徒歩4分)</p>
-                <img src="{{ asset('/images/ウエスティンホテル.png') }}" alt="LOCATION 写真" class="photo-70">
-                <p class="s9 text-end mx-auto" style="width:70%;">「ウェスティンホテル東京」(約300m・徒歩4分)</p>
-                <img src="{{ asset('/images/アメリカ橋公園.png') }}" alt="LOCATION 写真" class="photo-70">
-                <p class="s9 text-end mx-auto" style="width:70%;">アメリカ橋公園(徒歩6分/約460m)</p>
-                <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="LOCATION 写真" class="photo-70">
-                <p class="s9 text-end mx-auto" style="width:70%;">「国立化学博物館附属 自然教育園」(約1000m・徒歩13分)</p>
+                <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="LOCATION 写真" class="photo-80">
+                <p class="s9 text-end mx-auto" style="width:80%;">｢恵比寿ガーデンプレイス｣ (約260m・徒歩4分)</p>
+                <img src="{{ asset('/images/ウエスティンホテル.png') }}" alt="LOCATION 写真" class="photo-80">
+                <p class="s9 text-end mx-auto" style="width:80%;">｢ウェスティンホテル東京｣ (約300m・徒歩4分)</p>
+                <img src="{{ asset('/images/アメリカ橋公園.png') }}" alt="LOCATION 写真" class="photo-80">
+                <p class="s9 text-end mx-auto" style="width:80%;">｢アメリカ橋公園｣(徒歩6分/約460m)</p>
+                <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="LOCATION 写真" class="photo-80">
+                <p class="s9 text-end mx-auto" style="width:80%;">｢国立化学博物館附属 自然教育園｣ (約1000m・徒歩13分)</p>
                 <button class="gold_btn read_more" type="button">
                     <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                 </button>
@@ -406,7 +406,7 @@
                     六本木、霞ヶ関、銀座へダイレクトに繋がることのできる日比谷線。<br>
                     ここには、目的に合わせて、路線を使いこなせる自由がある。
                 </p>
-                <img src="{{ asset('/images/the access photo.png') }}" alt="ACCESS 写真" class="photo-80">
+                <img src="{{ asset('/images/the access photo.png') }}" alt="ACCESS 写真" class="photo-100">
                 <button class="gold_btn read_more" type="button">
                     <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                 </button>
@@ -422,7 +422,7 @@
                     バルコニーの目立たない高級感にあふれる雁行フォルム。<br>
                     落ち着いた基調色が街並みと美しく調和します。
                 </p>
-                <img src="{{ asset('/images/the design photo1.png') }}" alt="DESIGN 写真" class="photo-80">
+                <img src="{{ asset('/images/the design photo1.png') }}" alt="DESIGN 写真" class="photo-100">
                 <button class="gold_btn read_more" type="button">
                     <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                 </button>

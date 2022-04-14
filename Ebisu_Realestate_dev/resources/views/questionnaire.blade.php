@@ -10,8 +10,8 @@
 ?>
 <!-- <div id="questionnaire" style="margin: 150px 200px 0px;" class="pb-40px"> -->
 <div id="questionnaire">
-    <div class="">
-        <h1 class="p-title gold-title-2 text-center ft2 s24" style="margin-bottom: 50px;">お住まいについてのアンケート</h1>
+    <h1 class="p-title gold-title-2 text-center ft2 s24" style="margin-bottom: 50px;">お住まいについてのアンケート</h1>
+    <div class="pre-text">
         <div class="pl-120px pr-120px questionnaire-sm-img">
             <img class="pb-40px img1" src="{{ asset('/images/お住まいアンケート1.png') }}">
         </div>
