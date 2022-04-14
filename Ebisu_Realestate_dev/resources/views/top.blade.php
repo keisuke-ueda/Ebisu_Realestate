@@ -16,6 +16,11 @@
         <div class="movie_skip position-absolute bottom-0 end-0">
             <button type="button" class="movie_skip_btn btn btn-outline-light">SKIP</button>
         </div>
+
+        <!-- SP用動画 -->
+        <video autoplay muted class="sp_movie">
+            <source src="{{ asset('/images/ebisu_SP.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
     <div class="second_view">

@@ -363,6 +363,10 @@ video {
   width: 100%;
 }
 
+.sp_movie {
+  display: none;
+}
+
 .movie_skip_btn {
   margin-bottom: 30px;
   margin-right: 30px;

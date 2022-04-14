@@ -154,6 +154,13 @@
 video {
   object-position: 50% 50%;
 }
+.movie-1, .movie-2, .movie_skip {
+  display: none;
+}
+
+.sp_movie {
+  display: block;
+}
 
 .black_wall {
   background-color: #000;
