@@ -8,7 +8,7 @@
         <img src="{{ asset('/images/フッタ―.svg') }}" alt="フッターロゴ" height="50">
         <div class="d-flex flex-column justify-content-center align-items-start ms-2"> 
           <p class="group_title d-inline-block s10"><span>東証グロース上場企業</span><br>LAホールディングス</p>
-          <p class="text-wite sans-serif d-inline-block" style="font-size: 2px;">ラ・アトレは<br>LAホールディングスのグループ会社です。</p>
+          <p class="text-wite sans-serif d-inline-block s9" style="">ラ・アトレは<br>LAホールディングスのグループ会社です。</p>
         </div>
       </div>
       <p class="font-weight-bold s10 ft2">Copyright©L'attrait Co.,Ltd.All Rights Reserved.</p>
@@ -19,7 +19,7 @@
       <div style="line-height:1.0;">
         <p style="text-align:right;" class="ft2 s10">[営業時間] 10:00〜18:00 [定休日] 火・水曜日<br>
         <span class="s27 ft4 company_tel">0120<span class="ft2">-</span>978<span class="ft2">-</span>690</span><br>
-        <span class="s12 ft2">「ラ・アトレ恵比寿グランガーデン」現場事務所</span></p>
+        <span class="s12 ft2 footer_gg">「ラ・アトレ恵比寿グランガーデン」現場事務所</span></p>
         </div>
     </div>
   </div>

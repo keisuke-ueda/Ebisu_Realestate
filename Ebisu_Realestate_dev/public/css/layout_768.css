@@ -58,20 +58,31 @@
 .footer_content {
   height: 119px;
   display: flex; 
-  align-items: center; 
-  padding: 10px; 
+  align-items: end; 
+  padding: 20px 40px; 
   position: relative;
 }
 .company_name {
   font-size: 10px;
 }
+.footer p {
+  font-size: 1.5vw;
+}
 .company_tel {
-  font-size: 15px;
+  font-size: 5vw;
 }
 .footer_right {
   position: absolute; 
-  right: 10px; 
-  bottom: 10px;
+  right: 40px; 
+  bottom: 20px;
+}
+
+.footer_gg {
+  font-size: 1.5vw;
+}
+
+.footer img {
+  height: 40px;
 }
 
 
@@ -154,7 +165,8 @@ video {
   display: none;
 }
 .access_info_group2 {
-  display: block;
+  display: flex;
+  justify-content: center;
   /* margin-bottom: 50px; */
 }
 .access_info_group2 p {
@@ -263,7 +275,7 @@ video {
 }
 
 .border-gold-2 p{
-  font-size: 11px;
+  font-size: 10px;
   margin: 0;
 }
 .to_questionnaire {

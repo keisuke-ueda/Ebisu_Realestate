@@ -45,21 +45,23 @@
     </div>
 
     <!-- スマホ表示 -->
-    <div class="access_info_group2 animation mx-auto ft2" style="width:328px;">
-        <div class="d-flex justify-content-start align-items-start mb-2">
-            <p class="s10 pt-1">JR山手線・埼京線・湘南新宿ライン</p>
-            <div style="margin-left:5px;">
-                <p class="s12"><span class="s15">｢恵比寿｣</span>駅徒歩<span class="gold-2 s20" style="line-height: 100%;">11</span>分</p>
-                <p class="s9">(恵比寿スカイウォークより徒歩7分)</p>
+    <div class="access_info_group2 animation ft2">
+        <div class="d-inline-block">
+            <div class="d-flex justify-content-start align-items-start mb-2">
+                <p class="s10 pt-1">JR山手線・埼京線・湘南新宿ライン</p>
+                <div style="margin-left:5px;">
+                    <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">11</span>分</p>
+                    <p class="s9">(恵比寿スカイウォークより徒歩7分)</p>
+                </div>
             </div>
-        </div>
-        <div class="d-flex justify-content-start align-items-center mb-2">
-            <p class="s10">東京メトロ日比谷線<span style="color:transparent;">ーーーーーーー</span></p>
-            <p class="s12" style="margin-left:5px;"><span class="s15">｢恵比寿｣</span>駅徒歩<span class="gold-2 s20" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
-        </div>
-        <div class="d-flex justify-content-start align-items-center">
-            <p class="s10">JR山手線・東京メトロ南北線・<br>都営地下鉄三田線・東急目黒線<span style="color:transparent;">ーー</span></p>
-            <p class="s12" style="margin-left:5px;"><span class="s15">｢目黒｣</span>駅徒歩<span class="gold-2 s20" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
+            <div class="d-flex justify-content-start align-items-center mb-2">
+                <p class="s10">東京メトロ日比谷線<span style="color:transparent;">ーーーーーーー</span></p>
+                <p class="s14" style="margin-left:5px;"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
+            </div>
+            <div class="d-flex justify-content-start align-items-center">
+                <p class="s10">JR山手線・東京メトロ南北線・<br>都営地下鉄三田線・東急目黒線<span style="color:transparent;">ーー</span></p>
+                <p class="s14" style="margin-left:5px;"><span class="s18">｢目黒｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
+            </div>
         </div>
     </div>
 </div>
