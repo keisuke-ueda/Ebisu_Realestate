@@ -2,7 +2,7 @@
   padding: 0 0 119px;
 }
 .common_layout2 {
-  padding: 0 0 90px;
+  padding: 0 0 119px;
 }
 
 .to-page-top {
@@ -56,6 +56,7 @@
 
 /* フッター */
 .footer_content {
+  height: 119px;
   display: flex; 
   align-items: center; 
   padding: 10px; 
@@ -346,8 +347,8 @@ video {
   display: block;
   margin: 0 auto;
 }
-.photo-80 {
-  width: 80%;
+.photo-90{
+  width: 90%;
   display: block;
   margin: 0 auto;
 }
@@ -447,7 +448,9 @@ video {
 /* 物件概要ページ */
 
 .ov-m {
-  padding: 150px 0px 40px 0px;
+  /* padding: 150px 0px 0px 0px; */
+  padding: 0px 0px 0px 0px;
+  margin-top: 150px;
 }
 .ov-t1{
   text-align:center;
@@ -478,7 +481,7 @@ video {
 }
 .ov_m2{
   margin-top: 45px;
-  margin-bottom: 40px;
+  margin-bottom: 0;
 }
 .ov_title_td {
   width: 30%;
@@ -486,53 +489,6 @@ video {
 .mx-200 {
   margin:0;
 }
-
-/* 現地案内ページ */
-/* .map-m {
-  padding: 70px 0px 40px 0px;
-}
-.map-t1{
-  text-align:center;
-  position:relative;
-}
-.map_comment{
-  margin-left: auto;
-  margin-right: auto;
-  width: 870px;
-}
-.map_but{
-  display: flex;
-  justify-content: center;
-}
-.map_but_s{
-  height: 60px;
-  width: 210px;
-}
-.map_img{
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%; 
-}
-.map_but_img{
-  height: 30px;
-}
-.map_m1{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.map_m2{
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-.map_m3{
-  margin: 7px;
-
-}
-.map_side_layout{
-  display: inline-block;
-  justify-content: center;
-  margin: 0 20px 0 0;
-} */
 
 
 /* 現地案内ページ */
@@ -604,7 +560,7 @@ video {
 #questionnaire {
   /* width: calc(100% - 80px); */
   width: 100%;
-  margin: 150px auto 0;
+  margin: 150px auto 40px;
   font-size: 10px;
 }
 

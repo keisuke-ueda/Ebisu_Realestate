@@ -671,7 +671,7 @@
 
         </form>
     </div>
-    <div class="border border-dark animation mb-40px ft2 s12">
+    <div class="border border-dark animation ft2 s12">
         <p class="m-none pt-25px pr-20px pl-20px pb-25px">【アンケートご回答者様からご提供いただいた個人情報の取り扱いについて】<br>
             ※本アンケートは市場調査(商品企画)に反映するために企画したものです。<br>
             ※ご回答内容につきましては、ご回答を集計処理・保管をいたしますので、皆様にご迷惑をおかけすることは一切ございませんことを、確約させていただきます。<br>

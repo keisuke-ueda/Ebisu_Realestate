@@ -384,14 +384,14 @@
                     建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
                     ココに暮らす人々の姿さえも、この地の美しい風景となる。
                 </p>
-                <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="LOCATION 写真" class="photo-80">
-                <p class="s9 text-end mx-auto" style="width:80%;">｢恵比寿ガーデンプレイス｣ (約260m・徒歩4分)</p>
-                <img src="{{ asset('/images/ウエスティンホテル.png') }}" alt="LOCATION 写真" class="photo-80">
-                <p class="s9 text-end mx-auto" style="width:80%;">｢ウェスティンホテル東京｣ (約300m・徒歩4分)</p>
-                <img src="{{ asset('/images/アメリカ橋公園.png') }}" alt="LOCATION 写真" class="photo-80">
-                <p class="s9 text-end mx-auto" style="width:80%;">｢アメリカ橋公園｣(徒歩6分/約460m)</p>
-                <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="LOCATION 写真" class="photo-80">
-                <p class="s9 text-end mx-auto" style="width:80%;">｢国立化学博物館附属 自然教育園｣ (約1000m・徒歩13分)</p>
+                <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="LOCATION 写真" class="photo-90">
+                <p class="s9 text-end mx-auto" style="width:90%;">｢恵比寿ガーデンプレイス｣ (約260m・徒歩4分)</p>
+                <img src="{{ asset('/images/ウエスティンホテル.png') }}" alt="LOCATION 写真" class="photo-90">
+                <p class="s9 text-end mx-auto" style="width:90%;">｢ウェスティンホテル東京｣ (約300m・徒歩4分)</p>
+                <img src="{{ asset('/images/アメリカ橋公園.png') }}" alt="LOCATION 写真" class="photo-90">
+                <p class="s9 text-end mx-auto" style="width:90%;">｢アメリカ橋公園｣(徒歩6分/約460m)</p>
+                <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="LOCATION 写真" class="photo-90">
+                <p class="s9 text-end mx-auto" style="width:90%;">｢国立化学博物館附属 自然教育園｣ (約1000m・徒歩13分)</p>
                 <button class="gold_btn read_more" type="button">
                     <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                 </button>

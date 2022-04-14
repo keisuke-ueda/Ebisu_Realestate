@@ -1150,7 +1150,7 @@ input, select {
 */
 #questionnaire {
   width: 800px;
-  margin: 150px auto 0;
+  margin: 150px auto 40px;
 }
 
 .questionnaire > ul > li {
