@@ -1,3 +1,18 @@
+.common_layout {
+  padding: 0 0 110px;
+}
+.common_layout2 {
+  padding: 0 0 110px;
+}
+
+.to-page-top {
+  padding: 25px 0 25px;
+}
+.to-page-top2 {
+  background-color:#3e3a39;
+  padding: 20px 0;
+}
+
 /* ヘッダー */
 .header {
   background-color: rgba(0,0,0,0.7);;
@@ -14,7 +29,9 @@
   display: block;
 }
 .header_menu_trigger {
-  margin: 20px 30px 0 auto;
+  /* width: 50px;
+  height: 50px; */
+  margin: 40px 40px 0 auto;
 }
 .link_groups {
   display: flex;
@@ -39,22 +56,35 @@
 
 /* フッター */
 .footer_content {
+  height: 110px;
   display: flex; 
-  align-items: center; 
-  padding: 10px; 
+  align-items: end; 
+  padding: 20px 40px; 
   position: relative;
 }
 .company_name {
   font-size: 10px;
 }
+.footer p {
+  font-size: 1.5vw;
+}
 .company_tel {
-  font-size: 15px;
+  font-size: 5vw;
 }
 .footer_right {
   position: absolute; 
-  right: 10px; 
-  bottom: 10px;
+  right: 40px; 
+  bottom: 20px;
 }
+
+.footer_gg {
+  font-size: 1.5vw;
+}
+
+.footer img {
+  height: 40px;
+}
+
 
 
 /* メニュー */
@@ -65,15 +95,15 @@
   z-index:500;
   /* margin-top: 23px;
   margin-left: 60px; */
-  margin-top: 25px;
-  margin-left: 30px;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 .logo_s{
-  width: 120px;
+  width: 100px;
 }
 .menu_p {
   z-index:500;
-  margin: 20px 30px auto auto;
+  margin: 40px 40px auto auto;
 }
 
 .menu-trigger, .menu-trigger span {
@@ -82,8 +112,8 @@
   box-sizing: border-box;
 }
 .menu-trigger {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   z-index: 1000;
   background-color: white;
 }
@@ -127,7 +157,7 @@ video {
 
 .black_wall {
   background-color: #000;
-  padding: 50px 0 70px;
+  padding: 50px 0 50px;
 }
 
 .access_info_group {
@@ -135,7 +165,8 @@ video {
   display: none;
 }
 .access_info_group2 {
-  display: block;
+  display: flex;
+  justify-content: center;
   /* margin-bottom: 50px; */
 }
 .access_info_group2 p {
@@ -164,8 +195,9 @@ video {
 } */
 
 .gold_info {
-  width: 90%;
-  margin: 1rem auto;
+  /* width: 90%; */
+  width: calc(100% - 80px);
+  margin: 7px auto;
   height: 70px;
 }
 
@@ -177,13 +209,17 @@ video {
   text-align: center;
 }
 
+.questionnaire_info_area {
+  margin-bottom: 50px;
+}
+
 .questionnaire_info {
-  width: 90%;
+  width: calc(95% - 80px);
   margin: 0 auto;
 }
 
 .gold-title-2 {
-
+  font-size: 18px;
 }
 
 .gold-title-2::before {
@@ -193,14 +229,31 @@ video {
   margin-left: 0.4rem;
 }
 
+.gold-title-4 {
+  font-size: 18px;
+}
+
+.gold-title-4::before {
+  margin-right: 0.4rem;
+}
+
+.gold-title-4::after {
+  margin-left: 0.4rem;
+}
+
 .info_title {
-  width: 90%; 
+  /* width: 90%;  */
+  width: calc(100% - 80px);
   margin: 40px auto 45px; 
   font-size: 14px;
 }
 
+.questionnaire_info {
+
+}
+
 .info_table {
-  width: 85%;
+  width: calc(100% - 80px);
   margin: 0 auto;
   font-size: 10px;
 }
@@ -226,11 +279,14 @@ video {
 }
 
 .border-gold-2 p{
-  font-size: 11px;
+  font-size: 10px;
   margin: 0;
 }
+.to_questionnaire {
+  
+}
 .to_questionnaire a{
-  font-size: 14px;
+  font-size: 12px;
 } 
 
 /* .border-gold-2 {
@@ -290,41 +346,67 @@ video {
 }
 .read_more_area2 {
   display: block;
+  width: calc(100% - 80px);
+  margin: 0 auto;
   /* padding-top:50px; */
 }
 .read_more_link2 {
   margin-top: 50px;
 }
 .the-logo {
-  width:50%;
+  width:70%;
   display: block;
   margin: 0 auto;
 }
-.photo-80 {
-  width: 80%;
+.photo-100 {
+  width: 100%;
   display: block;
   margin: 0 auto;
 }
-.photo-70 {
-  width: 70%;
+.photo-90{
+  width: 90%;
   display: block;
   margin: 0 auto;
 }
 .gold_line2 {
   /* border-right: 1px solid #ac9759; */
   border-right: 1px solid #d09a58;
-  margin: 20px 0;
+  margin: 10px 0;
   width:50%;
   height: 50px;
 }
 .read_more {
   margin-top: 20px;
+  width: 140px;
+  height: 40px;
+  padding: 0;
+}
+.read_more a {
+  font-size: 12px;
+}
+
+/* ENTRYリンク */
+.entry_link {
+  /* margin: 60px 0 50px; */
+  width: calc(100% - 80px);
+  margin: 50px auto;
+}
+
+.entry_link button {
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+  padding: 10px;
+  
+}
+.entry_link a {
+  font-size: 12px;
 }
 
 /* 注釈 */
 .comment-area {
   margin: 0 auto;
-  width: 90%;
+  width: calc(100% - 80px);
 }
 .comment-area p {
   white-space: normal;
@@ -335,6 +417,7 @@ video {
 /* EBISUページ */
 .ebisu-top img {
   width: 70%;
+  margin-top: 150px;
 }
 .dark-area {
   display: none;
@@ -353,13 +436,14 @@ video {
 /* ACCESSページ */
 .access-top img{
   width: 70%;
+  margin-top: 150px;
 }
-.main-content {
+.access-main-content {
   display: none;
 }
-.main-content2 {
+.access-main-content2 {
   display: block;
-  width: 95%;
+  width: calc(100% - 80px);
   margin: 0 auto;
   padding: 30px 0 0; 
 }
@@ -378,22 +462,27 @@ video {
 
 
 /* 物件概要ページ */
+
 .ov-m {
-  padding: 150px 0px 40px 0px;
+  /* padding: 150px 0px 0px 0px; */
+  padding: 0px 0px 0px 0px;
+  margin-top: 150px;
 }
 .ov-t1{
   text-align:center;
   position:relative;
+  font-size: 10px;
 }
 .ov_gold_table{
   margin-left: auto;
   margin-right: auto;
-  width: 85%;
+  width: calc(100% - 80px);
+  font-size: 10px;
 }
 .ov_comment{
   margin-left: auto;
   margin-right: auto;
-  width: 85%;
+  width:  calc(100% - 80px);
 }
 
 .ov_gold_table > tbody > tr{
@@ -408,60 +497,13 @@ video {
 }
 .ov_m2{
   margin-top: 45px;
-  margin-bottom: 40px;
+  margin-bottom: 0;
 }
 .ov_title_td {
   width: 30%;
 }
 .mx-200 {
   margin:0;
-}
-
-/* 現地案内ページ */
-.map-m {
-  padding: 70px 0px 40px 0px;
-}
-.map-t1{
-  text-align:center;
-  position:relative;
-}
-.map_comment{
-  margin-left: auto;
-  margin-right: auto;
-  width: 870px;
-}
-.map_but{
-  display: flex;
-  justify-content: center;
-}
-.map_but_s{
-  height: 60px;
-  width: 210px;
-}
-.map_img{
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%; 
-}
-.map_but_img{
-  height: 30px;
-}
-.map_m1{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.map_m2{
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-.map_m3{
-  margin: 7px;
-
-}
-.map_side_layout{
-  display: inline-block;
-  justify-content: center;
-  margin: 0 20px 0 0;
 }
 
 
@@ -474,13 +516,25 @@ video {
   position:relative;
 }
 .map_comment{
+  /* margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 80px); */
+  width: 100%;
+}
+.map_comment a {
+  font-size: 11px;
+}
+.print_area{
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: calc(100% - 80px);
 }
 .map_but{
   display: flex;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 80px);
 }
 .map_but_s{
   height: 60px;
@@ -509,16 +563,126 @@ video {
 .map_side_layout{
   display: inline-block;
   justify-content: center;
-  margin: 0 20px 0 0;
+  margin: 0 5px 0 0;
+  font-size: 11px;
 }
 
 .map_address {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 
 /* アンケート */
-/* #questionnaire {
-  width: 90%;
+#questionnaire {
+  /* width: calc(100% - 80px); */
+  width: 100%;
+  margin: 150px auto 40px;
+  font-size: 10px;
+}
+
+.pre-text, .main-content {
+  width: calc(100% - 80px);
   margin: 0 auto;
+}
+
+#questionnaire h1 {
+  
+}
+
+#questionnaire p, #questionnaire span, #questionnaire ul, #questionnaire li, #questionnaire input, #questionnaire label, #questionnaire div, #questionnaire select {
+  font-size: 10px;
+}
+#questionnaire input, #questionnaire select {
+  height: 20px;
+}
+.questionnaire-sm-img{
+  padding: 0;
+  width: 90%;
+  margin: 0 auto; 
+}
+
+#questionnaire .pr-22px {
+  padding-right: 0px;
+}
+
+#questionnaire .pl-22px {
+  padding-left: 0px;
+}
+
+#questionnaire .pr-120px {
+  padding-right: 0px;
+}
+
+#questionnaire .pl-120px {
+  padding-left: 0px;
+}
+
+.questionnaire-title-td {
+  padding-left: 5px;
+}
+#questionnaire .column1 {
+  width: 33%;
+}
+#questionnaire .column3 {
+  width: 62%;
+}
+.table-div {
+  padding-left: 0; 
+  padding-right: 0;
+}
+.long_input {
+  width: 130px;
+}
+.long_input2 {
+  width: 130px;
+}
+.w-60px {
+  width: 40px;
+}
+.w-100px {
+  width: 50px;
+}
+.w-120px {
+  width: 60px;
+}
+
+/* エントリー */
+#entry {
+  width: 100%;
+  margin: 150px auto 0;
+}
+
+.entry-main-content {
+  width: calc(100% - 80px);
+  margin: 0 auto;
+}
+#entry h1 {
+  font-size: 20px;
+  width: 100%;
+}
+#entry p, #entry span, #entry ul, #entry li, #entry input, #entry label, #entry div, #entry select {
+  font-size: 10px;
+}
+#entry input, #entry select{
+  height: 20px;
+}
+.entry-column1 {
+  width:33%; 
+}
+.entry-column3 {
+  width:62%; 
+}
+/* #entry .column1 {
+  width: 33%;
+}
+#entry .column3 {
+  width: 62%;
 } */
+
+.w-200px {
+  width:100px;
+}
+
+input {
+  max-width: 130px;
+}

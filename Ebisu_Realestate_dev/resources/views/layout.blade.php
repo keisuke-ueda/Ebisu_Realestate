@@ -45,7 +45,7 @@
 </head>
 
 <body>
-    <div class="text-white min-vh-100 w-100 position-relative" style="padding: 0 0 129px; background-color: #3e3a39;">
+    <div class="text-white min-vh-100 w-100 position-relative common_layout" style="">
     <!-- ヘッダー -->
     @include('header')
 
@@ -56,7 +56,7 @@
     @yield('content')
 
     <!-- トップへ戻るボタン -->
-    <div class="w-100 d-flex justify-content-center" style="padding: 25px 0 45px;">
+    <div class="to-page-top w-100 d-flex justify-content-center" style="">
         <a href="#" class="d-inline-block mx-auto my-0 text-white" style="text-decoration: none;">
             <p class="text-center m-0 s12 ft2"><span class="arrow-top d-inline-block mb-1">∧</span><br>TOPへ戻る</p>
         </a>

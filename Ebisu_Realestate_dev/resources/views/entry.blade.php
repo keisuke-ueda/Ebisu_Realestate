@@ -7,10 +7,11 @@
   $prefectures = array('北海道','青森県','岩手県','宮城県','秋田県','山形県','福島県','茨城県','栃木県','群馬県','埼玉県','千葉県','東京都','神奈川県','新潟県','富山県','石川県','福井県','山梨県','長野県','岐阜県','静岡県','愛知県','三重県','滋賀県','京都府','大阪府','兵庫県','奈良県','和歌山県','鳥取県','島根県','岡山県','広島県','山口県','徳島県','香川県','愛媛県','高知県','福岡県','佐賀県','長崎県','熊本県','大分県','宮崎県','鹿児島県','沖縄県');
 ?>
 
-<div class="" id="entry" style="padding: 150px 210px 0px 210px; width: 100%;">
+<div class="" id="entry" style="">
   <h1 class="p-title gold-title-3 center-block text-center m-none ft4 s24">PROPERTY ENTRY</h1>
   <p class="p-title center-block text-center mt-10px ft2 s14" style="margin-bottom:25px;">物件エントリー</p>
-  <div class="main-content" style="margin-right: 90px; margin-left: 90px">
+  <!-- <div class="main-content" style="margin-right: 90px; margin-left: 90px"> -->
+  <div class="entry-main-content" style="">
     <div class="ft2 s16">
       <p class="text-center" style="margin-bottom: 10px;">以下のフォームに必要な項目を入力のうえ「送信」ボタンを押してください。</p>
       <p class="text-center" style="margin-bottom: 20px;"><span class="badge badge-danger">必須</span>は必須項目です。</p>
@@ -20,11 +21,11 @@
       <table class="gold-table-entry table-entry animation ft2 s14">
         <tbody>
           <tr class="top">
-            <td class="column1" style="width: 22%;"><label for="name"><span class="badge badge-danger s11">必須</span>お名前</label></td>
+            <td class="column1 entry-column1" style=""><label for="name"><span class="badge badge-danger s11">必須</span>お名前</label></td>
             <td class="column2 h-40px" style="width: 120px;"></td>
-            <td class="column3" style="width: auto;">
-              <input type="text" style="width: 30%;" name="sei" data-kana="セイ" placeholder="姓" required data-error_placement="#sei">
-              <input type="text" style="width: 30%;" name="mei" data-kana="メイ" placeholder="名" required data-error_placement="#mei"
+            <td class="column3 entry-column3" style="width: auto;">
+              <input type="text" style="width: 40%;" name="sei" data-kana="セイ" placeholder="姓" required data-error_placement="#sei">
+              <input type="text" style="width: 40%;" name="mei" data-kana="メイ" placeholder="名" required data-error_placement="#mei"
                 class="ms-2">
               <div class="validation-message" id="sei"></div>
               <div class="validation-message" id="mei"></div>
@@ -34,9 +35,9 @@
             <td><label for="name"><span class="badge badge-danger s11">必須</span>フリガナ</label></td>
             <td></td>
             <td>
-              <input type="text" style="width: 30%;" name="sei_kana" data-charcheck="kana" placeholder="セイ" required
+              <input type="text" style="width: 40%;" name="sei_kana" data-charcheck="kana" placeholder="セイ" required
                 data-error_placement="#sei-kana">
-              <input type="text" style="width: 30%;" name="mei_kana" data-charcheck="kana" placeholder="メイ" required
+              <input type="text" style="width: 40%;" name="mei_kana" data-charcheck="kana" placeholder="メイ" required
                 data-error_placement="#mei-kana" class="ms-2">
               <div class="validation-message" id="sei-kana"></div>
               <div class="validation-message" id="mei-kana"></div>
@@ -62,10 +63,10 @@
               <div><input style="width: 20%;" type="text"><span class="s10"> 年 </span><input style="width: 20%;" type="text"><span class="s10"> 月 </span><input style="width: 20%;"
                   type="text"><span class="s10"> 日 </span></div>
               <p class="mt-2 mb-0 s12">※半角英数で入力してください</p>
-              <div><input class="w-100" type="email" name="email" data-error_placement="#email"></div>
+              <div><input class="" type="email" name="email" data-error_placement="#email"></div>
               <div class="validation_message" id="email"></div>
               <p class="m-0 s12">※確認のためもう一度ご入力ください</p>
-              <div><input class="w-100" type="text" name="confirm_email" data-error_placement="#confirm_email">
+              <div><input class="" type="text" name="confirm_email" data-error_placement="#confirm_email">
               </div>
               <div class="validation_message" id="confirm_email"></div>
             </td>
@@ -80,7 +81,7 @@
                     <label for="name" class="s14">郵便番号<span class="badge badge-danger s11">必須</span></label>
                   </td>
                   <td>
-                    <input type="text" style="width: 60px;" name="home_post_code" data-error_placement="#home_post_code"> - <input type="text" style="width: 100px;">
+                    <input class="w-60px" type="text" style="" name="home_post_code" data-error_placement="#home_post_code"> - <input class="w-100px" type="text" style="">
                     <div class="validation-message" id="home_post_code"></div>
                     <p style="margin: 0;" class="s12">※半角数字で入力してください</p>
                   </td>
@@ -163,7 +164,7 @@
           <tr>
             <td colspan="2"><label for="name"><span class="badge"></span>　　　ご年収</label></td>
             <td>
-              <select style="width: 200px;" class="s11">
+              <select style="" class="s11 w-200px">
                 <option value="">選択</option>
                 <option value="">800万円未満</option>
                 <option value="">801万〜1000万円</option>
@@ -177,7 +178,7 @@
           <tr>
             <td colspan="2"><label for="name"><span class="badge"></span>　　　自己資金(半角)</label></td>
             <td>
-              <select style="width: 200px;" class="s11">
+              <select style="" class="s11 w-200px">
                 <option value="">選択</option>
                 <option value="">3000万円未満</option>
                 <option value="">3001万〜5000万円</option>

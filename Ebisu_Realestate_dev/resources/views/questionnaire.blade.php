@@ -8,10 +8,11 @@
 <?php
   $prefectures = array('北海道','青森県','岩手県','宮城県','秋田県','山形県','福島県','茨城県','栃木県','群馬県','埼玉県','千葉県','東京都','神奈川県','新潟県','富山県','石川県','福井県','山梨県','長野県','岐阜県','静岡県','愛知県','三重県','滋賀県','京都府','大阪府','兵庫県','奈良県','和歌山県','鳥取県','島根県','岡山県','広島県','山口県','徳島県','香川県','愛媛県','高知県','福岡県','佐賀県','長崎県','熊本県','大分県','宮崎県','鹿児島県','沖縄県');
 ?>
-<div id="questionnaire" style="margin: 150px 200px 0px;" class="pb-40px">
-    <div class="">
-        <h1 class="p-title gold-title-2 text-center ft2 s24" style="margin-bottom: 50px;">お住まいについてのアンケート</h1>
-        <div class="pl-120px pr-120px">
+<!-- <div id="questionnaire" style="margin: 150px 200px 0px;" class="pb-40px"> -->
+<div id="questionnaire">
+    <h1 class="p-title gold-title-2 text-center ft2 s24" style="margin-bottom: 50px;">お住まいについてのアンケート</h1>
+    <div class="pre-text">
+        <div class="pl-120px pr-120px questionnaire-sm-img">
             <img class="pb-40px img1" src="{{ asset('/images/お住まいアンケート1.png') }}">
         </div>
         <div class="text-center test ft2 s16">
@@ -22,7 +23,7 @@
                 様々なご意見をお聞かせいただければ幸いです。
             </p>
         </div>
-        <div class="pr-22px pl-22px">
+        <div class="pr-22px pl-22px questionnaire-sm-img">
             <img class="mb-45px img2" src="{{ asset('/images/お住まいのアンケート2.png') }}">
         </div>
     </div>
@@ -34,15 +35,15 @@
         <form class="mailformpro" method="POST" action="{{ route('form.post') }}">
             @csrf
 
-            <div style="padding-left: 20px; padding-right: 20px;">
+            <div class="table-div" style="">
                 <table class="gold-table-questionnaire animation ft2 s14" style="width: 100%;">
                     <tbody>
                         <tr class="top">
-                            <td class="column1" style="width: 22%; padding-left: 1.5rem"><label for="name"><span
+                            <td class="column1 questionnaire-title-td" style=""><label for="name"><span
                                         class="badge badge-danger">必須</span>お名前</label>
                             </td>
-                            <td class="column2" style="width: 120px;"></td>
-                            <td class="column3" style="width: auto;">
+                            <td class="column2" style=""></td>
+                            <td class="column3" style="">
                                 <input class="input" style="width: 30%;" type="text" name="sei" data-kana="セイ"
                                     placeholder="姓" data-error_placement="#sei">
                                 <input class="input ms-2" style="width: 30%;" type="text" name="mei" data-kana="メイ"
@@ -53,7 +54,7 @@
                         </tr>
 
                         <tr>
-                            <td style="padding-left: 1.5rem" colspan="2"><label for="name"><span
+                            <td class="questionnaire-title-td" colspan="2"><label for="name"><span
                                         class="badge badge-danger">必須</span>フリガナ</label>
                             </td>
                             <td>
@@ -66,7 +67,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="padding-left: 1.5rem" colspan="2"><label for="name"><span
+                            <td class="questionnaire-title-td" colspan="2"><label for="name"><span
                                         class="badge badge-danger">必須</span>性別</label></td>
                             <td style="padding-top: 10px; padding-bottom: 10px;">
                                 <div class="s16"><input type="radio" name="gender" value="male"
@@ -79,7 +80,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="padding-left: 1.5rem" colspan="2"><label for="name"><span
+                            <td class="questionnaire-title-td" colspan="2"><label for="name"><span
                                         class="badge badge-danger">必須</span>ご家族人数</label>
                             </td>
                             <td>
@@ -90,19 +91,19 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="padding-left: 1.5rem"><label for="name" class="s14 ft2"><span
+                            <td class="questionnaire-title-td"><label for="name" class="s14 ft2"><span
                                         class="badge badge-danger">必須</span>ご住所</label></td>
                             <td colspan="2" style="padding-top: 10px; padding-bottom: 10px;" class="ft2">
                                 <table class="questionnaire-table-nest ft2" style="width: 100%;">
                                     <tr rowspan="2">
-                                        <td valign="top" style="width: 120px;">
+                                        <td valign="top" style="" class="w-120px">
                                             <label for="name" class="s14">郵便番号<span
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td>
-                                            <input type="text" style="width: 60px;" name="home_post_code"
-                                                data-error_placement="#home_post_code"> - <input type="text"
-                                                style="width: 100px;">
+                                            <input class="w-60px" type="text" style="" name="home_post_code"
+                                                data-error_placement="#home_post_code"> - <input class="w-100px" type="text"
+                                                style="">
                                             <div class="validation-message" id="home_post_code"></div>
                                             <p style="margin: 0;" class="s12">※半角数字で入力してください</p>
                                         </td>
@@ -130,7 +131,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td class="py-1">
-                                            <input type="text" style="width: 250px;" name="home_manicipalities"
+                                            <input class="long_input" type="text" style="" name="home_manicipalities"
                                                 data-error_placement="#home_manicipalities">
                                             <div class="validation-message" id="home_manicipalities"></div>
                                         </td>
@@ -141,7 +142,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td class="py-1">
-                                            <input type="text" style="width: 250px;" name="home_chome_address"
+                                            <input class="long_input" type="text" style="" name="home_chome_address"
                                                 data-error_placement="#home_chome_address">
                                             <div class="validation-message" id="home_chome_address"></div>
                                         </td>
@@ -151,14 +152,14 @@
                                             <label for="name" class="s14">建物名</label>
                                         </td>
                                         <td class="py-1">
-                                            <input type="text" style="width: 250px;" name="home_building_name">
+                                            <input class="long_input" type="text" style="" name="home_building_name">
                                         </td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
                         <tr>
-                            <td style="padding-left: 1.5rem" colspan="2"><label for="name" class="s14"><span
+                            <td class="questionnaire-title-td" colspan="2"><label for="name" class="s14"><span
                                         class="badge badge-danger">必須</span>現在のお住まいの年数</label>
                             </td>
                             <td>
@@ -170,7 +171,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="padding-left: 1.5rem" colspan="2"><label for="name" class="s14"><span
+                            <td class="questionnaire-title-td" colspan="2"><label for="name" class="s14"><span
                                         class="badge badge-danger">必須</span>現在お住まいの住居形態<br>
                                     <p style="text-indent: 2.75rem; margin: 0;">※該当するものを1つだけ</p>
                                     <p style="text-indent: 3.75rem; margin: 0;">選択してください。</p>
@@ -195,7 +196,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="padding-left: 1.5rem" colspan="2" class="s14"><label for="name"><span
+                            <td class="questionnaire-title-td" colspan="2" class="s14"><label for="name"><span
                                         class="badge badge-danger">必須</span>電話番号</label>
                             </td>
                             <td>
@@ -206,23 +207,23 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="padding-left: 1.5rem" colspan="2">
+                            <td class="questionnaire-title-td" colspan="2">
                                 <div><label for="name" class="s14"><span
                                             class="badge badge-danger">必須</span>メールアドレス</label></div>
                             </td>
                             <td>
-                                <div><input type="email" style="width: 350px;" name="email"
+                                <div><input  class="long_input2" type="email" style="" name="email"
                                         data-error_placement="#email"></div>
                                 <div class="validation_message" id="email"></div>
                                 <p style="margin: 0;" class="s12">※確認のためもう一度ご入力ください</p>
-                                <div><input type="text" style="width: 350px;" name="confirm_email"
+                                <div><input class="long_input2" type="text" style="" name="confirm_email"
                                         data-error_placement="#confirm_email">
                                 </div>
                                 <div class="validation_message" id="confirm_email"></div>
                             </td>
                         </tr>
                         <tr>
-                            <td style="padding-left: 1.5rem" colspan="2"><label for="name" class="s14"><span
+                            <td class="questionnaire-title-td" colspan="2"><label for="name" class="s14"><span
                                         class="badge badge-danger">必須</span>勤務先名</label>
                             </td>
                             <td>
@@ -232,18 +233,18 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="padding-left: 1.5rem" class="ft2"><label for="name"><span
+                            <td class="questionnaire-title-td" class="ft2"><label for="name"><span
                                         class="badge badge-danger">必須</span>勤務先ご住所</label></td>
                             <td colspan="2">
                                 <table class="questionnaire-table-nest ft2" style="width: 100%;">
                                     <tr rowspan="2">
-                                        <td style="width: 120px;" valign="top" class="s16">
+                                        <td style="" valign="top" class="s16 w-120px">
                                             <label for="name" class="s14 ft2">郵便番号<span
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td>
-                                            <input type="text" style="width: 60px;" name="work_post_code"
-                                                data-error_placement="#work_post_code"> - <input style="width: 100px;">
+                                            <input class="w-60px" type="text" style="" name="work_post_code"
+                                                data-error_placement="#work_post_code"> - <input class="w-100px" style="">
                                             <div class="validation-message" id="work_post_code"></div>
                                             <p style="margin: 0;" class="s12">※半角数字(ハイフンなし)で入力してください</p>
                                         </td>
@@ -271,7 +272,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td class="py-1">
-                                            <input type="text" style="width: 250px;" name="work_manicipalities"
+                                            <input class="long_input" type="text" style="" name="work_manicipalities"
                                                 data-error_placement="#work_manicipalities">
                                             <div class="validation-message" id="work_manicipalities"></div>
                                         </td>
@@ -282,7 +283,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td class="py-1">
-                                            <input type="text" style="width: 250px;" name="work_chome_address"
+                                            <input class="long_input" type="text" style="" name="work_chome_address"
                                                 data-error_placement="#work_chome_address">
                                             <div class="validation-message" id="work_chome_address"></div>
                                         </td>
@@ -292,7 +293,7 @@
                                             <label for="name" class="s14">建物名</label>
                                         </td>
                                         <td class="py-1">
-                                            <input type="text" style="width: 250px;" name="work_building_name">
+                                            <input class="long_input" type="text" style="" name="work_building_name">
                                         </td>
                                     </tr>
                                 </table>
@@ -670,7 +671,7 @@
 
         </form>
     </div>
-    <div class="border border-dark animation mb-40px ft2 s12">
+    <div class="border border-dark animation ft2 s12">
         <p class="m-none pt-25px pr-20px pl-20px pb-25px">【アンケートご回答者様からご提供いただいた個人情報の取り扱いについて】<br>
             ※本アンケートは市場調査(商品企画)に反映するために企画したものです。<br>
             ※ご回答内容につきましては、ご回答を集計処理・保管をいたしますので、皆様にご迷惑をおかけすることは一切ございませんことを、確約させていただきます。<br>

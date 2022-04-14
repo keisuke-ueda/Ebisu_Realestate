@@ -4,7 +4,7 @@
 <!-- 開発対象 -->
 <!-- 背景色、テキスト一時的に調整 -->
 <div class="access-top">
-    <img  class="img-fluid mt-ex" src="{{ asset('/images/the access.svg') }}">
+    <img  class="img-fluid" src="{{ asset('/images/the access.svg') }}">
 </div>
 
 <div class="py-4" style="background-color: #000;">
@@ -45,27 +45,29 @@
     </div>
 
     <!-- スマホ表示 -->
-    <div class="access_info_group2 animation mx-auto ft2" style="width:90%;">
-        <div class="d-flex justify-content-between align-items-start">
-            <p class="s10">JR山手線・埼京線・湘南新宿ライン</p>
-            <div>
-                <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">11</span>分</p>
-                <p class="s9">(恵比寿スカイウォークより徒歩7分)</p>
+    <div class="access_info_group2 animation ft2">
+        <div class="d-inline-block">
+            <div class="d-flex justify-content-start align-items-start mb-2">
+                <p class="s10 pt-1">JR山手線・埼京線・湘南新宿ライン</p>
+                <div style="margin-left:5px;">
+                    <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">11</span>分</p>
+                    <p class="s9">(恵比寿スカイウォークより徒歩7分)</p>
+                </div>
             </div>
-        </div>
-        <div class="d-flex justify-content-between align-items-center">
-            <p class="s10">東京メトロ日比谷線</p>
-            <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
-        </div>
-        <div class="d-flex justify-content-between align-items-center">
-            <p class="s10">JR山手線・東京メトロ南北線・<br>都営地下鉄三田線・東急目黒線</p>
-            <p class="s14"><span class="s18">｢目黒｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
+            <div class="d-flex justify-content-start align-items-center mb-2">
+                <p class="s10">東京メトロ日比谷線<span style="color:transparent;">ーーーーーーー</span></p>
+                <p class="s14" style="margin-left:5px;"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
+            </div>
+            <div class="d-flex justify-content-start align-items-center">
+                <p class="s10">JR山手線・東京メトロ南北線・<br>都営地下鉄三田線・東急目黒線<span style="color:transparent;">ーー</span></p>
+                <p class="s14" style="margin-left:5px;"><span class="s18">｢目黒｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
+            </div>
         </div>
     </div>
 </div>
 
 
-<div class="main-content mx-auto" style="max-width:1200px; padding: 40px 40px 0 45px;">
+<div class="access-main-content mx-auto" style="max-width:1200px; padding: 40px 40px 0 45px;">
 
     <!-- 路線図 -->
     <div class="animation d-flex justify-content-between w-100" > 
@@ -242,14 +244,14 @@
 
 
 <!-- スマホ表示 -->
-<div class="main-content2 ft2">
+<div class="access-main-content2 ft2">
     <div class="animation d-flex justify-content-between w-100" > 
-        <img  class="d-block animation-0-zm" style="width: 49%" src="{{ asset('/images/access_roppongi.png') }}">
-        <img  class="d-block animation-0-zm" style="width: 49%" src="{{ asset('/images/access_shibuya.png') }}">
+        <img  class="d-block animation-0-zm" style="width: calc(50% - 5px)" src="{{ asset('/images/access_roppongi.png') }}">
+        <img  class="d-block animation-0-zm" style="width: calc(50% - 5px)" src="{{ asset('/images/access_shibuya.png') }}">
     </div>
-    <div class="animation d-flex justify-content-between w-100 mt-2"> 
-        <img  class="d-block animation-1-zm" style="width: 49%" src="{{ asset('/images/access_shinjuku.png') }}">
-        <img  class="d-block animation-1-zm" style="width: 49%" src="{{ asset('/images/access_shinagawa.png') }}">
+    <div class="animation d-flex justify-content-between w-100" style="margin-top:10px;"> 
+        <img  class="d-block animation-1-zm" style="width: calc(50% - 5px)" src="{{ asset('/images/access_shinjuku.png') }}">
+        <img  class="d-block animation-1-zm" style="width: calc(50% - 5px)" src="{{ asset('/images/access_shinagawa.png') }}">
     </div>
     <p class="text-end s9" style="margin-bottom:30px;">image</p>
 

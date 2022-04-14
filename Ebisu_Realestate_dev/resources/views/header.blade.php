@@ -80,7 +80,7 @@
   <!-- スマホ -->
   <div class="header_content2">
       <div class="d-flex justify-content-end">
-        <button class="header_menu_trigger mh-parts" type="button" style="height: 60px; width: 60px;">
+        <button class="header_menu_trigger mh-parts" type="button" style="height: 50px; width: 50px;">
           <span class="batsu"></span>
         </button>
       </div>
