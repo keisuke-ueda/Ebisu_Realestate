@@ -16,6 +16,11 @@
         <div class="movie_skip position-absolute bottom-0 end-0">
             <button type="button" class="movie_skip_btn btn btn-outline-light">SKIP</button>
         </div>
+
+        <!-- SP用動画 -->
+        <video autoplay muted class="sp_movie">
+            <source src="{{ asset('/images/ebisu_SP.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
     <div class="second_view">
@@ -63,14 +68,14 @@
             <!-- アクセス情報 スマホ表示 -->
             <div class="access_info_group2 animation ft2">
                 <div class="d-inline-block">
-                    <div class="d-flex justify-content-start align-items-start mb-2">
+                    <div class="d-flex justify-content-start align-items-start" style="margin-bottom:10px;">
                         <p class="s10 pt-1">JR山手線・埼京線・湘南新宿ライン</p>
                         <div style="margin-left:5px;">
                             <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">11</span>分</p>
                             <p class="s9">(恵比寿スカイウォークより徒歩7分)</p>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-start align-items-center mb-2">
+                    <div class="d-flex justify-content-start align-items-center" style="margin-bottom:10px;">
                         <p class="s10">東京メトロ日比谷線<span style="color:transparent;">ーーーーーーー</span></p>
                         <p class="s14" style="margin-left:5px;"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
                     </div>
@@ -201,7 +206,7 @@
 
             <!-- アンケートエリア(PC・SP共通) -->
             <div class="animation questionnaire_info_area">
-                <p class="gold-title-2 ft2 s24 info_title">｢お住まいのアンケート｣にご協力ください。</p>
+                <p class="gold-title-2 ft2 s24 info_title">｢お住まいのアンケート｣にご協力ください｡</p>
                 <div class="questionnaire_info">
                     <div class="border-gold-2 d-inline-block">
                         <p class="text-center ft2 s16" style="line-height:2;"><span>アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
@@ -221,7 +226,7 @@
                         </tr>
                         <tr>
                             <td class="date-td-2" scope="col">2022.4.22</td>
-                            <td class="text-td-2" scope="col">お住まいのアンケートを開設しました。(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
+                            <td class="text-td-2" scope="col">お住まいのアンケートを開設しました。<br>(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
                         </tr>
                     </table>
                 </div>
@@ -366,7 +371,8 @@
                 <img src="{{ asset('/images/theebisu.svg') }}" alt="THE EBISU" class="the-logo">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
-                    恵比寿、それも｢恵比寿ガーデンプレイス｣ ｢ウエスティンホテル東京｣を間近とする住宅地。<br>
+                    恵比寿、それも｢恵比寿ガーデンプレイス｣<br>
+                    ｢ウエスティンホテル東京｣を間近とする住宅地。<br>
                     その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
                     多くを語らずとも本物を知る人を魅了するレジデンス。<br>
                     ｢ラ・アトレ恵比寿グランガーデン｣ ゆるぎなき矜持がここにある。
@@ -376,13 +382,15 @@
                     <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                 </button>
             </div>
+
             <!-- LOCATION -->
-            <div class="read_more_link2">
+            <!-- <div class="read_more_link2">
                 <img src="{{ asset('/images/thelocation.svg') }}" alt="THE LOCATION" class="the-logo">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
-                    洗練と成熟に抱かれた街、恵比寿。ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
-                    「ラ・アトレ恵比寿グランガーデン」<br>
+                    洗練と成熟に抱かれた街、恵比寿。<br>
+                    ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
+                    ｢ラ・アトレ恵比寿グランガーデン｣<br>
                     建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
                     ココに暮らす人々の姿さえも、この地の美しい風景となる。
                 </p>
@@ -395,9 +403,10 @@
                 <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="LOCATION 写真" class="photo-90">
                 <p class="s9 text-end mx-auto" style="width:90%;">｢国立化学博物館附属 自然教育園｣ (約1000m・徒歩13分)</p>
                 <button class="gold_btn read_more" type="button">
-                    <a href="/concept" class="text-white mh-parts ft2">Read More</a>
+                    <a href="/concept" class="text-white mh-parts ft2" style="pointer-events:none;">Read More</a>
                 </button>
-            </div>
+            </div> -->
+
             <!-- ACCESS -->
             <div class="read_more_link2">
                 <img src="{{ asset('/images/theaccess.svg') }}" alt="THE ACCESS" class="the-logo">
@@ -413,8 +422,9 @@
                     <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                 </button>
             </div>
+
             <!-- DESIGN -->
-            <div class="read_more_link2">
+            <!-- <div class="read_more_link2">
                 <img src="{{ asset('/images/thedesign.svg') }}" alt="THE DESIGN" class="the-logo">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
@@ -428,25 +438,26 @@
                 <button class="gold_btn read_more" type="button">
                     <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                 </button>
-            </div>
+            </div> -->
         </div>
 
 
         <!-- PC・SP共通 -->
-        <div class="animation">
+        <div class="animation" style="margin-top:50px;">
+            <!-- <a href="/branding" class="d-block mx-auto bland_img_link" style="pointer-events:none;"><img src="{{ asset('/images/bland photo.png') }}" alt="ブランディングバナー" style="width:100%;"></a> -->
             <div class="entry_link">
                 <button class="copper_btn" type="button">
                     <a href="/entry" class="text-white mh-parts ft2 s19">物件エントリー受付中</a>
                 </button>
             </div>
             <div class="comment-area">
-                <p class="ft2 s11">
-                    ※1）恵比寿ガーデンプレイスまで徒歩4分(約260m)、ウエスティンホテル東京まで徒歩4分(約300m)<br>
-                    ※2）総戸数21戸中12戸が角住戸により、57％超の角住戸率となります。<br>
-                    ※3）全12台の駐車場は、大型SUV車・スポーツカーが3台駐車可能となります。また、1台分の屋外平置式シェアカーを含んでいます。<br>
-                    ※正射画像データ:国土地理院刊行の正射画像データに、一部CG加工を施しており、実際とは異なります。<br>
-                    ※航空写真:令和4年3月撮影の航空写真に、一部CG加工を施しており、実際とは異なります。<br>
-                    ※掲載の写真は2022年3月に撮影したもので、一部加工・修正を施しております。<br>
+                <p class="ft2 s11" style="margin:0;">
+                    ※1)恵比寿ガーデンプレイスまで徒歩4分(約260m)､ウエスティンホテル東京まで徒歩4分(約300m)<br>
+                    ※2)総戸数21戸中12戸が角住戸により､57%超の角住戸率となります｡<br>
+                    ※3)全12台の駐車場は､大型SUV車･スポーツカーが3台駐車可能となります。また、1台分の屋外平置式シェアカーを含んでいます｡<br>
+                    ※正射画像データ:国土地理院刊行の正射画像データに､一部CG加工を施しており､実際とは異なります｡<br>
+                    ※航空写真:令和4年3月撮影の航空写真に､一部CG加工を施しており､実際とは異なります｡<br>
+                    ※掲載の写真は2022年3月に撮影したもので､一部加工･修正を施しております｡<br>
                 </p>
             </div>
         </div>

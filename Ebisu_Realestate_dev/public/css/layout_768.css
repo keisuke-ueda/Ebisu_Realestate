@@ -1,16 +1,36 @@
 .common_layout {
-  padding: 0 0 110px;
+  padding: 0 0 270px;
 }
 .common_layout2 {
-  padding: 0 0 110px;
+  padding: 0 0 270px;
 }
 
 .to-page-top {
-  padding: 25px 0 25px;
+  display: none;
 }
 .to-page-top2 {
-  background-color:#3e3a39;
-  padding: 20px 0;
+  /* background-color:#3e3a39;
+  padding: 20px 0; */
+  display: none;
+}
+
+
+
+
+/* SPのみ出現 */
+.pc_hid {
+  display:block;
+}
+
+/* PCのみ出現 */
+.sp_hid {
+  display:none;
+}
+
+/* SPのみのインデント */
+.sp_indent {
+  display: inline;
+  color: transparent;
 }
 
 /* ヘッダー */
@@ -31,7 +51,7 @@
 .header_menu_trigger {
   /* width: 50px;
   height: 50px; */
-  margin: 40px 40px 0 auto;
+  margin: 20px 20px 0 auto;
 }
 .link_groups {
   display: flex;
@@ -56,35 +76,47 @@
 
 /* フッター */
 .footer_content {
-  height: 110px;
-  display: flex; 
-  align-items: end; 
-  padding: 20px 40px; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0; 
   position: relative;
+  height: 270px;
 }
 .company_name {
-  font-size: 10px;
+  font-size: 11px;
 }
 .footer p {
-  font-size: 1.5vw;
+  
 }
 .company_tel {
-  font-size: 5vw;
+  
 }
 .footer_right {
-  position: absolute; 
-  right: 40px; 
-  bottom: 20px;
+  position: static;
+}
+.footer_right p {
+  text-align:center;
 }
 
 .footer_gg {
-  font-size: 1.5vw;
+  
+}
+.footer_left_top {
+  width: 240px;
+  margin: 0 auto;
+}
+.footer_logo_area {
+  
+}
+.copyright {
+  text-align: center;
+  font-size: 12px;
 }
 
-.footer img {
-  height: 40px;
+.to-top-sp {
+  display: block;
 }
-
 
 
 /* メニュー */
@@ -95,15 +127,15 @@
   z-index:500;
   /* margin-top: 23px;
   margin-left: 60px; */
-  margin-top: 50px;
-  margin-left: 40px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 .logo_s{
   width: 100px;
 }
 .menu_p {
   z-index:500;
-  margin: 40px 40px auto auto;
+  margin: 20px 20px auto auto;
 }
 
 .menu-trigger, .menu-trigger span {
@@ -154,6 +186,13 @@
 video {
   object-position: 50% 50%;
 }
+.movie-1, .movie-2, .movie_skip {
+  display: none;
+}
+
+.sp_movie {
+  display: block;
+}
 
 .black_wall {
   background-color: #000;
@@ -196,7 +235,7 @@ video {
 
 .gold_info {
   /* width: 90%; */
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 7px auto;
   height: 70px;
 }
@@ -214,7 +253,7 @@ video {
 }
 
 .questionnaire_info {
-  width: calc(95% - 80px);
+  width: calc(100% - 50px);
   margin: 0 auto;
 }
 
@@ -243,7 +282,7 @@ video {
 
 .info_title {
   /* width: 90%;  */
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 40px auto 45px; 
   font-size: 14px;
 }
@@ -253,7 +292,7 @@ video {
 }
 
 .info_table {
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 0 auto;
   font-size: 10px;
 }
@@ -275,7 +314,7 @@ video {
 }
 
 .border-gold-2 {
-  padding: 30px;
+  padding: 25px;
 }
 
 .border-gold-2 p{
@@ -346,7 +385,7 @@ video {
 }
 .read_more_area2 {
   display: block;
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 0 auto;
   /* padding-top:50px; */
 }
@@ -375,20 +414,27 @@ video {
   width:50%;
   height: 50px;
 }
+
+
 .read_more {
   margin-top: 20px;
   width: 140px;
   height: 40px;
-  padding: 0;
+  padding:0;
 }
 .read_more a {
   font-size: 12px;
+  display: block;
+}
+
+.bland_img_link {
+  width: calc(100% - 40px);
 }
 
 /* ENTRYリンク */
 .entry_link {
   /* margin: 60px 0 50px; */
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 50px auto;
 }
 
@@ -405,12 +451,12 @@ video {
 
 /* 注釈 */
 .comment-area {
-  margin: 0 auto;
-  width: calc(100% - 80px);
+  margin: 0 auto 50px;
+  width: calc(100% - 40px);
 }
 .comment-area p {
   white-space: normal;
-  font-size: 10px;
+  font-size: 9px;
 }
 
 
@@ -443,9 +489,9 @@ video {
 }
 .access-main-content2 {
   display: block;
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 0 auto;
-  padding: 30px 0 0; 
+  padding: 30px 0 30px; 
 }
 .taxi_table {
   border-collapse: collapse;
@@ -465,7 +511,7 @@ video {
 
 .ov-m {
   /* padding: 150px 0px 0px 0px; */
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 50px 0px;
   margin-top: 150px;
 }
 .ov-t1{
@@ -476,7 +522,7 @@ video {
 .ov_gold_table{
   margin-left: auto;
   margin-right: auto;
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   font-size: 10px;
 }
 .ov_comment{
@@ -518,7 +564,7 @@ video {
 .map_comment{
   /* margin-left: auto;
   margin-right: auto;
-  width: calc(100% - 80px); */
+  width: calc(100% - 40px); */
   width: 100%;
 }
 .map_comment a {
@@ -527,14 +573,14 @@ video {
 .print_area{
   margin-left: auto;
   margin-right: auto;
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
 }
 .map_but{
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
 }
 .map_but_s{
   height: 60px;
@@ -574,14 +620,19 @@ video {
 
 /* アンケート */
 #questionnaire {
-  /* width: calc(100% - 80px); */
+  /*  width: calc(100% - 40px); */
   width: 100%;
   margin: 150px auto 40px;
   font-size: 10px;
 }
 
+
+.questionnaire {
+  margin: 0;
+}
+
 .pre-text, .main-content {
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 0 auto;
 }
 
@@ -653,7 +704,7 @@ video {
 }
 
 .entry-main-content {
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 0 auto;
 }
 #entry h1 {
@@ -667,7 +718,7 @@ video {
   height: 20px;
 }
 .entry-column1 {
-  width:33%; 
+  width:25%; 
 }
 .entry-column3 {
   width:62%; 
@@ -686,3 +737,39 @@ video {
 input {
   max-width: 130px;
 }
+
+
+.badge-danger {
+  background-color: #CC0000	;
+  margin: 0px 1px;
+}
+
+#questionnaire .mr-20px {
+  margin-right: 5px;
+}
+
+.questionnaire_comment {
+  width: calc(100% - 20px);
+  margin: 0 auto;
+}
+
+.m-none {
+  margin: 0;
+  padding: 10px;
+}
+/* 
+#questionnaire .pt-25px {
+  padding-top: 20px;
+}
+
+#questionnaire .pb-25px {
+  padding-bottom: 20px;
+}
+
+#questionnaire .pr-20px {
+  padding-right: 10px;
+}
+
+#questionnaire .pl-20px {
+  padding-left: 10px;
+} */

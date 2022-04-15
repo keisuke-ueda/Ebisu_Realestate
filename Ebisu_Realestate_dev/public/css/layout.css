@@ -8,7 +8,7 @@ button {
 }
 
 .common_layout {
-  padding: 0 0 129px; 
+  padding: 0 0 110px; 
   background-color: #3e3a39;
 }
 
@@ -16,12 +16,34 @@ button {
   padding: 0 0 110px;
 }
 
+/* PCフッターのトップへ戻るボタン */
 .to-page-top {
   padding: 25px 0 45px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .to-page-top2 {
   background-color:#3e3a39;
   padding: 45px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* SPのみ出現 */
+.pc_hid {
+  display:none;
+}
+
+/* PCのみ出現 */
+.sp_hid {
+  display:block;
+}
+
+/* SPのみのインデント */
+.sp_indent {
+  display: none;
 }
 
 /* 改行ポイント */
@@ -335,11 +357,15 @@ button {
   align-items: center; 
   padding: 10px 40px 10px 50px; 
   position: relative;
+  height: 110px;
 }
 .footer_right {
   position: absolute; 
   right: 50px; 
   bottom: 10px;
+}
+.footer_right p {
+  text-align:right;
 }
 
 .footer p {
@@ -351,6 +377,16 @@ button {
   text-decoration: none;
 }
 
+.footer_logo_area {
+  display: flex;
+  align-items: center;
+}
+/* SPフッターのトップへ戻るボタン */
+.to-top-sp {
+  display: none;
+}
+
+
 /* トップページ */
 .first_view {
   position: relative;
@@ -361,6 +397,10 @@ video {
   object-fit: cover;
   object-position: 50% 50%;
   width: 100%;
+}
+
+.sp_movie {
+  display: none;
 }
 
 .movie_skip_btn {
@@ -669,6 +709,10 @@ video {
 /* PLANリンク */
 .plan_img {
   width: 20vw;
+}
+
+.bland_img_link {
+  width:90%;
 }
 
 /* ENTRYリンク */

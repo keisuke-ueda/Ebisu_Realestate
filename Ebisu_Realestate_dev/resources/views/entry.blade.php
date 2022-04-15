@@ -73,7 +73,10 @@
           </tr>
           <tr>
 
-            <td><label for="name" class="s14"><span class="badge badge-danger s11">必須</span>ご住所</label></td>
+            <td>
+              <label for="name" class="s14 sp_hid"><span class="badge badge-danger s11">必須</span>ご住所</label>
+              <label for="name" class="s14 pc_hid"><span class="badge badge-danger s11">必須</span><br>ご住所</label>
+            </td>
             <td colspan="2" style="padding-top: 10px; padding-bottom: 10px;">
               <table class="entry-table-nest" style="width: 100%;">
                 <tr rowspan="2">
@@ -282,7 +285,7 @@
       </table>
       <div class="animation mt-20px ft2 s16">
         <p style="margin-bottom: 10px; margin-left: 11px;"><label for="name"><span class="badge badge-danger">必須</span></label>
-          <input type="checkbox">個人情報の取り扱いについて同意の方はチェックを入れてください。
+          <input type="checkbox">個人情報の取り扱いについて同意の方は、チェックを入れてください。
         </p>
 
         <p class="s14">資料請求を行う際には、「個人情報のお取り扱いについて」(株式会社LAホールディングス)をお読みの上チェックを入れて下記の「入力内容の確認」ボタンを押してください。</p>

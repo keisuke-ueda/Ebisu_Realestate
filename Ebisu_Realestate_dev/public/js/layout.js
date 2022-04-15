@@ -152,6 +152,18 @@ $(function () {
     });
   });
 
+  // SP動画再生後のロゴ出現
+  $('.sp_movie').on("ended", function() {
+    $('.logo_animation').delay(1000).queue(function () {
+      $(this).addClass('active')
+      $(this).dequeue();
+      $('.menu_animation').delay(1000).queue(function () {
+        $(this).addClass('active')
+        $(this).dequeue();
+      });
+    });
+  })
+
   // スキップボタンクリック
   $('.movie_skip_btn').on('click', function () {
     $('.movie-2').removeClass('d-none')

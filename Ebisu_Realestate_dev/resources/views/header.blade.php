@@ -94,19 +94,19 @@
             </a>
           </div>
           <div>
-            <a href="/location">
+            <a href="/location" style="pointer-events:none; color:gray;">
               <p>LOCATION</p>
               <p class="s10">ロケーション</p>
             </a>
           </div>
           <div>
-            <a href="/design">
+            <a href="/design" style="pointer-events:none; color:gray;">
               <p>DESIGN</p>
               <p class="s10">デザイン</p>
             </a>
           </div>
           <div>
-            <a href="/plan">
+            <a href="/plan" style="pointer-events:none; color:gray;">
               <p>PLAN</p>
               <p class="s10">プラン</p>
             </a>
@@ -132,13 +132,13 @@
             </a>
           </div>
           <div>
-            <a href="/model_room">
+            <a href="/model_room" style="pointer-events:none; color:gray;">
               <p>MODEL ROOM</p>
               <p class="s10">モデルルーム</p>
             </a>
           </div>
           <div>
-            <a href="/blanding">
+            <a href="/blanding" style="pointer-events:none; color:gray;">
               <p>BLAND</p>
               <p class="s10">ブランド</p>
             </a>
