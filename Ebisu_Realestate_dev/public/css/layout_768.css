@@ -13,6 +13,12 @@
   padding: 20px 0;
 }
 
+
+/* SPのみ */
+.pc_hid {
+  display:block;
+}
+
 /* ヘッダー */
 .header {
   background-color: rgba(0,0,0,0.7);;
@@ -31,7 +37,7 @@
 .header_menu_trigger {
   /* width: 50px;
   height: 50px; */
-  margin: 40px 40px 0 auto;
+  margin: 20px 20px 0 auto;
 }
 .link_groups {
   display: flex;
@@ -95,15 +101,15 @@
   z-index:500;
   /* margin-top: 23px;
   margin-left: 60px; */
-  margin-top: 50px;
-  margin-left: 40px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 .logo_s{
   width: 100px;
 }
 .menu_p {
   z-index:500;
-  margin: 40px 40px auto auto;
+  margin: 20px 20px auto auto;
 }
 
 .menu-trigger, .menu-trigger span {
@@ -203,7 +209,7 @@ video {
 
 .gold_info {
   /* width: 90%; */
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 7px auto;
   height: 70px;
 }
@@ -221,7 +227,7 @@ video {
 }
 
 .questionnaire_info {
-  width: calc(95% - 80px);
+  width: calc(100% - 60px);
   margin: 0 auto;
 }
 
@@ -250,7 +256,7 @@ video {
 
 .info_title {
   /* width: 90%;  */
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 40px auto 45px; 
   font-size: 14px;
 }
@@ -260,7 +266,7 @@ video {
 }
 
 .info_table {
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 0 auto;
   font-size: 10px;
 }
@@ -353,7 +359,7 @@ video {
 }
 .read_more_area2 {
   display: block;
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 0 auto;
   /* padding-top:50px; */
 }
@@ -395,7 +401,7 @@ video {
 /* ENTRYリンク */
 .entry_link {
   /* margin: 60px 0 50px; */
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 50px auto;
 }
 
@@ -413,11 +419,11 @@ video {
 /* 注釈 */
 .comment-area {
   margin: 0 auto;
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
 }
 .comment-area p {
   white-space: normal;
-  font-size: 10px;
+  font-size: 1vw;
 }
 
 
@@ -450,7 +456,7 @@ video {
 }
 .access-main-content2 {
   display: block;
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 0 auto;
   padding: 30px 0 0; 
 }
@@ -483,7 +489,7 @@ video {
 .ov_gold_table{
   margin-left: auto;
   margin-right: auto;
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   font-size: 10px;
 }
 .ov_comment{
@@ -525,7 +531,7 @@ video {
 .map_comment{
   /* margin-left: auto;
   margin-right: auto;
-  width: calc(100% - 80px); */
+  width: calc(100% - 40px); */
   width: 100%;
 }
 .map_comment a {
@@ -534,14 +540,14 @@ video {
 .print_area{
   margin-left: auto;
   margin-right: auto;
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
 }
 .map_but{
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
 }
 .map_but_s{
   height: 60px;
@@ -581,14 +587,14 @@ video {
 
 /* アンケート */
 #questionnaire {
-  /* width: calc(100% - 80px); */
+  /*  width: calc(100% - 40px); */
   width: 100%;
   margin: 150px auto 40px;
   font-size: 10px;
 }
 
 .pre-text, .main-content {
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 0 auto;
 }
 
@@ -660,7 +666,7 @@ video {
 }
 
 .entry-main-content {
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 0 auto;
 }
 #entry h1 {

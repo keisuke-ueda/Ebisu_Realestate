@@ -68,14 +68,14 @@
             <!-- アクセス情報 スマホ表示 -->
             <div class="access_info_group2 animation ft2">
                 <div class="d-inline-block">
-                    <div class="d-flex justify-content-start align-items-start mb-2">
+                    <div class="d-flex justify-content-start align-items-start" style="margin-bottom:10px;">
                         <p class="s10 pt-1">JR山手線・埼京線・湘南新宿ライン</p>
                         <div style="margin-left:5px;">
                             <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">11</span>分</p>
                             <p class="s9">(恵比寿スカイウォークより徒歩7分)</p>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-start align-items-center mb-2">
+                    <div class="d-flex justify-content-start align-items-center" style="margin-bottom:10px;">
                         <p class="s10">東京メトロ日比谷線<span style="color:transparent;">ーーーーーーー</span></p>
                         <p class="s14" style="margin-left:5px;"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
                     </div>
@@ -226,7 +226,7 @@
                         </tr>
                         <tr>
                             <td class="date-td-2" scope="col">2022.4.22</td>
-                            <td class="text-td-2" scope="col">お住まいのアンケートを開設しました。(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
+                            <td class="text-td-2" scope="col">お住まいのアンケートを開設しました。<br>(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
                         </tr>
                     </table>
                 </div>
@@ -371,7 +371,8 @@
                 <img src="{{ asset('/images/theebisu.svg') }}" alt="THE EBISU" class="the-logo">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
-                    恵比寿、それも｢恵比寿ガーデンプレイス｣ ｢ウエスティンホテル東京｣を間近とする住宅地。<br>
+                    恵比寿、それも｢恵比寿ガーデンプレイス｣<br>
+                    ｢ウエスティンホテル東京｣を間近とする住宅地。<br>
                     その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
                     多くを語らずとも本物を知る人を魅了するレジデンス。<br>
                     ｢ラ・アトレ恵比寿グランガーデン｣ ゆるぎなき矜持がここにある。
@@ -386,8 +387,9 @@
                 <img src="{{ asset('/images/thelocation.svg') }}" alt="THE LOCATION" class="the-logo">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
-                    洗練と成熟に抱かれた街、恵比寿。ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
-                    「ラ・アトレ恵比寿グランガーデン」<br>
+                    洗練と成熟に抱かれた街、恵比寿。<br>
+                    ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
+                    ｢ラ・アトレ恵比寿グランガーデン｣<br>
                     建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
                     ココに暮らす人々の姿さえも、この地の美しい風景となる。
                 </p>
@@ -446,12 +448,12 @@
             </div>
             <div class="comment-area">
                 <p class="ft2 s11">
-                    ※1）恵比寿ガーデンプレイスまで徒歩4分(約260m)、ウエスティンホテル東京まで徒歩4分(約300m)<br>
-                    ※2）総戸数21戸中12戸が角住戸により、57％超の角住戸率となります。<br>
-                    ※3）全12台の駐車場は、大型SUV車・スポーツカーが3台駐車可能となります。また、1台分の屋外平置式シェアカーを含んでいます。<br>
-                    ※正射画像データ:国土地理院刊行の正射画像データに、一部CG加工を施しており、実際とは異なります。<br>
-                    ※航空写真:令和4年3月撮影の航空写真に、一部CG加工を施しており、実際とは異なります。<br>
-                    ※掲載の写真は2022年3月に撮影したもので、一部加工・修正を施しております。<br>
+                    ※1)恵比寿ガーデンプレイスまで徒歩4分(約260m)､ウエスティンホテル東京まで徒歩4分(約300m)<br>
+                    ※2)総戸数21戸中12戸が角住戸により､57%超の角住戸率となります｡<br>
+                    ※3)全12台の駐車場は､大型SUV車･スポーツカーが3台駐車可能となります。また、1台分の屋外平置式シェアカーを含んでいます｡<br>
+                    ※正射画像データ:国土地理院刊行の正射画像データに､一部CG加工を施しており､実際とは異なります｡<br>
+                    ※航空写真:令和4年3月撮影の航空写真に､一部CG加工を施しており､実際とは異なります｡<br>
+                    ※掲載の写真は2022年3月に撮影したもので､一部加工・修正を施しております｡<br>
                 </p>
             </div>
         </div>

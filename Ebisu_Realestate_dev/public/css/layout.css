@@ -24,6 +24,11 @@ button {
   padding: 45px 0;
 }
 
+/* SPのみ */
+.pc_hid {
+  display:none;
+}
+
 /* 改行ポイント */
 .bl {
   display: inline-block;

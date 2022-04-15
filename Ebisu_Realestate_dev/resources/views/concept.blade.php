@@ -67,14 +67,16 @@
 
     <!-- スマホ表示 -->
     <div class="dark-area2 ft2 s14">
-        <div style="width: calc(100% - 80px); margin: 0 auto; padding: 20px 0;">
+        <div style="width: calc(100% - 40px); margin: 0 auto; padding: 20px 0;">
             <p class="gold-2 text-center m-0">緑も豊かな「恵比寿ガーデンプレイス」</p>
             <p class="gold-2 text-center" style="margin-bottom:25px;">「ウエスティンホテル東京」に隣接。</p>
-            <p class="s11 text-center">先進的な都市の表情が洗練されたセンスが集う街、恵比寿。<br>
-                JR山手線・埼京線・湘南新宿ラインと東京メトロ日比谷線を利用できる高いアクセス性。<br>
-                時代の感性の最先端をいく流行のファッションやグルメが充実した駅ビル。<br>
-                そして、この街の象徴といえる恵比寿ガーデンプレイスとその街中の落ち着いたリズムと<br>
-                緩やかに流れる時間は、ここでしか感じることのできない上質なエリア。<br>
+            <p class="s11 text-center">先進な都市の表情が洗練されたセンスが集う街、恵比寿。<br>
+                JR山手線・埼京線・湘南新宿ラインと<br>東京メトロ日比谷線を利用できる高いアクセス性。<br>
+                時代の感性の先端をいく流行の<br>
+                ファッションやグルメが充実した駅ビル。<br>
+                そして、この街の象徴といえる恵比寿ガーデンプレイスと<br>
+                その街中の落ち着いたリズムと緩やかに流れる時間は、<br>
+                ここでしか感じることのできない上質なエリア。<br>
                 これこそが「恵比寿」という最高の魅力である
             </p>
             <img class="d-block w-100" src="{{ asset('/images/ebisupage_photo2.png') }}" >
@@ -136,18 +138,18 @@
 
     <!-- スマホ表示 -->
     <div class="white-area2 bg-white text-dark ft2 s14">
-        <div style="width: calc(100% - 80px); margin: 0 auto; padding: 20px 0;">
-            <p class="text-center gold-2" style="">恵比寿、丘の上の美しい風景へ</p>
+        <div style="width: calc(100% - 40px); margin: 0 auto; padding: 20px 0;">
+            <p class="text-center" style="">恵比寿、丘の上の美しい風景へ</p>
             <img class="animation-2-zm w-100" style="" src="{{ asset('/images/kouteizu-kai.svg') }}">
             <p class="text-end m-0 chrome s9">高低差概念図は、国土地理院/GISMaps調べ<br>
                 ※掲載の高低差概念図の表現されている建物の高さ・形状・色等は実際とは異なります。<br>
-                周辺の道路・建物・街路樹などは一部簡略化しており、実際とは異なります。
+                ※周辺の道路・建物・街路樹などは一部簡略化しており実際とは異なります。
             </p>
             <p class="animation gold-2 text-center" style="margin: 25px 0 20px;">約26mの丘の上で上質な日常が始まる。</p>
             <p class="animation text-dark s11 text-center" style="line-height: 1.5;"> 恵比寿の丘の上。<br>
                 都心でありながら、都心の喧騒を離れ、様々な安らぎと<br>
-                恵比寿、目黒の2駅を使いこなせる立地でありながら緩やかな時が流れる<br>
-                緑に囲まれた閑静な邸宅地。<br>
+                恵比寿、目黒の2駅を使いこなせる立地でありながら、<br>
+                緩やかな時が流れる緑に囲まれた閑静な邸宅地。<br>
                 恵比寿の丘の上で優雅な日々がここからはじまる。
             </p>
         </div>
