@@ -206,7 +206,7 @@
 
             <!-- アンケートエリア(PC・SP共通) -->
             <div class="animation questionnaire_info_area">
-                <p class="gold-title-2 ft2 s24 info_title">｢お住まいのアンケート｣にご協力ください。</p>
+                <p class="gold-title-2 ft2 s24 info_title">｢お住まいのアンケート｣にご協力ください｡</p>
                 <div class="questionnaire_info">
                     <div class="border-gold-2 d-inline-block">
                         <p class="text-center ft2 s16" style="line-height:2;"><span>アンケート項目すべてにご協力いただいた方に、</span><br>もれなくAmazonギフト券(1000円相当)を進呈します。</p> 
@@ -448,13 +448,13 @@
                 </button>
             </div>
             <div class="comment-area">
-                <p class="ft2 s11">
+                <p class="ft2 s11" style="margin:0;">
                     ※1)恵比寿ガーデンプレイスまで徒歩4分(約260m)､ウエスティンホテル東京まで徒歩4分(約300m)<br>
                     ※2)総戸数21戸中12戸が角住戸により､57%超の角住戸率となります｡<br>
                     ※3)全12台の駐車場は､大型SUV車･スポーツカーが3台駐車可能となります。また、1台分の屋外平置式シェアカーを含んでいます｡<br>
                     ※正射画像データ:国土地理院刊行の正射画像データに､一部CG加工を施しており､実際とは異なります｡<br>
                     ※航空写真:令和4年3月撮影の航空写真に､一部CG加工を施しており､実際とは異なります｡<br>
-                    ※掲載の写真は2022年3月に撮影したもので､一部加工・修正を施しております｡<br>
+                    ※掲載の写真は2022年3月に撮影したもので､一部加工･修正を施しております｡<br>
                 </p>
             </div>
         </div>

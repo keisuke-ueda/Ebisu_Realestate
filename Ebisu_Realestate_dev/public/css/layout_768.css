@@ -80,7 +80,7 @@
 .footer_right {
   position: absolute; 
   right: 5px; 
-  top: 20px;
+  top: 21px;
 }
 
 .footer_gg {
@@ -427,7 +427,7 @@ video {
 }
 .comment-area p {
   white-space: normal;
-  font-size: 10px;
+  font-size: 9px;
 }
 
 
