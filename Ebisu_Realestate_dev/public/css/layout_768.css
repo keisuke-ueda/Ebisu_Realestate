@@ -227,7 +227,7 @@ video {
 }
 
 .questionnaire_info {
-  width: calc(100% - 60px);
+  width: calc(100% - 50px);
   margin: 0 auto;
 }
 
@@ -288,7 +288,7 @@ video {
 }
 
 .border-gold-2 {
-  padding: 30px;
+  padding: 25px;
 }
 
 .border-gold-2 p{
@@ -398,6 +398,10 @@ video {
   font-size: 12px;
 }
 
+.bland_img_link {
+  width: calc(100% - 40px);
+}
+
 /* ENTRYリンク */
 .entry_link {
   /* margin: 60px 0 50px; */
@@ -423,7 +427,7 @@ video {
 }
 .comment-area p {
   white-space: normal;
-  font-size: 1vw;
+  font-size: 10px;
 }
 
 

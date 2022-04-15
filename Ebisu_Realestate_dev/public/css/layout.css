@@ -680,6 +680,10 @@ video {
   width: 20vw;
 }
 
+.bland_img_link {
+  width:90%;
+}
+
 /* ENTRYリンク */
 .entry_link {
   margin: 60px 0 50px;

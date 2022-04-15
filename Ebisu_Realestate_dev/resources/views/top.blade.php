@@ -402,7 +402,7 @@
                 <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="LOCATION 写真" class="photo-90">
                 <p class="s9 text-end mx-auto" style="width:90%;">｢国立化学博物館附属 自然教育園｣ (約1000m・徒歩13分)</p>
                 <button class="gold_btn read_more" type="button">
-                    <a href="/concept" class="text-white mh-parts ft2">Read More</a>
+                    <a href="/concept" class="text-white mh-parts ft2" style="pointer-events:none;">Read More</a>
                 </button>
             </div>
             <!-- ACCESS -->
@@ -421,7 +421,7 @@
                 </button>
             </div>
             <!-- DESIGN -->
-            <div class="read_more_link2">
+            <!-- <div class="read_more_link2">
                 <img src="{{ asset('/images/thedesign.svg') }}" alt="THE DESIGN" class="the-logo">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
@@ -435,12 +435,13 @@
                 <button class="gold_btn read_more" type="button">
                     <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                 </button>
-            </div>
+            </div> -->
         </div>
 
 
         <!-- PC・SP共通 -->
-        <div class="animation">
+        <div class="animation" style="margin-top:50px;">
+            <a href="/branding" class="d-block mx-auto bland_img_link" style="pointer-events:none;"><img src="{{ asset('/images/bland photo.png') }}" alt="ブランディングバナー" style="width:100%;"></a>
             <div class="entry_link">
                 <button class="copper_btn" type="button">
                     <a href="/entry" class="text-white mh-parts ft2 s19">物件エントリー受付中</a>
