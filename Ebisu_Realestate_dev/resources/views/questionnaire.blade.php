@@ -470,7 +470,7 @@
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire3_1 ft2 s14">
                         <p class="pb-2"><span
-                                class="question-num mr-20px">3</span>仮に今後、マンション購入を検討する場合に希望される間取りと<br class="pc_hid"><span class="sp_indent">ーーー</span>広さをお聞かせください。(それぞれ1つ回答)
+                                class="question-num mr-20px">3</span>仮に今後、マンション購入を検討する場合に希望される<br class="pc_hid"><span class="sp_indent">ーーー</span>間取りと広さをお聞かせください。(それぞれ1つ回答)
                         </p>
                         <p class="s14">【ご希望の間取り】</p>
                         <ul class="s16">
