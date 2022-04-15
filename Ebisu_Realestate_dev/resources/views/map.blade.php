@@ -15,6 +15,7 @@
             <div class="animation-1-zm map_m1">
                 <p class="ft2 s14">【広域地図】</p>
                 <img src="{{ asset('/images/map1.svg') }}" class="map_img">
+                <!-- <img src="{{ asset('/images/map_1.png') }}" class="map_img"> -->
             </div>
 
             <div class="animation-1-zm">
@@ -37,16 +38,16 @@
     <!-- 後々"layout.js"に記述予定 -->
     <script>
         $(function(){
-            $(".print_btn").click(function(){
+            $(".print_btn-2").click(function(){
                 var printArea = document.getElementsByClassName("print_area");
                 $('body').append('<div id="print" class="printBc"></div>');
                 $(printArea).clone().appendTo('#print');
                 $('body > :not(#print)').addClass('print-off');
-                $(".map_img").removeClass('animation-1-zm');
+                $(".map_img").parent().removeClass('animation-1-zm');
                 window.print();
                 $('#print').remove();
                 $('.print-off').removeClass('print-off');
-                $(".map_img").addClass('animation-1-zm');
+                $(".map_img").parent().addClass('animation-1-zm');
             });
         });
     </script>

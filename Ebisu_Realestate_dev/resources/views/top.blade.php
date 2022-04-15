@@ -382,8 +382,9 @@
                     <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                 </button>
             </div>
+
             <!-- LOCATION -->
-            <div class="read_more_link2">
+            <!-- <div class="read_more_link2">
                 <img src="{{ asset('/images/thelocation.svg') }}" alt="THE LOCATION" class="the-logo">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
@@ -404,7 +405,8 @@
                 <button class="gold_btn read_more" type="button">
                     <a href="/concept" class="text-white mh-parts ft2" style="pointer-events:none;">Read More</a>
                 </button>
-            </div>
+            </div> -->
+
             <!-- ACCESS -->
             <div class="read_more_link2">
                 <img src="{{ asset('/images/theaccess.svg') }}" alt="THE ACCESS" class="the-logo">
@@ -420,6 +422,7 @@
                     <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                 </button>
             </div>
+
             <!-- DESIGN -->
             <!-- <div class="read_more_link2">
                 <img src="{{ asset('/images/thedesign.svg') }}" alt="THE DESIGN" class="the-logo">
@@ -441,7 +444,7 @@
 
         <!-- PC・SP共通 -->
         <div class="animation" style="margin-top:50px;">
-            <a href="/branding" class="d-block mx-auto bland_img_link" style="pointer-events:none;"><img src="{{ asset('/images/bland photo.png') }}" alt="ブランディングバナー" style="width:100%;"></a>
+            <!-- <a href="/branding" class="d-block mx-auto bland_img_link" style="pointer-events:none;"><img src="{{ asset('/images/bland photo.png') }}" alt="ブランディングバナー" style="width:100%;"></a> -->
             <div class="entry_link">
                 <button class="copper_btn" type="button">
                     <a href="/entry" class="text-white mh-parts ft2 s19">物件エントリー受付中</a>

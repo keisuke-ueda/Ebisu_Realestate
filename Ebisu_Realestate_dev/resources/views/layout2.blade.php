@@ -54,7 +54,7 @@
     @yield('content')
 
     <!-- トップへ戻るボタン -->
-    <div class="to-page-top2 w-100 d-flex justify-content-center" style="">
+    <div class="to-page-top2" style="">
         <a href="#" class="d-inline-block mx-auto my-0 text-white" style="text-decoration: none;">
             <p class="text-center m-0 s12 ft2"><span class="arrow-top d-inline-block mb-1">∧</span><br>TOPへ戻る</p>
         </a>

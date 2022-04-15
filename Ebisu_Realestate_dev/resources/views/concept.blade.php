@@ -117,7 +117,7 @@
 
    
     <div class="white-area bg-white text-dark ft2">
-        <p class="text-center  s24" style="margin-bottom:35px;">恵比寿、丘の上の美しい風景へ</p>
+        <p class="text-center  s24" style="margin-bottom:10px;">恵比寿、丘の上の美しい風景へ</p>
         <div class="d-flex justify-content-start align-items-center">
             <div class="d-flex flex-column justify-content-center">
                 <p class="animation text-dark" style="margin-bottom:32px;"><span class="gold-2 s18">約26mの丘の上で上質な日常が始まる。</span></p>
@@ -138,13 +138,13 @@
 
     <!-- スマホ表示 -->
     <div class="white-area2 bg-white text-dark ft2 s14">
-        <div style="width: calc(100% - 40px); margin: 0 auto; padding: 20px 0;">
+        <div style="width: calc(100% - 20px); margin: 0 auto; padding: 20px 0;">
             <p class="text-center" style="">恵比寿、丘の上の美しい風景へ</p>
-            <img class="animation-2-zm w-100" style="" src="{{ asset('/images/kouteizu-kai.svg') }}">
-            <p class="text-end m-0 chrome s9">高低差概念図は、国土地理院/GISMaps調べ<br>
+            <img class="animation-2-zm w-100" style="" src="{{ asset('/images/kouteizu-kai-sp.svg') }}">
+            <!-- <p class="text-end m-0 chrome s9">高低差概念図は、国土地理院/GISMaps調べ<br>
                 ※掲載の高低差概念図の表現されている建物の高さ・形状・色等は実際とは異なります。<br>
                 ※周辺の道路・建物・街路樹などは一部簡略化しており実際とは異なります。
-            </p>
+            </p> -->
             <p class="animation gold-2 text-center" style="margin: 25px 0 20px;">約26mの丘の上で上質な日常が始まる。</p>
             <p class="animation text-dark s11 text-center" style="line-height: 1.5;"> 恵比寿の丘の上。<br>
                 都心でありながら、都心の喧騒を離れ、様々な安らぎと<br>

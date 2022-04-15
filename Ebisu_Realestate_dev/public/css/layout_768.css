@@ -1,22 +1,36 @@
 .common_layout {
-  padding: 0 0 110px;
+  padding: 0 0 270px;
 }
 .common_layout2 {
-  padding: 0 0 110px;
+  padding: 0 0 270px;
 }
 
 .to-page-top {
-  padding: 25px 0 25px;
+  display: none;
 }
 .to-page-top2 {
-  background-color:#3e3a39;
-  padding: 20px 0;
+  /* background-color:#3e3a39;
+  padding: 20px 0; */
+  display: none;
 }
 
 
-/* SPのみ */
+
+
+/* SPのみ出現 */
 .pc_hid {
   display:block;
+}
+
+/* PCのみ出現 */
+.sp_hid {
+  display:none;
+}
+
+/* SPのみのインデント */
+.sp_indent {
+  display: inline;
+  color: transparent;
 }
 
 /* ヘッダー */
@@ -62,35 +76,47 @@
 
 /* フッター */
 .footer_content {
-  height: 110px;
-  /* display: flex; 
-  align-items: end;  */
-  padding: 10px 5px; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0; 
   position: relative;
+  height: 270px;
 }
 .company_name {
-  font-size: 9px;
+  font-size: 11px;
 }
 .footer p {
-  font-size: 9px;
+  
 }
 .company_tel {
-  font-size: 16px;
+  
 }
 .footer_right {
-  position: absolute; 
-  right: 5px; 
-  top: 21px;
+  position: static;
+}
+.footer_right p {
+  text-align:center;
 }
 
 .footer_gg {
-  font-size: 9px;
+  
+}
+.footer_left_top {
+  width: 240px;
+  margin: 0 auto;
+}
+.footer_logo_area {
+  
+}
+.copyright {
+  text-align: center;
+  font-size: 12px;
 }
 
-.footer img {
-  height: 45px;
+.to-top-sp {
+  display: block;
 }
-
 
 
 /* メニュー */
@@ -388,14 +414,17 @@ video {
   width:50%;
   height: 50px;
 }
+
+
 .read_more {
   margin-top: 20px;
   width: 140px;
   height: 40px;
-  padding: 0;
+  padding:0;
 }
 .read_more a {
   font-size: 12px;
+  display: block;
 }
 
 .bland_img_link {
@@ -422,7 +451,7 @@ video {
 
 /* 注釈 */
 .comment-area {
-  margin: 0 auto;
+  margin: 0 auto 50px;
   width: calc(100% - 40px);
 }
 .comment-area p {
@@ -462,7 +491,7 @@ video {
   display: block;
   width: calc(100% - 40px);
   margin: 0 auto;
-  padding: 30px 0 0; 
+  padding: 30px 0 30px; 
 }
 .taxi_table {
   border-collapse: collapse;
@@ -482,7 +511,7 @@ video {
 
 .ov-m {
   /* padding: 150px 0px 0px 0px; */
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 50px 0px;
   margin-top: 150px;
 }
 .ov-t1{
@@ -597,6 +626,11 @@ video {
   font-size: 10px;
 }
 
+
+.questionnaire {
+  margin: 0;
+}
+
 .pre-text, .main-content {
   width: calc(100% - 40px);
   margin: 0 auto;
@@ -684,7 +718,7 @@ video {
   height: 20px;
 }
 .entry-column1 {
-  width:33%; 
+  width:25%; 
 }
 .entry-column3 {
   width:62%; 
@@ -703,3 +737,39 @@ video {
 input {
   max-width: 130px;
 }
+
+
+.badge-danger {
+  background-color: #CC0000	;
+  margin: 0px 1px;
+}
+
+#questionnaire .mr-20px {
+  margin-right: 5px;
+}
+
+.questionnaire_comment {
+  width: calc(100% - 20px);
+  margin: 0 auto;
+}
+
+.m-none {
+  margin: 0;
+  padding: 10px;
+}
+/* 
+#questionnaire .pt-25px {
+  padding-top: 20px;
+}
+
+#questionnaire .pb-25px {
+  padding-bottom: 20px;
+}
+
+#questionnaire .pr-20px {
+  padding-right: 10px;
+}
+
+#questionnaire .pl-20px {
+  padding-left: 10px;
+} */
