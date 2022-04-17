@@ -13,7 +13,7 @@
   <!-- <div class="main-content" style="margin-right: 90px; margin-left: 90px"> -->
   <div class="entry-main-content" style="">
     <div class="ft2 s16">
-      <p class="text-center" style="margin-bottom: 10px;">以下のフォームに必要な項目を入力のうえ「送信」ボタンを押してください。</p>
+      <p class="text-center" style="margin-bottom: 10px;">以下のフォームに必要な項目を入力のうえ<br class="pc_hid">「送信」ボタンを押してください。</p>
       <p class="text-center" style="margin-bottom: 20px;"><span class="badge badge-danger">必須</span>は必須項目です。</p>
     </div>
     <form class="mailformpro" style="padding-left:10px; padding-right:10px;" metdod="POST" action="/questionnaire_mail">
@@ -62,7 +62,7 @@
             <td style="padding-top: 10px; padding-bottom: 10px;">
               <div><input style="width: 20%;" type="text"><span class="s10"> 年 </span><input style="width: 20%;" type="text"><span class="s10"> 月 </span><input style="width: 20%;"
                   type="text"><span class="s10"> 日 </span></div>
-              <p class="mt-2 mb-0 s12">※半角英数で入力してください</p>
+              <p class="mt-2 mb-0 s12">※半角英数で<br class="pc_hid">入力してください</p>
               <div><input class="" type="email" name="email" data-error_placement="#email"></div>
               <div class="validation_message" id="email"></div>
               <p class="m-0 s12">※確認のためもう一度ご入力ください</p>

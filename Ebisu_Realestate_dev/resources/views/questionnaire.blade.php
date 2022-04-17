@@ -29,7 +29,7 @@
     </div>
     <div class="main-content center-block mx-auto">
         <div class="text-center caption1 ft2 s16">
-            <p class="m-none">下記のフォームに必要な項目を入力の上､｢送信｣ボタンを押してください。</p>
+            <p class="m-none">下記のフォームに必要な項目を入力の上､<br class="pc_hid">｢送信｣ボタンを押してください。</p>
             <p class="m-none"><span class="badge badge-danger">必須</span>は必須項目です</p>
         </div>
         <form class="mailformpro" method="POST" action="{{ route('form.post') }}">
@@ -218,7 +218,7 @@
                             <td>
                                 <input type="tel" name="phone_number" data-type="tel" name="電話番号"
                                     placeholder="(例)00099998888" data-error_placement="#phone_number">
-                                <p style="margin: 0;" class="s12">※半角数字・ハイフンなしで入力してください</p>
+                                <p style="margin: 0;" class="s12">※半角数字・ハイフンなしで<br class="pc_hid">入力してください</p>
                                 <div class="validation_message" id="phone_number"></div>
                             </td>
                         </tr>
@@ -270,7 +270,7 @@
                                             <input class="w-60px" type="text" style="" name="work_post_code"
                                                 data-error_placement="#work_post_code"> - <input class="w-100px" style="">
                                             <div class="validation-message" id="work_post_code"></div>
-                                            <p style="margin: 0;" class="s12">※半角数字(ハイフンなし)で入力してください</p>
+                                            <p style="margin: 0;" class="s12">※半角数字・ハイフンなしで<br class="pc_hid">入力してください</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -335,8 +335,8 @@
 
             <div class="mt-2 animation ft2 s16">
                 <p class="indent-1 mt-20px mb-45px">
-                    ※アンケート項目すべてにご協力いただいた方に、もれなくAmazonギフトカードを進呈いたします。<br>※アンケートはすべて必須項目になります。</p>
-                <!-- <p class="indent-1 mb-45px">※アンケートはすべて必須項目になります。</p> -->
+                    ※アンケート項目すべてにご協力いただいた方に、もれなく<br class="pc_hid"><span class="sp_indent">ー</span>Amazonギフトカードを進呈いたします。<br>※アンケートはすべて必須項目になります。
+                </p>
                 <div class="gold_line_bottom  pb-25px ft2 s14">
                     <div class="questionnaire questionnaire1">
                         <p class="pb-2"><span class="question-num mr-20px">1</span>仮に今後お住まいを購入するとした場合、<br class="pc_hid"><span class="sp_indent">ーーー</span>どのような住居形態を希望しますか。(1つだけ回答)</p>

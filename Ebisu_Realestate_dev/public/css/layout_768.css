@@ -123,6 +123,8 @@
 .absolute{
   position: absolute;
 }
+
+
 .logo_p{
   z-index:500;
   /* margin-top: 23px;
@@ -181,6 +183,9 @@
   transform: translateY(-10px) rotate(45deg);
 }
 
+.index_logo, .menu-trigger {
+  position: fixed;
+}
 
 /* トップページ */
 video {
