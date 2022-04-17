@@ -1,17 +1,18 @@
 .common_layout {
-  padding: 0 0 270px;
+  padding: 0 0 220px;
 }
 .common_layout2 {
-  padding: 0 0 270px;
+  padding: 0 0 220px;
 }
 
 .to-page-top {
-  display: none;
+  padding: 20px 0;
+  /* display: none; */
 }
 .to-page-top2 {
-  /* background-color:#3e3a39;
-  padding: 20px 0; */
-  display: none;
+  background-color:#3e3a39;
+  padding: 20px 0;
+  /* display: none; */
 }
 
 
@@ -81,7 +82,7 @@
   justify-content: space-between;
   padding: 20px 0; 
   position: relative;
-  height: 270px;
+  height: 220px;
 }
 .company_name {
   font-size: 11px;
@@ -456,7 +457,7 @@ video {
 
 /* 注釈 */
 .comment-area {
-  margin: 0 auto 50px;
+  margin: 0 auto 30px;
   width: calc(100% - 40px);
 }
 .comment-area p {
