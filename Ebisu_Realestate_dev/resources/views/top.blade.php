@@ -419,7 +419,7 @@
                 </p>
                 <img src="{{ asset('/images/the access photo.png') }}" alt="ACCESS 写真" class="photo-100">
                 <button class="gold_btn read_more" type="button">
-                    <a href="/concept" class="text-white mh-parts ft2">Read More</a>
+                    <a href="/access" class="text-white mh-parts ft2">Read More</a>
                 </button>
             </div>
 
