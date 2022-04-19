@@ -1,17 +1,18 @@
 .common_layout {
-  padding: 0 0 270px;
+  padding: 0 0 220px;
 }
 .common_layout2 {
-  padding: 0 0 270px;
+  padding: 0 0 220px;
 }
 
 .to-page-top {
-  display: none;
+  padding: 20px 0;
+  /* display: none; */
 }
 .to-page-top2 {
-  /* background-color:#3e3a39;
-  padding: 20px 0; */
-  display: none;
+  background-color:#3e3a39;
+  padding: 20px 0;
+  /* display: none; */
 }
 
 
@@ -81,7 +82,7 @@
   justify-content: space-between;
   padding: 20px 0; 
   position: relative;
-  height: 270px;
+  height: 220px;
 }
 .company_name {
   font-size: 11px;
@@ -123,6 +124,8 @@
 .absolute{
   position: absolute;
 }
+
+
 .logo_p{
   z-index:500;
   /* margin-top: 23px;
@@ -135,7 +138,9 @@
 }
 .menu_p {
   z-index:500;
-  margin: 20px 20px auto auto;
+  /* margin: 20px 20px auto auto; */
+  top: 20px;
+  right: 20px;
 }
 
 .menu-trigger, .menu-trigger span {
@@ -181,6 +186,9 @@
   transform: translateY(-10px) rotate(45deg);
 }
 
+.menu-trigger {
+  position: fixed;
+}
 
 /* トップページ */
 video {
@@ -283,7 +291,7 @@ video {
 .info_title {
   /* width: 90%;  */
   width: calc(100% - 40px);
-  margin: 40px auto 45px; 
+  margin: 40px auto 30px; 
   font-size: 14px;
 }
 
@@ -451,7 +459,7 @@ video {
 
 /* 注釈 */
 .comment-area {
-  margin: 0 auto 50px;
+  margin: 0 auto 30px;
   width: calc(100% - 40px);
 }
 .comment-area p {
@@ -511,8 +519,8 @@ video {
 
 .ov-m {
   /* padding: 150px 0px 0px 0px; */
-  padding: 0px 0px 50px 0px;
-  margin-top: 150px;
+  padding: 150px 0px 50px 0px;
+  /* margin-top: 150px; */
 }
 .ov-t1{
   text-align:center;
@@ -622,7 +630,8 @@ video {
 #questionnaire {
   /*  width: calc(100% - 40px); */
   width: 100%;
-  margin: 150px auto 40px;
+  margin: 0 auto 40px;
+  padding-top: 150px;
   font-size: 10px;
 }
 
@@ -640,7 +649,11 @@ video {
   
 }
 
-#questionnaire p, #questionnaire span, #questionnaire ul, #questionnaire li, #questionnaire input, #questionnaire label, #questionnaire div, #questionnaire select {
+#questionnaire p, #questionnaire span, 
+#questionnaire ul, #questionnaire li, 
+#questionnaire input, #questionnaire label, 
+#questionnaire div, #questionnaire select, 
+#questionnaire a, #questionnaire td {
   font-size: 10px;
 }
 #questionnaire input, #questionnaire select {
@@ -700,7 +713,8 @@ video {
 /* エントリー */
 #entry {
   width: 100%;
-  margin: 150px auto 0;
+  margin: 0 auto;
+  padding-top: 150px;
 }
 
 .entry-main-content {
@@ -711,7 +725,10 @@ video {
   font-size: 20px;
   width: 100%;
 }
-#entry p, #entry span, #entry ul, #entry li, #entry input, #entry label, #entry div, #entry select {
+#entry p, #entry span, #entry ul, 
+#entry li, #entry input, #entry label, 
+#entry div, #entry select, #entry a, 
+#entry td {
   font-size: 10px;
 }
 #entry input, #entry select{
@@ -773,3 +790,7 @@ input {
 #questionnaire .pl-20px {
   padding-left: 10px;
 } */
+
+.entry_complete_msg {
+  margin: 50px 0;
+}
