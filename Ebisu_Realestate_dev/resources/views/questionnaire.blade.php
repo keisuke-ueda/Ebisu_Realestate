@@ -650,8 +650,8 @@
                     <div class="questionnaire questionnaire9 ft2 s14 pc_hid">
                         <p class="pb-2"><span class="question-num mr-20px">9</span>現在のお住まいで所有している自家用車の<br class="pc_hid"><span class="sp_indent">ーーー</span>台数と車種をお聞かせ下さい。
                         </p>
-                        <p style="margin-left:20px; margin-bottom:5px;">[台 数]<input style="width:90px;" type="text" class="mx-1" name="q9_1">台</p>
-                        <p style="margin-left:20px;">[車 種]<input style="width:90px;" type="text" name="q9_2" class="mx-1"></p>
+                        <p style="margin-left:20px; margin-bottom:5px;">[台 数]<input style="width:90px;" type="text" class="mx-1" name="q9_1_sp">台</p>
+                        <p style="margin-left:20px;">[車 種]<input style="width:90px;" type="text" name="q9_2_sp" class="mx-1"></p>
                     </div>
                 </div>
 
@@ -665,9 +665,9 @@
                     <!-- SP -->
                     <div class="questionnaire questionnaire10 ft2 s14 pc_hid">
                         <p class="pb-2"><span class="question-num-2 mr-20px">10</span>世帯主様、配偶者様、ご家族全体の年収を<br class="pc_hid"><span class="sp_indent">ーーー</span>それぞれお聞かせください。</p>
-                        <p style="margin-left:20px; margin-bottom:5px;">[世帯主様]<input type="text" class="mx-1" name="q10_1" style="width:90px;">万円</p>
-                        <p style="margin-left:20px; margin-bottom:5px;">[配偶者様]<input type="text" class="mx-1" name="q10_2" style="width:90px;">万円</p>
-                        <p style="margin-left:20px;">[全体]<span style="color:transparent;">ーー</span><input type="text" class="mx-1" name="q10_3" style="width:90px;">万円</p>
+                        <p style="margin-left:20px; margin-bottom:5px;">[世帯主様]<input type="text" class="mx-1" name="q10_1_sp" style="width:90px;">万円</p>
+                        <p style="margin-left:20px; margin-bottom:5px;">[配偶者様]<input type="text" class="mx-1" name="q10_2_sp" style="width:90px;">万円</p>
+                        <p style="margin-left:20px;">[全体]<span style="color:transparent;">ーー</span><input type="text" class="mx-1" name="q10_3_sp" style="width:90px;">万円</p>
                     </div>
                 </div>
 

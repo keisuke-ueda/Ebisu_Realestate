@@ -68,7 +68,8 @@
                                     $seibetsu = "女性";
                                     }
                                     @endphp
-                                    {{ $seibetsu }}</td>
+                                    {{ $seibetsu }}
+                                </td>
                             </tr>
                             <tr>
                                 <td><label for="name"><span class="badge badge-danger">必須</span>ご家族人数</label></td>
@@ -351,7 +352,7 @@
                     <div class="gold_line_bottom mt-3 pb-2">
                         <div class="questionnaire questionnaire9">
                             <p><span class="question-num">9</span>現在のお住まいで所有している自家用車の台数と車種をお聞かせ下さい。</p>
-                            <p>［台 数］{{ $input["q9_1"] }}台数 ［車 種］{{ $input["q9_2"] }}</p>
+                            <p>［台 数］{{ $input["q9_1"] }}台 ［車 種］{{ $input["q9_2"] }}</p>
                         </div>
                     </div>
 

@@ -32,7 +32,7 @@
             <p class="m-none">下記のフォームに必要な項目を入力の上､<br class="pc_hid">｢送信｣ボタンを押してください。</p>
             <p class="m-none"><span class="badge badge-danger">必須</span>は必須項目です</p>
         </div>
-        <form class="mailformpro" method="POST" action="{{ route('form.post') }}">
+        <form class="mailformpro" method="POST" action="{{ route('form.send') }}">
             @csrf
 
             <div class="table-div" style="">
@@ -44,8 +44,8 @@
                             </td>
                             <td class="column2" style=""></td>
                             <td class="column3" style="">
-                                中野 
-                                洋
+                                {{ $input["sei"] }}
+                                {{ $input["mei"] }}
                             </td>
                         </tr>
 
@@ -54,15 +54,22 @@
                                         class="badge badge-danger">必須</span>フリガナ</label>
                             </td>
                             <td>
-                                ナカノ 
-                                ヨウヨウ
+                                {{ $input["sei_kana"] }}
+                                {{ $input["mei_kana"] }}
                             </td>
                         </tr>
                         <tr>
                             <td class="questionnaire-title-td" colspan="2"><label for="name"><span
                                         class="badge badge-danger">必須</span>性別</label></td>
                             <td style="padding-top: 10px; padding-bottom: 10px;">
-                                弾性
+                                @php
+                                if ($input["gender"] == "male") {
+                                $seibetsu = "男性";
+                                } else {
+                                $seibetsu = "女性";
+                                }
+                                @endphp
+                                {{ $seibetsu }}
                             </td>
                         </tr>
                         <tr>
@@ -70,7 +77,7 @@
                                         class="badge badge-danger">必須</span>ご家族人数</label>
                             </td>
                             <td>
-                                5人
+                                {{ $input["family_size"] }} 人
                             </td>
                         </tr>
                         <tr>
@@ -84,7 +91,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td>
-                                            392-0022
+                                            {{ $input["home_post_code"] }}
                                         </td>
                                     </tr>
                                     <tr>
@@ -93,7 +100,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td class="py-1">
-                                            東京都
+                                            {{ $input["home_prefectures"] }}
                                         </td>
                                     </tr>
                                     <tr>
@@ -102,7 +109,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td class="py-1">
-                                            港区南麻布
+                                            {{ $input["home_manicipalities"] }}
                                         </td>
                                     </tr>
                                     <tr>
@@ -111,7 +118,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td class="py-1">
-                                            3-4-8
+                                            {{ $input["home_chome_address"] }}
                                         </td>
                                     </tr>
                                     <tr>
@@ -119,7 +126,7 @@
                                             <label for="name" class="s14">建物名</label>
                                         </td>
                                         <td class="py-1">
-                                            Applouder
+                                            {{ $input["home_building_name"] }}
                                         </td>
                                     </tr>
                                 </table>
@@ -137,7 +144,7 @@
                                 </label>
                             </td>
                             <td>
-                                5年
+                                {{ $input["years_of_residence"] }} 年
                             </td>
                         </tr>
                         <tr>
@@ -157,7 +164,17 @@
                                 </label>
                             </td>
                             <td>
-                                分譲マンション
+                                @php
+                                if ($input["housing_form"] == "1") {
+                                $housing_form = "分譲マンション";
+                                } else if ($input["housing_form"] == "2") {
+                                $housing_form = "賃貸マンション";
+                                } else {
+                                $housing_form = "その他";
+                                }
+                                @endphp
+                                {{ $housing_form }}
+                            </td>
                             </td>
                         </tr>
                         <tr>
@@ -165,7 +182,7 @@
                                         class="badge badge-danger">必須</span>電話番号</label>
                             </td>
                             <td>
-                                09018372299
+                                {{ $input["phone_number"] }}
                             </td>
                         </tr>
                         <tr>
@@ -174,7 +191,7 @@
                                             class="badge badge-danger">必須</span>メールアドレス</label></div>
                             </td>
                             <td>
-                                ynakano7621@gmail.com
+                                {{ $input["email"] }}
                             </td>
                         </tr>
                         <tr>
@@ -182,7 +199,7 @@
                                         class="badge badge-danger">必須</span>勤務先名</label>
                             </td>
                             <td>
-                                Shift-N
+                                {{ $input["office_name"] }}
                             </td>
                         </tr>
                         <tr>
@@ -204,7 +221,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td>
-                                            106-0047
+                                            {{ $input["work_post_code"] }}
                                         </td>
                                     </tr>
                                     <tr>
@@ -213,7 +230,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td class="py-1">
-                                            東京都
+                                            {{ $input["work_prefectures"] }}
                                         </td>
                                     </tr>
                                     <tr>
@@ -222,7 +239,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td class="py-1">
-                                            港区南麻布
+                                            {{ $input["work_manicipalities"] }}
                                         </td>
                                     </tr>
                                     <tr>
@@ -231,7 +248,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td class="py-1">
-                                            3-4-8
+                                            {{ $input["work_chome_address"] }}
                                         </td>
                                     </tr>
                                     <tr>
@@ -239,7 +256,7 @@
                                             <label for="name" class="s14">建物名</label>
                                         </td>
                                         <td class="py-1">
-                                            Applouder
+                                            {{ $input["work_building_name"] }}
                                         </td>
                                     </tr>
                                 </table>
@@ -262,7 +279,11 @@
                 <div class="gold_line_bottom  pb-25px ft2 s14">
                     <div class="questionnaire questionnaire1">
                         <p class="pb-2"><span class="question-num mr-20px">1</span>仮に今後お住まいを購入するとした場合、<br class="pc_hid"><span class="sp_indent">ーーー</span>どのような住居形態を希望しますか。(1つだけ回答)</p>
-                        <p class="ms-3">一戸建てにこだわる</p>
+                        <p class="ms-3">
+                            @if(isset($input["q1"]))
+                            {{ $input["q1"] }}
+                            @endif
+                        </p>
                     </div>
                 </div>
                 <div class="gold_line_bottom pb-25px pt-30px s14">
@@ -271,17 +292,29 @@
                                 class="question-num mr-20px">2</span>あなたがお住まいに求める条件をお聞かせください。<br class="pc_hid"><span class="sp_indent">ーーー</span>(それぞれ3つ回答)
                         </p>
                         <p class="s14">【駅名】</p>
-                        <p class="ms-3">品川</p>
+                        <p class="ms-3">
+                            @if (isset($input_arrayq2_1))
+                            {{ implode($input_arrayq2_1) }}
+                            @endif
+                        </p>
                         <br>
                     </div>
                     <div class="questionnaire questionnaire2_2">
                         <p class="s14">【立地】</p>
-                        <p class="ms-3">落ち着いた環境</p>
+                        <p class="ms-3">
+                            @if (isset($input_arrayq2_2))
+                            {{ implode($input_arrayq2_2) }}
+                            @endif
+                        </p>
                         <br>
                     </div>
                     <div class="questionnaire questionnaire2_3">
                         <p class="s14">【建物】</p>
-                        <p class="ms-3">新築</p>
+                        <p class="ms-3">
+                            @if (isset($input_arrayq2_1))
+                            {{ implode($input_arrayq2_3) }}
+                            @endif
+                        </p>
                     </div>
                 </div>
 
@@ -291,12 +324,20 @@
                                 class="question-num mr-20px">3</span>仮に今後、マンション購入を検討する場合に希望される<br class="pc_hid"><span class="sp_indent">ーーー</span>間取りと広さをお聞かせください。(それぞれ1つ回答)
                         </p>
                         <p class="s14">【ご希望の間取り】</p>
-                        <p class="ms-3">4LDK</p>
+                        <p class="ms-3">
+                            @if (isset($input["q3_1"]))
+                            {{ $input["q3_1"] }}
+                            @endif
+                        </p>
                         <br>
                     </div>
                     <div class="questionnaire questionnaire3_2">
                         <p class="s14">【ご希望の広さ】</p>
-                        <p class="ms-3">4LDK</p>
+                        <p class="ms-3">
+                            @if (isset($input["q3_2"]))
+                            {{ $input["q3_2"] }}
+                            @endif
+                        </p>
                     </div>
                 </div>
 
@@ -306,7 +347,11 @@
                             <span
                                 class="question-num mr-20px">4</span>新築分譲マンション・分譲リノベーションマンションを<br class="pc_hid"><span class="sp_indent">ーーー</span>購入するとした場合についてお聞かせください。(1つだけ回答)
                         </p>
-                        <p class="ms-3">4LDK</p>
+                        <p class="ms-3">
+                            @if (isset($input["q4"]))
+                            {{ $input["q4"] }}
+                            @endif
+                        </p>
                     </div>
                 </div>
 
@@ -316,22 +361,38 @@
                             <span class="question-num mr-20px">5</span>仮に今後、新たに住宅を検討するとした場合の<br class="pc_hid"><span class="sp_indent">ーーー</span>購入エリアについてお聞かせください。(複数回答可)
                         </p>
                         <p class="s14">【渋谷区】</p>
-                        <p class="ms-3">4LDK</p>
+                        <p class="ms-3">
+                            @if(isset($input_arrayq5_1))
+                            {{ implode($input_arrayq5_1) }}
+                            @endif
+                        </p>
                         <br>
                     </div>
                     <div class="questionnaire questionnaire5_2">
                         <p class="s14">【目黒区】</p>
-                        <p class="ms-3">4LDK</p>
+                        <p class="ms-3">
+                            @if(isset($input_arrayq5_2))
+                            {{ implode($input_arrayq5_2) }}
+                            @endif
+                        </p>
                         <br>
                     </div>
                     <div class="questionnaire questionnaire5_3">
                         <p class="s14">【港区】</p>
-                        <p class="ms-3">4LDK</p>
+                        <p class="ms-3">
+                            @if(isset($input_arrayq5_3))
+                            {{ implode($input_arrayq5_3) }}
+                            @endif
+                        </p>
                         <br>
                     </div>
                     <div class="questionnaire questionnaire5_4">
                         <p class="s14">【品川区】</p>
-                        <p class="ms-3">4LDK</p>
+                        <p class="ms-3">
+                            @if(isset($input_arrayq5_4))
+                            {{ implode($input_arrayq5_4) }}
+                            @endif
+                        </p>
                     </div>
                 </div>
 
@@ -340,7 +401,11 @@
                         <p class="pb-2"><span
                                 class="question-num mr-20px ft2 s14">6</span>仮に上記エリアで新規分譲マンション<br class="pc_hid"><span class="sp_indent">ーーー</span>または分譲リノベーションマンションを検討する場合、<br class="pc_hid"><span class="sp_indent">ーーー</span>どの住戸を検討しますか。
                         </p>
-                        <p class="ms-3">4LDK</p>
+                        <p class="ms-3">
+                            @if(isset($input["q6"]))
+                            {{ $input["q6"] }}
+                            @endif
+                        </p>
                     </div>
                 </div>
 
@@ -354,7 +419,11 @@
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire8 ft2 s14">
                         <p class="pb-2"><span class="question-num mr-20px">8</span>世帯主様の通勤手段は何でしょうか。</p>
-                        <p class="ms-3">4LDK</p>
+                        <p class="ms-3">
+                            @if(isset($input["q7"]))
+                            {{ $input["q7"] }}
+                            @endif
+                        </p>
                     </div>
                 </div>
 
@@ -364,7 +433,10 @@
                         </p>
                         <!-- <p class="s16" style="">［台 数］<input type="text" class="me-2" name="q9_1">台 ［車 種］<input type="text"
                                 name="q9_2"></p> -->
-                        <p class="ms-3">［台 数］4 台　［車 種］ベンツ</p>
+                        <p class="ms-3">
+                            ［台 数］{{ $input["q9_1"] }} 台
+                            　［車 種］{{ $input["q9_2"] }}
+                        </p>
                     </div>
                     <!-- SP -->
                     <div class="questionnaire questionnaire9 ft2 s14 pc_hid">
@@ -372,8 +444,8 @@
                         </p>
                         <!-- <p style="margin-left:20px; margin-bottom:5px;">[台 数] 5台</p>
                         <p style="margin-left:20px;">[車 種] ベンツ</p> -->
-                        <p class="ms-3">［台 数］4 台</p>
-                        <p class="ms-3">［車 種］ベンツ</p>
+                        <p class="ms-3">［台 数］{{ $input["q9_1_sp"] }} 台</p>
+                        <p class="ms-3">［車 種］{{ $input["q9_2_sp"] }}</p>
                     </div>
                 </div>
 
@@ -381,15 +453,15 @@
                     <!-- PC -->
                     <div class="questionnaire questionnaire10 ft2 s14 sp_hid">
                         <p class="pb-2"><span class="question-num-2 mr-20px">10</span>世帯主様、配偶者様、ご家族全体の年収をそれぞれお聞かせください。</p>
-                        <p class="ms-3">［世帯主様］4万円</p>
-                        <p class="ms-3">［配偶者様］5万円 ［全 体］9万円</p>
+                        <p class="ms-3">［世帯主様］{{ $input["q10_1"] }}万円</p>
+                        <p class="ms-3">［配偶者様］{{ $input["q10_2"] }}万円 ［全 体］{{ $input["q10_3"] }}万円</p>
                     </div>
                     <!-- SP -->
                     <div class="questionnaire questionnaire10 ft2 s14 pc_hid">
                         <p class="pb-2"><span class="question-num-2 mr-20px">10</span>世帯主様、配偶者様、ご家族全体の年収を<br class="pc_hid"><span class="sp_indent">ーーー</span>それぞれお聞かせください。</p>
-                        <p class="ms-3">［世帯主様］4万円</p>
-                        <p class="ms-3">［配偶者様］4万円</p>
-                        <p class="ms-3">［全体］4万円</p>
+                        <p class="ms-3">［世帯主様］{{ $input["q10_1_sp"] }}万円</p>
+                        <p class="ms-3">［配偶者様］{{ $input["q10_2_sp"] }}万円</p>
+                        <p class="ms-3">［全体］{{ $input["q10_3_sp"] }}万円</p>
                     </div>
                 </div>
 
@@ -398,21 +470,31 @@
                         <p class="pb-2"><span
                                 class="question-num-2 mr-20px">11</span>目黒区三田1丁目の分譲リノベーションマンションについて<br class="pc_hid"><span class="sp_indent">ーーー</span>ご興味はございますか。
                         </p>
-                        <p class="ms-3">ない</p>
+                        <p class="ms-3">
+                            @if(isset($input["q11"]))
+                            {{ $input["q11"] }}
+                            @endif
+                        </p>
                     </div>
                 </div>
 
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire12 ft2 s14">
                         <p class="pb-2"><span class="question-num-2 mr-20px">12</span>現在の住宅から買い替え予定はありますか。</p>
-                        <p class="ms-3">ない</p>
+                        <p class="ms-3">@if(isset($input["q12_1"])){{ $input["q12_1"] }}@endif</p>
+                        <p  class="ms-3">@if(isset($input["q12_2"])){{ $input["q12_2"] }}@endif</p>
                     </div>
                 </div>
 
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire13 ft2 s14">
                         <p class="pb-2"><span class="question-num-2 mr-20px">13</span>現在の住宅購入をする場合の予算はどのぐらいですか。</p>
-                        <p class="ms-3">300円</p>
+                        <p class="ms-3">
+                            @if(isset($input["q13"]))
+                            {{ $input["q13"] }}
+                            @endif
+                            万円
+                        </p>
                     </div>
                 </div>
             </div>

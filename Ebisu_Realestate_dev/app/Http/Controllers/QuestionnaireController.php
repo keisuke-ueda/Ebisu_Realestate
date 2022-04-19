@@ -26,8 +26,10 @@ class QuestionnaireController extends Controller
 
         "q1", "q2_1", "q2_2", "q2_3", "q3_1",
         "q3_2", "q4", "q5_1", "q5_2", "q5_3",
-        "q5_4", "q6", "q7", "q8", "q9_1",
-        "q9_2", "q10_1", "q10_2", "q10_3", "q11", "q12_1",
+        "q5_4", "q6", "q7", "q8", 
+        "q9_1","q9_2", "q9_1_sp","q9_2_sp", 
+        "q10_1", "q10_2", "q10_3", "q10_1_sp", "q10_2_sp", "q10_3_sp",
+        "q11", "q12_1",
         "q12_2", "q13"
     ];
 
@@ -75,7 +77,7 @@ class QuestionnaireController extends Controller
         //     return redirect()->action([QuestionnaireController::class, 'show']);
         // }
         // return view("questionnaire_mail", ["input" => $input]);
-        return view("questionnaire_mail", compact('input','input_arrayq2_1','input_arrayq2_2','input_arrayq2_3','input_arrayq5_1','input_arrayq5_2','input_arrayq5_3','input_arrayq5_4'));
+        return view("questionnaire_confirm", compact('input','input_arrayq2_1','input_arrayq2_2','input_arrayq2_3','input_arrayq5_1','input_arrayq5_2','input_arrayq5_3','input_arrayq5_4'));
     }
 
     function send(Request $request)

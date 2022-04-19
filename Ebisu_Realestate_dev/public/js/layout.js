@@ -227,7 +227,7 @@ $(function () {
         number: true,
       },
       home_prefectures: {
-        required: [true, "都道府県を", "入力"],
+        required: [true, "都道府県を", "選択"],
       },
       home_municipalities: {
         required: [true, "市区町村を", "入力"],
@@ -268,22 +268,34 @@ $(function () {
       confirm_email: {
         required: [true, "メールアドレスを", "入力"],
         equalTo: "[name=email]"
-      }
+      },
+      birth_y: {
+        required: [true, "生年月日(年)を", "入力"],
+      },
+      birth_m: {
+        required: [true, "生年月日(月)を", "入力"],
+      },
+      birth_d: {
+        required: [true, "生年月日(日)を", "入力"],
+      },
+      job: {
+        required: [true, "ご職業を", "選択"],
+      },
+      media: {
+        required: [true, "いずれかに", "チェック"],
+      },
+      price: {
+        required: [true, "ご希望条件(価格帯)を", "選択"],
+      },
+      agree: {
+        required: [true, "チェックを", "して"],
+      },
     },
     //エラーメッセージ表示位置指定
     errorPlacement: function (error, element) {
       // data-error_placementで指定された要素に追加
       error.appendTo(element.data('error_placement'));
     }
-  });
-
-  // エントリーフォームの入力バリデーション
-  $('.entry_form').validate({
-    // rules: {
-    //   confirm_email: {
-    //     equalTo: "#email"
-    //   }
-    // }
   });
 
   // フォーム入力バリデーションのエラーメッセージフォーマット

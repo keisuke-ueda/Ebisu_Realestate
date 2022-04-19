@@ -16,7 +16,7 @@
       <p class="text-center" style="margin-bottom: 10px;">以下のフォームに必要な項目を入力のうえ<br class="pc_hid">「送信」ボタンを押してください。</p>
       <p class="text-center" style="margin-bottom: 20px;"><span class="badge badge-danger">必須</span>は必須項目です。</p>
     </div>
-    <form class="mailformpro" style="padding-left:10px; padding-right:10px;" metdod="POST" action="/questionnaire_mail">
+    <form class="mailformpro" style="padding-left:10px; padding-right:10px;" method="POST" action="{{ route('entry_form.send') }}">
       @csrf
       <table class="gold-table-entry table-entry animation ft2 s14">
         <tbody>
@@ -24,21 +24,30 @@
             <td class="column1 entry-column1" style=""><label for="name"><span class="badge badge-danger s11">必須</span>お名前</label></td>
             <td class="column2 h-40px" style="width: 120px;"></td>
             <td class="column3 entry-column3" style="width: auto;">
-              中野 洋
+              {{ $input["sei"] }}
+              {{ $input["mei"] }}
             </td>
           </tr>
           <tr>
             <td><label for="name"><span class="badge badge-danger s11">必須</span>フリガナ</label></td>
             <td></td>
             <td>
-              ナカノ ヨウ
+              {{ $input["sei_kana"] }}
+              {{ $input["mei_kana"] }}
             </td>
           </tr>
           <tr>
             <td><label for="name"><span class="badge badge-danger">必須</span>性別</label></td>
             <td></td>
             <td style="padding-top: 10px; padding-bottom: 10px;">
-              弾性
+              @php
+              if ($input["gender"] == "male") {
+              $seibetsu = "男性";
+              } else {
+              $seibetsu = "女性";
+              }
+              @endphp
+              {{ $seibetsu }}
             </td>
           </tr>
           <tr>
@@ -56,8 +65,8 @@
               <div><input class="" type="text" name="confirm_email" data-error_placement="#confirm_email">
               </div>
               <div class="validation_message" id="confirm_email"></div> -->
-              <div class="mb-3">1995年6月21日</div>
-              <div>y.nakano.carecon@gmail.com</div>
+              <div class="mb-3">{{ $input["birth_y"] }}年{{ $input["birth_m"] }}月{{ $input["birth_d"] }}日</div>
+              <div>{{ $input["email"] }}</div>
               <!-- 1995年6月21日
               y.nakano.carecon@gmail.com -->
             </td>
@@ -75,7 +84,7 @@
                     <label for="name" class="s14">郵便番号<span class="badge badge-danger s11">必須</span></label>
                   </td>
                   <td>
-                    106-0047
+                    {{ $input["home_post_code"] }}
                   </td>
                 </tr>
                 <tr>
@@ -83,7 +92,7 @@
                     <label for="name" class="s14">都道府県<span class="badge badge-danger s11">必須</span></label>
                   </td>
                   <td class="py-1">
-                    東京都
+                    {{ $input["home_prefectures"] }}
                   </td>
                 </tr>
                 <tr>
@@ -91,7 +100,7 @@
                     <label for="name" class="s14">市区町村<span class="badge badge-danger s11">必須</span></label>
                   </td>
                   <td class="py-1">
-                    港区南麻布
+                    {{ $input["home_manicipalities"] }}
                   </td>
                 </tr>
                 <tr>
@@ -99,7 +108,7 @@
                     <label for="name" class="s14">丁目番地<span class="badge badge-danger s11">必須</span></label>
                   </td>
                   <td class="py-1">
-                    3-4-8
+                    {{ $input["home_chome_address"] }}
                   </td>
                 </tr>
                 <tr>
@@ -107,7 +116,9 @@
                     <label for="name" class="s14">建物名</label>
                   </td>
                   <td class="py-1">
-                    Applouder
+                    @if (isset($input["home_building_name"]))
+                    {{ $input["home_building_name"] }}
+                    @endif
                   </td>
                 </tr>
               </table>
@@ -117,68 +128,82 @@
             <td><label for="name"><span class="badge badge-danger s11">必須</span>電話番号</label></td>
             <td></td>
             <td>
-              08094310360
+              {{ $input["phone_number"] }}
             </td>
           </tr>
           <tr>
             <td><label for="name"><span class="badge badge-danger s11">必須</span>ご職業</label></td>
             <td></td>
             <td>
-              無職
+              {{ $input["job"] }}
             </td>
           </tr>
           <tr>
             <td colspan="2"><label for="name"><span class="badge"></span>　　　ご年収</label></td>
             <td>
-              800万円未満
+              @if (isset($input["income"]))
+              {{ $input["income"] }}
+              @endif
             </td>
           </tr>
           <tr>
             <td colspan="2"><label for="name"><span class="badge"></span>　　　自己資金(半角)</label></td>
             <td>
-              1億円以上
+              @if (isset($input["fund"]))
+              {{ $input["fund"] }}
+              @endif
             </td>
           </tr>
           <tr>
             <td colspan="2"><label for="name"><span class="badge"></span>　　　ご購入の目的</label></td>
             <td>
-              セカンドハウス
+              @if (isset($input["purpose"]))
+              {{ $input["purpose"] }}
+              @endif
             </td>
           </tr>
           <tr>
             <td colspan="2"><label for="name"><span class="badge"></span>　　　現在のお住まい(住居形態)</label></td>
             <td>
-              実家
+              @if (isset($input["type"]))
+              {{ $input["type"] }}
+              @endif
             </td>
           </tr>
           <tr>
             <td colspan="2"><label for="name"><span class="badge"></span>　　　ご家族人数</label></td>
             <td>
-              3人
+              @if (isset($input["family"]))
+              {{ $input["family"] }}人
+              @endif
             </td>
           </tr>
           <tr>
             <td colspan="2"><label for="name"><span class="badge"></span>　　　ご希望条件(面積)</label></td>
             <td>
-              90
+              @if (isset($input["area"]))
+              {{ $input["area"] }}m&sup2;
+              @endif
             </td>
           </tr>
           <tr>
             <td colspan="2"><label for="name"><span class="badge"></span>　　　ご希望条件(間取り)<br>　　　※複数選択可</label></td>
             <td style="padding-top: 10px; padding-bottom: 10px;">
-              1LDK
+              @if (isset($input_array_ldk))
+              {{ implode($input_array_ldk) }}
+              @endif
             </td>
           </tr>
           <tr>
             <td colspan="2"><label for="name"><span class="badge badge-danger">必須</span>ご希望条件(価格帯)</label></td>
             <td style="padding-top: 10px; padding-bottom: 10px;">
-              ~2億円
+              {{ $input["price"] }}
             </td>
           </tr>
           <tr>
             <td colspan="2"><label for="name"><span class="badge badge-danger">必須</span>このHPをどこでお知りに<br>　　　 なりましたか？</label></td>
             <td style="padding-top: 10px; padding-bottom: 10px;">
-              その他
+              {{ $input["media"] }}
             </td>
           </tr>
         </tbody>
