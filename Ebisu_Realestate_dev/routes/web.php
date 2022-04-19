@@ -45,8 +45,8 @@ Route::view('/blanding', 'blanding');
 // 物件概要
 Route::view('/overview', 'overview');
 
-// 物件エントリー
-Route::view('/entry', 'entry');
+//現地案内
+Route::view('/map', 'map');
 
 // 来場予約
 Route::view('/reserve', 'reserve');
@@ -62,8 +62,29 @@ Route::post('/questionnaire/confirm', [QuestionnaireController::class, 'send'])-
 
 Route::get('/questionnaire/thanks', [QuestionnaireController::class, 'complete'])->name("form.complete");
 
-// メール送信
+// アンケートメール送信
 Route::post('/questionnaire_mail', [QuestionnaireController::class, 'send']);
 
-//現地案内
-Route::view('/map', 'map');
+
+// 物件エントリー
+Route::view('/entry', 'entry');
+
+// Route::get('/entry', [EntryController::class, 'show'])->name("form.show");
+// Route::post('/entry', [EntryController::class, 'post'])->name("form.post");
+
+// Route::get('/entry/confirm', [EntryController::class, 'confirm'])->name("form.confirm");
+// Route::post('/entry/confirm', [EntryController::class, 'send'])->name("form.send");
+
+// Route::get('/entry/thanks', [EntryController::class, 'complete'])->name("form.complete");
+
+// // エントリーメール送信
+// Route::post('/entry_mail', [EntryController::class, 'send']);
+
+
+
+//後で消す(表示確認用ルート)
+Route::view('/questionnaire2', 'questionnaire_confirm');
+Route::view('/complete', 'questionnaire_complete2');
+
+Route::view('/entry_mail', 'entry_mail');
+Route::view('/entry_complete', 'entry_complete');

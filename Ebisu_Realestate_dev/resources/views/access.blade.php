@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- 開発対象 -->
-<!-- 背景色、テキスト一時的に調整 -->
+<!-- 背景色､テキスト一時的に調整 -->
 <div class="access-top">
     <img  class="img-fluid" src="{{ asset('/images/the access.svg') }}">
 </div>
@@ -12,7 +12,7 @@
         <div class="access_info ft2">
             <div class="d-flex align-items-end">
                 <div>
-                    <p class="s14">JR山手線・埼京線</p>
+                    <p class="s14">JR山手線･埼京線</p>
                     <p class="s14">湘南新宿ライン<span class="s18">｢恵比寿｣駅</span></p>
                 </div>
                 <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">11</span>分 /</p>
@@ -35,8 +35,8 @@
         <div class="access_info ft2">
             <div class="d-flex align-items-end">
                 <div>
-                    <p class="s14">JR山手線・東京メトロ南北線・</p>
-                    <p class="s14">都営地下鉄三田線・東急目黒線<span class="s18">｢目黒｣駅</span></p>
+                    <p class="s14">JR山手線･東京メトロ南北線･</p>
+                    <p class="s14">都営地下鉄三田線･東急目黒線<span class="s18">｢目黒｣駅</span></p>
                 </div>
                 <p class="s18">徒歩<span class="gold-2 s42" style="line-height: 100%;">13</span>分</p>
             </div>
@@ -47,19 +47,24 @@
     <!-- スマホ表示 -->
     <div class="access_info_group2 animation ft2">
         <div class="d-inline-block">
-            <div class="d-flex justify-content-start align-items-start" style="margin-bottom:10px;">
-                <p class="s10 pt-1">JR山手線・埼京線・湘南新宿ライン</p>
+            <div class="d-flex justify-content-start align-items-center" style="margin-bottom:10px;">
+                <!-- <p class="s10 pt-1">JR山手線･埼京線･湘南新宿ライン</p>
                 <div style="margin-left:5px;">
                     <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">11</span>分</p>
                     <p class="s9">(恵比寿スカイウォークより徒歩7分)</p>
+                </div> -->
+                <div>
+                    <p class="s10">JR山手線･埼京線･湘南新宿ライン</p>
+                    <p class="s9">(恵比寿スカイウォークより徒歩7分)</p>
                 </div>
+                <p class="s14" style="margin-left:5px;"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">11</span>分</p>
             </div>
             <div class="d-flex justify-content-start align-items-center" style="margin-bottom:10px;">
                 <p class="s10">東京メトロ日比谷線<span style="color:transparent;">ーーーーーーー</span></p>
                 <p class="s14" style="margin-left:5px;"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
             </div>
             <div class="d-flex justify-content-start align-items-center">
-                <p class="s10">JR山手線・東京メトロ南北線・<br>都営地下鉄三田線・東急目黒線<span style="color:transparent;">ーー</span></p>
+                <p class="s10">JR山手線･東京メトロ南北線･<br>都営地下鉄三田線･東急目黒線<span style="color:transparent;">ーー</span></p>
                 <p class="s14" style="margin-left:5px;"><span class="s18">｢目黒｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">13</span>分<span class="s18" style="color: transparent;"></span></p>
             </div>
         </div>
@@ -77,31 +82,31 @@
         <img  class="d-block animation-1-zm" style="width: calc(25% - 19px)" src="{{ asset('/images/access_shinagawa.png') }}">
     </div>
 
-    <p class="s18 ft2 gold-2" style="width:42%; margin:30px 0 10px 58%;">2駅7路線が利用可能。もっと自由な都心生活を。</p>
+    <p class="s18 ft2 gold-2" style="width:42%; margin:30px 0 10px 58%;">2駅7路線が利用可能｡もっと自由な都心生活を｡</p>
 
     <!-- 路線情報 -->
     <div class="d-flex justify-content-between align-items-between">
         <div class="d-flex flex-column justify-content-between animation-0-zm" style="width: 56%;">
             <img class="w-100" src="{{ asset('/images/rosenzu-0411.svg') }}" style="margin-top: 20px;">
-            <p class="s9 m-0 ft2">※各駅への所要時間はJR線｢恵比寿｣駅発、東京メトロ日比谷線｢恵比寿｣駅発、また東京メトロ南北線・<br>
-                &emsp;都営三田線｢目黒｣駅発の所要時間は日中平常時、平日の13時台及び(  )内は通勤時8時台の<br>
-                &emsp;最短所要時間を表記しています。<br>
-                ※所要時間には、乗り換え・待ち時間は含まれません。(JR線・東京メトロ線・都営地下鉄線時刻表調べ)<br>
-                ※2駅7路線とは、JR山手線・埼京線・湘南新宿ライン｢恵比寿｣駅、東京メトロ日比谷線｢｣恵比寿駅、<br>
-                &emsp;JR山手線｢目黒｣駅、都営地下鉄三田線・東京メトロ南北線・東急目黒線｢目黒｣駅のことです。<br>
-                ※現地からの徒歩分数は、80mを1分として算出し、端数は切り上げております。<br>
-                ※掲載の情報は、令和4年3月現在によるもので変更になる場合があります。
+            <p class="s9 m-0 ft2">※各駅への所要時間はJR線｢恵比寿｣駅発､東京メトロ日比谷線｢恵比寿｣駅発､また東京メトロ南北線･<br>
+                &emsp;都営三田線｢目黒｣駅発の所要時間は日中平常時､平日の13時台及び(  )内は通勤時8時台の<br>
+                &emsp;最短所要時間を表記しています｡<br>
+                ※所要時間には､乗り換え･待ち時間は含まれません｡(JR線･東京メトロ線･都営地下鉄線時刻表調べ)<br>
+                ※2駅7路線とは､JR山手線･埼京線･湘南新宿ライン｢恵比寿｣駅､東京メトロ日比谷線｢｣恵比寿駅､<br>
+                &emsp;JR山手線｢目黒｣駅､都営地下鉄三田線･東京メトロ南北線･東急目黒線｢目黒｣駅のことです｡<br>
+                ※現地からの徒歩分数は､80mを1分として算出し､端数は切り上げております｡<br>
+                ※掲載の情報は､令和4年3月現在によるもので変更になる場合があります｡
             </p>
         </div>
         <div class="small animation" style="width:42%;">
-            <p class="ft2 s11" style="margin-bottom: 18px;">｢ラ・アトレ恵比寿グランガーデン｣は、<br>
-                JR山手線・埼京線・湘南新宿ライン｢恵比寿｣駅徒歩11分の3路線、<br>
-                東京メトロ日比谷線｢恵比寿｣駅徒歩13分の1路線、<br>
-                JR山手線・都営地下鉄三田線・東京メトロ南北線・東急目黒線｢目黒｣駅徒歩13分の4路線<br>
-                が利用でき、都心の主要エリアへダイレクトアクセスが可能です。
+            <p class="ft2 s11" style="margin-bottom: 18px;">｢ラ･アトレ恵比寿グランガーデン｣は､<br>
+                JR山手線･埼京線･湘南新宿ライン｢恵比寿｣駅徒歩11分の3路線､<br>
+                東京メトロ日比谷線｢恵比寿｣駅徒歩13分の1路線､<br>
+                JR山手線･都営地下鉄三田線･東京メトロ南北線･東急目黒線｢目黒｣駅徒歩13分の4路線<br>
+                が利用でき､都心の主要エリアへダイレクトアクセスが可能です｡
             </p>
 
-            <p class="border-bottom ft2 s13" style="padding-bottom:10px; margin-bottom:10px;">■ＪＲ山手線・埼京線・湘南新宿ライン｢恵比寿｣駅より</p>
+            <p class="border-bottom ft2 s13" style="padding-bottom:10px; margin-bottom:10px;">■ＪＲ山手線･埼京線･湘南新宿ライン｢恵比寿｣駅より</p>
             <table class="ft2 s11">
                 <tr>
                     <td><span class="s18">｢渋谷｣</span>駅へ直通………&nbsp;&nbsp;&nbsp;<span class="s18">2</span>分 (1分)&nbsp;</td>
@@ -137,12 +142,12 @@
                 </tr>
                 <tr>
                     <td class="s9">&nbsp;&nbsp;&nbsp;東京メトロ日比谷線利用</td>
-                    <td class="s9">&nbsp;&nbsp;&nbsp;東京メトロ日比谷線利用、｢霞ヶ関｣駅で<br>
+                    <td class="s9">&nbsp;&nbsp;&nbsp;東京メトロ日比谷線利用､｢霞ヶ関｣駅で<br>
                     &nbsp;&nbsp;&nbsp;東京メトロ丸ノ内線乗り換え</td>
                 </tr>
             </table>
 
-            <p class="border-bottom ft2 s13" style="padding-bottom:10px; margin-bottom:10px; margin-top:25px;">■東京メトロ南北線・都営三田線｢目黒｣駅より</p>
+            <p class="border-bottom ft2 s13" style="padding-bottom:10px; margin-bottom:10px; margin-top:25px;">■東京メトロ南北線･都営三田線｢目黒｣駅より</p>
             <table class="ft2 s11">
                 <tr>
                     <td><span class="s18">｢三田｣</span>駅へ直通………&nbsp;&nbsp;&nbsp;<span class="s18">7</span>分 (7分)</td>
@@ -172,7 +177,7 @@
 
 
     
-    <p class="gold-2 animation ft2 s18" style="margin:65px 0 20px;">都心の様々な要所へ、タクシーでの移動にも優れたロケーションです。</p>
+    <p class="gold-2 animation ft2 s18" style="margin:65px 0 20px;">都心の様々な要所へ､タクシーでの移動にも優れたロケーションです｡</p>
         
     <!-- タクシー情報 -->
     <div class="animation d-flex justify-content-start align-items-start" style="margin-bottom:30px;">
@@ -234,8 +239,8 @@
                 </tr>
             </table>
             <p class="m-0 ft2 s9">※出典:Japan Taxi https://japantaxi<br>
-                ※掲載の情報は2022年2月現在のJapan Taxiウェブサイトにて算出したもので実際の走行ルートは料金と異なる可能性があります。<br>
-                &emsp;料金・所要時間は有料・高速道路を利用していない場合の内容です。深夜料金該当時間は22:00～5:00を設定しています。
+                ※掲載の情報は2022年2月現在のJapan Taxiウェブサイトにて算出したもので実際の走行ルートは料金と異なる可能性があります｡<br>
+                &emsp;料金･所要時間は有料･高速道路を利用していない場合の内容です｡深夜料金該当時間は22:00～5:00を設定しています｡
             </p>
         </div>
     </div>
@@ -255,15 +260,15 @@
     </div>
     <p class="text-end s9" style="margin-bottom:30px;">image</p>
 
-    <p class="s14 gold-2 text-center" >2駅7路線が利用可能。もっと自由な都心生活を。</p>
-    <p class="s10 text-center" style="margin-bottom:20px;">｢ラ・アトレ恵比寿グランガーデン｣は、<br>
-        JR山手線･埼京線･湘南新宿ライン｢恵比寿｣駅徒歩11分の3路線、<br>
-        東京メトロ日比谷線｢恵比寿｣駅徒歩13分の1路線、<br>
+    <p class="s14 gold-2 text-center" >2駅7路線が利用可能｡もっと自由な都心生活を｡</p>
+    <p class="s10 text-center" style="margin-bottom:20px;">｢ラ･アトレ恵比寿グランガーデン｣は､<br>
+        JR山手線･埼京線･湘南新宿ライン｢恵比寿｣駅徒歩11分の3路線､<br>
+        東京メトロ日比谷線｢恵比寿｣駅徒歩13分の1路線､<br>
         JR山手線･都営三田線･東京メトロ南北線･東急目黒線｢目黒｣駅徒歩13分の<br>
-        4路線が利用でき、都心の主要エリアへダイレクトアクセスが可能です。
+        4路線が利用でき､都心の主要エリアへダイレクトアクセスが可能です｡
     </p>
 
-    <p class="border-bottom ft2 s12" style="padding-bottom:10px; margin-bottom:10px;">■ＪＲ山手線・埼京線・湘南新宿ライン｢恵比寿｣駅より</p>
+    <p class="border-bottom ft2 s12" style="padding-bottom:10px; margin-bottom:10px;">■ＪＲ山手線･埼京線･湘南新宿ライン｢恵比寿｣駅より</p>
     <table class="ft2 s10">
         <tr>
             <td><span class="s12">｢渋谷｣</span>駅へ直通……<span class="s12">2</span>分 (1分)&nbsp;</td>
@@ -299,11 +304,11 @@
         </tr>
         <tr>
             <td class="s9">&nbsp;&nbsp;&nbsp;東京メトロ日比谷線利用</td>
-            <td class="s9">&nbsp;&nbsp;&nbsp;東京メトロ日比谷線利用、<br>｢霞ヶ関｣駅で東京メトロ丸ノ内線乗り換え</td>
+            <td class="s9">&nbsp;&nbsp;&nbsp;東京メトロ日比谷線利用､<br>｢霞ヶ関｣駅で東京メトロ丸ノ内線乗り換え</td>
         </tr>
     </table>
 
-    <p class="border-bottom ft2 s12" style="padding-bottom:10px; margin-bottom:10px; margin-top:25px;">■東京メトロ南北線・都営三田線｢目黒｣駅より</p>
+    <p class="border-bottom ft2 s12" style="padding-bottom:10px; margin-bottom:10px; margin-top:25px;">■東京メトロ南北線･都営三田線｢目黒｣駅より</p>
     <table class="ft2 s10">
         <tr>
             <td><span class="s12">｢三田｣</span>駅へ直通……&nbsp;&nbsp;&nbsp;<span class="s12">7</span>分 (7分)</td>
@@ -330,17 +335,19 @@
     </table>
 
     <img class="w-100" src="{{ asset('/images/rosenzu-0411.svg') }}" style="margin:20px 0;">
-    <p class="s9 m-0 ft2" style="">※各駅への所要時間はJR線｢恵比寿｣駅発、東京メトロ日比谷線｢恵比寿｣駅発、また東京メトロ南北線・<br>
-        &emsp;都営三田線｢目黒｣駅発の所要時間は日中平常時、平日の13時台及び(  )内は通勤時8時台の<br>
-        &emsp;最短所要時間を表記しています。<br>
-        ※所要時間には、乗り換え・待ち時間は含まれません。(JR線・東京メトロ線・都営地下鉄線時刻表調べ)<br>
-        ※2駅7路線とは、JR山手線・埼京線・湘南新宿ライン｢恵比寿｣駅、東京メトロ日比谷線｢｣恵比寿駅、<br>
-        &emsp;JR山手線｢目黒｣駅、都営地下鉄三田線・東京メトロ南北線・東急目黒線｢目黒｣駅のことです。<br>
-        ※現地からの徒歩分数は、80mを1分として算出し、端数は切り上げております。<br>
-        ※掲載の情報は、令和4年3月現在によるもので変更になる場合があります。
+    <p class="s9 m-0 ft2" style="">※各駅への所要時間はJR線｢恵比寿｣駅発､東京メトロ日比谷線｢恵比寿｣駅発､<br>
+        &emsp;また東京メトロ南北線･都営三田線｢目黒｣駅発の所要時間は日中平常時､<br>
+        &emsp;平日の13時台及び(  )内は通勤時8時台の最短所要時間を表記しています｡<br>
+        ※所要時間には､乗り換え･待ち時間は含まれません｡<br>
+        &emsp;(JR線･東京メトロ線･都営地下鉄線時刻表調べ)<br>
+        ※2駅7路線とは､JR山手線･埼京線･湘南新宿ライン｢恵比寿｣駅､<br>
+        &emsp;東京メトロ日比谷線｢｣恵比寿駅､JR山手線｢目黒｣駅､<br>
+        &emsp;都営地下鉄三田線･東京メトロ南北線･東急目黒線｢目黒｣駅のことです｡<br>
+        ※現地からの徒歩分数は､80mを1分として算出し､端数は切り上げております｡<br>
+        ※掲載の情報は､令和4年3月現在によるもので変更になる場合があります｡
     </p>
 
-    <p class="gold-2 animation s14 text-center" style="margin-top:30px;">都心の様々な要所へ、<br>タクシーでの移動にも優れたロケーションです。</p>
+    <p class="gold-2 animation s14 text-center" style="margin-top:30px;">都心の様々な要所へ､<br>タクシーでの移動にも優れたロケーションです｡</p>
     <div class="d-flex mx-auto justify-content-between align-items-end animation-0-zm" style="width:70%; margin-top:20px;">
         <img class="" src="{{ asset('/images/access_taxi.png') }}" style="width:60%;">
         <img class="" src="{{ asset('/images/taxi.svg') }}" style="width:35%;">
@@ -393,8 +400,10 @@
         </tr>
     </table>
     <p class="m-0 ft2 s9">※出典:Japan Taxi https://japantaxi<br>
-        ※掲載の情報は2022年2月現在のJapan Taxiウェブサイトにて算出したもので実際の走行ルートは料金と異なる可能性があります。<br>
-        &emsp;料金・所要時間は有料・高速道路を利用していない場合の内容です。深夜料金該当時間は22:00～5:00を設定しています。
+        ※掲載の情報は2022年2月現在のJapan Taxiウェブサイトにて算出したもので<br>
+        &emsp;実際の走行ルートは料金と異なる可能性があります｡<br>
+        &emsp;料金･所要時間は有料･高速道路を利用していない場合の内容です｡<br>
+        &emsp;深夜料金該当時間は22:00～5:00を設定しています｡
     </p>
 </div>
 
