@@ -88,4 +88,5 @@ Route::post('/entry_complete', [EntryController::class, 'send']);
 // Route::view('/complete', 'questionnaire_complete2');
 
 // Route::view('/entry_mail', 'entry_mail');
-// Route::view('/entry_complete', 'entry_complete');
+Route::view('/questionnaire2', 'questionnaire_complete');
+Route::view('/entry2', 'entry_complete');

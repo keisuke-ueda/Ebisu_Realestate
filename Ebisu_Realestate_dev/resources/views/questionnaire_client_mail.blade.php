@@ -72,17 +72,33 @@ $housing_form = "その他";
 <br>
 2. あなたがお住まいに求める条件をお聞かせください。<br>
 @if (isset($input_arrayq2_1))
-【駅名】{{ implode($input_arrayq2_1) }}<br>
+【駅名】{{ implode(' ', $input_arrayq2_1) }}
 @endif
-@if (isset($input_arrayq2_2))
-【立地】{{ implode($input_arrayq2_2) }}<br>
-@endif
-@if (isset($input_arrayq2_3))
-【建物】{{ implode($input_arrayq2_3) }}<br>
+@if (isset($input["q2_1_text"]))
+({{ $input["q2_1_text"] }})
 @endif
 <br>
+@if (isset($input_arrayq2_2))
+【立地】{{ implode(' ', $input_arrayq2_2) }}
+@endif
+@if (isset($input["q2_2_text"]))
+({{ $input["q2_2_text"] }})
+@endif
+<br>
+@if (isset($input_arrayq2_3))
+【建物】{{ implode(' ', $input_arrayq2_3) }}
+@endif
+@if (isset($input["q2_3_text"]))
+({{ $input["q2_3_text"] }})
+@endif
+<br>
+<br>
 3. 仮に今後、マンション購入を検討する場合に希望される間取りと広さをお聞かせください。<br>
-【ご希望の間取り】{{ $input["q3_1"] }}<br>
+【ご希望の間取り】{{ $input["q3_1"] }}
+@if (isset($input["q3_1_text"]))
+({{ $input["q3_1_text"] }})
+@endif
+<br>
 【ご希望の広さ】{{ $input["q3_2"] }}
 <br>
 <br>
@@ -92,28 +108,41 @@ $housing_form = "その他";
 <br>
 5. 仮に今後、新たに住宅を検討するとした場合の購入エリアについてお聞かせください。<br>
 @if (isset($input_arrayq5_1))
-【渋谷区】{{ implode($input_arrayq5_1) }}<br>
+【渋谷区】{{ implode(' ', $input_arrayq5_1) }}<br>
 @endif
 @if (isset($input_arrayq5_2))
-【目黒区】{{ implode($input_arrayq5_2) }}<br>
+【目黒区】{{ implode(' ', $input_arrayq5_2) }}<br>
 @endif
 @if (isset($input_arrayq5_3))
-【湊区】{{ implode($input_arrayq5_3) }}<br>
+【湊区】{{ implode(' ', $input_arrayq5_3) }}<br>
 @endif
 @if (isset($input_arrayq5_4))
-【品川区】{{ implode($input_arrayq5_4) }}<br>
+【品川区】{{ implode(' ', $input_arrayq5_4) }}
 @endif
+@if (isset($input["q5_4_text"]))
+({{ $input["q5_4_text"] }})
+@endif
+<br>
 <br>
 6.仮に上記エリアで新規分譲マンションまたは分譲リノベーションマンションを検討する場合、どの住戸を検討しますか。<br>
 {{ $input["q6"] }}
+@if (isset($input["q6_text"]))
+({{ $input["q6_text"] }})
+@endif
 <br>
 <br>
 7. 世帯主様の職業は何でしょうか。<br>
 {{ $input["q7"] }}
+@if (isset($input["q7_text"]))
+({{ $input["q7_text"] }})
+@endif
 <br>
 <br>
 8. 世帯主様の通勤手段は何でしょうか。<br>
 {{ $input["q8"] }}
+@if (isset($input["q8_text"]))
+({{ $input["q8_text"] }})
+@endif
 <br>
 <br>
 9. 現在のお住まいで所有している自家用車の台数と車種をお聞かせ下さい。<br>
@@ -160,11 +189,11 @@ $housing_form = "その他";
 <br>
 <br>
 <br>
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-株式会社ラ・アトレ 
-「ラ・アトレ恵比寿グランガーデン」プロジェクト準備室
-[電話] 0120-978-690
-[営業時間] 10:00〜18:00
-[定休日] 火・水曜日
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
+株式会社ラ・アトレ<br> 
+「ラ・アトレ恵比寿グランガーデン」プロジェクト準備室<br>
+[電話] 0120-978-690<br>
+[営業時間] 10:00〜18:00<br>
+[定休日] 火・水曜日<br>
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 </p>

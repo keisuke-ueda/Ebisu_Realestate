@@ -298,7 +298,10 @@
                         <p class="s14">【駅名】</p>
                         <p class="ms-3">
                             @if (isset($input_arrayq2_1))
-                            {{ implode($input_arrayq2_1) }}
+                            {{ implode(' ', $input_arrayq2_1) }}
+                            @endif
+                            @if (isset($input["q2_1_text"]))
+                            ({{ $input["q2_1_text"] }})
                             @endif
                         </p>
                         <br>
@@ -307,7 +310,10 @@
                         <p class="s14">【立地】</p>
                         <p class="ms-3">
                             @if (isset($input_arrayq2_2))
-                            {{ implode($input_arrayq2_2) }}
+                            {{ implode(' ', $input_arrayq2_2) }}
+                            @endif
+                            @if (isset($input["q2_2_text"]))
+                            ({{ $input["q2_2_text"] }})
                             @endif
                         </p>
                         <br>
@@ -316,7 +322,10 @@
                         <p class="s14">【建物】</p>
                         <p class="ms-3">
                             @if (isset($input_arrayq2_3))
-                            {{ implode($input_arrayq2_3) }}
+                            {{ implode(' ', $input_arrayq2_3) }}
+                            @endif
+                            @if (isset($input["q2_3_text"]))
+                            ({{ $input["q2_3_text"] }})
                             @endif
                         </p>
                     </div>
@@ -331,6 +340,9 @@
                         <p class="ms-3">
                             @if (isset($input["q3_1"]))
                             {{ $input["q3_1"] }}
+                            @endif
+                            @if (isset($input["q3_1_text"]))
+                            ({{ $input["q3_1_text"] }})
                             @endif
                         </p>
                         <br>
@@ -367,7 +379,7 @@
                         <p class="s14">【渋谷区】</p>
                         <p class="ms-3">
                             @if(isset($input_arrayq5_1))
-                            {{ implode($input_arrayq5_1) }}
+                            {{ implode(' ', $input_arrayq5_1) }}
                             @endif
                         </p>
                         <br>
@@ -376,7 +388,7 @@
                         <p class="s14">【目黒区】</p>
                         <p class="ms-3">
                             @if(isset($input_arrayq5_2))
-                            {{ implode($input_arrayq5_2) }}
+                            {{ implode(' ', $input_arrayq5_2) }}
                             @endif
                         </p>
                         <br>
@@ -385,7 +397,7 @@
                         <p class="s14">【港区】</p>
                         <p class="ms-3">
                             @if(isset($input_arrayq5_3))
-                            {{ implode($input_arrayq5_3) }}
+                            {{ implode(' ', $input_arrayq5_3) }}
                             @endif
                         </p>
                         <br>
@@ -394,7 +406,10 @@
                         <p class="s14">【品川区】</p>
                         <p class="ms-3">
                             @if(isset($input_arrayq5_4))
-                            {{ implode($input_arrayq5_4) }}
+                            {{ implode(' ', $input_arrayq5_4) }}
+                            @endif
+                            @if (isset($input["q5_4_text"]))
+                            ({{ $input["q5_4_text"] }})
                             @endif
                         </p>
                     </div>
@@ -409,6 +424,9 @@
                             @if(isset($input["q6"]))
                             {{ $input["q6"] }}
                             @endif
+                            @if(isset($input["q6_text"]))
+                            ({{ $input["q6_text"] }})
+                            @endif
                         </p>
                     </div>
                 </div>
@@ -420,6 +438,9 @@
                             @if(isset($input["q7"]))
                             {{ $input["q7"] }}
                             @endif
+                            @if(isset($input["q7_text"]))
+                            ({{ $input["q7_text"] }})
+                            @endif
                         </p>
                     </div>
                 </div>
@@ -430,6 +451,9 @@
                         <p class="ms-3">
                             @if(isset($input["q8"]))
                             {{ $input["q8"] }}
+                            @endif
+                            @if(isset($input["q8_text"]))
+                            ({{ $input["q8_text"] }})
                             @endif
                         </p>
                     </div>
@@ -490,7 +514,7 @@
                     <div class="questionnaire questionnaire12 ft2 s14">
                         <p class="pb-2"><span class="question-num-2 mr-20px">12</span>現在の住宅から買い替え予定はありますか。</p>
                         <p class="ms-3">@if(isset($input["q12_1"])){{ $input["q12_1"] }}@endif</p>
-                        <p  class="ms-3">@if(isset($input["q12_2"])){{ $input["q12_2"] }}@endif</p>
+                        <p class="ms-3">@if(isset($input["q12_2"]))({{ $input["q12_2"] }} 年以内)@endif</p>
                     </div>
                 </div>
 
@@ -508,8 +532,9 @@
             </div>
             <p class="text-end animation mb-45px ft2 s12">アンケートにご協力いただき、誠にありがとうございました。</p>
 
-            <button type="submit" class="mh-parts btn btn-dark mb-35px d-block mx-auto" style="width: 220px;"><span
+            <button type="submit" class="mh-parts btn btn-dark d-block mx-auto" style="width: 220px;"><span
                     class="p-3 s18 ft2">送信する</span></button>
+            <button class="mh-parts btn mx-auto d-block mb-35px" type="button" style="margin-top:15px; text-decoration:underline;;" onclick=history.back()>入力画面に戻る</button>
 
         </form>
     </div>

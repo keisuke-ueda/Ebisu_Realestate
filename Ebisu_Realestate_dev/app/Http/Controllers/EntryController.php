@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Mail;
+use Carbon\Carbon;
 
 class EntryController extends Controller
 {
@@ -49,6 +50,7 @@ class EntryController extends Controller
         $input = $request->session()->get("input");
         $input_array_ldk = $request->session()->get("input_array_ldk");
         $email = $input['email'];
+        $date = Carbon::now(); 
 
         //セッションに値が無い時はフォームに戻る
         if (!$input) {
@@ -60,14 +62,15 @@ class EntryController extends Controller
         // $data = [];
 
         // 管理者宛
-        Mail::send('entry_site_mail', compact('input','input_array_ldk'), function ($message) {
+        Mail::send('entry_site_mail', compact('date','input','input_array_ldk'), function ($message) {
+            // $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
             $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com'];
-            $message->to($to, 'Test')->subject('物件エントリーの通知');
+            $message->to($to)->subject('[受付番号XXXX]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」物件エントリーフォームから');
         });
         // クライアント宛
         Mail::send('entry_client_mail', compact('input','input_array_ldk'), function ($message) {
             $input = session()->get("input");
-            $message->to($input['email'], 'Test')->subject('物件エントリーの完了通知');
+            $message->to($input['email'])->subject('[受付番号XXXX]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」物件エントリーフォームから');
         });
         //セッションを空にする
         $request->session()->forget("input");

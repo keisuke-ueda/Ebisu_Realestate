@@ -359,74 +359,74 @@
                         <p class="s14">【駅名】</p>
                         <ul class="s16">
                             <li><input type="checkbox" name="q2_1[]" value="恵比寿"
-                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1[]">恵比寿</li>
+                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1">恵比寿</li>
                             <li><input type="checkbox" name="q2_1[]" value="目黒"
-                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1[]">目黒</li>
+                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1">目黒</li>
                             <li><input type="checkbox" name="q2_1[]" value="白金台"
-                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1[]">白金台</li>
+                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1">白金台</li>
                             <li><input type="checkbox" name="q2_1[]" value="白金高輪"
-                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1[]">白金高輪
+                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1">白金高輪
                             </li>
                             <li><input type="checkbox" name="q2_1[]" value="麻布十番"
-                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1[]">麻布十番
+                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1">麻布十番
                             </li>
                             <li><input type="checkbox" name="q2_1[]" value="広尾"
-                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1[]">広尾<br>
+                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1">広尾<br>
                             </li><br>
                             <li><input type="checkbox" name="q2_1[]" value="中目黒"
-                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1[]">中目黒</li>
+                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1">中目黒</li>
                             <li><input type="checkbox" name="q2_1[]" value="代官山"
-                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1[]">代官山</li>
+                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1">代官山</li>
                             <li><input type="checkbox" name="q2_1[]" value="品川"
-                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1[]">品川</li>
+                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1">品川</li>
                             <li><input type="checkbox" name="q2_1[]" value="三田"
-                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1[]">三田</li>
+                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1">三田</li>
                             <li><input type="checkbox" name="q2_1[]" value="その他"
-                                    onclick="click_cb(3, 'questionnaire2_1');" data-error_placement="#q2_1[]">その他<input class="ms-2" type="text">
+                                    onclick="click_cb(3, 'questionnaire2_1'); text_control('q2_1')" data-error_placement="#q2_1" class="q2_1_check">その他<input class="ms-2 q2_1_text" type="text" name="q2_1_text" disabled>
                             </li><br>
                         </ul>
-                        <div class="validation-message" id="q2_1[]"></div>
+                        <div class="validation-message" id="q2_1"></div>
                     </div>
                     <div class="questionnaire questionnaire2_2">
                         <p class="s14">【立地】</p>
                         <ul class="s16">
                             <li>
                                 <input type="checkbox" class="min_check" name="q2_2[]" value="駅徒歩分数"
-                                    onclick="click_cb(3, 'questionnaire2_2');min_check1()">駅徒歩分数(
+                                    onclick="click_cb(3, 'questionnaire2_2');min_check1()" data-error_placement="#q2_2">駅徒歩分数(
                             </li>
-                            <input class="min" type="checkbox" name="q2_2[]" value="(～5分)" disabled onclick="min_check2()">～5分
-                            <input class="min" type="checkbox" name="q2_2[]" value="(～7分)" disabled onclick="min_check2()">～7分
+                            <input class="min" type="checkbox" name="q2_2[]" value="(～5分)" disabled onclick="min_check2()" data-error_placement="#q2_2">～5分
+                            <input class="min" type="checkbox" name="q2_2[]" value="(～7分)" disabled onclick="min_check2()" data-error_placement="#q2_2">～7分
                             <input class="min" type="checkbox" name="q2_2[]" value="(～10分)" disabled
-                                onclick="min_check2()">～10分
+                                onclick="min_check2()" data-error_placement="#q2_2">～10分
                             <input class="min" type="checkbox" name="q2_2[]" value="(～12分)" disabled
-                                onclick="min_check2()">～12分
+                                onclick="min_check2()" data-error_placement="#q2_2">～12分
                             <input class="min" type="checkbox" name="q2_2[]" value="(～15分)" disabled
-                                onclick="min_check2()">～15分 )
+                                onclick="min_check2()" data-error_placement="#q2_2">～15分 )
                             <br>
 
                             <li>
                                 <input type="checkbox" name="q2_2[]" value="通勤・通学に便利"
-                                    onclick="click_cb(3, 'questionnaire2_2');">通勤・通学に便利
+                                    onclick="click_cb(3, 'questionnaire2_2');" data-error_placement="#q2_2">通勤・通学に便利
                             </li>
 
                             <li>
                                 <input type="checkbox" name="q2_2[]" value="落ち着いた環境"
-                                    onclick="click_cb(3, 'questionnaire2_2');">落ち着いた環境
+                                    onclick="click_cb(3, 'questionnaire2_2');" data-error_placement="#q2_2">落ち着いた環境
                             </li>
 
                             <li>
                                 <input type="checkbox" name="q2_2[]" value="緑が多い"
-                                    onclick="click_cb(3, 'questionnaire2_2');">緑が多い
+                                    onclick="click_cb(3, 'questionnaire2_2');" data-error_placement="#q2_2">緑が多い
                             </li><br>
 
                             <li>
                                 <input type="checkbox" name="q2_2[]" value="スーパーや病院など生活利便設備が徒歩圏に揃うこと"
-                                    onclick="click_cb(3, 'questionnaire2_2');">スーパーや病院など生活利便設備が徒歩圏に揃うこと
+                                    onclick="click_cb(3, 'questionnaire2_2');" data-error_placement="#q2_2">スーパーや病院など生活利便設備が徒歩圏に揃うこと
                             </li>
 
                             <li>
                                 <input type="checkbox" name="q2_2[]" value="その他"
-                                    onclick="click_cb(3, 'questionnaire2_2');">その他<input class="ms-2" type="text">
+                                    onclick="click_cb(3, 'questionnaire2_2'); text_control('q2_2')" class="q2_2_check" data-error_placement="#q2_2">その他<input class="ms-2 q2_2_text" type="text" name="q2_2_text" disabled>
                             </li>
                         </ul>
                         <div class="validation-message" id="q2_2"></div>
@@ -435,36 +435,36 @@
                         <p class="s14">【建物】</p>
                         <ul class="s16">
                             <li><input type="checkbox" name="q2_3[]" value="価格"
-                                    onclick="click_cb(3, 'questionnaire2_3');">価格</li>
+                                    onclick="click_cb(3, 'questionnaire2_3');" data-error_placement="#q2_3">価格</li>
                             <li><input type="checkbox" name="q2_3[]" value="広さ"
-                                    onclick="click_cb(3, 'questionnaire2_3');">広さ</li>
+                                    onclick="click_cb(3, 'questionnaire2_3');" data-error_placement="#q2_3">広さ</li>
                             <li><input type="checkbox" name="q2_3[]" value="間取り"
-                                    onclick="click_cb(3, 'questionnaire2_3');">間取り</li>
+                                    onclick="click_cb(3, 'questionnaire2_3');" data-error_placement="#q2_3">間取り</li>
                             <li><input type="checkbox" name="q2_3[]" value="眺望"
-                                    onclick="click_cb(3, 'questionnaire2_3');">眺望</li>
+                                    onclick="click_cb(3, 'questionnaire2_3');" data-error_placement="#q2_3">眺望</li>
                             <li><input type="checkbox" name="q2_3[]" value="駐車場有無"
-                                    onclick="click_cb(3, 'questionnaire2_3');">駐車場有無
+                                    onclick="click_cb(3, 'questionnaire2_3');" data-error_placement="#q2_3">駐車場有無
                             </li>
                             <li><input type="checkbox" name="q2_3[]" value="角住戸"
-                                    onclick="click_cb(3, 'questionnaire2_3');">角住戸</li>
+                                    onclick="click_cb(3, 'questionnaire2_3');" data-error_placement="#q2_3">角住戸</li>
                             <li><input type="checkbox" name="q2_3[]" value="内廊下"
-                                    onclick="click_cb(3, 'questionnaire2_3');">内廊下</li>
+                                    onclick="click_cb(3, 'questionnaire2_3');" data-error_placement="#q2_3">内廊下</li>
                             <li><input type="checkbox" name="q2_3[]" value="低層住宅"
-                                    onclick="click_cb(3, 'questionnaire2_3');">低層住宅
+                                    onclick="click_cb(3, 'questionnaire2_3');" data-error_placement="#q2_3">低層住宅
                             </li><br>
                             <li><input type="checkbox" name="q2_3[]" value="高層住宅"
-                                    onclick="click_cb(3, 'questionnaire2_3');">高層住宅
+                                    onclick="click_cb(3, 'questionnaire2_3');" data-error_placement="#q2_3">高層住宅
                             </li>
                             <li><input type="checkbox" name="q2_3[]" value="収納の多さ"
-                                    onclick="click_cb(3, 'questionnaire2_3');">収納の多さ
+                                    onclick="click_cb(3, 'questionnaire2_3');" data-error_placement="#q2_3">収納の多さ
                             </li>
                             <li><input type="checkbox" name="q2_3[]" value="設備の充実"
-                                    onclick="click_cb(3, 'questionnaire2_3');">設備の充実
+                                    onclick="click_cb(3, 'questionnaire2_3');" data-error_placement="#q2_3">設備の充実
                             </li>
                             <li><input type="checkbox" name="q2_3[]" value="新築"
-                                    onclick="click_cb(3, 'questionnaire2_3');">新築</li>
+                                    onclick="click_cb(3, 'questionnaire2_3');" data-error_placement="#q2_3">新築</li>
                             <li><input type="checkbox" name="q2_3[]" value="その他"
-                                    onclick="click_cb(3, 'questionnaire2_3');">その他<input class="ms-2" type="text">
+                                    onclick="click_cb(3, 'questionnaire2_3'); text_control('q2_3')" class="q2_3_check" data-error_placement="#q2_3">その他<input class="ms-2 q2_3_text" type="text" name="q2_3_text" disabled>
                             </li><br>
                         </ul>
                         <div class="validation-message" id="q2_3"></div>
@@ -488,7 +488,7 @@
                                     onclick="click_cb(1, 'questionnaire3_1');" data-error_placement="#q3_1">3LDK
                             </li>
                             <li><input type="checkbox" name="q3_1" value="その他"
-                                    onclick="click_cb(1, 'questionnaire3_1');" data-error_placement="#q3_1">その他<input class="ms-2" type="text">
+                                    onclick="click_cb(1, 'questionnaire3_1'); text_control('q3_1')" data-error_placement="#q3_1" class="q3_1_check">その他<input class="ms-2 q3_1_text" type="text" name="q3_1_text" disabled>
                             </li><br>
                         </ul>
                         <div class="validation-message" id="q3_1"></div>
@@ -547,73 +547,79 @@
                         </p>
                         <p class="s14">【渋谷区】</p>
                         <ul class="s16">
-                            <li><input type="checkbox" name="q5_1[]" value="恵比寿2丁目">恵比寿2丁目</li>
-                            <li><input type="checkbox" name="q5_1[]" value="恵比寿3丁目">恵比寿3丁目</li>
-                            <li><input type="checkbox" name="q5_1[]" value="恵比寿4丁目">恵比寿4丁目</li><br>
-                            <li><input type="checkbox" name="q5_1[]" value="恵比寿南1丁目">恵比寿南1丁目</li>
-                            <li><input type="checkbox" name="q5_1[]" value="恵比寿南2丁目">恵比寿南2丁目</li>
-                            <li><input type="checkbox" name="q5_1[]" value="恵比寿南3丁目">恵比寿南3丁目</li>
+                            <li><input type="checkbox" name="q5_1[]" value="恵比寿2丁目" data-error_placement="#q5_1" class="q5" onclick="plus_q5();">恵比寿2丁目</li>
+                            <li><input type="checkbox" name="q5_1[]" value="恵比寿3丁目" data-error_placement="#q5_1" class="q5" onclick="plus_q5();">恵比寿3丁目</li>
+                            <li><input type="checkbox" name="q5_1[]" value="恵比寿4丁目" data-error_placement="#q5_1" class="q5" onclick="plus_q5();">恵比寿4丁目</li><br>
+                            <li><input type="checkbox" name="q5_1[]" value="恵比寿南1丁目" data-error_placement="#q5_1" class="q5" onclick="plus_q5();">恵比寿南1丁目</li>
+                            <li><input type="checkbox" name="q5_1[]" value="恵比寿南2丁目" data-error_placement="#q5_1" class="q5" onclick="plus_q5();">恵比寿南2丁目</li>
+                            <li><input type="checkbox" name="q5_1[]" value="恵比寿南3丁目" data-error_placement="#q5_1" class="q5" onclick="plus_q5();">恵比寿南3丁目</li>
                         </ul>
+                        <!-- <div class="validation-message" id="q5_1"></div> -->
                         <br>
                     </div>
                     <div class="questionnaire questionnaire5_2">
                         <p class="s14">【目黒区】</p>
                         <ul class="s16">
-                            <li><input type="checkbox" name="q5_2[]" value="三田1丁目">三田1丁目</li>
-                            <li><input type="checkbox" name="q5_2[]" value="三田2丁目">三田2丁目</li>
-                            <li><input type="checkbox" name="q5_2[]" value="目黒1丁目">目黒1丁目</li>
-                            <li><input type="checkbox" name="q5_2[]" value="目黒2丁目">目黒2丁目</li>
+                            <li><input type="checkbox" name="q5_2[]" value="三田1丁目" data-error_placement="#q5_2" class="q5" onclick="plus_q5();">三田1丁目</li>
+                            <li><input type="checkbox" name="q5_2[]" value="三田2丁目" data-error_placement="#q5_2" class="q5" onclick="plus_q5();">三田2丁目</li>
+                            <li><input type="checkbox" name="q5_2[]" value="目黒1丁目" data-error_placement="#q5_2" class="q5" onclick="plus_q5();">目黒1丁目</li>
+                            <li><input type="checkbox" name="q5_2[]" value="目黒2丁目" data-error_placement="#q5_2" class="q5" onclick="plus_q5();">目黒2丁目</li>
                         </ul>
+                        <!-- <div class="validation-message" id="q5_2"></div> -->
                         <br>
                     </div>
                     <div class="questionnaire questionnaire5_3">
                         <p class="s14">【港区】</p>
                         <ul class="s16">
-                            <li><input type="checkbox" name="q5_3[]" value="白金台2丁目">白金台2丁目</li>
-                            <li><input type="checkbox" name="q5_3[]" value="白金台3丁目">白金台3丁目</li>
-                            <li><input type="checkbox" name="q5_3[]" value="白金台4丁目">白金台4丁目</li>
-                            <li><input type="checkbox" name="q5_3[]" value="白金台5丁目">白金台5丁目</li><br>
-                            <li><input type="checkbox" name="q5_3[]" value="白金1丁目">白金1丁目</li>
-                            <li><input type="checkbox" name="q5_3[]" value="白金2丁目">白金2丁目</li>
-                            <li><input type="checkbox" name="q5_3[]" value="白金3丁目">白金3丁目</li>
-                            <li><input type="checkbox" name="q5_3[]" value="白金4丁目">白金4丁目</li>
-                            <li><input type="checkbox" name="q5_3[]" value="白金5丁目">白金5丁目</li>
-                            <li><input type="checkbox" name="q5_3[]" value="白金6丁目">白金6丁目</li>
+                            <li><input type="checkbox" name="q5_3[]" value="白金台2丁目" data-error_placement="#q5_3" class="q5" onclick="plus_q5();">白金台2丁目</li>
+                            <li><input type="checkbox" name="q5_3[]" value="白金台3丁目" data-error_placement="#q5_3" class="q5" onclick="plus_q5();">白金台3丁目</li>
+                            <li><input type="checkbox" name="q5_3[]" value="白金台4丁目" data-error_placement="#q5_3" class="q5" onclick="plus_q5();">白金台4丁目</li>
+                            <li><input type="checkbox" name="q5_3[]" value="白金台5丁目" data-error_placement="#q5_3" class="q5" onclick="plus_q5();">白金台5丁目</li><br>
+                            <li><input type="checkbox" name="q5_3[]" value="白金1丁目" data-error_placement="#q5_3" class="q5" onclick="plus_q5();">白金1丁目</li>
+                            <li><input type="checkbox" name="q5_3[]" value="白金2丁目" data-error_placement="#q5_3" class="q5" onclick="plus_q5();">白金2丁目</li>
+                            <li><input type="checkbox" name="q5_3[]" value="白金3丁目" data-error_placement="#q5_3" class="q5" onclick="plus_q5();">白金3丁目</li>
+                            <li><input type="checkbox" name="q5_3[]" value="白金4丁目" data-error_placement="#q5_3" class="q5" onclick="plus_q5();">白金4丁目</li>
+                            <li><input type="checkbox" name="q5_3[]" value="白金5丁目" data-error_placement="#q5_3" class="q5" onclick="plus_q5();">白金5丁目</li>
+                            <li><input type="checkbox" name="q5_3[]" value="白金6丁目" data-error_placement="#q5_3" class="q5" onclick="plus_q5();">白金6丁目</li>
                         </ul>
+                        <!-- <div class="validation-message" id="q5_3"></div> -->
                         <br>
                     </div>
                     <div class="questionnaire questionnaire5_4">
                         <p class="s14">【品川区】</p>
                         <ul class="s16">
-                            <li><input type="checkbox" name="q5_4[]" value="上大崎1丁目">上大崎1丁目</li>
-                            <li><input type="checkbox" name="q5_4[]" value="上大崎2丁目">上大崎2丁目</li>
-                            <li><input type="checkbox" name="q5_4[]" value="その他">その他<input class="ms-2" type="text">
+                            <li><input type="checkbox" name="q5_4[]" value="上大崎1丁目" data-error_placement="#q5_4" class="q5" onclick="plus_q5();">上大崎1丁目</li>
+                            <li><input type="checkbox" name="q5_4[]" value="上大崎2丁目" data-error_placement="#q5_4" class="q5" onclick="plus_q5();">上大崎2丁目</li>
+                            <li><input type="checkbox" name="q5_4[]" value="その他" class="q5_4_check q5" onclick="plus_q5();text_control('q5_4')" data-error_placement="#q5_4">その他<input class="ms-2 q5_4_text" type="text" name="q5_4_text" disabled>
                             </li>
                         </ul>
-                        <br>
+                        
+                        <input type="number" name="q5_num" data-error_placement="#q5" class="q5_num" value=0 style="visibility: hidden;">
+                        <div class="validation-message" id="q5"></div>
+                        
                     </div>
                 </div>
 
                 <div class="gold_line_bottom pb-25px pt-30px">
-                    <div class="questionnaire questionnaire6_1 ft2 s14">
+                    <div class="questionnaire questionnaire6 ft2 s14">
                         <p class="pb-2"><span
                                 class="question-num mr-20px ft2 s14">6</span>仮に上記エリアで新規分譲マンション<br class="pc_hid"><span class="sp_indent">ーーー</span>または分譲リノベーションマンションを検討する場合、<br class="pc_hid"><span class="sp_indent">ーーー</span>どの住戸を検討しますか。
                         </p>
                         <ul class="s16">
                             <li><input type="checkbox" name="q6"
-                                    value="1LDK&emsp;&emsp;58㎡超&emsp;&emsp;12,000万円～" data-error_placement="#q6">1LDK&emsp;&emsp;58㎡超&emsp;&emsp;12,000万円～
+                                    value="1LDK&emsp;&emsp;58㎡超&emsp;&emsp;12,000万円～" data-error_placement="#q6"  onclick="click_cb(1, 'questionnaire6');">1LDK&emsp;&emsp;58㎡超&emsp;&emsp;12,000万円～
                             </li>
                             <li><input type="checkbox" name="q6"
-                                    value="1LDK&emsp;&emsp;64㎡超&emsp;&emsp;14,000万円～" data-error_placement="#q6">1LDK&emsp;&emsp;64㎡超&emsp;&emsp;14,000万円～
+                                    value="1LDK&emsp;&emsp;64㎡超&emsp;&emsp;14,000万円～" data-error_placement="#q6"  onclick="click_cb(1, 'questionnaire6');">1LDK&emsp;&emsp;64㎡超&emsp;&emsp;14,000万円～
                             </li><br>
                             <li><input type="checkbox" name="q6"
-                                    value="2LDK&emsp;&emsp;88㎡超&emsp;&emsp;18,000万円～" data-error_placement="#q6">2LDK&emsp;&emsp;88㎡超&emsp;&emsp;18,000万円～
+                                    value="2LDK&emsp;&emsp;88㎡超&emsp;&emsp;18,000万円～" data-error_placement="#q6"  onclick="click_cb(1, 'questionnaire6');">2LDK&emsp;&emsp;88㎡超&emsp;&emsp;18,000万円～
                             </li><br>
-                            <li><input type="checkbox" name="q6" value="その他" data-error_placement="#q6">その他<input class="ms-2" type="text">
+                            <li><input type="checkbox" name="q6" value="その他 " data-error_placement="#q6" class="q6_check" onclick="click_cb(1, 'questionnaire6'); text_control('q6')">その他<input class="ms-2 q6_text" type="text" name="q6_text" disabled>
                             </li>
                         </ul>
                         <div class="validation-message" id="q6"></div>
-                        <br>
+                        
                     </div>
                 </div>
 
@@ -621,13 +627,13 @@
                     <div class="questionnaire questionnaire7 s14">
                         <p class="pb-2"><span class="question-num mr-20px">7</span>世帯主様の職業は何でしょうか。</p>
                         <ul class="s16">
-                            <li><input type="checkbox" name="q7" value="会社経営者" data-error_placement="#q7">会社経営者</li>
-                            <li><input type="checkbox" name="q7" value="会社役員" data-error_placement="#q7">会社役員</li>
-                            <li><input type="checkbox" name="q7" value="会社員" data-error_placement="#q7">会社員</li>
-                            <li><input type="checkbox" name="q7" value="公務員" data-error_placement="#q7">公務員</li><br>
-                            <li><input type="checkbox" name="q7" value="医師" data-error_placement="#q7">医師</li>
-                            <li><input type="checkbox" name="q7" value="弁護士" data-error_placement="#q7">弁護士</li>
-                            <li><input type="checkbox" name="q7" value="その他" data-error_placement="#q7">その他<input class="ms-2" type="text">
+                            <li><input type="checkbox" name="q7" value="会社経営者" data-error_placement="#q7" onclick="click_cb(1, 'questionnaire7');">会社経営者</li>
+                            <li><input type="checkbox" name="q7" value="会社役員" data-error_placement="#q7" onclick="click_cb(1, 'questionnaire7');">会社役員</li>
+                            <li><input type="checkbox" name="q7" value="会社員" data-error_placement="#q7" onclick="click_cb(1, 'questionnaire7');">会社員</li>
+                            <li><input type="checkbox" name="q7" value="公務員" data-error_placement="#q7" onclick="click_cb(1, 'questionnaire7');">公務員</li><br>
+                            <li><input type="checkbox" name="q7" value="医師" data-error_placement="#q7" onclick="click_cb(1, 'questionnaire7');">医師</li>
+                            <li><input type="checkbox" name="q7" value="弁護士" data-error_placement="#q7" onclick="click_cb(1, 'questionnaire7');">弁護士</li>
+                            <li><input type="checkbox" name="q7" value="その他 " data-error_placement="#q7" class="q7_check" onclick="click_cb(1, 'questionnaire7'); text_control('q7')">その他<input class="ms-2 q7_text" type="text" name="q7_text" disabled>
                             </li>
                         </ul>
                         <div class="validation-message" id="q7"></div>
@@ -638,11 +644,11 @@
                     <div class="questionnaire questionnaire8 ft2 s14">
                         <p class="pb-2"><span class="question-num mr-20px">8</span>世帯主様の通勤手段は何でしょうか。</p>
                         <ul class="s16">
-                            <li><input type="checkbox" name="q8" value="電車" data-error_placement="#q8">電車</li>
-                            <li><input type="checkbox" name="q8" value="車" data-error_placement="#q8">車</li>
-                            <li><input type="checkbox" name="q8" value="バイク" data-error_placement="#q8">バイク</li>
-                            <li><input type="checkbox" name="q8" value="自転車" data-error_placement="#q8">自転車</li>
-                            <li><input type="checkbox" name="q8" value="その他" data-error_placement="#q8">その他<input class="ms-2" type="text">
+                            <li><input type="checkbox" name="q8" value="電車" data-error_placement="#q8" onclick="click_cb(1, 'questionnaire8');">電車</li>
+                            <li><input type="checkbox" name="q8" value="車" data-error_placement="#q8" onclick="click_cb(1, 'questionnaire8');">車</li>
+                            <li><input type="checkbox" name="q8" value="バイク" data-error_placement="#q8" onclick="click_cb(1, 'questionnaire8');">バイク</li>
+                            <li><input type="checkbox" name="q8" value="自転車" data-error_placement="#q8" onclick="click_cb(1, 'questionnaire8');">自転車</li>
+                            <li><input type="checkbox" name="q8" value="その他 " data-error_placement="#q8" class="q8_check" onclick="click_cb(1, 'questionnaire8'); text_control('q8')">その他<input class="ms-2 q8_text" type="text" name="q8_text" disabled>
                             </li>
                         </ul>
                         <div class="validation-message" id="q8"></div>
@@ -698,8 +704,8 @@
                                 class="question-num-2 mr-20px">11</span>目黒区三田1丁目の分譲リノベーションマンションについて<br class="pc_hid"><span class="sp_indent">ーーー</span>ご興味はございますか。
                         </p>
                         <ul class="s14">
-                            <li><input type="checkbox" name="q11" value="ある" data-error_placement="#q11">ある</li><br>
-                            <li><input type="checkbox" name="q11" value="ない" data-error_placement="#q11">ない</li>
+                            <li><input type="checkbox" name="q11" value="ある" data-error_placement="#q11" onclick="click_cb(1, 'questionnaire11');">ある</li><br>
+                            <li><input type="checkbox" name="q11" value="ない" data-error_placement="#q11" onclick="click_cb(1, 'questionnaire11');">ない</li>
                         </ul>
                         <div class="validation-message" id="q11"></div>
                     </div>
@@ -709,9 +715,9 @@
                     <div class="questionnaire questionnaire12 ft2 s14">
                         <p class="pb-2"><span class="question-num-2 mr-20px">12</span>現在の住宅から買い替え予定はありますか。</p>
                         <ul class="s14">
-                            <li><input type="checkbox" name="q12_1" value="ある" data-error_placement="#q12_1">ある<input type="text" name="q12_2"
-                                    class="mx-2 w-25">年以内</li><br>
-                            <li><input type="checkbox" name="q12_1" value="ない" data-error_placement="#q12_1">ない</li>
+                            <li><input type="checkbox" name="q12_1" value="ある" data-error_placement="#q12_1" onclick="click_cb(1, 'questionnaire12'); text_control('q12')" class="q12_check">ある<input type="text" name="q12_2"
+                                    class="mx-2 w-25 q12_text" disabled>年以内</li><br>
+                            <li><input type="checkbox" name="q12_1" value="ない" data-error_placement="#q12_1" onclick="click_cb(1, 'questionnaire12');">ない</li>
                         </ul>
                         <div class="validation-message" id="q12_1"></div>
                     </div>
@@ -730,6 +736,7 @@
 
             <button type="submit" class="mh-parts btn btn-dark mb-35px d-block mx-auto" style="width: 220px;"><span
                     class="p-3 s18 ft2">入力内容の確認</span></button>
+            
 
         </form>
     </div>

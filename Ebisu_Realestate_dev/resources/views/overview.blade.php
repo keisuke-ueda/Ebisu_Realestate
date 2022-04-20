@@ -13,6 +13,7 @@
             <tbody>
                 <tr>
                     <td class="ov_title_td">【全体物件概要】</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>名称</td>
@@ -136,6 +137,7 @@
 
                 <tr>
                     <td class="ov_title_td">【第一期販売概要】</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>販売戸数</td>

@@ -26,14 +26,15 @@
             </div>
         </div>
         <div>
-            <p class="text-center m-0">送信しました。
-            <p class="text-center">アンケートにご協力いただき、誠にありがとうございました。</p>
+            <!-- <p class="text-center m-0">送信しました。
+            <p class="text-center">アンケートにご協力いただき、誠にありがとうございました。</p> -->
+            <p class="text-center">
+            「お住まいについてのアンケート」にご協力いただきまして、<br class="pc_hid">誠にありがとうございました。<br>
+            今後は皆様から頂きましたご意見を参考にして<br>
+            よりお客様のご期待にそえる住宅を追求して参りたいと存じます。<br>
+            </p>
 
             <button class="mh-parts btn mx-auto d-block my-3"><a href="/questionnaire">戻る</a></button>
-
-            <!-- <button class="mh-parts btn mx-auto d-block"><span class="p-3" onclick="history.back()">戻る</span></button> -->
-            <!-- <button class="mh-parts btn btn-dark mx-auto d-block"><span class="p-3">送信する</span></button> -->
-
         </div>
         <div class="border border-dark animation ft2 s12 questionnaire_comment">
             <p class="m-none pt-25px pr-20px pl-20px pb-25px">【アンケートご回答者様からご提供いただいた個人情報の取り扱いについて】<br>

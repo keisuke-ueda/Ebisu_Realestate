@@ -1545,5 +1545,10 @@ td.h-110px {
 }
 
 .entry_complete_msg {
-  margin: 150px 0;
+  margin: calc(50vh - 240px) 0;
+}
+
+
+.validation-message {
+  font-size: 14px;
 }

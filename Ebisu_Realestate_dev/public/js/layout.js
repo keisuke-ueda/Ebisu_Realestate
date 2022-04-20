@@ -302,14 +302,17 @@ $(function () {
       q1: {
         required: [true, "選択", ""],
       },
-      q2_1: {
+      "q2_1[]": {
         required: [true, "選択", ""],
+        minlength: 3,
       },
-      q2_2: {
+      "q2_2[]": {
         required: [true, "選択", ""],
+        minlength: 3,
       },
-      q2_3: {
+      "q2_3[]": {
         required: [true, "選択", ""],
+        minlength: 3,
       },
       q3_1: {
         required: [true, "選択", ""],
@@ -320,17 +323,8 @@ $(function () {
       q4: {
         required: [true, "選択", ""],
       },
-      q5_1: {
-        required: [true, "選択", ""],
-      },
-      q5_2: {
-        required: [true, "選択", ""],
-      },
-      q5_3: {
-        required: [true, "選択", ""],
-      },
-      q5_4: {
-        required: [true, "選択", ""],
+      q5_num: {
+        min: [0, "いずれかを選択", ""]
       },
       q6: {
         required: [true, "選択", ""],
@@ -342,34 +336,42 @@ $(function () {
         required: [true, "選択", ""],
       },
       q9_1: {
-        required: [true, "入力", ""],
+        required: [true, "台数を入力", ""],
+        number: true
       },
       q9_2: {
-        required: [true, "入力", ""],
+        required: [true, "車種を入力", ""],
       },
       q9_1_sp: {
-        required: [true, "入力", ""],
+        required: [true, "台数を入力", ""],
+        number: true
       },
       q9_2_sp: {
-        required: [true, "入力", ""],
+        required: [true, "車種を入力", ""],
       },
       q10_1: {
-        required: [true, "入力", ""],
+        required: [true, "世帯主様を入力", ""],
+        number: true
       },
       q10_2: {
-        required: [true, "入力", ""],
+        required: [true, "配偶者様を入力", ""],
+        number: true
       },
       q10_3: {
-        required: [true, "入力", ""],
+        required: [true, "全体を入力", ""],
+        number: true
       },
       q10_1_sp: {
-        required: [true, "入力", ""],
+        required: [true, "世帯主様を入力", ""],
+        number: true
       },
       q10_2_sp: {
-        required: [true, "入力", ""],
+        required: [true, "配偶者様を入力", ""],
+        number: true
       },
       q10_3_sp: {
-        required: [true, "入力", ""],
+        required: [true, "全体を入力", ""],
+        number: true
       },
       q11: {
         required: [true, "選択", ""],
@@ -391,10 +393,13 @@ $(function () {
   // フォーム入力バリデーションのエラーメッセージフォーマット
   $.extend($.validator.messages, {
     required: "{1}{2}してください。",
+    min: "{1}{2}してください。",
     number: "半角数字で入力してください。",
     email: "正しいメールアドレスを入力してください。",
     equalTo: "違う値が入力されています。",
+    minlength: "3つ選択してください",
   });
+
 });
 
 
@@ -460,3 +465,26 @@ function min_check2() {
   }
 }
 
+// お住まいのアンケート その他にチェックが入った場合のみテキストボックスを活性化
+function text_control(class_name) {
+  var check = "." + class_name + "_check";
+  var text = "." + class_name + "_text";
+  if($(check).prop('checked')) {
+    $(text).prop("disabled", false);
+    console.log("hey")
+  } else {
+    $(text).val("");
+    $(text).prop("disabled", true);
+  }
+  
+}
+
+function plus_q5() {
+  var num = $('.q5:checked').length;
+  $('.q5_num').val(num);
+  if (num > 0) {
+    $('#q5').css('display','none');
+  } else {
+    $('#q5').css('display','block');
+  }
+}

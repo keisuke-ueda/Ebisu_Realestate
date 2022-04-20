@@ -653,7 +653,7 @@ video {
 #questionnaire ul, #questionnaire li, 
 #questionnaire input, #questionnaire label, 
 #questionnaire div, #questionnaire select, 
-#questionnaire a, #questionnaire td {
+#questionnaire a, #questionnaire td, #questionnaire button {
   font-size: 10px;
 }
 #questionnaire input, #questionnaire select {
@@ -728,7 +728,7 @@ video {
 #entry p, #entry span, #entry ul, 
 #entry li, #entry input, #entry label, 
 #entry div, #entry select, #entry a, 
-#entry td {
+#entry td ,#entry button{
   font-size: 10px;
 }
 #entry input, #entry select{
@@ -792,5 +792,10 @@ input {
 } */
 
 .entry_complete_msg {
-  margin: 50px 0;
+  margin: 60px 0;
+}
+
+
+.validation-message {
+  font-size: 10px;
 }
