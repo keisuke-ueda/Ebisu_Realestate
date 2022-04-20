@@ -19,9 +19,9 @@ class QuestionnaireController extends Controller
 
     private $formItems = [
         "sei", "mei", "sei_kana", "mei_kana", "gender",
-        "family_size", "home_post_code", "home_prefectures", "home_manicipalities", "home_chome_address",
+        "family_size", "home_post_code", "home_post_code2", "home_prefectures", "home_manicipalities", "home_chome_address",
         "home_building_name", "years_of_residence", "housing_form", "phone_number", "email",
-        "office_name", "work_post_code", "work_prefectures", "work_manicipalities", "work_chome_address",
+        "office_name", "work_post_code", "work_post_code2", "work_prefectures", "work_manicipalities", "work_chome_address",
         "work_building_name",
 
         "q1", "q2_1", "q2_2", "q2_3", "q3_1",
@@ -98,13 +98,32 @@ class QuestionnaireController extends Controller
         }
 
         //ここでメールを送信するなどを行う
-        $data = [];
+        // $data = [];
 
-        Mail::send('mail', $data, function ($message) {
-            $message->to('himaji.megido@gmail.com', 'Test')->subject('This is a test mail');
+        
+        // 管理者宛
+        Mail::send('questionnaire_site_mail', 
+        compact('input','input_arrayq2_1','input_arrayq2_2','input_arrayq2_3','input_arrayq5_1','input_arrayq5_2','input_arrayq5_3','input_arrayq5_4'), 
+        function ($message) {
+            $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com','keisuke.ueda@field-up.work'];
+            $message->to($to, 'Test')->subject('アンケートの通知');
+        });
+        // クライアント宛
+        Mail::send('questionnaire_client_mail', 
+        compact('input','input_arrayq2_1','input_arrayq2_2','input_arrayq2_3','input_arrayq5_1','input_arrayq5_2','input_arrayq5_3','input_arrayq5_4'), 
+        function ($message) {
+            $input = session()->get("input");
+            $message->to($input['email'], 'Test')->subject('アンケートの送信完了通知');
         });
         //セッションを空にする
         $request->session()->forget("input");
+        $request->session()->forget("input_arrayq2_1");
+        $request->session()->forget("input_arrayq2_2");
+        $request->session()->forget("input_arrayq2_3");
+        $request->session()->forget("input_arrayq5_1");
+        $request->session()->forget("input_arrayq5_2");
+        $request->session()->forget("input_arrayq5_3");
+        $request->session()->forget("input_arrayq5_4");
 
         return redirect()->action([QuestionnaireController::class, 'complete']);
     }

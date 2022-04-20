@@ -84,7 +84,7 @@
                     <label for="name" class="s14">郵便番号<span class="badge badge-danger s11">必須</span></label>
                   </td>
                   <td>
-                    {{ $input["home_post_code"] }}
+                    {{ $input["home_post_code"] }} - {{ $input["home_post_code2"] }}
                   </td>
                 </tr>
                 <tr>

@@ -226,6 +226,10 @@ $(function () {
         required: [true, "郵便番号を", "入力"],
         number: true,
       },
+      home_post_code2: {
+        required: [true, "郵便番号を", "入力"],
+        number: true,
+      },
       home_prefectures: {
         required: [true, "都道府県を", "選択"],
       },
@@ -254,6 +258,10 @@ $(function () {
         required: [true, "勤務先名を", "入力"]
       },
       work_post_code: {
+        required: [true, "郵便番号を", "入力"],
+        number: true,
+      },
+      work_post_code2: {
         required: [true, "郵便番号を", "入力"],
         number: true,
       },
@@ -288,7 +296,89 @@ $(function () {
         required: [true, "ご希望条件(価格帯)を", "選択"],
       },
       agree: {
-        required: [true, "チェックを", "して"],
+        required: [true, "チェックを", ""],
+      },
+
+      q1: {
+        required: [true, "選択", ""],
+      },
+      q2_1: {
+        required: [true, "選択", ""],
+      },
+      q2_2: {
+        required: [true, "選択", ""],
+      },
+      q2_3: {
+        required: [true, "選択", ""],
+      },
+      q3_1: {
+        required: [true, "選択", ""],
+      },
+      q3_2: {
+        required: [true, "選択", ""],
+      },
+      q4: {
+        required: [true, "選択", ""],
+      },
+      q5_1: {
+        required: [true, "選択", ""],
+      },
+      q5_2: {
+        required: [true, "選択", ""],
+      },
+      q5_3: {
+        required: [true, "選択", ""],
+      },
+      q5_4: {
+        required: [true, "選択", ""],
+      },
+      q6: {
+        required: [true, "選択", ""],
+      },
+      q7: {
+        required: [true, "選択", ""],
+      },
+      q8: {
+        required: [true, "選択", ""],
+      },
+      q9_1: {
+        required: [true, "入力", ""],
+      },
+      q9_2: {
+        required: [true, "入力", ""],
+      },
+      q9_1_sp: {
+        required: [true, "入力", ""],
+      },
+      q9_2_sp: {
+        required: [true, "入力", ""],
+      },
+      q10_1: {
+        required: [true, "入力", ""],
+      },
+      q10_2: {
+        required: [true, "入力", ""],
+      },
+      q10_3: {
+        required: [true, "入力", ""],
+      },
+      q10_1_sp: {
+        required: [true, "入力", ""],
+      },
+      q10_2_sp: {
+        required: [true, "入力", ""],
+      },
+      q10_3_sp: {
+        required: [true, "入力", ""],
+      },
+      q11: {
+        required: [true, "選択", ""],
+      },
+      q12_1: {
+        required: [true, "選択", ""],
+      },
+      q13: {
+        required: [true, "入力", ""],
       },
     },
     //エラーメッセージ表示位置指定

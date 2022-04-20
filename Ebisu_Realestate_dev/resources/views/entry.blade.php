@@ -87,7 +87,7 @@
                     <label for="name" class="s14">郵便番号<span class="badge badge-danger s11">必須</span></label>
                   </td>
                   <td>
-                    <input class="w-60px" type="text" style="" name="home_post_code" data-error_placement="#home_post_code"> - <input class="w-100px" type="text" style="">
+                    <input class="w-60px" type="text" style="" name="home_post_code" data-error_placement="#home_post_code"> - <input class="w-100px" type="text" style="" name="home_post_code2">
                     <div class="validation-message" id="home_post_code"></div>
                     <p style="margin: 0;" class="s12">※半角数字で入力してください</p>
                   </td>

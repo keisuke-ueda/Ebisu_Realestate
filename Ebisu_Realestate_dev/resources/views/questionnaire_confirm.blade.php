@@ -91,7 +91,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td>
-                                            {{ $input["home_post_code"] }}
+                                            {{ $input["home_post_code"] }} - {{ $input["home_post_code2"] }}
                                         </td>
                                     </tr>
                                     <tr>
@@ -126,7 +126,9 @@
                                             <label for="name" class="s14">建物名</label>
                                         </td>
                                         <td class="py-1">
+                                            @if (isset($input["home_building_name"]))
                                             {{ $input["home_building_name"] }}
+                                            @endif
                                         </td>
                                     </tr>
                                 </table>
@@ -221,7 +223,7 @@
                                                     class="badge badge-danger">必須</span></label>
                                         </td>
                                         <td>
-                                            {{ $input["work_post_code"] }}
+                                            {{ $input["work_post_code"] }} - {{ $input["work_post_code2"] }}
                                         </td>
                                     </tr>
                                     <tr>
@@ -256,7 +258,9 @@
                                             <label for="name" class="s14">建物名</label>
                                         </td>
                                         <td class="py-1">
+                                            @if (isset($input["work_building_name"]))
                                             {{ $input["work_building_name"] }}
+                                            @endif
                                         </td>
                                     </tr>
                                 </table>
@@ -311,7 +315,7 @@
                     <div class="questionnaire questionnaire2_3">
                         <p class="s14">【建物】</p>
                         <p class="ms-3">
-                            @if (isset($input_arrayq2_1))
+                            @if (isset($input_arrayq2_3))
                             {{ implode($input_arrayq2_3) }}
                             @endif
                         </p>
@@ -412,7 +416,11 @@
                 <div class="gold_line_bottom pb-25px pt-30px">
                     <div class="questionnaire questionnaire7 s14">
                         <p class="pb-2"><span class="question-num mr-20px">7</span>世帯主様の職業は何でしょうか。</p>
-                        <p class="ms-3">4LDK</p>
+                        <p class="ms-3">
+                            @if(isset($input["q7"]))
+                            {{ $input["q7"] }}
+                            @endif
+                        </p>
                     </div>
                 </div>
 
@@ -420,8 +428,8 @@
                     <div class="questionnaire questionnaire8 ft2 s14">
                         <p class="pb-2"><span class="question-num mr-20px">8</span>世帯主様の通勤手段は何でしょうか。</p>
                         <p class="ms-3">
-                            @if(isset($input["q7"]))
-                            {{ $input["q7"] }}
+                            @if(isset($input["q8"]))
+                            {{ $input["q8"] }}
                             @endif
                         </p>
                     </div>
@@ -435,7 +443,7 @@
                                 name="q9_2"></p> -->
                         <p class="ms-3">
                             ［台 数］{{ $input["q9_1"] }} 台
-                            　［車 種］{{ $input["q9_2"] }}
+                            ［車 種］{{ $input["q9_2"] }}
                         </p>
                     </div>
                     <!-- SP -->
