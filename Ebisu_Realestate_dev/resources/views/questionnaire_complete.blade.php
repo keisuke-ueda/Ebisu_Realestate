@@ -2,7 +2,7 @@
 
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
 <meta name="format-detection" content="telephone=no">
-<title>新たな価値を創造したプレミアムリノベーションマンション｜株式会社ラ・アトレ</title>
+<!-- <title>新たな価値を創造したプレミアムリノベーションマンション｜株式会社ラ・アトレ</title> -->
 
 @section('content')
 

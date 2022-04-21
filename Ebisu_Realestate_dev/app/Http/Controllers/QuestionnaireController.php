@@ -107,10 +107,19 @@ class QuestionnaireController extends Controller
         Mail::send('questionnaire_site_mail', 
         compact('date', 'no', 'input','input_arrayq2_1','input_arrayq2_2','input_arrayq2_3','input_arrayq5_1','input_arrayq5_2','input_arrayq5_3','input_arrayq5_4'), 
         function ($message) {
-            // $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com'];
-            $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
+
+            // テスト用アドレス
+            // $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
+            // $to = "ynakano7621@gmail.com";
+            // $bcc = "nanokana44@gmail.com";
+            
+            // 本番アドレス
+            $to = "la-ebisu.gg@lattrait.co.jp";
+            $bcc = "digital@advns.co.jp";
+
             $no = session()->get("no");
-            $message->to($to)->subject("[受付番号{$no}]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」お住まいについてのアンケートフォームから");
+            
+            $message->to($to)->bcc($bcc)->subject("[受付番号{$no}]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」お住まいについてのアンケートフォームから");
         });
         // クライアント宛
         Mail::send('questionnaire_client_mail', 
