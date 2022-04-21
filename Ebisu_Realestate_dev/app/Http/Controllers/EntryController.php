@@ -51,6 +51,8 @@ class EntryController extends Controller
         $input_array_ldk = $request->session()->get("input_array_ldk");
         $email = $input['email'];
         $date = Carbon::now(); 
+        $no = $date->format('YmdHis');
+        $request->session()->put("no", $no);
 
         //セッションに値が無い時はフォームに戻る
         if (!$input) {
@@ -58,19 +60,22 @@ class EntryController extends Controller
         }
 
         // 管理者宛
-        Mail::send('entry_site_mail', compact('date','input','input_array_ldk'), function ($message) {
-            $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
-            // $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com'];
-            $message->to($to)->subject('[受付番号XXXX]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」物件エントリーフォームから');
+        Mail::send('entry_site_mail', compact('date','no','input','input_array_ldk'), function ($message) {
+            // $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
+            $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com'];
+            $no = session()->get("no");
+            $message->to($to)->subject("[受付番号{$no}]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」物件エントリーフォームから");
         });
         // クライアント宛
-        Mail::send('entry_client_mail', compact('input','input_array_ldk'), function ($message) {
+        Mail::send('entry_client_mail', compact('input','no','input_array_ldk'), function ($message) {
             $input = session()->get("input");
-            $message->to($input['email'])->subject('[受付番号XXXX]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」物件エントリーフォームから');
+            $no = session()->get("no");
+            $message->to($input['email'])->subject("[受付番号{$no}]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」物件エントリーフォームから");
         });
         //セッションを空にする
         $request->session()->forget("input");
         $request->session()->forget("input_array_ldk");
+        $request->session()->forget("no");
 
         return redirect()->action([EntryController::class, 'complete']);
     }

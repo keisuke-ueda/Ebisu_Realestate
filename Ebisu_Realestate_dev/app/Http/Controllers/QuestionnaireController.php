@@ -95,6 +95,8 @@ class QuestionnaireController extends Controller
         $input_arrayq5_4 = $request->session()->get("input_arrayq5_4");
 
         $date = Carbon::now(); 
+        $no = $date->format('YmdHis');
+        $request->session()->put("no", $no);
 
         //セッションに値が無い時はフォームに戻る
         if (!$input) {
@@ -103,18 +105,20 @@ class QuestionnaireController extends Controller
         
         // 管理者宛
         Mail::send('questionnaire_site_mail', 
-        compact('date','input','input_arrayq2_1','input_arrayq2_2','input_arrayq2_3','input_arrayq5_1','input_arrayq5_2','input_arrayq5_3','input_arrayq5_4'), 
+        compact('date', 'no', 'input','input_arrayq2_1','input_arrayq2_2','input_arrayq2_3','input_arrayq5_1','input_arrayq5_2','input_arrayq5_3','input_arrayq5_4'), 
         function ($message) {
-            // $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com'];
-            $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
-            $message->to($to)->subject('[受付番号XXXX]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」お住まいについてのアンケートフォームから');
+            $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com'];
+            // $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
+            $no = session()->get("no");
+            $message->to($to)->subject("[受付番号{$no}]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」お住まいについてのアンケートフォームから");
         });
         // クライアント宛
         Mail::send('questionnaire_client_mail', 
-        compact('input','input_arrayq2_1','input_arrayq2_2','input_arrayq2_3','input_arrayq5_1','input_arrayq5_2','input_arrayq5_3','input_arrayq5_4'), 
+        compact('input', 'no', 'input_arrayq2_1','input_arrayq2_2','input_arrayq2_3','input_arrayq5_1','input_arrayq5_2','input_arrayq5_3','input_arrayq5_4'), 
         function ($message) {
             $input = session()->get("input");
-            $message->to($input['email'])->subject('[受付番号XXXX]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」お住まいについてのアンケートフォームから');
+            $no = session()->get("no");
+            $message->to($input['email'])->subject("[受付番号{$no}]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」お住まいについてのアンケートフォームから");
         });
         //セッションを空にする
         $request->session()->forget("input");
@@ -125,6 +129,7 @@ class QuestionnaireController extends Controller
         $request->session()->forget("input_arrayq5_2");
         $request->session()->forget("input_arrayq5_3");
         $request->session()->forget("input_arrayq5_4");
+        $request->session()->forget("no");
 
         return redirect()->action([QuestionnaireController::class, 'complete']);
     }

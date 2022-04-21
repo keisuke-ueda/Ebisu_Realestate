@@ -4,7 +4,7 @@
 <br>
 ────────────────────────────────────────────
 <br>
-受付番号：XXXXX<br>
+受付番号：{{ $no }}<br>
 お名前：{{ $input["sei"] }} {{ $input["mei"] }}<br>
 フリガナ：{{ $input["sei_kana"] }} {{ $input["mei_kana"] }}<br>
 性別：

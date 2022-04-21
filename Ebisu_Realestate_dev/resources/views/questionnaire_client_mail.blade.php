@@ -17,7 +17,8 @@
 <br>
 ─ご送信内容の確認────────────────────────────────
 <br>
-受付番号：XXXXX<br>
+受付番号：{{ $no }}<br>
+<br>
 お名前：{{ $input["sei"] }} {{ $input["mei"] }}<br>
 フリガナ：{{ $input["sei_kana"] }} {{ $input["mei_kana"] }}<br>
 性別：
