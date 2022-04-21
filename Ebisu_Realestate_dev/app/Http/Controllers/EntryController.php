@@ -61,8 +61,8 @@ class EntryController extends Controller
 
         // 管理者宛
         Mail::send('entry_site_mail', compact('date','no','input','input_array_ldk'), function ($message) {
-            // $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
-            $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com'];
+            $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
+            // $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com'];
             $no = session()->get("no");
             $message->to($to)->subject("[受付番号{$no}]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」物件エントリーフォームから");
         });
