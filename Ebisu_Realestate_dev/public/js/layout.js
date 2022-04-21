@@ -379,8 +379,12 @@ $(function () {
       q12_1: {
         required: [true, "選択", ""],
       },
+      q12_2: {
+        number: true
+      },
       q13: {
         required: [true, "入力", ""],
+        number: true
       },
     },
     //エラーメッセージ表示位置指定

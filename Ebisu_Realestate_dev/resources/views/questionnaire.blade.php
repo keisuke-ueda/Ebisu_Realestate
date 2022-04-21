@@ -716,10 +716,11 @@
                         <p class="pb-2"><span class="question-num-2 mr-20px">12</span>現在の住宅から買い替え予定はありますか。</p>
                         <ul class="s14">
                             <li><input type="checkbox" name="q12_1" value="ある" data-error_placement="#q12_1" onclick="click_cb(1, 'questionnaire12'); text_control('q12')" class="q12_check">ある<input type="text" name="q12_2"
-                                    class="mx-2 w-25 q12_text" disabled>年以内</li><br>
+                                    class="mx-2 w-25 q12_text" disabled data-error_placement="#q12_2">年以内</li><br>
                             <li><input type="checkbox" name="q12_1" value="ない" data-error_placement="#q12_1" onclick="click_cb(1, 'questionnaire12');">ない</li>
                         </ul>
                         <div class="validation-message" id="q12_1"></div>
+                        <div class="validation-message" id="q12_2"></div>
                     </div>
                 </div>
                 <div class="gold_line_bottom pt-30px">
