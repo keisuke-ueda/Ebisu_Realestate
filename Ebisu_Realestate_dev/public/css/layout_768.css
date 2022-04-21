@@ -791,8 +791,12 @@ input {
   padding-left: 10px;
 } */
 
+.questionnaire_complete {
+  padding-bottom: 0px;
+}
+
 .entry_complete_msg {
-  margin: 60px 0;
+  margin: 40px 0 80px;
 }
 
 

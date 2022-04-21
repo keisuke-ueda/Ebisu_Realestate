@@ -12,7 +12,6 @@
         物件エントリーフォームより<br class="pc_hid">お問い合せ頂き誠にありがとうございました。<br>
         ご入力されたメールアドレス宛に<br class="pc_hid">改めて担当者よりご連絡をさせていただきます。
       </p>
-
       <button class="mh-parts btn mx-auto d-block my-3"><a href="/entry">戻る</a></button>
   </div>
 </div>
