@@ -12,11 +12,9 @@
 <br>
 <br>
 アンケートのご協力に感謝いたしまして、心ばかりのお礼の品を<br>
-後日お送りさせていただきますので、ご笑納ください。
+後日お送りさせていただきますので、ご笑納ください。<br>
 <br>
 <br>
-<br>
-
 ─ご送信内容の確認────────────────────────────────
 <br>
 受付番号：XXXXX<br>
@@ -43,16 +41,11 @@ $seibetsu = "女性";
 @endif
 現在お住まいの年数：{{ $input["years_of_residence"] }} 年<br>
 現在お住まいの住居形態：
-@php
-if ($input["housing_form"] == "1") {
-$housing_form = "分譲マンション";
-} else if ($input["housing_form"] == "2") {
-$housing_form = "賃貸マンション";
-} else {
-$housing_form = "その他";
-}
-@endphp
-{{ $housing_form }}<br>
+{{ $input["housing_form"] }}
+@if (isset($input["housing_form_text"]))
+({{ $input["housing_form_text"] }})
+@endif
+<br>
 電話番号：{{ $input["phone_number"] }}<br>
 メールアドレス：{{ $input["email"] }}<br>
 勤務先名：{{ $input["office_name"] }}<br>
@@ -185,11 +178,9 @@ $housing_form = "その他";
 <br>
 <br>
 このメールに心当たりの無い場合は、お手数ですが<br>
-下記連絡先までお問い合わせください。
+下記連絡先までお問い合わせください。<br>
 <br>
-<br>
-<br>
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 株式会社ラ・アトレ<br> 
 「ラ・アトレ恵比寿グランガーデン」プロジェクト準備室<br>
 [電話] 0120-978-690<br>

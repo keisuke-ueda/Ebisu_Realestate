@@ -21,7 +21,7 @@ class QuestionnaireController extends Controller
     private $formItems = [
         "sei", "mei", "sei_kana", "mei_kana", "gender",
         "family_size", "home_post_code", "home_post_code2", "home_prefectures", "home_manicipalities", "home_chome_address",
-        "home_building_name", "years_of_residence", "housing_form", "phone_number", "email",
+        "home_building_name", "years_of_residence", "housing_form", "housing_form_text", "phone_number", "email",
         "office_name", "work_post_code", "work_post_code2", "work_prefectures", "work_manicipalities", "work_chome_address",
         "work_building_name",
 
@@ -100,16 +100,13 @@ class QuestionnaireController extends Controller
         if (!$input) {
             return redirect()->action([QuestionnaireController::class, 'show']);
         }
-
-        //ここでメールを送信するなどを行う
-        // $data = [];
-
         
         // 管理者宛
         Mail::send('questionnaire_site_mail', 
-        compact('input','input_arrayq2_1','input_arrayq2_2','input_arrayq2_3','input_arrayq5_1','input_arrayq5_2','input_arrayq5_3','input_arrayq5_4'), 
+        compact('date','input','input_arrayq2_1','input_arrayq2_2','input_arrayq2_3','input_arrayq5_1','input_arrayq5_2','input_arrayq5_3','input_arrayq5_4'), 
         function ($message) {
-            $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
+            $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com'];
+            // $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
             $message->to($to)->subject('[受付番号XXXX]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」お住まいについてのアンケートフォームから');
         });
         // クライアント宛

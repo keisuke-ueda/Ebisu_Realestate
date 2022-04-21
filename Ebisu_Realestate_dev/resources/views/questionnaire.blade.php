@@ -194,20 +194,20 @@
                                 </label>
                             </td>
                             <td>
-                                <div class="s16"><input type="radio" name="housing_form" value="1"
+                                <div class="s16"><input type="radio" name="housing_form" value="分譲マンション"
                                         data-error_placement="#housing_form">分譲マンション
                                 </div>
-                                <div class="s16"><input type="radio" name="housing_form" value="2"
+                                <div class="s16"><input type="radio" name="housing_form" value="一戸建持家"
                                         data-error_placement="#housing_form">一戸建持家
                                 </div>
-                                <div class="s16"><input type="radio" name="housing_form" value="3"
+                                <div class="s16"><input type="radio" name="housing_form" value="賃貸マンション"
                                         data-error_placement="#housing_form">賃貸マンション
                                 </div>
-                                <div class="s16"><input type="radio" name="housing_form" value="4"
+                                <div class="s16"><input type="radio" name="housing_form" value="社宅・官舎"
                                         data-error_placement="#housing_form">社宅・官舎
                                 </div>
-                                <div class="s16"><input type="radio" name="housing_form" value="5"
-                                        data-error_placement="#housing_form">その他<input class="ms-2" type="text"></div>
+                                <div class="s16"><input type="radio" name="housing_form" value="その他"
+                                        data-error_placement="#housing_form">その他<input class="ms-2" type="text" name="housing_form_text"></div>
                                 <div class="validation_message" id="housing_form"></div>
                             </td>
                         </tr>

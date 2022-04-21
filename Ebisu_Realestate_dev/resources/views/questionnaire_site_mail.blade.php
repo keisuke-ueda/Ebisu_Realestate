@@ -28,16 +28,11 @@ $seibetsu = "女性";
 @endif
 現在お住まいの年数：{{ $input["years_of_residence"] }} 年<br>
 現在お住まいの住居形態：
-@php
-if ($input["housing_form"] == "1") {
-$housing_form = "分譲マンション";
-} else if ($input["housing_form"] == "2") {
-$housing_form = "賃貸マンション";
-} else {
-$housing_form = "その他";
-}
-@endphp
-{{ $housing_form }}<br>
+{{ $input["housing_form"] }}
+@if (isset($input["housing_form_text"]))
+({{ $input["housing_form_text"] }})
+@endif
+<br>
 電話番号：{{ $input["phone_number"] }}<br>
 メールアドレス：{{ $input["email"] }}<br>
 勤務先名：{{ $input["office_name"] }}<br>
@@ -166,5 +161,6 @@ $housing_form = "その他";
 {{ $input["q13"] }} 万円
 <br>
 <br>
+[ 個人情報保護方針 ] 確認済み<br>
 ────────────────────────────────────────────
 </p>

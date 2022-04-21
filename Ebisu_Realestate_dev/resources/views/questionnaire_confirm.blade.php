@@ -166,16 +166,10 @@
                                 </label>
                             </td>
                             <td>
-                                @php
-                                if ($input["housing_form"] == "1") {
-                                $housing_form = "分譲マンション";
-                                } else if ($input["housing_form"] == "2") {
-                                $housing_form = "賃貸マンション";
-                                } else {
-                                $housing_form = "その他";
-                                }
-                                @endphp
-                                {{ $housing_form }}
+                                {{ $input["housing_form"] }}
+                                @if (isset($input["housing_form_text"]))
+                                ({{ $input["housing_form_text"] }})
+                                @endif
                             </td>
                             </td>
                         </tr>

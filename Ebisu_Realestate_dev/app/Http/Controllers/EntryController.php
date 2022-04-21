@@ -57,13 +57,9 @@ class EntryController extends Controller
             return redirect()->action([EntryController::class, 'show']);
         }
 
-        //ここでメールを送信するなどを行う
-        // $data = [$input, $input_array_ldk];
-        // $data = [];
-
         // 管理者宛
         Mail::send('entry_site_mail', compact('date','input','input_array_ldk'), function ($message) {
-            // $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
+            // $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
             $to = ['ynakano7621@gmail.com', 'nanokana44@gmail.com'];
             $message->to($to)->subject('[受付番号XXXX]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」物件エントリーフォームから');
         });
