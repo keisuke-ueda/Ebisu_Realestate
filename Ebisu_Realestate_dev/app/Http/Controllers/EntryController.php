@@ -74,6 +74,7 @@ class EntryController extends Controller
             $no = session()->get("no");
 
             $message->to($to)->bcc($bcc)->subject("[受付番号{$no}]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」物件エントリーフォームから");
+            // $message->to($to)->subject("[受付番号{$no}]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」物件エントリーフォームから");
         });
         // クライアント宛
         Mail::send('entry_client_mail', compact('input','no','input_array_ldk'), function ($message) {
