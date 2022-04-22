@@ -264,70 +264,72 @@
     <p class="s10 text-center" style="margin-bottom:20px;">｢ラ･アトレ恵比寿グランガーデン｣は､<br>
         JR山手線･埼京線･湘南新宿ライン｢恵比寿｣駅徒歩11分の3路線､<br>
         東京メトロ日比谷線｢恵比寿｣駅徒歩13分の1路線､<br>
-        JR山手線･都営三田線･東京メトロ南北線･東急目黒線｢目黒｣駅徒歩13分の<br>
-        4路線が利用でき､都心の主要エリアへダイレクトアクセスが可能です｡
+        JR山手線･都営三田線･東京メトロ南北線･<br>
+        東急目黒線｢目黒｣駅徒歩13分の4路線が利用でき､
+        <br>都心の主要エリアへダイレクトアクセスが可能です｡
     </p>
 
     <p class="border-bottom ft2 s12" style="padding-bottom:10px; margin-bottom:10px;">■ＪＲ山手線･埼京線･湘南新宿ライン｢恵比寿｣駅より</p>
     <table class="ft2 s10">
         <tr>
-            <td><span class="s12">｢渋谷｣</span>駅へ直通……<span class="s12">2</span>分 (1分)&nbsp;</td>
-            <td><span class="s12 ms-1">｢新宿｣</span>駅へ直通………&nbsp;&nbsp;&nbsp;<span class="s12">7</span>分 (6分)</td>
+            <td><span class="s12">｢渋谷｣</span>駅へ直通……<span class="s12">2</span>分(1分)&nbsp;</td>
+            <td><span class="s12 ms-4">｢新宿｣</span>駅へ直通 ………… <span class="s12">7</span>分(6分)</td>
         </tr>
         <tr>
             <td class="s9">&nbsp;&nbsp;&nbsp;ＪＲ湘南新宿ライン利用</td>
-            <td class="s9">&nbsp;&nbsp;&nbsp;ＪＲ湘南新宿ライン利用</td>
+            <td class="s9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ＪＲ湘南新宿ライン利用</td>
         </tr>
         <tr>
-            <td><span class="s12">｢品川｣</span>駅へ直通……<span class="s12">9</span>分 (9分)&nbsp;</td>
-            <td><span class="s12 ms-1">｢池袋｣</span>駅へ直通………<span class="s12">12</span>分 (11分)</td>
+            <td><span class="s12">｢品川｣</span>駅へ直通……<span class="s12">9</span>分(9分)&nbsp;</td>
+            <td><span class="s12 ms-4">｢池袋｣</span>駅へ直通 …………<span class="s12">12</span>分(11分)</td>
         </tr>
         <tr>
             <td class="s9">&nbsp;&nbsp;&nbsp;ＪＲ山手線利用</td>
-            <td class="s9">&nbsp;&nbsp;&nbsp;ＪＲ湘南新宿ライン利用</td>
+            <td class="s9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ＪＲ湘南新宿ライン利用</td>
         </tr>
     </table>
             
     <p class="border-bottom ft2 s12" style="padding-bottom:10px; margin-bottom:10px; margin-top:25px;">■東京メトロ日比谷線｢恵比寿｣駅より</p>
     <table class="ft2 s10">
         <tr>
-            <td><span class="s12">｢六本木｣</span>駅へ直通…<span class="s12">5</span>分 (6分)</td>
-            <td><span class="s12 ms-1">｢霞ヶ関｣</span>駅へ直通……<span class="s12">11</span>分 (12分)</td>
+            <td><span class="s12">｢六本木｣</span>駅へ直通…<span class="s12">5</span>分(6分)</td>
+            <td><span class="s12 ms-4">｢霞ヶ関｣</span>駅へ直通 …… <span class="s12">11</span>分(12分)</td>
+        </tr> 
+        <tr>
+            <td class="s9">東京メトロ日比谷線利用</td>
+            <td class="s9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;東京メトロ日比谷線利用</td>
         </tr>
         <tr>
-            <td class="s9">&nbsp;&nbsp;&nbsp;東京メトロ日比谷線利用</td>
-            <td class="s9">&nbsp;&nbsp;&nbsp;東京メトロ日比谷線利用</td>
+            <td><span class="s12">｢銀座｣</span>駅へ直通…&nbsp;&nbsp;<span class="s12">15</span>分(15分)</td>
+            <td><span class="s12 ms-4">｢東京｣</span>駅へ直通 ………&nbsp;&nbsp;<span class="s12">16</span>分(16分)</td>
         </tr>
         <tr>
-            <td><span class="s12">｢銀座｣</span>駅へ直通…&nbsp;&nbsp;<span class="s12">15</span>分 (15分)</td>
-            <td><span class="s12 ms-1">｢東京｣</span>駅へ直通………<span class="s12"> 16</span>分 (16分)</td>
-        </tr>
-        <tr>
-            <td class="s9">&nbsp;&nbsp;&nbsp;東京メトロ日比谷線利用</td>
-            <td class="s9">&nbsp;&nbsp;&nbsp;東京メトロ日比谷線利用､<br>｢霞ヶ関｣駅で東京メトロ丸ノ内線乗り換え</td>
+            <td class="s9">&nbsp;&nbsp;東京メトロ日比谷線利用</td>
+            <td class="s9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;東京メトロ日比谷線利用､｢霞ヶ関｣<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;駅で東京メトロ丸ノ内線乗り換え</td>
         </tr>
     </table>
 
     <p class="border-bottom ft2 s12" style="padding-bottom:10px; margin-bottom:10px; margin-top:25px;">■東京メトロ南北線･都営三田線｢目黒｣駅より</p>
     <table class="ft2 s10">
         <tr>
-            <td><span class="s12">｢三田｣</span>駅へ直通……&nbsp;&nbsp;&nbsp;<span class="s12">7</span>分 (7分)</td>
-            <td><span class="s12 ms-1">｢六本木一丁目｣</span>駅へ直通…<span class="s12">9</span>分 (9分)</td>
+            <td><span class="s12">｢三田｣</span>駅へ直通……&nbsp;&nbsp;&nbsp;<span class="s12">7</span>分(7分)</td>
+            <td><span class="s12 ms-1">｢六本木一丁目｣</span>駅へ直通…<span class="s12">9</span>分(9分)</td>
         </tr>
         <tr>
             <td class="s9">&nbsp;&nbsp;&nbsp;都営三田線利用</td>
             <td class="s9">&nbsp;&nbsp;&nbsp;東京メトロ南北線利用</td>
         </tr>
         <tr>
-            <td><span class="s12">｢永田町｣</span>駅へ直通…<span class="s12">12</span>分 (12分)</td>
-            <td><span class="s12 ms-1">｢大手町｣</span>駅へ直通…&nbsp;<span class="s12">15</span>分 (15分)</td>
+            <td><span class="s12">｢永田町｣</span>駅へ直通…<span class="s12">12</span>分(12分)</td>
+            <td><span class="s12 ms-1">｢大手町｣</span>駅へ直通…………<span class="s12">15</span>分(15分)</td>
         </tr>
         <tr>
             <td class="s9">&nbsp;&nbsp;&nbsp;東京メトロ南北線利用</td>
             <td class="s9">&nbsp;&nbsp;&nbsp;都営三田線利用</td>
         </tr>
         <tr>
-            <td><span class="s12">｢飯田橋｣</span>駅へ直通…<span class="s12">18</span>分 (18分)</td>
+            <td><span class="s12">｢飯田橋｣</span>駅へ直通…<span class="s12">18</span>分(18分)</td>
         </tr>
         <tr>
             <td class="s9">&nbsp;&nbsp;&nbsp;東京メトロ南北線利用</td>
@@ -335,16 +337,20 @@
     </table>
 
     <img class="w-100" src="{{ asset('/images/rosenzu-0411.svg') }}" style="margin:20px 0;">
-    <p class="s9 m-0 ft2" style="">※各駅への所要時間はJR線｢恵比寿｣駅発､東京メトロ日比谷線｢恵比寿｣駅発､<br>
-        &emsp;また東京メトロ南北線･都営三田線｢目黒｣駅発の所要時間は日中平常時､<br>
-        &emsp;平日の13時台及び(  )内は通勤時8時台の最短所要時間を表記しています｡<br>
+    <p class="s9 m-0 ft2" style="">※各駅への所要時間はJR線｢恵比寿｣駅発､東京メトロ日比谷線<br>
+        &emsp;｢恵比寿｣駅発､また東京メトロ南北線･都営三田線｢目黒｣駅発の<br>
+        &emsp;所要時間は日中平常時､平日の13時台及び(  )内は通勤時8時台の<br>
+        &emsp;最短所要時間を表記しています｡<br>
         ※所要時間には､乗り換え･待ち時間は含まれません｡<br>
         &emsp;(JR線･東京メトロ線･都営地下鉄線時刻表調べ)<br>
         ※2駅7路線とは､JR山手線･埼京線･湘南新宿ライン｢恵比寿｣駅､<br>
         &emsp;東京メトロ日比谷線｢｣恵比寿駅､JR山手線｢目黒｣駅､<br>
-        &emsp;都営地下鉄三田線･東京メトロ南北線･東急目黒線｢目黒｣駅のことです｡<br>
-        ※現地からの徒歩分数は､80mを1分として算出し､端数は切り上げております｡<br>
-        ※掲載の情報は､令和4年3月現在によるもので変更になる場合があります｡
+        &emsp;都営地下鉄三田線･東京メトロ南北線･<br>
+        &emsp;東急目黒線｢目黒｣駅のことです｡
+        ※現地からの徒歩分数は､<br>
+        &emsp;80mを1分として算出し､端数は切り上げております｡<br>
+        ※掲載の情報は､令和4年3月現在によるもので<br>
+        &emsp;変更になる場合があります｡
     </p>
 
     <p class="gold-2 animation s14 text-center" style="margin-top:30px;">都心の様々な要所へ､<br>タクシーでの移動にも優れたロケーションです｡</p>

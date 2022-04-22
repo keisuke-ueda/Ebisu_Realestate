@@ -226,8 +226,12 @@ $(function () {
         required: [true, "郵便番号を", "入力"],
         number: true,
       },
+      home_post_code2: {
+        required: [true, "郵便番号を", "入力"],
+        number: true,
+      },
       home_prefectures: {
-        required: [true, "都道府県を", "入力"],
+        required: [true, "都道府県を", "選択"],
       },
       home_municipalities: {
         required: [true, "市区町村を", "入力"],
@@ -257,6 +261,10 @@ $(function () {
         required: [true, "郵便番号を", "入力"],
         number: true,
       },
+      work_post_code2: {
+        required: [true, "郵便番号を", "入力"],
+        number: true,
+      },
       work_prefectures: {
       },
       work_municipalities: {
@@ -268,7 +276,116 @@ $(function () {
       confirm_email: {
         required: [true, "メールアドレスを", "入力"],
         equalTo: "[name=email]"
-      }
+      },
+      birth_y: {
+        required: [true, "生年月日(年)を", "入力"],
+      },
+      birth_m: {
+        required: [true, "生年月日(月)を", "入力"],
+      },
+      birth_d: {
+        required: [true, "生年月日(日)を", "入力"],
+      },
+      job: {
+        required: [true, "ご職業を", "選択"],
+      },
+      media: {
+        required: [true, "いずれかに", "チェック"],
+      },
+      price: {
+        required: [true, "ご希望条件(価格帯)を", "選択"],
+      },
+      agree: {
+        required: [true, "チェックを", ""],
+      },
+
+      q1: {
+        required: [true, "選択", ""],
+      },
+      "q2_1[]": {
+        required: [true, "選択", ""],
+        minlength: 3,
+      },
+      "q2_2[]": {
+        required: [true, "選択", ""],
+        minlength: 3,
+      },
+      "q2_3[]": {
+        required: [true, "選択", ""],
+        minlength: 3,
+      },
+      q3_1: {
+        required: [true, "選択", ""],
+      },
+      q3_2: {
+        required: [true, "選択", ""],
+      },
+      q4: {
+        required: [true, "選択", ""],
+      },
+      q5_num: {
+        min: [0, "いずれかを選択", ""]
+      },
+      q6: {
+        required: [true, "選択", ""],
+      },
+      q7: {
+        required: [true, "選択", ""],
+      },
+      q8: {
+        required: [true, "選択", ""],
+      },
+      q9_1: {
+        required: [true, "台数を入力", ""],
+        number: true
+      },
+      q9_2: {
+        required: [true, "車種を入力", ""],
+      },
+      q9_1_sp: {
+        required: [true, "台数を入力", ""],
+        number: true
+      },
+      q9_2_sp: {
+        required: [true, "車種を入力", ""],
+      },
+      q10_1: {
+        required: [true, "世帯主様を入力", ""],
+        number: true
+      },
+      q10_2: {
+        required: [true, "配偶者様を入力", ""],
+        number: true
+      },
+      q10_3: {
+        required: [true, "全体を入力", ""],
+        number: true
+      },
+      q10_1_sp: {
+        required: [true, "世帯主様を入力", ""],
+        number: true
+      },
+      q10_2_sp: {
+        required: [true, "配偶者様を入力", ""],
+        number: true
+      },
+      q10_3_sp: {
+        required: [true, "全体を入力", ""],
+        number: true
+      },
+      q11: {
+        required: [true, "選択", ""],
+      },
+      q12_1: {
+        required: [true, "選択", ""],
+      },
+      q12_2: {
+        number: true
+      },
+      q13: {
+        required: [true, "入力", ""],
+        number: true
+      },
     },
     //エラーメッセージ表示位置指定
     errorPlacement: function (error, element) {
@@ -277,22 +394,16 @@ $(function () {
     }
   });
 
-  // エントリーフォームの入力バリデーション
-  $('.entry_form').validate({
-    // rules: {
-    //   confirm_email: {
-    //     equalTo: "#email"
-    //   }
-    // }
-  });
-
   // フォーム入力バリデーションのエラーメッセージフォーマット
   $.extend($.validator.messages, {
     required: "{1}{2}してください。",
+    min: "{1}{2}してください。",
     number: "半角数字で入力してください。",
     email: "正しいメールアドレスを入力してください。",
     equalTo: "違う値が入力されています。",
+    minlength: "3つ選択してください",
   });
+
 });
 
 
@@ -358,3 +469,26 @@ function min_check2() {
   }
 }
 
+// お住まいのアンケート その他にチェックが入った場合のみテキストボックスを活性化
+function text_control(class_name) {
+  var check = "." + class_name + "_check";
+  var text = "." + class_name + "_text";
+  if($(check).prop('checked')) {
+    $(text).prop("disabled", false);
+    console.log("hey")
+  } else {
+    $(text).val("");
+    $(text).prop("disabled", true);
+  }
+  
+}
+
+function plus_q5() {
+  var num = $('.q5:checked').length;
+  $('.q5_num').val(num);
+  if (num > 0) {
+    $('#q5').css('display','none');
+  } else {
+    $('#q5').css('display','block');
+  }
+}

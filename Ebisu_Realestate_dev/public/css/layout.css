@@ -1544,6 +1544,25 @@ td.h-110px {
   width:200px;
 }
 
+/* .questionnaire_complete_msg {
+  margin-bottom: 100px;
+  margin-bottom: 200px;
+} */
+
+/* .complete_bottom {
+  margin-bottom: 100px;
+} */
+
+.questionnaire_complete {
+  /* padding-bottom: 200px; */
+  padding-bottom: calc(100vh - 900px);
+}
+
 .entry_complete_msg {
-  margin: 150px 0;
+  margin: 50px 0 calc(100vh - 600px); 
+}
+
+
+.validation-message {
+  font-size: 14px;
 }

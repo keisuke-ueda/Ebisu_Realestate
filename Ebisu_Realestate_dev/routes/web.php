@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuestionnaireController;
+use App\Http\Controllers\EntryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -63,28 +64,29 @@ Route::post('/questionnaire/confirm', [QuestionnaireController::class, 'send'])-
 Route::get('/questionnaire/thanks', [QuestionnaireController::class, 'complete'])->name("form.complete");
 
 // アンケートメール送信
-Route::post('/questionnaire_mail', [QuestionnaireController::class, 'send']);
+Route::post('/questionnaire_complete', [QuestionnaireController::class, 'send']);
 
 
 // 物件エントリー
-Route::view('/entry', 'entry');
+// Route::view('/entry', 'entry');
 
-// Route::get('/entry', [EntryController::class, 'show'])->name("form.show");
-// Route::post('/entry', [EntryController::class, 'post'])->name("form.post");
+Route::get('/entry', [EntryController::class, 'show'])->name("entry_form.show");
+Route::post('/entry', [EntryController::class, 'post'])->name("entry_form.post");
 
-// Route::get('/entry/confirm', [EntryController::class, 'confirm'])->name("form.confirm");
-// Route::post('/entry/confirm', [EntryController::class, 'send'])->name("form.send");
+Route::get('/entry/confirm', [EntryController::class, 'confirm'])->name("entry_form.confirm");
+Route::post('/entry/confirm', [EntryController::class, 'send'])->name("entry_form.send");
 
-// Route::get('/entry/thanks', [EntryController::class, 'complete'])->name("form.complete");
+Route::get('/entry/thanks', [EntryController::class, 'complete'])->name("entry_form.complete");
 
-// // エントリーメール送信
-// Route::post('/entry_mail', [EntryController::class, 'send']);
+// エントリーメール送信
+Route::post('/entry_complete', [EntryController::class, 'send']);
 
 
 
 //後で消す(表示確認用ルート)
-Route::view('/questionnaire2', 'questionnaire_confirm');
-Route::view('/complete', 'questionnaire_complete2');
+// Route::view('/questionnaire2', 'questionnaire_confirm');
+// Route::view('/complete', 'questionnaire_complete2');
 
-Route::view('/entry_mail', 'entry_mail');
-Route::view('/entry_complete', 'entry_complete');
+// Route::view('/entry_mail', 'entry_mail');
+Route::view('/questionnaire2', 'questionnaire_complete');
+Route::view('/entry2', 'entry_complete');

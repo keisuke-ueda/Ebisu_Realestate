@@ -2,14 +2,14 @@
 
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
 <meta name="format-detection" content="telephone=no">
-<title>新たな価値を創造したプレミアムリノベーションマンション｜株式会社ラ・アトレ</title>
+<!-- <title>新たな価値を創造したプレミアムリノベーションマンション｜株式会社ラ・アトレ</title> -->
 
 @section('content')
 
 <body>
-    <div id="questionnaire">
+    <div id="questionnaire" class="questionnaire_complete">
         <h1 class="p-title gold-title-2 text-center ft2 s24" style="margin-bottom: 50px;">お住まいについてのアンケート</h1>
-        <div class="pre-text">
+        <!-- <div class="pre-text">
             <div class="pl-120px pr-120px questionnaire-sm-img">
                 <img class="pb-40px img1" src="{{ asset('/images/お住まいアンケート1.png') }}">
             </div>
@@ -24,18 +24,16 @@
             <div class="pr-22px pl-22px questionnaire-sm-img">
                 <img class="mb-45px img2" src="{{ asset('/images/お住まいのアンケート2.png') }}">
             </div>
-        </div>
-        <div>
-            <p class="text-center m-0">送信しました。
-            <p class="text-center">アンケートにご協力いただき、誠にありがとうございました。</p>
-
+        </div> -->
+        <div class="questionnaire_complete_msg">
+            <p class="text-center">
+            「お住まいについてのアンケート」にご協力いただきまして、<br class="pc_hid">誠にありがとうございました。<br>
+            今後は皆様から頂きましたご意見を参考にして<br>
+            よりお客様のご期待にそえる住宅を追求して参りたいと存じます。<br>
+            </p>
             <button class="mh-parts btn mx-auto d-block my-3"><a href="/questionnaire">戻る</a></button>
-
-            <!-- <button class="mh-parts btn mx-auto d-block"><span class="p-3" onclick="history.back()">戻る</span></button> -->
-            <!-- <button class="mh-parts btn btn-dark mx-auto d-block"><span class="p-3">送信する</span></button> -->
-
         </div>
-        <div class="border border-dark animation ft2 s12 questionnaire_comment">
+        <div class="border border-dark ft2 s12 questionnaire_comment complete_bottom">
             <p class="m-none pt-25px pr-20px pl-20px pb-25px">【アンケートご回答者様からご提供いただいた個人情報の取り扱いについて】<br>
                 ※本アンケートは市場調査(商品企画)に反映するために企画したものです。<br>
                 ※ご回答内容につきましては、ご回答を集計処理・保管をいたしますので、皆様にご迷惑をおかけすることは一切ございませんことを、確約させていただきます。<br>
@@ -45,7 +43,6 @@
                 &emsp;当社の「個人情報保護方針」につきましては、https://lattrait.co.jp/privacy/をご覧ください。<br>
                 ※アンケートにご協力いただいた方は、今後販売する本プロジェクトへの優先的なご案内をさせていただく際にも利用させていただきます。<br>
                 <調査主体・調査実施> 株式会社ラ・アトレ<br><アンケート集計・調査分析> 株式会社アドバンスクリエイティブ
-
             </p>
         </div>
     </div>
