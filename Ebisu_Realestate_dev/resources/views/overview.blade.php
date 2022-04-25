@@ -1,5 +1,7 @@
 @extends('layout2')
 
+@section('title',"物件概要｜【公式】ラ・アトレ恵比寿グランガーデン")
+
 @section('content')
 
 <!-- 物件概要ページ -->

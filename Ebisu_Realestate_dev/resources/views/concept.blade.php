@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title',"Concept｜【公式】ラ・アトレ恵比寿グランガーデン")
+
 @section('content')
 <!-- 開発対象 -->
 <div class="ebisu-top">

@@ -2,6 +2,8 @@
 
 <link rel="stylesheet" href="{{ asset('/css/entry.css') }}">
 
+@section('title',"物件エントリー｜【公式】ラ・アトレ恵比寿グランガーデン")
+
 @section('content')
 
 <div class="" id="entry" style="">

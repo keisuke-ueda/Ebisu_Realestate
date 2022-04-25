@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title',"【公式】ラ・アトレ恵比寿グランガーデンｌ一想一邸の確かな結晶。")
+
 @section('content')
     <div class="first_view">
 
