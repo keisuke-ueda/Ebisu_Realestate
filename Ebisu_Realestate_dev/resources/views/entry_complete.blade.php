@@ -2,6 +2,8 @@
 
 <link rel="stylesheet" href="{{ asset('/css/entry.css') }}">
 
+@section('title',"物件エントリー")
+
 @section('content')
 
 <div class="" id="entry" style="">

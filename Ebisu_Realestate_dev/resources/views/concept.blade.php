@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title',"Concept")
+
 @section('content')
 <!-- 開発対象 -->
 <div class="ebisu-top">

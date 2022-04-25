@@ -1,5 +1,7 @@
 @extends('layout2')
 
+@section('title',"物件概要")
+
 @section('content')
 
 <!-- 物件概要ページ -->

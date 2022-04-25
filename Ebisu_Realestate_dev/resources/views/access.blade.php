@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title',"Access")
+
 @section('content')
 <!-- 開発対象 -->
 <!-- 背景色､テキスト一時的に調整 -->
