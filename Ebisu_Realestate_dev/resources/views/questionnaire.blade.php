@@ -4,7 +4,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="{{ asset('/css/questionnaire.css') }}">
 
-@section('title',"お住まいのアンケート")
+@section('title',"お住まいのアンケート｜【公式】ラ・アトレ恵比寿グランガーデン")
 
 @section('content')
 <?php

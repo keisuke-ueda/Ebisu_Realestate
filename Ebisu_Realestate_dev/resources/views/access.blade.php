@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title',"Access")
+@section('title',"Access｜【公式】ラ・アトレ恵比寿グランガーデン")
 
 @section('content')
 <!-- 開発対象 -->

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
 <meta name="format-detection" content="telephone=no">
 
-@section('title',"現地案内図")
+@section('title',"現地案内図｜【公式】ラ・アトレ恵比寿グランガーデン")
 
 @section('content')
 
