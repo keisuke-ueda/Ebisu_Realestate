@@ -803,3 +803,26 @@ input {
 .validation-message {
   font-size: 10px;
 }
+
+
+/* LOCATIONページ */
+.location-top img {
+  width: 70%;
+  margin-top: 150px;
+}
+
+.location_info_group {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.location_info {
+  display: block;
+}
+.location_info_photo {
+  width: 100%;
+}
+.location_info_table {
+  width: 100%;
+}
+/* LOCATIONページ ここまで */

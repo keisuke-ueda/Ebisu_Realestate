@@ -1566,3 +1566,37 @@ td.h-110px {
 .validation-message {
   font-size: 14px;
 }
+
+
+
+
+/* LOCATIONページ */
+.location-top {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+.location-top img {
+  width: 25%;
+  margin-top: 200px;
+}
+
+.location_info_group {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.location_info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.location_info_photo {
+  display: block;
+  width: 55%;
+}
+.location_info_table {
+  display: block;
+  width: 40%;
+}
+/* LOCATIONページ ここまで */
