@@ -1581,6 +1581,13 @@ td.h-110px {
   margin-top: 200px;
 }
 
+
+.location_info_area {
+  max-width: 1120px; 
+  padding:35px 20px; 
+  margin: 0 auto 30px;
+}
+
 .location_info_group {
   width: 90%;
   margin: 0 auto;
@@ -1589,14 +1596,33 @@ td.h-110px {
 .location_info {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   margin-bottom: 40px;
 }
 .location_info_photo {
   display: block;
-  width: 55%;
+  width: 50%;
 }
 .location_info_table {
-  display: block;
-  width: 40%;
+  width: 45%;
+  font-size: 14px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.location_info_table tr {
+  border-style: dotted none;/* 線種 */
+  border-width: 1px; /* 線の太さ */
+  border-color: #000; /* 線色 */
+}
+.location_info_table td {
+  padding: 5px 0;
+  vertical-align: middle; 
+}
+.name_td {
+  width: 67%;
+}
+.minutes_td {
+  width: 33%;
 }
 /* LOCATIONページ ここまで */
