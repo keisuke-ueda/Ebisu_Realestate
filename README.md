@@ -5,6 +5,7 @@
 4/28 Locationページの作成開始、古いREADMEの古い記述は削除  
 4/29 Locationページ継続中、Designページ着手
 
+ttt
 
 ## 調整課題
 ### Locationページ
