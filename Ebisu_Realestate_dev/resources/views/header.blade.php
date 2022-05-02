@@ -70,7 +70,7 @@
 
       <div class="header_link ms-3">
         <a href="/reserve" style="pointer-events:none;">
-          <button type="button" class="s13 questionnaire_btn text-white mh-parts ts2" style="height: 40px; width: 140px;"><span class="ft2">来場予約</span></button>
+          <button type="button" class="s13 questionnaire_btn mh-parts ts2" style="height: 40px; width: 140px; color:gray;"><span class="ft2">来場予約</span></button>
         </a>
       </div>
 
