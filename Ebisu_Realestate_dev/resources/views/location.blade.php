@@ -34,29 +34,35 @@
       <div class="d-flex justify-content-between w-100">
           <div style="width: calc(33% - 13px);">
               <img class="animation-0-zm w-100" src="{{ asset('/images/ebisupage_atreebisu.png') }}" style="object-fit: cover; object-position: 100% 100%">
-              <p class="text-center s9">「アトレ恵比寿」<br>(約1000m・徒歩13分)</p>
+              <p class="text-center m-0">「アトレ恵比寿」</p>
+              <p class="text-center s11">(約1000m・徒歩13分)</p>
           </div>
           <div style="width: calc(33% - 13px);" style="margin-left:20px;">
               <img class="animation-0-zm w-100" src="{{ asset('/images/ebisupage_恵比寿ガーデンプレイス.png') }}" style="object-fit: cover; object-position: 100% 100%">
-              <p class="text-center s9">「恵比寿ガーデンプレイス」<br>(約260m・徒歩4分)</p>
+              <p class="text-center m-0">「恵比寿ガーデンプレイス」</p>
+              <p class="text-center s11">(約260m・徒歩4分)</p>
           </div>
           <div style="width: calc(33% - 13px);" style="margin-left:20px;">
               <img class="animation-0-zm w-100" src="{{ asset('/images/ebisupage_ウエスティンホテル.png') }}" style="object-fit: cover; object-position: 100% 100%">
-              <p class="text-center s9">「ウエスティンホテル東京」<br>(約300m・徒歩4分)</p>
+              <p class="text-center m-0">「ウエスティンホテル東京」</p>
+              <p class="text-center s11">(約300m・徒歩4分)</p>
           </div>
       </div>
       <div class="d-flex justify-content-between">
           <div style="width: calc(33% - 13px);" >
               <img class="animation-1-zm w-100" src="{{ asset('/images/ebisupage_国立博物館付属自然教育園.png') }}" style="object-fit: cover; object-position: 100% 100%">
-              <p class="text-center s9 m-0">「国立科学博物館付属 自然教育園」<br>(約1000m・徒歩13分)</p>
+              <p class="text-center m-0">「国立科学博物館付属 自然教育園」</p>
+              <p class="text-center s11">(約1000m・徒歩13分)</p>
           </div>
           <div style="width: calc(33% - 13px);" style="margin-left:20px;">
               <img class="animation-1-zm w-100" src="{{ asset('/images/ebisupage_東京大学医療課付属研究所.png') }}" style="object-fit: cover; object-position: 100% 100%">
-              <p class="text-center s9 m-0">「東京大学医療科学研究附属病院」<br>(約630m・徒歩8分)</p>
+              <p class="text-center m-0">「東京大学医療科学研究附属病院」</p>
+              <p class="text-center s11">(約630m・徒歩8分)</p>
           </div>
           <div style="width: calc(33% - 13px);" style="margin-left:20px;">
               <img class="animation-1-zm w-100" src="{{ asset('/images/ebisupage_サッポロ広場.png') }}" style="object-fit: cover; object-position: 100% 100%">
-              <p class="text-center s9 m-0">「サッポロ広場」<br>(約260m・徒歩4分)</p>
+              <p class="text-center m-0">「サッポロ広場」</p>
+              <p class="text-center s11">(約260m・徒歩4分)</p>
           </div>
       </div>
   </div>
@@ -110,7 +116,23 @@
 <div class="location_info_area bg-white text-dark ft2">
     <div class="location_info_group">
       <div class="location_info">
-        <img class="location_info_photo" src="{{ asset('/images/航空写真.jpg') }}" alt="">
+        <div class="location_info_photo">
+          <div class="location_logo education_logo">
+            <img class="" src="{{ asset('/images/education_logo.png') }}" alt="">
+          </div>
+          <div class="location_photos education_photos">
+            <img src="{{ asset('/images/田道小学校.jpg') }}" alt="">
+            <p>区立田道小学区</p>
+          </div>
+          <div class="location_photos education_photos">
+            <img src="{{ asset('/images/慶應義塾幼稚舎.jpg') }}" alt="">
+            <p>慶応義塾幼稚舎</p>
+          </div>
+          <div class="location_photos education_photos">
+            <img src="{{ asset('/images/白金幼稚園.jpg') }}" alt="">
+            <p>白金幼稚園</p>
+          </div>
+        </div>
         <table class="location_info_table">
           <tbody>
             <tr>
@@ -209,14 +231,46 @@
             </tr>
           </tbody>
         </table>
-        <img class="location_info_photo" src="{{ asset('/images/航空写真.jpg') }}" alt="">
+        <div class="location_info_photo">
+          <div class="location_logo medical_logo">
+            <img class="" src="{{ asset('/images/medical_logo.png') }}" alt="">
+          </div>
+          <div class="location_photos medical_photos">
+            <img src="{{ asset('/images/北里大学病院.jpg') }}" alt="">
+            <p>北里大学病院</p>
+          </div>
+          <div class="location_photos medical_photos">
+            <img src="{{ asset('/images/厚生中央病院.jpg') }}" alt="">
+            <p>厚生中央病院</p>
+          </div>
+          <div class="location_photos medical_photos">
+            <img src="{{ asset('/images/都立広尾病院.jpg') }}" alt="">
+            <p>都立広尾病院</p>
+          </div>
+        </div>
       </div>
       <div class="location_info">
-        <img class="location_info_photo" src="{{ asset('/images/航空写真.jpg') }}" alt="">
+        <div class="location_info_photo">
+          <div class="location_logo shopping_logo">
+            <img class="" src="{{ asset('/images/shopping_logo.png') }}" alt="">
+          </div>
+          <div class="location_photos shopping_photos">
+            <img src="{{ asset('/images/ピーコック恵比寿南.jpg') }}" alt="">
+            <p>ピーコックストア恵比寿南店</p>
+          </div>
+          <div class="location_photos shopping_photos">
+            <img src="{{ asset('/images/東急ストアプレッセ.jpg') }}" alt="">
+            <p>東急ストアプレッセ 目黒店</p>
+          </div>
+          <div class="location_photos shopping_photos">
+            <img src="{{ asset('/images/アトレ恵比寿.jpg') }}" alt="">
+            <p>アトレ恵比寿</p>
+          </div>
+        </div>
         <table class="location_info_table">
           <tbody>
             <tr>
-              <td class="name_td">ライフ<br>セントラルスクエア恵比寿ガーデンプレイス店</td>
+              <td class="name_td">ライフ<br><span>セントラルスクエア恵比寿ガーデンプレイス店</span></td>
               <td class="minutes_td">徒歩 &nbsp;&nbsp;5分 (約 &nbsp;&nbsp;350m)</td>
             </tr>
             <tr>
@@ -266,7 +320,7 @@
               <td class="minutes_td">徒歩 &nbsp;&nbsp;4分 (約 &nbsp;&nbsp;270m)</td>
             </tr>
             <tr>
-              <td>恵比寿ガーデンプレイス郵便局<br>(恵比寿ガーデンプレイス内)</td>
+              <td>恵比寿ガーデンプレイス郵便局<br><span>(恵比寿ガーデンプレイス内)</span></td>
               <td>徒歩 &nbsp;&nbsp;6分 (約 &nbsp;&nbsp;430m)</td>
             </tr>
             <tr>
@@ -294,7 +348,7 @@
               <td>徒歩 13分 (約 1000m)</td>
             </tr>
             <tr>
-              <td>目黒区民センター<br>(図書館・体育館・屋外プール・テニスコート)</td>
+              <td>目黒区民センター<br><span>(図書館・体育館・屋外プール・テニスコート)</span></td>
               <td>徒歩 18分 (約 1420m)</td>
             </tr>
             <tr>
@@ -303,10 +357,42 @@
             </tr>
           </tbody>
         </table>
-        <img class="location_info_photo" src="{{ asset('/images/航空写真.jpg') }}" alt="">
+        <div class="location_info_photo">
+          <div class="location_logo public_logo">
+            <img class="" src="{{ asset('/images/public_logo.png') }}" alt="">
+          </div>
+          <div class="location_photos public_photos">
+            <img src="{{ asset('/images/目黒区美術館.jpg') }}" alt="">
+            <p>目黒区美術館</p>
+          </div>
+          <div class="location_photos public_photos">
+            <img src="{{ asset('/images/自然教育園.jpg') }}" alt="">
+            <p>国立科学博物館附属 自然教育園</p>
+          </div>
+          <div class="location_photos public_photos">
+            <img src="{{ asset('/images/目黒区民センター.jpg') }}" alt="">
+            <p>目黒区民センター</p>
+          </div>
+        </div>
       </div>
       <div class="location_info">
-        <img class="location_info_photo" src="{{ asset('/images/航空写真.jpg') }}" alt="">
+        <div class="location_info_photo">
+          <div class="location_logo park_logo">
+            <img class="" src="{{ asset('/images/park_logo.png') }}" alt="">
+          </div>
+          <div class="location_photos park_photos">
+            <img src="{{ asset('/images/三田丘の上公園.jpg') }}" alt="">
+            <p>三田丘の上公園</p>
+          </div>
+          <div class="location_photos park_photos">
+            <img src="{{ asset('/images/サッポロ広場.jpg') }}" alt="">
+            <p>サッポロ広場</p>
+          </div>
+          <div class="location_photos park_photos">
+            <img src="{{ asset('/images/アメリカ橋公園.jpg') }}" alt="">
+            <p>アメリカ橋公園</p>
+          </div>
+        </div>
         <table class="location_info_table">
           <tbody>
             <tr>
