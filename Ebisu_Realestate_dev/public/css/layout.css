@@ -1600,14 +1600,97 @@ td.h-110px {
   margin-bottom: 40px;
 }
 .location_info_photo {
-  display: block;
+  display: flex; 
+  flex-wrap: wrap;
+  width: 52%;
+}
+
+.location_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
 }
+
+.education_logo {
+  background-color: #fce5ca;
+}
+.education_logo img {
+  width: 60%;
+}
+
+.medical_logo {
+  background-color: #e7f2ff;
+}
+.medical_logo img {
+  width: 40%;
+}
+
+.shopping_logo {
+  background-color: #fce0fe;
+}
+.shopping_logo img {
+  width: 50%;
+}
+
+.public_logo {
+  background-color: #e3f9d0;
+}
+.public_logo img {
+  width: 30%;
+}
+
+.park_logo {
+  background-color: #ffd9e8;
+}
+.park_logo img {
+  width: 60%;
+}
+
+.location_photos {
+  width:50%;
+}
+.location_photos img {
+  width: 100%;
+  max-height: 162px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.location_photos p {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+
+.education_photos p {
+  background-color: #ffc2a1;
+}
+
+.medical_photos p {
+  background-color: #b2d2fa;
+}
+
+.shopping_photos p {
+  background-color: #f8b9fc;
+}
+
+.public_photos p {
+  background-color: #75e498;
+}
+
+.park_photos p {
+  background-color: #ff9aae;
+}
+
 .location_info_table {
-  width: 45%;
+  width: calc(48% - 50px);
   font-size: 14px;
   table-layout: fixed;
   border-collapse: collapse;
+}
+.location_info_table span {
+  font-size: 12px;
 }
 
 .location_info_table tr {
@@ -1626,3 +1709,17 @@ td.h-110px {
   width: 33%;
 }
 /* LOCATIONページ ここまで */
+
+/* DESIGNページ */
+.design-photo4 {
+  background-color:#000; 
+  padding:100px 0 0;
+}
+.design-photo4 img {
+  max-width:1200px;
+}
+.design-photo4 p {
+  max-width:1200px; 
+  padding:5px 30px 0 0;
+}
+/* DESIGNページ ここまで */

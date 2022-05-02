@@ -9,53 +9,57 @@
 
     <div class="header_links">
       <div class="header_link ms-3">
-        <div>&nbsp;</div>
+        <div style="padding-bottom:5px;">&nbsp;</div>
         <div class="d-flex align-items-auto">
-          <p class="s10 ft1 new-mark">NEW</p></div>
+          <p class="s10 ft1 new-mark">NEW</p>
+        </div>
         <a href="/concept" class="small mh-parts white_link s14">EBISU</a>
       </div>
 
       <div class="header_link ms-3">
-        <div class="s10">&nbsp;</div>
-        <div class="s10">&nbsp;</div>
-        <!-- <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark">NEW</p></div> -->
-        <a href="/location" style="margin-top:9px; margin-left:5px;" class="small mh-parts white_link s14">LOCATION</a>
+        <div style="padding-bottom:5px;">&nbsp;</div>
+        <div class="d-flex align-items-auto">
+          <p class="s10 ft1 new-mark">NEW</p>
+        </div>
+        <a href="/location" style="pointer-events:none;" class="small mh-parts white_link s14">LOCATION</a>
       </div>
 
       <div class="header_link ms-3">
-        <div>&nbsp;</div>
+        <div style="padding-bottom:5px;">&nbsp;</div>
         <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark" style="margin-left:5px;">NEW</p></div>
         <a href="/access" class="small mh-parts white_link s14" style="margin-left:5px;">ACCESS</a>
       </div>
 
       <div class="header_link ms-3">
-        <div class="s10">&nbsp;</div>
-        <div class="s10">&nbsp;</div>
-        <!-- <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark">NEW</p></div> -->
-        <a href="/design" style="margin-top:9px; margin-left:5px;" class="small mh-parts white_link s14">DESIGN</a>
-      </div>
-
-      <div class="header_link ms-3">
-        <div class="s10">&nbsp;</div>
-        <div class="s10">&nbsp;</div>
-        <!-- <div class="d-flex align-items-auto"><p class="s10 ft1 blank">&nbsp;</p></div> -->
-        <a href="/model_room" style="pointer-events:none; white-space:nowrap; margin-top:9px; margin-left:5px;" class="small mh-parts gray_link s14">MODEL ROOM</a>
-      </div>
-
-      <div class="header_link ms-3">
-        <div class="s14"><a href="/overview" class="ft2 s10 mh-parts white_link" style="white-space:nowrap;">>物件概要</a></div>
+        <div style="padding-bottom:5px;">&nbsp;</div>
         <div class="d-flex align-items-auto">
-          <!-- <p class="s10 ft1 blank">&nbsp;</p> -->
+          <p class="s10 ft1 new-mark">NEW</p>
         </div>
-        <a href="/plan" style="pointer-events:none; margin-top:17px; margin-left:10px;" class="small mh-parts gray_link s14">PLAN</a>
+        <a href="/design" style="pointer-events:none;" class="small mh-parts white_link s14">DESIGN</a>
       </div>
 
       <div class="header_link ms-3">
-        <div class="s14"><a href="/map" class="ft2 s10 mh-parts white_link" style="white-space:nowrap;">>現地案内図</a></div>
+        <div style="padding-bottom:5px;">&nbsp;</div>
         <div class="d-flex align-items-auto">
-          <!-- <p class="s10 ft1 blank">&nbsp;</p> -->
+          <p class="s10 ft1 blank">&nbsp;</p>
         </div>
-        <a href="/blanding" style="margin-top:17px; margin-left:10px;" class="small mh-parts white_link s14">BLAND</a>
+        <a href="/model_room" style="pointer-events:none; white-space:nowrap;" class="small mh-parts gray_link s14">MODEL ROOM</a>
+      </div>
+
+      <div class="header_link ms-3">
+        <div style="padding-bottom:5px;"><a href="/overview" class="ft2 s10 mh-parts white_link" style="white-space:nowrap;">>物件概要</a></div>
+        <div class="d-flex align-items-auto">
+          <p class="s10 ft1 blank">&nbsp;</p>
+        </div>
+        <a href="/plan" style="pointer-events:none;" class="small mh-parts gray_link s14">PLAN</a>
+      </div>
+
+      <div class="header_link ms-3">
+        <div style="padding-bottom:5px;"><a href="/map" class="ft2 s10 mh-parts white_link" style="white-space:nowrap;">>現地案内図</a></div>
+        <div class="d-flex align-items-auto">
+          <p class="s10 ft1 new-mark">NEW</p>
+        </div>
+        <a href="/blanding" style="pointer-events:none;" class="small mh-parts white_link s14">BLAND</a>
       </div>
 
       <div class="header_link ms-3">
@@ -65,8 +69,8 @@
       </div>
 
       <div class="header_link ms-3">
-        <a href="/questionnaire">
-          <button type="button" class="s13 questionnaire_btn text-white mh-parts ts2" style="height: 40px; width: 140px;"><span class="ft2">お住まいのアンケート</span></button>
+        <a href="/reserve" style="pointer-events:none;">
+          <button type="button" class="s13 questionnaire_btn text-white mh-parts ts2" style="height: 40px; width: 140px;"><span class="ft2">来場予約</span></button>
         </a>
       </div>
 
@@ -94,13 +98,13 @@
             </a>
           </div>
           <div>
-            <a href="/location" style="pointer-events:none; color:gray;">
+            <a href="/location" style="pointer-events:none;">
               <p>LOCATION</p>
               <p class="s10">ロケーション</p>
             </a>
           </div>
           <div>
-            <a href="/design" style="pointer-events:none; color:gray;">
+            <a href="/design" style="pointer-events:none;">
               <p>DESIGN</p>
               <p class="s10">デザイン</p>
             </a>
@@ -138,7 +142,7 @@
             </a>
           </div>
           <div>
-            <a href="/blanding" style="pointer-events:none; color:gray;">
+            <a href="/blanding" style="pointer-events:none;">
               <p>BLAND</p>
               <p class="s10">ブランド</p>
             </a>
@@ -155,8 +159,8 @@
         <a href="/entry">物件エントリー</a>
       </button>
 
-      <button type="button" class="s13 questionnaire_btn text-white mx-auto d-block" style="height: 40px; width: 80%;">
-        <a href="/questionnaire">お住まいのアンケート</a>
+      <button type="button" class="s13 questionnaire_btn text-white mx-auto d-block" style="height: 40px; width: 80%; pointer-events:none;">
+        <a href="/reserve">来場予約</a>
       </button>
      
   </div>
