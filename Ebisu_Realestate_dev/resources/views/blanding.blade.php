@@ -4,8 +4,8 @@
 
 @section('content')
 
-<div class="ebisu-top">
-    <img  class="img-fluid" src="{{ asset('/images/the bland.svg') }}">
+<div class="bland-top">
+    <img  class="" src="{{ asset('/images/the bland.svg') }}">
 </div>
 
 <div style="height:50px; background-color:#000;"></div>

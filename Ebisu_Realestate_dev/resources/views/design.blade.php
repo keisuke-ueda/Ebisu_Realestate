@@ -4,8 +4,8 @@
 
 @section('content')
 
-<div class="ebisu-top">
-    <img  class="img-fluid" src="{{ asset('/images/thedesign.svg') }}">
+<div class="design-top">
+    <img  class="" src="{{ asset('/images/thedesign.svg') }}">
 </div>
 
 <div style="height:150px; background-color:#000;"></div>

@@ -1721,6 +1721,16 @@ td.h-110px {
 /* LOCATIONページ ここまで */
 
 /* DESIGNページ */
+.design-top {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+.design-top img {
+  width: 25%;
+  margin-top: 200px;
+}
+
 .design-photo4 {
   background-color:#000; 
   padding:100px 0 0;
@@ -1733,3 +1743,15 @@ td.h-110px {
   padding:5px 30px 0 0;
 }
 /* DESIGNページ ここまで */
+
+/* BLANDページ */
+.bland-top {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+.bland-top img {
+  width: 25%;
+  margin-top: 200px;
+}
+/* BLANDページ ここまで */
