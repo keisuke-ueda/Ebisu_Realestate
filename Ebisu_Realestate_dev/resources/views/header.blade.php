@@ -19,9 +19,9 @@
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;">&nbsp;</div>
         <div class="d-flex align-items-auto">
-          <p class="s10 ft1 new-mark">NEW</p>
+          <p class="s10 ft1 blank">&nbsp;</p>
         </div>
-        <a href="/location" style="pointer-events:none;" class="small mh-parts white_link s14">LOCATION</a>
+        <a href="/location" style="pointer-events:none;" class="small mh-parts gray_link s14">LOCATION</a>
       </div>
 
       <div class="header_link ms-3">
@@ -33,9 +33,9 @@
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;">&nbsp;</div>
         <div class="d-flex align-items-auto">
-          <p class="s10 ft1 new-mark">NEW</p>
+          <p class="s10 ft1 blank">&nbsp;</p>
         </div>
-        <a href="/design" style="pointer-events:none;" class="small mh-parts white_link s14">DESIGN</a>
+        <a href="/design" style="pointer-events:none;" class="small mh-parts gray_link s14">DESIGN</a>
       </div>
 
       <div class="header_link ms-3">
@@ -57,9 +57,9 @@
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;"><a href="/map" class="ft2 s10 mh-parts white_link" style="white-space:nowrap;">>現地案内図</a></div>
         <div class="d-flex align-items-auto">
-          <p class="s10 ft1 new-mark">NEW</p>
+          <p class="s10 ft1 blank">&nbsp;</p>
         </div>
-        <a href="/blanding" style="pointer-events:none;" class="small mh-parts white_link s14">BLAND</a>
+        <a href="/blanding" style="pointer-events:none;" class="small mh-parts gray_link s14">BLAND</a>
       </div>
 
       <div class="header_link ms-3">
@@ -98,13 +98,13 @@
             </a>
           </div>
           <div>
-            <a href="/location" style="pointer-events:none;">
+            <a href="/location" style="pointer-events:none; color:gray;">
               <p>LOCATION</p>
               <p class="s10">ロケーション</p>
             </a>
           </div>
           <div>
-            <a href="/design" style="pointer-events:none;">
+            <a href="/design" style="pointer-events:none; color:gray;">
               <p>DESIGN</p>
               <p class="s10">デザイン</p>
             </a>
@@ -142,7 +142,7 @@
             </a>
           </div>
           <div>
-            <a href="/blanding" style="pointer-events:none;">
+            <a href="/blanding" style="pointer-events:none; color:gray;">
               <p>BLAND</p>
               <p class="s10">ブランド</p>
             </a>
@@ -160,7 +160,7 @@
       </button>
 
       <button type="button" class="s13 questionnaire_btn text-white mx-auto d-block" style="height: 40px; width: 80%; pointer-events:none;">
-        <a href="/reserve">来場予約</a>
+        <a href="/reserve" style="color:gray;">来場予約</a>
       </button>
      
   </div>

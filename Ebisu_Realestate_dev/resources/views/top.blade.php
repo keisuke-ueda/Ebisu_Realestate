@@ -212,7 +212,7 @@
             </div>
 
             <!-- アンケートエリア(PC・SP共通) -->
-            <div class="animation questionnaire_info_area">
+            <!-- <div class="animation questionnaire_info_area">
                 <p class="gold-title-2 ft2 s24 info_title">｢お住まいのアンケート｣にご協力ください｡</p>
                 <div class="questionnaire_info">
                     <div class="border-gold-2 d-inline-block">
@@ -220,7 +220,7 @@
                         <button type="submit" class="gold_btn to_questionnaire" ><a href="/questionnaire" class="text-white ft2 s20 mh-parts" style="text-decoration:none;">アンケートはこちら</a></button>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- INFOMATION(PC・SP共通) -->
             <div class="animation">
@@ -233,7 +233,7 @@
                         </tr>
                         <tr>
                             <td class="date-td-2" scope="col">2022.4.22</td>
-                            <td class="text-td-2" scope="col">お住まいのアンケートを開設しました。<br>(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
+                            <td class="text-td-2" scope="col">お住まいのアンケートを閉設しました。<br>多数のご応募ありがとうございました。</td>
                         </tr>
                     </table>
                 </div>
