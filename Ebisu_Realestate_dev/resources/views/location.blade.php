@@ -13,6 +13,8 @@
   <div class="d-flex justify-content-between align-items-center w-100">
       <div class="animation-1-zm" style="width:60%;">
           <img class="w-100" src="{{ asset('/images/location_map.png') }}">
+          <p class="ft2 s10">※掲載の現地周辺概念図は、航空写真などを基に作成したもので、実際とは異なります。周辺の道路・建物・街路図などは一部簡略化しており<br>
+          実際とは異なります。</p>
       </div>
       <div class="text-white animation d-flex flex-column justify-content-center ft2 s18" style="width:calc(40% - 45px);">
           <p class="gold-2" style="margin-bottom:10px;">一想一邸の確かな結晶。</p>
@@ -28,7 +30,9 @@
 
   <img class="animation d-block w-100 my-5" src="{{ asset('/images/航空写真.jpg') }}" alt="">
 
-  <img class="animation d-block my-5 mx-auto" src="{{ asset('/images/life information.png') }}" alt="" style="width:60%;">
+  <div class="life_information animation" style="">
+    <img class="d-block mx-auto" src="{{ asset('/images/life information.png') }}" alt="" style="width:40%;">
+  </div>
 
   <div class="d-flex flex-column justify-content-end ft2" style="width:100%; margin-bottom:40px;">
       <div class="d-flex justify-content-between w-100">
@@ -73,13 +77,15 @@
     <div style="width: calc(100% - 40px); margin: 0 auto; padding: 20px 0;">
         <p class="gold-2 text-center m-0">一想一邸の確かな結晶。</p>
         <p class="gold-2 text-center" style="margin-bottom:25px;">「ラ・アトレ恵比寿グランガーデン」</p>
-        <p class="s11 text-center">恵比寿、それも「恵比寿ガーデンプレイス」<br>
+        <p class="s10 text-center">恵比寿、それも「恵比寿ガーデンプレイス」<br>
           「ウェスティンホテル東京」を間近とする住宅地。<br>
           その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
           多くを語らずとも本物を知る人を魅了するレジデンス。<br>
-          「ラ・アトレ恵比寿グランガーデン」ゆるぎなき矜持がここにある。
+          ｢ラ･アトレ恵比寿グランガーデン｣ゆるぎなき矜持がここにある。
         </p>
-        <img class="d-block w-100 mb-5" src="{{ asset('/images/ebisupage_photo2.png') }}" >
+        <img class="d-block w-100" src="{{ asset('/images/location_map.png') }}" >
+        <p class="ft2 s10" style="margin-bottom:45px;">※掲載の現地周辺概念図は、航空写真などを基に作成したもので、<br>実際とは異なります。<br>
+        周辺の道路･建物･街路図などは一部簡略化しており<br>実際とは異なります。</p>
         <div class="d-flex justify-content-between">
             <div style="width: calc(50% - 5px);">
                 <img class="animation 0-zm w-100" src="{{ asset('/images/ebisupage_atreebisu.png') }}" style="object-fit: cover; object-position: 100% 100%">
