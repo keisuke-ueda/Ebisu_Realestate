@@ -498,7 +498,7 @@
     </div>
 
     <!-- 吹き出し -->
-    <div class="map_select_area">
+    <!-- <div class="map_select_area">
       <div class="map_select_btn education_select_btn">
         <img src="{{ asset('/images/education_select.png') }}" alt="">
         <p>教育施設</p>
@@ -519,7 +519,7 @@
         <img src="{{ asset('/images/park_select.png') }}" alt="">
         <p>公園・レジャー施設</p>
       </div>
-    </div>
+    </div> -->
 
     <!-- 教育施設 -->
     <div class="location_map_area education_map">

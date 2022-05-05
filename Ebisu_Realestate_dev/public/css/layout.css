@@ -1797,12 +1797,16 @@ td.h-110px {
 }
 
 .google_map {
-  
+  width: 730px;
+  height: 550px;
+  margin: 0;
+  overflow: hidden;
 }
 
 .google_map iframe {
-  width: 730px;
-  height: 550px;
+  width: 800px;
+  height: 800px;
+  margin: -100px 0 0 -100px;
 }
 
 .map_table_area {
