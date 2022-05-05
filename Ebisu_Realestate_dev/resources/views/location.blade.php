@@ -28,7 +28,7 @@
       </div>
   </div>
 
-  <img class="animation d-block w-100 my-5" src="{{ asset('/images/航空写真.jpg') }}" alt="">
+  <img class="animation d-block w-100" src="{{ asset('/images/航空写真.jpg') }}" alt="">
 
   <div class="life_information animation" style="">
     <img class="d-block mx-auto" src="{{ asset('/images/life information.png') }}" alt="" style="width:40%;">
@@ -86,6 +86,13 @@
         <img class="d-block w-100" src="{{ asset('/images/location_map.png') }}" >
         <p class="ft2 s10" style="margin-bottom:45px;">※掲載の現地周辺概念図は、航空写真などを基に作成したもので、<br>実際とは異なります。<br>
         周辺の道路･建物･街路図などは一部簡略化しており<br>実際とは異なります。</p>
+
+        <img class="animation d-block w-100" src="{{ asset('/images/航空写真.jpg') }}" alt="">
+
+        <div class="life_information animation" style="">
+          <img class="d-block mx-auto" src="{{ asset('/images/life information.png') }}" alt="" style="width:40%;">
+        </div>
+
         <div class="d-flex justify-content-between">
             <div style="width: calc(50% - 5px);">
                 <img class="animation 0-zm w-100" src="{{ asset('/images/ebisupage_atreebisu.png') }}" style="object-fit: cover; object-position: 100% 100%">
@@ -119,6 +126,8 @@
     </div>
 </div>
 
+
+<!-- PC・SP共通 -->
 <div class="location_info_area bg-white text-dark ft2">
     <div class="location_info_group">
       <div class="location_info">
@@ -189,6 +198,23 @@
         </table>
       </div>
       <div class="location_info">
+        <div class="location_info_photo location_info_photo_sp">
+          <div class="location_logo medical_logo">
+            <img class="" src="{{ asset('/images/medical_logo.png') }}" alt="">
+          </div>
+          <div class="location_photos medical_photos">
+            <img src="{{ asset('/images/北里大学病院.jpg') }}" alt="">
+            <p>北里大学病院</p>
+          </div>
+          <div class="location_photos medical_photos">
+            <img src="{{ asset('/images/厚生中央病院.jpg') }}" alt="">
+            <p>厚生中央病院</p>
+          </div>
+          <div class="location_photos medical_photos">
+            <img src="{{ asset('/images/都立広尾病院.jpg') }}" alt="">
+            <p>都立広尾病院</p>
+          </div>
+        </div>
         <table class="location_info_table">
           <tbody>
             <tr>
@@ -237,7 +263,7 @@
             </tr>
           </tbody>
         </table>
-        <div class="location_info_photo">
+        <div class="location_info_photo location_info_photo_pc">
           <div class="location_logo medical_logo">
             <img class="" src="{{ asset('/images/medical_logo.png') }}" alt="">
           </div>
@@ -319,6 +345,23 @@
         </table>
       </div>
       <div class="location_info">
+        <div class="location_info_photo location_info_photo_sp">
+          <div class="location_logo public_logo">
+            <img class="" src="{{ asset('/images/public_logo.png') }}" alt="">
+          </div>
+          <div class="location_photos public_photos">
+            <img src="{{ asset('/images/目黒区美術館.jpg') }}" alt="">
+            <p>目黒区美術館</p>
+          </div>
+          <div class="location_photos public_photos">
+            <img src="{{ asset('/images/自然教育園.jpg') }}" alt="">
+            <p>国立科学博物館附属 自然教育園</p>
+          </div>
+          <div class="location_photos public_photos">
+            <img src="{{ asset('/images/目黒区民センター.jpg') }}" alt="">
+            <p>目黒区民センター</p>
+          </div>
+        </div>
         <table class="location_info_table">
           <tbody>
             <tr>
@@ -363,7 +406,7 @@
             </tr>
           </tbody>
         </table>
-        <div class="location_info_photo">
+        <div class="location_info_photo location_info_photo_pc">
           <div class="location_logo public_logo">
             <img class="" src="{{ asset('/images/public_logo.png') }}" alt="">
           </div>
@@ -452,6 +495,486 @@
           </tbody>
         </table>
       </div>
+    </div>
+
+    <!-- 吹き出し -->
+    <div class="map_select_area">
+      <div class="map_select_btn education_select_btn">
+        <img src="{{ asset('/images/education_select.png') }}" alt="">
+        <p>教育施設</p>
+      </div>
+      <div class="map_select_btn medical_select_btn">
+        <img src="{{ asset('/images/medical_select.png') }}" alt="">
+        <p>医療施設</p>
+      </div>
+      <div class="map_select_btn shopping_select_btn">
+        <img src="{{ asset('/images/shopping_select.png') }}" alt="">
+        <p>商業施設</p>
+      </div>
+      <div class="map_select_btn public_select_btn">
+        <img src="{{ asset('/images/public_select.png') }}" alt="">
+        <p>公共施設</p>
+      </div>
+      <div class="map_select_btn park_select_btn">
+        <img src="{{ asset('/images/park_select.png') }}" alt="">
+        <p>公園・レジャー施設</p>
+      </div>
+    </div>
+
+    <!-- 教育施設 -->
+    <div class="location_map_area education_map">
+      <div class="google_map">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1yy-MUPvQTyds_je12N-fLAs9JUF3hQOX&ehbc=2E312F"></iframe>
+      </div>
+
+      <div class="map_table_area">
+      <table class="map_table">
+        <tbody>
+          <tr>
+            <td class="pin_num_td"><p class="map_pin_num education_pin_num">1</p></td>
+            <td>
+              <p class="map_table_building">ペガサスインターナショナルスクール</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;4分 (約 &nbsp;&nbsp;300m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num education_pin_num">2</p></td>
+            <td>
+              <p class="map_table_building">ポピンズアクティブラーニング<br>インターナショナルスクール</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;4分 (約 &nbsp;&nbsp;310m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num education_pin_num">3</p></td>
+            <td>
+              <p class="map_table_building">ニチイキッズ恵比寿保育園</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;8分 (約 &nbsp;&nbsp;630m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num education_pin_num">4</p></td>
+            <td>
+              <p class="map_table_building">渋谷同胞幼稚園</p>
+              <p class="map_table_minute">徒歩 10分 (約 &nbsp;&nbsp;760m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num education_pin_num">5</p></td>
+            <td>
+              <p class="map_table_building">白金幼稚園</p>
+              <p class="map_table_minute">徒歩 11分 (約 &nbsp;&nbsp;830m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num education_pin_num">6</p></td>
+            <td>
+              <p class="map_table_building">慶應義塾幼稚舎</p>
+              <p class="map_table_minute">徒歩 12分 (約 &nbsp;&nbsp;950m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num education_pin_num">7</p></td>
+            <td>
+              <p class="map_table_building">区立目黒保育園</p>
+              <p class="map_table_minute">徒歩 13分 (約 1020m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num education_pin_num">8</p></td>
+            <td>
+              <p class="map_table_building">区立田道小学校[通学区]</p>
+              <p class="map_table_minute">徒歩 14分 (約 1120m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num education_pin_num">9</p></td>
+            <td>
+              <p class="map_table_building">目黒日本大学幼稚園</p>
+              <p class="map_table_minute">徒歩 15分 (約 1140m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num education_pin_num">10</p></td>
+            <td>
+              <p class="map_table_building">サンタ・セシリア幼稚園</p>
+              <p class="map_table_minute">徒歩 19分 (約 1500m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num education_pin_num">11</p></td>
+            <td>
+              <p class="map_table_building">区立大鳥中学校[通学区]</p>
+              <p class="map_table_minute">徒歩 23分 (約 1830m)</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+    </div>
+
+    <!-- 医療施設 -->
+    <div class="location_map_area medical_map">
+      <div class="google_map">
+      <iframe src="https://www.google.com/maps/d/embed?mid=182MXIrKXFXprsEmoJY0gw3XYYX0QQhSx&ehbc=2E312F"></iframe>
+      </div>
+
+      <div class="map_table_area">
+      <table class="map_table">
+        <tbody>
+          <tr>
+            <td class="pin_num_td"><p class="map_pin_num medical_pin_num">1</p></td>
+            <td>
+              <p class="map_table_building">恵比寿病院</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;3分 (約 &nbsp;&nbsp;220m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num medical_pin_num">2</p></td>
+            <td>
+              <p class="map_table_building">佐藤クリニック</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;6分 (約 &nbsp;&nbsp;420m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num medical_pin_num">3</p></td>
+            <td>
+              <p class="map_table_building">恵比寿ガーデンプレイスクリニック</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;6分 (約 &nbsp;&nbsp;430m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num medical_pin_num">4</p></td>
+            <td>
+              <p class="map_table_building">エビス診療所</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;7分 (約 &nbsp;&nbsp;500m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num medical_pin_num">5</p></td>
+            <td>
+              <p class="map_table_building">恵比寿こどもクリニック</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;7分 (約 &nbsp;&nbsp;520m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num medical_pin_num">6</p></td>
+            <td>
+              <p class="map_table_building">リーメディカルクリニック</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;7分 (約 &nbsp;&nbsp;540m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num medical_pin_num">7</p></td>
+            <td>
+              <p class="map_table_building">南和友クリニック</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;7分 (約 &nbsp;&nbsp;560m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num medical_pin_num">8</p></td>
+            <td>
+              <p class="map_table_building">東京大学医療科学研究所附属病院</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;8分 (約 &nbsp;&nbsp;630m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num medical_pin_num">9</p></td>
+            <td>
+              <p class="map_table_building">厚生中央病院</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;8分 (約 &nbsp;&nbsp;640m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num medical_pin_num">10</p></td>
+            <td>
+              <p class="map_table_building">都立広尾病院</p>
+              <p class="map_table_minute">徒歩 12分 (約 &nbsp;&nbsp;910m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num medical_pin_num">11</p></td>
+            <td>
+              <p class="map_table_building">北里大学北里研究所病院</p>
+              <p class="map_table_minute">徒歩 13分 (約 1040m)</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+    </div>
+
+
+    <!-- 商業施設 -->
+    <div class="location_map_area shopping_map">
+      <div class="google_map">
+      <iframe src="https://www.google.com/maps/d/embed?mid=15vJ7xrCLyjimfBzaG2TT10XM8KRchdU7&ehbc=2E312F"></iframe>
+      </div>
+
+      <div class="map_table_area">
+      <table class="map_table">
+        <tbody>
+          <tr>
+            <td class="pin_num_td"><p class="map_pin_num shopping_pin_num">1</p></td>
+            <td>
+              <p class="map_table_building">ライフ<br>セントラルスクエア恵比寿ガーデンプレイス店</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;5分 (約 &nbsp;&nbsp;350m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num shopping_pin_num">2</p></td>
+            <td>
+              <p class="map_table_building">明治屋恵比寿ストアー</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;5分 (約 &nbsp;&nbsp;350m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num shopping_pin_num">3</p></td>
+            <td>
+              <p class="map_table_building">マルエツプチ 白金台プラチナ通り店</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;6分 (約 &nbsp;&nbsp;480m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num shopping_pin_num">4</p></td>
+            <td>
+              <p class="map_table_building">まいばすけっと 上大崎2丁目店</p>
+              <p class="map_table_minute">徒歩 10分 (約 &nbsp;&nbsp;790m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num shopping_pin_num">5</p></td>
+            <td>
+              <p class="map_table_building">東急ストア 目黒店</p>
+              <p class="map_table_minute">徒歩 12分 (約 &nbsp;&nbsp;910m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num shopping_pin_num">6</p></td>
+            <td>
+              <p class="map_table_building">アトレ恵比寿</p>
+              <p class="map_table_minute">徒歩 13分 (約 1000m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num shopping_pin_num">7</p></td>
+            <td>
+              <p class="map_table_building">成城石井 アトレ恵比寿店</p>
+              <p class="map_table_minute">徒歩 13分 (約 1020m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num shopping_pin_num">8</p></td>
+            <td>
+              <p class="map_table_building">ピーコックストア恵比寿南店</p>
+              <p class="map_table_minute">徒歩 14分 (約 1070m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num shopping_pin_num">9</p></td>
+            <td>
+              <p class="map_table_building">東急ストア プレッセ 目黒店</p>
+              <p class="map_table_minute">徒歩 14分 (約 1090m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num shopping_pin_num">10</p></td>
+            <td>
+              <p class="map_table_building">マルエツ 目黒店</p>
+              <p class="map_table_minute">徒歩 20分 (約 1530m)</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+    </div>
+
+
+    <!-- 公共施設 -->
+    <div class="location_map_area public_map">
+      <div class="google_map">
+      <iframe src="https://www.google.com/maps/d/embed?mid=11ewFngwJXLO2uhd-2TqsuSZ3-u4ZpRt_&ehbc=2E312F"></iframe>
+      </div>
+
+      <div class="map_table_area">
+      <table class="map_table">
+        <tbody>
+          <tr>
+            <td class="pin_num_td"><p class="map_pin_num public_pin_num">1</p></td>
+            <td>
+              <p class="map_table_building">恵比寿4丁目交番</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;4分 (約 &nbsp;&nbsp;270m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num public_pin_num">2</p></td>
+            <td>
+              <p class="map_table_building">恵比寿ガーデンプレイス郵便局<br>(恵比寿ガーデンプレイス内)</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;6分 (約 &nbsp;&nbsp;430m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num public_pin_num">3</p></td>
+            <td>
+              <p class="map_table_building">渋谷消防署恵比寿出張所</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;6分 (約 &nbsp;&nbsp;450m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num public_pin_num">4</p></td>
+            <td>
+              <p class="map_table_building">目黒警察署三田交番</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;6分 (約 &nbsp;&nbsp;460m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num public_pin_num">5</p></td>
+            <td>
+              <p class="map_table_building">東京都写真美術館</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;7分 (約 &nbsp;&nbsp;510m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num public_pin_num">6</p></td>
+            <td>
+              <p class="map_table_building">目黒三田郵便局</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;8分 (約 &nbsp;&nbsp;620m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num public_pin_num">7</p></td>
+            <td>
+              <p class="map_table_building">渋谷区役所 恵比寿駅前出張所</p>
+              <p class="map_table_minute">徒歩 12分 (約 &nbsp;&nbsp;930m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num public_pin_num">8</p></td>
+            <td>
+              <p class="map_table_building">国立科学博物館付属自然教育園</p>
+              <p class="map_table_minute">徒歩 13分 (約 1000m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num public_pin_num">9</p></td>
+            <td>
+              <p class="map_table_building">目黒区民センター<br>(図書館・体育館・屋外プール・テニスコート)</p>
+              <p class="map_table_minute">徒歩 18分 (約 1420m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num public_pin_num">10</p></td>
+            <td>
+              <p class="map_table_building">目黒区美術館</p>
+              <p class="map_table_minute">徒歩 20分 (約 1550m)</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+    </div>
+
+
+    <!-- 公園・レジャー施設 -->
+    <div class="location_map_area park_map">
+      <div class="google_map">
+      <iframe src="https://www.google.com/maps/d/embed?mid=14EqxnbIw4-umWMdisArjlzXJds5jVYZ8&ehbc=2E312F"></iframe>
+      </div>
+
+      <div class="map_table_area">
+      <table class="map_table">
+        <tbody>
+          <tr>
+            <td class="pin_num_td"><p class="map_pin_num park_pin_num">1</p></td>
+            <td>
+              <p class="map_table_building">サッポロ広場</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;4分 (約 &nbsp;&nbsp;260m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num park_pin_num">2</p></td>
+            <td>
+              <p class="map_table_building">三田丘の上公園</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;4分 (約 &nbsp;&nbsp;310m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num park_pin_num">3</p></td>
+            <td>
+              <p class="map_table_building">景丘公園</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;6分 (約 &nbsp;&nbsp;410m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num park_pin_num">4</p></td>
+            <td>
+              <p class="map_table_building">アメリカ橋公園</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;6分 (約 &nbsp;&nbsp;460m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num park_pin_num">5</p></td>
+            <td>
+              <p class="map_table_building">伊達児童遊園地</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;6分 (約 &nbsp;&nbsp;480m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num park_pin_num">6</p></td>
+            <td>
+              <p class="map_table_building">恵比寿南一公園</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;8分 (約 &nbsp;&nbsp;600m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num park_pin_num">7</p></td>
+            <td>
+              <p class="map_table_building">奥三光児童遊園</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;8分 (約 &nbsp;&nbsp;600m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num park_pin_num">8</p></td>
+            <td>
+              <p class="map_table_building">三田公園</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;8分 (約 &nbsp;&nbsp;610m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num park_pin_num">9</p></td>
+            <td>
+              <p class="map_table_building">景丘ちいさい秋公園</p>
+              <p class="map_table_minute">徒歩 &nbsp;&nbsp;9分 (約 &nbsp;&nbsp;690m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num park_pin_num">10</p></td>
+            <td>
+              <p class="map_table_building">目黒東児童遊園</p>
+              <p class="map_table_minute">徒歩 13分 (約 &nbsp;&nbsp;990m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num park_pin_num">11</p></td>
+            <td>
+              <p class="map_table_building">茶屋坂児童遊園</p>
+              <p class="map_table_minute">徒歩 15分 (約 1140m)</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="map_pin_num park_pin_num">12</p></td>
+            <td>
+              <p class="map_table_building">田道広場公園</p>
+              <p class="map_table_minute">徒歩 15分 (約 1190m)</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
     </div>
 </div>
 
