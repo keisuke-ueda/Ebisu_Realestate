@@ -233,6 +233,7 @@
                         </tr>
                         <tr>
                             <td class="date-td-2" scope="col">2022.4.22</td>
+
                             <td class="text-td-2" scope="col">お住まいのアンケートを閉設しました。<br>多数のご応募ありがとうございました。</td>
                         </tr>
                     </table>
