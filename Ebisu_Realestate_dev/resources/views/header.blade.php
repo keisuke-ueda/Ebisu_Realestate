@@ -19,7 +19,7 @@
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;">&nbsp;</div>
         <div class="d-flex align-items-auto">
-          <p class="s10 ft1 blank">&nbsp;</p>
+          <p class="s10 ft1 new-mark">NEW</p>
         </div>
 
         <a href="/location" style="" class="small mh-parts white_link s14">LOCATION</a>
@@ -35,7 +35,7 @@
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;">&nbsp;</div>
         <div class="d-flex align-items-auto">
-          <p class="s10 ft1 blank">&nbsp;</p>
+        <p class="s10 ft1 new-mark">NEW</p>
         </div>
 
         <a href="/design" style="" class="small mh-parts white_link s14">DESIGN</a>
@@ -61,7 +61,7 @@
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;"><a href="/map" class="ft2 s10 mh-parts white_link" style="white-space:nowrap;">>現地案内図</a></div>
         <div class="d-flex align-items-auto">
-          <p class="s10 ft1 blank">&nbsp;</p>
+          <p class="s10 ft1 new-mark">NEW</p>
         </div>
 
         <a href="/blanding" style="" class="small mh-parts white_link s14">BLAND</a>
