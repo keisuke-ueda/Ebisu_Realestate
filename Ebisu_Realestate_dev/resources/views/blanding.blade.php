@@ -9,13 +9,13 @@
 </div>
 
 <div style="height:50px; background-color:#000;"></div>
-<div class="dark-area">
+<div class="dark-area ft2">
     <div class="d-flex justify-content-between align-items-center w-100">
         <div class="animation-1-zm" style="width:45%;">
             <img src="{{ asset('/images/「THE DOORs」（広尾）.jpg') }}" alt="" class="w-75">
-            <p class="s10 ft2">｢THE DOORS｣(広尾)</p>
+            <p class="s10">｢THE DOORS｣(広尾)</p>
             <img src="{{ asset('/images/ラ・アトレ御苑内藤町グランガーデン.jpg') }}" alt="" class="w-75">
-            <p class="s10 ft2">ラ・アトレ御苑内藤町グランガーデン</p>
+            <p class="s10">ラ・アトレ御苑内藤町グランガーデン</p>
         </div>
         <div class="animation-1-zm" style="width:45%;">
             <img src="{{ asset('/images/bland_logo.png') }}" alt="">
@@ -77,6 +77,12 @@
             <p class="mb-1">9 THE DOORS(神山町)　10 THE DOORS(神山町)</p>
         </div>
     </div>
+</div>
+
+
+<!-- SP -->
+<div class="dark-area2">
+
 </div>
 
 @endsection

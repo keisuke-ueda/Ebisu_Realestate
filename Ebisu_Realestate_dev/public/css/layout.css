@@ -1584,6 +1584,7 @@ td.h-110px {
 .life_information {
   border-top: 1px solid #d09a58; 
   border-bottom: 1px solid #d09a58; 
+  margin-top:45px; 
   margin-bottom:45px; 
   width:100vw; 
   margin-right: calc(50% - 50vw);
