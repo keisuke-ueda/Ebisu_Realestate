@@ -10,6 +10,7 @@
 
 <div style="height:150px; background-color:#000;"></div>
 
+<!-- PC -->
 <div class="dark-area">
   <div class="d-flex justify-content-between align-items-center w-100" style="margin: 20px 0 40px;">
       <div class="animation-1-zm" style="width:calc(50% - 17px);">
@@ -33,6 +34,7 @@
   </div>
 </div>
 
+<!-- SP -->
 <div class="dark-area2" style="padding: 50px 45px 45px;">
   <p class="s10 text-center ft2" style="margin-bottom: 50px;">常緑樹の深い緑も豊かな静謐なる街並み。<br>
   周辺の高級住宅街にふさわしい丘上の瀟洒な5階建て。<br>
@@ -47,6 +49,8 @@
   <img class="d-block w-100" src="{{ asset('/images/design photo3.png') }}" alt="" style="">
 </div>
 
+
+<!-- PC・SP共通 -->
 <div class="design-photo4">
   <img class="d-block mx-auto" src="{{ asset('/images/design photo4.png') }}">
   <p class="s11 text-end mx-auto ft2">※掲載の写真はすべて、令和4年3月に撮影したものです。</p>

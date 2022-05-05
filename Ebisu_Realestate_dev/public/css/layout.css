@@ -539,7 +539,7 @@ video {
 }
 
 .text-td-2 {
-  padding: 20px 0px 25px 55px;
+  padding: 25px 0px 25px 55px;
 }
 
 
@@ -1584,6 +1584,7 @@ td.h-110px {
 .life_information {
   border-top: 1px solid #d09a58; 
   border-bottom: 1px solid #d09a58; 
+  margin-top:45px; 
   margin-bottom:45px; 
   width:100vw; 
   margin-right: calc(50% - 50vw);
@@ -1613,6 +1614,9 @@ td.h-110px {
   display: flex; 
   flex-wrap: wrap;
   width: 52%;
+}
+.location_info_photo_sp {
+  display: none;
 }
 
 .location_logo {
@@ -1662,7 +1666,8 @@ td.h-110px {
 }
 .location_photos img {
   width: 100%;
-  max-height: 162px;
+  /* max-height: 162px; */
+  aspect-ratio: 11/8;
   object-fit: cover;
   object-position: 50% 50%;
 }
@@ -1693,6 +1698,72 @@ td.h-110px {
   background-color: #ff9aae;
 }
 
+.map_select_area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map_select_btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 0;
+  width: calc(20% - 8px);
+}
+.map_select_btn:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  
+}
+
+.education_select_btn {
+  background: #e0edff;
+}
+.education_select_btn:before {
+  border-top: 15px solid #e0edff;
+}
+
+.medical_select_btn {
+  background: #e0edff;
+}
+.medical_select_btn:before {
+  border-top: 15px solid #e0edff;
+}
+
+.shopping_select_btn {
+  background: #e0edff;
+}
+.shopping_select_btn:before {
+  border-top: 15px solid #e0edff;
+}
+
+.public_select_btn {
+  background: #e0edff;
+}
+.public_select_btn:before {
+  border-top: 15px solid #e0edff;
+}
+
+.park_select_btn {
+  background: #e0edff;
+}
+.park_select_btn:before {
+  border-top: 15px solid #e0edff;
+}
+
+
+.map_select_btn img {
+  display: block;
+  margin: 0 auto;
+}
+.map_select_btn p {
+  margin: 0;
+  text-align: center;
+}
+
 .location_info_table {
   width: calc(48% - 50px);
   font-size: 14px;
@@ -1718,6 +1789,80 @@ td.h-110px {
 .minutes_td {
   width: 33%;
 }
+
+
+.location_map_area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.google_map {
+  width: 730px;
+  height: 550px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.google_map iframe {
+  width: 800px;
+  height: 800px;
+  margin: -100px 0 0 -100px;
+}
+
+.map_table_area {
+  width: calc(100% - 745px);
+  height: 550px;
+  overflow: scroll;
+}
+.map_table {
+  width: 100%;
+}
+.map_table tr {
+  border-style: dotted none;/* 線種 */
+  border-width: 1px; /* 線の太さ */
+  border-color: #000; /* 線色 */
+}
+.map_table td {
+  padding: 5px 0;
+}
+.map_table_building {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.pin_num_td {
+  width: 25px;
+}
+.map_pin_num{
+  border-radius: 50%;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  line-height:20px;
+  text-align:center;
+}
+.education_pin_num {
+  background-color: #ffc2a1;
+}
+.medical_pin_num {
+  background-color: #b2d2fa;
+}
+.shopping_pin_num {
+  background-color: #f8b9fc;
+}
+.public_pin_num {
+  background-color: #75e498;
+}
+.park_pin_num {
+  background-color: #ff9aae;
+}
+
+.map_table_minute {
+  font-size: 12px;
+  margin: 0;
+  text-align: end;
+}
 /* LOCATIONページ ここまで */
 
 /* DESIGNページ */
@@ -1739,7 +1884,7 @@ td.h-110px {
 }
 .design-photo4 p {
   max-width:1200px; 
-  padding:5px 30px 0 0;
+  padding:5px 20px 5px 0;
 }
 /* DESIGNページ ここまで */
 

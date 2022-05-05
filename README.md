@@ -3,7 +3,13 @@
 
 ## 連絡事項
 4/28 Locationページの作成開始、古いREADMEの古い記述は削除  
-4/29 Locationページ継続中、Designページ着手
+4/29 Locationページ継続中、Designページ着手  
+5/5  
+DESIGN：PC・SPともにほぼ完成  
+LOCATION：PC・SPともに残りは地図の表示切り替え処理、各所見直し・調整  
+BLAND：PCのみ大枠が完成  
+ヘッダー：location,design,blandページへのリンク活性化・newマーク付与  
+TOP：info部分に情報追加  
 
 ttt
 
@@ -11,8 +17,7 @@ ttt
 ### Locationページ
 #### 不足画像
 #### マップ
-・ピン留め機能実装に向けて調査中  
-・マップの上の吹き出しタイトルは画像で用意するか、コードで実装するのか？  
+ 
 ### Designページ
 
 
