@@ -39,9 +39,9 @@
 
 <!-- SP -->
 <div class="dark-area2 ft2" style="padding:45px 20px;">
-    <img class="d-block" src="{{ asset('/images/bland_logo.png') }}" alt="" style="width:70%; margin:0 auto 40px;">
-    <p class="gold-2 s14 text-center" style="margin-bottom:40px;">「住まいは人の心を創り人の生活を創る」</p>
-    <p class="s12 text-center" style="margin-bottom: 40px;">私たちは多くの人々に支えられて存在している<br>
+    <img class="d-block animation" src="{{ asset('/images/bland_logo.png') }}" alt="" style="width:70%; margin:0 auto 40px;">
+    <p class="gold-2 s14 text-center animation" style="margin-bottom:40px;">「住まいは人の心を創り人の生活を創る」</p>
+    <p class="s12 text-center animation" style="margin-bottom: 40px;">私たちは多くの人々に支えられて存在している<br>
         社会の一員であることを自覚し、<br>
         それらの人々との日々の出会いを通して<br>
         ”魅力のある価値”を創造します。<br>
@@ -51,13 +51,17 @@
         ”魅力のある商品・サービス”を創作し、<br>
         多くの人々の豊かな”魅力のある社会”の実現に貢献します。
     </p>
-    <p class="s10 text-center">社名であるL'attraitは、フランス語で｢魅力｣を意味します。<br>
+    <p class="s10 text-center animation">社名であるL'attraitは、フランス語で｢魅力｣を意味します。<br>
         すなわちCorporate Philosophyである企業理念に由来しています。
     </p>
-    <img src="{{ asset('/images/「THE DOORs」（広尾）.jpg') }}" alt="" style="width:100%; margin-top:20px;">
-    <p class="text-end s10 pt-1">｢THE DOORS｣(広尾)</p>
-    <img src="{{ asset('/images/ラ・アトレ御苑内藤町グランガーデン.jpg') }}" alt="" style="width:100%;">
-    <p class="text-end s10 pt-1">ラ・アトレ御苑内藤町グランガーデン</p>
+    <div class="animation">
+        <img src="{{ asset('/images/「THE DOORs」（広尾）.jpg') }}" alt="" style="width:100%; margin-top:20px;">
+        <p class="text-end s10 pt-1">｢THE DOORS｣(広尾)</p>
+    </div>
+    <div class="animation">
+        <img src="{{ asset('/images/ラ・アトレ御苑内藤町グランガーデン.jpg') }}" alt="" style="width:100%;">
+        <p class="text-end s10 pt-1">ラ・アトレ御苑内藤町グランガーデン</p>
+    </div>
 </div>
 
 

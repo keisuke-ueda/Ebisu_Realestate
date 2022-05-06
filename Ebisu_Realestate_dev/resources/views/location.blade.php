@@ -524,7 +524,7 @@
     <!-- 教育施設 -->
     <div class="location_map_area education_map">
       <div class="google_map">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1yy-MUPvQTyds_je12N-fLAs9JUF3hQOX&ehbc=2E312F"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1yy-MUPvQTyds_je12N-fLAs9JUF3hQOX&ehbc=2E312F"></iframe>
       </div>
 
       <div class="map_table_area">
