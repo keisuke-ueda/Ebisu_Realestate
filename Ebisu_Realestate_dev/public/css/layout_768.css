@@ -936,8 +936,22 @@ input {
 /* DESIGNページ ここまで */
 
 
-/* DESIGNページ */
+/* BLANDページ */
 .bland-top img {
   width: 70%;
   margin-top: 150px;
+}
+
+.bland_map_bg {
+  padding: 70px 0 50px;
+}
+.bland_map {
+  width: 100%;
+}
+.bland_map_p {
+  font-size: 10px;
+  margin: 0 40px;
+}
+.bland_map img {
+  margin: 0 40px;
 }

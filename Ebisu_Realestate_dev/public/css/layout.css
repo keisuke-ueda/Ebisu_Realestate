@@ -1577,7 +1577,7 @@ td.h-110px {
   background-color: #000;
 }
 .location-top img {
-  width: 25%;
+  width: 30%;
   margin-top: 200px;
 }
 
@@ -1880,10 +1880,10 @@ td.h-110px {
   padding:100px 0 0;
 }
 .design-photo4 img {
-  max-width:1200px;
+  max-width:100%;
 }
 .design-photo4 p {
-  max-width:1200px; 
+  width:100%; 
   padding:5px 20px 5px 0;
 }
 /* DESIGNページ ここまで */
@@ -1897,5 +1897,12 @@ td.h-110px {
 .bland-top img {
   width: 25%;
   margin-top: 200px;
+}
+
+.bland_map_bg {
+  padding: 85px 0 0;
+}
+.bland_map {
+  max-width: 880px;
 }
 /* BLANDページ ここまで */

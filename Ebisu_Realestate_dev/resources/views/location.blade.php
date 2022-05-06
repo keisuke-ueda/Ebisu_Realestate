@@ -95,7 +95,7 @@
 
         <div class="d-flex justify-content-between">
             <div style="width: calc(50% - 5px);">
-                <img class="animation 0-zm w-100" src="{{ asset('/images/ebisupage_atreebisu.png') }}" style="object-fit: cover; object-position: 100% 100%">
+                <img class="animation-0-zm w-100" src="{{ asset('/images/ebisupage_atreebisu.png') }}" style="object-fit: cover; object-position: 100% 100%">
                 <p class="text-center s9">｢アトレ恵比寿｣<br>(約1000m・徒歩13分)</p>
             </div>
             <div style="width: calc(50% - 5px);" style="margin-left:20px;">
@@ -105,7 +105,7 @@
         </div>
         <div class="d-flex justify-content-between">
             <div style="width: calc(50% - 5px);">
-                <img class="animation-0-zm w-100" src="{{ asset('/images/ebisupage_ウエスティンホテル.png') }}" style="object-fit: cover; object-position: 100% 100%">
+                <img class="animation-1-zm w-100" src="{{ asset('/images/ebisupage_ウエスティンホテル.png') }}" style="object-fit: cover; object-position: 100% 100%">
                 <p class="text-center s9">｢ウエスティンホテル東京｣<br>(約300m・徒歩4分)</p>
             </div>
             <div style="width: calc(50% - 5px);" style="margin-left:20px;">
@@ -115,11 +115,11 @@
         </div>
         <div class="d-flex justify-content-between">
             <div style="width: calc(50% - 5px);">
-                <img class="animation-1-zm w-100" src="{{ asset('/images/ebisupage_東京大学医療課付属研究所.png') }}" style="object-fit: cover; object-position: 100% 100%">
+                <img class="animation-2-zm w-100" src="{{ asset('/images/ebisupage_東京大学医療課付属研究所.png') }}" style="object-fit: cover; object-position: 100% 100%">
                 <p class="text-center s9 m-0">｢東京大学医療科学研究附属病院｣<br>(約630m・徒歩8分)</p>
             </div>
             <div style="width: calc(50% - 5px);" style="margin-left:20px;">
-                <img class="animation-1-zm w-100" src="{{ asset('/images/ebisupage_サッポロ広場.png') }}" style="object-fit: cover; object-position: 100% 100%">
+                <img class="animation-2-zm w-100" src="{{ asset('/images/ebisupage_サッポロ広場.png') }}" style="object-fit: cover; object-position: 100% 100%">
                 <p class="text-center s9 m-0">｢サッポロ広場｣<br>(約260m・徒歩4分)</p>
             </div>
         </div>
@@ -131,7 +131,7 @@
 <div class="location_info_area bg-white text-dark ft2">
     <div class="location_info_group">
       <div class="location_info">
-        <div class="location_info_photo">
+        <div class="location_info_photo animation-0-zm">
           <div class="location_logo education_logo">
             <img class="" src="{{ asset('/images/education_logo.png') }}" alt="">
           </div>
@@ -148,7 +148,7 @@
             <p>白金幼稚園</p>
           </div>
         </div>
-        <table class="location_info_table">
+        <table class="location_info_table animation-1-zm">
           <tbody>
             <tr>
               <td class="name_td">ペガサスインターナショナルスクール</td>
@@ -198,7 +198,7 @@
         </table>
       </div>
       <div class="location_info">
-        <div class="location_info_photo location_info_photo_sp">
+        <div class="location_info_photo location_info_photo_sp animation">
           <div class="location_logo medical_logo">
             <img class="" src="{{ asset('/images/medical_logo.png') }}" alt="">
           </div>
@@ -215,7 +215,7 @@
             <p>都立広尾病院</p>
           </div>
         </div>
-        <table class="location_info_table">
+        <table class="location_info_table animation-1-zm">
           <tbody>
             <tr>
               <td class="name_td">恵比寿病院</td>
@@ -263,7 +263,7 @@
             </tr>
           </tbody>
         </table>
-        <div class="location_info_photo location_info_photo_pc">
+        <div class="location_info_photo location_info_photo_pc animation">
           <div class="location_logo medical_logo">
             <img class="" src="{{ asset('/images/medical_logo.png') }}" alt="">
           </div>
@@ -282,7 +282,7 @@
         </div>
       </div>
       <div class="location_info">
-        <div class="location_info_photo">
+        <div class="location_info_photo animation">
           <div class="location_logo shopping_logo">
             <img class="" src="{{ asset('/images/shopping_logo.png') }}" alt="">
           </div>
@@ -299,7 +299,7 @@
             <p>アトレ恵比寿</p>
           </div>
         </div>
-        <table class="location_info_table">
+        <table class="location_info_table animation-1-zm">
           <tbody>
             <tr>
               <td class="name_td">ライフ<br><span>セントラルスクエア恵比寿ガーデンプレイス店</span></td>
@@ -345,7 +345,7 @@
         </table>
       </div>
       <div class="location_info">
-        <div class="location_info_photo location_info_photo_sp">
+        <div class="location_info_photo location_info_photo_sp animation">
           <div class="location_logo public_logo">
             <img class="" src="{{ asset('/images/public_logo.png') }}" alt="">
           </div>
@@ -362,7 +362,7 @@
             <p>目黒区民センター</p>
           </div>
         </div>
-        <table class="location_info_table">
+        <table class="location_info_table animation-1-zm">
           <tbody>
             <tr>
               <td class="name_td">恵比寿4丁目交番</td>
@@ -406,7 +406,7 @@
             </tr>
           </tbody>
         </table>
-        <div class="location_info_photo location_info_photo_pc">
+        <div class="location_info_photo location_info_photo_pc animation">
           <div class="location_logo public_logo">
             <img class="" src="{{ asset('/images/public_logo.png') }}" alt="">
           </div>
@@ -425,7 +425,7 @@
         </div>
       </div>
       <div class="location_info">
-        <div class="location_info_photo">
+        <div class="location_info_photo animation">
           <div class="location_logo park_logo">
             <img class="" src="{{ asset('/images/park_logo.png') }}" alt="">
           </div>
@@ -442,7 +442,7 @@
             <p>アメリカ橋公園</p>
           </div>
         </div>
-        <table class="location_info_table">
+        <table class="location_info_table animation-1-zm">
           <tbody>
             <tr>
               <td class="name_td">サッポロ広場</td>
