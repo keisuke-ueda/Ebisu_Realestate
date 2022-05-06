@@ -498,33 +498,28 @@
     </div>
 
     <!-- 吹き出し -->
-    <!-- <div class="map_select_area">
-      <div class="map_select_btn education_select_btn">
-        <img src="{{ asset('/images/education_select.png') }}" alt="">
+    <div class="map_select_area">
+      <div class="map_select_btn education_select_btn" style="cursor: pointer;">
         <p>教育施設</p>
       </div>
-      <div class="map_select_btn medical_select_btn">
-        <img src="{{ asset('/images/medical_select.png') }}" alt="">
+      <div class="map_select_btn medical_select_btn" style="cursor: pointer;">
         <p>医療施設</p>
       </div>
-      <div class="map_select_btn shopping_select_btn">
-        <img src="{{ asset('/images/shopping_select.png') }}" alt="">
+      <div class="map_select_btn shopping_select_btn" style="cursor: pointer;">
         <p>商業施設</p>
       </div>
-      <div class="map_select_btn public_select_btn">
-        <img src="{{ asset('/images/public_select.png') }}" alt="">
+      <div class="map_select_btn public_select_btn" style="cursor: pointer;">
         <p>公共施設</p>
       </div>
-      <div class="map_select_btn park_select_btn">
-        <img src="{{ asset('/images/park_select.png') }}" alt="">
+      <div class="map_select_btn park_select_btn" style="cursor: pointer;">
         <p>公園・レジャー施設</p>
       </div>
-    </div> -->
+    </div>
 
     <!-- 教育施設 -->
     <div class="location_map_area education_map">
       <div class="google_map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=1yy-MUPvQTyds_je12N-fLAs9JUF3hQOX&ehbc=2E312F"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1yy-MUPvQTyds_je12N-fLAs9JUF3hQOX&ehbc=2E312F&z=14"></iframe>
       </div>
 
       <div class="map_table_area">
@@ -614,9 +609,9 @@
     </div>
 
     <!-- 医療施設 -->
-    <div class="location_map_area medical_map">
+    <div class="location_map_area medical_map d-none">
       <div class="google_map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=182MXIrKXFXprsEmoJY0gw3XYYX0QQhSx&ehbc=2E312F"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=182MXIrKXFXprsEmoJY0gw3XYYX0QQhSx&ehbc=2E312F&z=14"></iframe>
       </div>
 
       <div class="map_table_area">
@@ -707,9 +702,9 @@
 
 
     <!-- 商業施設 -->
-    <div class="location_map_area shopping_map">
+    <div class="location_map_area shopping_map d-none">
       <div class="google_map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=15vJ7xrCLyjimfBzaG2TT10XM8KRchdU7&ehbc=2E312F"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=15vJ7xrCLyjimfBzaG2TT10XM8KRchdU7&ehbc=2E312F&z=14"></iframe>
       </div>
 
       <div class="map_table_area">
@@ -793,9 +788,9 @@
 
 
     <!-- 公共施設 -->
-    <div class="location_map_area public_map">
+    <div class="location_map_area public_map d-none">
       <div class="google_map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=11ewFngwJXLO2uhd-2TqsuSZ3-u4ZpRt_&ehbc=2E312F"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=11ewFngwJXLO2uhd-2TqsuSZ3-u4ZpRt_&ehbc=2E312F&z=14"></iframe>
       </div>
 
       <div class="map_table_area">
@@ -879,9 +874,9 @@
 
 
     <!-- 公園・レジャー施設 -->
-    <div class="location_map_area park_map">
+    <div class="location_map_area park_map d-none">
       <div class="google_map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=14EqxnbIw4-umWMdisArjlzXJds5jVYZ8&ehbc=2E312F"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=14EqxnbIw4-umWMdisArjlzXJds5jVYZ8&ehbc=2E312F&z=14"></iframe>
       </div>
 
       <div class="map_table_area">
