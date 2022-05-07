@@ -276,14 +276,14 @@
             </div>
 
             <!-- Location -->
-            <!-- <div class="read_more_link">
+            <div class="read_more_link_r">
                 <div class="animation location_col text_side ft2 s14">
                     <img class="location_img" src="{{ asset('/images/thelocation.svg') }}" alt="サンプル画像">
-                    <p class="location_p" style="white-space:nowrap;">洗練と成熟に抱かれた街、恵比寿。<br>
-                        ここに誕生するのは、静けさと美しさを纏う邸宅。<br>
+                    <p class="location_p" style="">洗練と成熟に抱かれた街､恵比寿｡<br>
+                        ここに誕生するのは、静けさと美しさを纏う邸宅｡<br>
                         「ラ・アトレ恵比寿グランガーデン」<br>
-                        建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
-                        ココに暮らす人々の姿さえも、この地の美しい風景となる。
+                        建築の美しいモダン邸宅と街並みの美しい潤いが､<br>
+                        ここに暮らす人々の姿さえも､この地の美しい風景となる｡
                     </p>
                     <div class="gold_line location_line"></div>
                     <div class="w-60">
@@ -302,7 +302,7 @@
                         <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="サンプル画像"  class="animation-1-zm location_pic bottom_pic">
                     </div>
                 </div>
-            </div> -->
+            </div>
 
             <!-- Access -->
             <div class="read_more_link">
@@ -328,7 +328,7 @@
             </div>
 
             <!-- Design -->
-            <!-- <div class="read_more_link">
+            <div class="read_more_link_r">
                 <div class="text_side animation design_col ft2 s14">
                     <img class="design_img" src="{{ asset('/images/thedesign.svg') }}" alt="サンプル画像">
                     <p class="design_p">常緑樹の深い緑も豊かな静謐なる街並み。周辺の<br>
@@ -347,7 +347,7 @@
                 <div class="picture_side animation-1-zm design_pic h-100">
                     <img src="{{ asset('/images/the design photo1.png') }}" alt="サンプル画像" class="w-100">
                 </div>
-            </div> -->
+            </div>
 
             <!-- Plan -->
             <!-- <div class="read_more_link">
@@ -399,7 +399,7 @@
             </div>
 
             <!-- LOCATION -->
-            <!-- <div class="read_more_link2">
+            <div class="read_more_link2">
                 <img src="{{ asset('/images/thelocation.svg') }}" alt="THE LOCATION" class="the-logo">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
@@ -420,7 +420,7 @@
                 <button class="gold_btn read_more" type="button">
                     <a href="/concept" class="text-white mh-parts ft2" style="pointer-events:none;">Read More</a>
                 </button>
-            </div> -->
+            </div>
 
             <!-- ACCESS -->
             <div class="read_more_link2">
@@ -439,7 +439,7 @@
             </div>
 
             <!-- DESIGN -->
-            <!-- <div class="read_more_link2">
+            <div class="read_more_link2">
                 <img src="{{ asset('/images/thedesign.svg') }}" alt="THE DESIGN" class="the-logo">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
@@ -453,13 +453,13 @@
                 <button class="gold_btn read_more" type="button">
                     <a href="/concept" class="text-white mh-parts ft2">Read More</a>
                 </button>
-            </div> -->
+            </div>
         </div>
 
 
         <!-- PC・SP共通 -->
         <div class="animation" style="margin-top:50px;">
-            <!-- <a href="/branding" class="d-block mx-auto bland_img_link" style="pointer-events:none;"><img src="{{ asset('/images/bland photo.png') }}" alt="ブランディングバナー" style="width:100%;"></a> -->
+            <a href="/blanding" class="d-block mx-auto bland_img_link" style="cursor: pointer;"><img src="{{ asset('/images/bland photo.png') }}" alt="ブランディングバナー" style="width:100%;"></a>
             <div class="entry_link">
                 <button class="copper_btn" type="button">
                     <a href="/entry" class="text-white mh-parts ft2 s19">物件エントリー受付中</a>

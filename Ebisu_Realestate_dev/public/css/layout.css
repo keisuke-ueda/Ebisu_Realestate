@@ -557,6 +557,13 @@ video {
   width: 100%;
   margin-bottom:130px;
 }
+.read_more_link_r {
+  display: flex;
+  justify-content: end;
+  align-items: auto;
+  width: 100%;
+  margin-bottom:130px;
+}
 
 .picture_side {
   display:flex;
@@ -570,7 +577,6 @@ video {
 
 .text_side p {
   width: 100%;
-  white-space:nowrap; 
   margin: 20px 0 24px;
 }
 
@@ -648,15 +654,23 @@ video {
   /* padding: 0 0.9375rem 0 6.875rem; */
   /* padding-right: 1.25vw; */
   /* padding: 0 15px 0 110px; */
+  margin-right: 60px;
+  width:-moz-fit-content; /* Firefox */
+  width:fit-content; /* other browsers */
+}
+.location_p {
+  width:-moz-fit-content; /* Firefox */
+  width:fit-content; /* other browsers */
 }
 .location_img {
   /* width: calc(100% - 3.125rem); */
   /* width: calc(100% - 4.17vw); */
   /* width: calc(100% - 50px); */
-  width: 20vw;
+  width: 19vw;
 }
 .location_pics {
   padding-right:38px;
+  width: 57%;
 }
 .location_pic_pair1, .location_pic_pair2 {
   display: flex;
@@ -703,11 +717,21 @@ video {
 .design_col {
   /* padding: 0 2.8125rem 0 6.25rem; */
   /* padding: 0 3.75vw 0 0; */
+  margin-right: 60px;
+  width:-moz-fit-content; /* Firefox */
+  width:fit-content; /* other browsers */
+}
+.design_p {
+  width:-moz-fit-content; /* Firefox */
+  width:fit-content; /* other browsers */
 }
 .design_img {
   width: 20vw;
 }
 
+.design_pic {
+  width: 57%;
+}
 /* PLANリンク */
 .plan_img {
   width: 20vw;

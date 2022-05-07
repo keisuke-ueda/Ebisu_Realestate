@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="design-top">
-    <img  class="img-fluid" src="{{ asset('/images/thedesign.svg') }}">
+    <img  class="img-fluid" src="{{ asset('/images/the design.svg') }}">
 </div>
 
 <div style="height:50px; background-color:#000;"></div>
