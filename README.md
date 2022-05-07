@@ -10,8 +10,9 @@ LOCATION：PC・SPともに残りは地図の表示切り替え処理、各所�
 BLAND：PCのみ大枠が完成  
 ヘッダー：location,design,blandページへのリンク活性化・newマーク付与  
 TOP：info部分に情報追加  
-
-ttt
+5/6  
+BLAND：PC・SPともにほぼ完成(残り微調整あり)  
+LOCATION：吹き出し部分は仮置きで、表示切り替え実装完了  
 
 ## 調整課題
 ### Locationページ
