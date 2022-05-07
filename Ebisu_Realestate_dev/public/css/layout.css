@@ -1838,25 +1838,26 @@ td.h-110px {
 .map_pin_num{
   border-radius: 50%;
   color: #fff;
-  width: 20px;
-  height: 20px;
-  line-height:20px;
+  width: 22px;
+  height: 22px;
+  line-height:22px;
   text-align:center;
+  font-size: 15px;
 }
 .education_pin_num {
-  background-color: #ffc2a1;
+  background-color: rgb(249, 168, 37);
 }
 .medical_pin_num {
-  background-color: #b2d2fa;
+  background-color: rgb(2, 136, 209);
 }
 .shopping_pin_num {
-  background-color: #f8b9fc;
+  background-color: rgb(159, 39, 156);
 }
 .public_pin_num {
-  background-color: #75e498;
+  background-color: rgb(15, 157, 88);
 }
 .park_pin_num {
-  background-color: #ff9aae;
+  background-color: rgb(255, 82, 82);
 }
 
 .map_table_minute {
