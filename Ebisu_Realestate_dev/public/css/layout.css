@@ -557,6 +557,13 @@ video {
   width: 100%;
   margin-bottom:130px;
 }
+.read_more_link_r {
+  display: flex;
+  justify-content: end;
+  align-items: auto;
+  width: 100%;
+  margin-bottom:130px;
+}
 
 .picture_side {
   display:flex;
@@ -570,7 +577,6 @@ video {
 
 .text_side p {
   width: 100%;
-  white-space:nowrap; 
   margin: 20px 0 24px;
 }
 
@@ -648,15 +654,23 @@ video {
   /* padding: 0 0.9375rem 0 6.875rem; */
   /* padding-right: 1.25vw; */
   /* padding: 0 15px 0 110px; */
+  margin-right: 60px;
+  width:-moz-fit-content; /* Firefox */
+  width:fit-content; /* other browsers */
+}
+.location_p {
+  width:-moz-fit-content; /* Firefox */
+  width:fit-content; /* other browsers */
 }
 .location_img {
   /* width: calc(100% - 3.125rem); */
   /* width: calc(100% - 4.17vw); */
   /* width: calc(100% - 50px); */
-  width: 20vw;
+  width: 19vw;
 }
 .location_pics {
   padding-right:38px;
+  width: 57%;
 }
 .location_pic_pair1, .location_pic_pair2 {
   display: flex;
@@ -703,11 +717,21 @@ video {
 .design_col {
   /* padding: 0 2.8125rem 0 6.25rem; */
   /* padding: 0 3.75vw 0 0; */
+  margin-right: 60px;
+  width:-moz-fit-content; /* Firefox */
+  width:fit-content; /* other browsers */
+}
+.design_p {
+  width:-moz-fit-content; /* Firefox */
+  width:fit-content; /* other browsers */
 }
 .design_img {
   width: 20vw;
 }
 
+.design_pic {
+  width: 57%;
+}
 /* PLANリンク */
 .plan_img {
   width: 20vw;
@@ -1577,7 +1601,7 @@ td.h-110px {
   background-color: #000;
 }
 .location-top img {
-  width: 25%;
+  width: 30%;
   margin-top: 200px;
 }
 
@@ -1807,13 +1831,14 @@ td.h-110px {
 .google_map iframe {
   width: 800px;
   height: 800px;
-  margin: -100px 0 0 -100px;
+  margin: -60px 0 0 0;
 }
 
 .map_table_area {
   width: calc(100% - 745px);
   height: 550px;
-  overflow: scroll;
+  overflow-y: scroll;
+  padding-right: 20px;
 }
 .map_table {
   width: 100%;
@@ -1837,25 +1862,26 @@ td.h-110px {
 .map_pin_num{
   border-radius: 50%;
   color: #fff;
-  width: 20px;
-  height: 20px;
-  line-height:20px;
+  width: 22px;
+  height: 22px;
+  line-height:22px;
   text-align:center;
+  font-size: 15px;
 }
 .education_pin_num {
-  background-color: #ffc2a1;
+  background-color: rgb(249, 168, 37);
 }
 .medical_pin_num {
-  background-color: #b2d2fa;
+  background-color: rgb(2, 136, 209);
 }
 .shopping_pin_num {
-  background-color: #f8b9fc;
+  background-color: rgb(159, 39, 156);
 }
 .public_pin_num {
-  background-color: #75e498;
+  background-color: rgb(15, 157, 88);
 }
 .park_pin_num {
-  background-color: #ff9aae;
+  background-color: rgb(255, 82, 82);
 }
 
 .map_table_minute {
@@ -1880,10 +1906,10 @@ td.h-110px {
   padding:100px 0 0;
 }
 .design-photo4 img {
-  max-width:1200px;
+  max-width:100%;
 }
 .design-photo4 p {
-  max-width:1200px; 
+  width:100%; 
   padding:5px 20px 5px 0;
 }
 /* DESIGNページ ここまで */
@@ -1897,5 +1923,12 @@ td.h-110px {
 .bland-top img {
   width: 25%;
   margin-top: 200px;
+}
+
+.bland_map_bg {
+  padding: 85px 0 0;
+}
+.bland_map {
+  max-width: 880px;
 }
 /* BLANDページ ここまで */

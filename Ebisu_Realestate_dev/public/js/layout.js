@@ -200,6 +200,45 @@ $(function () {
   });
   $('.current').css('color', 'white');
 
+
+  // Locationページ 地図の表示切り替え
+  $('.education_select_btn').on('click', function() {
+    $('.education_map').removeClass('d-none')
+    $('.medical_map').addClass('d-none')
+    $('.shopping_map').addClass('d-none')
+    $('.public_map').addClass('d-none')
+    $('.park_map').addClass('d-none')
+  })
+  $('.medical_select_btn').on('click', function() {
+    $('.education_map').addClass('d-none')
+    $('.medical_map').removeClass('d-none')
+    $('.shopping_map').addClass('d-none')
+    $('.public_map').addClass('d-none')
+    $('.park_map').addClass('d-none')
+  })
+  $('.shopping_select_btn').on('click', function() {
+    $('.education_map').addClass('d-none')
+    $('.medical_map').addClass('d-none')
+    $('.shopping_map').removeClass('d-none')
+    $('.public_map').addClass('d-none')
+    $('.park_map').addClass('d-none')
+  })
+  $('.public_select_btn').on('click', function() {
+    $('.education_map').addClass('d-none')
+    $('.medical_map').addClass('d-none')
+    $('.shopping_map').addClass('d-none')
+    $('.public_map').removeClass('d-none')
+    $('.park_map').addClass('d-none')
+  })
+  $('.park_select_btn').on('click', function() {
+    $('.education_map').addClass('d-none')
+    $('.medical_map').addClass('d-none')
+    $('.shopping_map').addClass('d-none')
+    $('.public_map').addClass('d-none')
+    $('.park_map').removeClass('d-none')
+  })
+
+
   // フォームの入力バリデーション
   $('.mailformpro').validate({
     rules: {
