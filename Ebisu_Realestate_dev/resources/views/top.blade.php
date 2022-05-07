@@ -237,7 +237,12 @@
                         </tr>
                         <tr>
                             <td class="date-td-2" scope="col">2022.5.10</td>
-                            <td class="text-td-2" scope="col">お住まいのアンケートを閉設しました。<br>多数のご応募ありがとうございました。</td>
+                            <td class="text-td-2" scope="col">お住まいのアンケートを閉鎖しました。<br>
+                            アンケートにご協力頂きまして、誠にありがとうございました。<br>
+                            お蔭さまで貴重なご意見を多数頂戴することができました。<br>
+                            頂いたご意見は、ご要望として今後の商品開発の参考とさせていただき、<br>
+                            よりご満足頂けるものにできるよう活用させて頂きます。<br>
+                            今後ともご指導ご鞭撻を賜りますようお願い申し上げます。</td>
                         </tr>
                         <tr>
                             <td class="date-td-2" scope="col">2022.5.13</td>
@@ -279,7 +284,7 @@
             <div class="read_more_link_r">
                 <div class="animation location_col text_side ft2 s14">
                     <img class="location_img" src="{{ asset('/images/thelocation.svg') }}" alt="サンプル画像">
-                    <p class="location_p" style="">洗練と成熟に抱かれた街､恵比寿｡<br>
+                    <p class="location_p">洗練と成熟に抱かれた街､恵比寿｡<br>
                         ここに誕生するのは、静けさと美しさを纏う邸宅｡<br>
                         「ラ・アトレ恵比寿グランガーデン」<br>
                         建築の美しいモダン邸宅と街並みの美しい潤いが､<br>
