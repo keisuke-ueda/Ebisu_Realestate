@@ -18,7 +18,7 @@
       </div>
       <div class="text-white animation d-flex flex-column justify-content-center ft2 s18" style="width:calc(40% - 45px);">
           <p class="gold-2" style="margin-bottom:10px;">一想一邸の確かな結晶。</p>
-          <p class="gold-2" style="margin-bottom:20px;">「ラ・アトレ恵比寿グランガーデン」</p>
+          <p class="gold-2" style="margin-bottom:40px;">「ラ・アトレ恵比寿グランガーデン」</p>
           <p class="s14" style="margin:0;">恵比寿、それも「恵比寿ガーデンプレイス」<br>
           「ウェスティンホテル東京」を間近とする住宅地。<br>
           その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
@@ -90,7 +90,7 @@
         <img class="animation d-block w-100" src="{{ asset('/images/航空写真.jpg') }}" alt="">
 
         <div class="life_information animation" style="">
-          <img class="d-block mx-auto" src="{{ asset('/images/life information.png') }}" alt="" style="width:40%;">
+          <img class="d-block mx-auto" src="{{ asset('/images/life information.png') }}" alt="" style="width:60%;">
         </div>
 
         <div class="d-flex justify-content-between">

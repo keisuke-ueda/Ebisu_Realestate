@@ -38,7 +38,7 @@
 </div>
 
 <!-- SP -->
-<div class="dark-area2 ft2" style="padding:45px 20px;">
+<div class="dark-area2 ft2" style="padding:30px 20px;">
     <img class="d-block animation" src="{{ asset('/images/bland_logo.png') }}" alt="" style="width:70%; margin:0 auto 40px;">
     <p class="gold-2 s14 text-center animation" style="margin-bottom:40px;">「住まいは人の心を創り人の生活を創る」</p>
     <p class="s12 text-center animation" style="margin-bottom: 40px;">私たちは多くの人々に支えられて存在している<br>
@@ -60,7 +60,7 @@
     </div>
     <div class="animation">
         <img src="{{ asset('/images/ラ・アトレ御苑内藤町グランガーデン.jpg') }}" alt="" style="width:100%;">
-        <p class="text-end s10 pt-1">ラ・アトレ御苑内藤町グランガーデン</p>
+        <p class="text-end s10 pt-1 m-0">ラ・アトレ御苑内藤町グランガーデン</p>
     </div>
 </div>
 
@@ -120,7 +120,7 @@
 
 
 <!-- SP -->
-<div class="dark-area2" style="padding:40px 0 20px;">
+<div class="dark-area2" style="padding:30px 0 20px;">
     <div class="mx-auto animation-1-zm" style="width: calc(100% - 100px);">
         <div class="d-flex justify-content-between w-100">
             <div style="width:calc(60% - 4px);">
