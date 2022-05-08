@@ -858,9 +858,42 @@ input {
 }
 
 
+.map_select_area {
+  justify-content: center;
+  align-items: auto;
+  flex-wrap: wrap;
+}
+
+.map_select_btn {
+  padding: 0;
+  width: calc(33% - 4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.map_select_btn:before,
+.map_select_btn:after {
+  display: none;
+}
+.map_select_btn img {
+  height: 60%;
+}
+
+.medical_select_btn {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+.public_select_btn {
+  margin-right: 3px;
+}
+.park_select_btn {
+  margin-left: 3px;
+}
 
 .location_map_area {
   display: block;
+  margin-top: 0;
 }
 
 .google_map {

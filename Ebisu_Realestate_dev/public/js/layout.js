@@ -202,42 +202,176 @@ $(function () {
 
 
   // Locationページ 地図の表示切り替え
+
+  // 教育施設の吹き出しをクリック
   $('.education_select_btn').on('click', function() {
+    // 教育施設
     $('.education_map').removeClass('d-none')
+    $('.education_selected').removeClass('d-none');
+    $('.education_unselected').addClass('d-none')
+    $('.education_select_btn').css('background-color','#ffc2a1')
+    $('.education_select_btn').addClass('selected')
+    // 医療施設
     $('.medical_map').addClass('d-none')
+    $('.medical_selected').addClass('d-none');
+    $('.medical_unselected').removeClass('d-none')
+    $('.medical_select_btn').css('background-color','#fff')
+    $('.medical_select_btn').removeClass('selected')
+    // 商業施設
     $('.shopping_map').addClass('d-none')
+    $('.shopping_selected').addClass('d-none');
+    $('.shopping_unselected').removeClass('d-none')
+    $('.shopping_select_btn').css('background-color','#fff')
+    $('.shopping_select_btn').removeClass('selected')
+    // 公共施設
     $('.public_map').addClass('d-none')
+    $('.public_selected').addClass('d-none');
+    $('.public_unselected').removeClass('d-none')
+    $('.public_select_btn').css('background-color','#fff')
+    $('.public_select_btn').removeClass('selected')
+    // 公園・レジャー施設
     $('.park_map').addClass('d-none')
+    $('.park_selected').addClass('d-none');
+    $('.park_unselected').removeClass('d-none')
+    $('.park_select_btn').css('background-color','#fff')
+    $('.park_select_btn').removeClass('selected')
   })
+  
+  // 医療施設の吹き出しをクリック
   $('.medical_select_btn').on('click', function() {
+    // 教育施設
     $('.education_map').addClass('d-none')
+    $('.education_selected').addClass('d-none');
+    $('.education_unselected').removeClass('d-none')
+    $('.education_select_btn').css('background-color','#fff')
+    $('.education_select_btn').removeClass('selected')
+    // 医療施設
     $('.medical_map').removeClass('d-none')
+    $('.medical_selected').removeClass('d-none');
+    $('.medical_unselected').addClass('d-none')
+    $('.medical_select_btn').css('background-color','#b2d2fa')
+    $('.medical_select_btn').addClass('selected')
+    // 商業施設
     $('.shopping_map').addClass('d-none')
+    $('.shopping_selected').addClass('d-none');
+    $('.shopping_unselected').removeClass('d-none')
+    $('.shopping_select_btn').css('background-color','#fff')
+    $('.shopping_select_btn').removeClass('selected')
+    // 公共施設
     $('.public_map').addClass('d-none')
+    $('.public_selected').addClass('d-none');
+    $('.public_unselected').removeClass('d-none')
+    $('.public_select_btn').css('background-color','#fff')
+    $('.public_select_btn').removeClass('selected')
+    // 公園・レジャー施設
     $('.park_map').addClass('d-none')
-  })
-  $('.shopping_select_btn').on('click', function() {
-    $('.education_map').addClass('d-none')
-    $('.medical_map').addClass('d-none')
-    $('.shopping_map').removeClass('d-none')
-    $('.public_map').addClass('d-none')
-    $('.park_map').addClass('d-none')
-  })
-  $('.public_select_btn').on('click', function() {
-    $('.education_map').addClass('d-none')
-    $('.medical_map').addClass('d-none')
-    $('.shopping_map').addClass('d-none')
-    $('.public_map').removeClass('d-none')
-    $('.park_map').addClass('d-none')
-  })
-  $('.park_select_btn').on('click', function() {
-    $('.education_map').addClass('d-none')
-    $('.medical_map').addClass('d-none')
-    $('.shopping_map').addClass('d-none')
-    $('.public_map').addClass('d-none')
-    $('.park_map').removeClass('d-none')
+    $('.park_selected').addClass('d-none');
+    $('.park_unselected').removeClass('d-none')
+    $('.park_select_btn').css('background-color','#fff')
+    $('.park_select_btn').removeClass('selected')
   })
 
+  // 商業施設の吹き出しをクリック
+  $('.shopping_select_btn').on('click', function() {
+    // 教育施設
+    $('.education_map').addClass('d-none')
+    $('.education_selected').addClass('d-none');
+    $('.education_unselected').removeClass('d-none')
+    $('.education_select_btn').css('background-color','#fff')
+    $('.education_select_btn').removeClass('selected')
+    // 医療施設
+    $('.medical_map').addClass('d-none')
+    $('.medical_selected').addClass('d-none');
+    $('.medical_unselected').removeClass('d-none')
+    $('.medical_select_btn').css('background-color','#fff')
+    $('.medical_select_btn').removeClass('selected')
+    // 商業施設
+    $('.shopping_map').removeClass('d-none')
+    $('.shopping_selected').removeClass('d-none');
+    $('.shopping_unselected').addClass('d-none')
+    $('.shopping_select_btn').css('background-color','#f8b9fc')
+    $('.shopping_select_btn').addClass('selected')
+    // 公共施設
+    $('.public_map').addClass('d-none')
+    $('.public_selected').addClass('d-none');
+    $('.public_unselected').removeClass('d-none')
+    $('.public_select_btn').css('background-color','#fff')
+    $('.public_select_btn').removeClass('selected')
+    // 公園・レジャー施設
+    $('.park_map').addClass('d-none')
+    $('.park_selected').addClass('d-none');
+    $('.park_unselected').removeClass('d-none')
+    $('.park_select_btn').css('background-color','#fff')
+    $('.park_select_btn').removeClass('selected')
+  })
+
+  // 公共施設の吹き出しをクリック
+  $('.public_select_btn').on('click', function() {
+    // 教育施設
+    $('.education_map').addClass('d-none')
+    $('.education_selected').addClass('d-none');
+    $('.education_unselected').removeClass('d-none')
+    $('.education_select_btn').css('background-color','#fff')
+    $('.education_select_btn').removeClass('selected')
+    // 医療施設
+    $('.medical_map').addClass('d-none')
+    $('.medical_selected').addClass('d-none');
+    $('.medical_unselected').removeClass('d-none')
+    $('.medical_select_btn').css('background-color','#fff')
+    $('.medical_select_btn').removeClass('selected')
+    // 商業施設
+    $('.shopping_map').addClass('d-none')
+    $('.shopping_selected').addClass('d-none');
+    $('.shopping_unselected').removeClass('d-none')
+    $('.shopping_select_btn').css('background-color','#fff')
+    $('.shopping_select_btn').removeClass('selected')
+    // 公共施設
+    $('.public_map').removeClass('d-none')
+    $('.public_selected').removeClass('d-none');
+    $('.public_unselected').addClass('d-none')
+    $('.public_select_btn').css('background-color','#75e498')
+    $('.public_select_btn').addClass('selected')
+    // 公園・レジャー施設
+    $('.park_map').addClass('d-none')
+    $('.park_selected').addClass('d-none');
+    $('.park_unselected').removeClass('d-none')
+    $('.park_select_btn').css('background-color','#fff')
+    $('.park_select_btn').removeClass('selected')
+  })
+
+  // 公園・レジャー施設の吹き出しをクリック
+  $('.park_select_btn').on('click', function() {
+    // 教育施設
+    $('.education_map').addClass('d-none')
+    $('.education_selected').addClass('d-none');
+    $('.education_unselected').removeClass('d-none')
+    $('.education_select_btn').css('background-color','#fff')
+    $('.education_select_btn').removeClass('selected')
+    // 医療施設
+    $('.medical_map').addClass('d-none')
+    $('.medical_selected').addClass('d-none');
+    $('.medical_unselected').removeClass('d-none')
+    $('.medical_select_btn').css('background-color','#fff')
+    $('.medical_select_btn').removeClass('selected')
+    // 商業施設
+    $('.shopping_map').addClass('d-none')
+    $('.shopping_selected').addClass('d-none');
+    $('.shopping_unselected').removeClass('d-none')
+    $('.shopping_select_btn').css('background-color','#fff')
+    $('.shopping_select_btn').removeClass('selected')
+    // 公共施設
+    $('.public_map').addClass('d-none')
+    $('.public_selected').addClass('d-none');
+    $('.public_unselected').removeClass('d-none')
+    $('.public_select_btn').css('background-color','#fff')
+    $('.public_select_btn').removeClass('selected')
+    // 公園・レジャー施設
+    $('.park_map').removeClass('d-none')
+    $('.park_selected').removeClass('d-none');
+    $('.park_unselected').addClass('d-none')
+    $('.park_select_btn').css('background-color','#ff9aae')
+    $('.park_select_btn').addClass('selected')
+  })
 
   // フォームの入力バリデーション
   $('.mailformpro').validate({

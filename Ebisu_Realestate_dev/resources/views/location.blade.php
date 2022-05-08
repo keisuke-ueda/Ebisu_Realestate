@@ -498,21 +498,26 @@
     </div>
 
     <!-- 吹き出し -->
-    <div class="map_select_area">
-      <div class="map_select_btn education_select_btn" style="cursor: pointer;">
-        <p>教育施設</p>
+    <div class="map_select_area w-100">
+      <div class="map_select_btn education_select_btn selected" style="cursor: pointer;">
+        <img class="education_unselected d-none" src="{{ asset('/images/education_unselected.png') }}" alt="">
+        <img class="education_selected" src="{{ asset('/images/education_selected.png') }}" alt="">
       </div>
       <div class="map_select_btn medical_select_btn" style="cursor: pointer;">
-        <p>医療施設</p>
+        <img class="medical_unselected" src="{{ asset('/images/medical_unselected.png') }}" alt="">
+        <img class="medical_selected d-none" src="{{ asset('/images/medical_selected.png') }}" alt="">
       </div>
       <div class="map_select_btn shopping_select_btn" style="cursor: pointer;">
-        <p>商業施設</p>
+        <img class="shopping_unselected" src="{{ asset('/images/shopping_unselected.png') }}" alt="">
+        <img class="shopping_selected d-none" src="{{ asset('/images/shopping_selected.png') }}" alt="">
       </div>
       <div class="map_select_btn public_select_btn" style="cursor: pointer;">
-        <p>公共施設</p>
+        <img class="public_unselected" src="{{ asset('/images/public_unselected.png') }}" alt="">
+        <img class="public_selected d-none" src="{{ asset('/images/public_selected.png') }}" alt="">
       </div>
       <div class="map_select_btn park_select_btn" style="cursor: pointer;">
-        <p>公園・レジャー施設</p>
+        <img class="park_unselected" src="{{ asset('/images/park_unselected.png') }}" alt="">
+        <img class="park_selected d-none" src="{{ asset('/images/park_selected.png') }}" alt="">
       </div>
     </div>
 

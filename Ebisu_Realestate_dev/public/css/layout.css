@@ -1730,53 +1730,88 @@ td.h-110px {
 .map_select_btn {
   position: relative;
   display: inline-block;
-  padding: 10px 0;
+  background-color: #fff;
+  padding: 16px;
   width: calc(20% - 8px);
+  text-align: center;
 }
-.map_select_btn:before {
+.map_select_btn:before,
+.map_select_btn:after {
   content: "";
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left: -15px;
-  border: 15px solid transparent;
-  
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.map_select_btn:before {
+  border: solid 12px transparent;
+}
+.map_select_btn:after {
+  border: solid 14px transparent;
+  border-top: solid 14px #fff;
+  margin-top: -5px;
+}
+
+.map_select_btn img{
+  display: block;
 }
 
 .education_select_btn {
-  background: #e0edff;
+  border: solid 2px #ffc2a1;
+  background-color: #ffc2a1;
 }
 .education_select_btn:before {
-  border-top: 15px solid #e0edff;
+  border-top: solid 12px #ffc2a1;
 }
+.education_select_btn.selected:after {
+  border-top: solid 14px #ffc2a1;
+}
+
 
 .medical_select_btn {
-  background: #e0edff;
+  border: solid 2px #b2d2fa;
 }
 .medical_select_btn:before {
-  border-top: 15px solid #e0edff;
+  border-top: solid 12px #b2d2fa;
 }
+.medical_select_btn.selected:after {
+  border-top: solid 14px #b2d2fa;
+}
+
 
 .shopping_select_btn {
-  background: #e0edff;
+  border: solid 2px #f8b9fc;
 }
 .shopping_select_btn:before {
-  border-top: 15px solid #e0edff;
+  border-top: solid 12px #f8b9fc;
 }
+.shopping_select_btn.selected:after {
+  border-top: solid 14px #f8b9fc;
+}
+
 
 .public_select_btn {
-  background: #e0edff;
+  border: solid 2px #75e498;
 }
 .public_select_btn:before {
-  border-top: 15px solid #e0edff;
+  border-top: solid 12px #75e498;
+}
+.public_select_btn.selected:after {
+  border-top: solid 14px #75e498;
 }
 
+
 .park_select_btn {
-  background: #e0edff;
+  border: solid 2px #ff9aae;
 }
 .park_select_btn:before {
-  border-top: 15px solid #e0edff;
+  border-top: solid 12px #ff9aae;
 }
+.park_select_btn.selected:after {
+  border-top: solid 14px #ff9aae;
+}
+
 
 
 .map_select_btn img {
