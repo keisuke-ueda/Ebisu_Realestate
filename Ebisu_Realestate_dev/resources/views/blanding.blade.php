@@ -41,7 +41,7 @@
 <div class="dark-area2 ft2" style="padding:30px 20px;">
     <img class="d-block animation" src="{{ asset('/images/bland_logo.png') }}" alt="" style="width:70%; margin:0 auto 40px;">
     <p class="gold-2 s14 text-center animation" style="margin-bottom:40px;">「住まいは人の心を創り人の生活を創る」</p>
-    <p class="s12 text-center animation" style="margin-bottom: 40px;">私たちは多くの人々に支えられて存在している<br>
+    <p class="s12 text-center animation" style="margin-bottom: 30px;">私たちは多くの人々に支えられて存在している<br>
         社会の一員であることを自覚し、<br>
         それらの人々との日々の出会いを通して<br>
         ”魅力のある価値”を創造します。<br>
