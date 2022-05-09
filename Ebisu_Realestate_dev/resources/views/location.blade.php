@@ -18,7 +18,7 @@
       </div>
       <div class="text-white animation d-flex flex-column justify-content-center ft2 s18" style="width:calc(40% - 45px);">
           <p class="gold-2" style="margin-bottom:10px;">一想一邸の確かな結晶。</p>
-          <p class="gold-2" style="margin-bottom:20px;">「ラ・アトレ恵比寿グランガーデン」</p>
+          <p class="gold-2" style="margin-bottom:40px;">「ラ・アトレ恵比寿グランガーデン」</p>
           <p class="s14" style="margin:0;">恵比寿、それも「恵比寿ガーデンプレイス」<br>
           「ウェスティンホテル東京」を間近とする住宅地。<br>
           その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。<br>
@@ -90,7 +90,7 @@
         <img class="animation d-block w-100" src="{{ asset('/images/航空写真.jpg') }}" alt="">
 
         <div class="life_information animation" style="">
-          <img class="d-block mx-auto" src="{{ asset('/images/life information.png') }}" alt="" style="width:40%;">
+          <img class="d-block mx-auto" src="{{ asset('/images/life information.png') }}" alt="" style="width:60%;">
         </div>
 
         <div class="d-flex justify-content-between">
@@ -498,21 +498,26 @@
     </div>
 
     <!-- 吹き出し -->
-    <div class="map_select_area">
-      <div class="map_select_btn education_select_btn" style="cursor: pointer;">
-        <p>教育施設</p>
+    <div class="map_select_area w-100">
+      <div class="map_select_btn education_select_btn selected" style="cursor: pointer;">
+        <img class="education_unselected d-none" src="{{ asset('/images/education_unselected.png') }}" alt="">
+        <img class="education_selected" src="{{ asset('/images/education_selected.png') }}" alt="">
       </div>
       <div class="map_select_btn medical_select_btn" style="cursor: pointer;">
-        <p>医療施設</p>
+        <img class="medical_unselected" src="{{ asset('/images/medical_unselected.png') }}" alt="">
+        <img class="medical_selected d-none" src="{{ asset('/images/medical_selected.png') }}" alt="">
       </div>
       <div class="map_select_btn shopping_select_btn" style="cursor: pointer;">
-        <p>商業施設</p>
+        <img class="shopping_unselected" src="{{ asset('/images/shopping_unselected.png') }}" alt="">
+        <img class="shopping_selected d-none" src="{{ asset('/images/shopping_selected.png') }}" alt="">
       </div>
       <div class="map_select_btn public_select_btn" style="cursor: pointer;">
-        <p>公共施設</p>
+        <img class="public_unselected" src="{{ asset('/images/public_unselected.png') }}" alt="">
+        <img class="public_selected d-none" src="{{ asset('/images/public_selected.png') }}" alt="">
       </div>
       <div class="map_select_btn park_select_btn" style="cursor: pointer;">
-        <p>公園・レジャー施設</p>
+        <img class="park_unselected" src="{{ asset('/images/park_unselected.png') }}" alt="">
+        <img class="park_selected d-none" src="{{ asset('/images/park_selected.png') }}" alt="">
       </div>
     </div>
 

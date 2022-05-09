@@ -847,8 +847,8 @@ input {
 .location_info_table {
   width: 100%;
   /* font-size: 10px; */
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 .name_td {
   width: 60%;
@@ -858,9 +858,42 @@ input {
 }
 
 
+.map_select_area {
+  justify-content: center;
+  align-items: auto;
+  flex-wrap: wrap;
+}
+
+.map_select_btn {
+  padding: 0;
+  width: calc(33% - 4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.map_select_btn:before,
+.map_select_btn:after {
+  display: none;
+}
+.map_select_btn img {
+  height: 60%;
+}
+
+.medical_select_btn {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+.public_select_btn {
+  margin-right: 3px;
+}
+.park_select_btn {
+  margin-left: 3px;
+}
 
 .location_map_area {
   display: block;
+  margin-top: 0;
 }
 
 .google_map {
@@ -879,7 +912,7 @@ input {
   height: 550px; */
   width: 100%;
   height: auto;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 .map_table {
   width: 100%;
@@ -943,7 +976,7 @@ input {
 }
 
 .bland_map_bg {
-  padding: 70px 0 50px;
+  padding: 40px 0 20px;
 }
 .bland_map {
   width: 100%;
