@@ -14,7 +14,7 @@
 <div class="dark-area ft2" style="padding-bottom:40px;">
     <div class="d-flex w-100">
         <div class="animation-1-zm" style="width:45%;">
-            <img src="{{ asset('/images/「THE DOORs」（広尾）.jpg') }}" alt="" style="width:65%;">
+            <img src="{{ asset('/images/the doors.jpg') }}" alt="" style="width:65%;">
             <div class="d-flex justify-content-between w-100">
                 <p class="s10 pt-1">｢THE DOORS｣(広尾)</p>
                 <img src="{{ asset('/images/ラ・アトレ御苑内藤町グランガーデン.jpg') }}" alt="" style="width:65%;">
@@ -55,7 +55,7 @@
         すなわちCorporate Philosophyである企業理念に由来しています。
     </p>
     <div class="animation">
-        <img src="{{ asset('/images/「THE DOORs」（広尾）.jpg') }}" alt="" style="width:100%; margin-top:20px;">
+        <img src="{{ asset('/images/the doors.jpg') }}" alt="" style="width:100%; margin-top:20px;">
         <p class="text-end s10 pt-1">｢THE DOORS｣(広尾)</p>
     </div>
     <div class="animation">
