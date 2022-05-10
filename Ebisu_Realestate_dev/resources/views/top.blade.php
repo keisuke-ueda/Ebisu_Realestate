@@ -463,7 +463,14 @@
 
         <!-- PC -->
         <a href="/brand" class="animation mx-auto bland_img_link" style="cursor: pointer;">
-            <img src="{{ asset('/images/brand-pc.png') }}" alt="ブランディングバナー" style="width:100%;">
+            <div class="bland_bg">
+                <div class="d-flex">
+                    <img src="{{ asset('/images/brand_logo_pc.svg') }}" alt="">
+                    <p class="bland_p1 ft2">研ぎ澄まされた感性が共鳴しながら､それぞれの夢を自在に叶える｡</p>
+                </div>
+                <p class="bland_p2 ft2 s30 text-end">〉</p>
+            </div>
+            <!-- <img src="{{ asset('/images/brand-pc.png') }}" alt="ブランディングバナー" style="width:100%;"> -->
         </a>
 
         <!-- SP -->

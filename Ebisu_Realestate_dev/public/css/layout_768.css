@@ -459,21 +459,19 @@ video {
   justify-content: space-between;
   align-items: center;
   background-image: url("../images/bland_bg_sp.png");
-  padding-left:10px;
+  padding:0 0 0 10px;
 }
 .bland_bg img {
   display: block;
   width: 55%;
   margin-bottom: 10px;
 }
-.bland_bg p {
-  margin: 0;
-}
+
 .bland_p1 {
   line-height: 1;
 }
 .bland_p2 {
-  
+  margin-left: 10px;
 }
 
 /* ENTRYリンク */
