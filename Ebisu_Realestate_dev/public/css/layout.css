@@ -739,7 +739,8 @@ video {
 
 .bland_img_link {
   display: block;
-  width:90%;
+  width: 90%;
+  max-width: 968px;
   margin-top: 50px;
   color: #fff;
   text-decoration: none;
