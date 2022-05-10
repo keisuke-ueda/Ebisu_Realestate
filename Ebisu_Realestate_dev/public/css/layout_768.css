@@ -436,13 +436,42 @@ video {
 }
 
 .bland_img_link {
+  /* width: calc(100% - 40px); */
   display: none;
 }
 
 .bland_img_link_sp {
   display: block;
   width: calc(100% - 40px);
+  color: #fff;
+  text-decoration: none;
   margin-top: 50px;
+}
+.bland_img_link_sp:hover {
+  color: #fff;
+}
+.bland_bg {
+  width: 100%;
+  aspect-ratio: 963/201;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../images/bland_bg_sp.png");
+  padding:0 0 0 10px;
+}
+.bland_bg img {
+  display: block;
+  width: 55%;
+  margin-bottom: 10px;
+}
+
+.bland_p1 {
+  line-height: 1;
+}
+.bland_p2 {
+  margin-left: 10px;
 }
 
 /* ENTRYリンク */
