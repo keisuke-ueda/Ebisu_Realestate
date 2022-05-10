@@ -1745,15 +1745,15 @@ td.h-110px {
 }
 
 .medical_photos p {
-  background-color: #b2d2fa;
+  background-color: #88abda;
 }
 
 .shopping_photos p {
-  background-color: #f8b9fc;
+  background-color: #b45cbe;
 }
 
 .public_photos p {
-  background-color: #75e498;
+  background-color: #89c997;
 }
 
 .park_photos p {
@@ -1808,35 +1808,35 @@ td.h-110px {
 
 
 .medical_select_btn {
-  border: solid 2px #b2d2fa;
+  border: solid 2px #88abda;
 }
 .medical_select_btn:before {
-  border-top: solid 12px #b2d2fa;
+  border-top: solid 12px #88abda;
 }
 .medical_select_btn.selected:after {
-  border-top: solid 14px #b2d2fa;
+  border-top: solid 14px #88abda;
 }
 
 
 .shopping_select_btn {
-  border: solid 2px #f8b9fc;
+  border: solid 2px #b45cbe;
 }
 .shopping_select_btn:before {
-  border-top: solid 12px #f8b9fc;
+  border-top: solid 12px #b45cbe;
 }
 .shopping_select_btn.selected:after {
-  border-top: solid 14px #f8b9fc;
+  border-top: solid 14px #b45cbe;
 }
 
 
 .public_select_btn {
-  border: solid 2px #75e498;
+  border: solid 2px #89c997;
 }
 .public_select_btn:before {
-  border-top: solid 12px #75e498;
+  border-top: solid 12px #89c997;
 }
 .public_select_btn.selected:after {
-  border-top: solid 14px #75e498;
+  border-top: solid 14px #89c997;
 }
 
 
@@ -1899,6 +1899,10 @@ td.h-110px {
   height: 550px;
   margin: 0;
   overflow: hidden;
+}
+
+.google_map_sp {
+  display: none;
 }
 
 .google_map iframe {
@@ -2003,5 +2007,8 @@ td.h-110px {
 }
 .bland_map {
   max-width: 880px;
+}
+.bland_map img {
+  width: 80%;
 }
 /* BLANDページ ここまで */
