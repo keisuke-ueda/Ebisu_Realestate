@@ -246,7 +246,7 @@
                             多数のご応募ありがとうございました。</td>
                         <tr>
                             <td class="date-td-2" scope="col">2022.5.13</td>
-                            <td class="text-td-2" scope="col">LOCATIONページ、DESIGNページ、BLANDページを<br class="pc_hid">公開しました。</td>
+                            <td class="text-td-2" scope="col">LOCATIONページ、DESIGNページ、BRANDページを<br class="pc_hid">公開しました。</td>
                         </tr>
                     </table>
                 </div>
