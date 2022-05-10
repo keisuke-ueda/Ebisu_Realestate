@@ -37,34 +37,34 @@
   <div class="d-flex flex-column justify-content-end ft2" style="width:100%; margin-bottom:40px;">
       <div class="d-flex justify-content-between w-100">
           <div style="width: calc(33% - 13px);">
-              <img class="animation-0-zm w-100" src="{{ asset('/images/ebisupage_atreebisu.png') }}" style="object-fit: cover; object-position: 100% 100%">
+              <img class="animation-0-zm w-100" src="{{ asset('/images/ebisupage_atreebisu.png') }}" style="object-fit: cover; object-position: 100% 100%; margin-bottom:13px;">
               <p class="text-center m-0">「アトレ恵比寿」</p>
               <p class="text-center s11">(約1000m・徒歩13分)</p>
           </div>
           <div style="width: calc(33% - 13px);" style="margin-left:20px;">
-              <img class="animation-0-zm w-100" src="{{ asset('/images/ebisupage_恵比寿ガーデンプレイス.png') }}" style="object-fit: cover; object-position: 100% 100%">
+              <img class="animation-0-zm w-100" src="{{ asset('/images/ebisupage_恵比寿ガーデンプレイス.png') }}" style="object-fit: cover; object-position: 100% 100%; margin-bottom:13px;">
               <p class="text-center m-0">「恵比寿ガーデンプレイス」</p>
               <p class="text-center s11">(約260m・徒歩4分)</p>
           </div>
           <div style="width: calc(33% - 13px);" style="margin-left:20px;">
-              <img class="animation-0-zm w-100" src="{{ asset('/images/ebisupage_ウエスティンホテル.png') }}" style="object-fit: cover; object-position: 100% 100%">
+              <img class="animation-0-zm w-100" src="{{ asset('/images/ebisupage_ウエスティンホテル.png') }}" style="object-fit: cover; object-position: 100% 100%; margin-bottom:13px;">
               <p class="text-center m-0">「ウエスティンホテル東京」</p>
               <p class="text-center s11">(約300m・徒歩4分)</p>
           </div>
       </div>
       <div class="d-flex justify-content-between">
           <div style="width: calc(33% - 13px);" >
-              <img class="animation-1-zm w-100" src="{{ asset('/images/ebisupage_国立博物館付属自然教育園.png') }}" style="object-fit: cover; object-position: 100% 100%">
+              <img class="animation-1-zm w-100" src="{{ asset('/images/ebisupage_国立博物館付属自然教育園.png') }}" style="object-fit: cover; object-position: 100% 100%; margin-bottom:13px;">
               <p class="text-center m-0">「国立科学博物館付属 自然教育園」</p>
               <p class="text-center s11">(約1000m・徒歩13分)</p>
           </div>
           <div style="width: calc(33% - 13px);" style="margin-left:20px;">
-              <img class="animation-1-zm w-100" src="{{ asset('/images/ebisupage_東京大学医療課付属研究所.png') }}" style="object-fit: cover; object-position: 100% 100%">
+              <img class="animation-1-zm w-100" src="{{ asset('/images/ebisupage_東京大学医療課付属研究所.png') }}" style="object-fit: cover; object-position: 100% 100%; margin-bottom:13px;">
               <p class="text-center m-0">「東京大学医療科学研究附属病院」</p>
               <p class="text-center s11">(約630m・徒歩8分)</p>
           </div>
           <div style="width: calc(33% - 13px);" style="margin-left:20px;">
-              <img class="animation-1-zm w-100" src="{{ asset('/images/ebisupage_サッポロ広場.png') }}" style="object-fit: cover; object-position: 100% 100%">
+              <img class="animation-1-zm w-100" src="{{ asset('/images/ebisupage_サッポロ広場.png') }}" style="object-fit: cover; object-position: 100% 100%; margin-bottom:13px;">
               <p class="text-center m-0">「サッポロ広場」</p>
               <p class="text-center s11">(約260m・徒歩4分)</p>
           </div>
@@ -524,7 +524,11 @@
     <!-- 教育施設 -->
     <div class="location_map_area education_map">
       <div class="google_map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=1yy-MUPvQTyds_je12N-fLAs9JUF3hQOX&ehbc=2E312F&z=14"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1yy-MUPvQTyds_je12N-fLAs9JUF3hQOX&ehbc=2E312F&ll=35.636645239914074%2C139.71866353334943&z=15"></iframe>
+      </div>
+
+      <div class="google_map_sp">
+      <iframe src="https://www.google.com/maps/d/embed?mid=1yy-MUPvQTyds_je12N-fLAs9JUF3hQOX&ehbc=2E312F&ll=35.636645239914074%2C139.71866353334943&z=14"></iframe>
       </div>
 
       <div class="map_table_area">
@@ -616,7 +620,11 @@
     <!-- 医療施設 -->
     <div class="location_map_area medical_map d-none">
       <div class="google_map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=182MXIrKXFXprsEmoJY0gw3XYYX0QQhSx&ehbc=2E312F&z=14"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=182MXIrKXFXprsEmoJY0gw3XYYX0QQhSx&ehbc=2E312F&ll=35.64217720385159%2C139.71839403229427&z=16"></iframe>
+      </div>
+
+      <div class="google_map_sp">
+      <iframe src="https://www.google.com/maps/d/embed?mid=182MXIrKXFXprsEmoJY0gw3XYYX0QQhSx&ehbc=2E312F&ll=35.64217720385159%2C139.71839403229427&z=15"></iframe>
       </div>
 
       <div class="map_table_area">
@@ -709,7 +717,11 @@
     <!-- 商業施設 -->
     <div class="location_map_area shopping_map d-none">
       <div class="google_map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=15vJ7xrCLyjimfBzaG2TT10XM8KRchdU7&ehbc=2E312F&z=14"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=15vJ7xrCLyjimfBzaG2TT10XM8KRchdU7&ehbc=2E312F&ll=35.63819815688925%2C139.71359259652962&z=15"></iframe>
+      </div>
+
+      <div class="google_map_sp">
+      <iframe src="https://www.google.com/maps/d/embed?mid=15vJ7xrCLyjimfBzaG2TT10XM8KRchdU7&ehbc=2E312F&ll=35.63819815688925%2C139.71359259652962&z=14"></iframe>
       </div>
 
       <div class="map_table_area">
@@ -795,7 +807,11 @@
     <!-- 公共施設 -->
     <div class="location_map_area public_map d-none">
       <div class="google_map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=11ewFngwJXLO2uhd-2TqsuSZ3-u4ZpRt_&ehbc=2E312F&z=14"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=11ewFngwJXLO2uhd-2TqsuSZ3-u4ZpRt_&ehbc=2E312F&ll=35.63826831823992%2C139.71397272266742&z=16"></iframe>
+      </div>
+
+      <div class="google_map_sp">
+      <iframe src="https://www.google.com/maps/d/embed?mid=11ewFngwJXLO2uhd-2TqsuSZ3-u4ZpRt_&ehbc=2E312F&ll=35.63826831823992%2C139.71397272266742&z=14"></iframe>
       </div>
 
       <div class="map_table_area">
@@ -881,7 +897,11 @@
     <!-- 公園・レジャー施設 -->
     <div class="location_map_area park_map d-none">
       <div class="google_map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=14EqxnbIw4-umWMdisArjlzXJds5jVYZ8&ehbc=2E312F&z=14"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=14EqxnbIw4-umWMdisArjlzXJds5jVYZ8&ehbc=2E312F&ll=35.639224059374676%2C139.71309019115313&z=16"></iframe>
+      </div>
+
+      <div class="google_map_sp">
+      <iframe src="https://www.google.com/maps/d/embed?mid=14EqxnbIw4-umWMdisArjlzXJds5jVYZ8&ehbc=2E312F&ll=35.639224059374676%2C139.71309019115313&z=14"></iframe>
       </div>
 
       <div class="map_table_area">

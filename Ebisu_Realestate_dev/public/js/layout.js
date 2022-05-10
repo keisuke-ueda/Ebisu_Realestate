@@ -249,7 +249,7 @@ $(function () {
     $('.medical_map').removeClass('d-none')
     $('.medical_selected').removeClass('d-none');
     $('.medical_unselected').addClass('d-none')
-    $('.medical_select_btn').css('background-color','#b2d2fa')
+    $('.medical_select_btn').css('background-color','#88abda')
     $('.medical_select_btn').addClass('selected')
     // 商業施設
     $('.shopping_map').addClass('d-none')
@@ -289,7 +289,7 @@ $(function () {
     $('.shopping_map').removeClass('d-none')
     $('.shopping_selected').removeClass('d-none');
     $('.shopping_unselected').addClass('d-none')
-    $('.shopping_select_btn').css('background-color','#f8b9fc')
+    $('.shopping_select_btn').css('background-color','#b45cbe')
     $('.shopping_select_btn').addClass('selected')
     // 公共施設
     $('.public_map').addClass('d-none')
@@ -329,7 +329,7 @@ $(function () {
     $('.public_map').removeClass('d-none')
     $('.public_selected').removeClass('d-none');
     $('.public_unselected').addClass('d-none')
-    $('.public_select_btn').css('background-color','#75e498')
+    $('.public_select_btn').css('background-color','#89c997')
     $('.public_select_btn').addClass('selected')
     // 公園・レジャー施設
     $('.park_map').addClass('d-none')

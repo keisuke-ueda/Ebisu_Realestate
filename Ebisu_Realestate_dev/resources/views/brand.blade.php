@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title',"Bland｜【公式】ラ・アトレ恵比寿グランガーデン")
+@section('title',"Brand｜【公式】ラ・アトレ恵比寿グランガーデン")
 
 @section('content')
 
@@ -11,7 +11,7 @@
 <div style="height:50px; background-color:#000;"></div>
 
 <!-- PC -->
-<div class="dark-area ft2">
+<div class="dark-area ft2" style="padding-bottom:40px;">
     <div class="d-flex w-100">
         <div class="animation-1-zm" style="width:45%;">
             <img src="{{ asset('/images/「THE DOORs」（広尾）.jpg') }}" alt="" style="width:65%;">
@@ -19,7 +19,7 @@
                 <p class="s10 pt-1">｢THE DOORS｣(広尾)</p>
                 <img src="{{ asset('/images/ラ・アトレ御苑内藤町グランガーデン.jpg') }}" alt="" style="width:65%;">
             </div>
-            <p class="text-end s10 pt-1">ラ・アトレ御苑内藤町グランガーデン</p>
+            <p class="text-end s10 pt-1 m-0">ラ・アトレ御苑内藤町グランガーデン</p>
         </div>
         <div class="animation-2-zm" style="width:45%; margin:35px 0 0 70px;">
             <img src="{{ asset('/images/bland_logo.png') }}" alt="">
@@ -30,7 +30,7 @@
                 社会のニーズを先取りした”魅力のある商品・サービス”を創作し、<br>
                 多くの人々の豊かな”魅力のある社会”の実現に貢献します。
             </p>
-            <p class="s11">社名であるL'attraitは、フランス語で｢魅力｣を意味します。<br>
+            <p class="s11 m-0">社名であるL'attraitは、フランス語で｢魅力｣を意味します。<br>
                 すなわちCorporate Philosophyである企業理念に由来しています。
             </p>
         </div>
@@ -78,7 +78,7 @@
             モールをはじめとする商業施設、ホテル、オフィスビルの開発、さらに、海外事業展開やM&Aによる新規事業など、
             さまざまな事業を積極的に展開する不動産総合デベロッパーです。
         </p>
-        <img class="animation-1-zm" src="{{ asset('/images/tizu.svg') }}" alt="">
+        <img class="animation-1-zm mx-auto d-block" src="{{ asset('/images/tizu.svg') }}" alt="">
     </div>
 </div>
 
