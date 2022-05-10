@@ -64,7 +64,7 @@
           <p class="s10 ft1 new-mark">NEW</p>
         </div>
 
-        <a href="/blanding" style="" class="small mh-parts white_link s14">BLAND</a>
+        <a href="/brand" style="" class="small mh-parts white_link s14">BRAND</a>
 
       </div>
 
@@ -152,10 +152,8 @@
             </a>
           </div>
           <div>
-
-            <a href="/blanding" style="">
-
-              <p>BLAND</p>
+            <a href="/brand" style="">
+              <p>BRAND</p>
               <p class="s10">ブランド</p>
             </a>
           </div>

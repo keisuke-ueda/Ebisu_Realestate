@@ -40,8 +40,8 @@ Route::view('/model_room', 'model_room');
 // PLAN
 Route::view('/plan', 'plan');
 
-// BLANDING
-Route::view('/blanding', 'blanding');
+// BRAND
+Route::view('/brand', 'brand');
 
 // 物件概要
 Route::view('/overview', 'overview');
