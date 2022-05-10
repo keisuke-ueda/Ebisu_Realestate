@@ -462,19 +462,13 @@
         </div>
 
         <!-- PC -->
-        <a href="/blanding" class="animation mx-auto bland_img_link" style="cursor: pointer;">
-            <img src="{{ asset('/images/bland photo.png') }}" alt="ブランディングバナー" style="width:100%;">
+        <a href="/brand" class="animation mx-auto bland_img_link" style="cursor: pointer;">
+            <img src="{{ asset('/images/brand-pc.png') }}" alt="ブランディングバナー" style="width:100%;">
         </a>
 
         <!-- SP -->
-        <a href="/blanding" class="animation mx-auto bland_img_link_sp" style="cursor: pointer;">
-            <div class="bland_bg">
-                <div>
-                    <img src="{{ asset('/images/bland_logo_sp.png') }}" alt="">
-                    <p class="bland_p1 ft2 s10">研ぎ澄まされた感性が共鳴しながら､それぞれの夢を自在に叶える｡</p>
-                </div>
-                <p class="bland_p2 ft2 s15 text-end">〉</p>
-            </div>
+        <a href="/brand" class="animation mx-auto bland_img_link_sp" style="cursor: pointer;">
+            <img src="{{ asset('/images/brand-sp.png') }}" alt="ブランディングバナー" style="width:100%;">
         </a>
 
         <!-- PC・SP共通 -->
