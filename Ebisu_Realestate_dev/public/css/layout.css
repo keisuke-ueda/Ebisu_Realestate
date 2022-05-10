@@ -738,7 +738,12 @@ video {
 }
 
 .bland_img_link {
+  display: block;
   width:90%;
+  margin-top: 50px;
+}
+.bland_img_link_sp {
+  display: none;
 }
 
 /* ENTRYリンク */

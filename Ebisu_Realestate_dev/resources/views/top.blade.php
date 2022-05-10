@@ -423,7 +423,7 @@
                 <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="LOCATION 写真" class="photo-90">
                 <p class="s9 text-end mx-auto" style="width:90%;">｢国立化学博物館附属 自然教育園｣ (約1000m・徒歩13分)</p>
                 <button class="gold_btn read_more" type="button">
-                    <a href="/concept" class="text-white mh-parts ft2" style="pointer-events:none;">Read More</a>
+                    <a href="/location" class="text-white mh-parts ft2" style="">Read More</a>
                 </button>
             </div>
 
@@ -437,7 +437,7 @@
                     六本木、霞ヶ関、銀座へダイレクトに繋がることのできる日比谷線。<br>
                     ここには、目的に合わせて、路線を使いこなせる自由がある。
                 </p>
-                <img src="{{ asset('/images/the access photo.png') }}" alt="ACCESS 写真" class="photo-100">
+                <img src="{{ asset('/images/theaccess_sp.png') }}" alt="ACCESS 写真" class="photo-100">
                 <button class="gold_btn read_more" type="button">
                     <a href="/access" class="text-white mh-parts ft2">Read More</a>
                 </button>
@@ -456,15 +456,29 @@
                 </p>
                 <img src="{{ asset('/images/the design photo1.png') }}" alt="DESIGN 写真" class="photo-100">
                 <button class="gold_btn read_more" type="button">
-                    <a href="/concept" class="text-white mh-parts ft2">Read More</a>
+                    <a href="/design" class="text-white mh-parts ft2">Read More</a>
                 </button>
             </div>
         </div>
 
+        <!-- PC -->
+        <a href="/blanding" class="animation mx-auto bland_img_link" style="cursor: pointer;">
+            <img src="{{ asset('/images/bland photo.png') }}" alt="ブランディングバナー" style="width:100%;">
+        </a>
+
+        <!-- SP -->
+        <a href="/blanding" class="animation mx-auto bland_img_link_sp" style="cursor: pointer;">
+            <div class="bland_bg">
+                <div>
+                    <img src="{{ asset('/images/bland_logo_sp.png') }}" alt="">
+                    <p class="bland_p1 ft2 s10">研ぎ澄まされた感性が共鳴しながら､それぞれの夢を自在に叶える｡</p>
+                </div>
+                <p class="bland_p2 ft2 s15 text-end">〉</p>
+            </div>
+        </a>
 
         <!-- PC・SP共通 -->
-        <div class="animation" style="margin-top:50px;">
-            <a href="/blanding" class="d-block mx-auto bland_img_link" style="cursor: pointer;"><img src="{{ asset('/images/bland photo.png') }}" alt="ブランディングバナー" style="width:100%;"></a>
+        <div class="animation" style="">
             <div class="entry_link">
                 <button class="copper_btn" type="button">
                     <a href="/entry" class="text-white mh-parts ft2 s19">物件エントリー受付中</a>
