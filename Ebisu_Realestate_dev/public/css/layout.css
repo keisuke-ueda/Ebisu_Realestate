@@ -559,7 +559,7 @@ video {
 }
 .read_more_link_r {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: auto;
   width: 100%;
   margin-bottom:130px;
@@ -685,6 +685,9 @@ video {
   /* height: calc(50% - 0.625rem);
   object-fit: cover;
   object-position: 100% 100%; */
+  width: calc(100% - 7px);
+  object-fit: cover;
+  object-position: 100% 100%;
 }
 .bottom_pic {
   margin-top: 20px;
