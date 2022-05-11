@@ -730,7 +730,7 @@
           <tr>
             <td class="pin_num_td"><p class="map_pin_num shopping_pin_num">1</p></td>
             <td>
-              <p class="map_table_building">ライフ<br>セントラルスクエア恵比寿ガーデンプレイス店</p>
+              <p class="map_table_building">ライフ セントラルスクエア<br>恵比寿ガーデンプレイス店</p>
               <p class="map_table_minute">徒歩 &nbsp;&nbsp;5分 (約 &nbsp;&nbsp;350m)</p>
             </td>
           </tr>
