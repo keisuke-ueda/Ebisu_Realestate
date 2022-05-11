@@ -84,7 +84,7 @@
           ｢ラ･アトレ恵比寿グランガーデン｣ゆるぎなき矜持がここにある。
         </p>
         <img class="d-block w-100" src="{{ asset('/images/location_map.png') }}" >
-        <p class="ft2 s10" style="margin-bottom:45px;">※掲載の現地周辺概念図は、航空写真などを基に作成したもので、<br>実際とは異なります。<br>
+        <p class="ft2 s10" style="margin-bottom:20px;">※掲載の現地周辺概念図は、航空写真などを基に作成したもので、<br>実際とは異なります。<br>
         周辺の道路･建物･街路図などは一部簡略化しており<br>実際とは異なります。</p>
 
         <img class="animation d-block" src="{{ asset('/images/航空写真.jpg') }}" alt="" style="width:100vw;margin-right: calc(50% - 50vw);margin-left: calc(50% - 50vw);">
