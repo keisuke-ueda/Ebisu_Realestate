@@ -903,6 +903,8 @@ input {
 }
 .minutes_td {
   width: 40%;
+  font-size: 11px;
+  text-align: right;
 }
 
 
@@ -925,7 +927,7 @@ input {
   display: none;
 }
 .map_select_btn img {
-  height: 56%;
+  height: 53%;
 }
 
 .medical_select_btn {
