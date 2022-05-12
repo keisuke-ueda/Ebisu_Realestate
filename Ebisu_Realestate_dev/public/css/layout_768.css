@@ -104,11 +104,11 @@
   
 }
 .footer_left_top {
-  width: 240px;
   margin: 0 auto;
 }
 .footer_logo_area {
-  
+  width: 240px;
+  margin: 0 auto;
 }
 .copyright {
   text-align: center;
