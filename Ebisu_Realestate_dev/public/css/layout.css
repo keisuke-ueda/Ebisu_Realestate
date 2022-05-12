@@ -1884,16 +1884,18 @@ td.h-110px {
   width: calc(48% - 50px);
   font-size: 14px;
   table-layout: fixed;
-  border-collapse: collapse;
+  border-collapse: separate; 
+  border-spacing: 0; 
 }
 .location_info_table span {
   font-size: 12px;
 }
 
-.location_info_table tr {
-  border-style: dotted none;/* 線種 */
-  border-width: 1px; /* 線の太さ */
-  border-color: #000; /* 線色 */
+.location_info_table td {
+  border-top: 1px dashed #ccc;
+}
+.location_info_table tr:last-child td {
+  border-bottom: 1px dashed #ccc;
 }
 .location_info_table td {
   padding: 5px 0;
@@ -1938,11 +1940,14 @@ td.h-110px {
 }
 .map_table {
   width: 100%;
+  border-collapse: separate;
+  border-spacing: 0; 
 }
-.map_table tr {
-  border-style: dotted none;/* 線種 */
-  border-width: 1px; /* 線の太さ */
-  border-color: #000; /* 線色 */
+.map_table td {
+  border-top: 1px dashed #ccc;
+}
+.map_table tr:last-child td {
+  border-bottom: 1px dashed #ccc;
 }
 .map_table td {
   padding: 5px 0;
