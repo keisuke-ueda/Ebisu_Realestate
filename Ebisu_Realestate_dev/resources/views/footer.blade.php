@@ -18,7 +18,7 @@
 
     <div class="footer_left">
       <div class="footer_left_top">
-        <p class="company_name ft2 s13 mb-1">[売主] 株式会社ラ・アトレ</p>
+        <p class="company_name ft2 s13 mb-1">[売主] 株式会社ラ・アトレ&nbsp;&nbsp;&nbsp;&nbsp;<br class="pc_hid">[媒介] 株式会社ラ・アトレレジデンシャル</p>
         <div class="footer_logo_area">
           <img src="{{ asset('/images/フッタ―.svg') }}" alt="フッターロゴ" height="50">
           <div class="d-flex flex-column justify-content-center align-items-start ms-1"> 

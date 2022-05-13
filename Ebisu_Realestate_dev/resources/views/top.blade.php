@@ -237,12 +237,11 @@
                         </tr>
                         <tr>
                             <td class="date-td-2" scope="col">2022.5.10</td>
-                            <td class="text-td-2" scope="col">お住まいのアンケートを閉鎖しました。<br>
+                            <td class="text-td-2" scope="col">お住まいのアンケートの募集を終了いたしました。<br>
                             アンケートにご協力頂きまして、誠にありがとうございました。<br>
                             お蔭さまで貴重なご意見を多数頂戴することができました。<br>
-                            頂いたご意見は、ご要望として今後の商品開発の参考とさせていただき、<br>
-                            よりご満足頂けるものにできるよう活用させて頂きます。<br>
-                            今後ともご指導ご鞭撻を賜りますようお願い申し上げます。<br>
+                            頂いたご意見は、ご要望として<br class="pc_hid">今後の商品開発の参考とさせていただき、<br>
+                            よりご満足頂けるものにできるよう役立たせて頂きます。<br>
                             多数のご応募ありがとうございました。</td>
                         <tr>
                             <td class="date-td-2" scope="col">2022.5.13</td>
@@ -298,13 +297,35 @@
                     </div>
                 </div>
                 <div class="picture_side location_pics h-100">
-                    <div class="location_pic_pair1">
-                        <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="サンプル画像" class="animation-0-zm location_pic">
-                        <img src="{{ asset('/images/アメリカ橋公園.png') }}" alt="サンプル画像"  class="animation-0-zm location_pic bottom_pic">
+                    <!-- <div class="location_pic_pair1">
+                        <img src="{{ asset('/images/ebisupage_恵比寿ガーデンプレイス.png') }}" alt="サンプル画像" class="animation-0-zm location_pic">
+                        <img src="{{ asset('/images/アメリカ橋公園.jpg') }}" alt="サンプル画像"  class="animation-0-zm location_pic bottom_pic">
                     </div>
                     <div class="location_pic_pair2">
-                        <img src="{{ asset('/images/ウエスティンホテル.png') }}" alt="サンプル画像" class="animation-1-zm location_pic">
-                        <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="サンプル画像"  class="animation-1-zm location_pic bottom_pic">
+                        <img src="{{ asset('/images/ebisupage_ウエスティンホテル.png') }}" alt="サンプル画像" class="animation-1-zm location_pic">
+                        <img src="{{ asset('/images/ebisupage_国立博物館付属自然教育園.png') }}" alt="サンプル画像"  class="animation-1-zm location_pic bottom_pic">
+                    </div> -->
+
+                    <!-- 修正対応 -->
+                    <div class="location_pic_pair1">
+                        <div class="location_pic">
+                            <p class="ft2 s12" style="">｢恵比寿ガーデンプレイス｣(約260m・徒歩 4分)</p>
+                            <img src="{{ asset('/images/ebisupage_恵比寿ガーデンプレイス.png') }}" alt="サンプル画像" class="animation-0-zm">
+                        </div>
+                        <div class="location_pic bottom_pic">
+                            <p class="ft2 s12">｢アメリカ橋公園｣(約460m・徒歩 6分)</p>
+                            <img src="{{ asset('/images/アメリカ橋公園.jpg') }}" alt="サンプル画像"  class="animation-0-zm">
+                        </div>
+                    </div>
+                    <div class="location_pic_pair2">
+                        <div class="location_pic">
+                            <p class="ft2 s12">｢ウェスティンホテル東京｣(約300m・徒歩 4分)</p>
+                            <img src="{{ asset('/images/ebisupage_ウエスティンホテル.png') }}" alt="サンプル画像" class="animation-1-zm">
+                        </div>
+                        <div class="location_pic bottom_pic">
+                            <p class="ft2 s12">｢国立科学博物館附属 自然教育園｣(約1000m・徒歩 13分)</p>
+                            <img src="{{ asset('/images/ebisupage_国立博物館付属自然教育園.png') }}" alt="サンプル画像"  class="animation-1-zm">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -414,14 +435,14 @@
                     建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
                     ココに暮らす人々の姿さえも、この地の美しい風景となる。
                 </p>
-                <img src="{{ asset('/images/恵比寿ガーデンプレイス.png') }}" alt="LOCATION 写真" class="photo-90">
+                <img src="{{ asset('/images/ebisupage_恵比寿ガーデンプレイス.png') }}" alt="LOCATION 写真" class="photo-90">
                 <p class="s9 text-end mx-auto" style="width:90%;">｢恵比寿ガーデンプレイス｣ (約260m・徒歩4分)</p>
-                <img src="{{ asset('/images/ウエスティンホテル.png') }}" alt="LOCATION 写真" class="photo-90">
+                <img src="{{ asset('/images/ebisupage_ウエスティンホテル.png') }}" alt="LOCATION 写真" class="photo-90">
                 <p class="s9 text-end mx-auto" style="width:90%;">｢ウェスティンホテル東京｣ (約300m・徒歩4分)</p>
-                <img src="{{ asset('/images/アメリカ橋公園.png') }}" alt="LOCATION 写真" class="photo-90">
-                <p class="s9 text-end mx-auto" style="width:90%;">｢アメリカ橋公園｣(徒歩6分/約460m)</p>
-                <img src="{{ asset('/images/国立科学博物館付属自然教育園.png') }}" alt="LOCATION 写真" class="photo-90">
-                <p class="s9 text-end mx-auto" style="width:90%;">｢国立化学博物館附属 自然教育園｣ (約1000m・徒歩13分)</p>
+                <img src="{{ asset('/images/アメリカ橋公園.jpg') }}" alt="LOCATION 写真" class="photo-90">
+                <p class="s9 text-end mx-auto" style="width:90%;">｢アメリカ橋公園｣(約460m・徒歩6分)</p>
+                <img src="{{ asset('/images/ebisupage_国立博物館付属自然教育園.png') }}" alt="LOCATION 写真" class="photo-90">
+                <p class="s9 text-end mx-auto" style="width:90%;">｢国立科学博物館附属 自然教育園｣ (約1000m・徒歩13分)</p>
                 <button class="gold_btn read_more" type="button">
                     <a href="/location" class="text-white mh-parts ft2" style="">Read More</a>
                 </button>

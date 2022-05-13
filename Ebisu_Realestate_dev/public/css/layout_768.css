@@ -104,11 +104,11 @@
   
 }
 .footer_left_top {
-  width: 240px;
   margin: 0 auto;
 }
 .footer_logo_area {
-  
+  width: 240px;
+  margin: 0 auto;
 }
 .copyright {
   text-align: center;
@@ -443,6 +443,7 @@ video {
 .bland_img_link_sp {
   display: block;
   width: calc(100% - 40px);
+  aspect-ratio: 677/161;
   color: #fff;
   text-decoration: none;
   margin-top: 50px;
@@ -452,9 +453,10 @@ video {
 }
 .bland_bg {
   width: 100%;
-  aspect-ratio: 963/201;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  height: 100%;
+  /* background-size: 100%;
+  background-repeat: no-repeat; */
+  background-size: 100% 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -463,8 +465,8 @@ video {
 }
 .bland_bg img {
   display: block;
-  width: 55%;
-  margin-bottom: 10px;
+  width: 50%;
+  margin-bottom: 12px;
 }
 
 .bland_p1 {
@@ -901,6 +903,8 @@ input {
 }
 .minutes_td {
   width: 40%;
+  font-size: 11px;
+  text-align: right;
 }
 
 
@@ -923,7 +927,7 @@ input {
   display: none;
 }
 .map_select_btn img {
-  height: 56%;
+  height: 53%;
 }
 
 .medical_select_btn {
