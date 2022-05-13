@@ -11,7 +11,7 @@
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;">&nbsp;</div>
         <div class="d-flex align-items-auto">
-          <p class="s10 ft1 new-mark">NEW</p>
+          <p class="s10 ft1 blank">&nbsp;</p>
         </div>
         <a href="/concept" class="small mh-parts white_link s14">EBISU</a>
       </div>
@@ -21,14 +21,14 @@
         <div class="d-flex align-items-auto">
           <p class="s10 ft1 new-mark">NEW</p>
         </div>
-
         <a href="/location" style="" class="small mh-parts white_link s14">LOCATION</a>
-
       </div>
 
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;">&nbsp;</div>
-        <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark" style="margin-left:5px;">NEW</p></div>
+        <div class="d-flex align-items-auto">
+          <p class="s10 ft1 blank" style="margin-left:5px;">&nbsp;</p>
+        </div>
         <a href="/access" class="small mh-parts white_link s14" style="margin-left:5px;">ACCESS</a>
       </div>
 
@@ -37,9 +37,7 @@
         <div class="d-flex align-items-auto">
         <p class="s10 ft1 new-mark">NEW</p>
         </div>
-
         <a href="/design" style="" class="small mh-parts white_link s14">DESIGN</a>
-
       </div>
 
       <div class="header_link ms-3">
