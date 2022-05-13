@@ -2036,3 +2036,24 @@ td.h-110px {
   width: 80%;
 }
 /* BLANDページ ここまで */
+
+
+/* 来場予約ページ */
+.reservation_table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0; 
+}
+.reservation_table td {
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  vertical-align: middle;
+  text-align: center;
+}
+.reservation_table tr:last-child td {
+  border-bottom: 1px solid #000;
+}
+.left_td {
+  border-right: 1px solid #000;
+}
+/* 来場予約ページ ここまで */
