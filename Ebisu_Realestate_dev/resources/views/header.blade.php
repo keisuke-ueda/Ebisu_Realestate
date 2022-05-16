@@ -71,8 +71,8 @@
       </div>
 
       <div class="header_link ms-3">
-        <a href="/reserve" style="pointer-events:none;">
-          <button type="button" class="s13 questionnaire_btn mh-parts ts2" style="height: 40px; width: 140px; color:gray;"><span class="ft2">来場予約</span></button>
+        <a href="/reserve" style="">
+          <button type="button" class="s13 questionnaire_btn mh-parts text-white" style="height: 40px; width: 140px;"><span class="ft2">来場予約</span></button>
         </a>
       </div>
 
@@ -165,10 +165,8 @@
         <a href="/entry">物件エントリー</a>
       </button>
 
-      <button type="button" class="s13 questionnaire_btn text-white mx-auto d-block" style="height: 40px; width: 80%; pointer-events:none;">
-
-        <a href="/reserve" style="color: gray;">来場予約</a>
-
+      <button type="button" class="s13 questionnaire_btn text-white mx-auto d-block" style="height: 40px; width: 80%;">
+        <a href="/reserve" style="">来場予約</a>
       </button>
      
   </div>

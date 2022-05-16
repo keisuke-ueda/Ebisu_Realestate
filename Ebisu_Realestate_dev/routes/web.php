@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuestionnaireController;
 use App\Http\Controllers\EntryController;
+use App\Http\Controllers\ReserveController;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,8 +50,6 @@ Route::view('/overview', 'overview');
 //現地案内
 Route::view('/map', 'map');
 
-// 来場予約
-Route::view('/reserve', 'reserve');
 
 // アンケート
 // Route::view('/questionnaire', 'questionnaire');
@@ -90,3 +89,17 @@ Route::post('/entry_complete', [EntryController::class, 'send']);
 // Route::view('/entry_mail', 'entry_mail');
 Route::view('/questionnaire2', 'questionnaire_complete');
 Route::view('/entry2', 'entry_complete');
+
+
+// 来場予約
+Route::view('/reserve', 'reserve');
+Route::post('/reserve/confirm', [ReserveController::class, 'confirm']);
+
+// テスト用
+Route::get('/reserve/make', [ReserveController::class, 'reserve']);
+
+// Route::view('/reserve_confirm', 'reserve_confirm');
+Route::view('/reserve/confirm2', 'reserve_confirm2');
+
+//管理者ページ
+Route::view('/reserve/kanri', 'reserve_kanri');
