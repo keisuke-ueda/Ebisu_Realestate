@@ -132,7 +132,7 @@ class ReserveController extends Controller
 
             // テスト用アドレス
             // $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
-            $to = "ynakano7621@gmail.com";
+            $to = ["y.nakano.carecon@gmail.com", "tsuchiya@advns.co.jp"];
             $bcc = "nanokana44@gmail.com";
 
             // 本番アドレス
