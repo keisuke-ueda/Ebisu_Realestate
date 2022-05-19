@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuestionnaireController;
 use App\Http\Controllers\EntryController;
 use App\Http\Controllers\ReserveController;
+use App\Http\Controllers\ReserveSetController;
 
 /*
 |--------------------------------------------------------------------------
@@ -92,8 +93,11 @@ Route::view('/entry2', 'entry_complete');
 
 
 // 来場予約
-Route::view('/reserve', 'reserve');
+Route::get('/reserve', [ReserveController::class, 'show']);
 Route::post('/reserve/confirm', [ReserveController::class, 'confirm']);
+Route::post('/reserve/confirm2', [ReserveController::class, 'confirm2']);
+Route::post('/reserve/send', [ReserveController::class, 'send']);
+Route::get('/reserve/complete', [ReserveController::class, 'complete']);
 
 // テスト用
 Route::get('/reserve/make', [ReserveController::class, 'reserve']);
@@ -102,4 +106,15 @@ Route::get('/reserve/make', [ReserveController::class, 'reserve']);
 Route::view('/reserve/confirm2', 'reserve_confirm2');
 
 //管理者ページ
-Route::view('/reserve/kanri', 'reserve_kanri');
+Route::get('/reserve_set/login', [ReserveSetController::class, 'login_redirect']);
+
+Route::post('/reserve_set', [ReserveSetController::class, 'login'])->name('reserve_set.login');
+
+Route::get('/reserve_set', [ReserveSetController::class, 'show']);
+
+Route::post('/reserve_set/updated', [ReserveSetController::class, 'update']);
+
+Route::post('/reserve_set/edit', [ReserveSetController::class, 'edit']);
+
+Route::post('/reserve_set/logout', [ReserveSetController::class, 'logout']);
+

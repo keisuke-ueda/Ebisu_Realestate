@@ -1045,3 +1045,152 @@ input {
 .bland_map img {
   margin: 0 40px;
 }
+
+
+
+/* 来場予約 */
+#reserve {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+.reserve_content {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
+.reservation_table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0; 
+  font-size: 11px;
+}
+.reservation_table td {
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.2;
+}
+.reservation_table tr:last-child td {
+  border-bottom: 1px solid #000;
+}
+.left_td {
+  width: 16%;
+  font-weight: bold;
+  border-left: 1px solid #000;
+}
+.reserve_select {
+  width: 12%;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+}
+.reserve_ok {
+  background-color: #ffffdd;
+  color: #444;
+}
+.reserve_ok button {
+  
+}
+.reserve_ng {
+  background-color: #eee;
+  color: #ccc;
+}
+.period_select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.period_select button{
+  border: 1px solid #999;
+  color: #999;
+  background-color: #eee;
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.period_select p {
+  margin: 0 5px;
+}
+.day {
+  font-size: 10px;
+}
+.reserve-title {
+  margin-bottom: 40px;
+}
+
+
+/* 来場予約確認 */
+#reserve h1 {
+  font-size: 20px;
+  width: 100%;
+}
+#reserve h3 {
+  font-size: 13px;
+}
+#reserve p, #reserve span, #reserve ul, 
+#reserve li, #reserve input, #reserve label, 
+#reserve div, #entry select, #reserve a, 
+#reserve td ,#reserve button{
+  font-size: 10px;
+}
+#reserve input, #reserve select{
+  height: 20px;
+}
+
+.reserve_complete_msg {
+  margin: 40px 0 80px;
+}
+
+.reserve-column1 {
+  width:25%; 
+}
+.reserve-column2 {
+  width: 25%;
+}
+.reserve-column3 {
+  width:50%; 
+}
+.remarks {
+  width:100%; 
+}
+.address-column {
+  width: 33%;
+}
+.reservation_date_confirm {
+  margin-left:60px;
+}
+
+
+
+/* 来場予約設定ログイン */
+.reserve_set_login {
+  margin: 40px 0; 
+}
+
+.reserve_set_login form {
+  margin: 0 auto; 
+  width: 130px;
+}
+
+.reserve_set_login div {
+  width: 100%;
+}
+
+.reserve_set_login input{
+  display: block;
+  width: 100%;
+}
+
+.reserve_set_login button {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 0;
+  margin-top: 20px;
+  width: 100%;
+}
