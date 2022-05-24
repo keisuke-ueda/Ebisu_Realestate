@@ -5,6 +5,7 @@ use App\Http\Controllers\QuestionnaireController;
 use App\Http\Controllers\EntryController;
 use App\Http\Controllers\ReserveController;
 use App\Http\Controllers\ReserveSetController;
+use App\Http\Controllers\InfoSetController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +24,7 @@ use App\Http\Controllers\ReserveSetController;
 
 // TOP
 Route::view('/', 'top');
+// Route::get('/', TopController::class, 'show']);
 
 // CONCEPT
 Route::view('/concept', 'concept');
@@ -105,16 +107,21 @@ Route::get('/reserve/make', [ReserveController::class, 'reserve']);
 // Route::view('/reserve_confirm', 'reserve_confirm');
 Route::view('/reserve/confirm2', 'reserve_confirm2');
 
-//管理者ページ
+// 予約管理ページ
 Route::get('/reserve_set/login', [ReserveSetController::class, 'login_redirect']);
-
 Route::post('/reserve_set', [ReserveSetController::class, 'login'])->name('reserve_set.login');
-
 Route::get('/reserve_set', [ReserveSetController::class, 'show']);
-
 Route::post('/reserve_set/updated', [ReserveSetController::class, 'update']);
-
 Route::post('/reserve_set/edit', [ReserveSetController::class, 'edit']);
-
+Route::post('/reservation_show', [ReserveSetController::class, 'showReservation']);
+Route::post('/reservation_show', [ReserveSetController::class, 'cancelReservation'])->name('reservation.cancel');
 Route::post('/reserve_set/logout', [ReserveSetController::class, 'logout']);
 
+// Info管理ページ
+Route::get('/info_set/login', [InfoSetController::class, 'login_redirect']);
+Route::post('/info_set', [InfoSetController::class, 'login'])->name('info_set.login');
+Route::get('/info_set', [InfoSetController::class, 'show']);
+Route::post('/info_set/edit', [InfoSetController::class, 'edit']);
+Route::post('/info_set/update', [InfoSetController::class, 'update'])->name('info_set.update');
+Route::post('/info_set/delete', [InfoSetController::class, 'delete'])->name('info_set.delete');
+Route::post('/info_set/logout', [InfoSetController::class, 'logout']);

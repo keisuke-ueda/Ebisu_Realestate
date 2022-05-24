@@ -4,18 +4,12 @@
 
 @section('content')
 
-<form action="/reserve_set/logout" method="post">
-  @csrf
-  <button type="submit" class="reserve_set_logout">ログアウト</button>
-</form>
 
 <div class="mx-auto ft2" id="reserve" style="">
 
-  <h1 class="p-title gold-title-4 center-block text-center m-none s24 reserve-title">来場予約管理</h1>
+  <h1 class="p-title gold-title-4 center-block text-center m-none s24 reserve-title">来場予約管理（編集）</h1>
 
   <div class="reserve_content">
-    <form action="/reserve_set/updated" method="post">
-      @csrf
       <table class="reservation_set_table">
         <tbody>
           <tr>
@@ -30,49 +24,43 @@
           <tr>
             <td class="reservation_set_date">{{ $day[0] }} ({{ $day[2] }})</td>
             <td>
-              @if($day[3][0] == "対応可")
-              <div><input name="availability1_{{$i}}" type="radio" value="対応可" checked>対応可</div>
-              <div><input name="availability1_{{$i}}" type="radio" value="対応不可">対応不可</div>
-              <div><input name="availability1_{{$i}}" type="radio" value="予約あり">予約あり</div>
-              @elseif ($day[3][0] == "対応不可")
-              <div><input name="availability1_{{$i}}" type="radio" value="対応可">対応可</div>
-              <div><input name="availability1_{{$i}}" type="radio" value="対応不可" checked>対応不可</div>
-              <div><input name="availability1_{{$i}}" type="radio" value="予約あり">予約あり</div>
-              @else ($day[3][0] == "予約あり")
-              <div><input name="availability1_{{$i}}" type="radio" value="対応可">対応可</div>
-              <div><input name="availability1_{{$i}}" type="radio" value="対応不可">対応不可</div>
-              <div><input name="availability1_{{$i}}" type="radio" value="予約あり" checked>予約あり</div>
-              @endif
+              <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <label for="">上限：</label>
+                  <input class="ps-1" name="max1_{{$i}}" type="num" value="{{ $day[3][0] }}" style="width:20px;" form="reserve_set_update">
+                </div>
+                <form action="/reservation_show" method="post" class="d-flex align-items-center" style="margin-left:20px;" id="reservation1_{{$i}}">
+                @csrf
+                  <input type="hidden" name="reservation_time" value="{{ $day[0] }} 10:00〜11:30" form="reservation1_{{$i}}">
+                  予約：<button type="submit" style="color:blue; text-decoration:underline;">{{ $day[4][0] }}</button>
+                </form>
+              </div>
             </td>
             <td>
-              @if ($day[3][1] == "対応可")
-              <div><input name="availability2_{{$i}}" type="radio" value="対応可" checked>対応可</div>
-              <div><input name="availability2_{{$i}}" type="radio" value="対応不可">対応不可</div>
-              <div><input name="availability2_{{$i}}" type="radio" value="予約あり">予約あり</div>
-              @elseif ($day[3][1] == "対応不可")
-              <div><input name="availability2_{{$i}}" type="radio" value="対応可">対応可</div>
-              <div><input name="availability2_{{$i}}" type="radio" value="対応不可" checked>対応不可</div>
-              <div><input name="availability2_{{$i}}" type="radio" value="予約あり">予約あり</div>
-              @else ($day[3][1] == "予約あり")
-              <div><input name="availability2_{{$i}}" type="radio" value="対応可">対応可</div>
-              <div><input name="availability2_{{$i}}" type="radio" value="対応不可">対応不可</div>
-              <div><input name="availability2_{{$i}}" type="radio" value="予約あり" checked>予約あり</div>
-              @endif
+              <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <label for="">上限：</label>
+                  <input class="ps-1" name="max2_{{$i}}" type="num" value="{{ $day[3][1] }}" style="width:20px;" form="reserve_set_update">
+                </div>
+                <form action="/reservation_show" method="post" class="d-flex align-items-center" style="margin-left:20px;" id="reservation2_{{$i}}">
+                @csrf
+                  <input type="hidden" name="reservation_time" value="{{ $day[0] }} 13:00〜14:30" form="reservation2_{{$i}}">
+                  予約：<button type="submit" style="color:blue; text-decoration:underline;">{{ $day[4][1] }}</button>
+                </form>
+              </div>
             </td>
             <td>
-              @if ($day[3][2] == "対応可")
-              <div><input name="availability3_{{$i}}" type="radio" value="対応可" checked>対応可</div>
-              <div><input name="availability3_{{$i}}" type="radio" value="対応不可">対応不可</div>
-              <div><input name="availability3_{{$i}}" type="radio" value="予約あり">予約あり</div>
-              @elseif ($day[3][2] == "対応不可")
-              <div><input name="availability3_{{$i}}" type="radio" value="対応可">対応可</div>
-              <div><input name="availability3_{{$i}}" type="radio" value="対応不可" checked>対応不可</div>
-              <div><input name="availability3_{{$i}}" type="radio" value="予約あり">予約あり</div>
-              @else ($day[3][2] == "予約あり")
-              <div><input name="availability3_{{$i}}" type="radio" value="対応可">対応可</div>
-              <div><input name="availability3_{{$i}}" type="radio" value="対応不可">対応不可</div>
-              <div><input name="availability3_{{$i}}" type="radio" value="予約あり" checked>予約あり</div>
-              @endif
+              <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <label for="">上限：</label>
+                  <input class="ps-1" name="max3_{{$i}}" type="num" value="{{ $day[3][2] }}" style="width:20px;" form="reserve_set_update">
+                </div>
+                <form action="/reservation_show" method="post" class="d-flex align-items-center" style="margin-left:20px;" id="reservation3_{{$i}}">
+                @csrf
+                  <input type="hidden" name="reservation_time" value="{{ $day[0] }} 16:00〜17:30" form="reservation3_{{$i}}">
+                  予約：<button type="submit" style="color:blue; text-decoration:underline;">{{ $day[4][2] }}</button>
+                </form>
+              </div>
             </td>
             <!-- <td class="limit_td">3</td> -->
           </tr>
@@ -80,8 +68,9 @@
           @endforeach
         </tbody>
       </table>
-
-      <button type="submit" class="reserve_set_logout">更新</button>
+    <form action="/reserve_set/updated" method="post" id="reserve_set_update">
+      @csrf
+      <button type="submit" class="reserve_set_update">更新</button>
     </form>
   </div>
 </div>

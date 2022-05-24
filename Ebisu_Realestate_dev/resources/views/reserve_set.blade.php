@@ -27,9 +27,24 @@
         @foreach ($weeks as $day)
         <tr>
           <td class="reservation_set_date">{{ $day[0] }} ({{ $day[2] }})</td>
-          <td>{{ $day[3][0] }}</td>
-          <td>{{ $day[3][1] }}</td>
-          <td>{{ $day[3][2] }}</td>
+          <td>
+            <div class="d-flex align-items-center">
+              <div>上限：{{ $day[3][0] }}</div>
+              <div style="margin-left:20px;">予約：{{ $day[4][0] }}</div>
+            </div>
+          </td>
+          <td>
+            <div class="d-flex align-items-center">
+              <div>上限：{{ $day[3][1] }}</div>
+              <div style="margin-left:20px;">予約：{{ $day[4][1] }}</div>
+            </div>
+          </td>
+          <td>
+            <div class="d-flex align-items-center">
+              <div>上限：{{ $day[3][2] }}</div>
+              <div style="margin-left:20px;">予約：{{ $day[4][2] }}</div>
+            </div>
+          </td>
           <!-- <td class="limit_td">3</td> -->
         </tr>
         @endforeach

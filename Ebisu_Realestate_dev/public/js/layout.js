@@ -113,7 +113,7 @@ $(function () {
       }
 
       //予約管理ページではヘッダー・フッターは非表示
-      if ($('table').hasClass('reservation_set_table')) {
+      if ($('table').hasClass('reservation_set_table') || $('p').hasClass('no_reservation_msg')) {
         $('.header').addClass('d-none');
         $('.menu-trigger').addClass('d-none');
         $('.index_logo').addClass('d-none');
@@ -138,12 +138,20 @@ $(function () {
   }
 
   //予約管理ページではヘッダーは非表示
-  if ($('table').hasClass('reservation_set_table')) {
+  // if ($('table').hasClass('reservation_set_table') || $('p').hasClass('no_reservation_msg')) {
+  //   $('.header').addClass('d-none');
+  //   $('.menu-trigger').addClass('d-none');
+  //   $('.index_logo').addClass('d-none');
+  // }
+
+  //予約管理ページではヘッダー・フッターは非表示
+  if ($('table').hasClass('reservation_set_table') || $('p').hasClass('no_reservation_msg')) {
     $('.header').addClass('d-none');
     $('.menu-trigger').addClass('d-none');
     $('.index_logo').addClass('d-none');
+    $('.footer').addClass('d-none');
+    $('.to-page-top2').addClass('d-none');
   }
-
 
   // 動画の連続再生
   $('.movie-1').on("ended", function () {
@@ -267,6 +275,16 @@ $(function () {
     var count = $(this).val().length;
     $('.word_count').text(count);
   })
+
+
+  // 予約キャンセル(管理者機能)
+  $('.cancel_btn').on('click', function() {
+    if(confirm("こちらの予約をキャンセルしますか？\nキャンセル後はこちらのページで表示されなくなります")) {
+      return true;
+    } else {
+      return false;
+    }
+  });
 
 
   // Locationページ 地図の表示切り替え
@@ -519,13 +537,13 @@ $(function () {
         equalTo: "[name=email]"
       },
       birth_y: {
-        required: [true, "生年月日(年)を", "入力"],
+        required: [true, "生年月日(年)を", "選択"],
       },
       birth_m: {
-        required: [true, "生年月日(月)を", "入力"],
+        required: [true, "生年月日(月)を", "選択"],
       },
       birth_d: {
-        required: [true, "生年月日(日)を", "入力"],
+        required: [true, "生年月日(日)を", "選択"],
       },
       job: {
         required: [true, "ご職業を", "選択"],

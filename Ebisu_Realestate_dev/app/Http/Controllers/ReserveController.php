@@ -127,12 +127,15 @@ class ReserveController extends Controller
             // return redirect()->action([ReserveController::class, 'show']);
         }
 
+        $model = new Reserve();
+        $model->makeReservation($no, $reservation_date, $reservation_time, $input);
+
         // 管理者宛
         Mail::send('reserve_site_mail', compact('date','no','input','reservation_date','reservation_date_w','reservation_time'), function ($message) {
 
             // テスト用アドレス
             // $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
-            $to = ["y.nakano.carecon@gmail.com", "tsuchiya@advns.co.jp"];
+            $to = "ynakano7621@gmail.com";
             $bcc = "nanokana44@gmail.com";
 
             // 本番アドレス
@@ -150,9 +153,6 @@ class ReserveController extends Controller
             $no = session()->get("no");
             $message->to($input['email'])->subject("[受付番号{$no}]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」来場予約から");
         });
-
-        $model = new Reserve();
-        $model->makeReservation($no, $reservation_date, $reservation_time);
 
         //セッションを空にする
         $request->session()->forget("input");

@@ -1616,9 +1616,15 @@ td.h-110px {
   margin: 0 auto;
   padding-top: 150px;
 }
-
+#entry input, #entry select {
+  padding-left: 5px;
+  font-size: 14px;
+}
 .entry-column1 {
-  width:22%; 
+  width:120px; 
+}
+.entry-column2 {
+  width:120px; 
 }
 
 .w-200px {
@@ -2123,6 +2129,11 @@ td.h-110px {
   margin-bottom: 30px;
 }
 
+.gold-table-reserve input, .gold-table-reserve select{
+  padding-left: 5px;
+  font-size: 14px;
+}
+
 .gold-table-reserve input,
 .gold-table-reserve select {
   height: 30px;
@@ -2137,6 +2148,9 @@ td.h-110px {
 .entry-table-nest > tbody > tr > th,
 .entry-table-nest > tbody > tr > td {
   vertical-align: middle;
+}
+.reserve-column1 {
+  width: 120px;
 }
 .reserve-column2 {
   width: 120px;
@@ -2225,14 +2239,15 @@ td.h-110px {
   border-bottom: 1px solid #000;
 }
 .reservation_set_date {
-  color: red;
+  /* color: red; */
+  font-weight: bold;
 }
 .reservation_set_table {
 
 }
 
 /* 来場予約管理 編集ページ */ 
-.reserve_set_edit {
+.reserve_set_edit, .reserve_set_update {
   display: block;
   margin: 30px auto;
   background-color: #000;

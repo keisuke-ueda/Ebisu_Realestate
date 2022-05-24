@@ -770,12 +770,16 @@ video {
 }
 #entry input, #entry select{
   height: 20px;
+  padding-left: 2px;
 }
 .entry-column1 {
   width:25%; 
 }
+.entry-column2 {
+  width:25%; 
+}
 .entry-column3 {
-  width:62%; 
+  width:50%; 
 }
 /* #entry .column1 {
   width: 33%;
@@ -1134,12 +1138,13 @@ input {
 }
 #reserve p, #reserve span, #reserve ul, 
 #reserve li, #reserve input, #reserve label, 
-#reserve div, #entry select, #reserve a, 
+#reserve div, #reserve select, #reserve a, 
 #reserve td ,#reserve button{
   font-size: 10px;
 }
 #reserve input, #reserve select{
   height: 20px;
+  padding-left: 2px;
 }
 
 .reserve_complete_msg {

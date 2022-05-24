@@ -5,6 +5,9 @@
 @section('content')
 <?php
   $prefectures = array('北海道','青森県','岩手県','宮城県','秋田県','山形県','福島県','茨城県','栃木県','群馬県','埼玉県','千葉県','東京都','神奈川県','新潟県','富山県','石川県','福井県','山梨県','長野県','岐阜県','静岡県','愛知県','三重県','滋賀県','京都府','大阪府','兵庫県','奈良県','和歌山県','鳥取県','島根県','岡山県','広島県','山口県','徳島県','香川県','愛媛県','高知県','福岡県','佐賀県','長崎県','熊本県','大分県','宮崎県','鹿児島県','沖縄県');
+  $years = range(1945, date("Y"));
+  $months = range(1,12);
+  $days = range(1,31);
 ?>
 
 <div class="mx-auto ft2" id="reserve" style="">
@@ -17,8 +20,8 @@
       <p>ご予約日時</p>
       <p class="reservation_date_confirm">{{$reservation_date}}{{ $reservation_date_w }}&nbsp;{{ $reservation_time }}</p>
     </div>
-    <h3 class="s19" style="border-bottom:2px solid #000; padding-bottom:10px; margin:50px 0 20px;">ご予約者様情報</h3>
     
+    <h3 class="s19" style="border-bottom:2px solid #000; padding-bottom:10px; margin:50px 0 20px;">ご予約者様情報</h3>
     <div class="ft2 s16">
       <p class="text-center" style="margin-bottom: 10px;">以下のフォームに必要な項目を入力のうえ<br class="pc_hid">「送信」ボタンを押してください。</p>
       <p class="text-center" style="margin-bottom: 20px;"><span class="badge badge-danger">必須</span>は必須項目です。</p>
@@ -67,8 +70,31 @@
               <div class=""><label for="name"><span class="badge badge-danger s11">必須</span>生年月日</label></div>
             </td>
             <td style="padding-top: 10px; padding-bottom: 10px;">
-              <div><input style="width: 20%;" type="text" name="birth_y" data-error_placement="#birth_y"><span class="s10"> 年 </span><input style="width: 20%;" type="text" name="birth_m" data-error_placement="#birth_m"><span class="s10"> 月 </span><input style="width: 20%;"
-                  type="text" name="birth_d" data-error_placement="#birth_d"><span class="s10"> 日 </span></div>
+              <div>
+                <select style="width: 20%;" type="text" name="birth_y" data-error_placement="#birth_y">
+                  <option value="">選択</option>
+                  @foreach($years as $year)
+                  <option value="{{ $year }}">{{ $year }}</option>
+                  @endforeach
+                </select>
+                <span class="s10"> 年 </span>
+
+                <select style="width: 20%;" type="text" name="birth_m" data-error_placement="#birth_m">
+                  <option value="">選択</option>
+                  @foreach($months as $month)
+                  <option value="{{ $month }}">{{ $month }}</option>
+                  @endforeach
+                </select>
+                <span class="s10"> 月 </span>
+
+                <select style="width: 20%;" type="text" name="birth_d" data-error_placement="#birth_d">
+                  <option value="">選択</option>
+                  @foreach($days as $day)
+                  <option value="{{ $day }}">{{ $day }}</option>
+                  @endforeach
+                </select>
+                <span class="s10"> 日 </span>
+              </div>
               <div class="validation_message" id="birth_y"></div>
               <div class="validation_message" id="birth_m"></div>
               <div class="validation_message" id="birth_d"></div>
@@ -101,17 +127,17 @@
                     <label for="name" class="s14">郵便番号<span class="badge badge-danger s11">必須</span></label>
                   </td>
                   <td>
-                    <input class="w-60px" type="text" style="" name="home_post_code" data-error_placement="#home_post_code"> - <input class="w-100px" type="text" style="" name="home_post_code2">
+                    <input class="w-60px" type="text" style="" name="home_post_code" data-error_placement="#home_post_code"> - <input class="w-100px" type="text" style="" name="home_post_code2" onKeyUp="AjaxZip3.zip2addr('home_post_code','home_post_code2','home_prefectures','home_manicipalities','home_chome_address');">
                     <div class="validation-message" id="home_post_code"></div>
                     <p style="margin: 0;" class="s12">※半角数字で入力してください</p>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <label for="name" class="s14">都道府県<span class="badge badge-danger s11">必須</span></label>
+                    <label for="name" class="">都道府県<span class="badge badge-danger s11">必須</span></label>
                   </td>
                   <td class="py-1">
-                    <select class="s11" name="home_prefectures"
+                    <select class="" name="home_prefectures"
                         data-error_placement="#home_prefectures">
                       <option value="">選択</option>
                       @foreach ($prefectures as $prefecture)
@@ -175,6 +201,7 @@
       </table>
       <button class="mh-parts btn btn-dark mx-auto d-block mt-30px mb-40px"><span class="p-3 s18">入力内容の確認</span></button>
     </form>
+    <button class="mh-parts btn mx-auto d-block mb-40px" type="button" onclick=history.back() style="margin-top:15px; text-decoration:underline;;">日付選択に戻る</button>
   </div>
 </div>
 
