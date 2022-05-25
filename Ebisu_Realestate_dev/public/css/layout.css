@@ -517,6 +517,10 @@ video {
 
 }
 
+.scroll_table {
+  overflow-y: scroll;
+}
+
 .info_table {
   width: 600px;
   margin: 0 auto;
@@ -538,8 +542,23 @@ video {
   padding: 25px 0;
 }
 
+.new-td-2 {
+  width: 55px;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.new-td-2 p {
+  background-color: red;
+  margin: 0;
+  display: inline-block;
+  line-height: 100%;
+  padding: 0 5px;
+  font-weight: bold;
+}
+
 .text-td-2 {
-  padding: 25px 0px 25px 55px;
+  padding: 25px 0px 25px 0px;
 }
 
 
@@ -2089,7 +2108,7 @@ td.h-110px {
 }
 .period_select {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   margin-top: -20px;
   margin-bottom: 10px;
@@ -2209,11 +2228,13 @@ td.h-110px {
 /* 来場予約設定 */
 .reserve_set_logout {
   display: block;
-  margin: 40px 40px 0px auto;
   background-color: #000;
   color: #fff;
   padding: 5px 0;
   width: 200px;
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
 }
 .reservation_set_table {
   width: 100%;
@@ -2249,11 +2270,14 @@ td.h-110px {
 /* 来場予約管理 編集ページ */ 
 .reserve_set_edit, .reserve_set_update {
   display: block;
-  margin: 30px auto;
   background-color: #000;
   color: #fff;
   padding: 5px 0;
   width: 200px;
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
 }
+
 
 

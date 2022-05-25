@@ -121,6 +121,20 @@ $(function () {
         $('.to-page-top2').addClass('d-none');
       }
     }
+
+    // TOPページ Infoを５行だけ表示し、あとはスクロール
+    var len = $(".info_tr").length;
+    var max = 5;
+
+    if (len > max) {
+      var height = 0;
+      for(i=1; i<=max; i++) {
+        height += $('.tr_' + String(i)).outerHeight();
+      }
+      height = String(height) + 'px';
+      $('.scroll_table').css('height', height);
+    }
+    
   });
 
 

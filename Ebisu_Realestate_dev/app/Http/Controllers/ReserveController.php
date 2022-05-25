@@ -134,8 +134,7 @@ class ReserveController extends Controller
         Mail::send('reserve_site_mail', compact('date','no','input','reservation_date','reservation_date_w','reservation_time'), function ($message) {
 
             // テスト用アドレス
-            // $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
-            $to = "ynakano7621@gmail.com";
+            $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'tsuchiya@advns.co.jp'];
             $bcc = "nanokana44@gmail.com";
 
             // 本番アドレス

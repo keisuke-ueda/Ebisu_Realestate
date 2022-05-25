@@ -8,6 +8,10 @@
   @csrf
   <button type="submit" class="reserve_set_logout">ログアウト</button>
 </form>
+<form action="/reserve_set/edit" method="post">
+  @csrf
+  <button type="submit" class="reserve_set_edit">編集</button>
+</form>
 
 <div class="mx-auto ft2" id="reserve" style="">
 
@@ -50,12 +54,6 @@
         @endforeach
       </tbody>
     </table>
-
-    <form action="/reserve_set/edit" method="post">
-      @csrf
-      <button type="submit" class="reserve_set_edit">編集</button>
-    </form>
-
   </div>
 </div>
 

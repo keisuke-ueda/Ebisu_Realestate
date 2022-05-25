@@ -12,9 +12,10 @@ class InfoSetController extends Controller
     }
 
     function login(Request $request) {
-        if ($request->password == env('INFO_SET_PASS')) {
+        if (($request->password == env('INFO_SET_PASS')) && ($request->id == env('INFO_SET_ID'))) {
             //セッションに書き込む
-            $request->session()->put("password", $request->password);
+            $request->session()->put("info_set_id", $request->id);
+            $request->session()->put("info_set_password", $request->password);
             return redirect()->action([InfoSetController::class, 'show']);
         } else {
             return redirect()->action([InfoSetController::class, 'login_redirect']);
@@ -22,8 +23,9 @@ class InfoSetController extends Controller
     }
 
     function show(Request $request) {
-        $password = $request->session()->get("password");
-        if (!$password) {
+        $info_set_id = $request->session()->get("info_set_id");
+        $info_set_password = $request->session()->get("info_set_password");
+        if (!$info_set_password || !$info_set_id) {
             return redirect()->action([InfoSetController::class, 'login_redirect']);
         }
 
@@ -77,7 +79,8 @@ class InfoSetController extends Controller
     }
 
     function logout(Request $request) {
-        $request->session()->forget("password");
+        $request->session()->forget("info_set_id");
+        $request->session()->forget("info_set_password");
         return redirect()->action([InfoSetController::class, 'login_redirect']);
     }
 }

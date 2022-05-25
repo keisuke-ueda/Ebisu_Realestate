@@ -5,10 +5,14 @@
 @section('content')
 
 
+<form action="/reserve_set/updated" method="post" id="reserve_set_update">
+  @csrf
+  <button type="submit" class="reserve_set_update">戻る</button>
+</form>
+
 <div class="mx-auto ft2" id="reserve" style="">
-
   <h1 class="p-title gold-title-4 center-block text-center m-none s24 reserve-title">来場予約管理（編集）</h1>
-
+  
   <div class="reserve_content">
       <table class="reservation_set_table">
         <tbody>
@@ -68,10 +72,6 @@
           @endforeach
         </tbody>
       </table>
-    <form action="/reserve_set/updated" method="post" id="reserve_set_update">
-      @csrf
-      <button type="submit" class="reserve_set_update">更新</button>
-    </form>
   </div>
 </div>
 

@@ -9,10 +9,10 @@
   <form action="/reserve_set/edit" method="post"> 
     @csrf
     <input type="hidden" name="reshow" value="true">
-    <button class="d-block" style="margin-top:60px;color:blue; text-decoration:underline;">← 戻る</button>
+    <button class="d-block s18" style="margin-top:80px; color:#fff; background-color:#000; padding:7px 20px; font-weight:bold;">← 戻る</button>
   </form>
   
-  <p class="text-center h3 mt-3">{{ $reservation_time }}の予約情報</p>
+  <p class="text-center h3 mt-4">{{ $reservation_time }}の予約情報</p>
   @if ($reservations != [])
   <?php  $i=0 ?>
     @foreach ($reservations as $reservation)

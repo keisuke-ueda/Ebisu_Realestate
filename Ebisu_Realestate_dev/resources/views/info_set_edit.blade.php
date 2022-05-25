@@ -27,25 +27,25 @@
   <div>
       <div class="info_column">
         <label for="">見出し</label>
-        <input type="text" name="summary" value="@if(isset($info)){{ $info->summary }}@endif" style="width:870px" form="update">
+        <input type="text" name="summary" value="@if(isset($info)){{ $info->summary }}@endif" style="width:870px" form="update" required>
       </div>
       <div class="info_column">
         <label for="">表示日付</label>
-        <input type="text" name="date" value="@if(isset($info)){{ $info->date }}@endif" form="update">
+        <input type="date" name="date" value="@if(isset($info)){{ $info->date }}@endif" form="update" required>
       </div>
       <div class="info_column">
         <label for="">公開ステータス</label>
         <input type="radio" name="status" value="公開" form="update" <?php if(isset($info) && $info->status=="公開") { echo "checked"; } ?>>公開
-        <input type="radio" name="status" value="非公開" form="update" style="margin-left:15px;" <?php if(isset($info) && $info->status=="非公開") { echo "checked"; } ?>>非公開
+        <input type="radio" name="status" value="非公開" form="update" style="margin-left:15px;" <?php if((isset($info) && $info->status=="非公開") || !isset($info)) { echo "checked"; } ?>>非公開
       </div>
       <div class="info_column">
         <label for="">new</label>
-        <input type="radio" name="new" value="あり" form="update" <?php if(isset($info) && $info->new=="あり") { echo "checked"; } ?>>あり
-        <input type="radio" name="new" value="なし" form="update" style="margin-left:15px;" <?php if(isset($info) && $info->new=="なし") { echo "checked"; } ?>>なし
+        <input type="radio" name="new" value="あり" form="update" <?php if((isset($info) && $info->new=="あり") || !isset($info)) { echo "checked"; } ?>>あり
+        <input type="radio" name="new" value="なし" form="update" style="margin-left:15px;" <?php if((isset($info) && $info->new=="なし")) { echo "checked"; } ?>>なし
       </div>
       <div class="info_column">
         <label for="">投稿内容</label>
-        <textarea name="content" style="width:870px" rows="6" form="update">@if(isset($info)){{ $info->content }}@endif</textarea>
+        <textarea name="content" style="width:870px" rows="6" form="update" required>@if(isset($info)){{ $info->content }}@endif</textarea>
       </div>
 
       <div style="display:flex; justify-content:flex-end;">

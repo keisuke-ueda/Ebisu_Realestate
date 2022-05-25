@@ -6,6 +6,7 @@ use App\Http\Controllers\EntryController;
 use App\Http\Controllers\ReserveController;
 use App\Http\Controllers\ReserveSetController;
 use App\Http\Controllers\InfoSetController;
+use App\Http\Controllers\TopController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,8 +24,8 @@ use App\Http\Controllers\InfoSetController;
 // });
 
 // TOP
-Route::view('/', 'top');
-// Route::get('/', TopController::class, 'show']);
+// Route::view('/', 'top');
+Route::get('/', [TopController::class, 'show']);
 
 // CONCEPT
 Route::view('/concept', 'concept');

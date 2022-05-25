@@ -317,8 +317,17 @@ video {
   padding: 10px 0;
 }
 
+.new-td-2 {
+  padding: 10px 0;
+  width: 32px;
+}
+
+.new-td-2 p {
+  padding: 0 2px;
+}
+
 .text-td-2 {
-  padding: 10px 0px 10px 15px;
+  padding: 10px 0px 10px 0;
 }
 
 .border-gold-2 {
