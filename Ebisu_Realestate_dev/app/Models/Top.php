@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 class Top extends Model
 {
     public function getAll() {
-       $all_info = DB::table('Info')->where('status', '公開')->latest('date')->get();
+       $all_info = DB::table('Info')->where('status', '公開')->latest('date')->latest('id')->get();
        return $all_info;
     }
 }
