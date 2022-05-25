@@ -11,7 +11,7 @@
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;">&nbsp;</div>
         <div class="d-flex align-items-auto">
-          <p class="s10 ft1 new-mark">NEW</p>
+          <p class="s10 ft1 blank">&nbsp;</p>
         </div>
         <a href="/concept" class="small mh-parts white_link s14">EBISU</a>
       </div>
@@ -19,27 +19,25 @@
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;">&nbsp;</div>
         <div class="d-flex align-items-auto">
-          <p class="s10 ft1 new-mark">NEW</p>
+          <p class="s10 ft1 blank">&nbsp;</p>
         </div>
-
         <a href="/location" style="" class="small mh-parts white_link s14">LOCATION</a>
-
       </div>
 
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;">&nbsp;</div>
-        <div class="d-flex align-items-auto"><p class="s10 ft1 new-mark" style="margin-left:5px;">NEW</p></div>
+        <div class="d-flex align-items-auto">
+          <p class="s10 ft1 blank" style="margin-left:5px;">&nbsp;</p>
+        </div>
         <a href="/access" class="small mh-parts white_link s14" style="margin-left:5px;">ACCESS</a>
       </div>
 
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;">&nbsp;</div>
         <div class="d-flex align-items-auto">
-        <p class="s10 ft1 new-mark">NEW</p>
+          <p class="s10 ft1 blank">&nbsp;</p>
         </div>
-
         <a href="/design" style="" class="small mh-parts white_link s14">DESIGN</a>
-
       </div>
 
       <div class="header_link ms-3">
@@ -61,11 +59,9 @@
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;"><a href="/map" class="ft2 s10 mh-parts white_link" style="white-space:nowrap;">>現地案内図</a></div>
         <div class="d-flex align-items-auto">
-          <p class="s10 ft1 new-mark">NEW</p>
+          <p class="s10 ft1 blank">&nbsp;</p>
         </div>
-
         <a href="/brand" style="" class="small mh-parts white_link s14">BRAND</a>
-
       </div>
 
       <div class="header_link ms-3">
@@ -75,8 +71,8 @@
       </div>
 
       <div class="header_link ms-3">
-        <a href="/reserve" style="pointer-events:none;">
-          <button type="button" class="s13 questionnaire_btn mh-parts ts2" style="height: 40px; width: 140px; color:gray;"><span class="ft2">来場予約</span></button>
+        <a href="/reserve" style="">
+          <button type="button" class="s13 questionnaire_btn mh-parts text-white" style="height: 40px; width: 140px;"><span class="ft2">来場予約</span></button>
         </a>
       </div>
 
@@ -169,10 +165,8 @@
         <a href="/entry">物件エントリー</a>
       </button>
 
-      <button type="button" class="s13 questionnaire_btn text-white mx-auto d-block" style="height: 40px; width: 80%; pointer-events:none;">
-
-        <a href="/reserve" style="color: gray;">来場予約</a>
-
+      <button type="button" class="s13 questionnaire_btn text-white mx-auto d-block" style="height: 40px; width: 80%;">
+        <a href="/reserve" style="">来場予約</a>
       </button>
      
   </div>

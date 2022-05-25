@@ -517,9 +517,14 @@ video {
 
 }
 
-.info_table {
+.scroll_table {
   width: 600px;
   margin: 0 auto;
+  overflow-y: scroll;
+}
+
+.info_table {
+  width: 100%;
 }
 
 .info_table > tbody > tr {
@@ -538,8 +543,23 @@ video {
   padding: 25px 0;
 }
 
+.new-td-2 {
+  width: 55px;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.new-td-2 p {
+  background-color: red;
+  margin: 0;
+  display: inline-block;
+  line-height: 100%;
+  padding: 0 5px;
+  font-weight: bold;
+}
+
 .text-td-2 {
-  padding: 25px 0px 25px 55px;
+  padding: 25px 0px 25px 0px;
 }
 
 
@@ -1616,9 +1636,15 @@ td.h-110px {
   margin: 0 auto;
   padding-top: 150px;
 }
-
+#entry input, #entry select {
+  padding-left: 5px;
+  font-size: 14px;
+}
 .entry-column1 {
-  width:22%; 
+  width:120px; 
+}
+.entry-column2 {
+  width:120px; 
 }
 
 .w-200px {
@@ -2036,3 +2062,223 @@ td.h-110px {
   width: 80%;
 }
 /* BLANDページ ここまで */
+
+
+/* 来場予約ページ */
+#reserve {
+  padding:150px 0 50px; 
+  width: 800px;
+}
+
+.reservation_table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0; 
+}
+.reservation_table td {
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.2;
+}
+.reservation_table tr:last-child td {
+  border-bottom: 1px solid #000;
+}
+.left_td {
+  width: 16%;
+  font-weight: bold;
+  border-left: 1px solid #000;
+}
+.reserve_select {
+  width: 12%;
+  font-size: 28px;
+  padding: 25px 20px;
+  font-weight: bold;
+}
+.reserve_ok {
+  background-color: #ffffdd;
+  color: #444;
+}
+.reserve_ok button {
+  
+}
+.reserve_ng {
+  background-color: #eee;
+  color: #ccc;
+}
+.period_select {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+.period_select button{
+  border: 1px solid #999;
+  color: #999;
+  background-color: #eee;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+}
+.period_select p {
+  margin: 0 5px;
+}
+.day {
+  font-size: 14px;
+}
+
+.reserve-title {
+  margin-bottom: 40px;
+}
+/* 来場予約ページ ここまで */
+
+
+/* 来場予約確認ページ */
+.gold-table-reserve > tbody > tr {
+  border-bottom: 2px solid #d6c88d;
+}
+
+.top {
+  border-top: 2px solid #d6c88d;
+}
+
+.gold-table-reserve {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.gold-table-reserve input, .gold-table-reserve select{
+  padding-left: 5px;
+  font-size: 14px;
+}
+
+.gold-table-reserve input,
+.gold-table-reserve select {
+  height: 30px;
+}
+
+.gold-table-reserve > tbody > tr > td,
+.gold-table-reserve > tbody > tr > th {
+  padding: 5px 0 5px;
+  vertical-align: middle;
+}
+
+.entry-table-nest > tbody > tr > th,
+.entry-table-nest > tbody > tr > td {
+  vertical-align: middle;
+}
+.reserve-column1 {
+  width: 120px;
+}
+.reserve-column2 {
+  width: 120px;
+}
+.remarks {
+  width:80%; 
+  border:1px solid #ddd; 
+  background:#eee;
+}
+.address-column {
+  width: 120px;
+}
+.reservation_date_confirm {
+  margin-left:150px;
+}
+.date_confirm {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* 来場予約完了 */
+.reserve_complete_msg {
+  margin: 50px 0 calc(100vh - 570px); 
+}
+
+
+/* 来場予約設定ログイン */
+.reserve_set_login {
+  margin: 80px 0 calc(100vh - 520px); 
+}
+
+.reserve_set_login form {
+  margin: 0 auto; 
+  width: 200px;
+}
+
+.reserve_set_login div {
+  width: 100%;
+}
+
+.reserve_set_login input{
+  display: block;
+  width: 100%;
+}
+
+.reserve_set_login button {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 0;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+/* 来場予約設定 */
+.reserve_set_logout {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 0;
+  width: 200px;
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+}
+.reservation_set_table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0; 
+  margin-top: 50px;
+}
+.reservation_set_table th {
+  border-bottom: 1px solid #000;
+  /* text-align: center; */
+  padding-bottom: 20px;
+  font-weight: bold;
+  width: 25%;
+}
+.reservation_set_table td {
+  border-bottom: 1px solid #000;
+  vertical-align: middle;
+  line-height: 1.5;
+  padding: 20px 0px;
+  width: 25%;
+}
+.reservation_set_table tr:last-child td {
+  border-bottom: 1px solid #000;
+}
+.reservation_set_date {
+  /* color: red; */
+  font-weight: bold;
+}
+.reservation_set_table {
+
+}
+
+/* 来場予約管理 編集ページ */ 
+.reserve_set_edit, .reserve_set_update {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 0;
+  width: 200px;
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+}
+
+
+

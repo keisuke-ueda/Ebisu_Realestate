@@ -98,12 +98,6 @@ $(function () {
 
 
 
-
-
-
-
-
-
     if($(".header_content").css('display') != 'none') {
       // スクロールによるヘッダーの出現・固定(PCのみ)
       var position = $('.menu-trigger').offset().top + $('.menu-trigger').height();
@@ -117,7 +111,30 @@ $(function () {
       if ($('.header').offset().top == 0) {
         $('.header').addClass('d-none');
       }
+
+      //予約管理ページではヘッダー・フッターは非表示
+      if ($('table').hasClass('reservation_set_table') || $('p').hasClass('no_reservation_msg')) {
+        $('.header').addClass('d-none');
+        $('.menu-trigger').addClass('d-none');
+        $('.index_logo').addClass('d-none');
+        $('.footer').addClass('d-none');
+        $('.to-page-top2').addClass('d-none');
+      }
     }
+
+    // TOPページ Infoを５行だけ表示し、あとはスクロール
+    var len = $(".info_tr").length;
+    var max = 5;
+
+    if (len > max) {
+      var height = 0;
+      for(i=1; i<=max; i++) {
+        height += $('.tr_' + String(i)).outerHeight();
+      }
+      height = String(height) + 'px';
+      $('.scroll_table').css('height', height);
+    }
+    
   });
 
 
@@ -134,6 +151,21 @@ $(function () {
     $('.menu-trigger').removeClass('menu_animation');
   }
 
+  //予約管理ページではヘッダーは非表示
+  // if ($('table').hasClass('reservation_set_table') || $('p').hasClass('no_reservation_msg')) {
+  //   $('.header').addClass('d-none');
+  //   $('.menu-trigger').addClass('d-none');
+  //   $('.index_logo').addClass('d-none');
+  // }
+
+  //予約管理ページではヘッダー・フッターは非表示
+  if ($('table').hasClass('reservation_set_table') || $('p').hasClass('no_reservation_msg')) {
+    $('.header').addClass('d-none');
+    $('.menu-trigger').addClass('d-none');
+    $('.index_logo').addClass('d-none');
+    $('.footer').addClass('d-none');
+    $('.to-page-top2').addClass('d-none');
+  }
 
   // 動画の連続再生
   $('.movie-1').on("ended", function () {
@@ -199,6 +231,74 @@ $(function () {
     };
   });
   $('.current').css('color', 'white');
+
+
+  // 来場予約ページ カレンダーの表示切り替え
+  $('.period_next').on('click', function() {
+    if (!$('.week1').hasClass('d-none')) {
+      $('.week1').addClass('d-none');
+      $('.week2').removeClass('d-none');
+    } else if (!$('.week2').hasClass('d-none')) {
+      $('.week2').addClass('d-none');
+      $('.week3').removeClass('d-none');
+    } else if (!$('.week3').hasClass('d-none')) {
+      $('.week3').addClass('d-none');
+      $('.week4').removeClass('d-none');
+    } else if (!$('.week4').hasClass('d-none')) {
+      $('.week4').addClass('d-none');
+      $('.week5').removeClass('d-none');
+    } else if (!$('.week5').hasClass('d-none')) {
+      $('.week5').addClass('d-none');
+      $('.week6').removeClass('d-none');
+    } else if (!$('.week6').hasClass('d-none')) {
+      $('.week6').addClass('d-none');
+      $('.week7').removeClass('d-none');
+    } else if (!$('.week7').hasClass('d-none')) {
+      $('.week7').addClass('d-none');
+      $('.week8').removeClass('d-none');
+    } 
+  })
+
+  $('.period_back').on('click', function() {
+    if (!$('.week8').hasClass('d-none')) {
+      $('.week8').addClass('d-none');
+      $('.week7').removeClass('d-none');
+    } else if (!$('.week7').hasClass('d-none')) {
+      $('.week7').addClass('d-none');
+      $('.week6').removeClass('d-none');
+    }  else if (!$('.week6').hasClass('d-none')) {
+      $('.week6').addClass('d-none');
+      $('.week5').removeClass('d-none');
+    } else if (!$('.week5').hasClass('d-none')) {
+      $('.week5').addClass('d-none');
+      $('.week4').removeClass('d-none');
+    } else if (!$('.week4').hasClass('d-none')) {
+      $('.week4').addClass('d-none');
+      $('.week3').removeClass('d-none');
+    } else if (!$('.week3').hasClass('d-none')) {
+      $('.week3').addClass('d-none');
+      $('.week2').removeClass('d-none');
+    } else if (!$('.week2').hasClass('d-none')) {
+      $('.week2').addClass('d-none');
+      $('.week1').removeClass('d-none');
+    }
+  })
+
+  // 備考欄文字数カウント
+  $('.remarks').on('keydown keyup keypress change', function() {
+    var count = $(this).val().length;
+    $('.word_count').text(count);
+  })
+
+
+  // 予約キャンセル(管理者機能)
+  $('.cancel_btn').on('click', function() {
+    if(confirm("こちらの予約をキャンセルしますか？\nキャンセル後はこちらのページで表示されなくなります")) {
+      return true;
+    } else {
+      return false;
+    }
+  });
 
 
   // Locationページ 地図の表示切り替え
@@ -451,13 +551,13 @@ $(function () {
         equalTo: "[name=email]"
       },
       birth_y: {
-        required: [true, "生年月日(年)を", "入力"],
+        required: [true, "生年月日(年)を", "選択"],
       },
       birth_m: {
-        required: [true, "生年月日(月)を", "入力"],
+        required: [true, "生年月日(月)を", "選択"],
       },
       birth_d: {
-        required: [true, "生年月日(日)を", "入力"],
+        required: [true, "生年月日(日)を", "選択"],
       },
       job: {
         required: [true, "ご職業を", "選択"],
@@ -559,6 +659,10 @@ $(function () {
         required: [true, "入力", ""],
         number: true
       },
+
+      remarks: {
+        
+      },
     },
     //エラーメッセージ表示位置指定
     errorPlacement: function (error, element) {
@@ -570,6 +674,7 @@ $(function () {
   // フォーム入力バリデーションのエラーメッセージフォーマット
   $.extend($.validator.messages, {
     required: "{1}{2}してください。",
+    max: "{1}{2}してください。",
     min: "{1}{2}してください。",
     number: "半角数字で入力してください。",
     email: "正しいメールアドレスを入力してください。",

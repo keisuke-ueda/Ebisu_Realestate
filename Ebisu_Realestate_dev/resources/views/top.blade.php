@@ -225,9 +225,9 @@
             <!-- INFOMATION(PC・SP共通) -->
             <div class="animation">
                 <p class="gold-title-2 ft4 s30 info_title">INFORMATION</p>
-                <div class="ft2 s14">
+                <div class="ft2 s14 scroll_table">
                     <table class="text-white info_table">
-                        <tr>
+                        <!-- <tr>
                             <td class="date-td-1" scope="col">2022.4.22</td>
                             <td class="text-td-1" scope="col">ラ・アトレ恵比寿グランガーデン　ホームページ開設</td>
                         </tr>
@@ -246,7 +246,16 @@
                         <tr>
                             <td class="date-td-2" scope="col">2022.5.13</td>
                             <td class="text-td-2" scope="col">LOCATIONページ、DESIGNページ、BRANDページを<br class="pc_hid">公開しました。</td>
+                        </tr> -->
+                        <?php $i=1 ?>
+                        @foreach ($all_info as $info)
+                        <tr class="info_tr tr_{{ $i }}">
+                            <td class="date-td-2" scope="col">{{ date("Y.n.j", strtotime($info->date)) }}</td>
+                            <td class="new-td-2">@if($info->new == "あり")<p class="ft1">NEW</p>@endif</td>
+                            <td class="text-td-2" scope="col" style="white-space:pre-line;">{{ $info->content }}</td>
                         </tr>
+                        <?php $i++ ?>
+                        @endforeach
                     </table>
                 </div>
             </div>

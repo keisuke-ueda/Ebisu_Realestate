@@ -24,7 +24,7 @@
         <tbody>
           <tr class="top">
             <td class="column1 entry-column1" style=""><label for="name"><span class="badge badge-danger s11">必須</span>お名前</label></td>
-            <td class="column2 h-40px" style="width: 120px;"></td>
+            <td class="column2 entry-column2 h-40px" style=""></td>
             <td class="column3 entry-column3" style="width: auto;">
               {{ $input["sei"] }}
               {{ $input["mei"] }}
@@ -82,7 +82,7 @@
             <td colspan="2" style="padding-top: 10px; padding-bottom: 10px;">
               <table class="entry-table-nest s14" style="width: 100%;">
                 <tr rowspan="2">
-                  <td style="width: 120px; vertical-align: top;">
+                  <td class="address-column" style="vertical-align: top;">
                     <label for="name" class="s14">郵便番号<span class="badge badge-danger s11">必須</span></label>
                   </td>
                   <td>
