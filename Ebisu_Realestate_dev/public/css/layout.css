@@ -2194,6 +2194,7 @@ td.h-110px {
 /* 来場予約完了 */
 .reserve_complete_msg {
   margin: 50px 0 calc(100vh - 570px); 
+  margin-bottom: max(50px, calc(100vh - 570px));
 }
 
 
