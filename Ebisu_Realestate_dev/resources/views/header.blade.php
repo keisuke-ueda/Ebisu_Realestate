@@ -53,7 +53,7 @@
         <div class="d-flex align-items-auto">
           <p class="s10 ft1 blank">&nbsp;</p>
         </div>
-        <a href="/plan" style="pointer-events:none;" class="small mh-parts gray_link s14">PLAN</a>
+        <a href="/plan" style="" class="small mh-parts gray_link s14">PLAN</a>
       </div>
 
       <div class="header_link ms-3">
