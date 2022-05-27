@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="plan_image">
-        <img class="plan_image_picture" src="{{ asset('/images/plan-image4.png') }}" alt="">
+        <img class="plan_image_picture" src="{{ asset('/images/plan-image4.jpg') }}" alt="">
         <div class="plan_image_text">
           <div class="plan_image_no" style="">
             <img class="" src="{{ asset('/images/plan-n4.png') }}" alt="">
