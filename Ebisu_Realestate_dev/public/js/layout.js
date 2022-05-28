@@ -151,6 +151,58 @@ $(function () {
     $('.menu-trigger').removeClass('menu_animation');
   }
 
+
+  $(window).on('load resize scroll click',function (){
+    let btn = $('.read_more').outerHeight();
+
+    var ebisu_col = $('.ebisu_col').height();
+    var ebisu_pic = $('.ebisu_pic').height();
+    var ebisu_img = $('.ebisu_img').height();
+    var ebisu_p = $('.ebisu_p').height();
+    
+    var location_col = $('.location_col').height();
+    var location_pic = $('.location_pics').height();
+    var location_img = $('.location_img').height();
+    var location_p = $('.location_p').height();
+
+    var access_col = $('.access_col').height();
+    var access_pic = $('.access_pic_img').height();
+    var access_img = $('.access_img').height();
+    var access_p = $('.access_p').height();
+
+    var design_col = $('.design_col').height();
+    var design_pic = $('.design_pic').height();
+    var design_img = $('.design_img').height();
+    var design_p = $('.design_p').height();
+
+    var plan_col = $('.plan_col').height();
+    var plan_pic = $('.plan_pics').height();
+    var plan_img = $('.plan_img').height();
+    var plan_p = $('.plan_p').height();
+
+
+    var ebisu_line = ebisu_pic - ebisu_img - ebisu_p - btn - 68
+    var location_line = location_pic - location_img - location_p - btn - 68
+    var access_line = access_pic - access_img - access_p - btn - 68
+    var design_line = design_pic - design_img - design_p - btn  - 68
+    var plan_line = plan_pic - plan_img - plan_p - btn - 68
+
+    $('.ebisu_line').height(ebisu_line);
+    $('.location_line').height(location_line);
+    $('.access_line').height(access_line);
+    $('.design_line').height(design_line);
+    $('.plan_line').height(plan_line);
+
+    if($('body').width() < 1100){
+        $('.ebisu_p').css('white-space','normal')
+        $('.access_p').css('white-space','normal')
+    } else {
+        $('.ebisu_p').css('white-space','nowrap')
+        $('.access_p').css('white-space','nowrap')
+    }
+  })
+
+  
   //予約管理ページではヘッダーは非表示
   // if ($('table').hasClass('reservation_set_table') || $('p').hasClass('no_reservation_msg')) {
   //   $('.header').addClass('d-none');

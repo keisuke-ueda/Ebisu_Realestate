@@ -2,22 +2,7 @@
 恵比寿不動産のサイト開発 Laravel
 
 ## 連絡事項
-4/28 Locationページの作成開始、古いREADMEの古い記述は削除  
-4/29 Locationページ継続中、Designページ着手  
-5/5  
-DESIGN：PC・SPともにほぼ完成  
-LOCATION：PC・SPともに残りは地図の表示切り替え処理、各所見直し・調整  
-BLAND：PCのみ大枠が完成  
-ヘッダー：location,design,blandページへのリンク活性化・newマーク付与  
-TOP：info部分に情報追加  
-5/6  
-BLAND：PC・SPともにほぼ完成(残り微調整あり)  
-LOCATION：吹き出し部分は仮置きで、表示切り替え実装完了  
-5/7  
-DESIGN：一旦完成、これから見直し
-TOP：コメントアウト部分を解除し大まかに調整  
-5/8  
-LOCATION：吹き出し部分完成(JS処理も含む)  
+5/27 pushが上手くできなかったのでブランチを新発行(nakano2)
 
 ## 調整課題
 ### Locationページ

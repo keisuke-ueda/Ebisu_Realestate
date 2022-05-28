@@ -57,8 +57,9 @@
       @csrf
       <input type="hidden" name="reservation_time" value="{{ $reservation_time }}" form="reservation_cancel_{{ $i }}">
       <input type="hidden" name="reservation_no" value="{{ $reservation->reservation_no }}" form="reservation_cancel_{{ $i }}">
-      <button class="mx-auto d-block cancel_btn" style="color:#fff; background-color:#000; padding: 5px 20px;">キャンセル</button>
+      <button class="mx-auto d-block cancel_btn" style="color:#fff; background-color:#000; padding: 5px 20px;">予約キャンセル</button>
     </form>
+    <p class="text-center" style="margin-top:10px; font-weight:bold;">＊｢予約キャンセル｣を行うと登録された個人情報も削除されます。</p>
     </div>
     <?php  $i++ ?>
     @endforeach

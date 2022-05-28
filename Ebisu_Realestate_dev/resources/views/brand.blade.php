@@ -70,7 +70,7 @@
     <div class="bland_map mx-auto">
         <div class="animation" style="border-bottom: 1px solid #999966; margin-bottom:10px;">
             <p class="text-center  s24" style="margin-bottom:5px; color:#999966;">ラ・アトレ事業実績</p>
-            <p class="text-center  s11" style="margin-bottom:10px;">※2022年6月末時点</p>
+            <p class="text-center  s11" style="margin-bottom:10px;">※2022年3月末時点</p>
         </div>
         <p class="animation text-dark bland_map_p" style="margin-bottom:0; line-height: 1.7;">
             L'attraitは、「不動産再生」のパイオニアとして、30年超の実績と経験、応用力、調整力などのノウハウを活かし、中古

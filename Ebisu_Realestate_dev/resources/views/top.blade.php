@@ -233,7 +233,7 @@
                         </tr>
                         <tr>
                             <td class="date-td-2" scope="col">2022.4.22</td>
-                            <td class="text-td-2" scope="col">お住まいのアンケートを開設しました。<br>(期間中、全てのアンケートに回答していただいた方にAmazonギフト券をプレゼントします。)</td>
+                            <td class="text-td-2" scope="col">お住まいのアンケートを閉設しました。<br>多数のご応募ありがとうございました。</td>
                         </tr>
                         <tr>
                             <td class="date-td-2" scope="col">2022.5.10</td>
@@ -306,16 +306,6 @@
                     </div>
                 </div>
                 <div class="picture_side location_pics h-100">
-                    <!-- <div class="location_pic_pair1">
-                        <img src="{{ asset('/images/ebisupage_恵比寿ガーデンプレイス.png') }}" alt="サンプル画像" class="animation-0-zm location_pic">
-                        <img src="{{ asset('/images/アメリカ橋公園.jpg') }}" alt="サンプル画像"  class="animation-0-zm location_pic bottom_pic">
-                    </div>
-                    <div class="location_pic_pair2">
-                        <img src="{{ asset('/images/ebisupage_ウエスティンホテル.png') }}" alt="サンプル画像" class="animation-1-zm location_pic">
-                        <img src="{{ asset('/images/ebisupage_国立博物館付属自然教育園.png') }}" alt="サンプル画像"  class="animation-1-zm location_pic bottom_pic">
-                    </div> -->
-
-                    <!-- 修正対応 -->
                     <div class="location_pic_pair1">
                         <div class="location_pic">
                             <p class="ft2 s12" style="">｢恵比寿ガーデンプレイス｣(約260m・徒歩 4分)</p>
@@ -385,31 +375,35 @@
             </div>
 
             <!-- Plan -->
-            <!-- <div class="read_more_link">
-                <div class="animation-0-zm picture_side">
-                    <img src="{{ asset('/images/ダミーマップ.jpg') }}" alt="サンプル画像" class="img-fluid { max-width: 100%; height: auto } ">
+            <div class="read_more_link">
+                <div class="picture_side animation-0-zm flex-column" style="padding-left:45px;">
+                    <div class="plan_pics">
+                        <img class="plan_pic1" src="{{ asset('/images/plan_pic1.jpg') }}" alt="サンプル画像">
+                        <img class="plan_pic2" src="{{ asset('/images/plan_pic2.jpg') }}" alt="サンプル画像">
+                        <img class="plan_pic3" src="{{ asset('/images/plan_pic3.jpg') }}" alt="サンプル画像">
+                        <img class="plan_pic4" src="{{ asset('/images/plan_pic4.jpg') }}" alt="サンプル画像">
+                        <img class="plan_pic5" src="{{ asset('/images/plan_pic5.jpg') }}" alt="サンプル画像">
+                    </div>
+                    <p class="s10 text-end m-0 ft2">（令和4年3月撮影）</p>
                 </div>
-                <div class="animation plan_col text_side ft2 s14">
+                <div class="text_side animation plan_col ft2 s14">
                     <img class="plan_img" src="{{ asset('/images/theplan.svg') }}" alt="サンプル画像">
-                    <p class="plan_p">ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、<br>
-                        「ウェスティンホテル東京」を間近とする住宅地。その静謐なる佇まいは、<br>
-                        その静謐なる佇まいはそのまま、住まわれる方の誇りとなる。多くを語らずとも、<br>
-                        本物を知る人を魅了するレジデンス。ダミーコピー恵比寿、それも「恵比寿ガーデンプレイス」、
+                    <p class="plan_p">
+                        桜のシンボルツリーに護られたエントランスアプローチを進むと、<br>
+                        心地よいエントランスホールへと導かれます。<br>
+                        天井高のある明るい迎賓空間が訪れる人をお迎えします。<br>
+                        さらに上階はホテルライクな内廊下仕様。プライバシーの確保と<br>
+                        外光も入るボイドが特別な上質感を創出します。
                     </p>
-                    <div class="gold_line plan_line"></div>
+                    <div class="gold_line mb-4 plan_line"></div>
                     <div class="w-60">
-                        <button class="read_more gold_btn" type="button">
-                            <a href="/plan" class="text-white mh-parts">Read More</a>
+                        <button class="gold_btn read_more" type="button">
+                            <a href="/plan" class="text-white mh-parts ft2">Read More</a>
                         </button>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
-            <!-- <div class="animation-0-zm mx-auto" style="width:calc(100% - 240px);">
-                <a href="/blanding" style="pointer-events:none;" class="w-100">
-                <img src="{{ asset('/images/bland photo.png') }}" class="w-100">
-                </a>
-            </div> -->
         </div>
 
 
@@ -489,6 +483,25 @@
                     <a href="/design" class="text-white mh-parts ft2">Read More</a>
                 </button>
             </div>
+
+            <!-- PLAN -->
+            <div class="read_more_link2">
+                <img src="{{ asset('/images/theplan.svg') }}" alt="THE PLAN" class="the-logo">
+                <div class="gold_line2"></div>
+                <p class="text-center s10" style="">
+                    桜のシンボルツリーに護られたエントランスアプローチを進むと、<br>
+                    心地よいエントランスホールへと導かれます。<br>
+                    天井高のある明るい迎賓空間が訪れる人をお迎えします。<br>
+                    さらに上階はホテルライクな内廊下仕様。プライバシーの確保と<br>
+                    外光も入るボイドが特別な上質感を創出します。
+                </p>
+                <img src="{{ asset('/images/plan_pic1.jpg') }}" alt="PLAN 写真" class="photo-100 mb-3">
+                <img src="{{ asset('/images/plan_pic2.jpg') }}" alt="PLAN 写真" class="photo-100">
+                <p class="s10 text-end mt-1 ft2">（令和4年3月撮影）</p>
+                <button class="gold_btn read_more" type="button">
+                    <a href="/plan" class="text-white mh-parts ft2">Read More</a>
+                </button>
+            </div>
         </div>
 
         <!-- PC -->
@@ -534,65 +547,5 @@
             </div>
         </div>
     </div>
-
-    <!-- <h1>恵比寿グランガーデン</h1> -->
-
-    <!-- 後々"layout.js"に記述予定 -->
-    <script>
-        $(function(){
-            $(window).on('load resize scroll click',function (){
-                let btn = $('.read_more').outerHeight();
-
-                var ebisu_col = $('.ebisu_col').height();
-                var ebisu_pic = $('.ebisu_pic').height();
-                var ebisu_img = $('.ebisu_img').height();
-                var ebisu_p = $('.ebisu_p').height();
-                
-                var location_col = $('.location_col').height();
-                var location_pic = $('.location_pics').height();
-                var location_img = $('.location_img').height();
-                var location_p = $('.location_p').height();
-
-                var access_col = $('.access_col').height();
-                var access_pic = $('.access_pic_img').height();
-                var access_img = $('.access_img').height();
-                var access_p = $('.access_p').height();
-
-                var design_col = $('.design_col').height();
-                var design_pic = $('.design_pic').height();
-                var design_img = $('.design_img').height();
-                var design_p = $('.design_p').height();
-
-                // var plan_col = $('.plan_col').height();
-                // var plan_img = $('.plan_img').height();
-                // var plan_p = $('.plan_p').height();
-
-
-                var ebisu_line = ebisu_pic - ebisu_img - ebisu_p - btn - 68
-                var location_line = location_pic - location_img - location_p - btn - 68
-                var access_line = access_pic - access_img - access_p - btn - 68
-                var design_line = design_pic - design_img - design_p - btn  - 68
-                // var plan_line = plan_col - plan_img - plan_p - btn - 68
-
-                $('.ebisu_line').height(ebisu_line);
-                $('.location_line').height(location_line);
-                $('.access_line').height(access_line);
-                $('.design_line').height(design_line);
-                // $('.plan_line').height(plan_line);
-
-                // var access_pic_img = $('.access_pic').width()
-                // $('.min_image_p').width(access_pic_img)
-
-                if($('body').width() < 1100){
-                    $('.ebisu_p').css('white-space','normal')
-                    $('.access_p').css('white-space','normal')
-                } else {
-                    $('.ebisu_p').css('white-space','nowrap')
-                    $('.access_p').css('white-space','nowrap')
-                }
-            })
-            
-        })
-    </script>
 
 @endsection

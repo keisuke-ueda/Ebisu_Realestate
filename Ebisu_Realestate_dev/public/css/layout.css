@@ -646,18 +646,10 @@ video {
   line-height:100%;
   margin: 0 auto; 
   display: block;
-  /* width:17.5vw; */
-  /* height:5vw; */
-  /* padding: 1.67vw 5vw;  */
 }
 
 /* EBISUリンク */
 .ebisu_col {
-  /* padding: 0 1.6875rem 0 4.375rem; */
-  /* padding: 0 2.25vw 0 5.83vw; */
-  /* padding: 0 0 0 70px;  */
-  /* padding-right: 18px; */
-  /* margin-right: 27px; */
   margin-left: 60px;
 }
 .ebisu_img {
@@ -671,9 +663,6 @@ video {
 
 /* LOCATIONリンク */
 .location_col {
-  /* padding: 0 0.9375rem 0 6.875rem; */
-  /* padding-right: 1.25vw; */
-  /* padding: 0 15px 0 110px; */
   margin-right: 60px;
   width:-moz-fit-content; /* Firefox */
   width:fit-content; /* other browsers */
@@ -683,9 +672,6 @@ video {
   width:fit-content; /* other browsers */
 }
 .location_img {
-  /* width: calc(100% - 3.125rem); */
-  /* width: calc(100% - 4.17vw); */
-  /* width: calc(100% - 50px); */
   width: 19vw;
 }
 .location_pics {
@@ -701,10 +687,6 @@ video {
   margin-left: 14px
 }
 .location_pic {
-  /* width: calc(100% - 7px);  */
-  /* height: calc(50% - 0.625rem);
-  object-fit: cover;
-  object-position: 100% 100%; */
   width: calc(100% - 7px);
   object-fit: cover;
   object-position: 100% 100%;
@@ -741,9 +723,6 @@ video {
   flex-direction: column;
 }
 .access_col {
-  /* padding: 0 1.125rem 0 3.75rem; */
-  /* padding: 0 0 0 70px; */
-  /* padding-right: 18px; */
   margin-left: 60px;
 }
 .access_img {
@@ -757,8 +736,6 @@ video {
 
 /* DESIGNリンク */
 .design_col {
-  /* padding: 0 2.8125rem 0 6.25rem; */
-  /* padding: 0 3.75vw 0 0; */
   margin-right: 60px;
   width:-moz-fit-content; /* Firefox */
   width:fit-content; /* other browsers */
@@ -775,9 +752,46 @@ video {
   width: 57%;
 }
 /* PLANリンク */
+.plan_pics {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.plan_pic1 {
+  display: block;
+  width: calc(50% - 7px);
+  margin-bottom: 60px;
+}
+.plan_pic2 {
+  display: block;
+  width: calc(50% - 7px);
+  margin-bottom: 60px;
+}
+.plan_pic3 {
+  display: block;
+  width: calc(33% - 10px);
+}
+.plan_pic4 {
+  display: block;
+  width: calc(33% - 10px);
+}
+.plan_pic5 {
+  display: block;
+  width: calc(33% - 10px);
+}
+.plan_col {
+  margin-left: 60px;
+}
 .plan_img {
   width: 20vw;
 }
+.plan_p {
+}
+.plan_line {
+  width:30%;
+}
+
 
 .bland_img_link {
   display: block;
@@ -2053,7 +2067,7 @@ td.h-110px {
 }
 
 .bland_map_bg {
-  padding: 85px 0 0;
+  padding: 85px 0 50px;
 }
 .bland_map {
   max-width: 880px;
@@ -2194,6 +2208,7 @@ td.h-110px {
 /* 来場予約完了 */
 .reserve_complete_msg {
   margin: 50px 0 calc(100vh - 570px); 
+  margin-bottom: max(50px, calc(100vh - 570px));
 }
 
 
@@ -2280,5 +2295,100 @@ td.h-110px {
   right: 40px;
 }
 
+
+
+/* PLAN */
+.plan-top {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+.plan-top img {
+  width: 25%;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.plan_intro_text {
+  margin: 60px 0;
+}
+
+.plan_area1 {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.plan_area1_content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.plan_images {
+  width: calc(50% - 10px);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.plan_image {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+.plan_images p {
+  margin: 0;
+}
+.plan_image_picture {
+  display: block;
+  width: 100%;
+  aspect-ratio: 5/3;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.plan_image_no {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+.plan_image_no img{
+  height: 25px;
+  margin-right: 10px;
+}
+.plan_image_no p {
+  margin: 0;
+}
+.plan_image_text {
+  height: 170px;
+}
+
+.no5_no6 {
+  display:flex; 
+  justify-content: space-between; 
+  width: 100%;
+}
+
+
+.plan_floor_image {
+  background-color: #fff;
+  padding: 30px 20px 30px;
+  width: 100%;
+}
+.plan_floor_image img{
+  width: 100%; 
+  margin-bottom: 15px;
+}
+.plan_floor_image p{
+  /* margin-right: 25px; */
+}
+
+.plan_area2 {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 45px 0;
+}
+
+.plan_area2 img{
+  display: block;
+  margin: 0 35px;
+}
 
 

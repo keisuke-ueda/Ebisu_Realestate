@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" href="{{ asset('/css/entry.css') }}">
 
-@section('title',"物件エントリー｜【公式】ラ・アトレ恵比寿グランガーデン")
+@section('title',"来場予約｜【公式】ラ・アトレ恵比寿グランガーデン")
 
 @section('content')
 
