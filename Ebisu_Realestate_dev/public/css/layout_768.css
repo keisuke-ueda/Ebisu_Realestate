@@ -1208,3 +1208,72 @@ input {
   margin-top: 20px;
   width: 100%;
 }
+
+
+/* PLAN */
+.plan-top img {
+  width: 75%;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.plan_intro_text {
+  margin: 35px 20px;
+}
+
+.plan_area1 {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  padding: 35px 0 0;
+}
+
+.plan_area1_content {
+  display: block;
+  width: 100%;
+}
+
+.plan_images {
+  width: 100%;
+  display: block;
+}
+
+.plan_image {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.plan_image_text {
+  height: auto;
+}
+
+.no5_no6 {
+  display: block;
+}
+
+
+.plan_floor_image_sp {
+  background-color: #fff;
+  padding: 20px 20px;
+  width: 100%;
+}
+.plan_floor_image_sp img{
+  width: 100%; 
+  margin-bottom: 10px;
+}
+.plan_floor_image_sp p{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.plan_area2 {
+  background-color: #000;
+  display: block;
+  padding: 40px 0 10px;
+}
+
+.plan_area2 img{
+  display: block;
+  width: calc(100% - 100px);
+  margin: 0 auto 30px;
+}
