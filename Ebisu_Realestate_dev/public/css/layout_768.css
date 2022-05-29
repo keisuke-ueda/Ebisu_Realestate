@@ -1272,8 +1272,54 @@ input {
   padding: 40px 0 10px;
 }
 
-.plan_area2 img{
+.plan_area2 a{
   display: block;
   width: calc(100% - 100px);
   margin: 0 auto 30px;
+}
+
+
+
+.plan_detail {
+  padding: 120px 0 0;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  display: block;
+}
+.plan_detail_logo {
+  width: 100%;
+}
+.plan_detail_text {
+  width: 100%;
+  margin-top: 40px;
+}
+.plan_detail_text li {
+  position: relative;
+	display: block;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+.plan_detail_text li::before {
+  position: absolute;
+  top: 4px;
+  left: -9px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  content: '';
+  border-radius: 100%;
+  background: #000;
+}
+.plan_detail_map {
+  margin-top: 40px;
+  width: 100%;
+}
+.back_to_plan {
+  display: block;
+  width: 130px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  margin: 50px auto 40px;
 }

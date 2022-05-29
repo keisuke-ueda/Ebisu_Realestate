@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title',"PLAN｜【公式】ラ・アトレ恵比寿グランガーデン")
+
 @section('content')
 
 <div class="plan-top">
@@ -98,8 +100,8 @@
 </div>
 
 <div class="plan_area2">
-  <img src="{{ asset('/images/PLAN-btn1.png') }}" alt="">
-  <img src="{{ asset('/images/PLAN-btn2.png') }}" alt="">
+  <a href="/plan_c"><img src="{{ asset('/images/PLAN-btn1.png') }}" alt=""></a>
+  <a href="/plan_d"><img src="{{ asset('/images/PLAN-btn2.png') }}" alt=""></a>
 </div>
 
 

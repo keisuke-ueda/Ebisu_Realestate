@@ -2386,9 +2386,58 @@ td.h-110px {
   padding: 45px 0;
 }
 
-.plan_area2 img{
+.plan_area2 a{
   display: block;
   margin: 0 35px;
 }
 
-
+.plan_detail {
+  padding: 150px 0 0;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.plan_detail_logo {
+  width: 53%;
+}
+.plan_detail_text {
+  width: calc(47% - 30px);
+  padding-left: 0px;
+  margin: 0;
+}
+.plan_detail_text li {
+  position: relative;
+	display: block;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.plan_detail_text li::before {
+  position: absolute;
+  top: 6px;
+  left: -9px;
+ 
+  display: inline-block;
+ 
+  width: 10px;
+  height: 10px;
+ 
+  content: '';
+ 
+  border-radius: 100%;
+  background: #000;
+}
+.plan_detail_map {
+  margin-top: 100px;
+  width: 100%;
+}
+.back_to_plan {
+  display: block;
+  width: 130px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  margin: 80px auto 40px;
+}

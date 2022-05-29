@@ -44,6 +44,8 @@ Route::view('/model_room', 'model_room');
 
 // PLAN
 Route::view('/plan', 'plan');
+Route::view('/plan_c', 'plan_c');
+Route::view('/plan_d', 'plan_d');
 
 // BRAND
 Route::view('/brand', 'brand');
