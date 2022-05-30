@@ -91,12 +91,12 @@
               <p class="s18 gold-2">丘の上<br class="sp_hid">そして住宅地の開放感</p>
             </div>
             <p class="s14">現地周辺は、西側に緑豊かな「ウェスティンホテル東京」があり、南、東には低層の住宅地が広がります。丘の上でもある現地からはその開放感も楽しめます。</p>
+            <p class="s10 ft2 text-end sp_hid mt-2">※掲載の写真は、令和4年3月に撮影したものです。</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <p class="s10 ft2 text-end sp_hid">※掲載の写真は、令和4年3月に撮影したものです。</p>
 </div>
 
 <div class="plan_area2">
