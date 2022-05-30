@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\ReserveSet;
 use DateTime;
 use Illuminate\Pagination\LengthAwarePaginator;
+use Yasumi\Yasumi;
 
 class ReserveSetController extends Controller
 {
@@ -125,13 +126,28 @@ class ReserveSetController extends Controller
             $start_date = $point_date;
         }
 
-        $weeks = [[$start_date->format('Y/n/j'), $start_date->format('n/j'), $days[$start_date->format('w')]]];
+        $type = $this->isHoliday($start_date->format('Y'), $start_date);
+
+        $weeks = [[$start_date->format('Y/n/j'), $start_date->format('n/j'), $days[$start_date->format('w')], $type]];
 
         for ($i=0; $i<=58; $i++) {
             $day = $start_date->modify("+1 days");
-            array_push($weeks, [$day->format('Y/n/j'), $day->format('n/j'), $days[$day->format('w')]]);
+            $type = $this->isHoliday($day->format('Y'), $day);
+            array_push($weeks, [$day->format('Y/n/j'), $day->format('n/j'), $days[$day->format('w')], $type]);
         }
 
         return $weeks;
+    }
+
+    
+    private function isHoliday($year, $date) {
+        $holidays = Yasumi::create('Japan', $year);
+        $result = $holidays->isHoliday($date);
+
+        if ($result == true) {
+            return '祝日';
+        } else {
+            return '祝日以外';
+        }
     }
 }

@@ -55,8 +55,8 @@ class ReserveSet extends Model
                 $count3 = 0;
             }
 
-            $date[3] = [$max1, $max2, $max3];
-            $date[4] = [$count1, $count2, $count3];
+            $date[4] = [$max1, $max2, $max3];
+            $date[5] = [$count1, $count2, $count3];
             array_push($weeks_modified, $date);
         }
 
@@ -178,10 +178,6 @@ class ReserveSet extends Model
         ]);
     }
 
-
-    private function getRecord() {
-
-    }
 
 
     // 上限の数に応じてTimeテーブルのレコード数も変える(変更があった場合のみ実行する)

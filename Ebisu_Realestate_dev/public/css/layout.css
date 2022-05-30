@@ -2283,6 +2283,13 @@ td.h-110px {
 
 }
 
+.saturday {
+  color: blue;
+}
+.sunday, .holiday{
+  color: red;
+}
+
 /* 来場予約管理 編集ページ */ 
 .reserve_set_edit, .reserve_set_update {
   display: block;
