@@ -146,7 +146,7 @@
 
     <p class="s14" style="margin:40px 0; color:red;">
       ※予約変更の際は､一度キャンセルをしていただき､<br class="pc_hid">再度ご予約をお願いします｡<br>
-      キャンセル時は 0120-978-690 ｢ラ・アトレ恵比寿グランガーデン｣<br class="pc_hid">現場事務所までご連絡ください｡
+      キャンセル時は 0120-978-690 ｢ラ・アトレ恵比寿グランガーデン｣<br class="pc_hid">現地販売センターまでご連絡ください｡
     </p>
 
     <form class="mailformpro" style="padding-left:10px; padding-right:10px;" method="POST" action="/reserve/send">

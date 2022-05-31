@@ -56,12 +56,12 @@ class ReserveCommand extends Command
         }
 
 
-        // 6/11以降は日後のレコードを自動生成する
+        // 6/11以降は59日後のレコードを自動生成する
 
         if ($today >= $point_date) {
-            $insert_date = $today;
-            $insert_date_w = $delete_date->format('w');
-            $insert_date = $delete_date->format('Y/n/j');
+            $insert_date = $today->modify("+59 days");
+            $insert_date_w = $insert_date->format('w');
+            $insert_date = $insert_date->format('Y/n/j');
 
             // Main登録
             DB::table('Main')
@@ -88,18 +88,18 @@ class ReserveCommand extends Command
             DB::table('Day')->insert($day_data);
 
 
-            // 上限の数だけTime登録
+            // 上限の数(3)だけTime登録
             $time_data = [];
 
             for ($x=0; $x<=2; $x++) {
                 array_push($time_data, ["reservation_time" => $insert_date.' '.'10:00〜11:30', "reservation_max" => 3]);
             }
 
-            for ($x=0; $x<=2; $x++) {
+            for ($y=0; $y<=2; $y++) {
                 array_push($time_data, ["reservation_time" => $insert_date.' '.'13:00〜14:30', "reservation_max" => 3]);
             }
 
-            for ($x=0; $x<=2; $x++) {
+            for ($z=0; $z<=2; $z++) {
                 array_push($time_data, ["reservation_time" => $insert_date.' '.'16:00〜17:30', "reservation_max" => 3]);
             }
 

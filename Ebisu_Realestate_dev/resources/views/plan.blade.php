@@ -8,7 +8,7 @@
   <img class="" src="{{ asset('/images/the plan.svg') }}" alt="サンプル画像">
 </div>
 
-<p class="plan_intro_text text-center text-white ft2 s14" style="">
+<p class="plan_intro_text text-center text-white ft2 s14 animation" style="">
      桜のシンボルツリーに護られた<br class="pc_hid">エントランスアプローチを進むと、<br>
      心地よいエントランスホールへと導かれます。<br>
      天井高のある明るい迎賓空間が<br class="pc_hid">訪れる人をお迎えします。<br>
@@ -26,8 +26,8 @@
   <div class="plan_area1_content" style="">
     <div class="plan_images" style="">
       <div class="plan_image">
-        <img class="plan_image_picture" src="{{ asset('/images/plan-image1.png') }}" alt="">
-        <div class="plan_image_text">
+        <img class="plan_image_picture animation-1-zm" src="{{ asset('/images/plan-image1.png') }}" alt="">
+        <div class="plan_image_text animation">
           <div class="plan_image_no" style="">
             <img class="" src="{{ asset('/images/plan-n1.png') }}" alt="">
             <p class="s18 gold-2">桜のシンボルツリーのある<br>エントランス</p>
@@ -36,8 +36,8 @@
         </div>
       </div>
       <div class="plan_image">
-        <img class="plan_image_picture" src="{{ asset('/images/plan-image2.png') }}" alt="">
-        <div class="plan_image_text">
+        <img class="plan_image_picture animation-1-zm" src="{{ asset('/images/plan-image2.png') }}" alt="">
+        <div class="plan_image_text animation">
           <div class="plan_image_no" style="">
             <img class="" src="{{ asset('/images/plan-n2.png') }}" alt="">
             <p class="s18 gold-2">生垣に囲まれた<br class="sp_hid">上質感あふれる外構</p>
@@ -46,8 +46,8 @@
         </div>
       </div>
       <div class="plan_image">
-        <img class="plan_image_picture" src="{{ asset('/images/plan-image3.png') }}" alt="">
-        <div class="plan_image_text">
+        <img class="plan_image_picture animation-1-zm" src="{{ asset('/images/plan-image3.png') }}" alt="">
+        <div class="plan_image_text animation">
           <div class="plan_image_no" style="">
             <img class="" src="{{ asset('/images/plan-n3.png') }}" alt="">
             <p class="s18 gold-2">特徴的な雁行型の<br class="sp_hid">建築デザイン</p>
@@ -56,9 +56,9 @@
         </div>
       </div>
       <div class="plan_image">
-        <img class="plan_image_picture" src="{{ asset('/images/plan-image4.jpg') }}" alt="">
+        <img class="plan_image_picture animation-1-zm" src="{{ asset('/images/plan-image4.jpg') }}" alt="">
         <p class="s10 ft2 text-end pc_hid mt-1 mb-0">※掲載の写真は、令和4年3月に撮影したものです。</p>
-        <div class="plan_image_text">
+        <div class="plan_image_text animation">
           <div class="plan_image_no" style="">
             <img class="" src="{{ asset('/images/plan-n4.png') }}" alt="">
             <p class="s18 gold-2">外光の入る明るい内廊下<br class="sp_hid">&nbsp;</p>
@@ -68,14 +68,14 @@
       </div>
     </div>
     <div class="plan_images" style="">
-      <div class="plan_floor_image sp_hid">
+      <div class="plan_floor_image sp_hid animation-1-zm">
         <img class="w-100" src="{{ asset('/images/plan-floor.png') }}" alt="">
         <p class="text-end s10 ft2 text-dark">敷地配置および3階イメージ図/景観の敷地配置図は､計画段階の図面を書き起こしたもので実際とは異なります｡</p>
       </div>
       <!-- <img class="w-100" src="{{ asset('/images/3rdfloor.png') }}" alt=""> -->
       <div class="no5_no6" style="">
         <div class="plan_image">
-          <div class="plan_image_text">
+          <div class="plan_image_text animation">
             <div class="plan_image_no" style="">
               <img class="" src="{{ asset('/images/plan-n5.png') }}" alt="">
               <p class="s18 gold-2">大型の駐車スペースもある<br class="">平置き駐車場</p>
@@ -85,7 +85,7 @@
           </div>
         </div>
         <div class="plan_image">
-          <div class="plan_image_text">
+          <div class="plan_image_text animation">
             <div class="plan_image_no" style="">
               <img class="" src="{{ asset('/images/plan-n6.png') }}" alt="">
               <p class="s18 gold-2">丘の上<br class="sp_hid">そして住宅地の開放感</p>
@@ -100,8 +100,8 @@
 </div>
 
 <div class="plan_area2">
-  <a href="/plan_c"><img src="{{ asset('/images/PLAN-btn1.png') }}" alt=""></a>
-  <a href="/plan_d"><img src="{{ asset('/images/PLAN-btn2.png') }}" alt=""></a>
+  <a href="/plan_c"><img class="animation-1-zm" src="{{ asset('/images/PLAN-btn1.png') }}" alt=""></a>
+  <a href="/plan_d"><img class="animation-1-zm" src="{{ asset('/images/PLAN-btn2.png') }}" alt=""></a>
 </div>
 
 

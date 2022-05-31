@@ -118,9 +118,9 @@
       @endforeach
     </table>
     <p class="text-end s12" style="margin-top:5px;">◎予約できます △残りわずかです ×予約できません</p>
-    <p style="color:red; font-weight:bold;">※当日のご予約の方は下記フリーダイヤルにご連絡ください。<br>
-      ｢ラ・アトレ恵比寿グランガーデン｣現場事務所<br>
-      <a class="s20" href="tel:0120978690" style="text-decoration:none; color:red;">0120-978-690</a>
+    <p style="font-weight:bold;">※<span style="color:red;">当日のご予約の方は下記フリーダイヤルにご連絡ください。</span><br>
+      ｢ラ・アトレ恵比寿グランガーデン｣現地販売センター<br>
+      <a class="s20" href="tel:0120978690" style="">0120-978-690</a>
     </p>
     <p class="m-0 s12">現在予約できる期間 : <span>2022/6/11(土)</span> ~ <span>2022/7/31(日)</span></p>
     <p class="m-0 s12">予約締切 : 当日の0時まで</p>
