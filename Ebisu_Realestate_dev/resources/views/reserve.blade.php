@@ -12,7 +12,7 @@
     <p class="m-0">ご予約日時を選択してください</p>
     <div class="period_select">
       <button class="period_back">＜</button>
-      <?php $i=1 ?>
+      <?php $i=1; ?>
       @foreach ($weeks as $week)
         @if ($i ==1 )
         <p class="week{{$i}}"><span>{{$week[0][0]}}</span> 〜 <span>{{$week[6][0]}}</span></p>
@@ -43,21 +43,21 @@
         <tr>
           <td class="left_td">10:00　<br>〜11:30</td>
           @foreach ($week as $week_day)
-            @if ($week_day[3][0] == "余裕あり" || $week_day[3][0] == "残りわずか") 
+            @if ($week_day[4][0] == "余裕あり" || $week_day[4][0] == "残りわずか") 
             <td class="reserve_select reserve_ok">
               <form action="/reserve/confirm" method="post">
                 @csrf
                 <input type="hidden" name="reservation_date" value="{{ $week_day[0] }}">
                 <input type="hidden" name="reservation_date_w" value="({{ $week_day[2] }})">
                 <input type="hidden" name="reservation_time" value="10:00〜11:30">
-                @if ($week_day[3][0] == "余裕あり")
+                @if ($week_day[4][0] == "余裕あり")
                 <button type="submit">◎</button>
                 @else
                 <button type="submit">△</button>
                 @endif
               </form>
             </td>
-            @elseif ($week_day[3][0] == "予約不可") 
+            @elseif ($week_day[4][0] == "予約不可") 
             <td class="reserve_select reserve_ng">×</td>
             @else
             <td class="reserve_select reserve_ng">-</td>
@@ -67,21 +67,21 @@
         <tr>
           <td class="left_td">13:00　<br>〜14:30</td>
           @foreach ($week as $week_day)
-            @if ($week_day[3][1] == "余裕あり" || $week_day[3][1] == "残りわずか") 
+            @if ($week_day[4][1] == "余裕あり" || $week_day[4][1] == "残りわずか") 
             <td class="reserve_select reserve_ok">
               <form action="/reserve/confirm" method="post">
                 @csrf
                 <input type="hidden" name="reservation_date" value="{{ $week_day[0] }}">
                 <input type="hidden" name="reservation_date_w" value="({{ $week_day[2] }})">
                 <input type="hidden" name="reservation_time" value="13:00〜14:30">
-                @if ($week_day[3][1] == "余裕あり")
+                @if ($week_day[4][1] == "余裕あり")
                 <button type="submit">◎</button>
                 @else
                 <button type="submit">△</button>
                 @endif
               </form>
             </td>
-            @elseif ($week_day[3][1] == "予約不可") 
+            @elseif ($week_day[4][1] == "予約不可") 
             <td class="reserve_select reserve_ng">×</td>
             @else
             <td class="reserve_select reserve_ng">-</td>
@@ -91,21 +91,21 @@
         <tr>
           <td class="left_td">16:00　<br>〜17:30</td>
           @foreach ($week as $week_day)
-            @if ($week_day[3][2] == "余裕あり" || $week_day[3][2] == "残りわずか") 
+            @if ($week_day[4][2] == "余裕あり" || $week_day[4][2] == "残りわずか") 
             <td class="reserve_select reserve_ok">
               <form action="/reserve/confirm" method="post">
                 @csrf
                 <input type="hidden" name="reservation_date" value="{{ $week_day[0] }}">
                 <input type="hidden" name="reservation_date_w" value="({{ $week_day[2] }})">
                 <input type="hidden" name="reservation_time" value="16:00〜17:30">
-                @if ($week_day[3][2] == "余裕あり")
+                @if ($week_day[4][2] == "余裕あり")
                 <button type="submit">◎</button>
                 @else
                 <button type="submit">△</button>
                 @endif
               </form>
             </td>
-            @elseif ($week_day[3][2] == "予約不可") 
+            @elseif ($week_day[4][2] == "予約不可") 
             <td class="reserve_select reserve_ng">×</td>
             @else
             <td class="reserve_select reserve_ng">-</td>
@@ -122,7 +122,7 @@
       ｢ラ・アトレ恵比寿グランガーデン｣現地販売センター<br>
       <a class="s20" href="tel:0120978690" style="">0120-978-690</a>
     </p>
-    <p class="m-0 s12">現在予約できる期間 : <span>2022/6/11(土)</span> ~ <span>2022/7/31(日)</span></p>
+    <p class="m-0 s12">現在予約できる期間 : <span>{{ $start_date }}</span> ~ <span>{{ $end_date }}</span></p>
     <p class="m-0 s12">予約締切 : 当日の0時まで</p>
   </div>
 </div>
