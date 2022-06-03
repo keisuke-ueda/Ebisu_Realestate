@@ -61,13 +61,19 @@ class Reserve extends Model
                 } else {
                     $availability3 = "予約不可";
                 }
+
+                if ($date[3] == "期間外") {
+                    $availability1 = "予約対象外";
+                    $availability2 = "予約対象外";
+                    $availability3 = "予約対象外";
+                }
             } else {
                 $availability1 = "予約対象外";
                 $availability2 = "予約対象外";
                 $availability3 = "予約対象外";
             }
 
-            $date[3] = [$availability1, $availability2, $availability3];
+            $date[4] = [$availability1, $availability2, $availability3];
             array_push($weeks_modified, $date);
         }
 

@@ -2311,7 +2311,7 @@ td.h-110px {
   background-color: #000;
 }
 .plan-top img {
-  width: 25%;
+  width: 30%;
   margin-top: 200px;
   margin-bottom: 50px;
 }
@@ -2409,6 +2409,7 @@ td.h-110px {
 }
 .plan_detail_logo {
   width: 53%;
+  margin-top: 5px;
 }
 .plan_detail_text {
   width: calc(47% - 30px);
@@ -2437,8 +2438,8 @@ td.h-110px {
   background: #000;
 }
 .plan_detail_map {
-  margin-top: 100px;
-  width: 100%;
+  margin: 80px auto 0;
+  width: auto;
 }
 .back_to_plan {
   display: block;
