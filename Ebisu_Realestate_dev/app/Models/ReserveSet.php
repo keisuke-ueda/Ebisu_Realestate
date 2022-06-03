@@ -194,7 +194,7 @@ class ReserveSet extends Model
             }
             DB::table('Time')->insert($new_insert_data);
         } elseif ($max < $max_before) {
-            // 減った分だけレコード削除(ただし必ず1件は残す)
+            // 減った分だけレコード削除
             DB::table('Time')
             ->where('reservation_time', $reservation_time)
             ->latest('id')

@@ -18,7 +18,7 @@
 </div>
 
 <form action="/plan">
-  <button class="back_to_plan mh-parts">戻る</button>
+  <button class="back_to_plan mh-parts ft2">戻る</button>
 </form>
 
 @endsection
