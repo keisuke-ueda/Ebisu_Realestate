@@ -35,12 +35,12 @@ class ReserveCommand extends Command
         // 本日の日付
         $today = new Datetime();
 
-        // 6/11
+        // 6/10
         $point_date = new Datetime();
-        $point_date->setDate(2022,6,11);
+        $point_date->setDate(2022,6,10);
 
         // 6/11以降は当日レコードを削除する
-        if ($today >= $point_date) {
+        if ($today > $point_date) {
             $delete_date = clone $today;
             $delete_date_w = $delete_date->format('w');
             $delete_date = $delete_date->format('Y/n/j');
@@ -90,7 +90,7 @@ class ReserveCommand extends Command
 
         // 6/11以降は当日から60日後のレコードを自動生成する
 
-        if ($today >= $point_date) {
+        if ($today > $point_date) {
             $insert_date = clone $today;
             $insert_date = $insert_date->modify("+60 days");
             $insert_date_w = $insert_date->format('w');
