@@ -53,6 +53,9 @@
     <!-- 各ページの内容 -->
     @yield('content')
 
+    <!-- SP検索用の非表示h1タグ -->
+    <h1 class="d-none">@yield('title')</h1>
+
     <!-- トップへ戻るボタン -->
     <div class="to-page-top2" style="">
         <a href="#" class="d-inline-block mx-auto my-0 text-white" style="text-decoration: none;">
