@@ -50,11 +50,6 @@
     <div class="access_info_group2 animation ft2">
         <div class="d-inline-block">
             <div class="d-flex justify-content-start align-items-center" style="margin-bottom:10px;">
-                <!-- <p class="s10 pt-1">JR山手線･埼京線･湘南新宿ライン</p>
-                <div style="margin-left:5px;">
-                    <p class="s14"><span class="s18">｢恵比寿｣</span>駅徒歩<span class="gold-2 s24" style="line-height: 100%;">11</span>分</p>
-                    <p class="s9">(恵比寿スカイウォークより徒歩7分)</p>
-                </div> -->
                 <div>
                     <p class="s10">JR山手線･埼京線･湘南新宿ライン</p>
                     <p class="s9">(恵比寿スカイウォークより徒歩7分)</p>

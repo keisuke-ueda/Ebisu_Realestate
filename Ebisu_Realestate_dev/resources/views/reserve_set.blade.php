@@ -26,7 +26,6 @@
           <th>10:00〜11:30</th>
           <th>13:00〜14:30</th>
           <th>16:00〜17:30</th>
-          <!-- <th>予約可能上限</th> -->
         </tr>
         @foreach ($weeks as $day)
         <tr>
@@ -49,7 +48,6 @@
               <div style="margin-left:20px;">予約：{{ $day[5][2] }}</div>
             </div>
           </td>
-          <!-- <td class="limit_td">3</td> -->
         </tr>
         @endforeach
       </tbody>

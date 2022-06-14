@@ -10,7 +10,7 @@
 <?php
   $prefectures = array('北海道','青森県','岩手県','宮城県','秋田県','山形県','福島県','茨城県','栃木県','群馬県','埼玉県','千葉県','東京都','神奈川県','新潟県','富山県','石川県','福井県','山梨県','長野県','岐阜県','静岡県','愛知県','三重県','滋賀県','京都府','大阪府','兵庫県','奈良県','和歌山県','鳥取県','島根県','岡山県','広島県','山口県','徳島県','香川県','愛媛県','高知県','福岡県','佐賀県','長崎県','熊本県','大分県','宮崎県','鹿児島県','沖縄県');
 ?>
-<!-- <div id="questionnaire" style="margin: 150px 200px 0px;" class="pb-40px"> -->
+
 <div id="questionnaire">
     <h1 class="p-title gold-title-2 text-center ft2 s24" style="margin-bottom: 50px;">お住まいについてのアンケート</h1>
     <div class="pre-text">
@@ -459,8 +459,6 @@
                     <div class="questionnaire questionnaire9 ft2 s14 sp_hid">
                         <p class="pb-2"><span class="question-num mr-20px">9</span>現在のお住まいで所有している自家用車の台数と車種をお聞かせ下さい。
                         </p>
-                        <!-- <p class="s16" style="">［台 数］<input type="text" class="me-2" name="q9_1">台 ［車 種］<input type="text"
-                                name="q9_2"></p> -->
                         <p class="ms-3">
                             ［台 数］{{ $input["q9_1"] }} 台
                             ［車 種］{{ $input["q9_2"] }}
@@ -470,8 +468,6 @@
                     <div class="questionnaire questionnaire9 ft2 s14 pc_hid">
                         <p class="pb-2"><span class="question-num mr-20px">9</span>現在のお住まいで所有している自家用車の<br class="pc_hid"><span class="sp_indent">ーーー</span>台数と車種をお聞かせ下さい。
                         </p>
-                        <!-- <p style="margin-left:20px; margin-bottom:5px;">[台 数] 5台</p>
-                        <p style="margin-left:20px;">[車 種] ベンツ</p> -->
                         <p class="ms-3">［台 数］{{ $input["q9_1_sp"] }} 台</p>
                         <p class="ms-3">［車 種］{{ $input["q9_2_sp"] }}</p>
                     </div>

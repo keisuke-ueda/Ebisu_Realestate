@@ -15,7 +15,6 @@
             <div class="animation-1-zm map_m1">
                 <p class="ft2 s14">【広域地図】</p>
                 <img src="{{ asset('/images/map1.svg') }}" class="map_img">
-                <!-- <img src="{{ asset('/images/map_1.png') }}" class="map_img"> -->
             </div>
 
             <div class="animation-1-zm">

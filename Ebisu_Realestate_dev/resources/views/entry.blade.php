@@ -15,7 +15,7 @@
 <div class="" id="entry" style="">
   <h1 class="p-title gold-title-3 center-block text-center m-none ft4 s24">PROPERTY ENTRY</h1>
   <p class="p-title center-block text-center mt-10px ft2 s14" style="margin-bottom:25px;">物件エントリー</p>
-  <!-- <div class="main-content" style="margin-right: 90px; margin-left: 90px"> -->
+  
   <div class="entry-main-content" style="">
     <div class="ft2 s16">
       <p class="text-center" style="margin-bottom: 10px;">以下のフォームに必要な項目を入力のうえ<br class="pc_hid">「送信」ボタンを押してください。</p>
@@ -316,13 +316,14 @@
           </tr>
         </tbody>
       </table>
+
       <div class="animation mt-20px ft2 s16">
         <p style="margin-bottom: 10px; margin-left: 11px;"><label for="name"><span class="badge badge-danger">必須</span></label>
           <input type="checkbox" name="agree" data-error_placement="#agree">個人情報の取り扱いについて同意の方は、チェックを入れてください。
         </p>
         <div class="validation-message" id="agree"></div>
 
-        <p class="s14">資料請求を行う際には、「個人情報のお取り扱いについて」(株式会社LAホールディングス)をお読みの上チェックを入れて下記の「入力内容の確認」ボタンを押してください。</p>
+        <p class="s14">資料請求を行う際には、<a href="https://lahd.co.jp/privacy/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:#000;">「個人情報のお取り扱いについて」</a>(株式会社LAホールディングス)をお読みの上チェックを入れて下記の「入力内容の確認」ボタンを押してください。</p>
       </div>
 
       <button class="mh-parts btn btn-dark mx-auto d-block mt-30px mb-40px"><span class="p-3 s18">入力内容の確認</span></button>

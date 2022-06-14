@@ -10,22 +10,7 @@
 <body>
     <div id="questionnaire" class="questionnaire_complete">
         <h1 class="p-title gold-title-2 text-center ft2 s24" style="margin-bottom: 50px;">お住まいについてのアンケート</h1>
-        <!-- <div class="pre-text">
-            <div class="pl-120px pr-120px questionnaire-sm-img">
-                <img class="pb-40px img1" src="{{ asset('/images/お住まいアンケート1.png') }}">
-            </div>
-            <div class="text-center test ft2 s16">
-                <p class="m-none" style="margin-bottom: 20px;">この度、目黒区・渋谷区・港区・品川区を中心とするエリアで、LAホールディングスグループの<br>
-                    株式会社ラ・アトレが分譲マンションの計画を検討しています。<br>
-                    そこで、今後の商品・販売計画の参考に資するべく当アンケートを企画させていただきました。<br>
-                    つきましては、目黒区三田・渋谷区恵比寿・港区白金台・品川区上大崎にお住いの皆様の<br>
-                    様々なご意見をお聞かせいただければ幸いです。
-                </p>
-            </div>
-            <div class="pr-22px pl-22px questionnaire-sm-img">
-                <img class="mb-45px img2" src="{{ asset('/images/お住まいのアンケート2.png') }}">
-            </div>
-        </div> -->
+        
         <div class="questionnaire_complete_msg">
             <p class="text-center">
             「お住まいについてのアンケート」にご協力いただきまして、<br class="pc_hid">誠にありがとうございました。<br>

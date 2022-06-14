@@ -296,32 +296,32 @@ $(function () {
     } else if (!$('.week3').hasClass('d-none')) {
       $('.week3').addClass('d-none');
       $('.week4').removeClass('d-none');
-    } else if (!$('.week4').hasClass('d-none')) {
+    } else if ($('p').hasClass('week5') && !$('.week4').hasClass('d-none')) {
       $('.week4').addClass('d-none');
       $('.week5').removeClass('d-none');
-    } else if (!$('.week5').hasClass('d-none')) {
+    } else if ($('p').hasClass('week6') && !$('.week5').hasClass('d-none')) {
       $('.week5').addClass('d-none');
       $('.week6').removeClass('d-none');
-    } else if (!$('.week6').hasClass('d-none')) {
+    } else if ($('p').hasClass('week7') && !$('.week6').hasClass('d-none')) {
       $('.week6').addClass('d-none');
       $('.week7').removeClass('d-none');
-    } else if (!$('.week7').hasClass('d-none')) {
+    } else if ($('p').hasClass('week8') && !$('.week7').hasClass('d-none')) {
       $('.week7').addClass('d-none');
       $('.week8').removeClass('d-none');
     } 
   })
 
   $('.period_back').on('click', function() {
-    if (!$('.week8').hasClass('d-none')) {
+    if ($('p').hasClass('week8') && !$('.week8').hasClass('d-none')) {
       $('.week8').addClass('d-none');
       $('.week7').removeClass('d-none');
-    } else if (!$('.week7').hasClass('d-none')) {
+    } else if ($('p').hasClass('week7') && !$('.week7').hasClass('d-none')) {
       $('.week7').addClass('d-none');
       $('.week6').removeClass('d-none');
-    }  else if (!$('.week6').hasClass('d-none')) {
+    }  else if ($('p').hasClass('week6') && !$('.week6').hasClass('d-none')) {
       $('.week6').addClass('d-none');
       $('.week5').removeClass('d-none');
-    } else if (!$('.week5').hasClass('d-none')) {
+    } else if ($('p').hasClass('week5') && !$('.week5').hasClass('d-none')) {
       $('.week5').addClass('d-none');
       $('.week4').removeClass('d-none');
     } else if (!$('.week4').hasClass('d-none')) {
@@ -733,6 +733,12 @@ $(function () {
     equalTo: "違う値が入力されています。",
     minlength: "3つ選択してください",
   });
+
+  // 送信ボタン ダブルクリック阻止
+  $('.mail_send_btn').on('click', function(){
+		$(this).prop('disabled',true);//ボタンを無効化する
+		$(this).closest('form').submit();//フォームを送信する
+	});
 
 });
 

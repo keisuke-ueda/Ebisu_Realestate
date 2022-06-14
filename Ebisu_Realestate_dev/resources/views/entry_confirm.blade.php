@@ -12,7 +12,7 @@
 <div class="" id="entry" style="">
   <h1 class="p-title gold-title-3 center-block text-center m-none ft4 s24">PROPERTY ENTRY</h1>
   <p class="p-title center-block text-center mt-10px ft2 s14" style="margin-bottom:25px;">物件エントリー</p>
-  <!-- <div class="main-content" style="margin-right: 90px; margin-left: 90px"> -->
+  
   <div class="entry-main-content" style="">
     <div class="ft2 s16">
       <p class="text-center" style="margin-bottom: 10px;">以下のフォームに必要な項目を入力のうえ<br class="pc_hid">「送信」ボタンを押してください。</p>
@@ -58,19 +58,8 @@
               <div><label for="name"><span class="badge badge-danger s11">必須</span>メールアドレス</label></div>
             </td>
             <td style="padding-top: 5px; padding-bottom: 5px;">
-              <!-- <div><input style="width: 20%;" type="text"><span class="s10"> 年 </span><input style="width: 20%;" type="text"><span class="s10"> 月 </span><input style="width: 20%;"
-                  type="text"><span class="s10"> 日 </span></div>
-              <p class="mt-2 mb-0 s12">※半角英数で<br class="pc_hid">入力してください</p>
-              <div><input class="" type="email" name="email" data-error_placement="#email"></div>
-              <div class="validation_message" id="email"></div>
-              <p class="m-0 s12">※確認のためもう一度ご入力ください</p>
-              <div><input class="" type="text" name="confirm_email" data-error_placement="#confirm_email">
-              </div>
-              <div class="validation_message" id="confirm_email"></div> -->
               <div class="mb-3">{{ $input["birth_y"] }}年{{ $input["birth_m"] }}月{{ $input["birth_d"] }}日</div>
               <div>{{ $input["email"] }}</div>
-              <!-- 1995年6月21日
-              y.nakano.carecon@gmail.com -->
             </td>
           </tr>
           <tr>
@@ -211,7 +200,7 @@
         </tbody>
       </table>
 
-      <button class="mh-parts btn btn-dark mx-auto d-block mt-30px"><span class="p-3 s18">送信する</span></button>
+      <button class="mh-parts btn btn-dark mx-auto d-block mt-30px mail_send_btn"><span class="p-3 s18">送信する</span></button>
       <button class="mh-parts btn mx-auto d-block mb-40px" type="button" onclick=history.back() style="margin-top:15px; text-decoration:underline;;">入力画面に戻る</button>
     </form>
 
