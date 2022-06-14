@@ -10,7 +10,7 @@
 <?php
   $prefectures = array('北海道','青森県','岩手県','宮城県','秋田県','山形県','福島県','茨城県','栃木県','群馬県','埼玉県','千葉県','東京都','神奈川県','新潟県','富山県','石川県','福井県','山梨県','長野県','岐阜県','静岡県','愛知県','三重県','滋賀県','京都府','大阪府','兵庫県','奈良県','和歌山県','鳥取県','島根県','岡山県','広島県','山口県','徳島県','香川県','愛媛県','高知県','福岡県','佐賀県','長崎県','熊本県','大分県','宮崎県','鹿児島県','沖縄県');
 ?>
-<!-- <div id="questionnaire" style="margin: 150px 200px 0px;" class="pb-40px"> -->
+
 <div id="questionnaire">
     <h1 class="p-title gold-title-2 text-center ft2 s24" style="margin-bottom: 50px;">お住まいについてのアンケート</h1>
     <div class="pre-text">
@@ -556,7 +556,6 @@
                             <li><input type="checkbox" name="q5_1[]" value="恵比寿南2丁目" data-error_placement="#q5_1" class="q5" onclick="plus_q5();">恵比寿南2丁目</li>
                             <li><input type="checkbox" name="q5_1[]" value="恵比寿南3丁目" data-error_placement="#q5_1" class="q5" onclick="plus_q5();">恵比寿南3丁目</li>
                         </ul>
-                        <!-- <div class="validation-message" id="q5_1"></div> -->
                         <br>
                     </div>
                     <div class="questionnaire questionnaire5_2">
@@ -567,7 +566,6 @@
                             <li><input type="checkbox" name="q5_2[]" value="目黒1丁目" data-error_placement="#q5_2" class="q5" onclick="plus_q5();">目黒1丁目</li>
                             <li><input type="checkbox" name="q5_2[]" value="目黒2丁目" data-error_placement="#q5_2" class="q5" onclick="plus_q5();">目黒2丁目</li>
                         </ul>
-                        <!-- <div class="validation-message" id="q5_2"></div> -->
                         <br>
                     </div>
                     <div class="questionnaire questionnaire5_3">
@@ -584,7 +582,6 @@
                             <li><input type="checkbox" name="q5_3[]" value="白金5丁目" data-error_placement="#q5_3" class="q5" onclick="plus_q5();">白金5丁目</li>
                             <li><input type="checkbox" name="q5_3[]" value="白金6丁目" data-error_placement="#q5_3" class="q5" onclick="plus_q5();">白金6丁目</li>
                         </ul>
-                        <!-- <div class="validation-message" id="q5_3"></div> -->
                         <br>
                     </div>
                     <div class="questionnaire questionnaire5_4">

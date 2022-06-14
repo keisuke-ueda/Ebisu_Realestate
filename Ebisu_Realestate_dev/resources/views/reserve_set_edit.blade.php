@@ -21,7 +21,6 @@
             <th>10:00〜11:30</th>
             <th>13:00〜14:30</th>
             <th>16:00〜17:30</th>
-            <!-- <th>予約可能上限</th> -->
           </tr>
           <?php $i=0 ?>
           @foreach ($weeks as $day)
@@ -66,7 +65,6 @@
                 </form>
               </div>
             </td>
-            <!-- <td class="limit_td">3</td> -->
           </tr>
           <?php $i++ ?>
           @endforeach

@@ -72,7 +72,6 @@
         <img class="w-100" src="{{ asset('/images/plan-floor.png') }}" alt="">
         <p class="text-end s10 ft2 text-dark">敷地配置および3階イメージ図/景観の敷地配置図は､計画段階の図面を書き起こしたもので実際とは異なります｡</p>
       </div>
-      <!-- <img class="w-100" src="{{ asset('/images/3rdfloor.png') }}" alt=""> -->
       <div class="no5_no6" style="">
         <div class="plan_image">
           <div class="plan_image_text animation">

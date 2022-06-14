@@ -15,7 +15,7 @@
 <div class="" id="entry" style="">
   <h1 class="p-title gold-title-3 center-block text-center m-none ft4 s24">PROPERTY ENTRY</h1>
   <p class="p-title center-block text-center mt-10px ft2 s14" style="margin-bottom:25px;">物件エントリー</p>
-  <!-- <div class="main-content" style="margin-right: 90px; margin-left: 90px"> -->
+  
   <div class="entry-main-content" style="">
     <div class="ft2 s16">
       <p class="text-center" style="margin-bottom: 10px;">以下のフォームに必要な項目を入力のうえ<br class="pc_hid">「送信」ボタンを押してください。</p>

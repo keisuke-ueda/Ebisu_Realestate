@@ -10,11 +10,6 @@
 </div>
 
 <!-- ハンバーガーボタン -->
-<!-- <div style="display: flex; justify-content:flex-end;">
-  <button class="menu-trigger menu_animation absolute menu_p" >
-    <img class="w-100" src="{{ asset('/images/menu_btn.png') }}" alt="メニューボタン">
-  </button>
-</div> -->
 <button class="menu-trigger menu_animation absolute menu_p" >
   <img class="w-100" src="{{ asset('/images/menu_btn.png') }}" alt="メニューボタン">
 </button>

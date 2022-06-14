@@ -227,26 +227,6 @@
                 <p class="gold-title-2 ft4 s30 info_title">INFORMATION</p>
                 <div class="ft2 s14 scroll_table">
                     <table class="text-white info_table">
-                        <!-- <tr>
-                            <td class="date-td-1" scope="col">2022.4.22</td>
-                            <td class="text-td-1" scope="col">ラ・アトレ恵比寿グランガーデン　ホームページ開設</td>
-                        </tr>
-                        <tr>
-                            <td class="date-td-2" scope="col">2022.4.22</td>
-                            <td class="text-td-2" scope="col">お住まいのアンケートを閉設しました。<br>多数のご応募ありがとうございました。</td>
-                        </tr>
-                        <tr>
-                            <td class="date-td-2" scope="col">2022.5.10</td>
-                            <td class="text-td-2" scope="col">お住まいのアンケートの募集を終了いたしました。<br>
-                            アンケートにご協力頂きまして、誠にありがとうございました。<br>
-                            お蔭さまで貴重なご意見を多数頂戴することができました。<br>
-                            頂いたご意見は、ご要望として<br class="pc_hid">今後の商品開発の参考とさせていただき、<br>
-                            よりご満足頂けるものにできるよう役立たせて頂きます。<br>
-                            多数のご応募ありがとうございました。</td>
-                        <tr>
-                            <td class="date-td-2" scope="col">2022.5.13</td>
-                            <td class="text-td-2" scope="col">LOCATIONページ、DESIGNページ、BRANDページを<br class="pc_hid">公開しました。</td>
-                        </tr> -->
                         <?php $i=1 ?>
                         @foreach ($all_info as $info)
                         <tr class="info_tr tr_{{ $i }}">
@@ -513,7 +493,6 @@
                 </div>
                 <p class="bland_p2 ft2 s30 text-end">〉</p>
             </div>
-            <!-- <img src="{{ asset('/images/brand-pc.png') }}" alt="ブランディングバナー" style="width:100%;"> -->
         </a>
 
         <!-- SP -->
@@ -525,7 +504,6 @@
                 </div>
                 <p class="bland_p2 ft2 s15 text-end">〉</p>
             </div>
-            <!-- <img src="{{ asset('/images/brand-sp.png') }}" alt="ブランディングバナー" style="width:100%;"> -->
         </a>
 
         <!-- PC・SP共通 -->
