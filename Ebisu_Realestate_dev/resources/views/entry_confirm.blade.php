@@ -211,7 +211,7 @@
         </tbody>
       </table>
 
-      <button class="mh-parts btn btn-dark mx-auto d-block mt-30px"><span class="p-3 s18">送信する</span></button>
+      <button class="mh-parts btn btn-dark mx-auto d-block mt-30px mail_send_btn"><span class="p-3 s18">送信する</span></button>
       <button class="mh-parts btn mx-auto d-block mb-40px" type="button" onclick=history.back() style="margin-top:15px; text-decoration:underline;;">入力画面に戻る</button>
     </form>
 

@@ -734,6 +734,12 @@ $(function () {
     minlength: "3つ選択してください",
   });
 
+  // 送信ボタン ダブルクリック阻止
+  $('.mail_send_btn').on('click', function(){
+		$(this).prop('disabled',true);//ボタンを無効化する
+		$(this).closest('form').submit();//フォームを送信する
+	});
+
 });
 
 

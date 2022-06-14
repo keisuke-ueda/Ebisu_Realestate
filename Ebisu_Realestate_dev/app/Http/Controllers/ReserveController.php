@@ -75,15 +75,14 @@ class ReserveController extends Controller
         $reservation_date_w = $request->session()->get("reservation_date_w");
         $reservation_time = $request->session()->get("reservation_time");
         $input = $request->session()->get("input");
+        //セッションに値が無い時はフォームに戻る
+        if (!$input) {
+            return redirect()->action([ReserveController::class, 'show']);
+        }
         $email = $input['email'];
         $date = Carbon::now(); 
         $no = $date->format('YmdHis');
         $request->session()->put("no", $no);
-
-        //セッションに値が無い時はフォームに戻る
-        if (!$input) {
-            // return redirect()->action([ReserveController::class, 'show']);
-        }
 
         $model = new Reserve();
         $model->makeReservation($no, $reservation_date, $reservation_time, $input);
@@ -92,7 +91,8 @@ class ReserveController extends Controller
         Mail::send('reserve_site_mail', compact('date','no','input','reservation_date','reservation_date_w','reservation_time'), function ($message) {
 
             // テスト用アドレス
-            $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'tsuchiya@advns.co.jp'];
+            // $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'tsuchiya@advns.co.jp'];
+            $to = 'ynakano7621@gmail.com';
             $bcc = "nanokana44@gmail.com";
 
             // 本番アドレス
@@ -112,6 +112,7 @@ class ReserveController extends Controller
         });
 
         //セッションを空にする
+        $request->session()->regenerateToken();
         $request->session()->forget("input");
         $request->session()->forget("no");
         $request->session()->forget("reservation_date");

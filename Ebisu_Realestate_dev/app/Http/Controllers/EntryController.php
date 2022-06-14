@@ -35,12 +35,13 @@ class EntryController extends Controller
     {
         //セッションから値を取り出す
         $input = $request->session()->get("input");
-        $input_array_ldk = $request->session()->get("input_array_ldk");
         //セッションに値が無い時はフォームに戻る
-        // if (!$input) {
-        //     return redirect()->action([entryController::class, 'show']);
-        // }
-        // return view("entry_mail", ["input" => $input]);
+        if (!$input) {
+            return redirect()->action([EntryController::class, 'show']);
+        }
+
+        $input_array_ldk = $request->session()->get("input_array_ldk");
+        
         return view("entry_confirm", compact('input','input_array_ldk'));
     }
 
@@ -48,28 +49,29 @@ class EntryController extends Controller
     {
         //セッションから値を取り出す
         $input = $request->session()->get("input");
+        //セッションに値が無い時はフォームに戻る
+        if (!$input) {
+            return redirect()->action([EntryController::class, 'show']);
+        }
+
         $input_array_ldk = $request->session()->get("input_array_ldk");
         $email = $input['email'];
         $date = Carbon::now(); 
         $no = $date->format('YmdHis');
         $request->session()->put("no", $no);
-
-        //セッションに値が無い時はフォームに戻る
-        if (!$input) {
-            return redirect()->action([EntryController::class, 'show']);
-        }
+        
 
         // 管理者宛
         Mail::send('entry_site_mail', compact('date','no','input','input_array_ldk'), function ($message) {
 
             // テスト用アドレス
             // $to = ['y.nakano.carecon@gmail.com','keisuke.ueda@field-up.work', 'quarter_back1s0regashi@hotmail.co.jp', 'tsuchiya@advns.co.jp'];
-            // $to = "ynakano7621@gmail.com";
-            // $bcc = "nanokana44@gmail.com";
+            $to = "ynakano7621@gmail.com";
+            $bcc = "nanokana44@gmail.com";
 
             // 本番アドレス
-            $to = "la-ebisu.gg@lattrait.co.jp";
-            $bcc = "digital@advns.co.jp";
+            // $to = "la-ebisu.gg@lattrait.co.jp";
+            // $bcc = "digital@advns.co.jp";
 
             $no = session()->get("no");
 
@@ -82,7 +84,9 @@ class EntryController extends Controller
             $no = session()->get("no");
             $message->to($input['email'])->subject("[受付番号{$no}]  株式会社ラ・アトレ「ラ・アトレ恵比寿グランガーデン」物件エントリーフォームから");
         });
+        
         //セッションを空にする
+        $request->session()->regenerateToken();
         $request->session()->forget("input");
         $request->session()->forget("input_array_ldk");
         $request->session()->forget("no");
