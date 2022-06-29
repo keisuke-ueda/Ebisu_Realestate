@@ -43,15 +43,15 @@
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;">&nbsp;</div>
         <div class="d-flex align-items-auto">
-          <p class="s10 ft1 blank">&nbsp;</p>
+          <p class="s10 ft1 new-mark">new</p>
         </div>
-        <a href="/model_room" style="pointer-events:none; white-space:nowrap;" class="small mh-parts gray_link s14">MODEL ROOM</a>
+        <a href="/model_room" style="white-space:nowrap;" class="small mh-parts white_link s14">MODEL ROOM</a>
       </div>
 
       <div class="header_link ms-3">
         <div style="padding-bottom:5px;"><a href="/overview" class="ft2 s10 mh-parts white_link" style="white-space:nowrap;">>物件概要</a></div>
         <div class="d-flex align-items-auto">
-          <p class="s10 ft1 new-mark">new</p>
+          <p class="s10 ft1 blank">&nbsp;</p>
         </div>
         <a href="/plan" style="" class="small mh-parts white_link s14">PLAN</a>
       </div>
@@ -142,7 +142,7 @@
             </a>
           </div>
           <div>
-            <a href="/model_room" style="pointer-events:none; color:gray;">
+            <a href="/model_room" style="">
               <p>MODEL ROOM</p>
               <p class="s10">モデルルーム</p>
             </a>

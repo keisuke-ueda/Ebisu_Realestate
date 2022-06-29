@@ -4,7 +4,7 @@
 
     <div class="footer_right" style="">
       <div style="line-height:1.0;">
-        <p style="" class="ft2 s12">｢ラ・アトレ恵比寿グランガーデン｣現場事務所<br>
+        <p style="" class="ft2 s12">｢ラ・アトレ恵比寿グランガーデン｣現地販売センター<br>
         <a href="tel:0120978690" style="color:white; text-decoration:none;"><span class="s27 ft4 company_tel">0120<span class="ft2">-</span>978<span class="ft2">-</span>690</span></a><br>
         <span class="s12 ft2 footer_gg">[営業時間] 10:00〜18:00 [定休日] 火・水曜日</span></p>
       </div>
