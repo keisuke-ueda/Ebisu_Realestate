@@ -2449,3 +2449,331 @@ td.h-110px {
   color: #fff;
   margin: 80px auto 40px;
 }
+
+
+/* MODEL ROOM */
+.model-top {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+.model-top-sp {
+  display: none;
+}
+.model-top img {
+  width: 40%;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.model-area1 {
+  max-width: 1100px;
+  padding: 100px;
+  margin: 0 auto;
+}
+.display-frame {
+  width: 100%;
+  aspect-ratio: 7/4;
+  background-color: #FFFAFA;
+  position: relative;
+}
+.display-picture {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right top;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 2.0s;
+}
+.current-display {
+  opacity: 1;
+  z-index: 20;
+}
+.selectable-pictures {
+  display: flex;
+  width: calc(100% - 10px);
+  margin: 5px 10px 5px 0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.selectable-picture {
+  width: calc(12.5% - 5px);
+  aspect-ratio: 7/4;
+  object-fit: cover;
+  object-position: right top;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.selected-border-sp {
+  display: none;
+}
+.selected-border {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: calc(12.5% - 5px);
+  aspect-ratio: 7/4;
+  border: 2px solid #000;
+}
+
+.model-area2 {
+  padding: 50px;
+}
+.model-area2>.content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.kitchen-content1 {
+  display: flex;
+  justify-content: space-between;
+}
+.kitchen401 {
+  width: calc(50% - 10px);
+}
+.kitchen401 img {
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  object-position: 0% 0%;
+  margin-bottom: 10px;
+}
+.kitchen-content1>.pictures {
+  display:flex; 
+  flex-wrap:wrap;
+  justify-content: space-between;
+  width: calc(50% - 10px);
+  height: 100%;
+}
+.kitchen-content1>.pictures div {
+  width: calc(50% - 10px);
+  margin-bottom: 24px;
+}
+.kitchen-content1>.pictures img {
+  aspect-ratio: 13/10;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.kitchen-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+
+.kitchen-content2 {
+  display:flex; 
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.kitchen-content2 div {
+  width: calc(25% - 15px);
+}
+.kitchen-content2 img {
+  aspect-ratio: 13/10;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.bathroom {
+  margin-top: 50px;
+}
+.bathroom-content {
+  display: flex;
+  justify-content: space-between;
+}
+.bathroom-pictures1 {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bathroom202 {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.bathroom202 img {
+  aspect-ratio: 3/5;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.bathroom-pictures1>.small_picture{
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+.bathroom-pictures1>.small_picture img{
+  aspect-ratio: 13/10;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.bathroom-logo {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 49px;
+}
+.bathroom-pictures2 {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bathroom-pictures2>.small_picture {
+  width: calc(50% - 10px);
+}
+.bathroom-pictures2>.small_picture img {
+  aspect-ratio: 13/10;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.bathroom401 {
+  width: 100%;
+}
+.bathroom401 img {
+  aspect-ratio: 27/32;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.lavatory {
+  margin-top: 50px;
+}
+.lavatory-content {
+  display: flex;
+  justify-content: space-between;
+}
+.lavatory-pictures1 {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.lavatory202 {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.lavatory202 img {
+  aspect-ratio: 3/5;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.lavatory-pictures1>.small_picture {
+  width: calc(50% - 10px);
+}
+.lavatory-pictures1>.small_picture img{
+  aspect-ratio: 13/10;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.lavatory-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lavatory-pictures2 {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.lavatory-pictures2>.small_picture1 {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+.lavatory-pictures2>.small_picture1>.picture1-1 {
+  aspect-ratio: 13/12;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.lavatory-pictures2>.small_picture1>div>.picture1-2 {
+  aspect-ratio: 260/85;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.lavatory-pictures2>.small_picture2 {
+  width: calc(33% - 13px);
+  margin-bottom: 20px;
+}
+.lavatory-pictures2>.small_picture2 img{
+  aspect-ratio: 17/22;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-bottom: 10px;
+}
+
+.lavatory401 {
+  width: 100%;
+}
+.lavatory401 img {
+  aspect-ratio: 9/10;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.storage {
+  margin-top: 50px;
+}
+.storage-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.entrance {
+  width: calc(50% - 10px);
+}
+.entrance img {
+  aspect-ratio: 27/40;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.other {
+  margin-top: 50px;
+}
+.other-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.other-picture1, .other-picture2 {
+  width: calc(25% - 15px);
+  margin-bottom: 20px;
+}
+.other-picture1 img, .other-picture2 img {
+  aspect-ratio: 26/21;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-bottom: 10px;
+}
+.other-picture3 {
+  /* width: calc(20% - 16px); */
+  margin-bottom: 20px;
+}
+
+.other-logo {
+  width: calc(30% - 50px);
+  margin-bottom: 47px;
+  margin-left: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.other-picture3, .other-picture4, .other-picture5, .other-picture6, .other-picture7, .other-picture8 {
+  width: calc(20% - 20px);
+}
+.other-picture3 img, .other-picture4 img, .other-picture5 img, .other-picture6 img, .other-picture7 img, .other-picture8 img {
+  aspect-ratio: 20/21;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-bottom: 10px;
+}

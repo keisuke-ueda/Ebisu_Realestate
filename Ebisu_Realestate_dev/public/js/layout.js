@@ -525,6 +525,46 @@ $(function () {
     $('.park_select_btn').addClass('selected')
   })
 
+
+  // MODEL ROOM スライド
+  $('.display-picture').on('click', function() {
+    var num = $(this).data('num');
+    var display_before = ".display" + num;
+    if (num == 8) {
+      num = 1;
+    } else {
+      num++;
+    }
+    var display_after = ".display" + num;
+
+    $(display_before).removeClass('current-display');
+    $(display_after).addClass('current-display');
+
+    var position = $('.selectable' + num).position();
+    $('.selected-border').animate({'left': position.left + 5}, 1000);
+    $('.selected-border-sp').animate({'left': position.left, 'top': position.top}, 1000);
+
+    return false;
+  });
+
+  $('.selectable-picture').on('click', function() {
+    var current_num = $('.current-display').data('num');
+    var display_before = ".display" + current_num;
+
+    var selected_num = $(this).data('num');
+    var display_after = ".display" + selected_num;
+
+    var position = $('.selectable' + selected_num).position();
+    $('.selected-border').animate({'left': position.left + 5}, 1000);
+    $('.selected-border-sp').animate({'left': position.left, 'top': position.top}, 1000);
+
+    $(display_before).removeClass('current-display');
+    $(display_after).addClass('current-display');
+
+    return false;
+  });
+
+
   // フォームの入力バリデーション
   $('.mailformpro').validate({
     rules: {

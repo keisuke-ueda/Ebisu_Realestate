@@ -1327,3 +1327,53 @@ input {
   color: #fff;
   margin: 50px auto 40px;
 }
+
+
+/* MODEL ROOM */
+.model-top {
+  display: none;
+}
+.model-top-sp {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+.model-top-sp img {
+  width: 80%;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.model-area1 {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.selectable-pictures {
+  width: 100%;
+  margin: 5px 0 5px 0px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.selectable-picture {
+  width: calc(25% - 4px);
+  aspect-ratio: 7/4;
+  object-fit: cover;
+  object-position: right top;
+  margin-left: 0;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.selected-border {
+  display: none;
+}
+.selected-border-sp {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(25% - 4px);
+  aspect-ratio: 7/4;
+  border: 2px solid #000;
+}
