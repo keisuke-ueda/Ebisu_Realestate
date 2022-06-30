@@ -155,30 +155,29 @@ $(function () {
   $(window).on('load resize scroll click',function (){
     let btn = $('.read_more').outerHeight();
 
-    var ebisu_col = $('.ebisu_col').height();
     var ebisu_pic = $('.ebisu_pic').height();
     var ebisu_img = $('.ebisu_img').height();
     var ebisu_p = $('.ebisu_p').height();
     
-    var location_col = $('.location_col').height();
     var location_pic = $('.location_pics').height();
     var location_img = $('.location_img').height();
     var location_p = $('.location_p').height();
 
-    var access_col = $('.access_col').height();
     var access_pic = $('.access_pic_img').height();
     var access_img = $('.access_img').height();
     var access_p = $('.access_p').height();
 
-    var design_col = $('.design_col').height();
     var design_pic = $('.design_pic').height();
     var design_img = $('.design_img').height();
     var design_p = $('.design_p').height();
 
-    var plan_col = $('.plan_col').height();
     var plan_pic = $('.plan_pics').height();
     var plan_img = $('.plan_img').height();
     var plan_p = $('.plan_p').height();
+
+    var model_pic = $('.model_pic').height();
+    var model_img = $('.model_img').height();
+    var model_p = $('.model_p').height();
 
 
     var ebisu_line = ebisu_pic - ebisu_img - ebisu_p - btn - 68
@@ -186,12 +185,14 @@ $(function () {
     var access_line = access_pic - access_img - access_p - btn - 68
     var design_line = design_pic - design_img - design_p - btn  - 68
     var plan_line = plan_pic - plan_img - plan_p - btn - 68
+    var model_line = model_pic - model_img - model_p - btn - 68
 
     $('.ebisu_line').height(ebisu_line);
     $('.location_line').height(location_line);
     $('.access_line').height(access_line);
     $('.design_line').height(design_line);
     $('.plan_line').height(plan_line);
+    $('.model_line').height(model_line);
 
     if($('body').width() < 1100){
         $('.ebisu_p').css('white-space','normal')
@@ -537,8 +538,12 @@ $(function () {
     }
     var display_after = ".display" + num;
 
+    var title = $(display_after).data('title');
+
     $(display_before).removeClass('current-display');
     $(display_after).addClass('current-display');
+
+    $('.display-picture-title').text(title);
 
     var position = $('.selectable' + num).position();
     $('.selected-border').animate({'left': position.left + 5}, 1000);
@@ -552,6 +557,7 @@ $(function () {
     var display_before = ".display" + current_num;
 
     var selected_num = $(this).data('num');
+    var selected_title = $(this).data('title');
     var display_after = ".display" + selected_num;
 
     var position = $('.selectable' + selected_num).position();
@@ -561,8 +567,37 @@ $(function () {
     $(display_before).removeClass('current-display');
     $(display_after).addClass('current-display');
 
+    $('.display-picture-title').text(selected_title);
+
     return false;
   });
+
+  $(window).on('load', function() {
+    setInterval(function(){
+
+      var num = $('.current-display').data('num');
+      var display_before = ".display" + num;
+      if (num == 8) {
+        num = 1;
+      } else {
+        num++;
+      }
+      var display_after = ".display" + num;
+
+      var title = $(display_after).data('title');
+
+      $(display_before).removeClass('current-display');
+      $(display_after).addClass('current-display');
+
+      $('.display-picture-title').text(title);
+
+      var position = $('.selectable' + num).position();
+      $('.selected-border').animate({'left': position.left + 5}, 1000);
+      $('.selected-border-sp').animate({'left': position.left, 'top': position.top}, 1000);
+      return false;
+
+    },3000);
+  })
 
 
   // フォームの入力バリデーション

@@ -1377,3 +1377,240 @@ input {
   aspect-ratio: 7/4;
   border: 2px solid #000;
 }
+
+.model-area2 {
+  padding: 20px;
+}
+.model-area2>.content {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.kitchen-content1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.kitchen401 {
+  width: 100%;
+}
+.kitchen401 img {
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  object-position: 0% 0%;
+  margin-bottom: 10px;
+}
+.kitchen-content1>.pictures {
+  display:flex; 
+  flex-wrap:wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.kitchen-content1>.pictures div {
+  width: calc(50% - 10px);
+  margin-bottom: 24px;
+}
+.kitchen-content1>.pictures img {
+  aspect-ratio: 13/10;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.kitchen-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+
+.kitchen-content2 {
+  display:flex; 
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.kitchen-content2 div {
+  width: calc(50% - 10px);
+}
+.kitchen-content2 img {
+  aspect-ratio: 13/10;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.bathroom {
+  margin-top: 50px;
+}
+.bathroom-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bathroom-pictures1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bathroom202 {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.bathroom202 img {
+  aspect-ratio: 3/5;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.bathroom-pictures1>.small_picture{
+  display: none;
+}
+
+.bathroom-logo {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 49px;
+}
+.bathroom-pictures2 {
+  width: 100%;
+}
+.bathroom-pictures2>.small_picture {
+  width: calc(50% - 10px);
+}
+.bathroom-pictures2>.small_picture img {
+  aspect-ratio: 13/10;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.bathroom401 {
+  width: 100%;
+}
+.bathroom401 img {
+  aspect-ratio: 27/32;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.lavatory {
+  margin-top: 50px;
+}
+.lavatory-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.lavatory-pictures1 {
+  width: 100%;
+}
+.lavatory202 {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.lavatory202 img {
+  aspect-ratio: 3/5;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.lavatory-pictures1>.small_picture {
+  display: none;
+}
+
+.lavatory-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lavatory-pictures2 {
+  width: 100%;
+}
+.lavatory-pictures2>.small_picture1 {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+.lavatory-pictures2>.small_picture1>.picture1-1 {
+  aspect-ratio: 13/12;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.lavatory-pictures2>.small_picture1>div>.picture1-2 {
+  aspect-ratio: 260/85;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.lavatory-pictures2>.small_picture2 {
+  width: calc(33% - 13px);
+  margin-bottom: 20px;
+}
+.lavatory-pictures2>.small_picture2 img{
+  aspect-ratio: 17/22;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-bottom: 10px;
+}
+
+.lavatory401 {
+  width: 100%;
+}
+.lavatory401 img {
+  aspect-ratio: 9/10;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.storage {
+  margin-top: 50px;
+}
+.storage-content {
+  display: block;
+}
+
+.entrance {
+  width: 100%;
+}
+.entrance img {
+  aspect-ratio: 27/40;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.other {
+  margin-top: 50px;
+}
+.other-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.other-picture1, .other-picture2 {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+.other-picture1 img, .other-picture2 img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-bottom: 10px;
+}
+.other-picture3 {
+  /* width: calc(20% - 16px); */
+  margin-bottom: 20px;
+}
+
+.other-logo {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.other-picture3, .other-picture4, .other-picture5, .other-picture6, .other-picture7, .other-picture8 {
+  width: calc(50% - 10px);
+}
+.other-picture3 img, .other-picture4 img, .other-picture5 img, .other-picture6 img, .other-picture7 img, .other-picture8 img {
+  aspect-ratio: 20/21;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-bottom: 10px;
+}

@@ -384,6 +384,29 @@
                 </div>
             </div>
 
+
+            <!-- MODEL ROOM -->
+            <div class="read_more_link_r">
+                <div class="text_side animation model_col ft2 s14">
+                    <img class="model_img" src="{{ asset('/images/top-themodelroom.svg') }}" alt="サンプル画像">
+                    <p class="model_p">洗練されたミッドセンチュリーの<br>
+                        家具の似合う高質でシンプルな居住空間。<br>
+                        時代に流されない正統派の<br>
+                        上質感が日常を美しく彩ります。
+                    </p>
+                    <div class="gold_line model_line"></div>
+                    <div class="w-60">
+                        <button class="gold_btn read_more" type="button">
+                            <a href="/model_room" class="text-white mh-parts">Read More</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="picture_side animation-1-zm model_pic h-100">
+                    <p class="ft2 s12">(令和4年6月撮影)</p>
+                    <img src="{{ asset('/images/model_photo1.png') }}" alt="サンプル画像" class="w-100">
+                </div>
+            </div>
+
         </div>
 
 
@@ -480,6 +503,23 @@
                 <p class="s10 text-end mt-1 ft2">（令和4年3月撮影）</p>
                 <button class="gold_btn read_more" type="button">
                     <a href="/plan" class="text-white mh-parts ft2">Read More</a>
+                </button>
+            </div>
+
+            <!-- MODEL ROOM -->
+            <div class="read_more_link2">
+                <img src="{{ asset('/images/top-themodelroom.svg') }}" alt="THE DESIGN" class="the-logo" style="width:90%;">
+                <div class="gold_line2"></div>
+                <p class="text-center s10" style="">
+                    洗練されたミッドセンチュリーの<br>
+                    家具の似合う高質でシンプルな居住空間。<br>
+                    時代に流されない正統派の<br>
+                    上質感が日常を美しく彩ります。
+                </p>
+                <img src="{{ asset('/images/model_photo1.png') }}" alt="DESIGN 写真" class="photo-100">
+                <p class="ft2 s10 mt-1 text-end">(令和4年6月撮影)</p>
+                <button class="gold_btn read_more" type="button">
+                    <a href="/model_room" class="text-white mh-parts ft2">Read More</a>
                 </button>
             </div>
         </div>
