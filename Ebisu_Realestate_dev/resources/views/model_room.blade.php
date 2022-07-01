@@ -249,7 +249,7 @@
             </div>
             <div class="" style="width:calc(50% - 5px);">
               <div class="w-100" style="margin-bottom:50px;">
-                <img class="d-block mx-auto" src="{{ asset('/images/storage.svg') }}" alt="" style="width:80%; margin-bottom:10px; padding-top:0px;">
+                <img class="d-block mx-auto" src="{{ asset('/images/storage.svg') }}" alt="" style="width:90%; margin-bottom:10px; padding-top:0px;">
                 <p class="s10 m-0 text-center">※掲載の写真は401号室(Cﾀｲﾌﾟ)を2022年6月に撮影したものです｡</p>
               </div>
               <div class="w-100" style="margin-bottom:0px;">
@@ -278,7 +278,7 @@
           <p class="s18 m-0 gold-2">人感センサー</p>
         </div>
         <div class="other-logo">
-          <img class="d-block other-logo-img" src="{{ asset('/images/other.svg') }}" alt="" style="margin-bottom:10px; width:75%;">
+          <img class="d-block other-logo-img" src="{{ asset('/images/other.svg') }}" alt="" style="">
           <p class="s10" style="margin-bottom:15px;">※掲載の写真は401号室(Cﾀｲﾌﾟ)､202号室(Dﾀｲﾌﾟ)を<br class="sp_hid"><span class="pc_indent">&nbsp;&nbsp;&nbsp;</span>2022年6月に撮影したものです｡</p>
           <img class="w-100 pc_hid" src="{{ asset('/images/ドアストッパー.jpg') }}" alt="" style="aspect-ratio: 260/85; object-fit: cover; margin-bottom:5px;">
           <p class="s18 m-0 gold-2 pc_hid">ドアストッパー</p>

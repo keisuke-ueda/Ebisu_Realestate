@@ -1631,7 +1631,8 @@ input {
   justify-content: flex-end;
 }
 .other-logo-img {
-  margin: 0 auto;
+  width: 80%;
+  margin: 0 auto 10px;
 }
 .other-picture3, .other-picture4, .other-picture5, .other-picture6, .other-picture7, .other-picture8 {
   width: calc(50% - 5px);

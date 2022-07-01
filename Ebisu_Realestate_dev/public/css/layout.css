@@ -2786,18 +2786,23 @@ td.h-110px {
   margin-bottom: 10px;
 }
 .other-picture3 {
-  /* width: calc(20% - 16px); */
   margin-bottom: 20px;
 }
 
 .other-logo {
   width: calc(30% - 50px);
-  margin-bottom: 47px;
-  margin-left: 35px;
+  margin-bottom: 57px;
+  margin-left: 0px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
+.other-logo-img {
+  margin-bottom:10px; 
+  width:70%;
+}
+
 .other-picture3, .other-picture4, .other-picture5, .other-picture6, .other-picture7, .other-picture8 {
   width: calc(20% - 20px);
 }
