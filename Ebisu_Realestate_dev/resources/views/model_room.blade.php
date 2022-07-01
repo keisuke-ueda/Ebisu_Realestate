@@ -34,7 +34,7 @@
     <img class="selectable-picture selectable7" data-num="7" data-title="image photo" src="{{ asset('/images/model_photo7.png') }}" alt="">
     <img class="selectable-picture selectable8" data-num="8" data-title="image photo" src="{{ asset('/images/model_photo8.png') }}" alt="">
   </div>
-  <p class="s10 text-end m-0">※掲載の写真は401号室(Cタイプ)､202号室(Dタイプ)を<br class="pc_hid">2022年6月に撮影したものです｡</p>
+  <p class="s10 text-end m-0">※掲載の写真は401号室(Cﾀｲﾌﾟ)､202号室(Dﾀｲﾌﾟ)を<br class="pc_hid">2022年6月に撮影したものです｡</p>
 </div>
 
 <div class="model-area2 bg-black ft2 w-100">
@@ -44,7 +44,7 @@
       <div class="w-100 kitchen-content1" style="">
         <div class="kitchen401">
           <img class="d-block w-100" src="{{ asset('/images/kitchen401.png') }}" alt="">
-          <p class="s14 m-0">キッチン401号室(Cタイプ)</p>
+          <p class="s14 m-0">キッチン401号室(Cﾀｲﾌﾟ)</p>
         </div>
         <div class="pictures" style="">
           <div class="">
@@ -53,7 +53,7 @@
           </div>
           <div class="kitchen-logo">
             <img class="d-block mx-auto" src="{{ asset('/images/kitchen.svg') }}" alt="" style="aspect-ratio: unset; margin-bottom:10px; width:90%;">
-            <p class="s10 m-0 text-center" style="white-space:nowrap;">※掲載の写真は401号室(Cタイプ)を2022年6月に撮影したものです｡</p>
+            <p class="s10 m-0" style="width: 115%;">※掲載の写真は401号室(Cﾀｲﾌﾟ)を<br class="pc_hid">2022年6月に撮影したものです｡</p>
           </div>
           <div class="">
             <img class="d-block w-100" src="{{ asset('/images/ハンズフリー水栓.png') }}" alt="">
@@ -99,7 +99,7 @@
         <div class="bathroom-pictures1">
           <div class="bathroom202">
             <img class="d-block w-100" src="{{ asset('/images/バスルーム202.png') }}" alt="">
-            <p class="s14 m-0 text-end">バスルーム202号室(Dタイプ)</p>
+            <p class="s14 m-0 text-end">バスルーム202号室(Dﾀｲﾌﾟ)</p>
           </div>
           <div class="small_picture">
             <img class="d-block w-100" src="{{ asset('/images/バスリモコン.jpg') }}" alt="">
@@ -117,7 +117,7 @@
           </div>
           <div class="bathroom-logo">
             <img class="d-block w-100" src="{{ asset('/images/bathroom.svg') }}" alt="" style="aspect-ratio: unset; margin-bottom:10px;">
-            <p class="s10 m-0">※掲載の写真は401号室(Cタイプ)､202号室(Dタイプ)を<br>&nbsp;&nbsp;&nbsp;2022年6月に撮影したものです｡</p>
+            <p class="s10 m-0">※掲載の写真は401号室(Cﾀｲﾌﾟ)､202号室(Dﾀｲﾌﾟ)を<br class="sp_hid"><span class="pc_indent">&nbsp;&nbsp;&nbsp;</span>2022年6月に撮影したものです｡</p>
           </div>
           <div class="small_picture">
             <img class="d-block w-100" src="{{ asset('/images/スライド式シャワーヘッド.png') }}" alt="">
@@ -137,7 +137,7 @@
           </div>
           <div class="bathroom401">
             <img class="d-block w-100" src="{{ asset('/images/バスルーム401.jpg') }}" alt="">
-            <p class="s14 m-0 text-end">バスルーム401号室(Cタイプ)</p>
+            <p class="s14 m-0 text-end">バスルーム401号室(Cﾀｲﾌﾟ)</p>
           </div>
         </div>
       </div>
@@ -149,7 +149,7 @@
         <div class="lavatory-pictures1">
           <div class="lavatory202">
             <img class="d-block w-100" src="{{ asset('/images/洗面室202.png') }}" alt="">
-            <p class="s14 m-0 text-end">洗面室202号室(Dタイプ)</p>
+            <p class="s14 m-0 text-end">洗面室202号室(Dﾀｲﾌﾟ)</p>
           </div>
           <div class="small_picture">
             <img class="d-block w-100" src="{{ asset('/images/洗面人造大理石カウンター天板.png') }}" alt="">
@@ -168,7 +168,7 @@
           <div class="small_picture1 lavatory-logo">
             <div>
               <img class="d-block w-100" src="{{ asset('/images/lavatory.svg') }}" alt="" style="aspect-ratio:unset; margin-bottom:10px;">
-              <p class="s10 m-0">※掲載の写真は401号室(Cタイプ)､202号室(Dタイプ)を<br>&nbsp;&nbsp;&nbsp;2022年6月に撮影したものです｡</p>
+              <p class="s10 m-0">※掲載の写真は401号室(Cﾀｲﾌﾟ)､202号室(Dﾀｲﾌﾟ)を<br><span class="pc_indent">&nbsp;&nbsp;&nbsp;</span>2022年6月に撮影したものです｡</p>
             </div>
             <div>
               <img class="d-block w-100 picture1-2" src="{{ asset('/images/トイレリモコン.png') }}" alt="">
@@ -189,14 +189,14 @@
           </div>
           <div class="lavatory401">
             <img class="d-block w-100" src="{{ asset('/images/洗面室401.png') }}" alt="">
-            <p class="s14 m-0 text-end">洗面室401号室(Cタイプ)</p>
+            <p class="s14 m-0 text-end">洗面室401号室(Cﾀｲﾌﾟ)</p>
           </div>
           <div class="small_picture1 pc_hid">
-            <img class="d-block w-100" src="{{ asset('/images/洗面人造大理石カウンター天板.png') }}" alt="">
+            <img class="d-block w-100" src="{{ asset('/images/洗面人造大理石カウンター天板.png') }}" alt="" style="margin-bottom:5px;">
             <p class="s18 m-0 gold-2">洗面人造大理石カウンター天板</p>
           </div>
           <div class="small_picture1 pc_hid">
-            <img class="d-block w-100" src="{{ asset('/images/洗面ボウル.png') }}" alt="">
+            <img class="d-block w-100" src="{{ asset('/images/洗面ボウル.png') }}" alt="" style="margin-bottom:5px;">
             <p class="s18 m-0 gold-2">洗面ボウル</p>
           </div>
         </div>
@@ -214,7 +214,7 @@
         <div class="right sp_hid" style="width:calc(50% - 10px);">
           <div class="w-100" style="margin-bottom:70px;">
             <img class="d-block mx-auto" src="{{ asset('/images/storage.svg') }}" alt="" style="width:50%; margin-bottom:10px; padding-top:80px;">
-            <p class="s10 m-0 text-center">※掲載の写真は401号室(Cタイプ)を2022年6月に撮影したものです｡</p>
+            <p class="s10 m-0 text-center">※掲載の写真は401号室(Cﾀｲﾌﾟ)を2022年6月に撮影したものです｡</p>
           </div>
           <div class="d-flex justify-content-between w-100">
             <div class="" style="width:calc(32.6% - 10px);">
@@ -236,24 +236,24 @@
         
         <!-- SP表示 -->
         <div class="pc_hid">
-          <div class="w-100 d-flex justify-content-between">
-            <div class="" style="width:calc(50% - 10px);">
-              <div class="w-100" style="" >
-                <img class="d-block w-100" src="{{ asset('/images/シューズクローゼット.jpg') }}" alt="" style="aspect-ratio:6/8; object-fit:cover; margin-bottom:10px;">
+          <div class="w-100 d-flex justify-content-between align-items-end">
+            <div class="" style="width:calc(50% - 5px);">
+              <div class="w-100" style="margin-bottom:20px;" >
+                <img class="d-block w-100" src="{{ asset('/images/シューズクローゼット.jpg') }}" alt="" style="aspect-ratio:5/6; object-fit:cover; margin-bottom:5px;">
                 <p class="s18 m-0 gold-2">シューズクローゼット</p>
               </div>
               <div class="w-100">
-                <img class="d-block w-100" src="{{ asset('/images/コート掛け・収納棚.png') }}" alt="" style="aspect-ratio:6/8; object-fit:cover; margin-bottom:10px;">
+                <img class="d-block w-100" src="{{ asset('/images/コート掛け・収納棚.png') }}" alt="" style="aspect-ratio:5/6; object-fit:cover; margin-bottom:5px;">
                 <p class="s18 m-0 gold-2">コート掛け・収納棚</p>
               </div>
             </div>
-            <div class="" style="width:calc(50% - 10px);">
-              <div class="w-100" style="margin-bottom:70px;">
-                <img class="d-block mx-auto" src="{{ asset('/images/storage.svg') }}" alt="" style="width:50%; margin-bottom:10px; padding-top:80px;">
-                <p class="s10 m-0 text-center">※掲載の写真は401号室(Cタイプ)を2022年6月に撮影したものです｡</p>
+            <div class="" style="width:calc(50% - 5px);">
+              <div class="w-100" style="margin-bottom:50px;">
+                <img class="d-block mx-auto" src="{{ asset('/images/storage.svg') }}" alt="" style="width:80%; margin-bottom:10px; padding-top:0px;">
+                <p class="s10 m-0 text-center">※掲載の写真は401号室(Cﾀｲﾌﾟ)を2022年6月に撮影したものです｡</p>
               </div>
-              <div class="w-100" style="margin-bottom:20px;">
-                <img class="d-block w-100" src="{{ asset('/images/寝室WIC.jpg') }}" alt="" style="aspect-ratio:17/26; object-fit:cover; margin-bottom:10px;">
+              <div class="w-100" style="margin-bottom:0px;">
+                <img class="d-block w-100" src="{{ asset('/images/寝室WIC.jpg') }}" alt="" style="aspect-ratio:4/7; object-fit:cover; margin-bottom:5px;">
                 <p class="s18 m-0 gold-2">寝室WIC</p>
               </div>
             </div>
@@ -278,9 +278,9 @@
           <p class="s18 m-0 gold-2">人感センサー</p>
         </div>
         <div class="other-logo">
-          <img class="d-block" src="{{ asset('/images/other.svg') }}" alt="" style="margin-bottom:10px; width:75%;">
-          <p class="s10" style="margin-bottom:15px;">※掲載の写真は401号室(Cタイプ)､202号室(Dタイプ)を<br class="sp_hid">2022年6月に撮影したものです｡</p>
-          <img class="w-100 pc_hid" src="{{ asset('/images/ドアストッパー.jpg') }}" alt="" style="aspect-ratio: 260/85; object-fit: cover; margin-bottom:10px;">
+          <img class="d-block other-logo-img" src="{{ asset('/images/other.svg') }}" alt="" style="margin-bottom:10px; width:75%;">
+          <p class="s10" style="margin-bottom:15px;">※掲載の写真は401号室(Cﾀｲﾌﾟ)､202号室(Dﾀｲﾌﾟ)を<br class="sp_hid"><span class="pc_indent">&nbsp;&nbsp;&nbsp;</span>2022年6月に撮影したものです｡</p>
+          <img class="w-100 pc_hid" src="{{ asset('/images/ドアストッパー.jpg') }}" alt="" style="aspect-ratio: 260/85; object-fit: cover; margin-bottom:5px;">
           <p class="s18 m-0 gold-2 pc_hid">ドアストッパー</p>
         </div>
         <div class="other-picture3 pc_hid">

@@ -596,7 +596,7 @@ $(function () {
       $('.selected-border-sp').animate({'left': position.left, 'top': position.top}, 1000);
       return false;
 
-    },3000);
+    },3500);
   })
 
 

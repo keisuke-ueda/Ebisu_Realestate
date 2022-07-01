@@ -29,6 +29,10 @@
 }
 
 /* SPのみのインデント */
+.pc_indent {
+  display: none;
+}
+/* SPのみのインデント */
 .sp_indent {
   display: inline;
   color: transparent;
@@ -1350,6 +1354,20 @@ input {
   margin: 0 auto;
 }
 
+.model-area1 .s18 {
+  font-size: 11px;
+}
+
+.model-area2 .s14 {
+  font-size: 10px;
+}
+.model-area2 .s18 {
+  font-size: 11px;
+}
+.model-area2 .s10 {
+  line-height: 1.4;
+}
+
 .selectable-pictures {
   width: 100%;
   margin: 5px 0 5px 0px;
@@ -1379,7 +1397,7 @@ input {
 }
 
 .model-area2 {
-  padding: 20px;
+  padding: 50px 20px 30px;
 }
 .model-area2>.content {
   max-width: 100%;
@@ -1393,12 +1411,13 @@ input {
 }
 .kitchen401 {
   width: 100%;
+  margin-bottom: 20px;
 }
 .kitchen401 img {
   aspect-ratio: 3/4;
   object-fit: cover;
   object-position: 0% 0%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .kitchen-content1>.pictures {
   display:flex; 
@@ -1407,18 +1426,19 @@ input {
   width: 100%;
 }
 .kitchen-content1>.pictures div {
-  width: calc(50% - 10px);
-  margin-bottom: 24px;
+  width: calc(50% - 5px);
+  margin-bottom: 20px;
 }
 .kitchen-content1>.pictures img {
   aspect-ratio: 13/10;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .kitchen-logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 22px;
 } 
 
 .kitchen-content2 {
@@ -1427,16 +1447,17 @@ input {
   justify-content: space-between;
 }
 .kitchen-content2 div {
-  width: calc(50% - 10px);
+  width: calc(50% - 5px);
+  margin-bottom: 20px;
 }
 .kitchen-content2 img {
   aspect-ratio: 13/10;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .bathroom {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .bathroom-content {
   display: flex;
@@ -1451,34 +1472,35 @@ input {
 }
 .bathroom202 {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .bathroom202 img {
   aspect-ratio: 3/5;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .bathroom-pictures1>.small_picture{
   display: none;
 }
 
 .bathroom-logo {
-  width: calc(50% - 10px);
+  width: calc(50% - 5px);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 49px;
+  margin-bottom: 40px;
 }
 .bathroom-pictures2 {
   width: 100%;
 }
 .bathroom-pictures2>.small_picture {
-  width: calc(50% - 10px);
+  width: calc(50% - 5px);
+  margin-bottom: 20px;
 }
 .bathroom-pictures2>.small_picture img {
   aspect-ratio: 13/10;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .bathroom401 {
   width: 100%;
@@ -1486,7 +1508,7 @@ input {
 .bathroom401 img {
   aspect-ratio: 27/32;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .lavatory {
@@ -1502,12 +1524,12 @@ input {
 }
 .lavatory202 {
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .lavatory202 img {
   aspect-ratio: 3/5;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .lavatory-pictures1>.small_picture {
@@ -1524,42 +1546,44 @@ input {
   width: 100%;
 }
 .lavatory-pictures2>.small_picture1 {
-  width: calc(50% - 10px);
+  width: calc(50% - 5px);
   margin-bottom: 20px;
 }
 .lavatory-pictures2>.small_picture1>.picture1-1 {
   aspect-ratio: 13/12;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .lavatory-pictures2>.small_picture1>div>.picture1-2 {
-  aspect-ratio: 260/85;
+  aspect-ratio: 4.5;
   object-fit: cover;
-  margin-bottom: 10px;
+  object-position: 50% 50%;
+  margin-bottom: 5px;
 }
 
 .lavatory-pictures2>.small_picture2 {
-  width: calc(33% - 13px);
+  width: calc(33% - 6px);
   margin-bottom: 20px;
 }
 .lavatory-pictures2>.small_picture2 img{
   aspect-ratio: 17/22;
   object-fit: cover;
   object-position: 50% 50%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .lavatory401 {
   width: 100%;
+  margin-bottom: 20px;
 }
 .lavatory401 img {
   aspect-ratio: 9/10;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .storage {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .storage-content {
   display: block;
@@ -1567,11 +1591,12 @@ input {
 
 .entrance {
   width: 100%;
+  margin-bottom: 20px;
 }
 .entrance img {
   aspect-ratio: 27/40;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .other {
@@ -1583,14 +1608,14 @@ input {
   justify-content: space-between;
 }
 .other-picture1, .other-picture2 {
-  width: calc(50% - 10px);
+  width: calc(50% - 5px);
   margin-bottom: 20px;
 }
 .other-picture1 img, .other-picture2 img {
   aspect-ratio: 1;
   object-fit: cover;
   object-position: 50% 50%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .other-picture3 {
   /* width: calc(20% - 16px); */
@@ -1598,19 +1623,23 @@ input {
 }
 
 .other-logo {
-  width: calc(50% - 10px);
+  width: calc(50% - 5px);
   margin-bottom: 20px;
   margin-left: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
+.other-logo-img {
+  margin: 0 auto;
+}
 .other-picture3, .other-picture4, .other-picture5, .other-picture6, .other-picture7, .other-picture8 {
-  width: calc(50% - 10px);
+  width: calc(50% - 5px);
+  margin-bottom: 20px;
 }
 .other-picture3 img, .other-picture4 img, .other-picture5 img, .other-picture6 img, .other-picture7 img, .other-picture8 img {
   aspect-ratio: 20/21;
   object-fit: cover;
   object-position: 50% 50%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
