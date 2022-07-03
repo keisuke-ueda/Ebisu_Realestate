@@ -1358,12 +1358,15 @@ input {
   font-size: 11px;
 }
 
+.model-area2 .gold-2 {
+  font-size: 2.94vw;
+}
 .model-area2 .s14 {
-  font-size: 10px;
+  font-size: 1.87vw;
 }
-.model-area2 .s18 {
+/* .model-area2 .s18 {
   font-size: 11px;
-}
+} */
 .model-area2 .s10 {
   line-height: 1.4;
 }
@@ -1440,6 +1443,12 @@ input {
   justify-content: center;
   padding-bottom: 22px;
 } 
+.kitchen-logo img {
+  width: 80%;
+}
+.kitchen-logo p {
+  width: 100%;
+}
 
 .kitchen-content2 {
   display:flex; 
@@ -1475,7 +1484,7 @@ input {
   margin-bottom: 20px;
 }
 .bathroom202 img {
-  aspect-ratio: 3/5;
+  aspect-ratio: 15/16;
   object-fit: cover;
   margin-bottom: 5px;
 }
@@ -1506,7 +1515,7 @@ input {
   width: 100%;
 }
 .bathroom401 img {
-  aspect-ratio: 27/32;
+  aspect-ratio: 15/16;
   object-fit: cover;
   margin-bottom: 5px;
 }
@@ -1527,8 +1536,9 @@ input {
   margin-bottom: 20px;
 }
 .lavatory202 img {
-  aspect-ratio: 3/5;
+  aspect-ratio: 12/16;
   object-fit: cover;
+  object-position: 50% 50%;
   margin-bottom: 5px;
 }
 
@@ -1539,9 +1549,11 @@ input {
 .lavatory-logo {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
-
+.lavatory-logo-top {
+  margin-bottom: calc(9vw - 25px);
+}
 .lavatory-pictures2 {
   width: 100%;
 }
@@ -1550,7 +1562,7 @@ input {
   margin-bottom: 20px;
 }
 .lavatory-pictures2>.small_picture1>.picture1-1 {
-  aspect-ratio: 13/12;
+  aspect-ratio: 14/12;
   object-fit: cover;
   margin-bottom: 5px;
 }
@@ -1622,7 +1634,7 @@ input {
   margin-bottom: 20px;
 }
 
-.other-logo {
+.other-logo-sp {
   width: calc(50% - 5px);
   margin-bottom: 20px;
   margin-left: 0;
@@ -1631,8 +1643,8 @@ input {
   justify-content: flex-end;
 }
 .other-logo-img {
-  width: 80%;
-  margin: 0 auto 10px;
+  width: 77%;
+  margin: 1vw auto 10px;
 }
 .other-picture3, .other-picture4, .other-picture5, .other-picture6, .other-picture7, .other-picture8 {
   width: calc(50% - 5px);
@@ -1644,3 +1656,8 @@ input {
   object-position: 50% 50%;
   margin-bottom: 5px;
 }
+
+.model-text-end {
+  text-align: left;
+}
+

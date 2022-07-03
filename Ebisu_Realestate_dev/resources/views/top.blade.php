@@ -511,9 +511,9 @@
                 <img src="{{ asset('/images/top-themodelroom.svg') }}" alt="THE DESIGN" class="the-logo" style="width:90%;">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
-                    洗練されたミッドセンチュリーの<br>
+                    洗練されたミッドセンチュリーの<br class="sp_hid">
                     家具の似合う高質でシンプルな居住空間。<br>
-                    時代に流されない正統派の<br>
+                    時代に流されない正統派の<br class="sp_hid">
                     上質感が日常を美しく彩ります。
                 </p>
                 <img src="{{ asset('/images/model_photo1.png') }}" alt="DESIGN 写真" class="photo-100">
