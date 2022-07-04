@@ -414,7 +414,6 @@ video {
   margin-top: 50px;
 }
 .the-logo {
-  width:70%;
   display: block;
   margin: 0 auto;
 }
@@ -431,7 +430,7 @@ video {
 .gold_line2 {
   /* border-right: 1px solid #ac9759; */
   border-right: 1px solid #d09a58;
-  margin: 10px 0;
+  margin: 15px 0;
   width:50%;
   height: 50px;
 }
