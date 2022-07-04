@@ -2563,9 +2563,11 @@ td.h-110px {
 .kitchen-content1 {
   display: flex;
   justify-content: space-between;
+  height: 100%;
 }
 .kitchen401 {
   width: calc(50% - 10px);
+  height: 100%;
 }
 .kitchen401 img {
   aspect-ratio: 3/4;
@@ -2577,18 +2579,20 @@ td.h-110px {
   display:flex; 
   flex-wrap:wrap;
   justify-content: space-between;
+  align-content: space-between;
   width: calc(50% - 10px);
   height: 100%;
 }
 .kitchen-content1>.pictures div {
   width: calc(50% - 10px);
-  margin-bottom: 24px;
+  margin-bottom: min(calc(4vw - 24px), 32px);
 }
 .kitchen-content1>.pictures img {
   aspect-ratio: 13/10;
   object-fit: cover;
   margin-bottom: 10px;
 }
+
 .kitchen-logo {
   display: flex;
   flex-direction: column;
@@ -2632,7 +2636,7 @@ td.h-110px {
 }
 .bathroom202 {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: max(calc(66px - 3vw), 24px);
 }
 .bathroom202 img {
   aspect-ratio: 3/5;
@@ -2717,6 +2721,10 @@ td.h-110px {
   justify-content: space-between;
 }
 
+.mb-4-pc {
+  margin-bottom: 4px;
+}
+
 .lavatory-pictures2 {
   width: calc(50% - 10px);
   display: flex;
@@ -2765,10 +2773,12 @@ td.h-110px {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  height: 100%;
 }
 
 .entrance {
   width: calc(50% - 10px);
+  height: 100%;
 }
 .entrance img {
   aspect-ratio: 27/40;

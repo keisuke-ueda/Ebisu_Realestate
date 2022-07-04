@@ -174,7 +174,7 @@
             </div>
             <div>
               <img class="d-block w-100 picture1-2" src="{{ asset('/images/トイレリモコン.png') }}" alt="">
-              <p class="s18 m-0 gold-2">トイレリモコン</p>
+              <p class="s18 mb-4-pc gold-2">トイレリモコン</p>
             </div>
           </div>
           <div class="small_picture2">
@@ -210,17 +210,17 @@
       <div class="storage-content">
         <div class="entrance">
           <img class="d-block w-100" src="{{ asset('/images/玄関.png') }}" alt="">
-          <p class="s14 m-0">玄関</p>
+          <p class="s14" style="margin-bottom:6px;">玄関</p>
         </div>
         <!-- PC表示 -->
         <div class="right sp_hid" style="width:calc(50% - 10px); height:100%;">
-          <div class="w-100" style="margin-bottom:7.5vw;">
-            <img class="d-block mx-auto" src="{{ asset('/images/storage.svg') }}" alt="" style="width:50%; margin-bottom:10px;">
+          <div class="w-100" style="margin-bottom:100px;">
+            <img class="d-block mx-auto" src="{{ asset('/images/storage.svg') }}" alt="" style="width:50%; margin:10px;">
             <p class="s10 m-0 text-center">※掲載の写真は401号室(Cﾀｲﾌﾟ)を2022年6月に撮影したものです｡</p>
           </div>
-          <div class="d-flex justify-content-between align-items-end w-100">
+          <div class="d-flex justify-content-between w-100" style="margin-top:20px;" style="align-items:flex-end;">
             <div class="" style="width:calc(32.6% - 10px);">
-              <div class="w-100" style="margin-bottom:1.8vw;">
+              <div class="w-100" style="margin-bottom: min(calc(4vw - 27px), 29px);">
                 <img class="d-block w-100" src="{{ asset('/images/寝室WIC.jpg') }}" alt="" style="aspect-ratio:17/26; object-fit:cover; margin-bottom:10px;">
                 <p class="s18 m-0 gold-2">寝室WIC</p>
               </div>
