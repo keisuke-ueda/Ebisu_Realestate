@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title',"MODEL ROOM｜【公式】ラ・アトレ恵比寿グランガーデン")
+
 @section('content')
 
 <div class="model-top">

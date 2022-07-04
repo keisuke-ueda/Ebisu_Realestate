@@ -526,9 +526,14 @@ $(function () {
     $('.park_select_btn').addClass('selected')
   })
 
+  timer = setInterval(getNextPicture, 3500);
 
   // MODEL ROOM スライド
   $('.display-picture').on('click', function() {
+
+    // timer = setInterval(getNextPicture, 3500);
+    clearInterval(timer);
+
     var num = $(this).data('num');
     var display_before = ".display" + num;
     if (num == 8) {
@@ -549,10 +554,15 @@ $(function () {
     $('.selected-border').animate({'left': position.left + 5}, 1000);
     $('.selected-border-sp').animate({'left': position.left, 'top': position.top}, 1000);
 
+    timer = setInterval(getNextPicture, 3500);
+
     return false;
   });
 
   $('.selectable-picture').on('click', function() {
+
+    clearInterval(timer);
+
     var current_num = $('.current-display').data('num');
     var display_before = ".display" + current_num;
 
@@ -569,35 +579,10 @@ $(function () {
 
     $('.display-picture-title').text(selected_title);
 
+    timer = setInterval(getNextPicture, 3500);
+
     return false;
   });
-
-  $(window).on('load', function() {
-    setInterval(function(){
-
-      var num = $('.current-display').data('num');
-      var display_before = ".display" + num;
-      if (num == 8) {
-        num = 1;
-      } else {
-        num++;
-      }
-      var display_after = ".display" + num;
-
-      var title = $(display_after).data('title');
-
-      $(display_before).removeClass('current-display');
-      $(display_after).addClass('current-display');
-
-      $('.display-picture-title').text(title);
-
-      var position = $('.selectable' + num).position();
-      $('.selected-border').animate({'left': position.left + 5}, 1000);
-      $('.selected-border-sp').animate({'left': position.left, 'top': position.top}, 1000);
-      return false;
-
-    },3500);
-  })
 
 
   // フォームの入力バリデーション
@@ -817,6 +802,44 @@ $(function () {
 
 });
 
+// $(window).on('load', function() {
+//   // startInterval();
+//   setInterval(getNextPicture,3500);
+// })
+
+// function startInterval() {
+//   setInterval(getNextPicture,3500);
+//   console.log('開始');
+// }
+
+// function stopInterval() {
+//   clearInterval(startInterval);
+//   console.log('停止');
+// }
+
+// MODEL ROOM スライド
+function getNextPicture() {
+  var num = $('.current-display').data('num');
+  var display_before = ".display" + num;
+  if (num == 8) {
+    num = 1;
+  } else {
+    num++;
+  }
+  var display_after = ".display" + num;
+
+  var title = $(display_after).data('title');
+
+  $(display_before).removeClass('current-display');
+  $(display_after).addClass('current-display');
+
+  $('.display-picture-title').text(title);
+
+  var position = $('.selectable' + num).position();
+  $('.selected-border').animate({'left': position.left + 5}, 1000);
+  $('.selected-border-sp').animate({'left': position.left, 'top': position.top}, 1000);
+  return false;
+}
 
 
 /*
@@ -903,3 +926,5 @@ function plus_q5() {
     $('#q5').css('display','block');
   }
 }
+
+
