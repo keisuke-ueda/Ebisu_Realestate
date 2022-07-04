@@ -62,7 +62,7 @@
             <p class="s18 m-0 gold-2">ハンズフリー水栓</p>
           </div>
           <div class="">
-            <img class="d-block w-100" src="{{ asset('/images/oven.png') }}" alt="">
+            <img class="d-block w-100" src="{{ asset('/images/oven.png') }}" alt="" style="object-position: 50% 73%;">
             <p class="s18 m-0 gold-2">多機能オーブンレンジ</p>
           </div>
           <div class="">
@@ -158,7 +158,7 @@
             <p class="s18 m-0 gold-2">洗面人造大理石カウンター天板</p>
           </div>
           <div class="small_picture">
-            <img class="d-block w-100" src="{{ asset('/images/bowl.png') }}" alt="">
+            <img class="d-block w-100" src="{{ asset('/images/bowl.png') }}" alt="" style="object-position:50% 65%;">
             <p class="s18 m-0 gold-2">洗面ボウル</p>
           </div>
         </div>
@@ -194,11 +194,11 @@
             <p class="s14 m-0 model-text-end">洗面室(2)401号室(Cﾀｲﾌﾟ)</p>
           </div>
           <div class="small_picture1 pc_hid">
-            <img class="d-block w-100" src="{{ asset('/images/洗面人造大理石カウンター天板.png') }}" alt="" style="margin-bottom:5px;">
+            <img class="d-block w-100" src="{{ asset('/images/洗面人造大理石カウンター天板.png') }}" alt="" style="margin-bottom:5px; aspect-ratio:4/3; object-fit:cover; object-position: 50% 50%;">
             <p class="s18 m-0 gold-2">洗面人造大理石カウンター天板</p>
           </div>
           <div class="small_picture1 pc_hid">
-            <img class="d-block w-100" src="{{ asset('/images/bowl.png') }}" alt="" style="margin-bottom:5px;">
+            <img class="d-block w-100" src="{{ asset('/images/bowl.png') }}" alt="" style="margin-bottom:5px; aspect-ratio:4/3; object-fit:cover; object-position: 50% 85%;">
             <p class="s18 m-0 gold-2">洗面ボウル</p>
           </div>
         </div>
@@ -284,12 +284,12 @@
           <p class="s10" style="margin-bottom:15px;">※掲載の写真は401号室(Cﾀｲﾌﾟ)､202号室(Dﾀｲﾌﾟ)を<br class="sp_hid"><span class="pc_indent">&nbsp;&nbsp;&nbsp;</span>2022年6月に撮影したものです｡</p>
         </div>
         <div class="other-logo-sp pc_hid">
-          <div style="margin-bottom:calc(8vw - 10px);">
+          <div style="margin-bottom:calc(6vw - 12px);">
             <img class="d-block other-logo-img" src="{{ asset('/images/other.svg') }}" alt="" style="margin-bottom:10px;">
             <p class="s10 m-0" style="">※掲載の写真は401号室(Cﾀｲﾌﾟ)､202号室(Dﾀｲﾌﾟ)を<br class="sp_hid"><span class="pc_indent">&nbsp;&nbsp;&nbsp;</span>2022年6月に撮影したものです｡</p>
           </div>
           <div>
-            <img class="w-100" src="{{ asset('/images/door-stopper.jpg') }}" alt="" style="aspect-ratio: 260/85; object-fit: cover; margin:0 0 5px;">
+            <img class="w-100" src="{{ asset('/images/door-stopper.jpg') }}" alt="" style="aspect-ratio: 13/5; object-fit: cover; object-position: 50% 30%; margin:0 0 5px;">
             <p class="s18 m-0 gold-2">ドアストッパー</p>
           </div>
         </div>
