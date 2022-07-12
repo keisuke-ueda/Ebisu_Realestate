@@ -294,7 +294,7 @@ $(function () {
     } else if (!$('.week2').hasClass('d-none')) {
       $('.week2').addClass('d-none');
       $('.week3').removeClass('d-none');
-    } else if (!$('.week3').hasClass('d-none')) {
+    } else if ($('p').hasClass('week4') && !$('.week3').hasClass('d-none')) {
       $('.week3').addClass('d-none');
       $('.week4').removeClass('d-none');
     } else if ($('p').hasClass('week5') && !$('.week4').hasClass('d-none')) {
@@ -325,7 +325,7 @@ $(function () {
     } else if ($('p').hasClass('week5') && !$('.week5').hasClass('d-none')) {
       $('.week5').addClass('d-none');
       $('.week4').removeClass('d-none');
-    } else if (!$('.week4').hasClass('d-none')) {
+    } else if ($('p').hasClass('week4') && !$('.week4').hasClass('d-none')) {
       $('.week4').addClass('d-none');
       $('.week3').removeClass('d-none');
     } else if (!$('.week3').hasClass('d-none')) {
@@ -531,7 +531,6 @@ $(function () {
   // MODEL ROOM スライド
   $('.display-picture').on('click', function() {
 
-    // timer = setInterval(getNextPicture, 3500);
     clearInterval(timer);
 
     var num = $(this).data('num');
@@ -801,21 +800,6 @@ $(function () {
 	});
 
 });
-
-// $(window).on('load', function() {
-//   // startInterval();
-//   setInterval(getNextPicture,3500);
-// })
-
-// function startInterval() {
-//   setInterval(getNextPicture,3500);
-//   console.log('開始');
-// }
-
-// function stopInterval() {
-//   clearInterval(startInterval);
-//   console.log('停止');
-// }
 
 // MODEL ROOM スライド
 function getNextPicture() {
