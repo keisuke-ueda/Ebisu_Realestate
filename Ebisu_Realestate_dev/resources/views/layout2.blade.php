@@ -80,5 +80,41 @@
     <noscript>
         <iframe src="//b.yjtag.jp/iframe?c=k5EVl6m" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
     </noscript>
+
+    @if (isset($entry_thanks) && $entry_thanks == "true")
+    <!-- Conversion Pixel - ラ・アトレ恵比寿グランガーデン_物件エントリー - DO NOT MODIFY -->
+    <script src='//i.socdm.com/s/so_sg.js?cvid=28502&pb=1' type='text/javascript'></script>
+    <script type="text/javascript">(function(d,u){var b=d.getElementsByTagName("script")[0],j=d.createElement("script");j.async=true;j.src=u;b.parentNode.insertBefore(j,b);})(document,"//img.ak.impact-ad.jp/ut/ee863d4b8d59df22_5034.js");</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-759807502"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-759807502');
+    </script>
+    <script>
+        gtag('event', 'conversion', {'send_to': 'AW-759807502/iJe4CMjE6MwDEI78puoC'});
+    </script>
+    <!-- End of Conversion Pixel -->
+    @endif
+
+    @if (isset($reserve_thanks) && $reserve_thanks == "true")
+    <!-- Conversion Pixel - ラ・アトレ恵比寿グランガーデン_来場予約 - DO NOT MODIFY -->
+    <script src='//i.socdm.com/s/so_sg.js?cvid=28503&pb=1' type='text/javascript'></script>
+    <script type="text/javascript">(function(d,u){var b=d.getElementsByTagName("script")[0],j=d.createElement("script");j.async=true;j.src=u;b.parentNode.insertBefore(j,b);})(document,"//img.ak.impact-ad.jp/ut/ee863d4b8d59df22_5034.js");</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-759807502"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-759807502');
+    </script>
+    <script>
+        gtag('event', 'conversion', {'send_to': 'AW-759807502/5p4PCMvE6MwDEI78puoC'});
+    </script>
+    <!-- End of Conversion Pixel -->
+    @endif
 </body>
 </html>

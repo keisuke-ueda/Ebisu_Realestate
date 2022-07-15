@@ -1711,6 +1711,7 @@ td.h-110px {
 
 .entry_complete_msg {
   margin: 50px 0 calc(100vh - 600px); 
+  margin-bottom: max(50px, calc(100vh - 600px));
 }
 
 
