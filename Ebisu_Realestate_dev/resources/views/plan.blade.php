@@ -99,9 +99,13 @@
 </div>
 
 <div class="plan_area2">
-  <a href="/plan_c"><img class="animation-1-zm" src="{{ asset('/images/PLAN-btn1.png') }}" alt=""></a>
-  <a href="/plan_d"><img class="animation-1-zm" src="{{ asset('/images/PLAN-btn2.png') }}" alt=""></a>
+  <a href="/plan_c"><img class="animation-1-zm w-100" src="{{ asset('/images/PLAN-btn1.png') }}" alt=""></a>
+  <a href="/plan_d"><img class="animation-1-zm w-100" src="{{ asset('/images/PLAN-btn2.png') }}" alt=""></a>
 </div>
+<div class="plan_area3">
+  <a href="https://my.matterport.com/show/?m=wL8dZu3ZpbE&lang=jp" target="_blank"><img class="animation-1-zm w-100" src="{{ asset('/images/banner_3d.jpg') }}" alt=""></a>
+</div>
+
 
 
 

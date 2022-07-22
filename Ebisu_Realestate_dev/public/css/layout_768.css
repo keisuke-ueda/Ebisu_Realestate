@@ -1281,8 +1281,14 @@ input {
   margin: 0 auto 30px;
 }
 
-.plan_area2 img {
-  width: 100%;
+.plan_area3 {
+  padding-bottom: 20px;
+}
+
+.plan_area3 a{
+  display: block;
+  width: calc(100% - 100px);
+  margin: 0 auto 30px;
 }
 
 
@@ -1292,6 +1298,12 @@ input {
   width: calc(100% - 40px);
   margin: 0 auto;
   display: block;
+}
+.banner_3d_detail {
+  width: 100%;
+}
+.banner_3d_detail img {
+  width: 100%;
 }
 .plan_detail_logo {
   width: 100%;

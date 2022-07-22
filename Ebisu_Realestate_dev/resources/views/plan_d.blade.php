@@ -5,6 +5,10 @@
 @section('content')
 
 <div class="plan_detail">
+  <div class="banner_3d_detail">
+    <a href="https://my.matterport.com/show/?m=wL8dZu3ZpbE&lang=jp" target="_blank"><img class="" src="{{ asset('/images/banner_3d.jpg') }}" alt=""></a>
+  </div>
+
   <img class="plan_detail_logo" src="{{ asset('/images/plan_d_logo.png') }}" alt="">
 
   <ul class="plan_detail_text ft2 s14">

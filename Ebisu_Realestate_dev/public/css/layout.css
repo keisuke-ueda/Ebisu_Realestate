@@ -2424,9 +2424,22 @@ td.h-110px {
   padding: 45px 0;
 }
 
-.plan_area2 a{
+.plan_area2 a {
   display: block;
   margin: 0 35px;
+  width: 30%;
+}
+
+.plan_area3 {
+  background-color: #000;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 0 45px;
+}
+.plan_area3 a {
+  display: block;
+  width: 30%;
+  margin-right: calc(20% - 35px);
 }
 
 .plan_detail {
@@ -2437,6 +2450,13 @@ td.h-110px {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+}
+.banner_3d_detail {
+  width: 100%;
+  margin-bottom: 35px;
+}
+.banner_3d_detail img {
+  width: 40%;
 }
 .plan_detail_logo {
   width: 53%;
