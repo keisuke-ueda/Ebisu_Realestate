@@ -414,7 +414,6 @@ video {
   margin-top: 50px;
 }
 .the-logo {
-  width:70%;
   display: block;
   margin: 0 auto;
 }
@@ -431,7 +430,7 @@ video {
 .gold_line2 {
   /* border-right: 1px solid #ac9759; */
   border-right: 1px solid #d09a58;
-  margin: 10px 0;
+  margin: 15px 0;
   width:50%;
   height: 50px;
 }
@@ -1282,8 +1281,14 @@ input {
   margin: 0 auto 30px;
 }
 
-.plan_area2 img {
-  width: 100%;
+.plan_area3 {
+  padding-bottom: 20px;
+}
+
+.plan_area3 a{
+  display: block;
+  width: calc(100% - 100px);
+  margin: 0 auto 30px;
 }
 
 
@@ -1293,6 +1298,12 @@ input {
   width: calc(100% - 40px);
   margin: 0 auto;
   display: block;
+}
+.banner_3d_detail {
+  width: 100%;
+}
+.banner_3d_detail img {
+  width: 100%;
 }
 .plan_detail_logo {
   width: 100%;
@@ -1540,6 +1551,9 @@ input {
   object-fit: cover;
   object-position: 50% 50%;
   margin-bottom: 5px;
+}
+.mb-4-pc {
+  margin-bottom: 0px;
 }
 
 .lavatory-pictures1>.small_picture {

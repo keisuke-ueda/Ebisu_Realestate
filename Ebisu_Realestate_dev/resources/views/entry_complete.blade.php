@@ -5,6 +5,7 @@
 @section('title',"物件エントリー｜【公式】ラ・アトレ恵比寿グランガーデン")
 
 @section('content')
+<?php $entry_thanks = "true"; ?>
 
 <div class="" id="entry" style="">
   <h1 class="p-title gold-title-3 center-block text-center m-none ft4 s24">PROPERTY ENTRY</h1>

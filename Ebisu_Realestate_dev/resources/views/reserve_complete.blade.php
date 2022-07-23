@@ -5,6 +5,7 @@
 @section('title',"来場予約｜【公式】ラ・アトレ恵比寿グランガーデン")
 
 @section('content')
+<?php $reserve_thanks = "true"; ?>
 
 <div class="" id="entry" style="">
 <h1 class="p-title gold-title-4 center-block text-center m-none s24 reserve-title">来場予約</h1>

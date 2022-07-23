@@ -415,7 +415,7 @@
         <div class="read_more_area2 ft2">
             <!-- EBISU -->
             <div class="read_more_link2">
-                <img src="{{ asset('/images/theebisu.svg') }}" alt="THE EBISU" class="the-logo">
+                <img src="{{ asset('/images/theebisu.svg') }}" alt="THE EBISU" class="the-logo" style="width:65%;">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
                     恵比寿、それも｢恵比寿ガーデンプレイス｣<br>
@@ -432,7 +432,7 @@
 
             <!-- LOCATION -->
             <div class="read_more_link2">
-                <img src="{{ asset('/images/thelocation.svg') }}" alt="THE LOCATION" class="the-logo">
+                <img src="{{ asset('/images/thelocation.svg') }}" alt="THE LOCATION" class="the-logo" style="width:70%;">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
                     洗練と成熟に抱かれた街、恵比寿。<br>
@@ -456,7 +456,7 @@
 
             <!-- ACCESS -->
             <div class="read_more_link2">
-                <img src="{{ asset('/images/theaccess.svg') }}" alt="THE ACCESS" class="the-logo">
+                <img src="{{ asset('/images/theaccess.svg') }}" alt="THE ACCESS" class="the-logo" style="width:70%;">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
                     都心をもっと近くする、スピーディーなアクセス。<br>
@@ -472,7 +472,7 @@
 
             <!-- DESIGN -->
             <div class="read_more_link2">
-                <img src="{{ asset('/images/thedesign.svg') }}" alt="THE DESIGN" class="the-logo">
+                <img src="{{ asset('/images/thedesign.svg') }}" alt="THE DESIGN" class="the-logo" style="width:65%;">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
                     常緑樹の深い緑も豊かな静謐なる街並み。<br>
@@ -489,7 +489,7 @@
 
             <!-- PLAN -->
             <div class="read_more_link2">
-                <img src="{{ asset('/images/theplan.svg') }}" alt="THE PLAN" class="the-logo">
+                <img src="{{ asset('/images/theplan.svg') }}" alt="THE PLAN" class="the-logo" style="width:50%;">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
                     桜のシンボルツリーに護られたエントランスアプローチを進むと、<br>
@@ -508,7 +508,7 @@
 
             <!-- MODEL ROOM -->
             <div class="read_more_link2">
-                <img src="{{ asset('/images/top-themodelroom.svg') }}" alt="THE DESIGN" class="the-logo" style="width:90%;">
+                <img src="{{ asset('/images/top-themodelroom-sp.svg') }}" alt="THE DESIGN" class="the-logo" style="width:95%;">
                 <div class="gold_line2"></div>
                 <p class="text-center s10" style="">
                     洗練されたミッドセンチュリーの<br class="sp_hid">

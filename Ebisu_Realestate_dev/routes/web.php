@@ -88,13 +88,10 @@ Route::post('/entry_complete', [EntryController::class, 'send']);
 
 
 
-//後で消す(表示確認用ルート)
-// Route::view('/questionnaire2', 'questionnaire_confirm');
-// Route::view('/complete', 'questionnaire_complete2');
-
-// Route::view('/entry_mail', 'entry_mail');
+// 表示確認用ルート
 Route::view('/questionnaire2', 'questionnaire_complete');
 Route::view('/entry2', 'entry_complete');
+Route::view('/reserve2', 'reserve_complete');
 
 
 // 来場予約
