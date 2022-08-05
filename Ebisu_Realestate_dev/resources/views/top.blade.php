@@ -289,21 +289,21 @@
                     <div class="location_pic_pair1">
                         <div class="location_pic">
                             <p class="ft2 s12" style="">｢恵比寿ガーデンプレイス｣(約260m・徒歩 4分)</p>
-                            <img src="{{ asset('/images/ebisupage_恵比寿ガーデンプレイス.png') }}" alt="サンプル画像" class="animation-0-zm">
+                            <img src="{{ asset('/images/ebisugardenplace.png') }}" alt="サンプル画像" class="animation-0-zm">
                         </div>
                         <div class="location_pic bottom_pic">
                             <p class="ft2 s12">｢アメリカ橋公園｣(約460m・徒歩 6分)</p>
-                            <img src="{{ asset('/images/アメリカ橋公園.jpg') }}" alt="サンプル画像"  class="animation-0-zm">
+                            <img src="{{ asset('/images/amerikabashikoen.jpg') }}" alt="サンプル画像"  class="animation-0-zm">
                         </div>
                     </div>
                     <div class="location_pic_pair2">
                         <div class="location_pic">
                             <p class="ft2 s12">｢ウェスティンホテル東京｣(約300m・徒歩 4分)</p>
-                            <img src="{{ asset('/images/ebisupage_ウエスティンホテル.png') }}" alt="サンプル画像" class="animation-1-zm">
+                            <img src="{{ asset('/images/westinhoteltokyo.png') }}" alt="サンプル画像" class="animation-1-zm">
                         </div>
                         <div class="location_pic bottom_pic">
                             <p class="ft2 s12">｢国立科学博物館附属 自然教育園｣(約1000m・徒歩 13分)</p>
-                            <img src="{{ asset('/images/ebisupage_国立博物館付属自然教育園.png') }}" alt="サンプル画像"  class="animation-1-zm">
+                            <img src="{{ asset('/images/shizenkyoikuen.png') }}" alt="サンプル画像"  class="animation-1-zm">
                         </div>
                     </div>
                 </div>
@@ -358,7 +358,7 @@
             <div class="read_more_link">
                 <div class="picture_side animation-0-zm flex-column" style="padding-left:45px;">
                     <div class="plan_pics">
-                        <img class="plan_pic1" src="{{ asset('/images/plan_pic1.jpg') }}" alt="サンプル画像">
+                        <img class="plan_pic1" src="{{ asset('/images/plan_pic1.jpeg') }}" alt="サンプル画像">
                         <img class="plan_pic2" src="{{ asset('/images/plan_pic2.jpg') }}" alt="サンプル画像">
                         <img class="plan_pic3" src="{{ asset('/images/plan_pic3.jpg') }}" alt="サンプル画像">
                         <img class="plan_pic4" src="{{ asset('/images/plan_pic4.jpg') }}" alt="サンプル画像">
@@ -441,13 +441,13 @@
                     建築の美しいモダン邸宅と街並みの美しい潤いが、<br>
                     ココに暮らす人々の姿さえも、この地の美しい風景となる。
                 </p>
-                <img src="{{ asset('/images/ebisupage_恵比寿ガーデンプレイス.png') }}" alt="LOCATION 写真" class="photo-90">
+                <img src="{{ asset('/images/ebisugardenplace.png') }}" alt="LOCATION 写真" class="photo-90">
                 <p class="s9 text-end mx-auto" style="width:90%;">｢恵比寿ガーデンプレイス｣ (約260m・徒歩4分)</p>
-                <img src="{{ asset('/images/ebisupage_ウエスティンホテル.png') }}" alt="LOCATION 写真" class="photo-90">
+                <img src="{{ asset('/images/westinhoteltokyo.png') }}" alt="LOCATION 写真" class="photo-90">
                 <p class="s9 text-end mx-auto" style="width:90%;">｢ウェスティンホテル東京｣ (約300m・徒歩4分)</p>
-                <img src="{{ asset('/images/アメリカ橋公園.jpg') }}" alt="LOCATION 写真" class="photo-90">
+                <img src="{{ asset('/images/amerikabashikoen.jpg') }}" alt="LOCATION 写真" class="photo-90">
                 <p class="s9 text-end mx-auto" style="width:90%;">｢アメリカ橋公園｣(約460m・徒歩6分)</p>
-                <img src="{{ asset('/images/ebisupage_国立博物館付属自然教育園.png') }}" alt="LOCATION 写真" class="photo-90">
+                <img src="{{ asset('/images/shizenkyoikuen.png') }}" alt="LOCATION 写真" class="photo-90">
                 <p class="s9 text-end mx-auto" style="width:90%;">｢国立科学博物館附属 自然教育園｣ (約1000m・徒歩13分)</p>
                 <button class="gold_btn read_more" type="button">
                     <a href="/location" class="text-white mh-parts ft2" style="">Read More</a>
@@ -498,7 +498,7 @@
                     さらに上階はホテルライクな内廊下仕様。プライバシーの確保と<br>
                     外光も入るボイドが特別な上質感を創出します。
                 </p>
-                <img src="{{ asset('/images/plan_pic1.jpg') }}" alt="PLAN 写真" class="photo-100 mb-3">
+                <img src="{{ asset('/images/plan_pic1.jpeg') }}" alt="PLAN 写真" class="photo-100 mb-3">
                 <img src="{{ asset('/images/plan_pic2.jpg') }}" alt="PLAN 写真" class="photo-100">
                 <p class="s10 text-end mt-1 ft2">（令和4年3月撮影）</p>
                 <button class="gold_btn read_more" type="button">
